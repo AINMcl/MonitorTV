@@ -1,0 +1,489 @@
+body{
+margin: 0;
+background-color: #000000;
+font-family: Assistant;
+text-align: justify;
+}
+h1{
+margin: 10px;
+background-color: #0066F9;
+font-family: Assistant;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+section#Pantallas1{
+  display: inline-block;
+  margin: 0px;
+  width: 1280px;
+  height: 360px;
+  padding: 0px;   
+  background-color: #000000;
+  font-family: Assistant;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+section#Pantallas2{
+  display: inline-block;
+  margin: 0px;
+  width: 1280px;
+  height: 239px;
+  padding: 0px;   
+  background-color: #000000;
+  font-family: Assistant;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+.CajaBotones {
+  width: 100%;
+  margin: 0px;
+  background-color: #FF0000;
+  font-family: Assistant;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.Boton{
+  background-color: #FF0000;
+  display: inline-block;
+  margin: 0px;
+  width: 100px;
+  height: 23px;
+  padding: 0px;
+  font-family: Assistant;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.Boton:hover{
+  background:#03166b;
+  color:#fff}
+
+.CajaTitulos{
+  margin: 0px;
+  width: 150px;
+  border-radius: 4px;
+  background:rgba(0, 0, 0, 0);
+  font-family: Assistant;
+  font-weight: bold;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0px;
+  top: 220px;
+  cursor:
+  pointer;
+  transition:all .4s;
+}
+
+.CajaTitulos:hover{
+  color:#fff;
+  background: rgba(221, 0, 0, 100);
+}
+
+
+.CajaTitulosLargo{
+  margin: 0px;
+  width: 200px;
+  border-radius: 4px;
+  background:rgba(0, 0, 0, 0);
+  font-family: Assistant;
+  font-weight: bold;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0px;
+  top: 220px;
+  cursor:
+  pointer;
+  transition:all .4s;
+}
+
+.CajaTitulosLargo:hover{
+  color:#fff;
+  background: rgba(221, 0, 0, 100);
+}
+
+.Titulo_Señal{
+  display: inline-block;
+  margin: 0px;
+  width: 150px;
+  height: 20px;
+  padding: 0px;   
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.3);
+  font-family: Assistant;
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.CajaTitulosInferior_Monitor2{
+  margin: 0px;
+  width: 100px;
+  border-radius: 3px;
+  background:rgba(0, 0, 0, 0);
+  font-family: Assistant;
+  font-weight: bold;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0px;
+  top: 220px;
+  cursor:
+  pointer;
+  transition:all .4s;
+}
+
+.CajaTitulosInferior_Monitor2:hover{
+  color:#fff;
+  background: rgba(221, 0, 0, 100);
+}
+
+
+
+
+.Titulo_Señal_Inferior_Monitor2{
+  display: inline-block;
+  margin: 0px;
+  width: 100px;
+  height: 15px;
+  padding: 0px;   
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: x-small;
+  font-family: Assistant;
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+
+.Titulo_Señal_Largo{
+  display: inline-block;
+  margin: 0px;
+  width: 200px;
+  height: 20px;
+  padding: 0px;   
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.3);
+  font-family: Assistant;
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+
+section#Relojes{
+  display: inline-block;
+  margin: 0px;
+  width: 100%;
+  height: 90px;
+  padding: 0px;
+  background-color: #000000;
+  font-family: Assistant;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+
+.Div_Pantalla_Pequeña_Inferior{
+  width: 239px;
+  height: 33%;
+}
+
+
+
+.CajaTitulosSinSeñal{
+  margin: 0px;
+  width: 100px;
+  border-radius: 4px;
+  background:rgba(255, 0, 0, 100);
+  font-family: Assistant;
+  font-weight: bold;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0px;
+  top: 220px;
+  cursor:
+  pointer;
+  transition:all .4s;
+}
+
+.CajaTitulosSinSeñal:hover{
+  color:#fff;
+  background: rgba(255, 255, 255, 100);
+}
+
+.Titulo_Sin_Señal{
+  display: inline-block;
+  margin: 0px;
+  width: 100px;
+  height: 20px;
+  padding: 0px;   
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.3);
+  font-family: Assistant;
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+/*--------PAGINA INDEX--------*/
+
+
+
+section#FondoImagenHome{
+  display: inline-block;
+  margin: 0px;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+
+}
+
+.BotonHome{
+  background-color: #FF0000;
+  display: inline-block;
+  margin: 20px;
+  width: 250px;
+  height: 50px;
+  padding: 0px;
+  font-family: Assistant;
+  font-size: x-large;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .7s
+}
+
+.BotonHome:hover{
+  background:#1E1EF0;
+  color:#fff}
+
+
+.BotonEspecial_1{
+  display: inline-block;
+  margin: 20px;
+  width: 1140px;
+  height: 50px;
+  padding: 0px;
+  background-color: #0097FF;
+  font-family: Assistant;
+  font-size: xx-large;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .7s
+}
+
+.BotonEspecial_1:hover{
+  background:#012251;
+  color:#fff}
+
+.BOTON_Monitor2{
+  background-color: #000000;
+  display: inline-block;
+  margin: 0px;
+  width: 100px;
+  height: 15px;
+  padding: 0px;
+  border-radius: 3px;
+  font-size: x-small;
+  font-family: Assistant;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .4s
+}
+
+.BOTON_Monitor2:hover{
+  background:#FF0000;
+  color:#fff}
+
+
+  .BOTON_Monitor3{
+    background-color: #000000;
+    display: inline-block;
+    margin: 0px;
+    width: 70px;
+    height: 15px;
+    padding: 0px;
+    border-radius: 0px;
+    font-size: x-small;
+    font-family: Assistant;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    cursor:
+    pointer;
+    transition:all .4s
+  }
+  
+  .BOTON_Monitor3:hover{
+    background:#FF0000;
+    color:#fff}
+
+
+    .CajaMenuChile2{
+      margin: 0px;
+      width: 70px;
+      border-radius: 0px;
+      background:rgba(0, 0, 0, 0);
+      font-family: Assistant;
+      font-weight: bold;
+      color: #FFFFFF;
+      position: absolute;
+      left: 0px;
+      top: 220px;
+      cursor:
+      pointer;
+      transition:all .4s;
+    }
+    
+    .CajaMenuChile2:hover{
+      color:#fff;
+      background: rgba(221, 0, 0, 100);
+    }
+
+
+.CajaTitulosInferior_Monitor2_BOTON{
+  margin: 0px;
+  width: 100px;
+  border-radius: 3px;
+  background:rgba(0, 0, 0, 0);
+  font-family: Assistant;
+  font-weight: bold;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0px;
+  top: 220px;
+  cursor:
+  pointer;
+  transition:all .4s;
+}
+
+.CajaTitulosInferior_Monitor2_BOTON:hover{
+  color:#fff;
+  background: rgba(221, 0, 0, 100);
+}
+
+
+
+/*--------PAGINA MONITOR GIGANTE MONITOR 2--------*/
+
+
+
+section#PantallasInferior1{
+  display: inline-block;
+  margin: 0px;
+  width: 1280px;
+  height: 180px;
+  padding: 0px;   
+  background-color: #000000;
+  font-family: Assistant;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+section#PantallasInferior2{
+  display: inline-block;
+  margin: 0px;
+  width: 1280px;
+  height: 180px;
+  padding: 0px;   
+  background-color: #000000;
+  font-family: Assistant;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.Div_Pantalla_Pequeña_Inferior_Monitor2{
+  width: 320px;
+  height: 180px;
+}
+
+
+section#RelojesMonitor2{
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;   
+  background-color: #000000;
+  font-family: Assistant;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+
+.CajaRelojes{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+.BotonHome2{
+
+}
+
+.FondoBotonHome{
+  
+}
+
+.TextoInfo1Sismo{
+  background-color: #ffbb00;
+  display: inline-block;
+  margin: 0px;
+  width: 48%;
+  height: 40px;
+  padding: 10px;
+  font-family: Assistant;
+  font-weight: bold;
+  text-align: right;
+  font-size: x-large;
+  color: #FFFFFF;}
+
+
+
+.TextoInfo2Sismo{
+  background-color: #ffbb00;
+  display: inline-block;
+  margin: 0px;
+  width: 48%;
+  height: 40px;
+  padding: 10px;
+  font-family: Assistant;
+  font-weight: bold;
+  text-align: left;
+  font-size: x-large;
+  color: #FFFFFF;}

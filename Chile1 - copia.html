@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title> Monitor 1 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+<link rel="icon" href='imagenes/Icon.png' type="image/png"/>
+
+<link href="css/video-js.css" rel="stylesheet">
+<script src="js/video.js"></script>
+<script src="js/videojs-contrib-hls.js"></script>
+<script src='js/estilosvideojw.js'></script>
+<script>jwplayer.key='Ohx3VSgswSwYyLP9Gm0ADc2CKw16Cnot01CILeRMQ9o=';</script>
+
+</head>
+<body style="background-color: #000000;height: 100%">
+
+	
+
+<section style="position: relative;" id="Pantallas1">
+
+	<!-- PANTALLA 1 -->
+	<div style="float:left;  width: 640px; height: 359px; ">
+		<div id='player1'>MONITOR1</div>
+		<script type='text/javascript'>
+			jwplayer('player1').setup({
+			sources: [{file: 'http://mdstrm.com/live-stream-playlist-v/57d1a22064f5d85712b20dab.m3u8'}],
+			title: '24 Horas',
+			abouttext: '24horas.cl',
+			aboutlink:'https://24horas.cl/',
+     	   	image:'https://fotos.subefotos.com/2e651cc2b4e162f8307f89a4e96b6f57o.png',
+			autostart: 'true'
+			});
+			</script>
+   		 </div>
+	</div>
+
+
+	<!-- PANTALLA 2 -->
+	<div style="float:right;  width: 640px; height: 359px; ">
+		<iframe height="359" width="640" src="http://rudo.video/live/cnn" frameborder="0"></iframe>
+	</div>
+
+
+
+
+	<!-- TITULOS -->
+	<div style="position: absolute; left: 190px; top: 335px;" class="CajaTitulos">
+		<p style="position: center;" class="Titulo_Señal">24 HORAS</p>
+	</div>
+
+
+	<div style="position: absolute; left: 850px; top: 335px;" class="CajaTitulos">
+			<p class="Titulo_Señal">CNN CHILE</p>
+	</div>
+
+</section>
+
+
+
+
+
+<section style="position: relative;" id="Pantallas2">
+	<!-- PANTALLA 1 -->
+	<div id="Div_Pantalla_Pequeña_Inferior" style=" float:left;">
+		<iframe width="426" height="239" src="https://www.youtube.com/embed/aqPIiyPI10c?autoplay=true&mute=true" frameborder="0"></iframe>
+	</div>
+
+	<!-- PANTALLA 2 -->
+	<div id="Div_Pantalla_Pequeña_Inferior" style="float:left;">
+		<iframe width="426" height="239" src="https://www.youtube.com/embed/F719p75ouR0?autoplay=true&mute=true" frameborder="0"></iframe>
+	</div>
+
+	<!-- PANTALLA 3 -->
+	<div id="Div_Pantalla_Pequeña_Inferior" style=" float:left;">
+		<div id='Pantalla4'>Pantalla3</div>
+		<script type='text/javascript'>
+			jwplayer('Pantalla4').setup({
+			sources: [{file: 'http://mdstrm.com/live-stream-playlist-v/53443c472c6e89675103cc4c.m3u8'}],
+			title: '24 Horas',
+			width:'426',
+			height: '239',
+			mute: 'true',
+     	   	image:'https://fotos.subefotos.com/95e8f686aec96f3ac738abe06021c463o.png',
+			autostart: 'true'
+			});
+			</script>
+   		 </div>
+	</div>
+
+
+	<!-- TITULOS -->
+	<div style="position: absolute; left: 130px; top: 215px;" class="CajaTitulos">
+		<p class="Titulo_Señal">T13</p>
+	</div>
+
+	<div style="position: absolute; left: 560px; top: 215px;" class="CajaTitulos">
+			<p class="Titulo_Señal">MEGANOTICIAS</p>
+	</div>
+
+	<div style="position: absolute; left: 1000px; top: 215px;" class="CajaTitulos">
+		<p class="Titulo_Señal">REUTERS</p>
+	</div>
+
+
+	<!-- TITULO DE SIN SEÑAL 
+	<div style="position: absolute; left: 1020px; top: 190px;" class="CajaTitulosSinSeñal">
+		<p class="Titulo_Sin_Señal">SIN SEÑAL</p>
+	</div>-->
+	
+
+</section>
+
+
+
+
+
+
+<section id="Relojes">
+		<iframe width="16.4%" height="90" src="https://reloj-alarma.es/embed/hora/Santiago_CL/CHILE/#theme=1&color=4&ampm=0&showdate=0%22%20frameborder=%220%22%20allowfullscreen" frameborder="0"></iframe>
+		<iframe width="16.4%" height="90" src="https://reloj-alarma.es/embed/hora/London_GB/UTC+-+GMT/#theme=1&ampm=0&showdate=0%22%20frameborder=%220%22%20allowfullscreen" frameborder="0"></iframe>
+		<iframe width="16.4%" height="90" src="https://reloj-alarma.es/embed/hora/ciudad-de-m%C3%A9xico-m%C3%A9xico//BOCA+CHICA,+TEXAS,+EEUU/#theme=1&color=0&ampm=0&showdate=0" frameborder="0"></iframe>
+		<iframe width="16.4%" height="90" src="https://reloj-alarma.es/embed/hora/madrid/ESPANA/#theme=1&color=0&ampm=0&showdate=0" frameborder="0"></iframe>
+		<iframe width="16.4%" height="90" src="https://reloj-alarma.es/embed/hora/New_York_US/WASHINGTON+DC/#theme=1&color=0&ampm=0&showdate=0" frameborder="0"></iframe>
+		<iframe width="16.4%" height="90" src="https://reloj-alarma.es/embed/hora/ciudad-de-méxico-méxico/MEXICO/#theme=1&color=0&ampm=0&showdate=0" frameborder="0"></iframe>
+</section>
+
+<div class="CajaBotones">
+	<a href="Home.html"><span class="Boton">HOME</span></a>
+	<a href="Chile1.html"><span class="Boton">CHILE 1</span></a>
+	<a href="Chile2.html"><span class="Boton">CHILE 2</span></a>
+	<a href="Monitor1.html"><span class="Boton">MONITOR 1</span></a>
+	<a href="Monitor2.html"><span class="Boton">MONITOR 2</span></a>
+	<a href="Argentina.html"><span class="Boton">ARGENTINA</span></a>
+	<a href="Internacional1.html"><span class="Boton">INTER 1</span></a>
+	<a href="Radios.html"><span class="Boton">RADIOS</span></a>
+	<a href="SeñalesTVN24H.html"><span class="Boton">SEÑALES TVN</span></a>
+  </div>
+
+
+
+
+</body>
+</html>

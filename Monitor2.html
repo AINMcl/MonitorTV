@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title> Monitor 1 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+<link rel="icon" href='imagenes/Icon.png' type="image/png"/>
+
+<link href="css/video-js.css" rel="stylesheet">
+<script src="js/video.js"></script>
+<script src="js/videojs-contrib-hls.js"></script>
+
+<script src='js/estilosvideojw.js'></script>
+<script>jwplayer.key='Ohx3VSgswSwYyLP9Gm0ADc2CKw16Cnot01CILeRMQ9o=';</script>
+
+</head>
+<body style="background-color: #000000;height: 100%">
+
+	
+
+<section style="position: relative;" id="Pantallas1">
+
+	<!-- PANTALLA 1 -->
+	<div style="float:left;  width: 640px; height: 359px; ">
+		<div id='player1'>MONITOR1</div>
+		<script type='text/javascript'>
+			jwplayer('player1').setup({
+			sources: [{file: 'http://mdstrm.com/live-stream-playlist-v/57d1a22064f5d85712b20dab.m3u8'}],
+			title: '24 Horas',
+			abouttext: '24horas.cl',
+			aboutlink:'https://24horas.cl/',
+     	   	image:'https://fotos.subefotos.com/2e651cc2b4e162f8307f89a4e96b6f57o.png',
+			autostart: 'true'
+			});
+			</script>
+   		 </div>
+	</div>
+
+
+	<!-- PANTALLA 2 -->
+	<div style="float:right;  width: 640px; height: 359px; ">
+		<iframe height="359" width="640" src="http://rudo.video/live/cnn" frameborder="0"></iframe>
+	</div>
+
+
+
+
+	<!-- TITULOS -->
+	<div style="position: absolute; left: 200px; top: 335px;" class="CajaTitulos">
+		<p style="position: center;" class="Titulo_Señal">24 HORAS</p>
+	</div>
+
+
+	<div style="position: absolute; left: 900px; top: 335px;" class="CajaTitulos">
+			<p class="Titulo_Señal">CNN CHILE</p>
+	</div>
+
+</section>
+
+
+
+<section style="position: relative;" id="PantallasInferior1">
+
+	
+
+	<!-- PANTALLA 1 -->
+	<div style=" float:left;">
+		<iframe height="180" width="320" src="https://www.youtube.com/embed/wHn1_QVoXGM?autoplay=true&mute=true" frameborder="0"></iframe>
+	</div>
+
+	<div style=" float:left;">
+		<iframe height="180" width="320" src="https://www.youtube.com/embed/F719p75ouR0?autoplay=true&mute=true" frameborder="0"></iframe>
+	</div>
+
+	<div style=" float:left;">
+		<iframe height="180" width="320" src="https://www.youtube.com/embed/XXXXXXXXX?autoplay=true&mute=true" frameborder="0"></iframe>
+	</div>
+
+	<div style=" float:left;">
+		<iframe height="180" width="320" src="https://www.youtube.com/embed/dmny0wOF3W8?autoplay=true&mute=true" frameborder="0"></iframe>
+	</div>
+
+	<div style="position: absolute; left: 100px; top: 160px;" class="CajaTitulosInferior_Monitor2">
+		<p class="Titulo_Señal_Inferior_Monitor2">TODO NOTICIAS</p>
+	</div>
+
+
+	<div style="position: absolute; left: 450px; top: 160px;" class="CajaTitulosInferior_Monitor2">
+		<p class="Titulo_Señal_Inferior_Monitor2">MEGANOTICIAS</p>
+	</div>
+
+	<div style="position: absolute; left: 750px; top: 160px;" class="CajaTitulosInferior_Monitor2">
+		<p class="Titulo_Señal_Inferior_Monitor2">MSNBC</p>
+	</div>
+
+	<div style="position: absolute; left: 1070px; top: 160px;" class="CajaTitulosInferior_Monitor2">
+		<p class="Titulo_Señal_Inferior_Monitor2">CNN</p>
+	</div>
+
+
+
+</section>
+
+<section style="position: relative;" id="PantallasInferior2">
+
+	<div style=" float:left;">
+		<iframe height="180" width="320" src="https://www.youtube.com/embed/aqPIiyPI10c?autoplay=true&mute=true" frameborder="0" ></iframe>
+	</div>
+
+	<div style=" float:left;">
+		<div id='Pantalla8'>Pantalla3</div>
+		<script type='text/javascript'>
+			jwplayer('Pantalla8').setup({
+			sources: [{file: 'http://mdstrm.com/live-stream-playlist-v/53443c472c6e89675103cc4c.m3u8'}],
+			title: '24 Horas',
+			width:'320',
+			height: '180',
+			mute: 'true',
+			abouttext: '24horas.cl',
+			aboutlink:'https://24horas.cl/',
+     	   	image:'https://fotos.subefotos.com/2e651cc2b4e162f8307f89a4e96b6f57o.png',
+			autostart: 'true'
+			});
+			</script>
+   		 </div>
+	</div>
+	</div>
+
+	<div style=" float:left;">
+		<div id='Pantalla9'>Pantalla3</div>
+		<script type='text/javascript'>
+			jwplayer('Pantalla9').setup({
+			sources: [{file: 'https://tlmdhd-lh.akamaihd.net/i/tlmd1_1@79627/master.m3u8'}],
+			title: '24 Horas',
+			width:'320',
+			height: '180',
+			mute: 'true',
+			abouttext: '24horas.cl',
+			aboutlink:'https://24horas.cl/',
+     	   	image:'https://fotos.subefotos.com/2e651cc2b4e162f8307f89a4e96b6f57o.png',
+			autostart: 'true'
+			});
+			</script>
+   		 </div>
+	</div>
+
+	
+
+	<div style=" float:left;">
+		<div>
+			<iframe width="150" height="85" src="https://reloj-alarma.es/embed/hora/Santiago_CL/CHILE/#theme=1&color=4&ampm=0&showdate=0%22%20frameborder=%220%22%20allowfullscreen" frameborder="0"></iframe>
+
+			<iframe width="150" height="85" src="https://reloj-alarma.es/embed/hora/London_GB/UTC+-+GMT/#theme=1&ampm=0&showdate=0%22%20frameborder=%220%22%20allowfullscreen" frameborder="0"></iframe>
+		</div>
+
+
+		<div>
+			<iframe width="150" height="85" src="https://reloj-alarma.es/embed/hora/madrid/ESPANA/#theme=1&color=0&ampm=0&showdate=0" frameborder="0"></iframe>
+
+			<iframe width="150" height="85" src="https://reloj-alarma.es/embed/hora/New_York_US/WASHINGTON+DC/#theme=1&color=0&ampm=0&showdate=0" frameborder="0"></iframe>
+		</div>
+	</div>
+
+
+	<!-- TITULOS INFERIOR -->
+	
+
+	
+	<div style="position: absolute; left: 100px; top: 160px;" class="CajaTitulosInferior_Monitor2">
+		<p class="Titulo_Señal_Inferior_Monitor2">T13</p>
+	</div>
+
+
+	<div style="position: absolute; left: 450px; top: 160px;" class="CajaTitulosInferior_Monitor2">
+		<p class="Titulo_Señal_Inferior_Monitor2">REUTERS</p>
+	</div>
+
+	<div style="position: absolute; left: 750px; top: 160px;" class="CajaTitulosInferior_Monitor2">
+		<p class="Titulo_Señal_Inferior_Monitor2">TELEMUNDO</p>
+	</div>
+
+	<div style="position: absolute; left: 1070px; top: 160px;" class="CajaTitulosInferior_Monitor2_BOTON">
+		<a href="Home.html"><span class="BOTON_Monitor2">Ir a Home</span></a>
+	</div>
+
+	
+</section>
+
+</body>
+</html>
