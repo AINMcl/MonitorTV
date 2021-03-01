@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title> Monitor 1 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+<META HTTP-EQUIV="REFRESH" CONTENT="10;URL=Estaciones.html">
+
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+<link rel="icon" href='imagenes/Icon.png' type="image/png"/>
+
+<link href="css/video-js.css" rel="stylesheet">
+<script src="js/video.js"></script>
+<script src="js/videojs-contrib-hls.js"></script>
+<script src='js/estilosvideojw.js'></script>
+<script>jwplayer.key='Ohx3VSgswSwYyLP9Gm0ADc2CKw16Cnot01CILeRMQ9o=';</script>
+
+</head>
+<body >
+
+<section>
+	<div style="position: relative; float:left; width: 100%; height: 360; ">
+		<img height="360" width="100%" 
+		src="https://service.iris.edu/irisws/timeseriesplot/1/query?net=G&sta=COYC&loc=00&cha=BHZ&starttime=currentutcday&showtitle=false&showscale=false&earthunits=false&format=png&width=1920&height=360"
+		frameborder="0"></img>
+		<!--LONGITUD - LATITUD-->
+	</div>
+
+	<div style="position: relative; float:left; width: 100%; height: 360; ">
+		<img height="360" width="100%" 
+		src="https://service.iris.edu/irisws/timeseriesplot/1/query?net=C1&sta=AY02&loc=--&cha=BHZ&starttime=currentutcday&showtitle=false&showscale=false&earthunits=false&format=png&width=1920&height=360"
+		
+		frameborder="0"></img>
+		<!--LONGITUD - LATITUD-->
+	</div>
+
+
+	<div style="position: absolute; left: 25px; top: 330px;" class="CajaTitulos">
+		<p class="Titulo_Señal">COYHAIQUE</p>
+	</div>
+
+	<div style="position: absolute; left: 25px; top: 690px; " class="CajaTitulos">
+		<p class="Titulo_Señal">V. EXPLORADORES</p>
+	</div>
+</section>
+  
+</body>
+</html>
