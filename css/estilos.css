@@ -461,7 +461,7 @@ section#RelojesMonitor2{
 }
 
 .TextoInfo1Sismo{
-  background-color: #ffbb00;
+  background-color: #ff0000;
   display: inline-block;
   margin: 0px;
   width: 48%;
@@ -470,13 +470,13 @@ section#RelojesMonitor2{
   font-family: Assistant;
   font-weight: bold;
   text-align: right;
-  font-size: x-large;
+  font-size: xx-large;
   color: #FFFFFF;}
 
 
 
 .TextoInfo2Sismo{
-  background-color: #ffbb00;
+  background-color: #ff0000;
   display: inline-block;
   margin: 0px;
   width: 48%;
@@ -487,3 +487,20 @@ section#RelojesMonitor2{
   text-align: left;
   font-size: x-large;
   color: #FFFFFF;}
+
+
+
+  .NombreEstacion{
+    display: inline-block;
+    margin: 0px;
+    width: 200px;
+    height: 15px;
+    padding: 5px;   
+    border-radius: 0px;
+    background: rgba(0, 0, 0, 0.4);
+    font-family: Assistant;
+    text-align: right;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+
