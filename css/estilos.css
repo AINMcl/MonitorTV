@@ -504,3 +504,44 @@ section#RelojesMonitor2{
     color: #FFFFFF;
   }
 
+
+
+  .FondoBody{
+    background-color: rgb(0, 0, 0);
+  }
+
+  .VIVO{
+    margin: 0px;
+    background-color: red;
+    font-family: Assistant;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    height: 20px;
+    width: 50px;
+  }
+
+
+  .TEXTO1{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: Assistant;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    height: 20px;
+    width: 765px;
+  }
+
+
+  .TEXTO2{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: Assistant;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    height: 20px;
+    width: 405px;
+  }
+
