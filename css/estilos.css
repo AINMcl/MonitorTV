@@ -521,27 +521,3 @@ section#RelojesMonitor2{
     width: 50px;
   }
 
-
-  .TEXTO1{
-    margin: 0px;
-    background-color: rgb(255, 255, 255);
-    font-family: Assistant;
-    font-weight: bold;
-    text-align: center;
-    color: black;
-    height: 20px;
-    width: 765px;
-  }
-
-
-  .TEXTO2{
-    margin: 0px;
-    background-color: rgb(255, 255, 255);
-    font-family: Assistant;
-    font-weight: bold;
-    text-align: center;
-    color: black;
-    height: 20px;
-    width: 405px;
-  }
-
