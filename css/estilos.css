@@ -573,3 +573,15 @@ section#RelojesMonitor2{
     color: #FFFFFF;
     }
 
+  .TextoInferiorEstacionesChile{
+    margin: 00px;
+    height: 30px;
+    text-align: center;
+    font-size: x-small;
+    font-weight: bold;
+    background-color: #0066F9;
+    font-family: Assistant;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
