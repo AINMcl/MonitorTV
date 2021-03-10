@@ -709,7 +709,6 @@ section#RelojesMonitor2{
 .DivBotonesHome{
   width: 100%;
   height: 600px;
-  overflow:hidden;
             text-align: center;
             margin:auto;
 }
