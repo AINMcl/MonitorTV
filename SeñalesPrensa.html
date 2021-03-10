@@ -27,9 +27,9 @@
 
 	<!-- PANTALLA 1 -->
 	<div style="float:left;  width: 640px; height: 359px; ">
-		<div id='player1'>MONITOR1</div>
+		<div id='MONITOR1'>MONITOR1</div>
 		<script type='text/javascript'>
-			jwplayer('player1').setup({
+			jwplayer('MONITOR1').setup({
 			sources: [{file: 'https://mdstrm.com/live-stream-playlist-v/57d1a22064f5d85712b20dab.m3u8'}],
 			title: '24 Horas',
 			abouttext: '24horas.cl',
@@ -69,31 +69,59 @@
 <section style="position: relative;" id="Pantallas2">
 	<!-- PANTALLA 1 -->
 	<div id="Div_Pantalla_Pequeña_Inferior" style=" float:left;">
-		<iframe width="426" height="239" src="https://www.youtube.com/embed/kZ3ctrOFUoA?autoplay=true&mute=true" frameborder="0"></iframe>
+		<div id='MONITOR2'>MONITOR2</div>
+		<script type='text/javascript'>
+			jwplayer('MONITOR2').setup({
+			sources: [{file: 'https://mdstrm.com/live-stream-playlist-v/5346f5f2c1e6f5810b5b9df0.m3u8'}],
+			title: '24 Horas',
+			width:'426',
+			height: '239',
+			mute: 'true',
+			abouttext: '24horas.cl',
+			aboutlink:'https://24horas.cl/',
+     	   	image:'http://mdstrm.com/live-stream-playlist-v/53443c472c6e89675103cc4c.m3u8',
+			autostart: 'true'
+			});
+			</script>
+   		 </div>
 	</div>
 
 	<!-- PANTALLA 2 -->
 	<div id="Div_Pantalla_Pequeña_Inferior" style="float:left;">
-		<iframe width="426" height="239" src="https://www.youtube.com/embed/hd-umPly5Uo?autoplay=true&mute=true" frameborder="0"></iframe>
+		<div id='MONITOR3'>MONITOR3</div>
+		<script type='text/javascript'>
+			jwplayer('MONITOR3').setup({
+			sources: [{file: 'https://mdstrm.com/live-stream-playlist-v/5346f657c1e6f5810b5b9df3.m3u8'}],
+			title: '24 Horas',
+			width:'426',
+			height: '239',
+			mute: 'true',
+			abouttext: '24horas.cl',
+			aboutlink:'https://24horas.cl/',
+     	   	image:'http://mdstrm.com/live-stream-playlist-v/53443c472c6e89675103cc4c.m3u8',
+			autostart: 'true'
+			});
+			</script>
+   		 </div>
 	</div>
 
 	<!-- PANTALLA 3 -->
 	<div id="Div_Pantalla_Pequeña_Inferior" style=" float:left;">
-		<iframe width="426" height="239" src="https://www.youtube.com/embed/WK7X4xac0AQ?autoplay=true&mute=true" frameborder="0"></iframe>
+		<iframe width="426" height="239" src="http://rudo.video/live/cnnprensa" frameborder="0"></iframe>
 	</div>
 
 
 	<!-- TITULOS -->
 	<div style="position: absolute; left: 130px; top: 215px;" class="CajaTitulos">
-		<p class="Titulo_Señal">T13</p>
+		<p class="Titulo_Señal">SEÑAL 24H</p>
 	</div>
 
 	<div style="position: absolute; left: 560px; top: 215px;" class="CajaTitulos">
-			<p class="Titulo_Señal">MEGANOTICIAS</p>
+			<p class="Titulo_Señal">SEÑAL 24H</p>
 	</div>
 
 	<div style="position: absolute; left: 1000px; top: 215px;" class="CajaTitulos">
-		<p class="Titulo_Señal">PLAZA ITALIA</p>
+		<p class="Titulo_Señal">SEÑAL CNN CHILE</p>
 	</div>
 
 
