@@ -20,7 +20,6 @@ section#Pantallas1{
   height: 360px;
   padding: 0px;   
   background-color: #000000;
-  
   font-weight: bold;
   text-align: center;
   color: #FFFFFF;
@@ -33,7 +32,6 @@ section#Pantallas2{
   height: 239px;
   padding: 0px;   
   background-color: #000000;
-  
   font-weight: bold;
   text-align: center;
   color: #FFFFFF;
@@ -45,9 +43,7 @@ section#Pantallas2{
   margin: 0px;
   height: 23px;
   line-height: 23px;
-  
   background-color: #032eeb;
-  
   font-weight: bold;
   text-align: center;
   color: #FFFFFF;
@@ -61,7 +57,6 @@ section#Pantallas2{
   line-height: 23px;
   font-size: 15px;
   padding: 0px;
-  
   font-weight: bold;
   text-align: center;
   color: #FFFFFF;
@@ -79,7 +74,6 @@ section#Pantallas2{
   width: 150px;
   border-radius: 4px;
   background:rgba(0, 0, 0, 0);
-  
   font-weight: bold;
   color: #FFFFFF;
   position: absolute;
@@ -101,7 +95,6 @@ section#Pantallas2{
   width: 200px;
   border-radius: 4px;
   background:rgba(0, 0, 0, 0);
-  
   font-weight: bold;
   color: #FFFFFF;
   position: absolute;
@@ -125,7 +118,6 @@ section#Pantallas2{
   padding: 0px;   
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.3);
-  
   text-align: center;
   font-weight: bold;
   color: #FFFFFF;
@@ -136,7 +128,6 @@ section#Pantallas2{
   width: 100px;
   border-radius: 3px;
   background:rgba(0, 0, 0, 0);
-  
   font-weight: bold;
   color: #FFFFFF;
   position: absolute;
@@ -164,7 +155,6 @@ section#Pantallas2{
   border-radius: 3px;
   background: rgba(0, 0, 0, 0.3);
   font-size: x-small;
-  
   text-align: center;
   font-weight: bold;
   color: #FFFFFF;
@@ -179,7 +169,6 @@ section#Pantallas2{
   padding: 0px;   
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.3);
-  
   text-align: center;
   font-weight: bold;
   color: #FFFFFF;
@@ -193,7 +182,6 @@ section#Relojes{
   height: 90px;
   padding: 0px;
   background-color: #000000;
-  
   font-weight: bold;
   text-align: center;
   color: #FFFFFF;
@@ -213,7 +201,6 @@ section#Relojes{
   width: 100px;
   border-radius: 4px;
   background:rgba(255, 0, 0, 100);
-  
   font-weight: bold;
   color: #FFFFFF;
   position: absolute;
@@ -237,7 +224,6 @@ section#Relojes{
   padding: 0px;   
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.3);
-  
   text-align: center;
   font-weight: bold;
   color: #FFFFFF;
@@ -264,7 +250,6 @@ section#FondoImagenHome{
   width: 250px;
   height: 50px;
   padding: 0px;
-  
   font-size: x-large;
   border-radius: 10px;
   font-weight: bold;
@@ -289,7 +274,6 @@ section#FondoImagenHome{
   height: 50px;
   padding: 0px;
   background-color: #0097FF;
-  
   font-size: xx-large;
   border-radius: 10px;
   font-weight: bold;
@@ -314,7 +298,6 @@ section#FondoImagenHome{
   padding: 0px;
   border-radius: 3px;
   font-size: x-small;
-  
   font-weight: bold;
   text-align: center;
   color: #FFFFFF;
@@ -337,7 +320,6 @@ section#FondoImagenHome{
     padding: 0px;
     border-radius: 0px;
     font-size: x-small;
-    
     font-weight: bold;
     text-align: center;
     color: #FFFFFF;
@@ -356,7 +338,6 @@ section#FondoImagenHome{
       width: 70px;
       border-radius: 0px;
       background:rgba(0, 0, 0, 0);
-      
       font-weight: bold;
       color: #FFFFFF;
       position: absolute;
@@ -378,7 +359,6 @@ section#FondoImagenHome{
   width: 100px;
   border-radius: 3px;
   background:rgba(0, 0, 0, 0);
-  
   font-weight: bold;
   color: #FFFFFF;
   position: absolute;
@@ -407,7 +387,6 @@ section#PantallasInferior1{
   height: 180px;
   padding: 0px;   
   background-color: #000000;
-  
   font-weight: bold;
   text-align: center;
   color: #FFFFFF;
@@ -420,7 +399,6 @@ section#PantallasInferior2{
   height: 180px;
   padding: 0px;   
   background-color: #000000;
-  
   font-weight: bold;
   text-align: center;
   color: #FFFFFF;
@@ -437,7 +415,6 @@ section#RelojesMonitor2{
   margin: 0px;
   padding: 0px;   
   background-color: #000000;
-  
   font-weight: bold;
   text-align: center;
   color: #FFFFFF;
@@ -468,7 +445,6 @@ section#RelojesMonitor2{
   background-color: rgb(0, 173, 0);
   float: left;
   font-size: 30px;
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -484,7 +460,6 @@ section#RelojesMonitor2{
   background-color: rgb(0, 173, 0);
   float: left;
   font-size: 30px;
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -501,7 +476,6 @@ section#RelojesMonitor2{
   background-color: #eeff00;
   float: left;
   font-size: 30px;
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -517,7 +491,6 @@ section#RelojesMonitor2{
   background-color: #eeff00;
   float: left;
   font-size: 30px;
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -533,7 +506,6 @@ section#RelojesMonitor2{
   background-color: #ff0000;
   float: left;
   font-size: 30px;
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -549,7 +521,6 @@ section#RelojesMonitor2{
   background-color: #ff0000;
   float: left;
   font-size: 30px;
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -568,7 +539,6 @@ section#RelojesMonitor2{
     padding: 5px;   
     border-radius: 0px;
     background: rgba(0, 0, 0, 0.4);
-    
     text-align: right;
     font-weight: bold;
     color: #FFFFFF;
@@ -582,7 +552,6 @@ section#RelojesMonitor2{
     width: 350px;
     height: 15px;
     padding: 5px; 
-    
     font-size: 10PX;
     border-radius: 0px;
     font-weight: bold;
@@ -607,7 +576,6 @@ section#RelojesMonitor2{
   .VIVO{
     margin: 0px;
     background-color: red;
-    
     font-weight: bold;
     text-align: center;
     color: white;
@@ -619,7 +587,6 @@ section#RelojesMonitor2{
   .TEXTO1{
     margin: 0px;
     background-color: rgb(255, 255, 255);
-    
     font-weight: bold;
     text-align: center;
     color: black;
@@ -631,7 +598,6 @@ section#RelojesMonitor2{
   .TEXTO2{
     margin: 0px;
     background-color: rgb(255, 255, 255);
-    
     font-weight: bold;
     text-align: center;
     color: black;
@@ -648,7 +614,6 @@ section#RelojesMonitor2{
   font-size: x-large;
   font-weight: bold;
   background-color: #0066F9;
-  
   text-align: center;
   color: #FFFFFF;
 }
@@ -659,7 +624,6 @@ section#RelojesMonitor2{
   margin: 0px;
   width: 100%;
   height: 40px;
-  
   font-size: 25PX;
   border-radius: 0px;
   font-weight: bold;
@@ -684,7 +648,6 @@ section#RelojesMonitor2{
   line-height: 30px;
   font-size: large;
   background-color: #6ba8fd;
-  
   text-align: center;
   color: #FFFFFF;
 }
@@ -698,7 +661,6 @@ section#RelojesMonitor2{
   height: 60px;
   margin: 0px;
   display: flex;
-  
   justify-content: center;
   align-items: center;
   color: #FFFFFF;
@@ -721,7 +683,6 @@ section#RelojesMonitor2{
   height: 50px;
   font-size: 20PX;
   border-radius: 0px;
-  
   font-weight: bold;
   justify-content: center;
   align-items: center;
