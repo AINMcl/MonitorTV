@@ -590,6 +590,7 @@ section#RelojesMonitor2{
   margin: 00px;
   height: 30px;
   text-align: center;
+  line-height: 30px;
   font-size: large;
   background-color: #6ba8fd;
   font-family: Assistant;
