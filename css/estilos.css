@@ -43,6 +43,9 @@ section#Pantallas2{
 .CajaBotones {
   width: 100%;
   margin: 0px;
+  height: 23px;
+  line-height: 23px;
+  
   background-color: #032eeb;
   font-family: Assistant;
   font-weight: bold;
@@ -55,6 +58,8 @@ section#Pantallas2{
   margin: 0px;
   width: 100px;
   height: 23px;
+  line-height: 23px;
+  font-size: 15px;
   padding: 0px;
   font-family: Assistant;
   font-weight: bold;
@@ -456,37 +461,102 @@ section#RelojesMonitor2{
 
 }
 
-.FondoBotonHome{
-  
+.InfoSismo1VERDE{
+  width: 50%;
+  height: 70px;
+  line-height: 70px;
+  background-color: rgb(0, 173, 0);
+  float: left;
+  font-size: 30px;
+  font-family: Assistant;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-weight: bold;
+  line-height: 100px;
 }
 
-.TextoInfo1Sismo{
-  background-color: #ff0000;
-  display: inline-block;
-  margin: 0px;
-  width: 48%;
-  height: 40px;
-  padding: 10px;
+.InfoSismo2VERDE{
+  width: 50%;
+  height: 70px;
+  line-height: 70px;
+  background-color: rgb(0, 173, 0);
+  float: left;
+  font-size: 30px;
   font-family: Assistant;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
   font-weight: bold;
-  text-align: right;
-  font-size: xx-large;
-  color: #FFFFFF;}
+  line-height: 100px;
+}
 
 
-
-.TextoInfo2Sismo{
-  background-color: #ff0000;
-  display: inline-block;
-  margin: 0px;
-  width: 48%;
-  height: 40px;
-  padding: 10px;
+.InfoSismo1AMARILLO{
+  width: 50%;
+  height: 70px;
+  line-height: 70px;
+  background-color: #eeff00;
+  float: left;
+  font-size: 30px;
   font-family: Assistant;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
   font-weight: bold;
-  text-align: left;
-  font-size: x-large;
-  color: #FFFFFF;}
+  line-height: 100px;
+}
+
+.InfoSismo2AMARILLO{
+  width: 50%;
+  height: 70px;
+  line-height: 70px;
+  background-color: #eeff00;
+  float: left;
+  font-size: 30px;
+  font-family: Assistant;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+.InfoSismo1ROJO{
+  width: 50%;
+  height: 70px;
+  line-height: 70px;
+  background-color: #ff0000;
+  float: left;
+  font-size: 30px;
+  font-family: Assistant;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+.InfoSismo2ROJO{
+  width: 50%;
+  height: 70px;
+  line-height: 70px;
+  background-color: #ff0000;
+  float: left;
+  font-size: 30px;
+  font-family: Assistant;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 100px;
+}
 
 
 
