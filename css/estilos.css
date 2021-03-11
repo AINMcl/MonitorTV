@@ -774,6 +774,34 @@ section#RelojesMonitor2{
   color:#fff
 }
 
+.Monitor4{
+  width: 1920px;
+  height: 1080px;
+  background-color: #0097FF;
+}
+
+.Monitor4Pantalla{
+  width: 640px;
+  height: 360px;
+  display:inline-block;
+  float:left;
+  margin: 0px;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+}
+
+.Monitor5Pantalla{
+  width: 1920px;
+  height: 1080px;
+  display:inline-block;
+  float:left;
+  margin: 0px;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 
