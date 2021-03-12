@@ -722,6 +722,29 @@ section#RelojesMonitor2{
   color:#fff
 }
 
+.BotonesHomeROJO{
+  background-color: #f80000;
+  display:inline-table;
+  margin: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: 20PX;
+  border-radius: 0px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .7s
+}
+
+.BotonesHomeROJO:hover{
+  background:#8f0000;
+  color:#fff
+}
+
 
 .TextoBotonHome{
   background-color: red;
