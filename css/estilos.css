@@ -883,6 +883,42 @@ section#RelojesMonitor2{
   color:#fff
 }
 
+.MonitoresFondo{
+  background-color: #000000;
+}
+
+
+.TituloSeñalMonitorNoticias1{
+  background-color: #000000;
+  margin: 0px;
+  width: 80px;
+  height: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 10px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .7s
+}
+
+.TituloSeñalMonitorNoticias1:hover{
+  background:#0017e2;
+  color:#fff
+}
+
+
+.PantallasMonitorNoticias1{
+  display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+
+
 
 
 
