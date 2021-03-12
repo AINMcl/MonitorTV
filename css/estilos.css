@@ -699,7 +699,7 @@ section#RelojesMonitor2{
             margin:auto;
 }
 
-.BotonesHome{
+.BotonesHomeAZUL{
   background-color: #032eeb;
   display:inline-table;
   margin: 10px;
@@ -717,7 +717,7 @@ section#RelojesMonitor2{
   transition:all .7s
 }
 
-.BotonesHome:hover{
+.BotonesHomeAZUL:hover{
   background:#010172;
   color:#fff
 }
@@ -859,6 +859,28 @@ section#RelojesMonitor2{
   background-color: #000000;
   justify-content: center;
   align-items: center;
+}
+
+
+.TituloSeñalMonitor5{
+  background-color: #000000;
+  margin: 10px;
+  width: 150px;
+  height: 20px;
+  font-size: 15px;
+  border-radius: 0px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 20px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .7s
+}
+
+.TituloSeñalMonitor5:hover{
+  background:#0017e2;
+  color:#fff
 }
 
 
