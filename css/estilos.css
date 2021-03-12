@@ -820,6 +820,24 @@ section#RelojesMonitor2{
   align-items: center;
 }
 
+.MonitorTVN{
+  width: 1920px;
+  height: 1080px;
+  background-color: #000000;
+}
+
+
+.MonitorTVNPantalla{
+  width: 1920px;
+  height: 1080px;
+  display:inline-block;
+  float:left;
+  margin: 0px;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 
