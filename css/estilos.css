@@ -41,8 +41,8 @@ section#Pantallas2{
 .CajaBotones {
   width: 100%;
   margin: 0px;
-  height: 23px;
-  line-height: 23px;
+  height: 25px;
+  line-height: 25px;
   background-color: #032eeb;
   font-weight: bold;
   text-align: center;
@@ -53,8 +53,8 @@ section#Pantallas2{
   display: inline-block;
   margin: 0px;
   width: 100px;
-  height: 23px;
-  line-height: 23px;
+  height: 25px;
+  line-height: 25px;
   font-size: 15px;
   padding: 0px;
   font-weight: bold;
@@ -1073,6 +1073,28 @@ section#RelojesMonitor2{
   text-align: center;
   color: white;
 }
+
+.BotonIcono{
+  display: inline-block;
+  margin: 0px;
+  width: 23px;
+  height: 23px;
+  line-height: 23px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonIcono:hover{
+  background:#010172;
+  color:#fff}
+
+
 
 
 
