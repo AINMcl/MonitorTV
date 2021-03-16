@@ -481,6 +481,36 @@ section#RelojesMonitor2{
   line-height: 100px;
 }
 
+.InfoSismo1NARANJO{
+  width: 50%;
+  height: 70px;
+  line-height: 70px;
+  background-color: #ff5e00;
+  float: left;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+.InfoSismo2NARANJO{
+  width: 50%;
+  height: 70px;
+  line-height: 70px;
+  background-color: #ff5e00;
+  float: left;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 100px;
+}
+
 .InfoSismo1ROJO{
   width: 50%;
   height: 70px;
@@ -1093,6 +1123,80 @@ section#RelojesMonitor2{
 .BotonIcono:hover{
   background:#010172;
   color:#fff}
+
+.CuadroInfoSismos{
+  display: inline-block;
+  float: left;
+  width: 100%;
+  height: 120px;
+  
+}
+
+.CuadroMagnitud{
+  display: inline-block;
+  float: left;
+  width: 15%;
+  height: 120px;
+}
+.CuadroMagnitud_Magnitud{
+  background-color: #d25500;
+  width: 100%;
+  height: 75%;
+  line-height: 65%;
+  font-family: 'Assistant', sans-serif;
+  float: left;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+.CuadroMagnitud_Tsunami{
+  background-color: #00cc00;
+  width: 100%;
+  height: 25%;
+  line-height: 25%;
+  font-family: 'Assistant', sans-serif;
+  float: left;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.CuadroDatos{
+  width: 85%;
+  height: 120px;
+  float: left;
+}
+.CuadroDatos_Referencia{
+  background-color: #ff6600;
+  width: 100%;
+  height: 50%;
+  font-family: 'Assistant', sans-serif;
+  float: left;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+.CuadroDatos_Fecha{
+  background-color: #ff6600;
+  width: 100%;
+  height: 50%;
+  font-family: 'Assistant', sans-serif;
+  float: left;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+}
 
 
 
