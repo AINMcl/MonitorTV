@@ -1044,6 +1044,37 @@ section#RelojesMonitor2{
 }
 
 
+.TextoTituloVideoVivoKraoRoviPantallaGrande{
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  width: 20%;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  bottom: 5px;
+  font-family: Assistant;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.TextoTituloVideoVivoKraoRoviPantallaPequeña{
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  width: 20%;
+  height: 15px;
+  line-height: 15px;
+  position: absolute;
+  bottom: 3px;
+  font-family: Assistant;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+
 
 
 
