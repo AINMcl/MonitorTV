@@ -1052,7 +1052,7 @@ section#RelojesMonitor2{
   line-height: 20px;
   position: absolute;
   bottom: 5px;
-  font-family: Assistant;
+  font-family: 'Assistant', sans-serif;
   font-size: 15px;
   font-weight: bold;
   text-align: center;
@@ -1067,7 +1067,7 @@ section#RelojesMonitor2{
   line-height: 15px;
   position: absolute;
   bottom: 3px;
-  font-family: Assistant;
+  font-family: 'Assistant', sans-serif;
   font-size: 10px;
   font-weight: bold;
   text-align: center;
