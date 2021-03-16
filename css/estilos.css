@@ -1199,6 +1199,37 @@ section#RelojesMonitor2{
 }
 
 
+.TextoTituloPantallaGrandeNueva{
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  width: 20%;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  bottom: 5px;
+  font-family: 'Assistant', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.TextoTituloPantallaPequeñaNueva{
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  width: 20%;
+  height: 15px;
+  line-height: 15px;
+  position: absolute;
+  bottom: 3px;
+  font-family: 'Assistant', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+
 
 
 
