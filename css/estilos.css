@@ -1372,15 +1372,6 @@ section#RelojesMonitor2{
   color: white;
 }
 
-.BarraBotonSpacex2{
-  background:rgba(0, 0, 0, 0);
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  position: absolute;
-  top: 5px;
-  text-align: center;
-}
 
 .BotonSpacex2{
   background: rgba(0, 0, 0, 0.5);
@@ -1437,6 +1428,40 @@ section#RelojesMonitor2{
   line-height: 20px;
   position: relative;
   top: 0px;
+}
+
+.BarraMonitorNoticias4{
+  background:rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  top: 5px;
+  text-align: center;
+}
+
+.BotonMonitorNoticias4{
+  background: rgba(0, 0, 0, 0.0);
+  display:inline-table;
+  margin: 0 auto;
+  width: 5%;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 3px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonMonitorNoticias4:hover{
+  background:#0000f1;
+  color:#fff
 }
 
 
