@@ -1465,6 +1465,22 @@ section#RelojesMonitor2{
 }
 
 
+.TextoTituloStreamsChat{
+  background: rgba(0, 0, 0);
+  margin: 0 auto;
+  width: 20%;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 3px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+
 
 
 
