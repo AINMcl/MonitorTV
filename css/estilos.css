@@ -1331,7 +1331,7 @@ section#RelojesMonitor2{
 }
 
 .TextoTituloPantallaPequeñaSpacex{
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   margin: 0 auto;
   width: 20%;
   height: 15px;
@@ -1340,6 +1340,31 @@ section#RelojesMonitor2{
   position: relative;
   font-family: 'Assistant', sans-serif;
   font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.CAJATextoTituloPantallaGrandeSpacex{
+  background: rgb(0, 0, 0, 0.0);
+  margin: 0 auto;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  top: 2%;
+}
+
+.TextoTituloPantallaGrandeSpacex{
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  width: 20%;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 3px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+  font-size: 15px;
   font-weight: bold;
   text-align: center;
   color: white;
@@ -1354,7 +1379,7 @@ section#RelojesMonitor2{
   height: 20px;
   line-height: 20px;
   position: absolute;
-  top: 5px;
+  top: 1%;
 }
 
 .TextoTituloPantallaGrande{
@@ -1370,6 +1395,16 @@ section#RelojesMonitor2{
   font-weight: bold;
   text-align: center;
   color: white;
+}
+
+.BarraBotonSpacex2{
+  background:rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  top: 1%;
+  text-align: center;
 }
 
 
@@ -1478,6 +1513,27 @@ section#RelojesMonitor2{
   font-weight: bold;
   text-align: center;
   color: white;
+}
+
+
+.Spinner{
+  border: 4px solid rgba(0, 0, 0, .1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+
+  animation: spin 1s linear infinite;
+
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
 }
 
 
