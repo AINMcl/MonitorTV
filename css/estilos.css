@@ -1607,6 +1607,59 @@ section#RelojesMonitor2{
 }
 
 
+.Pantalla_Embed_Aadaptable{
+  position: absolute;
+ user-select: auto;
+ width: 50%;
+ height: 50%;
+ float: left;
+ display: inline-block;
+ top: 0px;
+ left: 0px;
+ z-index: 2;
+ transform: translate(0px, 0px);
+ box-sizing: border-box;
+ flex-shrink: 0;
+}
+
+
+.PantallaEmbedAdaptableSuperiorLEFT{
+  position: absolute;
+display: inline-block;
+width: 50%;
+height: 50%;
+top: 0%;
+left: 0%;
+}
+
+.PantallaEmbedAdaptableSuperiorRIGHT{
+  position: absolute;
+display: inline-block;
+width: 50%;
+height: 50%;
+top: 0%;
+right: 0%;
+}
+
+.PantallaEmbedAdaptableInferiorLEFT{
+  position: absolute;
+display: inline-block;
+width: 50%;
+height: 50%;
+top: 50%;
+left: 0%;
+}
+
+.PantallaEmbedAdaptableInferiorRIGHT{
+  position: absolute;
+display: inline-block;
+width: 50%;
+height: 50%;
+top: 50%;
+left: 0%;
+}
+
+
 
 
 
