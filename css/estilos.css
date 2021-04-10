@@ -211,7 +211,7 @@ section#Relojes{
   color: #FFFFFF;
 }
 
-/*--------PAGINA INDEX--------*/
+
 
 
 
@@ -415,10 +415,6 @@ section#RelojesMonitor2{
 
 
 
-
-.BotonHome2{
-
-}
 
 .InfoSismo1VERDE{
   width: 50%;
@@ -1290,35 +1286,7 @@ section#RelojesMonitor2{
 }
 
 
-.TextoTituloPantallaGrandeNueva{
-  background: rgba(0, 0, 0, 0.6);
-  margin: 0 auto;
-  width: 20%;
-  height: 20px;
-  line-height: 20px;
-  position: absolute;
-  bottom: 5px;
-  font-family: 'Assistant', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-}
 
-.TextoTituloPantallaPequeñaNueva{
-  background: rgba(0, 0, 0, 0.6);
-  margin: 0 auto;
-  width: 20%;
-  height: 15px;
-  line-height: 15px;
-  position: absolute;
-  bottom: 3px;
-  font-family: 'Assistant', sans-serif;
-  font-size: 10px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-}
 
 .CAJATextoTituloPantallaPequeñaSpacex{
   background: rgb(0, 0, 0, 0.0);
@@ -1393,6 +1361,36 @@ section#RelojesMonitor2{
   position: relative;
   font-family: 'Assistant', sans-serif;
   font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.TextoTituloPantallaGrandeNueva{
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  width: 20%;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  bottom: 5px;
+  font-family: 'Assistant', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.TextoTituloPantallaPequeñaNueva{
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  width: 20%;
+  height: 15px;
+  line-height: 15px;
+  position: absolute;
+  bottom: 3px;
+  font-family: 'Assistant', sans-serif;
+  font-size: 10px;
   font-weight: bold;
   text-align: center;
   color: white;
@@ -1658,6 +1656,104 @@ height: 50%;
 top: 50%;
 left: 0%;
 }
+
+
+/*--------TITULOS NUEVOS Y CAJAS--------*/
+
+.CAJATituloDePantallaPequeña{
+  background: rgb(0, 0, 0, 0.0);
+  margin: 0 auto;
+  width: 100%;
+  height: 15px;
+  line-height: 15px;
+  position: absolute;
+  top: 5px;
+}
+
+.TEXTOTituloDePantallaPequeña{
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  width: 20%;
+  height: 15px;
+  line-height: 15px;
+  border-radius: 3px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+
+.CAJATituloDePantallaGrande{
+  background: rgb(0, 0, 0, 0.0);
+  margin: 0 auto;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  top: 2%;
+}
+
+.TEXTOTituloDePantallaGrande{
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  width: 20%;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 3px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+/*--------------------------------------------*/
+
+.BARRA_BotonIrAHome{
+  background:rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  bottom: 3px;
+  text-align: center;
+}
+
+.TEXTO_BotonIrAHome{
+  display: inline-block;
+  background-color: #000000;
+  margin: 0px;
+  width: 8%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 11px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+.TEXTO_BotonIrAHome:hover{
+  background:#007ed1;
+  color:#fff
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
