@@ -775,6 +775,29 @@ section#RelojesMonitor2{
   color:#fff
 }
 
+.BotonesHomeVERDE_2{
+  background-color: #1ea88b;
+  display:inline-table;
+  margin: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: 20PX;
+  border-radius: 0px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .7s
+}
+
+.BotonesHomeVERDE_2:hover{
+  background:#016e57;
+  color:#fff
+}
+
 .BotonesHomeNARANJO{
   background-color: #FF6600;
   display:inline-table;
@@ -1668,6 +1691,7 @@ left: 0%;
   line-height: 15px;
   position: absolute;
   top: 5px;
+  text-align: center;
 }
 
 .TEXTOTituloDePantallaPequeña{
@@ -1683,6 +1707,15 @@ left: 0%;
   font-weight: bold;
   text-align: center;
   color: white;
+  cursor:
+  pointer;
+  transition:all .5s;
+  display:inline-table;
+}
+
+.TEXTOTituloDePantallaPequeña:hover{
+  background:#0067dd;
+  color:#fff
 }
 
 
@@ -1694,7 +1727,10 @@ left: 0%;
   line-height: 20px;
   position: absolute;
   top: 2%;
+  text-align: center;
+  
 }
+
 
 .TEXTOTituloDePantallaGrande{
   background: rgba(0, 0, 0, 0.6);
@@ -1709,6 +1745,16 @@ left: 0%;
   font-weight: bold;
   text-align: center;
   color: white;
+  cursor:
+  pointer;
+  transition:all .5s;
+  display:inline-table;
+
+}
+
+.TEXTOTituloDePantallaGrande:hover{
+  background:#0067dd;
+  color:#fff
 }
 
 /*--------------------------------------------*/
@@ -1720,12 +1766,13 @@ left: 0%;
   line-height: 20px;
   position: absolute;
   bottom: 3px;
+  margin: 0 auto;
   text-align: center;
 }
 
 .TEXTO_BotonIrAHome{
   display: inline-block;
-  background-color: #000000;
+  background:rgba(0, 0, 0, 0);
   margin: 0px;
   width: 8%;
   height: 20px;
