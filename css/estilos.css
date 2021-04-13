@@ -1772,12 +1772,12 @@ left: 0%;
 
 .TEXTO_BotonIrAHome{
   display: inline-block;
-  background:rgba(0, 0, 0, 0);
+  background:rgba(0, 0, 0, 0.3);
   margin: 0px;
   width: 8%;
   height: 20px;
   line-height: 20px;
-  font-size: 11px;
+  font-size: 10px;
   padding: 0px;
   font-weight: bold;
   text-align: center;
@@ -1909,7 +1909,7 @@ left: 0%;
 
 .BotonSeleccionarSeñales{
   display: inline-block;
-  background:rgba(0, 0, 0, 0);
+  background:rgba(0, 0, 0, 0.3);
   margin: 0px;
   width: 10%;
   height: 20px;

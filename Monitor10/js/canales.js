@@ -188,7 +188,7 @@ init: function() {
         App.add("T13_MOVIL");
         App.add("AFPTVLIVE");
         App.add("TN");
-        App.add("PRESIDENCIA");
+        App.add("ADNRADIO");
         App.add("RELOJES");
     }
 }
