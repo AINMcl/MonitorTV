@@ -1,0 +1,386 @@
+body {
+    background: #000000;
+}
+
+.navbar {
+    position: relative;
+    padding: 0rem 1rem;
+}
+
+/* Animacion boton canales*/
+.pulsate {
+    color: rgb(16, 173, 201);
+    font-size: 1.5em;
+    animation: pulsate 3s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0.5;
+}
+
+@keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+/* reloj */
+.hora {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    pointer-events: none;
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+
+/* mencion time.is */
+.time-credits {
+    font-size: 12px; 
+    text-align: center; 
+    color: #83c7f7;
+    margin-top: 0rem;
+    margin-bottom: .5rem;
+}
+
+#time_is_link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* selector nº streams */
+label {
+   color: #fff;
+}
+
+/* boton on/off nombres stream*/
+.btn1-nombres-stream {
+    margin-bottom: 1%;
+}
+
+/* slider tamaño streams*/
+.range-slider {
+    width: 100%;
+}
+
+.range-slider__range {
+    -webkit-appearance: none;
+    width: calc(100% - (73px));
+    height: 10px;
+    border-radius: 5px;
+    background: #ac5102;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.range-slider__range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #203e5c;
+    cursor: pointer;
+}
+
+.range-slider__range::-webkit-slider-thumb:hover {
+    background: #6b96c2;
+}
+
+.range-slider__range:active::-webkit-slider-thumb {
+    background: #6b96c2;
+}
+
+.range-slider__range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    border-radius: 50%;
+    background: #203e5c;
+    cursor: pointer;
+}
+
+.range-slider__range::-moz-range-thumb:hover {
+    background: #6b96c2;
+}
+
+.range-slider__range:active::-moz-range-thumb {
+    background: #6b96c2;
+}
+
+/* numero que indica tamaño activo*/
+.range-slider__value {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    background: #203e5c;
+    padding: 5px 10px;
+    margin-left: 8px;
+}
+
+.range-slider__value:after {
+    top: 8px;
+    left: -7px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-right: 7px solid #203e5c;
+    border-bottom: 7px solid transparent;
+    content: "";
+}
+
+::-moz-range-track {
+    background: #1f1f1f;
+    border: 0;
+}
+
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+    border: 0;
+}
+
+/* modal */
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+    text-align: left;
+}
+
+.modal-footer {
+    border-radius: 0px !important;
+    background-color: #424242;
+    flex-wrap: nowrap;
+}
+
+/* interior modal canales */
+.canales-body {
+    text-align:center;
+}
+
+.compartir-body{
+    text-align:center;
+}
+
+/* botones de canales */
+.modal-body button {
+    margin-right: 1em;
+    width: 40%;
+    margin-bottom: 0.4em;
+}
+
+@media(min-width: 800px) {
+    .modal-body button {
+        width: 29%;
+    }
+}
+
+@media(min-width: 1620px) {
+    .modal-body button {
+        width: 25%;
+    }
+}
+
+/* boton copiar enlace*/
+.btn-copiar {
+    margin-right: 1em;
+    border-radius: 5px;
+    width: 50%;
+    margin-bottom: 0.4em;
+}
+
+/* mensaje modal DDHH */
+caption {
+    caption-side: top;
+}
+
+/* barra sobre iframes canales */
+.nombre-barra {
+    position: absolute;
+    bottom: 1px;
+    left: 25%;
+    right: 25%;
+    border-radius: 5px;
+    line-height: 15px;
+    background: black;
+    background: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: auto;
+    text-align: center;
+    pointer-events: none;
+}
+
+.nombre-barra:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* nombre dentro barra iframes */
+.nombre-color {
+    opacity: 0.6;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    pointer-events: visible;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.nombre-color:hover {
+    opacity: 1;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* iconos compartir*/
+.share-items:hover a{
+    text-decoration: none;
+}
+
+.share-item:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook {
+    color: #3c5498;
+}
+
+.fa-twitter {
+    color: #83c7f7;
+}
+
+.fa-whatsapp {
+    color: #33ba48;
+}
+
+.fa-telegram {
+    color: #2aa1d4;
+}
+
+#wsp-web{
+    font-size: 10px;
+}
+
+.fa-envelope-o {
+    color: black;
+}
+
+/* texto tablas modales*/
+td {
+    text-align:left;
+}
+
+/* color enlaces modal compilado videos */
+#enlaces-videos a{
+    color: black;
+}
+
+
+.boton-covid:hover {
+    opacity: 1;
+}
+
+.emojicovid:hover {
+    text-decoration: none;
+}
+
+/* alerta de no javascript */
+.no-js {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 3000;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+/* animacion de fondo cuando noscript esta activo */
+.wave,
+.wave::before,
+.wave::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250vw;
+  height: 250vw;
+  margin-left: -125vw;
+  transform-origin: 50% 50%;
+  background: linear-gradient(to bottom, rgba(102, 32, 41, 0.2), transparent);
+  border-radius: 38% 42%;
+  animation: spin 36s infinite linear;
+}
+
+.wave::before {
+  width: 105%;
+  height: 95%;
+  margin-top: -125vw;
+  transform-origin: 49% 51%;
+  border-radius: 40% 38%;
+  animation: spin 20s infinite linear;
+}
+
+.wave::after {
+  width: 102%;
+  height: 98%;
+  margin-top: -125vw;
+  transform-origin: 51% 49%;
+  border-radius: 48% 42%;
+  animation: spin 40s infinite linear;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Mi intento de responsive (para telefonos...)*/
+@media screen and (max-width: 767px) {
+    .navbar {
+        padding: .5rem 1rem;
+    }
+    .navbar-toggler {
+        padding: 0rem;
+    }
+    .pulsate {
+        font-size: 1.2em;
+    }
+    .hora {
+        font-size: 1.2em;
+    }
+    .time-credits {
+        font-size: .7em; 
+    }
+    .no-js {
+        font-size: 150%;
+    }
+    .nombre-barra {
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        line-height: 12px;
+    }
+    .modal-footer {
+        flex-wrap: wrap;
+    }
+    #mifiltro {   
+        width: 100%;
+    }
+}
+
+
+
