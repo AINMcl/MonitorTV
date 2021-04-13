@@ -12,7 +12,7 @@ var App = {
             'nombre': '24HTVN',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Señal24HTVN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CANAL 24H</div></div></div>'
         },
-        'CNN CHILE': {
+        'CNN_CHILE': {
             'nombre': 'CNN CHILE',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCNNCHILE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN CHILE</div></div></div>'
         },
@@ -181,11 +181,15 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("tv-senado-yutu");
-        App.add("cam-dipu-m3u-1");
-        App.add("cnn-cl-m3u");
-        App.add("t13");
-        App.add("meganoticias"); 
+        App.add("24HTVN");
+        App.add("CNN_CHILE");
+        App.add("REUTERS");
+        App.add("MEGANOTICIAS");
+        App.add("T13_MOVIL");
+        App.add("AFPTVLIVE");
+        App.add("TN");
+        App.add("PRESIDENCIA");
+        App.add("RELOJES");
     }
 }
 };
