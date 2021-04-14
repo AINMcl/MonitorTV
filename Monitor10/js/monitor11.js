@@ -184,7 +184,7 @@ init: function() {
         App.add("24HTVN");
         App.add("CNN_CHILE");
         App.add("REUTERS");
-        App.add("MEGANOTICIAS");
+        App.add("AFPTVLIVE");
     }
 }
 };
