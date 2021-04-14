@@ -1974,6 +1974,11 @@ left: 0%;
   transition:all .5s
 }
 
+.StreamsPorFila:hover{
+  background:#4c8304;
+  color:#fff
+}
+
 
 
 
