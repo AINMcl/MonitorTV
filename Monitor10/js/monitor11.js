@@ -121,6 +121,14 @@ var App = {
             'nombre': 'RELOJES',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Reloj_Pantalla.html" frameborder="0"></iframe></div>'
         },
+        'ISS_SD': {
+            'nombre': 'ISS CAM SD',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Señal_ISS_SD.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">ISS SD</div></div></div>'
+        },
+        'ISS_HD': {
+            'nombre': 'ISS CAM HD',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Señal_ISS_HD.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">ISS HD</div></div></div>'
+        },
     },
     add: function(canal) {
         if (App.channels[canal]) {
