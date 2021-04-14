@@ -25,19 +25,19 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_3.html" frameborder="0"></iframe><div href="../SeñalMEGANOTICIAS.html" class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">SEÑAL 3</div></div></div>'
         },
         'MEGANOTICIAS_1': {
-            'nombre': 'MEGANOTICIAS 1',
+            'nombre': 'Señal Interna MEGANOTICIAS 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">MEGANOTICIAS 1</div></div></div>'
         },
         'MEGANOTICIAS_2': {
-            'nombre': 'MEGANOTICIAS 2',
+            'nombre': 'Señal Interna MEGANOTICIAS 2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">MEGANOTICIAS 2</div></div></div>'
         },
         'MEGANOTICIAS_3': {
-            'nombre': 'MEGANOTICIAS 3',
+            'nombre': 'Señal Interna MEGANOTICIAS 3',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_3.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">MEGANOTICIAS 3</div></div></div>'
         },
         'MEGANOTICIAS_4': {
-            'nombre': 'MEGANOTICIAS 4',
+            'nombre': 'Señal Interna MEGANOTICIAS 4',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_4.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">MEGANOTICIAS 4</div></div></div>'
         },
         '24PLAY': {
@@ -70,7 +70,7 @@ var App = {
         },
         'Señal_Interna_24HTVN_2': {
             'nombre': 'Señal Interna 24HTVN 2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_3.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">SEÑAL 24H 2</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">SEÑAL 24H 2</div></div></div>'
         },
         'Señal_Interna_24HTVN_3': {
             'nombre': 'Señal Interna 24HTVN 3',
