@@ -1979,6 +1979,29 @@ left: 0%;
   color:#fff
 }
 
+.BotonTitulos_ON_OFF{
+  display: inline-block;
+  background:rgba(0, 0, 0, 0.3);
+  margin: 0px;
+  width: 10%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonTitulos_ON_OFF:hover{
+  background:#0159be;
+  color:#fff
+}
+
 
 
 

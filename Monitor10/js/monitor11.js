@@ -22,7 +22,7 @@ var App = {
         },
         'MEGANOTICIAS': {
             'nombre': 'MEGANOTICIAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_3.html" frameborder="0"></iframe><div href="../SeñalMEGANOTICIAS.html" class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">SEÑAL 3</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_3.html" frameborder="0"></iframe><div href="../SeñalMEGANOTICIAS.html" class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">MEGANOTICIAS</div></div></div>'
         },
         'MEGANOTICIAS_1': {
             'nombre': 'Señal Interna MEGANOTICIAS 1',

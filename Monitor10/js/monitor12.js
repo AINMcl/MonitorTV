@@ -21,15 +21,15 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalT13MOVIL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">T13 MOVIL</div></div></div>'
         },
         'MEGANOTICIAS': {
-            'nombre': 'Señal Interna MEGANOTICIAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_3.html" frameborder="0"></iframe><div href="../SeñalMEGANOTICIAS.html" class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SEÑAL 3</div></div></div>'
+            'nombre': 'MEGANOTICIAS',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalMEGANOTICIAS.html" frameborder="0"></iframe><div href="../SeñalMEGANOTICIAS.html" class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">MEGANOTICIAS</div></div></div>'
         },
         'MEGANOTICIAS_1': {
             'nombre': 'Señal Interna MEGANOTICIAS 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">MEGANOTICIAS 1</div></div></div>'
         },
         'MEGANOTICIAS_2': {
-            'nombre': 'MEGANOTICIAS 2',
+            'nombre': 'Señal Interna MEGANOTICIAS 2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">MEGANOTICIAS 2</div></div></div>'
         },
         'MEGANOTICIAS_3': {
@@ -47,6 +47,10 @@ var App = {
         'ADNRADIO': {
             'nombre': 'ADN RADIO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalADNRADIO.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ADN RADIO</div></div></div>'
+        },
+        'TVN': {
+            'nombre': 'TVN',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalTVN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TVN</div></div></div>'
         },
         'TVN_2': {
             'nombre': 'TVN 2',
@@ -152,6 +156,10 @@ var App = {
         'SPACEX_STORM_Twitch': {
             'nombre': 'SPACEX STORM TWITCH',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://player.twitch.tv/?channel=spacexstorm&parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX STORM</div></div></div>'
+        },
+        'tv-senado': {
+            'nombre': '🏛️ TV Senado <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://janus-tv.senado.cl/embed.php" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://tv.senado.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ TV Senado <img src="icons/chile.png"></img></a></div>'
         },
     },
     add: function(canal) {
@@ -267,8 +275,8 @@ anchoStreams.oninput = function (event) {
 /////////////////////////////////////////////////////////
 ///nombre transmisiones on/off https://www.w3schools.com/jquery/jquery_hide_show.asp/////////
 $(document).ready(function(){
-    $(".btn1-nombres-stream").click(function(){
-      $(".nombre-barra").toggle();
-    });
+    $("BotonTitulos_ON_OFF").click(function(){
+        $("TEXTO_BotonIrAHome").toggle();
+      });
   });
 /////////////////////////////////////////////////////////
