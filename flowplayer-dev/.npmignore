@@ -1,0 +1,7 @@
+deps
+features
+test
+Gemfile*
+Makefile
+Rakefile
+.travis.yml

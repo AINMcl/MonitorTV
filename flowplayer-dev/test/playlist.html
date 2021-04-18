@@ -1,0 +1,80 @@
+
+<!doctype html>
+
+<html>
+
+<head>
+   <meta charset="utf-8">
+
+   <title>Basic playlist setup · Standalone demo · Flowplayer</title>
+
+   <!-- optimize mobile versions -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- The "minimalist" skin, "minimalist.css", "functional.css" and "playful.css" are available -->
+   <link rel="stylesheet" href="../dist/skin/skin.css">
+
+   <!-- Minimal styling for this standalone page (can be removed) -->
+   <style>
+   body {
+      font-family: "myriad pro", tahoma, verdana, arial, sans-serif;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+   }
+   #content {
+      margin: 50px auto;
+      max-width: 982px;
+   }
+      </style>
+
+   <!-- Flowplayer depends on jquery -->
+   <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+
+   <!-- Flowplayer-->
+   <script src="../dist/flowplayer.js"></script>
+
+   <script>
+
+flowplayer.conf = {
+  swf: "../dist/flowplayer.swf",
+  // blacktrash.org, flowplayer.dev, localhost
+  key: "$234140469777507, $238892071193566, $158769847315888",
+  rtmpt: false
+};
+</script>
+
+</head>
+
+<body>
+<div id="content">
+
+<div id="basic-playlist"
+   class="flowplayer fp-outlined"
+   data-ratio="0.5625">
+
+   <video>
+   <source type="video/flash"
+           src="http://edge.flowplayer.org/night3.mp4">
+   </video>
+
+   <a class="fp-prev"></a>
+   <a class="fp-next"></a>
+
+   <div class="fp-playlist">
+      <a class="item1" href="http://edge.flowplayer.org/night3.mp4"></a>
+      <a class="item2" href="http://edge.flowplayer.org/night1.mp4"></a>
+      <a class="item3" href="http://edge.flowplayer.org/night5.mp4"></a>
+      <a class="item4" href="http://edge.flowplayer.org/night6.mp4"></a>
+   </div>
+
+</div>
+
+<div id="event-info"></div>
+
+
+</div><!--/end content -->
+</body>
+
+</html>
+

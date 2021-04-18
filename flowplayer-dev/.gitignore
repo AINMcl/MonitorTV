@@ -1,0 +1,8 @@
+dist
+test/movie
+.DS_Store
+*.ipr
+*.iws
+*.iml
+node_modules
+npm-debug.log
