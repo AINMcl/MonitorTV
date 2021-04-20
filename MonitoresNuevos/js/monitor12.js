@@ -118,11 +118,11 @@ var App = {
         },
         'RUPTLY': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img>  RUPTLY',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC5aeU5hk31cLzq_sAExLVWg&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC5aeU5hk31cLzq_sAExLVWg&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RUPTLY</div></div></div>'
         },
         'SPUTNIK': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img>  SPUTNIK',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCI4lx9retCL7_cBmmceEQ8g&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCI4lx9retCL7_cBmmceEQ8g&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPUTNIK</div></div></div>'
         },
         'TELEMUNDO': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img> TELEMUNDO',
@@ -133,37 +133,37 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCRwA1NUcUnwsly35ikGhp0A&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TELEMUNDO</div></div></div>'
         },
         'EURONEWS_ESP': {
-            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img>  EURONEWS ESP',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_EURONEWS.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCyoGb3SMlTlB8CLGVH4c8Rw&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">EURONEWS</div></div></div>'
         },
         'FRANCE24ESP': {
-            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"> FRANCE24 ESP',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCUdOoVWuWmgo1wByzcsyKDQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN ESPAÑOL</div></div></div>'
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_FRANCE24.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCUdOoVWuWmgo1wByzcsyKDQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">FRANCE24</div></div></div>'
         },
         '24HTVE': {
-            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"> 24HTVE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XBSRLazo64Y?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN ESPAÑOL</div></div></div>'
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_24HTVE.svg">',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XBSRLazo64Y?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">24H TVE</div></div></div>'
         },
         'TN': {
-            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_TN.png"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_TN.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalTN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TN</div></div></div>'
         },
         'CNN_ESP1': {
-            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img></img><img style="height: 20px; width:auto:" src="../imagenes/Logo_CNNESP.svg"></img> CNN ESPAÑOL 1',
+            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_CNNESP.svg"></img></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC_lEiu6917IJz03TnntWUaQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN ESPAÑOL</div></div></div>'
         },
         'CNN_ESP2': {
-            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img><img style="height: 20px; width:auto:" src="../imagenes/Logo_CNNESP.svg"></img>  CNN ESPAÑOL 2',
+            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_CNNESP.svg"></img></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fKacUV-8WBo?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN ESPAÑOL</div></div></div>'
         },
         'DWESP': {
-            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"> DW ESPAÑOL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCT4Jg8h03dD0iN3Pb5L0PMA&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN ESPAÑOL</div></div></div>'
+            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_DW.svg"> DW ESPAÑOL',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCT4Jg8h03dD0iN3Pb5L0PMA&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">DW ESPAÑOL</div></div></div>'
         },
         
         'RT_ESP': {
-            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"> RT ESPAÑOL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9DXGrOU5wKQ?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN ESPAÑOL</div></div></div>'
+            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_RT.svg">',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9DXGrOU5wKQ?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RT ESPAÑOL</div></div></div>'
         },
         'RELOJES': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Reloj.png"></img> RELOJES',
@@ -186,7 +186,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Señal_ISS_HD.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ISS HD</div></div></div>'
         },
         'KRAOESP_YouTube': {
-            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img> KRAO ESP',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.svg"></img> KRAO ESP',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCZPR5ypKlxb1W_3RNIfWGKQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RDRONE UY</div></div></div>'
         },
         '321LAUNCH_CAM': {
