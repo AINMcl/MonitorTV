@@ -100,10 +100,6 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_GOB.png"></img> PARQUEMET TERRAZA',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCAMPARQUEMET_TERRAZA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">PARQUEMET TERRAZA</div></div></div>'
         },
-        'TN': {
-            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_TN.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalTN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TN</div></div></div>'
-        },
         'PRESIDENCIA': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_GOB.png"></img> PRESIDENCIA',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalPRESIDENCIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">PRESIDENCIA</div></div></div>'
@@ -111,10 +107,6 @@ var App = {
         'MEDIABANCO': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img> MEDIABANCO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalMEDIABANCO.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">MEDIABANCO</div></div></div>'
-        },
-        'TELEMUNDO': {
-            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img> TELEMUNDO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalTELEMUNDONOTICIAS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TELEMUNDO</div></div></div>'
         },
         'REUTERS': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img> REUTERS',
@@ -132,11 +124,47 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img>  SPUTNIK',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCI4lx9retCL7_cBmmceEQ8g&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX</div></div></div>'
         },
+        'TELEMUNDO': {
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img> TELEMUNDO',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalTELEMUNDONOTICIAS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TELEMUNDO</div></div></div>'
+        },
+        'TELEMUNDO_YT': {
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img> TELEMUNDO',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCRwA1NUcUnwsly35ikGhp0A&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TELEMUNDO</div></div></div>'
+        },
         'EURONEWS_ESP': {
-            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img>  EURONEWS ESPAÑOL',
+            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img>  EURONEWS ESP',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCyoGb3SMlTlB8CLGVH4c8Rw&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">EURONEWS</div></div></div>'
         },
+        'FRANCE24ESP': {
+            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"> FRANCE24 ESP',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCUdOoVWuWmgo1wByzcsyKDQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN ESPAÑOL</div></div></div>'
+        },
+        '24HTVE': {
+            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"> 24HTVE',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XBSRLazo64Y?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN ESPAÑOL</div></div></div>'
+        },
+        'TN': {
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_TN.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalTN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TN</div></div></div>'
+        },
+        'CNN_ESP1': {
+            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img></img><img style="height: 20px; width:auto:" src="../imagenes/Logo_CNNESP.svg"></img> CNN ESPAÑOL 1',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC_lEiu6917IJz03TnntWUaQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN ESPAÑOL</div></div></div>'
+        },
+        'CNN_ESP2': {
+            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img><img style="height: 20px; width:auto:" src="../imagenes/Logo_CNNESP.svg"></img>  CNN ESPAÑOL 2',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fKacUV-8WBo?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN ESPAÑOL</div></div></div>'
+        },
+        'DWESP': {
+            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"> DW ESPAÑOL',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCT4Jg8h03dD0iN3Pb5L0PMA&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN ESPAÑOL</div></div></div>'
+        },
         
+        'RT_ESP': {
+            'nombre': '</img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"> RT ESPAÑOL',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9DXGrOU5wKQ?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN ESPAÑOL</div></div></div>'
+        },
         'RELOJES': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Reloj.png"></img> RELOJES',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Reloj_Pantalla.html" frameborder="0"></iframe></div>'
@@ -267,8 +295,6 @@ init: function() {
     if (!App.isMobile()) {
         App.add("24HTVN");
         App.add("CNN_CHILE");
-        App.add("REUTERS");
-        App.add("AFPTVLIVE");
     }
 }
 };
