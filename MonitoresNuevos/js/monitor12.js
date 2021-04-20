@@ -9,11 +9,11 @@ var App = {
      channels: {
         
         '24HTVN': {
-            'nombre': '24HTVN',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Señal24HTVN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CANAL 24H</div></div></div>'
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_24HTVN2.png"></img> 24HORAS TVN',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Señal24HTVN.html" frameborder="0"></iframe></div><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CANAL 24H</div></div></div>'
         },
         'CNN_CHILE': {
-            'nombre': 'CNN CHILE',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_CNNCHILE.png"></img> CNN CHILE',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCNNCHILE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN CHILE</div></div></div>'
         },
         'T13_MOVIL': {
@@ -21,149 +21,185 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalT13MOVIL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">T13 MOVIL</div></div></div>'
         },
         'MEGANOTICIAS': {
-            'nombre': 'MEGANOTICIAS',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_MEGANOTICIAS.png"></img>MEGANOTICIAS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalMEGANOTICIAS.html" frameborder="0"></iframe><div href="../SeñalMEGANOTICIAS.html" class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">MEGANOTICIAS</div></div></div>'
         },
         'MEGANOTICIAS_1': {
-            'nombre': 'Señal Interna MEGANOTICIAS 1',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_MEGANOTICIAS.png"></img>Señal 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">MEGANOTICIAS 1</div></div></div>'
         },
         'MEGANOTICIAS_2': {
-            'nombre': 'Señal Interna MEGANOTICIAS 2',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_MEGANOTICIAS.png"></img>Señal 2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">MEGANOTICIAS 2</div></div></div>'
         },
         'MEGANOTICIAS_3': {
-            'nombre': 'Señal Interna MEGANOTICIAS 3',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_MEGANOTICIAS.png"></img>Señal 3',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_3.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">MEGANOTICIAS 3</div></div></div>'
         },
         'MEGANOTICIAS_4': {
-            'nombre': 'Señal Interna MEGANOTICIAS 4',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_MEGANOTICIAS.png"></img>Señal 4',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_4.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">MEGANOTICIAS 4</div></div></div>'
         },
         '24PLAY': {
-            'nombre': '24PLAY',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_24HTVN2.png"></img> 24PLAY',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Señal24PLAY.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">24PLAY</div></div></div>'
         },
         'ADNRADIO': {
-            'nombre': 'ADN RADIO',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_ADNRADIO.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalADNRADIO.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ADN RADIO</div></div></div>'
         },
         'LARED': {
-            'nombre': 'LA RED',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_LARED.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalLARED.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">LA RED</div></div></div>'
         },
         'TVN': {
-            'nombre': 'TVN',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_TVN.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalTVN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TVN</div></div></div>'
         },
         'TVN2': {
-            'nombre': 'TVN2',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_TVN2.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalTVN2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TVN2</div></div></div>'
         },
         'MEGA': {
-            'nombre': 'MEGA',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_MEGA.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalMEGA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">MEGA</div></div></div>'
         },
         'CHV': {
-            'nombre': 'CHV',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_CHV.jpg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCHV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CHV</div></div></div>'
         },
         'CANAL 13': {
-            'nombre': 'CANAL 13',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_CANAL13.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCANAL13.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CANAL 13</div></div></div>'
         },
         'Señal_Interna_24HTVN_1': {
-            'nombre': 'Señal Interna 24HTVN 1',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_24HTVN2.png"></img>Señal 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SEÑAL 24H 1</div></div></div>'
         },
         'Señal_Interna_24HTVN_2': {
-            'nombre': 'Señal Interna 24HTVN 2',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_24HTVN2.png"></img> Señal 2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SEÑAL 24H 2</div></div></div>'
         },
         'Señal_Interna_24HTVN_3': {
-            'nombre': 'Señal Interna 24HTVN 3',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_24HTVN2.png"></img> Señal 3',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_3.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SEÑAL 24H 3</div></div></div>'
         },
         'Señal_Interna_24HTVN_4': {
-            'nombre': 'Señal Interna 24HTVN 4',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_24HTVN2.png"></img>Señal 4',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_4.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SEÑAL 24H 4</div></div></div>'
         },
         'Señal_Interna_CNNCHILE_1': {
-            'nombre': 'Señal Interna CNN CHILE 1',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_CNNCHILE.png"></img> Señal 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaCNNCHILE_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SEÑAL CNNCHILE 1</div></div></div>'
         },
-        'NASA_TV_PUBLIC': {
-            'nombre': 'NASA TV PUBLIC',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalNASATVPUBLIC.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">NASA TV PUBLIC</div></div></div>'
+        'PARQUEMET_CUMBRE': {
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_GOB.png"></img> PARQUEMET CUMBRE',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCAMPARQUEMET_CUMBRE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">PARQUEMET CUMBRE</div></div></div>'
         },
-        'NASA_TV_MEDIA': {
-            'nombre': 'NASA TV MEDIA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalNASATVMEDIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">NASA TV MEDIA</div></div></div>'
+        'PARQUEMET_TERRAZA': {
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_GOB.png"></img> PARQUEMET TERRAZA',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCAMPARQUEMET_TERRAZA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">PARQUEMET TERRAZA</div></div></div>'
         },
         'TN': {
-            'nombre': 'TN',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_TN.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalTN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TN</div></div></div>'
         },
         'PRESIDENCIA': {
-            'nombre': 'PRESIDENCIA',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_GOB.png"></img> PRESIDENCIA',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalPRESIDENCIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">PRESIDENCIA</div></div></div>'
         },
         'MEDIABANCO': {
-            'nombre': 'MEDIABANCO',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img> MEDIABANCO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalMEDIABANCO.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">MEDIABANCO</div></div></div>'
         },
         'TELEMUNDO': {
-            'nombre': 'TELEMUNDO',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img> TELEMUNDO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalTELEMUNDONOTICIAS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TELEMUNDO</div></div></div>'
         },
         'REUTERS': {
-            'nombre': 'REUTERS LIVE',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img> REUTERS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalREUTERS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">REUTERS</div></div></div>'
         },
         'AFPTVLIVE': {
-            'nombre': 'AFP TV LIVE',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img> AFP TV LIVE',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalAFPTV_LIVE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">AFP TV LIVE</div></div></div>'
+        },
+        'RUPTLY': {
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img>  RUPTLY',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC5aeU5hk31cLzq_sAExLVWg&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX</div></div></div>'
+        },
+        'SPUTNIK': {
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Antena2.svg"></img><img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img>  SPUTNIK',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCI4lx9retCL7_cBmmceEQ8g&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX</div></div></div>'
         },
         
         'RELOJES': {
-            'nombre': 'RELOJES',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Reloj.png"></img> RELOJES',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Reloj_Pantalla.html" frameborder="0"></iframe></div>'
         },
+        'NASA_TV_PUBLIC': {
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_NASA.png"></img> NASA TV PUBLIC',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalNASATVPUBLIC.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">NASA TV PUBLIC</div></div></div>'
+        },
+        'NASA_TV_MEDIA': {
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_NASA.png"></img> NASA TV MEDIA',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalNASATVMEDIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">NASA TV MEDIA</div></div></div>'
+        },
         'ISS_SD': {
-            'nombre': 'ISS CAM SD',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_NASA.png"></img> ISS CAM SD',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Señal_ISS_SD.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ISS SD</div></div></div>'
         },
         'ISS_HD': {
-            'nombre': 'ISS CAM HD',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_NASA.png"></img> ISS CAM HD',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Señal_ISS_HD.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ISS HD</div></div></div>'
         },
+        'KRAOESP_YouTube': {
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img> KRAO ESP',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCZPR5ypKlxb1W_3RNIfWGKQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RDRONE UY</div></div></div>'
+        },
+        '321LAUNCH_CAM': {
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img> 321LAUNCH CAM',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCUccOGcvTNrJuihXhYsrp7w&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">321LAUNCH CAM</div></div></div>'
+        },
         'SPACEX': {
-            'nombre': 'SPACEX',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img>  SPACEX',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCtI0Hodo5o5dUb67FeUjDeA&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX</div></div></div>'
         },
         'BLUE_ORIGIN': {
-            'nombre': 'BLUE ORIGIN',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img>  BLUE ORIGIN',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCVxTHEKKLxNjGcvVaZindlg&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">BLUE ORIGIN</div></div></div>'
         },
         'RDRONE_UY_YouTube': {
-            'nombre': 'RDRONE UY YT',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img> RDRONE UY YT',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC2BCLTaBqFwyc3CZlkEHg_Q&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RDRONE UY</div></div></div>'
         },
         'SPACEX_STORM_YouTube': {
-            'nombre': 'SPACEX STORM YT',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_YT.png"></img> SPACEX STORM YT',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCxjGXSXK3Ss-mkiZ-wYtjtg&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX STORM</div></div></div>'
         },
         'RDRONE_UY_Twitch': {
-            'nombre': 'RDRONE UY TWITCH',
+            'nombre': '<img style="height: 20px; width:auto;" src="../imagenes/Logo_Twitch.png"></img> RDRONE UY',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://player.twitch.tv/?channel=rdroneuy&parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RDRONE UY</div></div></div>'
         },
+        'RDRONE_UY_Twitch_CHAT': {
+            'nombre': '<img style="height: 20px; width:auto;" src="../imagenes/Logo_Twitch.png"></img> RDRONE UY CHAT',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.twitch.tv/embed/rdroneuy/chat?parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RDRONE UY</div></div></div>'
+        },
         'SPACEX_STORM_Twitch': {
-            'nombre': 'SPACEX STORM TWITCH',
+            'nombre': '<img style="height: 20px; width:auto;" src="../imagenes/Logo_Twitch.png"></img> SPACEX STORM',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://player.twitch.tv/?channel=spacexstorm&parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX STORM</div></div></div>'
         },
-        'tv-senado': {
-            'nombre': '🏛️ TV Senado <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://janus-tv.senado.cl/embed.php" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://tv.senado.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ TV Senado <img src="icons/chile.png"></img></a></div>'
+        'SPACEX_STORM_Twitch_CHAT': {
+            'nombre': '<img style="height: 20px; width:auto;" src="../imagenes/Logo_Twitch.png"></img> SPACEX STORM CHAT',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.twitch.tv/embed/spacexstorm/chat?parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX STORM</div></div></div>'
+        },
+        'COPANO_Twitch': {
+            'nombre': '<img style="height: 20px; width:auto;" src="../imagenes/Logo_Twitch.png"></img> COPANO',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://player.twitch.tv/?channel=copano&parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX STORM</div></div></div>'
+        },
+        'COPANO_Twitch_CHAT': {
+            'nombre': '<img style="height: 20px; width:auto;" src="../imagenes/Logo_Twitch.png"></img> COPANO CHAT',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.twitch.tv/embed/copano/chat?parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX STORM</div></div></div>'
         },
     },
     add: function(canal) {

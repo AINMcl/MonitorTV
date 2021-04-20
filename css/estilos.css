@@ -2002,6 +2002,45 @@ left: 0%;
   color:#fff
 }
 
+.BotonROJO{
+  background-color: red;
+  font-family: 'Assistant', sans-serif;
+  color: white;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonROJO:hover{
+  background:#700000;
+  color:#fff
+}
+
+.BotonAZUL{
+  background-color: rgb(0, 32, 211);
+  font-family: 'Assistant', sans-serif;
+  color: white;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonAZUL:hover{
+  background:#060052;
+  color:#fff
+}
+
+.FondoBLANCO{
+  background-color: rgb(255, 255, 255);
+  font-family: 'Assistant', sans-serif;
+  color: white;
+}
+
+.FondoGRIS{
+  background-color: rgb(114, 114, 114);
+  font-family: 'Assistant', sans-serif;
+  color: white;
+}
 
 
 
