@@ -58,19 +58,19 @@ var App = {
         },
         'Señal_Interna_24HTVN_1': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_24HTVN.svg"></img>SEÑAL 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SEÑAL 24H 1</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">24HORAS 1</div></div></div>'
         },
         'Señal_Interna_24HTVN_2': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_24HTVN.svg"></img> SEÑAL 2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SEÑAL 24H 2</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">24HORAS 2</div></div></div>'
         },
         'Señal_Interna_24HTVN_3': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_24HTVN.svg"></img> SEÑAL 3',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_3.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SEÑAL 24H 3</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_3.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">24HORAS 3</div></div></div>'
         },
         'Señal_Interna_24HTVN_4': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_24HTVN.svg"></img>SEÑAL 4',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_4.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SEÑAL 24H 4</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_4.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">24HORAS 4</div></div></div>'
         },
         'MEGANOTICIAS_1': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_MEGANOTICIAS2.svg"></img>SEÑAL 1',
@@ -102,15 +102,15 @@ var App = {
         },
         'PARQUEMET_CUMBRE': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Camara.svg"></img> PARQUEMET CUMBRE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCAMPARQUEMET_CUMBRE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">PARQUEMET CUMBRE</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCAMPARQUEMET_CUMBRE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CUMBRE</div></div></div>'
         },
         'PARQUEMET_TERRAZA': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Camara.svg"></img> PARQUEMET TERRAZA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCAMPARQUEMET_TERRAZA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">PARQUEMET TERRAZA</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCAMPARQUEMET_TERRAZA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TERRAZA</div></div></div>'
         },
         'PLAZAITALIA_CIMA': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Icono_Camara.svg"></img> PLAZA ITALIA CIMA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">PARQUEMET TERRAZA</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">PLAZA ITALIA</div></div></div>'
         },
         'PRESIDENCIA': {
             'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_GOB.svg"></img> PRESIDENCIA',
