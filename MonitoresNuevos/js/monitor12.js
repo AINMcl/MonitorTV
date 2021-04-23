@@ -49,7 +49,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalMEGA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">MEGA</div></div></div>'
         },
         'CHV': {
-            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_CHV.jpg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="../imagenes/Logo_CHV.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCHV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CHV</div></div></div>'
         },
         'CANAL 13': {
