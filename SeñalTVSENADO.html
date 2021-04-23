@@ -2,12 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<title> Streams TVN </title>
+<title> TELEMUNDO </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 
 <link href="css/estilos.css" rel="stylesheet" type="text/css">
-<link href="https://estaticos.tvn.cl/skins/web-assets/css/main.min.css?v333" rel="stylesheet" type="text/css">
 <link rel="icon" href='imagenes/Icon.png' type="image/png"/>
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,7 +16,7 @@
 <script src="js/video.js"></script>
 <script src="js/videojs-contrib-hls.js"></script>
 <script src='js/estilosvideojw.js'></script>
-<script>jwplayer.key='Ohx3VSgswSwYyLP9Gm0ADc2CKw16Cnot01CILeRMQ9o=';</script>
+<script>jwplayer.key='fpjDq6xZtjNRpxYoVu4nj0jRIZqgVeQSpqiuNYojy3JFZW2B';</script>
 
 
 <!--bootstrap-->
@@ -39,51 +38,28 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
 </head>
 <body>
 
-    <div id="player_envivo111" style="
+    <div style="
 	position: absolute;
 	display: inline-block;
 	width: 100%;
 	height: 100%;
 	top: 0%;
 	right: 0px;
-	"></div>
-		<script src="https://strm.tvn.cl/js/player-1.3.min.js"></script>
-		<script type="text/javascript">
-				var player = 'player_envivo111';
-				var param = {
-					url: 'tvnabierta',
-					html5: true,
-					autostart: true,
-					volume: 100,
-					adsvolume: 100
-				};
-				play(player,param);
-		</script>
+	">
+	<div id='TVSENADO'>TVSENADO</div>
+			<script type='text/javascript'>
+				jwplayer('TVSENADO').setup({
+				sources: [{file: 'http://janus-tv-ply.senado.cl/playlist/stream.m3u8?s=tvsenado-hd'}],
+				title: 'TVSENADO',
+				height: '100%',
+				width: '100%',
+				abouttext: '24horas.cl',
+				aboutlink:'https://24horas.cl/',
+				image:'https://fotos.subefotos.com/2e651cc2b4e162f8307f89a4e96b6f57o.png',
+				autostart: 'true',
+				mute: 'true',
+				});
+			</script>
+	</div>
 </body>
-
-<!-- ID
-	'encoder3F'"encoderF";
-	'encoder3D'"encoderD";
-    'encoder3E'"encoderE"
-	'encoder2W'"encoderX";
-    '24Hplay'"encoderY";
-    'tvchile'"encoder2";
-    'tvnabierta'"encoder6";
-    'eventos'"encoder7";
-    'encoder2A'"encoder8";
-    'encoder2B'"encoder9";
-    'encoder1D'"encoder1";
-    'encoderW24h'"encoderW";
-    'musica'"encoderM";
-    'promociones'"encoderP";
-    'infantil'"encoderI";
-    tvnculto'"encoderC";
-    avances'"encoderA";
-
-    'rtmp://wow1.tvn.cl/envivo/abierta'"encoder6";
-    'rtmp://wow1.tvn.cl/envivo/imagen3'"encoder3";
-    'rtmp://wow1.tvn.cl/envivo/imagen4'"encoder4";
-    'rtmp://wow1.tvn.cl/envivo/imagen5'"encoder5";
-    'rtmp://wow1.tvn.cl/envivo/'"encoder2";
--->
 </html>

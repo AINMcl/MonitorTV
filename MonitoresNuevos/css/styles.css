@@ -164,6 +164,8 @@ input::-moz-focus-outer {
 /* interior modal canales */
 .canales-body {
     text-align:center;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
 }
 
 .compartir-body{
