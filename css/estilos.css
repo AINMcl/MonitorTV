@@ -752,6 +752,29 @@ section#RelojesMonitor2{
   color:#fff
 }
 
+.BotonesHomeAZUL2{
+  background-color: #032eeb;
+  display:inline-table;
+  margin: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: 20PX;
+  border-radius: 0px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .7s
+}
+
+.BotonesHomeAZUL2:hover{
+  background:#010172;
+  color:#fff
+}
+
 .BotonesHomeROJO{
   background-color: #f80000;
   display:inline-table;
@@ -864,6 +887,29 @@ section#RelojesMonitor2{
 
 .BotonesHomeVERDE:hover{
   background:#1a4600;
+  color:#fff
+}
+
+.BotonesHome{
+  background-color: #bbff00;
+  display:inline-table;
+  margin: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: 20PX;
+  border-radius: 0px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .7s
+}
+
+.BotonesHomeAZUL2:hover{
+  background:#010172;
   color:#fff
 }
 

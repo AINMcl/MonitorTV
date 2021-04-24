@@ -1,6 +1,0 @@
-features/**/*.js
-test/**/*.js
-skin/**/*.js
-dist/**/*.js
-deps/**/*.js
-lib/ext/support/embedcode.js
