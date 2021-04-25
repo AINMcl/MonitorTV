@@ -100,6 +100,10 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_ADNRADIO.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalADNRADIO.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ADN RADIO</div></div></div>'
         },
+        'RLN': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_RLN.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIOLASNIEVES.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RADIO LAS NIEVES</div></div></div>'
+        },
         'PARQUEMET_CUMBRE': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img> PARQUEMET CUMBRE',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCAMPARQUEMET_CUMBRE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CUMBRE</div></div></div>'
@@ -246,27 +250,27 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/richjW1jj20?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX</div></div></div>'
         },
         'RDRONE_UY_Twitch': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Logo_Twitch.png"></img> RDRONE UY',
+            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Logo_Twitch.svg"></img> RDRONE UY',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://player.twitch.tv/?channel=rdroneuy&parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RDRONE UY</div></div></div>'
         },
         'RDRONE_UY_Twitch_CHAT': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Logo_Twitch.png"></img> RDRONE UY CHAT',
+            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Logo_Twitch.svg"></img> RDRONE UY CHAT',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.twitch.tv/embed/rdroneuy/chat?parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RDRONE UY</div></div></div>'
         },
         'SPACEX_STORM_Twitch': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Logo_Twitch.png"></img> SPACEX STORM',
+            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Logo_Twitch.svg"></img> SPACEX STORM',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://player.twitch.tv/?channel=spacexstorm&parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX STORM</div></div></div>'
         },
         'SPACEX_STORM_Twitch_CHAT': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Logo_Twitch.png"></img> SPACEX STORM CHAT',
+            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Logo_Twitch.svg"></img> SPACEX STORM CHAT',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.twitch.tv/embed/spacexstorm/chat?parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX STORM</div></div></div>'
         },
         'COPANO_Twitch': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Logo_Twitch.png"></img> COPANO',
+            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Logo_Twitch.svg"></img> COPANO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://player.twitch.tv/?channel=copano&parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX STORM</div></div></div>'
         },
         'COPANO_Twitch_CHAT': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Logo_Twitch.png"></img> COPANO CHAT',
+            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Logo_Twitch.svg"></img> COPANO CHAT',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.twitch.tv/embed/copano/chat?parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX STORM</div></div></div>'
         },
         'KRAOESP_YouTube': {
