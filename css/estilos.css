@@ -2102,11 +2102,11 @@ left: 0%;
 
 
 .BotonBordeVERDE{
-  background-color: #ffffff;
+  background-color: #cfcfcf;
   font-family: 'Assistant', sans-serif;
   font-weight: normal;
   border-color:#28a745;
-  color: rgb(0, 0, 0);
+  color: #000000;
   border-width: 3px;
   text-align: left;
   cursor:
@@ -2115,7 +2115,7 @@ left: 0%;
 }
   
 .BotonBordeVERDE:hover{
-  color:rgb(0, 0, 0);
+  color:rgb(255, 0, 0);
   background-color:#ffffff88;
   border-color:#ff0000
 }
