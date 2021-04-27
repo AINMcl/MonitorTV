@@ -2126,6 +2126,28 @@ left: 0%;
   text-align: center;
   line-height:1.5
 }
+
+.BotonINFO{
+  display: inline-block;
+  background:rgba(0, 0, 0, 0.3);
+  margin: 0px;
+  width: 3%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+.BotonINFO:hover{
+  background:#0099ff;
+  color:rgb(0, 0, 0)
+}
   
 
 
