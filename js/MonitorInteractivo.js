@@ -180,6 +180,14 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TN.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TN</div></div></div>'
         },
+        'CNN': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CNN.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN</div></div></div>'
+        },
+        'BBC': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_BBC.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalBBC.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">BBC</div></div></div>'
+        },
         //'CNN_ESP1': {
         //    'nombre': '</img><img style="height: 20px; width:auto:" src="imagenes/Logo_CNNESPANOL.svg"></img></img>',
         //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC_lEiu6917IJz03TnntWUaQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN ESPAÑOL</div></div></div>'
@@ -200,6 +208,14 @@ var App = {
         'RELOJES': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Reloj.png"></img> RELOJES',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Reloj_Pantalla.html" frameborder="0"></iframe></div>'
+        },
+        'EARLY_EST_DETEC': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_ALOMAX.svg"></img> DETECTOR',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="MonitorEARLY-EST_DETECTOR.html" frameborder="0"></iframe></div>'
+        },
+        'EARLY_EST_SIS': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_ALOMAX.svg"></img> SISMOS',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="MonitorEARLY-EST_SISMOS.html" frameborder="0"></iframe></div>'
         },
         'NASA_TV_PUBLIC': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_NASA.svg"></img> NASA TV PUBLIC',
@@ -237,6 +253,10 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>  ULA',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCnrGPRKAg1PgvuSHrRIl3jg&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ULA</div></div></div>'
         }, 
+        'ARIANESPACE': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>  ARIANESPACE',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCRn9F2D9j-t4A-HgudM7aLQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ARIANESPACE</div></div></div>'
+        },
         'Rocket_Lab': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img> Rocket Lab',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCsWq7LZaizhIi-c-Yo_bcpw&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPACEX</div></div></div>'
@@ -244,6 +264,10 @@ var App = {
         '321LAUNCH_CAM': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img> 321LAUNCH CAM',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCUccOGcvTNrJuihXhYsrp7w&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">321LAUNCH CAM</div></div></div>'
+        }, 
+        'CGTN': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>  CGTN',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCgrNz-aDmcr2uuto8_DL2jg&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CGTN</div></div></div>'
         },
         'RDRONE_UY_YouTube': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img> RDRONE UY',
@@ -436,6 +460,7 @@ init: function() {
         App.add("24HTVN");
         App.add("CNN_CHILE");
         App.add("MEGANOTICIAS");
+
     }
 }
 };
