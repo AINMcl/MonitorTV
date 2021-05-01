@@ -90,7 +90,7 @@ var App = {
         },
         'Señal_Interna_CNNCHILE_1': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CNNCHILE2.svg"></img> SEÑAL 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalInternaCNNCHILE_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SEÑAL CNNCHILE 1</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalInternaCNNCHILE_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNNCHILE 1</div></div></div>'
         },
         'TVN.cl1': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVNCL.svg"></img> 1',
