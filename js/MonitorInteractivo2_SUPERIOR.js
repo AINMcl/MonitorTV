@@ -1,6 +1,6 @@
 
 ///canales/////////////////////////////////////////////////////////
-var size = 4;
+var size = 6;
 
 ///6 = 2 PANTALLAS HORIZONTALMENTE///
 ///3 = 4 PANTALLAS HORIZONTALMENTE///
@@ -117,7 +117,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIOLASNIEVES.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RADIO LAS NIEVES</div></div></div>'
         },
         'MUNIAYSEN_TV': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MuniAysen.svg"></img>MUNIAYSEN TV',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/"></img>MUNIAYSEN TV',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalMUNIAYSEN_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">MUNIAYSEN TV</div></div></div>'
         },
         'PARQUEMET_CUMBRE': {
@@ -414,7 +414,7 @@ var App = {
     }
     thisCanal.classList.add("stream");
     thisCanal.setAttribute("data-canal", canal);
-    var losCanales = document.getElementById("los-canales");
+    var losCanales = document.getElementById("los-canales-SUPERIOR");
     losCanales.appendChild(thisCanal);
     var n = document.querySelector('button[data-canal="' + canal + '"]');
     n.classList.remove("BotonBordeAZUL");
@@ -423,7 +423,7 @@ var App = {
     },
 remove: function(canal) {
     var findCanal = document.querySelector('div[data-canal="' + canal + '"]');
-    var losCanales = document.getElementById("los-canales");
+    var losCanales = document.getElementById("los-canales-SUPERIOR");
     if (findCanal != null) {
         losCanales.removeChild(findCanal);
         var n = document.querySelector('button[data-canal="' + canal + '"]');
@@ -463,7 +463,6 @@ init: function() {
     if (!App.isMobile()) {
         App.add("24HTVN");
         App.add("CNN_CHILE");
-        App.add("MEGANOTICIAS");
 
     }
 }
@@ -471,10 +470,10 @@ init: function() {
 
 App.init();
 
-var modal = document.getElementById("custom-modal");
-var btn = document.getElementById("custom-btn");
-var span = document.getElementById("custom-close");
-var span2 = document.getElementById("custom-close2");
+var modal = document.getElementById("custom-modal-SUPERIOR");
+var btn = document.getElementById("custom-btn-SUPERIOR");
+var span = document.getElementById("custom-close-SUPERIOR");
+var span2 = document.getElementById("custom-close2-SUPERIOR");
 
 btn.onclick = function () {
     modal.style.display = "block";
@@ -509,14 +508,6 @@ hue.onchange = function (event) {
 var anchoStreams = document.getElementById("Tamaño_streams");
 
 anchoStreams.oninput = function (event) {
-    let streams2 = document.getElementById("los-canales");
+    let streams2 = document.getElementById("los-canales-SUPERIOR");
     streams2.style.maxWidth = event.target.value + "%"
 }
-/////////////////////////////////////////////////////////
-///nombre transmisiones on/off https://www.w3schools.com/jquery/jquery_hide_show.asp/////////
-$(document).ready(function(){
-    $("BotonTitulos_ON_OFF").click(function(){
-        $("TEXTO_BotonIrAHome").toggle();
-      });
-  });
-/////////////////////////////////////////////////////////
