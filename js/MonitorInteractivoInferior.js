@@ -1,6 +1,6 @@
 
 ///canales/////////////////////////////////////////////////////////
-var size = 6;
+var size = 4;
 
 ///6 = 2 PANTALLAS HORIZONTALMENTE///
 ///3 = 4 PANTALLAS HORIZONTALMENTE///
@@ -117,7 +117,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIOLASNIEVES.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RADIO LAS NIEVES</div></div></div>'
         },
         'MUNIAYSEN_TV': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/"></img>MUNIAYSEN TV',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MuniAysen.svg"></img>MUNIAYSEN TV',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalMUNIAYSEN_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">MUNIAYSEN TV</div></div></div>'
         },
         'PARQUEMET_CUMBRE': {
@@ -183,6 +183,10 @@ var App = {
         'TN': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TN.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">TN</div></div></div>'
+        },
+        'FORO_TV': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>FORO TV',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCUsm-fannqOY02PNN67C0KA&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">FORO TV</div></div></div>'
         },
         'CNN': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CNN.svg"></img>',
@@ -299,11 +303,11 @@ var App = {
         }, 
         'LapPadre_3': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_LABPADRE.svg"></img> Launch Pad Cam',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qCbgoqMcirI?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">Launch Pad Cam</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sMC5KonXCfg?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">Launch Pad Cam</div></div></div>'
         }, 
         'LapPadre_4': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_LABPADRE.svg"></img> Sentinel Cam',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/richjW1jj20?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">Sentinel Cam</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_og17JYSMcQ?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">Sentinel Cam</div></div></div>'
         },
         'RDRONE_UY_Twitch': {
             'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Logo_Twitch.svg"></img> RDRONE UY',
@@ -414,7 +418,7 @@ var App = {
     }
     thisCanal.classList.add("stream");
     thisCanal.setAttribute("data-canal", canal);
-    var losCanales = document.getElementById("los-canales-SUPERIOR");
+    var losCanales = document.getElementById("los-canales");
     losCanales.appendChild(thisCanal);
     var n = document.querySelector('button[data-canal="' + canal + '"]');
     n.classList.remove("BotonBordeAZUL");
@@ -423,7 +427,7 @@ var App = {
     },
 remove: function(canal) {
     var findCanal = document.querySelector('div[data-canal="' + canal + '"]');
-    var losCanales = document.getElementById("los-canales-SUPERIOR");
+    var losCanales = document.getElementById("los-canales");
     if (findCanal != null) {
         losCanales.removeChild(findCanal);
         var n = document.querySelector('button[data-canal="' + canal + '"]');
@@ -461,8 +465,9 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("24HTVN");
-        App.add("CNN_CHILE");
+        App.add("MEGANOTICIAS");
+        App.add("REUTERS");
+        App.add("T13_MOVIL");
 
     }
 }
@@ -470,10 +475,10 @@ init: function() {
 
 App.init();
 
-var modal = document.getElementById("custom-modal-SUPERIOR");
-var btn = document.getElementById("custom-btn-SUPERIOR");
-var span = document.getElementById("custom-close-SUPERIOR");
-var span2 = document.getElementById("custom-close2-SUPERIOR");
+var modal = document.getElementById("custom-modal");
+var btn = document.getElementById("custom-btn");
+var span = document.getElementById("custom-close");
+var span2 = document.getElementById("custom-close2");
 
 btn.onclick = function () {
     modal.style.display = "block";
@@ -508,6 +513,14 @@ hue.onchange = function (event) {
 var anchoStreams = document.getElementById("Tamaño_streams");
 
 anchoStreams.oninput = function (event) {
-    let streams2 = document.getElementById("los-canales-SUPERIOR");
+    let streams2 = document.getElementById("los-canales");
     streams2.style.maxWidth = event.target.value + "%"
 }
+/////////////////////////////////////////////////////////
+///nombre transmisiones on/off https://www.w3schools.com/jquery/jquery_hide_show.asp/////////
+$(document).ready(function(){
+    $("BotonTitulos_ON_OFF").click(function(){
+        $("TEXTO_BotonIrAHome").toggle();
+      });
+  });
+/////////////////////////////////////////////////////////

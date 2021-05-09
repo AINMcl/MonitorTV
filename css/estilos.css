@@ -1975,6 +1975,29 @@ left: 0%;
   color:#fff
 }
 
+.BotonSeleccionarSeñales2{
+  display: inline-block;
+  background:rgba(98, 104, 103, 0.486);
+  margin: 0px;
+  width: 5%;
+  height: 15px;
+  line-height: 15px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonSeleccionarSeñales2:hover{
+  background:#0159be;
+  color:#fff
+}
+
 .CAJABoton_SeleccionarSeñales{
     position: relative;
     width: 100%;
