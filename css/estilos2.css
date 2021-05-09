@@ -181,13 +181,13 @@ input::-moz-focus-outer {
 
 @media(min-width: 800px) {
     .modal-body button {
-        width: 29%;
+        width: 30%;
     }
 }
 
 @media(min-width: 1620px) {
     .modal-body button {
-        width: 25%;
+        width: 30%;
     }
 }
 
