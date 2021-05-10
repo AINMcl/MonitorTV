@@ -152,9 +152,21 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img><img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>  RUPTLY',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC5aeU5hk31cLzq_sAExLVWg&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RUPTLY</div></div></div>'
         },
+        'RUPTLY1': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img><img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>  RUPTLY 1',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5aLNSOUYW0o?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RUPTLY</div></div></div>'
+        },
+        'RUPTLY2': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img><img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>  RUPTLY 2',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0wBk6eeh_28?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">RUPTLY</div></div></div>'
+        },
         'SPUTNIK': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img><img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>  SPUTNIK',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCI4lx9retCL7_cBmmceEQ8g&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPUTNIK</div></div></div>'
+        },
+        'SPUTNIK1': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img><img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>  SPUTNIK 1',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aQXpYGLqAv8?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">SPUTNIK</div></div></div>'
         },
         'TELEMUNDO': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img> TELEMUNDO',
@@ -465,8 +477,8 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("24HTVN");
-        App.add("CNN_CHILE");
+        App.add("RUPTLY2");
+        App.add("RUPTLY1");
 
     }
 }
