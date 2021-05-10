@@ -1977,11 +1977,11 @@ left: 0%;
 
 .BotonSeleccionarSeñales2{
   display: inline-block;
-  background:rgba(98, 104, 103, 0.486);
+  background:rgba(37, 37, 37, 0.349);
   margin: 0px;
-  width: 5%;
-  height: 15px;
-  line-height: 15px;
+  width: 6%;
+  height: 20px;
+  line-height: 17px;
   font-size: 10px;
   padding: 0px;
   font-weight: bold;
@@ -1994,7 +1994,7 @@ left: 0%;
 }
 
 .BotonSeleccionarSeñales2:hover{
-  background:#0159be;
+  background:#0026ff;
   color:#fff
 }
 
