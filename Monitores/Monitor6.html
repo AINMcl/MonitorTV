@@ -34,32 +34,9 @@
 </head>
 
 <body>
-    <div style="width: 100%; height: 100%;";>
+    
 
-    <div class="CAJABoton_SeleccionarSeñales">
-        <div class="row no-gutters row-canales" id="los-canales"></div>
-        <!--modal listado canales-->
-        <div class="modal" id="custom-modal">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content ">
-                    <div class="modal-header FondoGRIS">
-                        <h5 class="Titulo">SELECCIONAR SEÑALES</h5>
-                        <button type="button" class="close" id="custom-close" data-dismiss="modal">
-                        </button>
-                    </div>
-                    <div id="PorFiltrar">
-                        <div class="modal-body canales-body"></div>
-                    </div>
-
-                    <div class="modal-footer FondoBLANCO">
-                        <button type="button" class="btn BotonROJO" id="custom-close2" data-dismiss="modal">CERRAR</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div style="width: 100%;float: left;">
+    <div style="position: absolute; display: inline-block; width: 100%; height:100%" >
         <div style="width: 66.6666666666%; float: left;" class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item"
             src="MonitorMulti.html" frameborder="0"></iframe>
@@ -72,18 +49,15 @@
             <iframe class="embed-responsive-item"
             src="MonitorMulti.html" frameborder="0"></iframe>
         </div>
+        <div style="width: 100%; height:33.333333333%; float: left; position: relative;">
+             <iframe width="100%" height="100%"
+             src="MonitorInteractivoInferior.html" frameborder="0"></iframe>
+        </div>
     </div>
 
+    
 	
     
-    
-    <div style="position: absolute; bottom: 0.5%; width: 100%;height: 20px;line-height: 20px; text-align: center;">
-
-        <div class="BotonSeleccionarSeñales" type="button" id="custom-btn">SEÑALES SUPERIOR</div>
-        
-        <a href="Home.html"><span class="TEXTO_BotonIrAHome">IR A HOME</span></a>
-
-    </div>
     
     <script rel="preload" as="script" src="../js/MonitorInteractivo.js"></script>
 </body>

@@ -501,9 +501,9 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("FRANJAGAZA_1");
-        App.add("FRANJAGAZA_2");
-        App.add("MEGANOTICIAS_3");
+        App.add("CNN_CHILE");
+        App.add("MEGANOTICIAS");
+        App.add("T13_MOVIL");
 
     }
 }

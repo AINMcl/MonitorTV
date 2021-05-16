@@ -495,13 +495,7 @@ init: function() {
     if (!App.isMobile()) {
         App.add("24HTVN");
         App.add("CNN_CHILE");
-        App.add("REUTERS");
-        App.add("T13_MOVIL");
         App.add("MEGANOTICIAS");
-        App.add("FRANJAGAZA_1");
-        App.add("AL_JAZEERA_ENG");
-        App.add("AL_JAZEERA_ARABIC");
-        App.add("FRANJAGAZA_2");
 
     }
 }
