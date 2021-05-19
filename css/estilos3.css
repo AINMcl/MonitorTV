@@ -174,41 +174,17 @@ input::-moz-focus-outer {
 
 /* botones de canales */
 .modal-body button {
-    margin-right: 1em;
-    width: 30%;
-    margin-bottom: 0.4em;
+    margin-right: 5px;
+    width: 90%;
+    margin-bottom: 5px;
 }
 
-@media(min-width: 800px) {
-    .modal-body button {
-        width: 30%;
-    }
-}
-
-@media(min-width: 1620px) {
-    .modal-body button {
-        width: 30%;
-    }
-}
-
-/* boton copiar enlace*/
-.btn-copiar {
-    margin-right: 1em;
-    border-radius: 5px;
-    width: 50%;
-    margin-bottom: 0.4em;
-}
 
 
 .nombre-color:hover {
     opacity: 1;
     color: #ffffff;
     text-decoration: none;
-}
-
-/* texto tablas modales*/
-td {
-    text-align:left;
 }
 
 
