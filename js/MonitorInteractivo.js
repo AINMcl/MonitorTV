@@ -177,7 +177,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XBSRLazo64Y?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">24H TVE</div></div></div>'
         },
         'IP_NOTICIAS': {
-            'nombre': '</img><img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg">IP NOTICIAS',
+            'nombre': '</img><img style="height: 20px; width:auto:" src="imagenes/Icono_ARG.svg">IP NOTICIAS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FrzGmtojmzw?autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">IP NOTICIAS</div></div></div>'
         },
         'TN': {
