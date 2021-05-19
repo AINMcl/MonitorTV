@@ -2,112 +2,115 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<title> Monitor 1 </title>
+<title> Imágenes Satelite </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
-<META HTTP-EQUIV="REFRESH" CONTENT="900;URL=ImagenesSatelite.html">
 
-	<link href="../css/estilos.css" rel="stylesheet" type="text/css">
-	<link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
-	
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
-	
-	<link href="../css/video-js.css" rel="stylesheet">
-	<script src="../js/video.js"></script>
-	<script src="../js/videojs-contrib-hls.js"></script>
-	<script src='../js/estilosvideojw.js'></script>
+<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+<link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
+
+<link href="../css/video-js.css" rel="stylesheet">
+<script src="../js/video.js"></script>
+<script src="../js/videojs-contrib-hls.js"></script>
+<script src='../js/estilosvideojw.js'></script>
 <script>jwplayer.key='Ohx3VSgswSwYyLP9Gm0ADc2CKw16Cnot01CILeRMQ9o=';</script>
 
+
+<!--bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+
 </head>
-<body style="background-color: #000000;height: 100%">
+<body>
 
-	
-
-<section style="position: relative;" id="Pantallas1">
-	
-	<!-- PANTALLA 1 TVN  -->
-	<div style="float:left;  width: 640px; height: 359px; ">
-		<img height="359" width="640" src="http://archivos.meteochile.gob.cl/portaldmc/imgsat/capas/capas_imagen_unica.php?true_color.png+presion_sfc.png" frameborder="0"></img>
+	<div style="
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	top: 0%;
+	left: 0px;
+	"
+	class="embed-responsive embed-responsive-16by9">
+	<img class="embed-responsive-item"
+		src="http://archivos.meteochile.gob.cl/portaldmc/imgsat/capas/capas_imagen_unica.php?true_color.png+presion_sfc.png" frameborder="0"></img>
+		<div class="CAJATituloDePantallaPequeña2">
+			<div class="TEXTOTituloDePantallaPequeña2">PRESION</div>
+		</div>
 	</div>
 
-	<!-- PANTALLA 2 CHV -->
-	<div style="float:right;  width: 640px; height: 359px; ">
-		<img height="359" width="640" src="http://archivos.meteochile.gob.cl/portaldmc/imgsat/imagenes/rgb04_colorverdadero.png" frameborder="0"></img>
+	<div style="
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	top: 0%;
+	right: 0px;
+	"
+	class="embed-responsive embed-responsive-16by9">
+	<img class="embed-responsive-item"
+		src="http://archivos.meteochile.gob.cl/portaldmc/imgsat/imagenes/rgb04_colorverdadero.png" frameborder="0"></img>
+		<div class="CAJATituloDePantallaPequeña2">
+			<div class="TEXTOTituloDePantallaPequeña2">COLOR VERDADERO</div>
+		</div>
+	</div>
+
+	<div style="
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	top: 50%;
+	left: 0px;
+	"
+	class="embed-responsive embed-responsive-16by9">
+	<img class="embed-responsive-item"
+		src="http://archivos.meteochile.gob.cl/portaldmc/imgsat/capas/capas_imagen_unica.php?true_color.png+precipitacion.png+ciudades_blanco.png" frameborder="0"></img>
+		<div class="CAJATituloDePantallaPequeña2">
+			<div class="TEXTOTituloDePantallaPequeña2">PRECIP. TOTAL</div>
+		</div>
+	</div>
+
+	<div style="
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	top: 50%;
+	right: 0px;"
+	class="embed-responsive embed-responsive-16by9">
+	<img class="embed-responsive-item"
+		src="http://archivos.meteochile.gob.cl/portaldmc/imgsat/capas/capas_imagen_unica.php?true_color.png+nubesbajas.png+ciudades_blanco.png" frameborder="0"></img>
+		<div class="CAJATituloDePantallaPequeña2">
+			<div class="TEXTOTituloDePantallaPequeña2">NUBES BAJAS</div>
+		</div>
 	</div>
 
 
-	
 
-
-
-
-	<!-- TITULOS -->
-	<div style="position: absolute; left: 200px; top: 335px;" class="CajaTitulos">
-		<p style="position: center;" class="Titulo_Señal">PRESION</p>
+	<div class="BarraMonitorNoticias4">
+		<a href="Home.html"><span class="BotonMonitorNoticias4">HOME</span></a>
 	</div>
 
-
-	<div style="position: absolute; left: 900px; top: 335px;" class="CajaTitulos">
-			<p class="Titulo_Señal">COLOR VERDADERO</p>
-	</div>
-
-</section>
-
-
-
-
-
-<section style="position: relative;" id="Pantallas2">
-	<!-- PANTALLA 3 MEGA-->
-	<div id="Div_Pantalla_Pequeña_Inferior" style="float:left;">
-		<img width="640" height="359" src="http://archivos.meteochile.gob.cl/portaldmc/imgsat/capas/capas_imagen_unica.php?true_color.png+precipitacion.png+ciudades_blanco.png" frameborder="0"></img>
-	</div>
-	
-
-	<!-- PANTALLA 4 C13-->
-	<div id="Div_Pantalla_Pequeña_Inferior" style=" float:left;">
-		<img width="640" height="359" src="http://archivos.meteochile.gob.cl/portaldmc/imgsat/capas/capas_imagen_unica.php?true_color.png+nubesbajas.png+ciudades_blanco.png" frameborder="0"></img>
-	</div>
-
-
-
-
-
-	<!-- TITULOS -->
-	<div style="position: absolute; left: 200px; top: 335px;" class="CajaTitulos">
-		<p class="Titulo_Señal">PRECIP. TOTAL</p>
-	</div>
-
-	<div style="position: absolute; left: 900px; top: 335px;" class="CajaTitulos">
-			<p class="Titulo_Señal">NUBES BAJAS</p>
-	</div>
-
-	
-
-	
-
-</section>
-
-
-
-
-
-
-<section style="position: absolute; left: 600px; top: 315px; width: 70px; height: 50px;">
-		<iframe style="float:left;" width="70" height="45" src="https://reloj-alarma.es/embed/hora/Santiago_CL/CHILE/#theme=1&color=4&ampm=0&showdate=0%22%20frameborder=%220%22%20allowfullscreen" frameborder="0"></iframe>
-		<iframe style="float:left;" width=70" height="45" src="https://reloj-alarma.es/embed/hora/London_GB/UTC+-+GMT/#theme=1&ampm=0&showdate=0%22%20frameborder=%220%22%20allowfullscreen" frameborder="0"></iframe>
-</section>
-
-
-
-<p style="position: absolute; left: 620px; top: 308px; color: white; font-size: x-small;">CHILE</p>
-<p style="position: absolute; left: 625px; top: 380px; color: white; font-size: x-small;">UTC</p>
-
-
-<div style="position: absolute; left: 600px; top: 354px;" class="CajaMenuChile2">
-	<a href="Home.html"><span class="BOTON_Monitor3">Ir a Home</span></a>
 </div>
+
+
+
 
 
 </body>
