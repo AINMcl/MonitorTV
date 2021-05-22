@@ -845,7 +845,7 @@ section#RelojesMonitor2{
 }
 
 .BotonesHomeMORADO{
-  background-color: #7700a7;
+  background-color: #8f00c7;
   display:inline-table;
   margin: 10px;
   width: 250px;
@@ -2171,7 +2171,196 @@ left: 0%;
   background:#0099ff;
   color:rgb(0, 0, 0)
 }
-  
+
+
+
+.BotonHomeA{
+  background-color: #0000ff;
+  border-color: #0000ff;
+  border: 3px solid;
+  display:inline-table;
+  margin: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: 20PX;
+  border-radius: 9px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonHomeA:hover{
+  color:#0303bb;
+  background-color:#ffffff;
+  border-color:#0303bb;
+}
+
+.BotonHomeM{
+  background-color: #8f00c7;
+  border-color: #8f00c7;
+  border: 3px solid;
+  display:inline-table;
+  margin: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: 20PX;
+  border-radius: 9px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonHomeM:hover{
+  color:#8f00c7;
+  background-color:#ffffff;
+  border-color:#8f00c7;
+}
+
+.BotonHomeV{
+  background-color: #5abb00;
+  border-color: #5abb00;
+  border: 3px solid;
+  display:inline-table;
+  margin: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: 20PX;
+  border-radius: 9px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonHomeV:hover{
+  color:#5abb00;
+  background-color:#ffffff;
+  border-color:#5abb00;
+}
+
+.BotonHomeV2{
+  background-color: #1ea88b;
+  border-color: #1ea88b;
+  border: 3px solid;
+  display:inline-table;
+  margin: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: 20PX;
+  border-radius: 9px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonHomeV2:hover{
+  color:#1ea88b;
+  background-color:#ffffff;
+  border-color:#1ea88b;
+}
+
+.BotonHomeN{
+  background-color: #FF6600;
+  border-color: #FF6600;
+  display:inline-table;
+  border: 3px solid;
+  display:inline-table;
+  margin: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: 20PX;
+  border-radius: 9px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonHomeN:hover{
+  color:#FF6600;
+  background-color:#ffffff;
+  border-color:#FF6600;
+}
+
+.BotonHomeR{
+  background-color: #ff0000;
+  border-color: #ff0000;
+  border: 3px solid;
+  display:inline-table;
+  margin: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: 20PX;
+  border-radius: 9px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonHomeR:hover{
+  color:#ff0000;
+  background-color:#ffffff;
+  border-color:#ff0000;
+}
+
+
+.BotonHomeG{
+  background-color: #444444;
+  border-color: #444444;
+  border: 3px solid;
+  display:inline-table;
+  margin: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: 20PX;
+  border-radius: 9px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonHomeG:hover{
+  color:#444444;
+  background-color:#ffffff;
+  border-color:#444444;
+}
+
+
+
+
 
 
 
