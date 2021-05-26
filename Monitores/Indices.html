@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title> Monitores - AINMcl </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    
+<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+<link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
+
+<script src="../js/IndicadoresEconomicos.js"></script>
+
+<script>
+function Indicadores($scope, $http) {
+    $http.get('https://mindicador.cl/api').success(function(data) {
+        $scope.dailyIndicators = data;
+    }).error(function() {
+        console.log('Error al consumir la API!');
+    });
+}</script>
+
+</head>
+<body style="background-color: #ffffff">
+
+
+<div class="TituloHome">
+	INDICADORES ECONOMICOS 
+</div>
+
+<div class="Caja">
+	<div class="Nombres">
+		<div class="Nombre">UF</div>
+	</div>
+	<div class="Nombres">
+		<div class="Nombre">DOLAR</div>
+	</div>
+	<div class="Nombres">
+		<div class="Nombre">EURO</div>
+	</div>
+	<div class="Nombres">
+		<div class="Nombre">UTM</div>
+	</div>
+</div>
+
+
+<div class="Caja">
+	<div class="Valores">
+		<div class="Valor">UF</div>
+	</div>
+	<div class="Valores">
+		<div class="Valor">UF</div>
+	</div>
+	<div class="Valores">
+		<div class="Valor">UF</div>
+	</div>
+	<div class="Valores">
+		<div class="Valor">UF</div>
+	</div>
+</div>
+	
+
+	
+	  
+</body>
+</html>

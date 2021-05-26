@@ -7,7 +7,6 @@ var size = 4;
 ///4 = 3 PANTALLAS HORIZONTALMENTE///
 var App = {
      channels: {
-        
         '24HTVN': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HORAS.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal24HTVN.html" frameborder="0"></iframe></div><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CANAL 24H</div></div></div>'

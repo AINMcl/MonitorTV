@@ -2179,8 +2179,8 @@ left: 0%;
   border-color: #0000ff;
   border: 3px solid;
   display:inline-table;
-  margin: 10px;
-  width: 250px;
+  margin: 5px;
+  width: 200px;
   height: 50px;
   font-size: 20PX;
   border-radius: 9px;
@@ -2205,7 +2205,7 @@ left: 0%;
   border-color: #8f00c7;
   border: 3px solid;
   display:inline-table;
-  margin: 10px;
+  margin: 5px;
   width: 250px;
   height: 50px;
   font-size: 20PX;
@@ -2231,7 +2231,7 @@ left: 0%;
   border-color: #5abb00;
   border: 3px solid;
   display:inline-table;
-  margin: 10px;
+  margin: 5px;
   width: 250px;
   height: 50px;
   font-size: 20PX;
@@ -2257,7 +2257,7 @@ left: 0%;
   border-color: #1ea88b;
   border: 3px solid;
   display:inline-table;
-  margin: 10px;
+  margin: 5px;
   width: 250px;
   height: 50px;
   font-size: 20PX;
@@ -2284,7 +2284,7 @@ left: 0%;
   display:inline-table;
   border: 3px solid;
   display:inline-table;
-  margin: 10px;
+  margin: 5px;
   width: 250px;
   height: 50px;
   font-size: 20PX;
@@ -2310,7 +2310,7 @@ left: 0%;
   border-color: #ff0000;
   border: 3px solid;
   display:inline-table;
-  margin: 10px;
+  margin: 5px;
   width: 250px;
   height: 50px;
   font-size: 20PX;
@@ -2337,7 +2337,7 @@ left: 0%;
   border-color: #444444;
   border: 3px solid;
   display:inline-table;
-  margin: 10px;
+  margin: 5px;
   width: 250px;
   height: 50px;
   font-size: 20PX;
@@ -2356,6 +2356,66 @@ left: 0%;
   color:#444444;
   background-color:#ffffff;
   border-color:#444444;
+}
+
+.Caja{
+  width: 50%;
+  float: left;
+}
+
+
+.Nombres{
+  position: relative;
+  display: inline-block;
+  background:rgb(255, 255, 255);
+  margin: 0px;
+  width: 100%;
+  text-align:right;
+}
+
+
+.Valores{
+  position: relative;
+  display: inline-block;
+  background:rgba(255, 255, 255, 0.966);
+  margin: 0px;
+  width: 100%;
+  text-align: left;
+}
+
+.Nombre{
+  display: inline-block;
+  background:#002fff;
+  border: 3px solid #002fff;
+  margin: 10px;
+  width: 20%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: right;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+
+.Valor{
+  display: inline-block;
+  background:rgb(255, 255, 255);
+  border: 3px solid;
+  margin: 10px;
+  width: 20%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: left;
+  padding: 5px;
+  border-radius: 5px;
+  color: #000000;
 }
 
 
