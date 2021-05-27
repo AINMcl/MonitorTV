@@ -25,7 +25,7 @@ function Indicadores($scope, $http) {
 
 
 <div class="TituloHome">
-	INDICADORES ECONOMICOS 
+	INDICADORES ECONOMICOS
 </div>
 
 <div class="Caja">
@@ -47,6 +47,14 @@ function Indicadores($scope, $http) {
 <div class="Caja">
 	<div class="Valores">
 		<div class="Valor">UF</div>
+		<div class="Selecciones">
+			<select  class="Selecciones2" id="Stream_por_fila">
+				<option value="0">CANTIDAD</option>
+				<option value="12">1 STREAM</option>
+				<option value="6" >2 STREAMS</option>
+				<option value="4" >3 STREAMS</option>
+			</select>
+		</div>
 	</div>
 	<div class="Valores">
 		<div class="Valor">UF</div>
@@ -58,7 +66,58 @@ function Indicadores($scope, $http) {
 		<div class="Valor">UF</div>
 	</div>
 </div>
-	
+
+<div>
+	<div class="SeleccionarStreamsPorFila">
+		<select  class="StreamsPorFila" id="Stream_por_fila">
+			<option value="0">STREAMS</option>
+			<option value="12">1 STREAM</option>
+			<option value="6" >2 STREAMS</option>
+			<option value="4" >3 STREAMS</option>
+		</select>
+	</div>
+</div>
+
+
+<div class="DivBotonesHome" style="width: 100%;">
+	<a href="MonitorRelojes.html"><span class="BotonHomeA">CONVERTIDOR</span></a>
+</div>
+
+
+<form action="/action_page.php">
+	<label class="Nombre" for="fname">NOMBRE</label>
+	<input class="Valor" type="text" id="fname" name="fname"><br><br>
+	<input class="BotonHomeA" type="submit" value="ENVIAR">
+  </form>
+
+
+  <div class="container">
+  
+	<form>
+	  
+	  <div class="group">      
+		<input type="text" required>
+		<span class="highlight"></span>
+		<span class="bar"></span>
+		<label>Name</label>
+	  </div>
+		
+	  <div class="group">      
+		<input type="text" required>
+		<span class="highlight"></span>
+		<span class="bar"></span>
+		<label>Email</label>
+	  </div>
+	  
+	</form>
+	</div>
+
+
+
+<div style="width: 100%; height: 100px; position: relative; bottom: 0%; background-color: blue;">
+
+</div>
+
 
 	
 	  

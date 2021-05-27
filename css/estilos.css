@@ -362,6 +362,7 @@ section#FondoImagenHome{
 
 
 
+
 section#PantallasInferior1{
   display: inline-block;
   margin: 0px;
@@ -699,6 +700,7 @@ section#RelojesMonitor2{
   font-size: 35px;
   font-weight: bold;
 }
+
 
 .DivBotonesHome{
   width: 100%;
@@ -2417,6 +2419,52 @@ left: 0%;
   border-radius: 5px;
   color: #000000;
 }
+
+
+
+.Selecciones{
+  display: inline-block;
+  background:rgba(0, 0, 0, 0);
+  margin: 0px;
+  width: 100px;
+  height: 30px;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #FFFFFF;
+}
+
+.Selecciones2{
+  display: inline-block;
+  background:rgba(0, 0, 0, 0.3);
+  border-color: rgba(0, 0, 0, 0);
+  margin: 0px;
+  width: 100%;
+  height: 30px;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.Selecciones2:hover{
+  background:#006969;
+  color:#fff
+}
+
+
+
+
+
 
 
 
