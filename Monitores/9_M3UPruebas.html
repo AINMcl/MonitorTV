@@ -1,13 +1,16 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<title> YouTube Embed + Chat </title>
+<title> REUTERS </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 
 <link href="../css/estilos.css" rel="stylesheet" type="text/css">
 <link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
+
+<style> html,body{width:100%;height:100%} </style>
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
@@ -16,7 +19,7 @@
 <script src="../js/video.js"></script>
 <script src="../js/videojs-contrib-hls.js"></script>
 <script src='../js/estilosvideojw.js'></script>
-<script>jwplayer.key='Ohx3VSgswSwYyLP9Gm0ADc2CKw16Cnot01CILeRMQ9o=';</script>
+<script>jwplayer.key='fpjDq6xZtjNRpxYoVu4nj0jRIZqgVeQSpqiuNYojy3JFZW2B';</script>
 
 
 <!--bootstrap-->
@@ -35,24 +38,29 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 </script>
 
+<script src="Reproductor.js" type="text/javascript"></script>
+
+<script>
+	var player = new Playerjs({
+		id:"Reproductor",
+		file:"https://qejvz.openstream.to/b36a0bea25a39c0689ab919a3614fed31701ba3b53bfad72821a68721d65ef1225003048b7d04e9a12a6f3b58de565c7112b8dfc3d8cffdae41fde928b5b372310a2a71d06d3450627d8c21279f0b99584669a26f46dfdd70dcbf5f2d3ed71c5f6ca32760c7bb79158aa3b3c5a018183/m/list.m3u8",
+		autoplay:1
+		});
+</script>
 </head>
+
 <body>
 
-<div style="position: absolute; display: inline-block; width: 100%; height:100%" >
-     <div style="width: 70%; height:100%; float: left; position: absolute;">
-          <iframe width="100%" height="100%"
-          src="https://www.youtube.com/embed/live_stream?channel=UCZPR5ypKlxb1W_3RNIfWGKQ&autoplay=true" frameborder="0" allowfullscreen></iframe>
-     </div>
-     <div style="width: 30%; height:100%; float: left; position: absolute; left: 70%;">
-          <iframe width="100%" height="100%"
-          src="https://www.youtube.com/live_chat?is_popout=1&v=RNFxCJ_wtYs&embed_domain=ainmcl.github.io" frameborder="0" allowfullscreen></iframe>
-     </div>
-</div>
-
-
-
-
-
-
+	<div style="position: absolute; width: 100%; height:100%" >
+		<div style="width: 100%; height:100%" id="Reproductor">
+		</div>
+	</div>
+	<div style="position: absolute; width: 100%; height: auto;">
+        <img height="auto" position="absolute" width="100%" src="imagenes/LogoTV_REUTERS.png" alt="">
+    </div>
+	
+	
+	
+	
 </body>
 </html>
