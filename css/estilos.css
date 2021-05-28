@@ -2465,7 +2465,7 @@ left: 0%;
   display: inline-block;
   background:rgba(0, 0, 0, 0.3);
   margin: 0px;
-  width: 5%;
+  width: 4%;
   height: 20px;
   line-height: 20px;
   font-size: 10px;
@@ -2479,7 +2479,29 @@ left: 0%;
   transition:all .5s
 }
 .Boton_ON_OFF_Titulos:hover{
-  background:#00e2c4;
+  background:#7300df;
+  color:#fff
+}
+
+.Boton_ON_OFF_Botones{
+  display: inline-block;
+  background:rgba(0, 0, 0, 0);
+  margin: 0px;
+  width: 5%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #ffffff00;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+.Boton_ON_OFF_Botones:hover{
+  background:#ff5e00;
   color:#fff
 }
 
