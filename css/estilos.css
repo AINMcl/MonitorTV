@@ -1818,6 +1818,17 @@ left: 0%;
   text-align: center;
 }
 
+.BARRA_BotonIrAHome2{
+  background:rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  bottom: 2%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .TEXTO_BotonIrAHome{
   display: inline-block;
   background:rgba(0, 0, 0, 0.3);

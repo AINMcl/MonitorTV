@@ -1,0 +1,56 @@
+<html>
+<head>
+  <!-- 1. importas la libreria jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <!-- 2. crear el formularo en html -->
+    
+    <input id="fecha" placeholder="Escribe 1 o 2 o 3">
+    <button onclick="buscar()">buscar</button>
+    
+    <!-- 3. crer la tabla en html -->
+    
+    <table id="respuesta">
+        <thead>
+          <th>ID</th>
+          <th>Nombre de Usuario</th>
+        </thead>
+        <tbody id="respuesta_body">
+        </tbody>
+    </table>
+   
+</body>
+
+<!--  4. agrega el script final del body -->
+<script>
+
+// 5. crear metodo buscar 
+function buscar(){
+  
+  // 6. obtene el valor del <input id="usuario">
+  let fecha = $('#fecha').val()
+  
+  $.ajax({
+    
+    // 7. agrega el valor a la url
+    url: "https://api.xor.cl/sismo/?fecha="+fecha
+  
+  }).done(function(data) {
+     
+     
+     // 8. construyes el <tr> con tus datos de respuesta
+     let tr = '<tr>'+
+          '<td>' + data.id + '</td>' +
+          '<td>' + data.enlace + '</td>' +
+        '</tr>'
+     console.log(tr) // *opcional para ver en consola
+     
+     // 9. usas append para agregar el tr al final
+     $('#respuesta_body').append(tr)
+  
+  });
+}
+</script>
+</html>
