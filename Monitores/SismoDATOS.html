@@ -28,13 +28,7 @@
     </script>
     
   </head>
-  <body id="data">
-    <div class="TituloHome">
-      SISMOS 
-    </div>
-    <div>
-      <p></p>
-    </div>
+  <body id="data" style="background-color: #ffffff;">
 
     <script>
         let url = 'https://api.xor.cl/sismo/'
@@ -48,24 +42,66 @@
             let body = ''
             for (let i = 0; i<data.length; i++){
                 body += `
+
+                      <div class="TituloSismo">
+		                    ${data[i].fechaLocal} | ${data[i].geoReferencia}
+	                    </div>
+	                    <div class="ImagenSismo">
+                      <div style="position: relative; float:left; width: auto; height:100%">
+		                      <img height="100%" width="auto"
+		                      src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-star-stroked+FF0000(${data[i].longitud},${data[i].latitud})/${data[i].longitud},${data[i].latitud},7,0/1000x1000?access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ"frameborder="0"></img>
+                      </div>
+	                    </div>
+	                    <div class="DatosSismo">
+		                  <div class="BarraDato">
+		                    REFERENCIA:
+		                  </div>
+		                  <div class="BarraDato2">
+			                **Sismo a ${data[i].geoReferencia}**
+		                  </div>
+
+                      <div class="BarraDato">
+		                  FECHA LOCAL:
+		                  </div>
+		                  <div class="BarraDato2">
+			                ${data[i].fechaLocal}
+		                  </div>
+
+                      <div class="BarraDato">
+		                  FECHA UTC:
+		                  </div>
+		                  <div class="BarraDato2">
+			                ${data[i].fechaUTC}
+		                  </div>
+
+                      <div class="BarraDato">
+		                  LATITUD:
+		                  </div>
+		                  <div class="BarraDato2">
+			                ${data[i].latitud}
+		                  </div>
+
+                      <div class="BarraDato">
+		                  LONGITUD:
+		                  </div>
+		                  <div class="BarraDato2">
+			                ${data[i].longitud}
+		                  </div>
+
+                      <div class="BarraDato">
+		                  PROFUNDIDAD:
+		                  </div>
+		                  <div class="BarraDato2">
+			                ${data[i].profundidad} Km
+		                  </div>
+
+
+
+
+	                    </div>
                 
-    <div>
-	      <div style="position: relative; float:left; width: 50%; height:auto">
-		<img height="auto" width="100%"
-		src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-star-stroked+FF0000(${data[i].longitud},${data[i].latitud})
-		/${data[i].longitud},${data[i].latitud},
-		5,0
-		/1000x1000?
-		access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ"
-		frameborder="0"></img>
-    <div class="infoSismo">
-      <div class="InfoProfundidad">UTC</div>
-      <div class="InfoProfundidad">UTC</div>
-      <div class="InfoProfundidad">PROFUNDIDAD</div>${data[i].profundidad}Km
-    </div>
-    
-		<!--LONGITUD - LATITUD-->
-	</div>
+        
+      
   
   `
             }
@@ -77,7 +113,7 @@
   </body>
 
   <!--
-    </td><td>${data[i].enlace}
+                </td><td>${data[i].enlace}
                 </td><td>${data[i].preliminar}
                 </td><td>${data[i].fechaLocal}
                 </td><td>${data[i].fechaUTC}
@@ -89,6 +125,22 @@
                 </td><td>${data[i].fuente}
                 </td><td>${data[i].geoReferencia}
                 </td><td>${data[i].imagen}
-                </td></tr>
-  -->
+                </td></tr><div class="IMGSismo">
+        <div>
+	      <div style="position: relative; float:left; width: 100%; height:auto">
+		      <img height="auto" width="100%"
+		        src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-star-stroked+FF0000(${data[i].longitud},${data[i].latitud})
+		        /${data[i].longitud},${data[i].latitud},5,0
+		        /1000x1000?access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ"
+		        frameborder="0"></img>
+        </div>
+      </div>
+      <div class="infoSismo">
+        <div class="InfoProfundidad">UTC</div>
+        <div class="InfoProfundidad">UTC</div>
+        <div class="InfoProfundidad">PROFUNDIDAD</div>${data[i].profundidad}Km
+      
+    
+		<!--LONGITUD - LATITUD-->
+	</div>
 </html>
