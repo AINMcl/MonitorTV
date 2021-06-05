@@ -1,102 +1,122 @@
-<!doctype html>
-<html lang="es">
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Monitor 4</title>
 
-    <link rel="icon" href='imagenes/Icon.png' type="image/png"/>
+<title> Monitor 4 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-        <link href="../css/estilos.css" rel="stylesheet" type="text/css">
-        <link href="../css/estilos2.css" rel="stylesheet" type="text/css">
+<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+<link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
 
-    <!-- TIPOGRAFIA GOOGLE-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
 
-    <!-- para dropdown -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
-    </script>
+<link href="../css/video-js.css" rel="stylesheet">
+<script src="../js/video.js"></script>
+<script src="../js/videojs-contrib-hls.js"></script>
+<script src='../js/estilosvideojw.js'></script>
+<script>jwplayer.key='Ohx3VSgswSwYyLP9Gm0ADc2CKw16Cnot01CILeRMQ9o=';</script>
 
-    <script src="Reproductor.js" type="text/javascript"></script>
-    
+
+<!--bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+
 </head>
+<body class="MonitoresFondo">
 
-<body>
-    
 
-    <div style="position: absolute; display: inline-block; width: 100%; height:100%" >
-        <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="MonitorInteractivoPantalla1.html" frameborder="0"></iframe>
-        </div>
-        <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="MonitorInteractivoPantalla2.html" frameborder="0"></iframe>
-        </div>
-        <div style="width: 33.3333333333%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="MonitorInteractivoPantalla3.html" frameborder="0"></iframe>
-        </div>
-        <div style="width: 33.3333333333%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="MonitorInteractivoPantalla4.html" frameborder="0"></iframe>
-        </div>
-        <div style="width: 33.3333333333%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="MonitorInteractivoPantalla5.html" frameborder="0"></iframe>
-        </div>
-    </div>
 
-    <div style="position: absolute; bottom: 0%; width: 100%;">
-        <div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-                src="Reloj_CHILE_CONTINENTAL.html" frameborder="0"></iframe>
-        </div>
-        
-        <div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-                src="Reloj_BOCACHICA.html" frameborder="0"></iframe>
-        </div>
-        
-        <div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-                src="Reloj_CHILE_MAGALLANES.html" frameborder="0"></iframe>
-        </div>
-        
-        <div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-                src="Reloj_UTC.html" frameborder="0"></iframe>
-        </div>
-        
-        <div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-                src="Reloj_FRANJA_GAZA.html" frameborder="0"></iframe>
-        </div>
-        
-        <div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="Reloj_ESPAÑA.html" frameborder="0"></iframe>
-        </div>
-    </div>
 
-    <div class="BARRA_BotonIrAHome">
-        <a href="Home.html"><span class="TEXTO_BotonIrAHome">IR A HOME</span></a>
-    </div>
-    
-    
-    <script rel="preload" as="script" src="../js/MonitorInteractivo.js"></script>
+<div>
+
+	
+	<!--SUPERIOR-->
+	<div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item"
+		src="MonitorInteractivoPantalla1.html" frameborder="0"></iframe>
+	</div>
+
+	<div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item"
+		src="MonitorInteractivoPantalla2.html" frameborder="0"></iframe>
+	</div>
+
+	<!--INFERIOR-->
+	<div style="width: 33.3333%; float: left;" class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item"
+			src="MonitorInteractivoPantalla3.html" frameborder="0"></iframe>
+	</div>
+
+	<div style="width: 33.3333%; float: left;" class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item"
+			src="MonitorInteractivoPantalla4.html" frameborder="0"></iframe>
+	</div>
+
+	<div style="width: 33.3333%; float: left;" class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item"
+			src="MonitorInteractivoPantalla5.html" frameborder="0"></iframe>
+	</div>
+</div>
+
+
+<div>
+<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item"
+		src="Reloj_CHILE_CONTINENTAL.html" frameborder="0"></iframe>
+	</div>
+</div>
+
+<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item"
+		src="Reloj_BOCACHICA.html" frameborder="0"></iframe>
+	</div>
+</div>
+
+<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item"
+		src="Reloj_CHILE_MAGALLANES.html" frameborder="0"></iframe>
+	</div>
+</div>
+
+<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item"
+		src="Reloj_UTC.html" frameborder="0"></iframe>
+	</div>
+</div>
+
+<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item"
+		src="Reloj_COSTA_ESTE_USA.html" frameborder="0"></iframe>
+	</div>
+</div>
+
+<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item"
+		src="Reloj_ESPAÑA.html" frameborder="0"></iframe>
+	</div>
+</div>
+
+<div class="BARRA_BotonIrAHome">
+	<a href="Home.html"><span class="TEXTO_BotonIrAHome">IR A HOME</span></a>
+</div>
+</div>
+
+
+
 </body>
-
 </html>
