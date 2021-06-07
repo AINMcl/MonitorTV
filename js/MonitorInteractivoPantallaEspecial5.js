@@ -156,7 +156,7 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("TVPERU");
+        App.add("REUTERS");
 
     }
 }
