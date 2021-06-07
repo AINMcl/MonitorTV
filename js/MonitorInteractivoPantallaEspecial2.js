@@ -156,7 +156,7 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("LATINATV");
+        App.add("MEGANOTICIAS_2");
 
     }
 }
