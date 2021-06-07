@@ -2498,7 +2498,7 @@ left: 0%;
   display: inline-block;
   background:rgba(0, 0, 0, 0);
   margin: 0px;
-  width: 5%;
+  width: 7%;
   height: 20px;
   line-height: 20px;
   font-size: 10px;
@@ -2512,6 +2512,72 @@ left: 0%;
   transition:all .5s
 }
 .Boton_ON_OFF_Botones:hover{
+  background:#ff5e00;
+  color:#fff
+}
+
+.Boton_ON_OFF_Botones2{
+  display: inline-block;
+  background:rgba(0, 0, 0, 0);
+  margin: 0px;
+  width: 20%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #ffffff00;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+.Boton_ON_OFF_Botones2:hover{
+  background:#ff5e00;
+  color:#fff
+}
+
+.Boton_ON_OFF_Titulos2{
+  display: inline-block;
+  background:rgba(0, 0, 0, 0);
+  margin: 0px;
+  width: 7%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #ffffff00;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+.Boton_ON_OFF_Titulos2:hover{
+  background:#ff5e00;
+  color:#fff
+}
+
+.Boton_ON_OFF_Titulos3{
+  display: inline-block;
+  background:rgba(0, 0, 0, 0);
+  margin: 0px;
+  width: 20%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #ffffff00;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+.Boton_ON_OFF_Titulos3:hover{
   background:#ff5e00;
   color:#fff
 }
@@ -2654,6 +2720,13 @@ left: 0%;
   color: #FFFFFF;
   font-size: 20px;
   font-weight: bold;
+}
+
+.ImagenSismo2{
+  position: relative;
+  background-color: #000000;
+  margin: 0px;
+  float: left;
 }
 
 .DatosSismo{
