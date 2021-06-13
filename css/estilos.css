@@ -2788,6 +2788,17 @@ left: 0%;
   color: #000000;
 }
 
+.BotonTV{
+  background-color: #171e27;
+  display:inline-table;
+  text-align: left;
+  vertical-align: middle;
+  margin: 5px;
+  width: 250px;
+  height: 120px;
+  border-radius: 9px;
+}
+
 
 
 
