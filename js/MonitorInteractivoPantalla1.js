@@ -7,12 +7,12 @@ var size = 12;
 var App = {
      channels: {
         '24HTVN': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HORAS.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal24HTVN.html" frameborder="0"></iframe></div><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CANAL 24H</div></div></div>'
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HORAS.svg"></img>1',
+            'code': '<div style="height: 100%;top: 0%;right: 0px;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/wHn1_QVoXGM?autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe></div>'
         },
-        'CNN_CHILE': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CNNCHILE2.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNNCHILE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">CNN CHILE</div></div></div>'
+        '24HTVN2': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HORAS.svg"></img>2',
+            'code': '<div style="width: 100%;height: 100%;top: 0%;right: 0px;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/wHn1_QVoXGM?autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe></div>'
         },
         'T13_MOVIL': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
