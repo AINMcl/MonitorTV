@@ -60,21 +60,25 @@
 </head>
 
 <body>
+    <div style="width: 100%; height: 50%;";>
+
+    
     <div class="CAJABoton_SeleccionarSeñales">
         <div class="row no-gutters row-canales" id="los-canales"></div>
         <!--modal listado canales-->
         <div class="modal" id="custom-modal">
             <div class="modal-dialog modal-xl">
-                <div class="modal-content" style="border-width: 0px;">
-                    <div class="modal-header FondoTitulo">
+                <div class="modal-content ">
+                    <div class="modal-header FondoGRIS waves-effect waves-light">
                         <h5 class="Titulo">SELECCIONAR SEÑALES</h5>
                         <button type="button" class="close" id="custom-close" data-dismiss="modal">
                         </button>
                     </div>
                     <div id="PorFiltrar">
-                        <div class="modal-body canales-body FondoSeñales"></div>
+                        <div class="modal-body canales-body waves-effect waves-light"></div>
                     </div>
-                    <div class="modal-footer FondoTitulo">
+
+                    <div class="modal-footer FondoBLANCO">
                         <button type="button" class="btn waves-effect waves-light BotonROJO" id="custom-close2" data-dismiss="modal">CERRAR</button>
                     </div>
                 </div>
@@ -85,8 +89,8 @@
     <div class="Botones" style="position: absolute; bottom: 0.5%; width: 100%;height: 20px;line-height: 20px; text-align: center;">
 
         <div class="SeleccionarStreamsPorFila waves-effect waves-light">
-            <select  class="StreamsPorFila" id="Stream_por_fila">
-                <option value="4">STREAMS</option>
+            <select  class="StreamsPorFila " id="Stream_por_fila">
+                <option value="0">STREAMS</option>
                 <option value="12">1 STREAM</option>
                 <option value="6" >2 STREAMS</option>
                 <option value="4" >3 STREAMS</option>
