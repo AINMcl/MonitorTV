@@ -2120,7 +2120,8 @@ left: 0%;
   font-family: 'Assistant', sans-serif;
   font-weight: normal;
   border-color: #000000;
-  border-width: 1.5px;
+  border-width: 1px ;
+  border-radius: 5px;
   text-align: left;
   color: rgb(0, 0, 0);
   cursor:
@@ -2144,6 +2145,7 @@ left: 0%;
   border-color:#28a745;
   color: #000000;
   border-width: 3px;
+  border-radius: 5px;
   text-align: left;
   cursor:
   pointer;
@@ -2896,6 +2898,66 @@ left: 0%;
 
 .waves-effect.waves-naranjo .waves-ripple {
   background-color: #ff660094;
+}
+
+
+.BotonTV_Señales{
+  background-color: #ffffff;
+  font-family: 'Assistant', sans-serif;
+  font-weight: normal;
+  border-color: #171e27;
+  border-width: 2px ;
+  border-radius: 5px;
+  margin-bottom: 1px;
+  text-align: left;
+  color: #171e27;
+  cursor:
+  pointer;
+  transition:all .3s
+}
+
+.BotonTV_Señales:hover{
+  background-color: #ffffff;
+  border-color: #0000df;
+  border-width: 3px;
+  font-weight: bold;
+  color:#0000df;
+}
+
+
+.BotonTV_SeñalSeleccionada{
+  background-color: #ffffff;
+  font-family: 'Assistant', sans-serif;
+  font-weight: normal;
+  border-color:#129700;
+  color: #000000;
+  border-width: 3px;
+  border-radius: 5px;
+  text-align: left;
+  cursor:
+  pointer;
+  transition:all .3s
+}
+  
+.BotonTV_SeñalSeleccionada:hover{
+  color:rgb(255, 0, 0);
+  background-color:#ffffff;
+  border-width: 3px;
+  border-color:#ff0000
+}
+
+.FondoTitulo{
+  background-color: #3d4147;
+  border: 0px;
+  font-family: 'Assistant', sans-serif;
+  color: white;
+}
+
+.FondoSeñales{
+  background-color: #ffffff;
+  border: 0px;
+  font-family: 'Assistant', sans-serif;
+  color: white;
 }
 
 
