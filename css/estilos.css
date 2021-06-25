@@ -2960,6 +2960,32 @@ left: 0%;
   color: white;
 }
 
+.CAJATituloDePantalla3{
+  background: rgb(0, 0, 0, 0.0);
+  margin: 0 auto;
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  position: absolute;
+  top: 5px;
+  text-align: center;
+}
+
+.TEXTOTituloDePantalla3{
+  background: rgba(0, 0, 0, 0.781);
+  margin: 0 auto;
+  width: auto;
+  height: 100%;
+  border-radius: 5px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  display:inline-table;
+}
+
 
 
 
