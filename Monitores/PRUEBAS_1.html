@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <title> PRUEBAS 1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"/>
+
+    <link href="../css/estilos.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet"/>
+
+    
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    
+  </head>
+  <body id="data" style="background-color: #ffffff;">
+
+      
+      <input type="radio" id="24H" name="fav_language" value="24H" onclick = "populateData(event)">
+      <label for="24H">24H</label><br>
+
+      <input type="radio" id="CNNCHILE" name="fav_language" value="CNNCHILE" onclick = "populateData(event)">
+      <label for="CNNCHILE">CNNCHILE</label><br>
+
+      <input type="radio" id="TVN" name="fav_language" value="TVN" onclick = "populateData(event)">
+      <label for="TVN">TVN</label><br>
+
+    <form action="" method="post">
+      <input type="text" name="nombre" onkeyup="cambio()" placeholder="nombre" id="nombre">
+      <div id="valor_nombre"> 
+      
+      </div>
+      </form> 
+      
+      <script>
+          function cambio () {
+              let cambio=document.getElementById("nombre").value;
+              document.getElementById("valor_nombre").innerHTML = cambio;
+          }
+      </script>
+
+
+<div id="content"></div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      var targetDiv = document.getElementById('content');
+    var htmlContent = '';
+    
+    function populateData(event){
+      switch(event.target.value){
+        case 'CNNCHILE':{
+         htmlContent = '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNNCHILE2.html" frameborder="0"></iframe></div></div>';
+          break;
+        }
+        case '24H':{
+          htmlContent = '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal24HTVN.html" frameborder="0"></iframe></div></div>';
+        break;
+        }
+        case 'TVN':{
+          htmlContent = '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTVN.html" frameborder="0"></iframe></div></div>';
+        break;
+        }
+      }
+      targetDiv.innerHTML = htmlContent;
+    }
+  </script>
+  </body>
+
+    
+
+</html>
