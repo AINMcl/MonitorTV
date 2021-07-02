@@ -2986,6 +2986,38 @@ left: 0%;
   display:inline-table;
 }
 
+.FondoTitulosSeñales{
+  background: rgb(0, 0, 0, 0.0);
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  top: 5px;
+  text-align: center;
+}
+
+.TextoTitulosSeñales{
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  width: auto;
+  height: 100%;
+  border-radius: 3px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  display:inline-table;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+
+.TextoTitulosSeñales:hover{
+  background:#ffffff;
+  color:rgb(0, 0, 0)
+}
+
 
 
 
