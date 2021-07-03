@@ -104,7 +104,11 @@ var App = {
         },
         'TVN.cl3': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVNCL.svg"></img>ﾠ3',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="TVN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ㅤTVNㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://mdstrm.com/live-stream/57a498c4d7b86d600e5461cb?jsapi=true&loop=false&autoplay=true&player=609d326198d195082656d684&access_token=IyWpxijagtHO1IAwKm5euLw56AVojeCDyaDu7tkes3yLcdg54vF1jRYViltmg3v8b7TR2tNHbM3&c=60deab2f9bca9420d23f4f6f&watermark[content]=navarro.andre%40live.cl" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ㅤTVNㅤ</div></div></div>'
+        },
+        'TVNPLAY': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVN.svg"></img> PLAY',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTVNPLAY.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ㅤTVNㅤ</div></div></div>'
         },
         //'CHVEVENTOS': {
         //    'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img> EVENTOS',
