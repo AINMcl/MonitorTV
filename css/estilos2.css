@@ -28,29 +28,7 @@ body {
     }
 }
 
-/* reloj */
-.hora {
-    color: rgb(255, 255, 255);
-    font-size: 1.5em;
-    pointer-events: none;
-    text-align: center;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
-}
 
-/* mencion time.is */
-.time-credits {
-    font-size: 12px; 
-    text-align: center; 
-    color: #83c7f7;
-    margin-top: 0rem;
-    margin-bottom: .5rem;
-}
-
-#time_is_link:hover {
-    color: #fff;
-    text-decoration: none;
-}
 
 /* selector nº streams */
 label {
@@ -168,15 +146,16 @@ input::-moz-focus-outer {
     font-weight: bold;
 }
 
+
 .compartir-body{
     text-align:center;
 }
 
 /* botones de canales */
 .modal-body button {
-    margin-right: 1em;
+    margin-right: 0.8em;
     width: 30%;
-    margin-bottom: 0.4em;
+    margin-bottom: 0.5em;
 }
 
 @media(min-width: 800px) {
