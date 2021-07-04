@@ -699,7 +699,9 @@ init: function() {
         App.add("24HTVN");
         App.add("CNN_CHILE");
         App.add("MEGANOTICIAS");
-        App.add("TVNPLAY");
+        App.add("T13_ENVIVO");
+        App.add("CONVENCION_CONSTITUCIONAL");
+        App.add("Barras_1");
 
     }
 }
