@@ -2495,7 +2495,7 @@ left: 0%;
   display: inline-block;
   background:rgba(0, 0, 0, 0);
   margin: 0px;
-  width: 7%;
+  width: auto;
   height: 20px;
   line-height: 20px;
   font-size: 10px;
