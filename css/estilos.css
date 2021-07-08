@@ -1836,7 +1836,7 @@ left: 0%;
   width: auto;
   height: 20px;
   line-height: 20px;
-  font-size: 10px;
+  font-size: 11px;
   padding: 0px;
   font-weight: bold;
   text-align: center;
@@ -1972,7 +1972,7 @@ left: 0%;
   width: auto;
   height: 20px;
   line-height: 20px;
-  font-size: 10px;
+  font-size: 11px;
   padding: 0px;
   font-weight: bold;
   text-align: center;
@@ -2020,7 +2020,7 @@ left: 0%;
   width: auto;
   height: 20px;
   line-height: 20px;
-  font-size: 10px;
+  font-size: 11px;
   padding: 0px;
   font-weight: bold;
   text-align: center;
@@ -2039,7 +2039,7 @@ left: 0%;
   width: 100%;
   height: 20px;
   line-height: 20px;
-  font-size: 10px;
+  font-size: 11px;
   padding: 0px;
   font-weight: bold;
   text-align: center;
@@ -2476,7 +2476,7 @@ left: 0%;
   width: auto;
   height: 20px;
   line-height: 20px;
-  font-size: 10px;
+  font-size: 11px;
   padding: 0px;
   font-weight: bold;
   text-align: center;
@@ -3082,6 +3082,11 @@ left: 0%;
 .TextoTitulosMonitor1:hover{
   background:#ffffff;
   color:rgb(0, 0, 0)
+}
+
+
+.ZonaRelojes{
+
 }
 
 

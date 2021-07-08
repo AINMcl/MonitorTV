@@ -222,9 +222,9 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/NoLogo.svg"></img>ﾠSENADO TV',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalSENADO_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ㅤSENADO TVㅤ</div></div></div>'
         },
-        'CONVENCION_CONSTITUCIONAL_2': {
+        'CONVENCION_CONSTITUCIONAL': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/NoLogo.svg"></img> CONVENCION CONSTITUCIONAL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCONVENCION_CONSTITUCIONAL_2.html" frameborder="0"></iframe><a href="SeñalCONVENCION_CONSTITUCIONAL_2.html" class="FondoTitulosMonitor1"><div class="TextoTitulosSeñales2 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONALㅤ</div></a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCONVENCION_CONSTITUCIONAL.html" frameborder="0"></iframe><a href="SeñalCONVENCION_CONSTITUCIONAL_2.html" class="FondoTitulosMonitor1"><div class="TextoTitulosSeñales2 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONALㅤ</div></a></div>'
         },
         'PRESIDENCIA': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_GOB.svg"></img>ﾠPRESIDENCIA',
