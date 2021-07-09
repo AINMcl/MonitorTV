@@ -1988,28 +1988,7 @@ left: 0%;
   color:#fff
 }
 
-.BotonSeleccionarSeñales2{
-  display: inline-block;
-  background:rgba(37, 37, 37, 0.349);
-  margin: 0px;
-  width: 6%;
-  height: 20px;
-  line-height: 17px;
-  font-size: 10px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #ffffff;
-  cursor:
-  pointer;
-  transition:all .5s
-}
 
-.BotonSeleccionarSeñales2:hover{
-  background:#0026ff;
-  color:#fff
-}
 
 
 .SeleccionarStreamsPorFila{
@@ -3087,6 +3066,62 @@ left: 0%;
 
 .ZonaRelojes{
 
+}
+
+.BotonLapiz{
+  position: absolute;
+  top: 1%;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.BotonSeleccionarSeñales2{
+  display: inline-block;
+  position: absolute;
+  left: 1%;
+  background:rgba(0, 0, 0, 0);
+  margin: 0px;
+  width: auto;
+  height: 20px;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #ffffff00;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+.BotonSeleccionarSeñales2:hover{
+  background:#ff5e00;
+  color:#fff
+}
+
+.BotonSeleccionarSeñales2_Antiguo{
+  display: inline-block;
+  background:rgba(37, 37, 37, 0.349);
+  margin: 0px;
+  width: 6%;
+  height: 20px;
+  line-height: 17px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonSeleccionarSeñales2_Antiguo:hover{
+  background:#0026ff;
+  color:#fff
 }
 
 
