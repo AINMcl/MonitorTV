@@ -47,7 +47,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCHV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ㅤCHVㅤ</div></div></div>'
         },
         'CANAL 13': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CANAL13.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CANAL_13.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCANAL13.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ㅤCANAL 13ㅤ</div></div></div>'
         },
         'LARED': {
