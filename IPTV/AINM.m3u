@@ -88,7 +88,7 @@ https://hd.chileservidores.cl:1936/chiloefive/chiloefive/chunklist_w883069087.m3
 http://v3.tustreaming.cl/genialtv/live1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.rln.cl/wp-content/uploads/2018/04/Logo_Radio_Las_Nieves-300x132.png" group-title="Radio Video", Radio Canal Sur Patagonia
-https://v2.tustreaming.cl/rln/live1/tracks-v1a1/mono.m3u8
+https://v1.tustreaming.cl:19360/canalsurpatagoniatv/canalsurpatagoniatv.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/mQc7MK9.png" group-title="Radio Video", BioBioTV
 https://unlimited2-cl.dps.live/bbtv/bbtv.smil/playlist.m3u8
