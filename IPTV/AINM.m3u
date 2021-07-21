@@ -1,0 +1,318 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://lisa.zapping.live/uploads/canales/white/ucv3.png" group-title="Nacional", UCV3
+https://unlimited10-cl.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-eU8EzKPxxwk/W_daaXlf4FI/AAAAAAAAmfU/8PRBaU82Y4USPw-4FTuAQ_fWDDcTnYbpgCL0BGAYYCw/h66/2018-11-22.png" group-title="Nacional", TV+ !!
+https://tls.cdnz.cl/zappingtv18/smil:stream1.smil/playlist.m3u8?201.187.125.69&wowzatokenendtime=1562254680&wowzatokenhash=eZ5H9ulM_XFtDph5ohUcZPjKZiruake4SKdHkAufO2U=
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/La_Red_Logotipo.svg/640px-La_Red_Logotipo.svg.png" group-title="Nacional", La Red
+https://cl-lared-lared-live.ned.media/lared/smil:lared.smil/chunklist_b1000000.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/QMVCsgS3/Logo-TVN.png" group-title="Nacional", TVN
+http://unlimited10-cl.dps.live/tvn/tvn.smil/tvn/livestream1/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/QMVCsgS3/Logo-TVN.png" group-title="Nacional", TVNPLAY
+https://mdstrm.com/live-stream-playlist-v/57a498c4d7b86d600e5461cb.m3u8?access_token=beXY66XbulqRa6pLe1dmMtwmEXQLCKJCESHjyP6dchLeugHia1hKV0gNFEqzAne0zAPcRO4W72B&c=60deab2f9bca9420d23f4f6f&watermark[content]=navarro.andre%40live.cl
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="Nacional", TV Chile
+https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/QtYMHfNm/Logo-MEGA.png" group-title="Nacional", MEGA 
+http://unlimited1-cl.dps.live/mega/mega.smil/mega/livestream0/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/6314180f1c9c61176726fc4ebe695c23o.png" group-title="Nacional", CHILEVISION
+https://mdstrm.com/live-stream-playlist/5cc0855ddf297e136a586daa.m3u8
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/7a33554716a5fac0dd04e69d1e65d8e2o.png" group-title="Nacional", CANAL 13
+https://cl-canal13-13now-live.ned.media/live.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZK9sCHxq/Logo-GOB.png" group-title="Noticias", Prensa Presidencia Chile
+http://mdstrm.com/live-stream-playlist/5dc17f8944795108a2a52a49.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CNN_Chile_logo_2017.svg/480px-CNN_Chile_logo_2017.svg.png" group-title="Noticias", CNN CHILE
+https://unlimited1-cl-isp.dps.live/cnn/cnn.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/ae8059a01777a066979869891e176077o.png" group-title="Noticias", T13Movil 
+http://t13-movil-live.cdn.nedmedia.io/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="Noticias", Meganoticias
+https://mdstrm.com/live-stream-playlist-v/561430ae330428c223687e1e.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN", Señal 24 PLAY
+http://mdstrm.com/live-stream-playlist-v/57d1a22064f5d85712b20dab.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN", Señal TV Chile
+http://mdstrm.com/live-stream-playlist-v/533adcc949386ce765657d7c.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN", Señal REUTERS (ENCONDER 4)
+http://mdstrm.com/live-stream-playlist-v/53443c472c6e89675103cc4c.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN", Señal REUTERS SD (ENCONDER 4 Miniatura)
+http://mdstrm.com/live-stream-playlist-v/5a047aaeb9d0b50a8d1c36a6.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN", Señal Interna 1 (ENCODER 3)
+http://mdstrm.com/live-stream-playlist-v/5346f5f2c1e6f5810b5b9df0.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN", ENCODER 3 Miniatura
+http://mdstrm.com/live-stream-playlist-v/5a0471c2f8692a092d436768.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN", Señal Interna 2 (ENCONDER 5)
+http://mdstrm.com/live-stream-playlist-v/5346f657c1e6f5810b5b9df3.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN", Señal Interna 3 (ENCONDER 2B)
+http://mdstrm.com/live-stream-playlist-v/555c9a91eb4886825b07ee7b.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN", Wirecast 24HTVN
+http://mdstrm.com/live-stream-playlist-v/5653641561b4eba30a7e4929.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN", Wirecast 24HTVN Miniatura OFF
+http://mdstrm.com/live-stream-playlist-v/5a046add1ad9a90919c9c2a4.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN", Señal ENCONDER 1D OFF
+http://mdstrm.com/live-stream-playlist-v/5346f688db603a8b0dd9aa66.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN", Señal TVN Live (ENCODER 3D)
+http://mdstrm.com/live-stream-playlist-v/5aa03fe47d246901a936111c.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN", Señal TVN Live OFF
+http://mdstrm.com/live-stream-playlist-v/57a498c4d7b86d600e5461cb.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", APAGADA
+http://mdstrm.com/live-stream-playlist/59ba857579d29cf607557ff2.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", APAGADA
+http://mdstrm.com/live-stream-playlist/591f67a4232da1260ac8c950.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", INFANTIL
+http://mdstrm.com/live-stream-playlist/5e74e53f1ab4eb073b19ef34.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", 24 PLAY
+http://mdstrm.com/live-stream-playlist/5e74e53f1ab4eb073b19ef34.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", APAGADA
+http://mdstrm.com/live-stream-playlist/58d425333168db5c07ff3bfa.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", APAGADA
+http://mdstrm.com/live-stream-playlist/58cc0bf22d212a64177fddb1.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", W24H
+http://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", APAGADA
+http://mdstrm.com/live-stream-playlist/59c3d83b7bd6237c26bca928.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", ENCODER 2A
+http://mdstrm.com/live-stream-playlist/555c9a7de50ac484167faa15.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", ENCODER 2B
+http://mdstrm.com/live-stream-playlist/555c9a91eb4886825b07ee7b.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", ENCODER 1D
+http://mdstrm.com/live-stream-playlist/5346f688db603a8b0dd9aa66.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", TV CHILE
+http://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", ENCODER 3
+http://mdstrm.com/live-stream-playlist/5346f5f2c1e6f5810b5b9df0.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", ENCODER 4 - SEÑAL REUTERS
+http://mdstrm.com/live-stream-playlist/53443c472c6e89675103cc4c.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", ENCODER 5
+http://mdstrm.com/live-stream-playlist/5346f657c1e6f5810b5b9df3.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", TVN LIVE
+http://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", ENCODER 3D
+http://mdstrm.com/live-stream-playlist/5aa03fe47d246901a936111c.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", TV EDUCA CHILE
+http://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", APAGADA
+http://mdstrm.com/live-stream-playlist/55defd629cbcc3a41481e79e.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="24HTVN_2", ENCODER3F
+http://mdstrm.com/live-stream-playlist/5ae32332eab43401f679b4dc.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS Señal 1
+http://mdstrm.com/live-stream-playlist-v/5346f5f2c1e6f5810b5b9df0.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS Señal 2
+https://mdstrm.com/live-stream-playlist-v/5346f657c1e6f5810b5b9df3.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS Señal 3 REUTERS
+http://mdstrm.com/live-stream-playlist-v/53443c472c6e89675103cc4c.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS Señal 4
+http://mdstrm.com/live-stream-playlist-v/555c9a91eb4886825b07ee7b.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS Señal 5 W24H
+http://mdstrm.com/live-stream-playlist-v/5653641561b4eba30a7e4929.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CNN_Chile_logo_2017.svg/480px-CNN_Chile_logo_2017.svg.png" group-title="CNNChile", CNNChile Señal Interna1
+http://unlimited10-cl.dps.live/cnnprensa/cnnprensa.smil/cnnprensa/livestream1/chunks.m3u8?
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="MEGANOTICIAS", Meganoticias Señal 1
+http://mdstrm.com/live-stream-playlist-v/561430ae330428c223687e1e.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="MEGANOTICIAS", Meganoticias Señal 2
+http://mdstrm.com/live-stream-playlist-v/5ddfebf14bee0054b9b3fd14.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="MEGANOTICIAS", Meganoticias Señal 3
+http://mdstrm.com/live-stream-playlist-v/5ddfef39d0ff235bffface57.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="MEGANOTICIAS", Meganoticias Señal 4
+http://mdstrm.com/live-stream-playlist-v/56f97fc0b9bb39786b04a3b0.m3u8
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/eb9ddb53d35283e2eb417c0f630014c6o.png" group-title="Radio Video", ADN Radio
+http://unlimited5-cl.dps.live/adntv/adntv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/eb9ddb53d35283e2eb417c0f630014c6o.png" group-title="Radio Video", ADN Radio
+http://unlimited6-cl.dps.live/adntv/adntv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/2e9f8941464d152ccbcbfcd5e82a17eco.png" group-title="Radio Video", Cooperativa 
+http://unlimited1-cl.dps.live/coopetv/coopetv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.rln.cl/wp-content/uploads/2018/04/Logo_Radio_Las_Nieves-300x132.png" group-title="Radio Video", Radio Las Nieves
+https://v2.tustreaming.cl/rln/live1/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/fafa1a51a52a8243e61f6eb26130d30ao.png" group-title="Radio Video", Radio Milenaria
+https://hd.chileservidores.cl:1936/chiloefive/chiloefive/chunklist_w883069087.m3u8
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/2161d073afc91ac52c7483e2945aa250o.png" group-title="Radio Video", Radio GenialTV
+http://v3.tustreaming.cl/genialtv/live1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.rln.cl/wp-content/uploads/2018/04/Logo_Radio_Las_Nieves-300x132.png" group-title="Radio Video", Radio Canal Sur Patagonia
+https://v2.tustreaming.cl/rln/live1/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mQc7MK9.png" group-title="Radio Video", BioBioTV
+https://unlimited2-cl.dps.live/bbtv/bbtv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/m3z8A1T.png" group-title="Radio Video", Portales TV
+https://stream2.polarhost.cl/show/portales2_720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OBOcrnh.png" group-title="Radio Video", Patagonia Radio TV
+http://190.13.162.20/patagoniaradio.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/79rskM9.png" group-title="Radio Video", Radio Pudahuel
+https://unlimited2-cl.dps.live/pudahueltv/pudahueltv.smil/pudahueltv/livestream2/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GvEOvsA.png?1" group-title="Radio Video", Pauta FM
+http://video-ply.pauta.cl/playlist/stream.m3u8?s=pauta-hd
+ 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vNMJYXr.png" group-title="Radio Video", Tele13 Radio
+https://t13-radio-live.cdn.nedmedia.io/index_1.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kanbukZ.png" group-title="Radio Video",Radio Futuro
+https://unlimited10-cl.dps.live/futurotv/futurotv.smil/futurotv/livestream3/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://radiolaclave.cl/wp-content/themes/xso/img/logo_2019.png" group-title="Radio Video",La Clave
+https://unlimited5-cl.dps.live/laclavetv/laclavetv.smil/laclavetv/livestream1/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Cby0pCd.png" group-title="Radio Video",ae Radio DuocUC Concepción
+https://tls.cdnz.cl/aeradio/live/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/eb9ddb53d35283e2eb417c0f630014c6o.png" group-title="Radio Audio", ADNRadio
+http://19173.live.streamtheworld.com/ADNAAC.aac
+
+#EXTINF:-1 tvg-logo="https://www.rln.cl/wp-content/uploads/2018/04/Logo_Radio_Las_Nieves-300x132.png" group-title="Radio Audio", Radio Las Nieves
+http://audio2.tustreaming.cl:8044/stream
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/91dbfa28525a2201fae3c7602a8d1196o.png" group-title="Radio Audio", FM del Mar
+http://162.210.196.142:5493/1
+
+#EXTINF:-1 tvg-logo="http://images.eltelon.com/cache/media/22/square_150x150-2.jpg" group-title="Radio Audio", Radio Corazon
+http://18723.live.streamtheworld.com/CORAZONAAC.aac
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/1507f8c7e2638d0fdc9933321e3493b2o.png" group-title="Radio Audio", LA FM
+http://198.15.77.50:9954/;
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/1507f8c7e2638d0fdc9933321e3493b2o.png" group-title="Radio Audio", Radio Milenaria
+http://stream5.eltelon.com/archi-milenaria.aac
+
+#EXTINF:-1 tvg-logo="http://images.eltelon.com/cache/media/293/square_220x220-2.jpg" group-title="Radio Audio", Radio Santa Maria
+http://stream5.eltelon.com/santa-maria.aac
+
+#EXTINF:-1 tvg-logo="https://us0-cdn.onlineradiobox.com/img/logo/2/3192.v2.png" group-title="Radio Audio", Radio Ventisqueros
+http://archi-us.digitalproserver.com/ventisqueros-coyhaique.aac
+
+#EXTINF:-1 tvg-logo="http://images.eltelon.com/cache/media/3807/square_150x150-2.jpg" group-title="Radio Audio", 45 Sur
+http://stream5.eltelon.com/45-sur.aac
+
+#EXTINF:-1 tvg-logo="http://images.eltelon.com/cache/media/180/square_150x150-2.jpg" group-title="Radio Audio", Radio Apocalipsis
+http://stream5.eltelon.com/radio-apocalipsis.aac
+
+#EXTINF:-1 tvg-logo="http://images.eltelon.com/cache/media/302/square_150x150-2.jpg" group-title="Radio Audio", Radio Coyhaique
+http://stream5.eltelon.com/radio-coyhaique.aac
+
+#EXTINF:-1 tvg-logo="http://roccotv.cl/wp-content/uploads/2015/02/roccotv.png" group-title="Local Aysen", Santa Maria TV
+https://unlimited1-cl.dps.live/smtv/smtv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://canal11aysen.cl/wp-content/uploads/2019/01/12644790_1030315780368069_1993986401597363388_n-300x300.png" group-title="Local Aysen", Canal 11
+https://v2.tustreaming.cl/canal11aysen/live1/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="http://roccotv.cl/wp-content/uploads/2015/02/roccotv.png" group-title="Local Aysen", RoccoTV
+http://evo.eltelon.com:1935/live/rocco-tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.fevochi.cl/wp-content/uploads/2012/04/CDO-250.jpg" group-title="Deportes", CDO B
+http://edge1.cl.grupoz.cl/cdofree/live/chunklist_w102518198.m3u8 
+
+#EXTINF:-1 tvg-logo="https://www.nasa.gov/sites/default/files/images/nasaLogo-570x450.png" group-title="NASA", NASA TV Public-Education
+http://iphone-streaming.ustream.tv/uhls/6540154/streams/live/iphone/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.nasa.gov/sites/default/files/images/nasaLogo-570x450.png" group-title="NASA", NASA TV Media
+http://iphone-streaming.ustream.tv/uhls/10414700/streams/live/iphone/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.nasa.gov/sites/default/files/images/nasaLogo-570x450.png" group-title="NASA", NASA LaRC
+http://iphone-streaming.ustream.tv/uhls/7549153/streams/live/iphone/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.nasa.gov/sites/default/files/images/nasaLogo-570x450.png" group-title="NASA", ISS CAM SD
+http://iphone-streaming.ustream.tv/uhls/9408562/streams/live/iphone/playlist.m3u8a
+
+#EXTINF:-1 tvg-logo="https://www.nasa.gov/sites/default/files/images/nasaLogo-570x450.png" group-title="NASA", ISS CAM HD
+http://iphone-streaming.ustream.tv/uhls/17074538/streams/live/iphone/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/The_Weather_Channel_logo_2005-present.svg/300px-The_Weather_Channel_logo_2005-present.svg.png" group-title="Meteorologia",The Weather Channel
+http://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8
+ 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5pGBIfq.png" group-title="Meteorologia",Weather Nation
+http://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/1024px-Deutsche_Welle_symbol_2012.svg.png" group-title="Internacional", DW en Español
+http://dwstream3-lh.akamaihd.net/i/dwstream3_live@124409/index_1_av-p.m3u8?sd=10&amp;play-only=primary&amp;rebase=on
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="Internacional", France24 ESP
+http://static.france24.com/live/F24_ES_LO_HLS/live_web.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="Internacional", TN
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1596933749/ei/FfIuX6SsCpSDobIP4b6amAQ/ip/181.226.169.38/id/wHn1_QVoXGM.2/source/yt_live_broadcast/requiressl/yes/tx/23722138/txs/23722138%2C23722139/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/keepalive/yes/fexp/23883098/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgIg2oyk7twtTrWmnwTOBmH9t2i94WnGrWbjRLa5pORPQCIHgSeoiP5U9RQkdaRkPjohGsrjFXp6WaZh9e4mQNa3Ha/file/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/1024px-Russia-today-logo.svg.png" group-title="Internacional", RTESP
+https://rt-esp.secure.footprint.net/1102.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/AUzQFvl.png" group-title="Internacional", HispanTV
+https://5a61de8ed719d.streamlock.net/live/smil:live.smil/chunklist_w1228860552_b644100_slen.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/702px-Logo_TVE-24h.svg.png" group-title="Internacional", 24h TVE
+https://rtvelivestream.akamaized.net/24h_dvr.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hAtKhIa.png" group-title="Internacional", 26TV ARG
+http://live-edge01.telecentro.net.ar/live/smil:c26.smil/chunklist_w1700708876_b1264000_sleng.m3u8?iptvgratis?chile.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.abc.net.au/cm/lb/8212706/data/news-logo-2017---desktop-print-data.png" group-title="Internacional", ABC News
+http://202.67.120.159:9981/stream/channelid/466181701
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f9/CBSN_channel_Logo.png" group-title="Internacional", CBSN
+http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/893844a49b7f1bd656f5fba7259de4d8o.png" group-title="TVNcl - FUERA DE SERVICIO", TVN Musica
+https://mdstrm.com/live-stream-playlist/58cc0bf22d212a64177fddb1.m3u8
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/893844a49b7f1bd656f5fba7259de4d8o.png" group-title="TVNcl - FUERA DE SERVICIO", TVN De Culto
+http://mdstrm.com/live-stream-playlist/591f67a4232da1260ac8c950.m3u8
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/893844a49b7f1bd656f5fba7259de4d8o.png" group-title="TVNcl - FUERA DE SERVICIO", TVN Kids
+https://mdstrm.com/live-stream-playlist/5925dba039cfbf492f30b563.m3u8
