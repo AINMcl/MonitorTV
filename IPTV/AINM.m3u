@@ -82,7 +82,7 @@ http://unlimited1-cl.dps.live/coopetv/coopetv.smil/playlist.m3u8
 https://v2.tustreaming.cl/rln/live1/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/fafa1a51a52a8243e61f6eb26130d30ao.png" group-title="Radio Video", Radio Milenaria
-https://hd.chileservidores.cl:1936/chiloefive/chiloefive/chunklist_w883069087.m3u8
+https://hd.chileservidores.cl:1936/chiloefive/chiloefive/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/2161d073afc91ac52c7483e2945aa250o.png" group-title="Radio Video", Radio GenialTV
 http://v3.tustreaming.cl/genialtv/live1/index.m3u8
