@@ -110,6 +110,7 @@ var App = {
         //    'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVNCL.svg"></img>ﾠ1',
         //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://strm.tvn.cl/testbed/limpio.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ㅤTVNㅤ</div></div></div>'
         //},
+        
         //'TVN.cl2': {
         //    'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVNCL.svg"></img>ﾠ2',
         //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://live.mrf.io/www.tvn.cl/index/widgets.amp.html?src=www.tvn.cl/index/MediastreamVideo.js&index=0&sectionName=home&selector=.ppal_contenidoEventoEnVivo#%7B%22divId%22%3A%22%22%2C%22param%22%3A%7B%7D%7D" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ㅤTVNㅤ</div></div></div>'
@@ -126,10 +127,10 @@ var App = {
         //    'nombre': ' TNT',
         //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTNT.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ㅤTNTㅤ</div></div></div>'
         //},
-        'MUNIAYSEN_TV': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MuniAysen.svg"></img>ﾠMUNIAYSEN TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalMUNIAYSEN_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ㅤMUNIAYSEN TVㅤ</div></div></div>'
-        },
+        //'MUNIAYSEN_TV': {
+        //    'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MuniAysen.svg"></img>ﾠMUNIAYSEN TV',
+        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalMUNIAYSEN_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ㅤMUNIAYSEN TVㅤ</div></div></div>'
+        //},
         'RLN': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_RLN.svg"></img>ﾠ',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIOLASNIEVES.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TEXTOTituloDePantallaPequeña2">ㅤRADIO LAS NIEVESㅤ</div></div></div>'
