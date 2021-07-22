@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
 
-    <title> Datos Sismos</title>
+    <title> Datos Sismos 4</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"/>
 
-    <link href="../css/estilos.css" rel="stylesheet" type="text/css"/>
-    <link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
+    <link href="../../css/estilos.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href='../../imagenes/Icon.png' type="image/png"/>
 
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet"/>
@@ -46,59 +46,55 @@
                 body += `
 
                       <div class="TituloSismo">
-		                    ${data[i].fechaLocal} | ${data[i].geoReferencia}
+		                    ${data[i].fechaLocal} | ${data[i].geoReferencia} | Preliminar: ${data[i].preliminar}
 	                    </div>
-	                    <div class="ImagenSismo">
-                      <div style="position: relative; float:left; width: auto; height:100%">
-		                      <img height="100%" width="auto"
-		                      src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-star-stroked+FF0000(${data[i].longitud},${data[i].latitud})/${data[i].longitud},${data[i].latitud},7,0/1000x1000?access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ"frameborder="0"></img>
-                      </div>
+                      <div class="ImagenSismo2" style="position: relative; float:left; width: 25%; height:100%">
+		                      <img height="100%" width="100%"
+		                      src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-star-stroked+FF0000(${data[i].longitud},${data[i].latitud})/${data[i].longitud},${data[i].latitud},6,0/600x600?access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ"frameborder="0"></img>
+                          <img height="100%" width="100%"
+		                      src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-star-stroked+FF0000(${data[i].longitud},${data[i].latitud})/${data[i].longitud},${data[i].latitud},8,0/600x600?access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ"frameborder="0"></img>
 	                    </div>
 	                    <div class="DatosSismo">
 		                  <div class="BarraDato">
-		                    REFERENCIA:
-		                  </div>
-		                  <div class="BarraDato2">
-			                **Sismo a ${data[i].geoReferencia}**
+		                    CSN:
 		                  </div>
 
+                      
+                      <div class="BarraDato2">
+                        ${data[i].magnitudes}
+		                  </div>
+		                  <div class="BarraDato2">
+                        ${data[i].geoReferencia}
+		                  </div>
+
+		                  <div class="BarraDato2">
+                        ${data[i].fechaLocal} (CHILE)
+		                  </div>
+
+		                  <div class="BarraDato2">
+                        ${data[i].latitud},${data[i].longitud}
+		                  </div>
+
+		                  <div class="BarraDato2">
+			                ${data[i].profundidad} Km de Profundidad
+		                  </div>
+                      <br>
                       <div class="BarraDato">
-		                  FECHA LOCAL:
+		                    LINK CSN:
 		                  </div>
-		                  <div class="BarraDato2">
-			                ${data[i].fechaLocal}
+                      <div class="BarraDato2">
+                        ${data[i].enlace}
 		                  </div>
+                      <BR>
+                        <div class="BarraDato">
+		                    LINK IMAGEN:
+		                  </div>
+                      <div class="BarraDato2">
+                        https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-star-stroked+FF0000(${data[i].longitud},${data[i].latitud})/${data[i].longitud},${data[i].latitud},7,0/600x600?access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ
+		                  </div>
+                      
 
-                      <div class="BarraDato">
-		                  FECHA UTC:
-		                  </div>
-		                  <div class="BarraDato2">
-			                ${data[i].fechaUTC}
-		                  </div>
-
-                      <div class="BarraDato">
-		                  LATITUD:
-		                  </div>
-		                  <div class="BarraDato2">
-			                ${data[i].latitud}
-		                  </div>
-
-                      <div class="BarraDato">
-		                  LONGITUD:
-		                  </div>
-		                  <div class="BarraDato2">
-			                ${data[i].longitud}
-		                  </div>
-
-                      <div class="BarraDato">
-		                  PROFUNDIDAD:
-		                  </div>
-		                  <div class="BarraDato2">
-			                ${data[i].profundidad} Km
-		                  </div>
-
-
-
+                      
 
 	                    </div>
                 
