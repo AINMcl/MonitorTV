@@ -3124,6 +3124,42 @@ left: 0%;
   color:#fff
 }
 
+.BarraSeñalesVideo{
+  width: 100%;
+  height: 5%;
+  background-color: #0000df;
+  bottom: 0px;
+}
+
+.FondoTitulosMonitorDOS{
+  background: rgb(0, 0, 0);
+  margin: 0 auto;
+  width: 100%;
+  height: 8%;
+  line-height: auto;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  left: 0%;
+}
+
+.TextoTitulosSeñalesDOS{
+  background: rgba(0, 0, 0, 0);
+  margin: 0 auto;
+  width: auto;
+  height: 100%;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  display:inline-table;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
 
 
 
