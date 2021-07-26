@@ -1837,6 +1837,7 @@ left: 0%;
 .TEXTO_BotonIrAHome{
   display: inline-block;
   background:rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
   margin: 0px;
   width: auto;
   height: 20px;
@@ -1973,6 +1974,7 @@ left: 0%;
 .BotonSeleccionarSeñales{
   display: inline-block;
   background:rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
   margin: 0px;
   width: auto;
   height: 20px;
@@ -1999,7 +2001,7 @@ left: 0%;
 .SeleccionarStreamsPorFila{
   display: inline-block;
   background:rgba(0, 0, 0, 0);
-  
+  backdrop-filter: blur(5px);
   margin: 0px;
   width: auto;
   height: 20px;
@@ -2018,6 +2020,7 @@ left: 0%;
 .StreamsPorFila{
   display: inline-block;
   background:rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
   border-color: rgba(0, 0, 0, 0);
   margin: 0px;
   width: 100%;
@@ -2432,6 +2435,7 @@ left: 0%;
 .Selecciones2{
   display: inline-block;
   background:rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
   border-color: rgba(0, 0, 0, 0);
   margin: 0px;
   width: 100%;
@@ -2456,6 +2460,7 @@ left: 0%;
 .Boton_ON_OFF_Titulos{
   display: inline-block;
   background:rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
   margin: 0px;
   width: auto;
   height: 20px;
