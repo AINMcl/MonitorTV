@@ -1781,7 +1781,12 @@ left: 0%;
 
 
 .TEXTOTituloDePantallaGrande{
-  background: rgba(0, 0, 0, 0.6);
+  background-image: linear-gradient(
+-225deg
+, rgba(18, 20, 23, 0.6) 0%, rgba(18, 20, 23, 0.75) 28%, rgba(18, 20, 23, 0.71) 71%, rgba(18, 20, 23, 0.4) 100%);margin: 0 auto;
+
+
+  backdrop-filter: blur(5px);
   margin: 0 auto;
   width: 20%;
   height: 20px;
@@ -2488,7 +2493,14 @@ left: 0%;
   transition:all .5s
 }
 .Boton_ON_OFF_Botones:hover{
-  background:#ff5e00;
+  background-image: linear-gradient(-225deg
+rgba(37, 40, 44, 0.6) 0%,
+rgba(41, 45, 49, 0.75) 28%,
+rgba(38, 41, 46, 0.71) 71%,
+rgba(37, 41, 46, 0.4) 100%);
+
+
+  backdrop-filter: blur(5px);
   color:#fff
 }
 
@@ -2510,7 +2522,12 @@ left: 0%;
   transition:all .5s
 }
 .Boton_ON_OFF_Botones2:hover{
-  background:#ff5e00;
+  background-image: linear-gradient(
+-225deg
+, rgba(18, 20, 23, 0.6) 0%, rgba(18, 20, 23, 0.75) 28%, rgba(18, 20, 23, 0.71) 71%, rgba(18, 20, 23, 0.4) 100%);margin: 0 auto;
+
+
+  backdrop-filter: blur(5px);
   color:#fff
 }
 
@@ -2970,7 +2987,12 @@ left: 0%;
 }
 
 .TextoTitulosSeñales{
-  background: rgba(0, 0, 0, 0.6);
+  background-image: linear-gradient(
+    -225deg
+    , rgba(18, 20, 23, 0.6) 0%, rgba(18, 20, 23, 0.75) 28%, rgba(18, 20, 23, 0.71) 71%, rgba(18, 20, 23, 0.4) 100%);margin: 0 auto;
+    
+    
+  backdrop-filter: blur(5px);
   margin: 0 auto;
   width: auto;
   height: 100%;
@@ -3038,9 +3060,20 @@ left: 0%;
   left: 0%;
 }
 
-
+/*--------
+box-shadow: rgb(255 7 7 / 50%) 0px 2px 4px 0px;
+background-image: linear-gradient(
+-225deg
+, rgba(18, 20, 23, 0.6) 0%, rgba(18, 20, 23, 0.75) 28%, rgba(18, 20, 23, 0.71) 71%, rgba(18, 20, 23, 0.4) 100%);--------*/
 .TextoTitulosMonitor1{
-  background: rgba(0, 0, 0, 0.6);
+  background-image: linear-gradient(-192deg,
+rgba(41, 43, 48, 0.5) 0%,
+rgba(9, 10, 12, 0.7) 40%,
+rgba(9, 10, 12, 0.7) 60%,
+rgba(41, 43, 48, 0.5) 100%);
+
+
+  backdrop-filter: blur(5px);
   margin: 0 auto;
   width: auto;
   height: auto;
@@ -3144,7 +3177,12 @@ left: 0%;
 }
 
 .TextoTitulosSeñalesDOS{
-  background: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(
+-225deg
+, rgba(18, 20, 23, 0.6) 0%, rgba(18, 20, 23, 0.75) 28%, rgba(18, 20, 23, 0.71) 71%, rgba(18, 20, 23, 0.4) 100%);margin: 0 auto;
+
+
+  backdrop-filter: blur(5px);
   margin: 0 auto;
   width: auto;
   height: 100%;
