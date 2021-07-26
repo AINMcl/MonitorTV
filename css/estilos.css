@@ -2493,14 +2493,8 @@ left: 0%;
   transition:all .5s
 }
 .Boton_ON_OFF_Botones:hover{
-  background-image: linear-gradient(-225deg
-rgba(37, 40, 44, 0.6) 0%,
-rgba(41, 45, 49, 0.75) 28%,
-rgba(38, 41, 46, 0.71) 71%,
-rgba(37, 41, 46, 0.4) 100%);
-
-
   backdrop-filter: blur(5px);
+    background-color: rgba(238, 75, 0, 0.562);
   color:#fff
 }
 
