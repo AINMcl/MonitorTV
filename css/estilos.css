@@ -2908,7 +2908,7 @@ rgba(37, 41, 46, 0.4) 100%);
 }
 
 .BotonTV_Señales:hover{
-  background-color: rgb(4, 0, 255, 0.3);
+  background-color: rgb(4, 0, 255, 0.2);
   border-color: #0000df;
   border-width: 3px;
   font-weight: bold;
@@ -2917,7 +2917,7 @@ rgba(37, 41, 46, 0.4) 100%);
 
 
 .BotonTV_SeñalSeleccionada{
-  background-color: rgba(0, 173, 0, 0.4);
+  background-color: rgba(0, 173, 0, 0.3);
   backdrop-filter: blur(5px);
   font-family: 'Assistant', sans-serif;
   font-weight: bold;
@@ -2933,7 +2933,7 @@ rgba(37, 41, 46, 0.4) 100%);
   
 .BotonTV_SeñalSeleccionada:hover{
   color:rgb(255, 0, 0);
-  background-color:rgb(255, 0, 0, 0.3);
+  background-color:rgb(255, 0, 0, 0.2);
   backdrop-filter: blur(8px);
   border-width: 3px;
   border-color:#ff0000
