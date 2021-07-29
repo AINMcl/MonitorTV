@@ -2988,12 +2988,8 @@ left: 0%;
 }
 
 .TextoTitulosSeñales{
-  background-image: linear-gradient(
-    -225deg
-    , rgba(18, 20, 23, 0.6) 0%, rgba(18, 20, 23, 0.75) 28%, rgba(18, 20, 23, 0.71) 71%, rgba(18, 20, 23, 0.4) 100%);margin: 0 auto;
-    
-    
-  backdrop-filter: blur(5px);
+  background: rgba(19, 18, 18, 0.55);
+  backdrop-filter: blur(3px);
   margin: 0 auto;
   width: auto;
   height: 100%;
