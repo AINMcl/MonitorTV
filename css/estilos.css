@@ -3190,6 +3190,12 @@ background-image: linear-gradient(
   transition:all .5s
 }
 
+.NombreSeñalMonitor15{
+  display:flex;
+  justify-content:space-between;
+  padding:6px;
+  background-color:rgba(31, 28, 28, 0.966)}
+
 
 
 
