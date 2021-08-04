@@ -33,11 +33,9 @@ const channelsData = [
 
   function channelTemplate(channel) {
     return `
-  
       <div class="channel-grid ${channel.id}-channel ${channel.visibilidad}">
           <div id="video" class="video-container" style="--aspect-ratio: 16 / 9;">
               <iframe id="player" width="100%" src="${channel.source}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              
         </div>
           <a href="${channel.source}" class="NombreSeñalMonitor15"><h4>${channel.name}</h4></a>
       </div>
