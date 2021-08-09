@@ -706,7 +706,6 @@ init: function() {
         App.add("24HTVN");
         App.add("CNN_CHILE");
         App.add("MEGANOTICIAS");
-        App.add("TVN");
         
 
     }
