@@ -707,8 +707,6 @@ init: function() {
         App.add("CNN_CHILE");
         App.add("MEGANOTICIAS");
         App.add("TVN");
-        App.add("AYUDA");
-        App.add("RELOJES2");
         
 
     }
