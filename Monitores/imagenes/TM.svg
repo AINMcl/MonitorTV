@@ -16,32 +16,29 @@
 <rect x="151.8" y="49.1" class="st1" width="17.9" height="53.6"/>
 <rect x="102.7" y="49.1" class="st1" width="17.9" height="53.6"/>
 <g>
-	<defs>
-		<polygon id="SVGID_1_" points="281.9,291.5 614.9,291.5 614.9,-41.5 281.9,-41.5 281.9,291.5 		"/>
-	</defs>
-	<defs>
-		<polygon id="SVGID_2_" points="281.9,-41.5 614.9,-41.5 614.9,291.5 281.9,291.5 281.9,-41.5 		"/>
-	</defs>
-	<clipPath id="SVGID_3_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	<clipPath id="SVGID_4_" class="st2">
-		<use xlink:href="#SVGID_2_"  style="overflow:visible;"/>
-	</clipPath>
-	<g class="st3">
-		<g>
+	<g>
+		<defs>
+			<polygon id="SVGID_1_" points="294.6,263.6 571.6,263.6 571.6,-13.4 294.6,-13.4 294.6,263.6 			"/>
+		</defs>
+		<defs>
+			<polygon id="SVGID_2_" points="294.6,-13.4 571.6,-13.4 571.6,263.6 294.6,263.6 294.6,-13.4 			"/>
+		</defs>
+		<clipPath id="SVGID_3_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<clipPath id="SVGID_4_" class="st2">
+			<use xlink:href="#SVGID_2_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st3">
 			<defs>
-				<polygon id="SVGID_5_" points="281.9,291.5 614.9,291.5 614.9,-41.5 281.9,-41.5 281.9,291.5 				"/>
+				<polygon id="SVGID_5_" points="294.6,263.6 571.6,263.6 571.6,-13.4 294.6,-13.4 294.6,263.6 				"/>
 			</defs>
 			<clipPath id="SVGID_6_">
 				<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
 			</clipPath>
-			<g class="st4">
-				<path d="M425.9,51.2h54.9V40.9c0-7.6-6.1-13.7-13.7-13.7H323c-7.6,0-13.7,6.2-13.7,13.7v92.6c0,7.6,6.1,13.7,13.7,13.7h20.6
-					v34.3l34.3-34.3h20.6V78.6C398.5,63.5,410.8,51.2,425.9,51.2L425.9,51.2z"/>
-				<path d="M570,64.9h-144c-7.6,0-13.7,6.2-13.7,13.7v92.6c0,7.6,6.2,13.7,13.7,13.7h89.2l34.3,34.3v-34.3H570
-					c7.5,0,13.7-6.1,13.7-13.7V78.6C583.7,71,577.6,64.9,570,64.9L570,64.9z"/>
-			</g>
+			<path class="st4" d="M528.5,169.3h-194V43.7h194V169.3L528.5,169.3L528.5,169.3z M534.2,26.5H328.8c-6.3,0-11.4,5.1-11.4,11.4
+				v137c0,6.3,5.1,11.4,11.4,11.4h79.9v17.1h-28.5v17.1h102.7v-17.1h-28.5v-17.1h79.9c6.3,0,11.4-5.1,11.4-11.4V38
+				C545.6,31.7,540.5,26.5,534.2,26.5L534.2,26.5z"/>
 		</g>
 	</g>
 </g>
