@@ -735,7 +735,7 @@ udp://@239.255.2.244:2001
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Telsur", EuroChanel
 udp://@239.255.2.245:2001
 
-#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Telsur", Canal 24H TVN
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9CN1JDDL/24H.png" group-title="Telsur", Canal 24H TVN
 udp://@239.255.2.246:2001
 
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Telsur", Disney Junior
@@ -1056,7 +1056,7 @@ udp://@239.255.3.97:2001
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Telsur", (S-I)
 udp://@239.255.3.98:2001
 
-#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Telsur", Canal 24H TVN HD
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9CN1JDDL/24H.png" group-title="Telsur", Canal 24H TVN HD
 udp://@239.255.3.99:2001
 
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Telsur", TELSUR Falla_de_Origen
@@ -1137,7 +1137,7 @@ udp://@239.255.3.124:2001
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Telsur", VACIO
 udp://@239.255.3.125:2001
 
-#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Telsur", Canal 24H TVN HD
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9CN1JDDL/24H.png" group-title="Telsur", Canal 24H TVN HD
 udp://@239.255.3.126:2001
 
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Telsur", HBO Mundi HD
