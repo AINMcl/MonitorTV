@@ -1,0 +1,407 @@
+#EXTM3U
+
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", DIPUTADOS
+udp://@239.255.3.44:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", VIA X HD
+udp://@239.255.3.80:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", Zona Latina HD
+udp://@239.255.3.81:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", LaRed_HD
+udp://@239.255.2.123:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", LaRed HD
+udp://@239.255.2.233:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", LaRed
+udp://@239.255.2.10:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", TV+_HD
+udp://@239.255.2.124:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", TV+ HD
+udp://@239.255.2.232:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", TV+
+udp://@239.255.2.111:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", TVN
+udp://@239.255.2.79:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", TVN Red BioBio
+udp://@239.255.3.72:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", TVN Red BioBio
+udp://@239.255.3.73:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", TVN Red Araucania
+udp://@239.255.3.78:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", TVN Red Araucania
+udp://@239.255.3.79:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", TVN [CC]
+udp://@239.255.3.47:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", MEGA
+udp://@239.255.2.145:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", MEGA
+udp://@239.255.3.77:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", MEGA
+udp://@239.255.2.77:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", CHV
+udp://@239.255.2.76:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", CHV HD
+udp://@239.255.3.42:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", CHV HD
+udp://@239.255.3.148:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", CANAL 13
+udp://@239.255.3.201:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", Canal 13 HD
+udp://@239.255.3.155:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NACIONAL", CANAL 13 HD 720
+udp://@239.255.2.230:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", Canal 24H TVN
+udp://@239.255.2.246:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", Canal 24H TVN HD
+udp://@239.255.3.126:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", Canal 24H TVN HD
+udp://@239.255.3.99:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", CNN Chile
+udp://@239.255.3.196:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", CNN Chile
+udp://@239.255.3.186:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", CNN CHILE
+udp://@239.255.3.43:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", CNN ESP
+udp://@239.255.2.17:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", CNNI
+udp://@239.255.2.15:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", CNN BRASIL HD
+udp://@239.255.3.165:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", DW
+udp://@239.255.3.151:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", DW ESP
+udp://@239.255.3.06:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", 24hTVE
+udp://@239.255.3.68:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", FRANCE24 ESP HD
+udp://@239.255.3.46:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", France24 FR
+udp://@239.255.2.171:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", Euronews HD
+udp://@239.255.3.144:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", FOX News
+udp://@239.255.3.240:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", BBC World News
+udp://@239.255.3.244:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", BBC World News
+udp://@239.255.3.150:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", BBC World
+udp://@239.255.2.27:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", Bloomberg
+udp://@239.255.2.174:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", Bloomberg HD
+udp://@239.255.3.51:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="NOTICIAS", Bloomberg HD
+udp://@239.255.3.123:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", WarnerTV HD
+udp://@239.255.2.107:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", FOX Channel HD
+udp://@239.255.3.245:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", AXN HD
+udp://@239.255.2.227:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", ESPN+
+udp://@239.255.2.234:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", SONY HD
+udp://@239.255.2.236:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", UNIVERSAL HD
+udp://@239.255.3.18:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", SPACE
+udp://@239.255.3.37:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", SPACE HD
+udp://@239.255.3.94:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", SPACE HD
+udp://@239.255.2.254:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", FXM HD
+udp://@239.255.3.124:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", FX
+udp://@239.255.3.22:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", FX HD
+udp://@239.255.3.160:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", FXM HD
+udp://@239.255.3.39:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", CINECANAL HD
+udp://@239.255.3.163:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", TNT HD
+udp://@239.255.3.211:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", CINEMAX HD
+udp://@239.255.3.217:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", CINECANAL HD
+udp://@239.255.3.229:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", AMC HD
+udp://@239.255.3.236:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", TCM
+udp://@239.255.2.14:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="PELICULAS_Y_SERIES", TNT Series HD
+udp://@239.255.2.127:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="CIENCIA", H2 HD
+udp://@239.255.3.237:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="CIENCIA", History HD
+udp://@239.255.3.162:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="CIENCIA", NatGeo HD
+udp://@239.255.3.24:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="CIENCIA", NatGeo Wild HD
+udp://@239.255.2.253:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="CIENCIA", Discovery
+udp://@239.255.3.20:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="CIENCIA", Discovery HD
+udp://@239.255.3.119:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="CIENCIA", Discovery Theater HD
+udp://@239.255.2.252:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="CIENCIA", AnimalPlanet HD
+udp://@239.255.3.102:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="CIENCIA", HistoryHD
+udp://@239.255.2.105:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="CIENCIA", Discovery World HD
+udp://@239.255.2.109:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="CIENCIA", Discovery Science
+udp://@239.255.2.112:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Movies HD
+udp://@239.255.3.228:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Series HD
+udp://@239.255.3.224:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Family HD
+udp://@239.255.3.97:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Family HD
+udp://@239.255.3.222:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Cinema HD
+udp://@239.255.3.95:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Classics HD
+udp://@239.255.3.26:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Movies
+udp://@239.255.2.31:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Movies
+udp://@239.255.3.103:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Series
+udp://@239.255.3.225:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Series Sub
+udp://@239.255.2.32:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Series ESP
+udp://@239.255.2.102:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Series ESP
+udp://@239.255.2.33:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Action Sub
+udp://@239.255.2.93:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Action ESP
+udp://@239.255.2.91:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Action
+udp://@239.255.3.226:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Action
+udp://@239.255.3.227:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Family
+udp://@239.255.3.223:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Family
+udp://@239.255.2.29:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Family ESP
+udp://@239.255.2.92:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Cinema
+udp://@239.255.3.249:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="FOX", FOX Classics
+udp://@239.255.2.28:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO+ HD
+udp://@239.255.3.214:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO+ HD
+udp://@239.255.2.163:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO+ HD
+udp://@239.255.2.164:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO+ HD
+udp://@239.255.3.203:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO HD
+udp://@239.255.3.213:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO2 HD
+udp://@239.255.3.221:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO2 HD
+udp://@239.255.2.162:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Family HD
+udp://@239.255.3.220:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Family HD
+udp://@239.255.3.10:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Asignature HD
+udp://@239.255.2.161:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Signature HD
+udp://@239.255.3.212:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Mundi HD
+udp://@239.255.3.216:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Mundi HD
+udp://@239.255.3.127:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Extreme HD
+udp://@239.255.3.215:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Extreme HD
+udp://@239.255.3.70:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Extreme HD
+udp://@239.255.3.55:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Extreme HD
+udp://@239.255.3.56:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Pop HD
+udp://@239.255.2.251:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO+
+udp://@239.255.2.55:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO+
+udp://@239.255.2.56:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO
+udp://@239.255.2.101:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO
+udp://@239.255.2.51:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO2
+udp://@239.255.2.54:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO 2 HD
+udp://@239.255.2.162:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Family
+udp://@239.255.2.52:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Signature
+udp://@239.255.2.53:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Mundi
+udp://@239.255.2.48:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="HBO", HBO Extreme
+udp://@239.255.2.58:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Deportes", TNT Sports
+udp://@239.255.3.234:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Deportes", TNT Sports HD
+udp://@239.255.3.11:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Deportes", TNT Sports HD
+udp://@239.255.2.100:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Deportes", TNT Sports 3
+udp://@239.255.3.108:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Deportes", TNT Sports 3
+udp://@239.255.2.74:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Deportes", TNT Sports 2
+udp://@239.255.2.73:2001
+
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/757ad2d9fa333bf57626ca65241d2491o.png" group-title="Deportes", TNT Sports 2
+udp://@239.255.3.107:2001
+
+
+
+
+
+
