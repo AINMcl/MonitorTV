@@ -34,6 +34,10 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠAURONPLAY',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://player.twitch.tv/?channel=auronplay&parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤAURONPLAYㅤ</div></div></div>'
         },
+        'LUZU_Twitch': {
+            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠLUZU',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://player.twitch.tv/?channel=luzu&parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤLUZUㅤ</div></div></div>'
+        },
         'JACK_Twitch_CHAT': {
             'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠJACK',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.twitch.tv/embed/unjackwallace/chat?parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤJACK CHATㅤ</div></div></div>'
@@ -61,6 +65,10 @@ var App = {
         'AURONPLAY_Twitch_CHAT': {
             'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠAURONPLAY',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.twitch.tv/embed/auronplay/chat?parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤAURONPLAY CHATㅤ</div></div></div>'
+        },
+        'LUZU_Twitch_CHAT': {
+            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠLUZU',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.twitch.tv/embed/luzu/chat?parent=ainmcl.github.io" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤLUZU CHATㅤ</div></div></div>'
         },
         'Copano_YT': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠCOPANO',
