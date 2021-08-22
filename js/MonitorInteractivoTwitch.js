@@ -1,5 +1,5 @@
 
-var size = 4;
+var size = 6;
 
 ///6 = 2 PANTALLAS HORIZONTALMENTE///
 ///3 = 4 PANTALLAS HORIZONTALMENTE///
@@ -138,10 +138,8 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("24HTVN");
-        App.add("CNN_CHILE");
-        App.add("MEGANOTICIAS");
-
+        App.add("IBAI_Twitch");
+        App.add("AURONPLAY_Twitch");
     }
 }
 };
