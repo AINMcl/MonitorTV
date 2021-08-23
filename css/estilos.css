@@ -3194,7 +3194,101 @@ background-image: linear-gradient(
   display:flex;
   justify-content:space-between;
   padding:6px;
-  background-color:rgba(31, 28, 28, 0.966)}
+  background-color:rgba(31, 28, 28, 0.966)
+}
+
+.BotonRecargarPagina{
+  display: inline-block;
+  background:rgba(0, 0, 0, 0);
+  margin: 0px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 100%;
+  color: #ffffff00;
+  cursor:
+  pointer;
+  transition:all .3s
+}
+.BotonRecargarPagina:hover{
+  backdrop-filter: blur(5px);
+    background-color: rgb(214, 3, 3);
+  color:#fff
+}
+
+.BotonTV_SeñalesWEBTEST{
+  background-color: #ffffff;
+  font-family: 'Assistant', sans-serif;
+  font-weight: normal;
+  border-color: #171e27;
+  border-width: 2px ;
+  border-radius: 5px;
+  margin-bottom: 1px;
+  text-align: left;
+  color: #171e27;
+  cursor:
+  pointer;
+  transition:all .1s
+}
+
+.BotonTV_SeñalesWEBTEST:hover{
+  color:rgb(255, 255, 255);
+  background-color:rgb(122, 122, 122);
+  backdrop-filter: blur(8px);
+  border-width: 2px;
+  border-color:#000000
+}
+
+
+.BotonTV_SeñalSeleccionadaWEBTEST{
+  background-color: rgba(0, 173, 0, 0.3);
+  backdrop-filter: blur(5px);
+  font-family: 'Assistant', sans-serif;
+  font-weight: bold;
+  border-color:#171e27;
+  color: #fafafa;
+  border-width: 2px;
+  border-radius: 5px;
+  text-align: left;
+  cursor:
+  pointer;
+  transition:all .3s
+}
+
+.BotonTV_SeñalSeleccionadaWEBTEST:hover{
+  color:rgb(255, 0, 0);
+  background-color:rgb(255, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  border-width: 3px;
+  border-color:#ff0000
+}
+
+.Boton_Home_1{
+  display: inline-block;
+  background:rgba(0, 0, 0, 0);
+  margin: 0px;
+  width: auto;
+  height: 20px;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #ffffff00;
+  cursor:
+  pointer;
+  transition:all .2s
+}
+.Boton_Home_1:hover{
+  backdrop-filter: blur(5px);
+    background-color: rgb(44, 0, 238);
+  color:#fff
+}
 
 
 
