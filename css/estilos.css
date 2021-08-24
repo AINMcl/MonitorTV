@@ -2903,7 +2903,7 @@ left: 0%;
   color: #171e27;
   cursor:
   pointer;
-  transition:all .3s
+  transition:all .2s
 }
 
 .BotonTV_Señales:hover{
@@ -2927,7 +2927,7 @@ left: 0%;
   text-align: left;
   cursor:
   pointer;
-  transition:all .3s
+  transition:all .2s
 }
   
 .BotonTV_SeñalSeleccionada:hover{
