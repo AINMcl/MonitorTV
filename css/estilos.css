@@ -2223,6 +2223,32 @@ left: 0%;
   border-color:#8f00c7;
 }
 
+.BotonHomeM2{
+  background-color: #8f00c7;
+  border-color: #8f00c7;
+  border: 3px solid;
+  display:inline-table;
+  margin: 5px;
+  width: auto;
+  height: 50px;
+  font-size: 20PX;
+  border-radius: 9px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonHomeM2:hover{
+  color:#8f00c7;
+  background-color:#ffffff;
+  border-color:#8f00c7;
+}
+
 .BotonHomeV{
   background-color: #5abb00;
   border-color: #5abb00;
