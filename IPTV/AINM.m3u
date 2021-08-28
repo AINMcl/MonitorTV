@@ -27,8 +27,6 @@ https://mdstrm.com/live-stream-playlist/5cc0855ddf297e136a586daa.m3u8
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/7a33554716a5fac0dd04e69d1e65d8e2o.png" group-title="Nacional", CANAL 13
 https://cl-canal13-13now-live.ned.media/live.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZK9sCHxq/Logo-GOB.png" group-title="Noticias", Prensa Presidencia Chile
-http://mdstrm.com/live-stream-playlist/5dc17f8944795108a2a52a49.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CNN_Chile_logo_2017.svg/480px-CNN_Chile_logo_2017.svg.png" group-title="Noticias", CNN CHILE
 https://unlimited1-cl-isp.dps.live/cnn/cnn.smil/playlist.m3u8
@@ -41,6 +39,18 @@ https://mdstrm.com/live-stream-playlist-v/561430ae330428c223687e1e.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="Noticias", Señal 24 PLAY
 http://mdstrm.com/live-stream-playlist-v/57d1a22064f5d85712b20dab.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZK9sCHxq/Logo-GOB.png" group-title="SATELITE", Prensa Presidencia Chile
+http://mdstrm.com/live-stream-playlist/5dc17f8944795108a2a52a49.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.thomsonreuters.com.ar/content/dam/openweb/images/argentina/Artworked/16-9/rtr_ahz_rgb_pos.png.transform/rect-768/q90/image.png" group-title="SATELITE", REUTERS
+http://mdstrm.com/live-stream-playlist-v/53443c472c6e89675103cc4c.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.multivu.com/players/Spanish/8302551-telemundo-center-new-headquarters/image/TelemundoLogo_es_1522881019311-null-HR.jpg" group-title="SATELITE", TELEMUNDO
+https://tlmdhd-lh.akamaihd.net/i/tlmd1_1@79627/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/1280px-VOA_logo.svg.png" group-title="SATELITE", VOA
+https://voavvideo-i.akamaihd.net/hls/live/850902-b/VOAV_TVMC10_MRG/master_1.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Fm4yKDcN/MEDIABANCO.png" group-title="Noticias", MEDIABANCO 1
 https://unlimited1-cl-isp.dps.live/mediabanco/mediabanco.smil/playlist.m3u8
