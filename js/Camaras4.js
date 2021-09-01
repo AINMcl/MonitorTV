@@ -20,7 +20,7 @@ var App = {
         },
         'LEDRIUM_1': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠPROVIDENCIA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AZwGUIt7kJ4?autoplay=true&mute=1" frameborder="0"></iframe></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pFc5ntxJ6Mw?autoplay=true&mute=1" frameborder="0"></iframe></div>'
         },
         'OSORNO_1': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠOSORNO PLAZA ARMAS',
