@@ -2,9 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<title> TEST 1 </title>
+<title> TEST 2 </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+
 
 <link href="../css/estilos.css" rel="stylesheet" type="text/css">
 <link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
@@ -27,20 +28,46 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 </script>
 
+
+<script>
+     $(document).ready(function(){
+         $(".Boton_ON_OFF_Botones").click(function(){
+             $(".Botones").toggle();
+         });
+     });
+ </script>
+
 </head>
 <body>
-
-<div style="position: absolute; display: inline-block; width: 100%; height:100%" >
-     <div style="width: 70%; height:100%; float: left; position: absolute;">
+     <div class="TV_TWITTER" style="width: 25%; height:100%; float: left; position: absolute; left: 0%;">
           <iframe width="100%" height="100%"
-          src="https://weather.com/es-CL/tiempo/horario/l/22dd1e4e0f04e84e8f0998dbefef784d2a03dd970988bcf3e3553ced1ce25e67#detailIndex4" frameborder="0" allowfullscreen></iframe>
+          src="MonitorInteractivoPantallaTWITTER.html" frameborder="0" allowfullscreen></iframe>
      </div>
-     <div style="width: 30%; height:100%; float: left; position: absolute; left: 70%;">
-          <iframe width="100%" height="100%"
-          src="EmbedTwitter" frameborder="0" allowfullscreen></iframe>
-     </div>
-</div>
 
+     <div style="width: 25%; height:100%; float: left; position: absolute; left: 25%;">
+          <iframe width="100%" height="100%"
+          src="Twitter_6WS.html" frameborder="0" allowfullscreen></iframe>
+     </div>
+
+     <div style="width: 25%; height:100%; float: left; position: absolute; left: 50%;">
+          <iframe width="100%" height="100%"
+          src="Twitter_ALERTANEWS24.html" frameborder="0" allowfullscreen></iframe>
+     </div>
+     <div style="width: 25%; height:100%; float: left; position: absolute; left: 75%;">
+          <iframe width="100%" height="100%"
+          src="Twitter_MUNDOENCONFLICTO.html" frameborder="0" allowfullscreen></iframe>
+     </div>
+     
+
+
+      <div style="position: absolute; top: 0.3em; right: 0.3em;width: auto;height: 20px;line-height: 20px; text-align: left;">
+  
+          <a><span style="position: absorlute; " type="button" class="Boton_ON_OFF_Botones">ㅤOCULTAR BOTONESㅤ</span></a>
+
+          <a><span style="position: absorlute; " type="button" class="Boton_ON_OFF_TV">ㅤOCULTAR TVㅤ</span></a>
+  
+  
+      </div>
 
 
 
