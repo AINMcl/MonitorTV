@@ -1,8 +1,32 @@
-# AINMcl.github.io
+<p align='center'>AINMcl.github.io</p>
+<p align='center'>Monitores para ver de forma multiple señales de noticias de chile y otros paises, señales de radios y canales regionales de chile, señales de la NASA y de transmiciones de lanzamientos espaciales, señales de la convencion contitucional de chile, camara de diputados y camara del senado.</p>
 
-ULTIMA ACTUALIZACION: 5 SEP 2021
+## ACTUALIZACIONES:
+
+### 5 SEPTIEMBRE 2021
+- Señales de Canales de chile a traves de Facebook
+- CNN International
+- CNN Indonesia
+- SKY NEWS EXTRA 1
+- SKY NEWS EXTRA 2
+- SKY NEWS EXTRA 3
+- BloombergTV LIVE EVENT 1
+- BloombergTV LIVE POLITICS
+- NBC LIVE 11
+- NBC LIVE 12
+- NBC LIVE 13
+- NBC LIVE 14
+- WKYC 1
+- WKYC 2
+- KHOU 1
+- KHOU 2
+- CBS NEWS
+- CBS46 WGCL TV
+- FOX NEWS
 
 
+
+## INFO:
 
 Creado hace:
 <br>
