@@ -3339,6 +3339,90 @@ background-image: linear-gradient(
   color:#0000df;
 }
 
+.BotonRecargarPagina2{
+  display: inline-block;
+  position: absolute;
+  left: 1%;
+  background:rgba(0, 0, 0, 0);
+  margin: 0px;
+  width: auto;
+  height: 20px;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #ffffff00;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+.BotonRecargarPagina2:hover{
+  background:#ff5e00;
+  color:#fff
+}
+
+.FondoBotonRecargar{
+  background: rgb(0, 0, 0, 0.0);
+  margin: 0 auto;
+  width: 100%;
+  height: 3%;
+  line-height: 15px;
+  position: absolute;
+  top: 5px;
+  text-align: center;
+  position: absolute;
+  top: 1.5em;
+}
+
+.TextoBotonRecargar{
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(3px);
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  border-radius: 3px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  display:inline-table;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.TextoBotonRecargar:hover{
+  background:#ffffff;
+  color:rgb(0, 0, 0)
+}
+
+.TextoBotonRecargar2{
+  display: inline-block;
+  background:rgba(0, 0, 0, 0);
+  margin: 0px;
+  width: auto;
+  height: 20px;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #ffffff00;
+  cursor:
+  pointer;
+  transition:all .2s
+}
+.TextoBotonRecargar2:hover{
+  backdrop-filter: blur(5px);
+  background-color: rgb(44, 0, 238);
+  color:#fff
+}
+
 
 
 
