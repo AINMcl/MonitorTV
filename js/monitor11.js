@@ -1,258 +1,502 @@
-
-///canales/////////////////////////////////////////////////////////
-var size = 6;
-
-///6 = 2 PANTALLAS HORIZONTALMENTE///
-///3 = 4 PANTALLAS HORIZONTALMENTE///
-///4 = 3 PANTALLAS HORIZONTALMENTE///
-var App = {
-     channels: {
-        
-        '24HTVN': {
-            'nombre': '24HTVN',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Señal24HTVN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">CANAL 24H</div></div></div>'
-        },
-        'CNN_CHILE': {
-            'nombre': 'CNN CHILE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCNNCHILE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">CNN CHILE</div></div></div>'
-        },
-        'T13_MOVIL': {
-            'nombre': 'T13 MOVIL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalT13MOVIL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">T13 MOVIL</div></div></div>'
-        },
-        'MEGANOTICIAS': {
-            'nombre': 'MEGANOTICIAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_3.html" frameborder="0"></iframe><div href="../SeñalMEGANOTICIAS.html" class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">MEGANOTICIAS</div></div></div>'
-        },
-        'MEGANOTICIAS_1': {
-            'nombre': 'Señal Interna MEGANOTICIAS 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">MEGANOTICIAS 1</div></div></div>'
-        },
-        'MEGANOTICIAS_2': {
-            'nombre': 'Señal Interna MEGANOTICIAS 2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">MEGANOTICIAS 2</div></div></div>'
-        },
-        'MEGANOTICIAS_3': {
-            'nombre': 'Señal Interna MEGANOTICIAS 3',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_3.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">MEGANOTICIAS 3</div></div></div>'
-        },
-        'MEGANOTICIAS_4': {
-            'nombre': 'Señal Interna MEGANOTICIAS 4',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaMEGANOTICIAS_4.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">MEGANOTICIAS 4</div></div></div>'
-        },
-        '24PLAY': {
-            'nombre': '24PLAY',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Señal24PLAY.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">24PLAY</div></div></div>'
-        },
-        'ADNRADIO': {
-            'nombre': 'ADN RADIO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalADNRADIO.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">ADN RADIO</div></div></div>'
-        },
-        'LARED': {
-            'nombre': 'LA RED',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalLARED.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">LA RED</div></div></div>'
-        },
-        'TVN': {
-            'nombre': 'TVN',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalTVN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">TVN</div></div></div>'
-        },
-        'TVN2': {
-            'nombre': 'TVN2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalTVN_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">TVN2</div></div></div>'
-        },
-        'MEGA': {
-            'nombre': 'MEGA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalMEGA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">MEGA</div></div></div>'
-        },
-        'CHV': {
-            'nombre': 'CHV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCHV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">CHV</div></div></div>'
-        },
-        'CANAL 13': {
-            'nombre': 'CANAL 13',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalCANAL13.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">CANAL 13</div></div></div>'
-        },
-        'Señal_Interna_24HTVN_1': {
-            'nombre': 'Señal Interna 24HTVN 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">SEÑAL 24H 1</div></div></div>'
-        },
-        'Señal_Interna_24HTVN_2': {
-            'nombre': 'Señal Interna 24HTVN 2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">SEÑAL 24H 2</div></div></div>'
-        },
-        'Señal_Interna_24HTVN_3': {
-            'nombre': 'Señal Interna 24HTVN 3',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_4.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">SEÑAL 24H 3</div></div></div>'
-        },
-        'Señal_Interna_24HTVN_4': {
-            'nombre': 'Señal Interna 24HTVN 4',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInterna24H_4.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">SEÑAL 24H 4</div></div></div>'
-        },
-        'Señal_Interna_CNNCHILE_1': {
-            'nombre': 'Señal Interna CNN CHILE 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalInternaCNNCHILE_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">SEÑAL CNNCHILE 1</div></div></div>'
-        },
-        'NASA_TV_PUBLIC': {
-            'nombre': 'NASA TV PUBLIC',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalNASATVPUBLIC.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">NASA TV PUBLIC</div></div></div>'
-        },
-        'NASA_TV_MEDIA': {
-            'nombre': 'NASA TV MEDIA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalNASATVMEDIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">NASA TV MEDIA</div></div></div>'
-        },
-        'TN': {
-            'nombre': 'TN',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalTN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">TN</div></div></div>'
-        },
-        'PRESIDENCIA': {
-            'nombre': 'PRESIDENCIA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalPRESIDENCIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">PRESIDENCIA</div></div></div>'
-        },
-        'MEDIABANCO': {
-            'nombre': 'MEDIABANCO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalMEDIABANCO.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">MEDIABANCO</div></div></div>'
-        },
-        'TELEMUNDO': {
-            'nombre': 'TELEMUNDO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalTELEMUNDONOTICIAS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">TELEMUNDO</div></div></div>'
-        },
-        'REUTERS': {
-            'nombre': 'REUTERS LIVE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalREUTERS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">REUTERS</div></div></div>'
-        },
-        'AFPTVLIVE': {
-            'nombre': 'AFP TV LIVE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../SeñalAFPTV_LIVE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">AFP TV LIVE</div></div></div>'
-        },
-        
-        'RELOJES': {
-            'nombre': 'RELOJES',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Reloj_Pantalla.html" frameborder="0"></iframe></div>'
-        },
-        'ISS_SD': {
-            'nombre': 'ISS CAM SD',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Señal_ISS_SD.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">ISS SD</div></div></div>'
-        },
-        'ISS_HD': {
-            'nombre': 'ISS CAM HD',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Señal_ISS_HD.html" frameborder="0"></iframe><div class="CAJATituloDePantallaGrande"><div class="TEXTOTituloDePantallaGrande">ISS HD</div></div></div>'
-        },
+let LosCanales = [
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HORAS.svg"></img>',
+        'url': 'Señal24HTVN.html',
     },
-    add: function(canal) {
-        if (App.channels[canal]) {
-    var thisCanal = document.createElement("div");
-    thisCanal.innerHTML = App.channels[canal].code;
-
-    if (App.isMobile()) {
-        thisCanal.classList.add("col-" + sizeMobile);
-    } else {
-        thisCanal.classList.add("col-" + size);
-    }
-    thisCanal.classList.add("stream");
-    thisCanal.setAttribute("data-canal", canal);
-    var losCanales = document.getElementById("los-canales");
-    losCanales.appendChild(thisCanal);
-    var n = document.querySelector('button[data-canal="' + canal + '"]');
-    n.classList.remove("btn-outline-secondary");
-    n.classList.add("btn-primary");
-}
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CNNCHILE2.svg"></img>',
+        'url': 'SeñalCNNCHILE.html',
     },
-remove: function(canal) {
-    var findCanal = document.querySelector('div[data-canal="' + canal + '"]');
-    var losCanales = document.getElementById("los-canales");
-    if (findCanal != null) {
-        losCanales.removeChild(findCanal);
-        var n = document.querySelector('button[data-canal="' + canal + '"]');
-        n.classList.remove("btn-primary");
-        n.classList.add("btn-outline-secondary");
-    }
-},
-isMobile: function() {
-    var check = false;
-    (function (a) { if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true; })(navigator.userAgent || navigator.vendor || window.opera);
-    return check;
-},
-
-seedModal: function() {
-    for (const llave in App.channels) {
-        let buttonTV;
-        buttonTV = document.createElement("button");
-        buttonTV.classList.add("btn");
-        buttonTV.classList.add("btn-outline-secondary");
-        buttonTV.setAttribute("data-canal", llave);
-        buttonTV.innerHTML = App.channels[llave].nombre;
-        let n = document.querySelector(".modal-body");
-        n.appendChild(buttonTV);
-        buttonTV.addEventListener("click", function () {
-            if (buttonTV.getAttribute("class").includes("btn-outline-secondary")) {
-                App.add(llave);
-            } else if (buttonTV.getAttribute("class").includes("btn-primary")) {
-                App.remove(llave);
-            }
-        })
-    };
-},
-
-init: function() {
-    App.seedModal();
-    App.add("cima");
-    if (!App.isMobile()) {
-        App.add("24HTVN");
-        App.add("CNN_CHILE");
-        App.add("REUTERS");
-        App.add("AFPTVLIVE");
-    }
-}
-};
-
-App.init();
-
-var modal = document.getElementById("custom-modal");
-var btn = document.getElementById("custom-btn");
-var span = document.getElementById("custom-close");
-var span2 = document.getElementById("custom-close2");
-
-btn.onclick = function () {
-    modal.style.display = "block";
-}
-
-window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
-span.onclick = function () {
-    modal.style.display = "none";
-}
-
-span2.onclick = function () {
-    modal.style.display = "none";
-}
-
-var hue = document.getElementById("Stream_por_fila");
-
-hue.onchange = function (event) {
-    size = event.target.value
-    sizeMobile = event.target.value
-    let canal2 = document.querySelectorAll(".stream");
-    for (let videos of canal2) {
-        videos.classList.remove("col-12", "col-6", "col-4", "col-3", "col-2");
-        videos.classList.add("col-" + event.target.value);
-    }
-}
-
-var anchoStreams = document.getElementById("Tamaño_streams");
-
-anchoStreams.oninput = function (event) {
-    let streams2 = document.getElementById("los-canales");
-    streams2.style.maxWidth = event.target.value + "%"
-}
-/////////////////////////////////////////////////////////
-///nombre transmisiones on/off https://www.w3schools.com/jquery/jquery_hide_show.asp/////////
-$(document).ready(function(){
-    $(".btn1-nombres-stream").click(function(){
-      $(".nombre-barra").toggle();
-    });
-  });
-/////////////////////////////////////////////////////////
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS.svg"></img>',
+        'url': 'SeñalMEGANOTICIAS.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
+        'url': 'SeñalT13MOVIL.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVN.svg"></img>',
+        'url': 'SeñalTVN.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_NTV.svg"></img>',
+        'url': 'SeñalNTV.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVCHILE.svg"></img>',
+        'url': 'SeñalTVCHILE.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGA.svg"></img>',
+        'url': 'SeñalMEGA.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>',
+        'url': 'SeñalCHV.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Canal13.svg"></img>',
+        'url': 'SeñalCANAL13.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Canal13.svg"></img>',
+        'url': 'SeñalCANAL13_MOVIL.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_LA_RED.svg"></img>',
+        'url': 'SeñalLARED.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_LA_RED.svg"></img>ﾠ2',
+        'url': 'SeñalLARED2.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVMAS.svg"></img>',
+        'url': 'SeñalTVMAS.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/LogoTV_WappTV.svg"></img>',
+        'url': 'SeñalWAPPTV.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 1',
+        'url': 'SeñalInterna24H_1.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 2',
+        'url': 'SeñalInterna24H_2.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 3',
+        'url': 'SeñalInterna24H_3.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 4',
+        'url': 'SeñalInterna24H_4.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 5',
+        'url': 'SeñalInterna24H_5.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 1',
+        'url': 'SeñalInternaMEGANOTICIAS_1.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 2',
+        'url': 'SeñalInternaMEGANOTICIAS_2.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 3',
+        'url': 'SeñalInternaMEGANOTICIAS_3.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 4',
+        'url': 'SeñalInternaMEGANOTICIAS_4.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CNNCHILE2.svg"></img>ﾠSEÑAL 1',
+        'url': 'SeñalInternaCNNCHILE_1.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_RLN.svg"></img>ﾠ',
+        'url': 'SeñalRADIOLASNIEVES.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠRADIO MILENARIA',
+        'url': 'SeñalRADIO_GENIAL.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠRADIO GENIAL',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠCANAL SUR PATAGONIA',
+        'url': 'SeñalRADIO_CANALSURPATAGONIA.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_ADNRADIO.svg"></img>ﾠ',
+        'url': 'SeñalRADIO_ADN.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠRADIO COPERATIVA',
+        'url': 'SeñalRADIO_COOPERATIVA.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠBIOBIO TV',
+        'url': 'SeñalRADIO_BIOBIOTV.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠT13 RADIO',
+        'url': 'SeñalT13RADIO.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠRADIO INFINITA',
+        'url': 'SeñalRADIO_INFINITA.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠRADIO TIEMPO',
+        'url': 'SeñalRADIO_TIEMPO.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠRADIO PUDAHUEL',
+        'url': 'SeñalRADIO_PUDAHUEL.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSENADO_2.svg"></img>',
+        'url': 'SeñalSENADO_TV.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL',
+        'url': 'Senal/ConvencionConstitucional/Senal1.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_GOB.svg"></img>ﾠPRESIDENCIA',
+        'url': 'SeñalPRESIDENCIA.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSERVEL',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCB8s6rETjmWgXrp_BxyXqdg&autoplay=true&mute=1',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠREUTERS',
+        'url': 'SeñalREUTERS.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠMEDIABANCO',
+        'url': 'SeñalMEDIABANCO.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠMEDIABANCO',
+        'url': 'SeñalMEDIABANCO2.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠTELEMUNDO',
+        'url': 'SeñalTELEMUNDONOTICIAS.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV ESPAÑOL',
+        'url': 'SeñalVOA_ESPANOL.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSKY NEWS EXTRA 1',
+        'url': 'SEÑAL_SKY_NEWS_EXTRA_1.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSKY NEWS EXTRA 2',
+        'url': 'SEÑAL_SKY_NEWS_EXTRA_2.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSKY NEWS EXTRA 3',
+        'url': 'SEÑAL_SKY_NEWS_EXTRA_3.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠBLOOMBERG TV LIVE EVENT 1',
+        'url': 'SeñalBloombergTV_LIVE_EVENT_1.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠBLOOMBERG TV LIVE POLITICS',
+        'url': 'SeñalBloombergTV_LIVE_POLITICS.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 1',
+        'url': 'SEÑAL_NBC_LIVE_1.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 2',
+        'url': 'SEÑAL_NBC_LIVE_1.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 3',
+        'url': 'SEÑAL_NBC_LIVE_3.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 4',
+        'url': 'SEÑAL_NBC_LIVE_4.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCBS46 WGCL TV',
+        'url': 'Señal_CBS46_WGCL_TV.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠWKYC 1',
+        'url': 'SEÑAL_WKYC_1.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠWKYC 2',
+        'url': 'SEÑAL_WKYC_2.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠKHOU 1',
+        'url': 'SEÑAL_KHOU_1.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠKHOU 2',
+        'url': 'SEÑAL_KHOU_2.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠKHOU 3',
+        'url': 'SEÑAL_KHOU_3.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠTEGNADIGITAL 1',
+        'url': 'SEÑAL_TEGNADIGITAL_1.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCCTV+ 1',
+        'url': 'SEÑAL_CCTVPLUS_1.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCCTV+ 2',
+        'url': 'SEÑAL_CCTVPLUS_2.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠRTVC LIVE OCASIONAL 1',
+        'url': 'SEÑAL_RTVC_1.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠRTVC LIVE OCASIONAL 1',
+        'url': 'SEÑAL_RTVC_2.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠTELEMUNDO',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCRwA1NUcUnwsly35ikGhp0A&autoplay=true&mute=1',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠVOA ESP',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCJ46VgZgCMLFUvOT671AOJw&autoplay=true&mute=1',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠREUTERS',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UChqUTb7kYRX8-EiaN3XFrSQ&autoplay=true&mute=1',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠRUPTLY',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UC5aeU5hk31cLzq_sAExLVWg&autoplay=true&mute=1',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSPUTNIK',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCI4lx9retCL7_cBmmceEQ8g&autoplay=true&mute=1',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠEL PAIS',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCnsvJeZO4RigQ898WdDNoBw&autoplay=true&mute=1',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠMARCA',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCop57Z1sYHrtCyxCpE2z2Bg&autoplay=true&mute=1',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠTHE SUN',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCIzXayRP7-P0ANpq-nD-h5g&autoplay=true&mute=1',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠWKYC Channel 3',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCNBmxc6FvKyxtCpUygcdINA&autoplay=true&mute=1',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠEURONEWS ESPAÑOL',
+        'url': 'Señal_EURONEWS_ESPAÑOL.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠFRANCE 24 ESPAÑOL',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCUdOoVWuWmgo1wByzcsyKDQ&autoplay=true&mute=1',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg">ﾠCANAL 24 HORAS TVE',
+        'url': 'Señal24HORASTVE.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠTODO NOTICIAS',
+        'url': 'SeñalTN.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg">ﾠDW ESPAÑOL',
+        'url': 'Señal_DW_ESPAÑOL.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg">ﾠDW DEUTSCH',
+        'url': 'https://www.youtube.com/embed/9DXGrOU5wKQ?autoplay=true&mute=1',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠTELESUR',
+        'url': 'SeñalTELESUR.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠFORO TV',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCUsm-fannqOY02PNN67C0KA&autoplay=true&mute=1',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/XXXXXXXXXXXX.svg"></img>',
+        'url': 'XXXXXXXXXXXXXXXX.html',
+    },
+]
