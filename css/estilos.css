@@ -2390,6 +2390,33 @@ left: 0%;
   box-shadow: 0px 0px 15px #444444;
 }
 
+.BotonHomeG2{
+  background-color: #444444;
+  border-color: #444444;
+  border: 3px solid;
+  display:inline-table;
+  margin: 5px;
+  width: auto;
+  height: 50px;
+  font-size: 20PX;
+  border-radius: 9px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonHomeG2:hover{
+  color:#444444;
+  background-color:#ffffff;
+  border-color:#444444;
+  box-shadow: 0px 0px 15px #444444;
+}
+
 
 .Caja{
   width: 50%;
