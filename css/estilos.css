@@ -2195,6 +2195,7 @@ left: 0%;
   color:#0303bb;
   background-color:#ffffff;
   border-color:#0303bb;
+  box-shadow: 0px 0px 15px #0303bb;
 }
 
 .BotonHomeM{
@@ -2221,6 +2222,7 @@ left: 0%;
   color:#8f00c7;
   background-color:#ffffff;
   border-color:#8f00c7;
+  box-shadow: 0px 0px 15px #8f00c7;
 }
 
 .BotonHomeM2{
@@ -2247,6 +2249,7 @@ left: 0%;
   color:#8f00c7;
   background-color:#ffffff;
   border-color:#8f00c7;
+  box-shadow: 0px 0px 15px #8f00c7;
 }
 
 .BotonHomeV{
@@ -2273,6 +2276,7 @@ left: 0%;
   color:#5abb00;
   background-color:#ffffff;
   border-color:#5abb00;
+  box-shadow: 0px 0px 15px #5abb00;
 }
 
 .BotonHomeV2{
@@ -2299,6 +2303,7 @@ left: 0%;
   color:#1ea88b;
   background-color:#ffffff;
   border-color:#1ea88b;
+  box-shadow: 0px 0px 15px #1ea88b;
 }
 
 .BotonHomeN{
@@ -2326,6 +2331,8 @@ left: 0%;
   color:#FF6600;
   background-color:#ffffff;
   border-color:#FF6600;
+  box-shadow: 0px 0px 15px #FF6600;
+  
 }
 
 .BotonHomeR{
@@ -2352,6 +2359,7 @@ left: 0%;
   color:#ff0000;
   background-color:#ffffff;
   border-color:#ff0000;
+  box-shadow: 0px 0px 15px #ff0000;
 }
 
 
@@ -2379,7 +2387,9 @@ left: 0%;
   color:#444444;
   background-color:#ffffff;
   border-color:#444444;
+  box-shadow: 0px 0px 15px #444444;
 }
+
 
 .Caja{
   width: 50%;

@@ -1,9 +1,8 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<title> LIVE MEDIABANCO 2 </title>
+<title> RTVC 3 </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 
@@ -14,12 +13,6 @@
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
-
-<link href="../css/video-js.css" rel="stylesheet">
-<script src="../js/video.js"></script>
-<script src="../js/videojs-contrib-hls.js"></script>
-<script src='../js/estilosvideojw.js'></script>
-<script>jwplayer.key='fpjDq6xZtjNRpxYoVu4nj0jRIZqgVeQSpqiuNYojy3JFZW2B';</script>
 
 
 <!--bootstrap-->
@@ -38,27 +31,55 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 </script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" />
+
+
 <script src="Reproductor.js" type="text/javascript"></script>
 
 <script>
 	var player = new Playerjs({
 		id:"Reproductor",
-		file:"https://unlimited1-cl-isp.dps.live/mediabanco2/mediabanco2.smil/playlist.m3u8",
+		file:"https://rtvc-live1.flumotion.com/rtvc/live1_high/chunks.m3u8",
 		autoplay:1
 		});
 </script>
 </head>
 
 <body>
+	<!--
+    En este caso le "tomamos" la foto al div. Podría ser a un div o 
+    a cualquier elemento HTML
+  -->
 
-	<div style="position: absolute; width: 100%; height:100%" >
+  <div style="position: absolute; width: 50%; height:100%" >
 		<div style="width: 100%; height:100%" id="Reproductor">
 		</div>
 	</div>
-	
-	
-	
-	
-	
-</body>
+  <!--
+    El botón no aparece porque está fuera del div
+  -->
+  
+	<button class="TEXTO_BotonIrAHome waves-effect waves-light" id="btnCapturar">Tomar captura</button>
+
+
+  <!--
+    En este elemento vamos a poner al canvas que será generado.
+  -->
+  <div id="contenedorCanvas" style="border: 1px solid red;">
+  </div>
+  <!--
+    Cargar el script de html2canvas, podría ser desde un servidor
+    propio o como yo lo hago: desde jsdelivr
+  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1/dist/html2canvas.min.js"></script> 
+
+    <!--
+      Después de eso, cargar el script que contiene nuestra lógica
+    -->
+    <script src="../js/AINMTEST2.js"></script>
+  </body>
 </html>
+
+
+
+
