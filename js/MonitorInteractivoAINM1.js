@@ -292,7 +292,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SEÑAL_KHOU_3.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤKHOU 3ㅤ</div></div></div>'
         },
         'TEGNADIGITAL_1': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠTEGNADIGITAL 1',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠTEGNADIGITAL (WHITE HOUSE VIDEO)',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SEÑAL_TEGNADIGITAL_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTEGNADIGITAL 1ㅤ</div></div></div>'
         },
         'CCTV+1': {
