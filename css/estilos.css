@@ -2561,8 +2561,7 @@ left: 0%;
   transition:all .5s
 }
 .Boton_ON_OFF_Botones:hover{
-  backdrop-filter: blur(5px);
-    background-color: rgba(238, 75, 0, 0.562);
+  background-color: rgb(38, 41, 219);
   color:#fff
 }
 
@@ -3420,7 +3419,7 @@ background-image: linear-gradient(
   height: 3%;
   line-height: 15px;
   position: absolute;
-  top: 5px;
+  top: 7px;
   text-align: center;
   position: absolute;
   top: 1.5em;
@@ -3470,6 +3469,86 @@ background-image: linear-gradient(
 .TextoBotonRecargar2:hover{
   backdrop-filter: blur(5px);
   background-color: rgb(44, 0, 238);
+  color:#fff
+}
+
+.Boton_PantallaCompleta{
+  display: inline-block;
+  background:rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  margin: 0px;
+  width: auto;
+  height: 20px;
+  line-height: 20px;
+  font-size: 11px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+.Boton_PantallaCompleta:hover{
+  background:#0017df;
+  color:#fff
+}
+
+.TituloHome2{
+  background-color: #ff0000;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.TituloHome2_BOTON{
+  display: inline-block;
+  background:rgb(255, 255, 255);
+  margin: 0px;
+  width: auto;
+  height: 20px;
+  line-height: 20px;
+  font-size: 15px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #ff0000;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+.TituloHome2_BOTON:hover{
+  background:#0044ff;
+  color:#fff
+}
+
+.TwitterBoton{
+  display: inline-block;
+  background: #1d9bf0;
+  margin: 0px;
+  width: auto;
+  height: 20px;
+  line-height: 20px;
+  font-size: 15px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 7px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+.TwitterBoton:hover{
+  background:#0044ff;
   color:#fff
 }
 

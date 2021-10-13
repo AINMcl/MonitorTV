@@ -37,6 +37,9 @@
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
     </script>
 
+    
+
+
     <script>
         $(document).ready(function(){
            $(".Boton_ON_OFF_Titulos").click(function(){
@@ -103,9 +106,37 @@
     
     <div style="position: absolute; top: 0.3em; left: 0.3em;width: auto;height: 20px;line-height: 20px; text-align: left;">
 
-        <a><span style="position: absorlute; " type="button" class="Boton_ON_OFF_Botones">ㅤOCULTAR BOTONESㅤ</span></a>
+        <a><span type="button" class="Boton_ON_OFF_Botones">ㅤOCULTAR/MOSTAR BOTONESㅤ</span></a>
 
     </div>
+
+    <script>
+    function launchFullScreen(element) {
+  if(element.requestFullScreen) {
+    element.requestFullScreen();
+  } else if(element.mozRequestFullScreen) {
+    element.mozRequestFullScreen();
+  } else if(element.webkitRequestFullScreen) {
+    element.webkitRequestFullScreen();
+  }
+
+  if(element.requestFullScreen) {
+    element.requestFullScreen();
+  }
+}
+// Lanza en pantalla completa en navegadores que lo soporten
+ function cancelFullScreen() {
+     if(document.cancelFullScreen) {
+         document.cancelFullScreen();
+     } else if(document.mozCancelFullScreen) {
+         document.mozCancelFullScreen();
+     } else if(document.webkitCancelFullScreen) {
+         document.webkitCancelFullScreen();
+     }
+ }
+    </script>
+
+    
     
     <script rel="preload" as="script" src="../js/Camaras.js"></script>
     

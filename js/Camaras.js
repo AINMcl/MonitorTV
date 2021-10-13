@@ -1,5 +1,5 @@
 
-var size = 4;
+var size = 6;
 
 ///6 = 2 PANTALLAS HORIZONTALMENTE///
 ///3 = 4 PANTALLAS HORIZONTALMENTE///
