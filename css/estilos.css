@@ -3498,7 +3498,8 @@ background-image: linear-gradient(
 .TituloHome2{
   background-color: #ff0000;
   width: 100%;
-  height: auto;
+  height: 30px;
+  line-height: 30px;
   margin: 0px;
   display: flex;
   justify-content: center;
