@@ -3527,8 +3527,8 @@ background-image: linear-gradient(
   transition:all .5s
 }
 .TituloHome2_BOTON:hover{
-  background:#0044ff;
-  color:#fff
+  background:#0026ff;
+  color:rgb(255, 255, 255);
 }
 
 .TwitterBoton{
