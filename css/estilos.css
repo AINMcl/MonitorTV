@@ -3554,6 +3554,15 @@ background-image: linear-gradient(
 }
 
 
+.DivTextoMenuSeñales{
+  position: absolute;
+  right: 5%;
+  width: auto;
+  text-align: right;
+  margin:auto;
+}
+
+
 
 
 
