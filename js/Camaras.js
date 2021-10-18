@@ -106,6 +106,10 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠPANTALLA VACIA',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="" frameborder="0"></iframe></div>'
         },
+        'LaGranjaTVHD': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Facebook.svg"></img>ﾠLaGranjaTVHD',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/LaGranjaTVHD/live/&show_text=0&mute=0" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤLaGranjaTVHDㅤ</div></div></div>'
+        },
     },
     add: function(canal) {
         if (App.channels[canal]) {
