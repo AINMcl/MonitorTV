@@ -1324,7 +1324,8 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("Señal_Interna_24HTVN_1");
+        //App.add("Señal_Interna_24HTVN_1");
+        App.add("REUTERS");
 
     }
 }

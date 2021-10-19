@@ -1324,7 +1324,7 @@ var App = {
         App.seedModal();
         App.add("cima");
         if (!App.isMobile()) {
-            App.add("PLAZAITALIA_CIMA");
+            App.add("LARED");
 
         }
     }
