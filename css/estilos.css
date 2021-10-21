@@ -3586,6 +3586,32 @@ background-image: linear-gradient(
 
 
 
+.FondoTitulosTextoAviso{
+  background: rgb(0, 0, 0, 0.0);
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  text-align: center;
+}
+
+.TextoAviso{
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(3px);
+  margin: 0 auto;
+  width: auto;
+  height: 100%;
+  border-radius: 3px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  display:inline-table;
+}
+
+
+
 
 
 
