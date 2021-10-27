@@ -33,7 +33,7 @@
   <body id="data" style="background-color: #ffffff;">
 
     <script>
-        let url = 'https://api.xor.cl/sismo/'
+        let url = 'https://api.xor.cl/sismo/recent'
         fetch(url)
             .then(response => response.json())
             .then(data => mostrarData(data))
