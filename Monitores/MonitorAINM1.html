@@ -11,7 +11,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Monitor Interactivo</title>
+    <title>Monitor AINM</title>
 
     <link rel="icon" href='imagenes/Icon.png' type="image/png"/>
 
@@ -24,16 +24,15 @@
     <!-- TIPOGRAFIA GOOGLE-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-RT53GZ16EW');
-</script>
-
+        gtag('config', 'G-RT53GZ16EW');
+    </script>
     <!-- para dropdown -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -81,6 +80,7 @@
                         <h5 class="Titulo">SELECCIONAR SEÑALES</h5>
                         <button type="button" class="close" id="custom-close" data-dismiss="modal">
                         </button>
+                        <a href="Info.html"><span class="BotonInfoSeñales waves-effect waves-azul">ㅤINFORMACION SOBRE SEÑALESㅤ</span></a>
                     </div>
                     <div id="PorFiltrar">
                         <div class="modal-body canales-body"></div>
@@ -95,6 +95,8 @@
     
     <div class="Botones" style="position: absolute; bottom: 0.5%; width: 100%;height: 20px;line-height: 20px; text-align: center;">
 
+        <a onclick="launchFullScreen(document.documentElement);"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_1.svg"></img>ﾠ</span></a>
+        
         <div class="SeleccionarStreamsPorFila waves-effect waves-light">
             <select  class="StreamsPorFila" id="Stream_por_fila">
                 <option value="X">STREAMS</option>
@@ -108,6 +110,8 @@
         <a ><span type="button" class="Boton_ON_OFF_Titulos waves-effect waves-light">ㅤTITULOSㅤ</span></a>
         <a href="HomeAINM.html"><span class="TEXTO_BotonIrAHome waves-effect waves-light">ㅤIR A HOMEㅤ</span></a>
 
+        <a onclick="cancelFullScreen();"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_2.svg"></img>ﾠ</span></a>
+        
     </div>
     
     <div style="position: absolute; top: 0.3em; left: 0.3em;width: auto;height: 20px;line-height: 20px; text-align: left;">
@@ -117,7 +121,31 @@
     </div>
     
     <script rel="preload" as="script" src="../js/Monitor_Interactivo_AINM1.js"></script>
+    <script>
+        function launchFullScreen(element) {
+      if(element.requestFullScreen) {
+        element.requestFullScreen();
+      } else if(element.mozRequestFullScreen) {
+        element.mozRequestFullScreen();
+      } else if(element.webkitRequestFullScreen) {
+        element.webkitRequestFullScreen();
+      }
     
+      if(element.requestFullScreen) {
+        element.requestFullScreen();
+      }
+    }
+    // Lanza en pantalla completa en navegadores que lo soporten
+     function cancelFullScreen() {
+         if(document.cancelFullScreen) {
+             document.cancelFullScreen();
+         } else if(document.mozCancelFullScreen) {
+             document.mozCancelFullScreen();
+         } else if(document.webkitCancelFullScreen) {
+             document.webkitCancelFullScreen();
+         }
+     }
+        </script>
 </body>
 
 </html>
