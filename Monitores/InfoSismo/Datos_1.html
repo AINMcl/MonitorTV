@@ -33,7 +33,7 @@
   <body id="data" style="background-color: #ffffff;">
 
     <script>
-        let url = 'https://api.xor.cl/sismo/'
+        let url = 'https://www.chilevision.cl/ms_player_src_01/live/1560140104.js'
         fetch(url)
             .then(response => response.json())
             .then(data => mostrarData(data))
@@ -46,7 +46,7 @@
                 body += `
 
                       <div class="TituloSismo">
-		                    ${data[i].fechaLocal} | ${data[i].geoReferencia}
+		                    https://mdstrm.com/live-stream-playlist-v/${id}.m3u8?access_token=${token} | ${id}
 	                    </div>
 	                    <div class="ImagenSismo">
                       <div style="position: relative; float:left; width: auto; height:100%">
@@ -59,7 +59,7 @@
 		                    REFERENCIA:
 		                  </div>
 		                  <div class="BarraDato2">
-			                **Sismo a ${data[i].geoReferencia}**
+			                **Sismo a ${id}**
 		                  </div>
 
                       <div class="BarraDato">
