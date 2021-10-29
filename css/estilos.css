@@ -3184,6 +3184,16 @@ background-image: linear-gradient(
   text-align: center;
 }
 
+
+.BotonFrameLink{
+  position: absolute;
+  top: 1%;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
 .BotonSeleccionarSeñales2{
   display: inline-block;
   position: absolute;
