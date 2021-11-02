@@ -3721,6 +3721,44 @@ background-image: linear-gradient(
 }
 
 
+.FondoBotonAbrirEnOtraPestaña{
+  background: rgb(0, 0, 0, 0.0);
+  margin: 0 auto;
+  width: 10%;
+  height: 3%;
+  line-height: 15px;
+  position: absolute;
+  top: 5px;
+  text-align: center;
+  right: 0%;
+}
+
+.TextoBotonAbrirEnOtraPestaña{
+  background: rgb(0, 38, 255);
+  backdrop-filter: blur(3px);
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  border-radius: 3px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  display:inline-table;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+
+.TextoBotonAbrirEnOtraPestaña:hover{
+  background:#ffffff;
+  color:rgb(0, 0, 0)
+}
+
+
 
 
 

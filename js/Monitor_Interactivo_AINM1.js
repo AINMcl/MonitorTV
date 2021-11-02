@@ -221,7 +221,7 @@ var App = {
         },
         'ELECCIONES_RESULTADOS_INFOGRAM': {
             'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg">ﾠINFOGRAM RESULTADOS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="EleccionesResultadosInfogram.html" frameborder="0"></iframe><div class="FondoBotonAbrir"><a href="EleccionesResultadosInfogram.html"> <span type="button" class="TextoBotonAbrir">ㅤABRIRㅤ</span></a></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="EleccionesResultadosInfogram.html" frameborder="0"></iframe><a href="EleccionesResultadosInfogram.html" class="FondoBotonAbrirEnOtraPestaña"><div class="TextoBotonAbrirEnOtraPestaña" waves-effect waves-gris">ㅤABRIRㅤ</div></a></div>'
         },
         'UCHILE_TV': {
             'nombre': 'UCHILE TVﾠ',
