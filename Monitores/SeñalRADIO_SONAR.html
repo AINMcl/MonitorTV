@@ -1,15 +1,16 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<title> ELECCIONES </title>
+<title> Radio Duna </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 
-<meta http-equiv="refresh" content="60">
-
 <link href="../css/estilos.css" rel="stylesheet" type="text/css">
 <link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
+
+<style> html,body{width:100%;height:100%} </style>
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
@@ -18,17 +19,9 @@
 <script src="../js/video.js"></script>
 <script src="../js/videojs-contrib-hls.js"></script>
 <script src='../js/estilosvideojw.js'></script>
-<script>jwplayer.key='Ohx3VSgswSwYyLP9Gm0ADc2CKw16Cnot01CILeRMQ9o=';</script>
+<script>jwplayer.key='fpjDq6xZtjNRpxYoVu4nj0jRIZqgVeQSpqiuNYojy3JFZW2B';</script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
 
-	gtag('config', 'G-RT53GZ16EW');
-</script>
 <!--bootstrap-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -45,23 +38,30 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 </script>
 
+<script src="ReproductorAudio.js" type="text/javascript"></script>
+
+<script>
+	var player = new Playerjs({
+		id:"Reproductor",
+		file:"https://unlimited1-cl-isp.dps.live/dunatv/dunatv.smil/playlist.m3u8",
+		autoplay:1
+		});
+</script>
 </head>
+
 <body>
 
-	<div style="
-	position: absolute;
-	display: inline-block;
-	width: 100%;
-	height: 100%;
-	top: 0%;
-	right: 0px;
-	" class="infogram-embed" data-id="013b291c-e076-42dc-987f-42f203589d9b" data-type="interactive" data-title="EleccionesPresChileNov2021"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"></div>
-
+	<div style="position: absolute; width: 100%; height:100%" >
+		<div style="width: 100%; height:100%" id="Reproductor">
+		</div>
+	</div>
 	
-<div class="FondoBotonRecargar">
-	<a href="javascript:location.reload()"> <span type="button" class="TextoBotonRecargar2">ㅤRECARGAR ESTA SEÑALㅤ</span></a>
-</div>
-
-
+	<div class="FondoBotonRecargar">
+		<a href="javascript:location.reload()"> <span type="button" class="TextoBotonRecargar2">ㅤRECARGAR ESTA SEÑALㅤ</span></a>
+	</div>
+	
+	
+	
+	
 </body>
 </html>

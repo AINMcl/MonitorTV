@@ -3724,13 +3724,13 @@ background-image: linear-gradient(
 .FondoBotonAbrirEnOtraPestaña{
   background: rgb(0, 0, 0, 0.0);
   margin: 0 auto;
-  width: 10%;
+  width: auto;
   height: 3%;
   line-height: 15px;
   position: absolute;
-  top: 5px;
+  top: 1%;
   text-align: center;
-  right: 0%;
+  right: 1%;
 }
 
 .TextoBotonAbrirEnOtraPestaña{
@@ -3754,8 +3754,8 @@ background-image: linear-gradient(
 
 
 .TextoBotonAbrirEnOtraPestaña:hover{
-  background:#ffffff;
-  color:rgb(0, 0, 0)
+  background:#ff0000;
+  color:rgb(255, 255, 255)
 }
 
 
