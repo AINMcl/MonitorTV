@@ -187,7 +187,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="EleccionesResultadosInfogram.html" frameborder="0"></iframe><a href="EleccionesResultadosInfogram.html" class="FondoBotonAbrirEnOtraPestaña"><div class="TextoBotonAbrirEnOtraPestaña" waves-effect waves-gris">ㅤABRIRㅤ</div></a></div>'
         },
         'UCHILE_TV': {
-            'nombre': 'UCHILE TVﾠﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': 'UCHILE TV',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_UCHILETV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤUCHILE TVㅤ</div></div></div>'
         },
         'SENADO_TV': {
