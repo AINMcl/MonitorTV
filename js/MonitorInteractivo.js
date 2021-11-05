@@ -1265,9 +1265,12 @@ init: function() {
     App.add("cima");
     if (!App.isMobile()) {
         App.add("24HTVN");
-        App.add("CNN_CHILE");
+        //App.add("CNN_CHILE");
+        App.add("PLAZAITALIA_CIMA");
         App.add("MEGANOTICIAS");
-
+        App.add("RELOJES");
+        
+        
     }
 }
 };
