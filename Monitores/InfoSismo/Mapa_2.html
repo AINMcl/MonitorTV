@@ -1,76 +1,58 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
 
-    <title> Datos Sismos 2</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"/>
+<title> Mapa Sismo Captura </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"/>
 
-    <link href="../../css/estilos.css" rel="stylesheet" type="text/css"/>
-    <link rel="icon" href='../../imagenes/Icon.png' type="image/png"/>
+<link href="../../css/estilos.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" href='../../imagenes/Icon.png' type="image/png"/>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com"/>
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.gstatic.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet"/>
 
-    
-    <!--bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-    
-  </head>
-  <body id="data" style="background-color: #ffffff;">
+<link href="../css/video-js.css" rel="stylesheet"/>
+<script src="../js/video.js"></script>
+<script src="../js/videojs-contrib-hls.js"></script>
+<script src='../js/estilosvideojw.js'></script></head>
+<body>
 
-    <script>
-        let url = 'https://api.xor.cl/sismo/'
-        fetch(url)
-            .then(response => response.json())
-            .then(data => mostrarData(data))
-            .catch(error => console.log(error))
-			
-        const mostrarData = (data) => {
-            console.log(data)
-            let body = ''
-            for (let i = 0; i<data.length; i++){
-                body += `
 <div>
-	<div style="position: relative; float:left; width: 50%; height:auto">
-		<img height="auto" width="100%"
-		src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static
-		/${data[i].longitud},${data[i].latitud},
-		7,0
-		/1000x1000?
-		access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ"
-		frameborder="0"></img>
-		<!--LONGITUD - LATITUD-->
-	</div>
 
 
 	<div style="position: relative; float:left; width: 50%; height:auto;">
 		<img height="auto" width="100%"
 		src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static
-		/${data[i].longitud},${data[i].latitud},
-		5,0
+		/-75.86,-47.07,
+		8,0
 		/1000x1000?
 		access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ"
 		frameborder="0"></img>
+		<!--ORDEN DEL LINK-->
+		<!--LONGITUD - LATITUD-->
+		<!--    X    -    Y   -->
+
+
+		<!--    +N   -->
+		<!-- -O    +E -->
+		<!--    -S   -->
+
+		<!--Y: LATITUD-->
+		<!--X: LONGITUD-->
+
+		<!--VERDE      BAJO  4.5    00FF00-->
+		<!--AMARILLO   SOBRE 4.5    FFFF00-->
+		<!--NARANJO    SOBRE 5.0    FF6600-->
+		<!--ROJO       SOBRE 6.0    FF0000-->
+
+
 	</div>
 </div>
 
 
 <div style="position: absolute; top: 0px; left: 0px; width: 100%; height: auto;">
-	<img height="auto" width="100%" src="../imagenes/EMSC_VERDE.svg" alt="">
+	<img height="auto" width="100%" src="../imagenes/EMSC_ROJO.svg" alt="">
 
 	<!--EMSC_VERDE-->
 	<!--EMSC_AMARILLO-->
@@ -91,48 +73,12 @@
 	<!--CSN_AMARILLO-->
 	<!--CSN_NARANJO-->
 	<!--CSN_ROJO-->
+
+	<!--NOINFOSISMO-->
+
 </div>
 
 
-
-  `
-            }
-            document.getElementById('data').innerHTML = body
-        }
-
-
-    </script>
-  </body>
-
-  <!--
-                </td><td>${data[i].enlace}
-                </td><td>${data[i].preliminar}
-                </td><td>${data[i].fechaLocal}
-                </td><td>${data[i].fechaUTC}
-                </td><td>${data[i].latitud}
-                </td><td>${data[i].longitud}
-                </td><td>${data[i].profundidad} km
-                </td><td>${data[i].magnitudes.magnitud}
-                </td><td>${data[i].medida}
-                </td><td>${data[i].fuente}
-                </td><td>${data[i].geoReferencia}
-                </td><td>${data[i].imagen}
-                </td></tr><div class="IMGSismo">
-        <div>
-	      <div style="position: relative; float:left; width: 100%; height:auto">
-		      <img height="auto" width="100%"
-		        src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-star-stroked+FF0000(${data[i].longitud},${data[i].latitud})
-		        /${data[i].longitud},${data[i].latitud},5,0
-		        /1000x1000?access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ"
-		        frameborder="0"></img>
-        </div>
-      </div>
-      <div class="infoSismo">
-        <div class="InfoProfundidad">UTC</div>
-        <div class="InfoProfundidad">UTC</div>
-        <div class="InfoProfundidad">PROFUNDIDAD</div>${data[i].profundidad}Km
-      
-    
-		<!--LONGITUD - LATITUD-->
-	</div>
+	  
+</body>
 </html>
