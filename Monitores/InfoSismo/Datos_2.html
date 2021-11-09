@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 
-    <title> Datos Sismos 2</title>
+    <title> Datos Sismos</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"/>
 
@@ -33,82 +33,25 @@
   <body id="data" style="background-color: #ffffff;">
 
     <script>
-        let url = 'https://api.xor.cl/sismo/'
-        fetch(url)
-            .then(response => response.json())
-            .then(data => mostrarData(data))
-            .catch(error => console.log(error))
-			
-        const mostrarData = (data) => {
-            console.log(data)
-            let body = ''
-            for (let i = 0; i<data.length; i++){
-                body += `
-
-                      <div class="TituloSismo">
-		                    ${data[i].fechaLocal} | ${data[i].geoReferencia} | Preliminar: ${data[i].preliminar}
+    let url =
+      "https://us-central1-canal-13-stream-api.cloudfunctions.net/media/token?id=5f51a916c21eec083ab337a8&type=live";
+    fetch(url)
+      .then((response) => response.json())
+      .then((data) => mostrarData(data.ultimos_sismos_chile))
+      .catch((error) => console.log(error));
+    
+    const mostrarData = (data) => {
+      let html = "";
+      for (let i = 0; i < data.length; i++) {
+        html += `
+        <div class="TituloSismo">
+		                    ${data[i].token}
 	                    </div>
-	                    <div class="ImagenSismo">
-                      <div style="position: relative; float:left; width: auto; height:100%">
-		                      <img height="100%" width="auto"
-		                      src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-star-stroked+FF0000(${data[i].longitud},${data[i].latitud})/${data[i].longitud},${data[i].latitud},7,0/1000x1000?access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ"frameborder="0"></img>
-                      </div>
-	                    </div>
-	                    <div class="DatosSismo">
-		                  <div class="BarraDato">
-		                    CENTRO SISMOLOGICO NACIONAL:
-		                  </div>
-		                  <div class="BarraDato2">
-                        <b>REFERENCIA: </b>${data[i].geoReferencia}
-		                  </div>
-
-                      <div class="BarraDato2">
-                        <b>MAGNITUD: </b> ${data[i].latitud}
-		                  </div>
-
-		                  <div class="BarraDato2">
-                        <b>HORA LOCAL: </b>${data[i].fechaLocal} (CHILE)
-		                  </div>
-
-		                  <div class="BarraDato2">
-                        <b>LATITUD: </b> ${data[i].latitud}
-		                  </div>
-
-		                  <div class="BarraDato2">
-                        <b>LONGITUD: </b> ${data[i].longitud}
-		                  </div>
-		                  <div class="BarraDato2">
-			                ${data[i].profundidad} Km de Profundidad
-		                  </div>
-                      <br>
-                      <div class="BarraDato">
-		                    LINK CSN:
-		                  </div>
-                      <div class="BarraDato2">
-                        ${data[i].enlace}
-		                  </div>
-                      <BR>
-                        <div class="BarraDato">
-		                    LINK IMAGEN:
-		                  </div>
-                      <div class="BarraDato2">
-                        https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-star-stroked+FF0000(${data[i].longitud},${data[i].latitud})/${data[i].longitud},${data[i].latitud},7,0/1000x1000?access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ
-		                  </div>
-                      
-
-                      
-
-	                    </div>
-                
-        
-      
-  
-  `
-            }
-            document.getElementById('data').innerHTML = body
-        }
-
-
+        `;
+      }
+      let container = document.querySelector("#data");
+      container.innerHTML = html;
+    };
     </script>
   </body>
 

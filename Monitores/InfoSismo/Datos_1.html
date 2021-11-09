@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 
-    <title> Datos Sismos</title>
+    <title> Datos Sismos 1</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"/>
 
@@ -33,84 +33,72 @@
   <body id="data" style="background-color: #ffffff;">
 
     <script>
-        let url = 'https://www.chilevision.cl/ms_player_src_01/live/1560140104.js'
-        fetch(url)
-            .then(response => response.json())
-            .then(data => mostrarData(data))
-            .catch(error => console.log(error))
-			
-        const mostrarData = (data) => {
-            console.log(data)
-            let body = ''
-            for (let i = 0; i<data.length; i++){
-                body += `
-
-                      <div class="TituloSismo">
-		                    https://mdstrm.com/live-stream-playlist-v/${id}.m3u8?access_token=${token} | ${id}
+    let url =
+      "https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos_chile";
+    fetch(url)
+      .then((response) => response.json())
+      .then((data) => mostrarData(data.ultimos_sismos_chile))
+      .catch((error) => console.log(error));
+    
+    const mostrarData = (data) => {
+      let html = "";
+      for (let i = 0; i < data.length; i++) {
+        html += `
+        <div class="TituloSismo">
+		                    ${data[i].local_time} | ${data[i].reference}
 	                    </div>
 	                    <div class="ImagenSismo">
                       <div style="position: relative; float:left; width: auto; height:100%">
 		                      <img height="100%" width="auto"
-		                      src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-star-stroked+FF0000(${data[i].longitud},${data[i].latitud})/${data[i].longitud},${data[i].latitud},7,0/1000x1000?access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ"frameborder="0"></img>
+		                      src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-star-stroked+FF0000(${data[i].longitude},${data[i].latitude})/${data[i].longitude},${data[i].latitude},7,0/1000x1000?access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ"frameborder="0"></img>
                       </div>
 	                    </div>
 	                    <div class="DatosSismo">
 		                  <div class="BarraDato">
-		                    REFERENCIA:
+		                    CENTRO SISMOLOGICO NACIONAL - CHILE ALERTA API DEMO:
 		                  </div>
 		                  <div class="BarraDato2">
-			                **Sismo a ${id}**
+                        <b>REFERENCIA: </b>${data[i].reference}
 		                  </div>
 
+                      <div class="BarraDato2">
+                        <b>MAGNITUD: </b> ${data[i].magnitude} ${data[i].scale}
+		                  </div>
+
+		                  <div class="BarraDato2">
+                        <b>HORA LOCAL: </b>${data[i].local_time} (CHILE)
+		                  </div>
+
+		                  <div class="BarraDato2">
+                        <b>LATITUD: </b> ${data[i].latitude}
+		                  </div>
+
+		                  <div class="BarraDato2">
+                        <b>LONGITUD: </b> ${data[i].longitude}
+		                  </div>
+		                  <div class="BarraDato2">
+			                ${data[i].depth} Km de Profundidad
+		                  </div>
+                      <br>
                       <div class="BarraDato">
-		                  FECHA LOCAL:
+		                    LINK CENTRO SISMOLOGICO NACIONAL:
 		                  </div>
-		                  <div class="BarraDato2">
-			                ${data[i].fechaLocal}
+                      <div class="BarraDato2">
+                        ${data[i].url}
 		                  </div>
+                      <BR>
+                        <a href="${data[i].url}"><span class="BotonSismo">LINK CENTRO SISMOLOGICO NACIONAL</span></a>
+                      <br>
+                      
 
-                      <div class="BarraDato">
-		                  FECHA UTC:
-		                  </div>
-		                  <div class="BarraDato2">
-			                ${data[i].fechaUTC}
-		                  </div>
-
-                      <div class="BarraDato">
-		                  LATITUD:
-		                  </div>
-		                  <div class="BarraDato2">
-			                ${data[i].latitud}
-		                  </div>
-
-                      <div class="BarraDato">
-		                  LONGITUD:
-		                  </div>
-		                  <div class="BarraDato2">
-			                ${data[i].longitud}
-		                  </div>
-
-                      <div class="BarraDato">
-		                  PROFUNDIDAD:
-		                  </div>
-		                  <div class="BarraDato2">
-			                ${data[i].profundidad} Km
-		                  </div>
-
-
-
+                      
 
 	                    </div>
-                
-        
-      
-  
-  `
-            }
-            document.getElementById('data').innerHTML = body
-        }
-
-
+        `;
+      }
+      let container = document.querySelector("#data");
+      container.innerHTML = html;
+    };
     </script>
   </body>
 
