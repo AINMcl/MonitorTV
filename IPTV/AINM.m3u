@@ -31,16 +31,16 @@ https://cl-canal13-13now-live.ned.media/live.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CNN_Chile_logo_2017.svg/480px-CNN_Chile_logo_2017.svg.png" group-title="Noticias", CNN CHILE
 https://unlimited1-cl-isp.dps.live/cnn/cnn.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/ae8059a01777a066979869891e176077o.png" group-title="Noticias", T13Movil 
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/ae8059a01777a066979869891e176077o.png" group-title="Noticias", T13
 http://t13-movil-live.cdn.nedmedia.io/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="Noticias", Meganoticias
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="Noticias", MEGANOTICIAS
 https://mdstrm.com/live-stream-playlist-v/561430ae330428c223687e1e.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="Noticias", Señal 24 PLAY
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="Noticias", 24 PLAY
 http://mdstrm.com/live-stream-playlist-v/57d1a22064f5d85712b20dab.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZK9sCHxq/Logo-GOB.png" group-title="SATELITE", Prensa Presidencia Chile
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZK9sCHxq/Logo-GOB.png" group-title="SATELITE", PRESIDENCIA
 http://mdstrm.com/live-stream-playlist/5dc17f8944795108a2a52a49.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.thomsonreuters.com.ar/content/dam/openweb/images/argentina/Artworked/16-9/rtr_ahz_rgb_pos.png.transform/rect-768/q90/image.png" group-title="SATELITE", REUTERS
@@ -73,50 +73,53 @@ https://live.field59.com/wgcl/ngrp:wgcl1_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Fm4yKDcN/MEDIABANCO.png" group-title="Noticias", CNN INTERNACIONAL
 https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Fm4yKDcN/MEDIABANCO.png" group-title="Noticias", MEDIABANCO 1
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Fm4yKDcN/MEDIABANCO.png" group-title="Noticias", MEDIABANCO SEÑAL 1
 https://unlimited1-cl-isp.dps.live/mediabanco/mediabanco.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Fm4yKDcN/MEDIABANCO.png" group-title="Noticias", MEDIABANCO 2
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Fm4yKDcN/MEDIABANCO.png" group-title="Noticias", MEDIABANCO SEÑAL 2
 https://unlimited2-cl-isp.dps.live/mediabanco2/mediabanco2.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS Señal 1
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS SEÑAL 1
 http://mdstrm.com/live-stream-playlist-v/5346f5f2c1e6f5810b5b9df0.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS Señal 2
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS SEÑAL 2
 https://mdstrm.com/live-stream-playlist-v/5346f657c1e6f5810b5b9df3.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS Señal 3 REUTERS
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS SEÑAL 3 REUTERS
 http://mdstrm.com/live-stream-playlist-v/53443c472c6e89675103cc4c.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS Señal 4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS SEÑAL 4
 http://mdstrm.com/live-stream-playlist-v/555c9a91eb4886825b07ee7b.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS Señal 5 W24H
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VvRHKwjz/Logo-C24-H.png" group-title="SEÑALES 24HORAS", 24HORAS SEÑAL 5
 http://mdstrm.com/live-stream-playlist-v/5653641561b4eba30a7e4929.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CNN_Chile_logo_2017.svg/480px-CNN_Chile_logo_2017.svg.png" group-title="CNNChile", CNNChile Señal Interna1
 https://unlimited1-cl-isp.dps.live/cnnprensa/cnnprensa.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="MEGANOTICIAS", Meganoticias Señal 1
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="MEGANOTICIAS", MEGANOTICIAS SEÑAL 1
 http://mdstrm.com/live-stream-playlist-v/561430ae330428c223687e1e.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="MEGANOTICIAS", Meganoticias Señal 2
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="MEGANOTICIAS", MEGANOTICIAS SEÑAL 2
 http://mdstrm.com/live-stream-playlist-v/5ddfebf14bee0054b9b3fd14.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="MEGANOTICIAS", Meganoticias Señal 3
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="MEGANOTICIAS", MEGANOTICIAS SEÑAL 3
 http://mdstrm.com/live-stream-playlist-v/5ddfef39d0ff235bffface57.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="MEGANOTICIAS", Meganoticias Señal 4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="MEGANOTICIAS", MEGANOTICIAS SEÑAL 4
 http://mdstrm.com/live-stream-playlist-v/56f97fc0b9bb39786b04a3b0.m3u8
 
-#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/eb9ddb53d35283e2eb417c0f630014c6o.png" group-title="Radio Video", ADN Radio
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/eb9ddb53d35283e2eb417c0f630014c6o.png" group-title="Radio Video", ADN RADIO
 https://unlimited1-cl-isp.dps.live/adntv/adntv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/2e9f8941464d152ccbcbfcd5e82a17eco.png" group-title="Radio Video", Cooperativa 
+#EXTINF:-1 tvg-logo="https://fotos.subefotos.com/2e9f8941464d152ccbcbfcd5e82a17eco.png" group-title="Radio Video", COOPERATIVA
 http://unlimited1-cl.dps.live/coopetv/coopetv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.rln.cl/wp-content/uploads/2018/04/Logo_Radio_Las_Nieves-300x132.png" group-title="Radio Video", Radio Las Nieves
-https://v2.tustreaming.cl/rln/live1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://www.rln.cl/wp-content/uploads/2018/04/Logo_Radio_Las_Nieves-300x132.png" group-title="Radio Video", RADIO LAS NIEVES
+https://v2.tustreaming.cl/rln/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.rln.cl/wp-content/uploads/2018/04/Logo_Radio_Las_Nieves-300x132.png" group-title="Radio Video", AYSEN TV
+https://v2.tustreaming.cl/aysentv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/fafa1a51a52a8243e61f6eb26130d30ao.png" group-title="Radio Video", Radio Milenaria
 https://hd.chileservidores.cl:1936/chiloefive/chiloefive/playlist.m3u8
@@ -124,7 +127,7 @@ https://hd.chileservidores.cl:1936/chiloefive/chiloefive/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/2161d073afc91ac52c7483e2945aa250o.png" group-title="Radio Video", Radio GenialTV
 http://v3.tustreaming.cl/genialtv/live1/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.rln.cl/wp-content/uploads/2018/04/Logo_Radio_Las_Nieves-300x132.png" group-title="Radio Video", Radio Canal Sur Patagonia
+#EXTINF:-1 tvg-logo="https://www.rln.cl/wp-content/uploads/2018/04/Logo_Radio_Las_Nieves-300x132.png" group-title="Radio Video", CANAL SUR PATAGONIA
 https://v1.tustreaming.cl:19360/canalsurpatagoniatv/canalsurpatagoniatv.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/mQc7MK9.png" group-title="Radio Video", BioBioTV
