@@ -27,12 +27,16 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_ISS_TRACKER.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤISS TRACKERㅤ</div></div></div>'
         },
         'ISS_TRACKER_2': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_NASA.svg"></img>ﾠISS TRACKER MAP 2',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Ubicacion.svg"></img>ﾠISS TRACKER MAP 2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="ESPACIO_RASTREO_ISS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤISS TRACKERㅤ</div></div></div>'
         },
         'ISS_TRACKER_3': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_NASA.svg"></img>ﾠISS TRACKER MAP 3',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Ubicacion.svg"></img>ﾠISS TRACKER MAP 3',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="ESPACIO_RASTREO_ISS_2_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤISS TRACKERㅤ</div></div></div>'
+        },
+        'ISS_TRACKER_4': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Ubicacion.svg"></img>ﾠISS TRACKER MAP 4',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="ESPACIO_RASTREO_ISS_3.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤISS TRACKERㅤ</div></div></div>'
         },
         'NASA_CSBF_Operations': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_NASA.svg"></img>ﾠNASA CSBF OPERATIONS',
@@ -247,7 +251,7 @@ init: function() {
     App.add("cima");
     if (!App.isMobile()) {
         App.add("NASA_YT_MEDIA");
-        App.add("ISS_TRACKER_3");
+        App.add("ISS_TRACKER_4");
         App.add("ISS_SD");
         App.add("ISS_HD");
 
