@@ -1493,7 +1493,7 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("CNN_CHILE");
+        App.add("CNN_CHILE_2");
 
     }
 }
