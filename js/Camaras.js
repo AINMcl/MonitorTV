@@ -108,14 +108,10 @@ var App = {
         },
         'CuentaRegresivaInicioVotaciones': {
             'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠAPERTURA DE MESAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://reloj-alarma.es/embed/temporizador/#date=2021-11-21T08:00:00&title=INICIO+DE+VOTACIONES&theme=1&ampm=0&sound=cuckoo" frameborder="0"></iframe></div>'
-        },
-        'CuentaRegresivaCierreVotaciones': {
-            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCIERRE DE MESAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://reloj-alarma.es/embed/temporizador/#date=2021-11-21T18:00:00&title=CIERRE+DE+MESAS&theme=1&ampm=0&sound=cuckoo" frameborder="0"></iframe></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://stagetimer.io/r/KXMMXMDA/" frameborder="0"></iframe></div>'
         },
         'CuentaRegresivaCierreVotaciones2': {
-            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCIERRE DE MESAS 2',
+            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCIERRE DE MESAS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://stagetimer.io/r/ECFQFB6J/" frameborder="0"></iframe></div>'
         },
     },
