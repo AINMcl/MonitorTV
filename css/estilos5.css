@@ -11,7 +11,7 @@ body {
     padding: 0;
     margin: 0;
     color: #ACBDCE;
-    background: #051320; 
+    background: #071a2c; 
     font-family: 'Poppins', sans-serif, Arial;
 }
 
@@ -95,10 +95,11 @@ main {
     justify-content: left;
     border-color: #171e27;
     border-width: 2.3px;
-    border-radius: 0px;
+    border-radius: 5px;
     height: 3rem;
     width: 100%;
     color: #171e27;
+    
     margin: 0;
     font-size: 18px;
     font-family: 'Assistant', sans-serif;
@@ -114,27 +115,17 @@ main {
     border-width: 2.3px;
     font-weight: bold;
     color:#0000df;
+    border-radius: 5px;
     box-shadow: 0px 0px 10px #0000df;
 }
 
-.BotonTV_Señales{
-    background-color: #ffffff;
-    font-family: 'Assistant', sans-serif;
-    font-weight: normal;
-    border-color: #171e27;
-    border-width: 2px ;
-    border-radius: 5px;
-    margin-bottom: 1px;
-    text-align: left;
-    border-width: 2.3px;
-}
   
 
 .active {
     background-color: #ffffff;
     color: #129700;
-;
-    border: 1px solid #ffffff;
+    border-radius: 5px;
+    border: 2.3px solid #129700;
     box-shadow: 0px 0px 10px #129700;
 }
 
