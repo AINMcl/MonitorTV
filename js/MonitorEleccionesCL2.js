@@ -1,5 +1,9 @@
 let LosCanales = [
     {
+        'nombre': 'VACIO',
+        'url': ''
+    }, 
+    {
         'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠAPERTURA DE MESAS',
         'url': 'https://stagetimer.io/r/KXMMXMDA/'
     }, {

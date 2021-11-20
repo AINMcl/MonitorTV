@@ -132,8 +132,10 @@ main {
 
 .active {
     background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    color: #129700;
+;
     border: 1px solid #ffffff;
+    box-shadow: 0px 0px 10px #129700;
 }
 
 /* Video */
