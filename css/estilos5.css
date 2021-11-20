@@ -61,13 +61,19 @@ main {
 /* listado canales */
 .channel-list {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 1fr; 
+    grid-template-columns: 100%; 
     height: 80vh;  
     gap: 10px;
     width: 100%;
     scrollbar-width: thin;
     overflow-y: scroll; 
 }
+
+
+
+
+
+  
 
 /* .channel {
     display: flex;
@@ -87,10 +93,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: left;
-    border: 1px solid #ffffff;
+    border-color: #171e27;
+    border-width: 2.3px;
     border-radius: 0px;
     height: 3rem;
     width: 100%;
+    color: #171e27;
     margin: 0;
     font-size: 18px;
     font-family: 'Assistant', sans-serif;
@@ -100,20 +108,27 @@ main {
     transition:all .2s
   }
     
-  .channel:hover{
-    color:rgb(0, 26, 255);
-    background-color:rgb(255, 0, 0, 0.2);
-    backdrop-filter: blur(8px);
-    border-width: 3px;
-    border-color:#ff0000
-  }
-  
 .channel:hover {
-    border: 1px solid white;
-    background-color: rgb(121, 121, 126);
-    font-weight: 700;
-    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-color: #0000df;
+    border-width: 2.3px;
+    font-weight: bold;
+    color:#0000df;
+    box-shadow: 0px 0px 10px #0000df;
 }
+
+.BotonTV_Señales{
+    background-color: #ffffff;
+    font-family: 'Assistant', sans-serif;
+    font-weight: normal;
+    border-color: #171e27;
+    border-width: 2px ;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    text-align: left;
+    border-width: 2.3px;
+}
+  
 
 .active {
     background-color: #ffffff;
