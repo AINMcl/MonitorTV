@@ -1,32 +1,92 @@
-
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CNN Stream</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@clappr/player@latest/dist/clappr.min.js"></script>
+
+<title> CHV WEB </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+
+<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+<link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
+
+
+
+<!--bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
 
 <script>
-dfpShowName = "senal-online"
-dfpAdunit1 = "live"
-dfpAdunit2 = "senal-online"
-dfpAdunit3 = "live"
-
-dfpLanguage = "es"
-dfpCountry = "cl"
-dfpVidId = ""
-dfpRandomNumber = Date.now()
-dfpURLEncoded = "https://www.pslabs.cl/assets-tele/chv.html"
+	dfpShowName = "senal-online"
+	dfpAdunit1 = "live"
+	dfpAdunit2 = "senal-online"
+	dfpAdunit3 = "live"
+	
+	dfpLanguage = "es"
+	dfpCountry = "cl"
+	dfpVidId = ""
+	dfpRandomNumber = Date.now()
 </script>
-</head>
-<body style="margin:0; padding:0; border: 0; background: black;">
-    <div class="embed-responsive embed-responsive-16by9">
-			<script src="https://platform.s-mdstrm.com/js/player_api.js"></script>
-			<div id="mdstrm-player" class="box-video"></div>
-			<script src='https://www.chilevision.cl/ms_player_src_01/live_1/5c928b7f6d6f41084bdae898/1633364899.js'></script>
-    </div>
+
+<script type="text/javascript">
     
-  </body>
+    var dfpRandomNumber = Math.floor((Math.random() * 10000000000) + 1);
+    var dfpURL = window.location.href;
+    var dfpURLEncoded = dfpURL;
+    var dfpVidId = window.last_page_metadata.contentid;
+    var dfpShowName = window.last_page_metadata.section;
+    var dfpCountry = 'cl';
+    var dfpLanguage = 'es';
+    var dfpAdunit1 = 'live';
+    var dfpAdunit2 = 'senal-online';
+    var dfpAdunit3 = 'live';
+
+</script>
+
+
+
+</head>
+<body class="MonitoresFondo">
+
+	<div style="
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0px;"
+	
+	class="embed-responsive embed-responsive-16by9">
+		<script src="https://platform.s-mdstrm.com/js/player_api.js"></script>
+		<div  id="mdstrm-player" class="box-video"></div>
+		<script src='https://www.chilevision.cl/ms_player_src_01/live_1/5c928b7f6d6f41084bdae898/1633364899.js'></script>
+</div>
+
+
+    <div style="position: absolute; top: 0.3em; right: 0.3em;width: auto;height: 25px;line-height: 25px; text-align: left;">
+
+        <a href="javascript:location.reload()"><span type="button" class="BotonRecargarPagina"><img style="height: 25px; width:auto" src="imagenes/Icono_Recargar.svg"></img></span></a>
+
+    </div>
+        
+	</div>
+
+	
+        
+
+</body>
+</html>
