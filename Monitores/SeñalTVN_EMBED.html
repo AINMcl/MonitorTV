@@ -38,31 +38,24 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
 
 </head>
 <body>
-
+    <div>
+      <div id="player_envivo111"></div>
+			<script src="https://strm.tvn.cl/js/player-1.3.min.js"></script>
+			<script type="text/javascript">
+                var player = 'player_envivo111';
+                var param = {
+                    url: 'tvnabierta',
+                    html5: true,
+                    autostart: true,
+                    volume: 100,
+                    adsvolume: 100
+                };
+                play(player,param);
+        	</script>
+		</div>
+    </div>
     
-	<div style="
-	position: absolute;
-	display: inline-block;
-	width: 100%;
-	height: 100%;
-	top: 0%;
-	right: 0px;
-	">
-	<div id="player_envivo111"></div>
-  <script src="https://strm.tvn.cl/js/player-1.3.min.js"></script>
-  <script type="text/javascript">
-									  var player = 'player_envivo111';
-									  var param = {
-										  url: 'encoder6',
-										  html5: true,
-										  autostart: true,
-										  volume: 100,
-										  adsvolume: 100
-									  };
-									  play(player,param);
-								  </script>
-	  </div>
-</body>
+  </body>
 
 <!-- ID
 	'encoder3F'"encoderF";
