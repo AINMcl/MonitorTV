@@ -1,57 +1,107 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!DOCTYPE html>
+<html>
 <head>
-
-<title> Facebook Boric </title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
-
-<link href="../css/estilos.css" rel="stylesheet" type="text/css">
-<link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
-
-<link href="../css/video-js.css" rel="stylesheet">
-<script src="../js/video.js"></script>
-<script src="../js/videojs-contrib-hls.js"></script>
-<script src='../js/estilosvideojw.js'></script>
-<script>jwplayer.key='Ohx3VSgswSwYyLP9Gm0ADc2CKw16Cnot01CILeRMQ9o=';</script>
-
-
-<!--bootstrap-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-</script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-</script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Restreamer">
+    <meta name="author" content="datarhei">
+    <title>Restreamer</title>
+    <link rel="shortcut icon" type="image/x-icon" href="http://216.155.78.8:19026/favicon.ico">
+    <script src="http://216.155.78.8:19026/config.js"></script>
+    <script src="http://216.155.78.8:19026/libs/scripts/clappr-0.3.3.min.js"></script>
+    <script src="http://216.155.78.8:19026/libs/scripts/clappr-stats-0.1.4.min.js"></script>
+    <style>
+        .player-poster[data-poster] .poster-background[data-poster] {
+            height: initial !important;
+        }
+    </style>
 </head>
 <body>
+<div id="player" style="position:absolute;top:0;right:0;bottom:0;left:0"></div>
+<script>
+    function getQueryParam(key, defaultValue) {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for(var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+            if(pair[0] == key) {
+                return pair[1];
+            }
+        }
+        return defaultValue;
+    }
 
-    <div style="
-	position: absolute;
-	display: inline-block;
-	width: 100%;
-	height: 100%;
-	top: 0%;
-	right: 0px;
-	">
-	<iframe width="100%" height="100%" src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/UPAunionpatriotica/live/&show_text=0&mute=0" frameborder="0">
-	</iframe>
-	</div>
+    function convertBoolParam(key, defaultValue) {
+        var val = getQueryParam(key, defaultValue);
+        return val === true || val === "true" || val === "1" || val === "yes" || val === "on";
+    }
 
-	<div class="FondoBotonRecargar">
-		<a href="javascript:location.reload()"> <span type="button" class="TextoBotonRecargar2">ㅤRECARGAR ESTA SEÑALㅤ</span></a>
-	</div>
+    function convertColorParam(parameter, defaultColor) {
+        var re = new RegExp("^#([0-9a-f]{3}|[0-9a-f]{6})$");
+        var c = getQueryParam(parameter, defaultColor);
+        // decode color as # has to be represented by %23
+        var c = decodeURIComponent(c);
+        // if color was given without leading #, prepend it
+        if (!String(c).startsWith("#")) c = "#" + c;
+
+        if (re.test(c)) {
+            return c;
+        } else {
+            return defaultColor;
+        }
+    }
+
+    var autoplay = convertBoolParam("autoplay", playerConfig.autoplay);
+    var mute = convertBoolParam("mute", playerConfig.mute);
+    var stats = convertBoolParam("stats", playerConfig.stats);
+    var color = convertColorParam("color", playerConfig.color);
+
+    var plugins = [];
+
+    if(stats == true) {
+        plugins.push(ClapprNerdStats);
+        plugins.push(ClapprStats);
+    }
+
+    var config = {
+        source: 'hls/live.stream.m3u8',
+        parentId: '#player',
+        baseUrl: 'libs/scripts/',
+        plugins: plugins,
+        poster: 'images/live.jpg?t=' + String(new Date().getTime()),
+        mediacontrol: {'seekbar': color, 'buttons': color},
+        height: '100%',
+        width: '100%',
+        disableCanAutoPlay: true,
+        autoPlay: autoplay,
+        mute: mute,
+        clapprStats: {
+            runEach: 1000,
+            onReport: (metrics) => {},
+        },
+        clapprNerdStats: {
+            shortcut: ['command+shift+s', 'ctrl+shift+s'],
+            iconPosition: 'top-right'
+        }
+    };
+
+    if(playerConfig.logo.image.length != 0) {
+        config.watermark = playerConfig.logo.image;
+        config.position = playerConfig.logo.position;
+
+        if(playerConfig.logo.link.length != 0) {
+            config.watermarkLink = playerConfig.logo.link;
+        }
+    }
+
+    var player = new window.Clappr.Player(config);
+    var posterPlugin = player.core.mediaControl.container.getPlugin('poster');
+    player.on(window.Clappr.Events.PLAYER_STOP, function updatePoster () {
+        posterPlugin.options.poster = 'images/live.jpg?t=' + String(new Date().getTime());
+        posterPlugin.render();
+    });
+</script>
 </body>
 </html>
