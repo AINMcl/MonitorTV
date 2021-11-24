@@ -6,13 +6,13 @@ var size = 6;
 ///4 = 3 PANTALLAS HORIZONTALMENTE///
 var App = {
      channels: {
-        'CuentaRegresivaInicioVotaciones': {
-            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠAPERTURA DE MESAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://stagetimer.io/r/KXMMXMDA/" frameborder="0"></iframe></div>'
+        'Contador_Inicio_Elecciones_Inicio': {
+            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠAPERTURA MESAS',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://reloj-alarma.es/embed/temporizador/#date=2021-12-19T08:00:00&title=SEGUNDA+VUELTA+PRESIDENCIAL&theme=1&color=0&ampm=0&sound=cuckoo" frameborder="0"></iframe></div>'
         },
-        'CuentaRegresivaCierreVotaciones2': {
-            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCIERRE DE MESAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://stagetimer.io/r/ECFQFB6J/" frameborder="0"></iframe></div>'
+        'Contador_Inicio_Elecciones_Cierre': {
+            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCIERRE MESAS',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://reloj-alarma.es/embed/temporizador/#date=2021-12-19T18:00:00&title=CIERRE+DE+MESAS&theme=1&color=0&ampm=0&sound=cuckoo" frameborder="0"></iframe></div>'
         },
         'ELECCIONES_FACEBOOK_BORIC': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Facebook.svg"></img>ﾠGABRIEL BORIC',
@@ -21,26 +21,6 @@ var App = {
         'ELECCIONES_FACEBOOK_KAST': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Facebook.svg"></img>ﾠJOSE ANTONIO KAST',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Elecciones_Facebook_Kast.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤKASTㅤ</div></div></div>'
-        },
-        'ELECCIONES_FACEBOOK_PROVOSTE': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Facebook.svg"></img>ﾠYASNA PROVOSTE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Elecciones_Facebook_Provoste.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPROVOSTEㅤ</div></div></div>'
-        },
-        'ELECCIONES_FACEBOOK_SICHEL': {
-            'nombre': '</img><img style="height: 20px; width:auto:" src="imagenes/Icono_Facebook.svg"></img>ﾠSEBASTIAN SICHEL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Elecciones_Facebook_Sichel.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSICHELㅤ</div></div></div>'
-        },
-        'ELECCIONES_FACEBOOK_ARTES': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Facebook.svg"></img>ﾠEDUARDO ARTÉS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Elecciones_Facebook_Artes.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤARTÉSㅤ</div></div></div>'
-        },
-        'ELECCIONES_FACEBOOK_OMINAMI': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Facebook.svg"></img>ﾠMARCO ENRÍQUEZ-OMINAMI',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Elecciones_Facebook_Meo.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤOMINAMIㅤ</div></div></div>'
-        },
-        'ELECCIONES_FACEBOOK_PARISI': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Facebook.svg"></img>ﾠFRANCO PARISI',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Elecciones_Facebook_Parisi.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPARISIㅤ</div></div></div>'
         },
         'ELECCIONES_RESULTADOS': {
             'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg">ﾠSERVEL RESULTADOS',
