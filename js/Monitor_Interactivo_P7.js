@@ -1561,7 +1561,7 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("Señal_Interna_24HTVN_4");
+        App.add("MEDIABANCO2");
 
     }
 }
