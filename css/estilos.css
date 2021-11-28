@@ -4,13 +4,22 @@ background-color: #000000;
 text-align: justify;
 font-family: 'Assistant', sans-serif;
 }
-h1{
+.h1{
 margin: 10px;
 background-color: #0066F9;
 
 text-align: center;
 color: #FFFFFF;
 }
+
+.TextoInfo{
+  margin: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  font-family: 'Assistant', sans-serif;
+  }
 
 
 section#Pantallas1{
@@ -2361,6 +2370,7 @@ section#RelojesMonitor2{
 }
 
 
+
 .BotonHomeG{
   background-color: #444444;
   border-color: #444444;
@@ -2922,6 +2932,7 @@ section#RelojesMonitor2{
   background-color: rgba(76, 175, 80, 0.7);
 }
 
+
 .waves-effect.waves-teal .waves-ripple {
   background-color: rgba(0, 150, 136, 0.7);
 }
@@ -3217,6 +3228,8 @@ background-image: linear-gradient(
   color:#fff
 }
 
+
+
 .BotonSeleccionarSeñales2_Antiguo{
   display: inline-block;
   background:rgba(37, 37, 37, 0.349);
@@ -3260,6 +3273,8 @@ background-image: linear-gradient(
 }
 
 
+
+
 .NombreSeñalMonitor15{
   
   display:flex;
@@ -3285,11 +3300,13 @@ background-image: linear-gradient(
   pointer;
   transition:all .3s
 }
+
 .BotonRecargarPagina:hover{
   backdrop-filter: blur(5px);
   background-color: rgb(214, 3, 3);
   color:#fff
 }
+
 
 .BotonTV_SeñalesWEBTEST{
   background-color: #ffffff;
@@ -3757,75 +3774,28 @@ background-image: linear-gradient(
   color:rgb(255, 255, 255)
 }
 
-
-.fab-container {
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
-  z-index: 999;
-  cursor: pointer;
-}
-
-.fab-icon-holder {
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  background: #016fb9;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-}
-
-.fab-icon-holder:hover {
-  opacity: 0.8;
-}
-
-.fab-icon-holder i {
-  display: flex;
-  align-items: center;
+.BotonIrASeñales{
+  background-color: #ff0000;
+  border: 1px solid #ff0000;
+  margin: 0px;
+  width: auto;
+  height: 22px;
+  font-size: 12PX;
+  border-radius: 4px;
+  font-weight: bold;
   justify-content: center;
-  height: 100%;
-  font-size: 25px;
+  align-items: center;
+  line-height: 22px;
   color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .6s
 }
 
-.fab {
-  width: 60px;
-  height: 60px;
-  background: #d23f31;
+.BotonIrASeñales:hover{
+  color: #ff0000;
+  background-color: #ffffff;
+  border: 1px solid #ff0000;
+  box-shadow: 0px 0px 10px #ff0000;
 }
 
-.fab-options {
-  list-style-type: none;
-  margin: 0;
-  position: absolute;
-  bottom: 70px;
-  right: 0;
-  opacity: 0;
-  transition: all 0.3s ease;
-  transform: scale(0);
-  transform-origin: 85% bottom;
-}
-
-.fab:hover+.fab-options,
-.fab-options:hover {
-  opacity: 1;
-  transform: scale(1);
-}
-
-.fab-options li {
-  display: flex;
-  justify-content: flex-end;
-  padding: 5px;
-}
-
-.fab-label {
-  padding: 2px 5px;
-  align-self: center;
-  user-select: none;
-  white-space: nowrap;
-  border-radius: 3px;
-  font-size: 16px;
-  background: #666666;
-  color: #ffffff;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-  margin-right: 10px;
-}
