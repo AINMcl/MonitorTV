@@ -48,7 +48,6 @@
 <body>
     
 
-    <div style="position: absolute; display: inline-block; width: 100%; height:100%" >
         <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item"
             src="Monitor_Interactivo_P1_AINM.html" frameborder="0"></iframe>
@@ -71,18 +70,51 @@
                 src="Monitor_Interactivo_P8_AINM.html" frameborder="0"></iframe>
             </div>
        </div>
-    </div>
 
-    
-    <div class="Botones" style="position: absolute; bottom: 0.5%; width: 100%;height: 20px;line-height: 20px; text-align: center;">
+    <div class="ZonaRelojes">
+		<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item"
+				src="Reloj_UTC.html" frameborder="0"></iframe>
+		</div>
+		
+		<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item"
+				src="Reloj_CHILE_CONTINENTAL.html" frameborder="0"></iframe>
+		</div>
+		
+		<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item"
+				src="Reloj_CHILE_MAGALLANES.html" frameborder="0"></iframe>
+		</div>
+		
+		<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item"
+				src="Reloj_CHILE_INSULAR.html" frameborder="0"></iframe>
+		</div>
+		
+		<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item"
+				src="Reloj_ESPAÑA.html" frameborder="0"></iframe>
+		</div>
+		
+		<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item"
+				src="Reloj_COSTA_ESTE_USA.html" frameborder="0"></iframe>
+		</div>
+		
+	</div>
+
+    <div class="Botones" style="position: absolute; bottom: 0.5em; width: 100%;height: 20px;line-height: 20px; text-align: center;">
 
         <a onclick="launchFullScreen(document.documentElement);"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_1.svg"></img>ﾠ</span></a>
         
-        <a href="HomeAINM.html"><span class="TEXTO_BotonIrAHome waves-effect waves-light">ㅤIR A HOMEㅤ</span></a>
-
+		<a ><span type="button" class="Boton_ON_OFF_Titulos waves-effect waves-light">ㅤOCULTAR / MOSTRAR RELOJESㅤ</span></a>
+		<a href="HomeAINM.html"><span class="TEXTO_BotonIrAHome waves-effect waves-light">ㅤIR A HOMEㅤ</span></a>
+	
         <a onclick="cancelFullScreen();"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_2.svg"></img>ﾠ</span></a>
         
-    </div>
+	</div>
+
     
     <script rel="preload" as="script" src="../js/MonitorInteractivo.js"></script>
 
