@@ -6,6 +6,10 @@ var size = 12;
 ///4 = 3 PANTALLAS HORIZONTALMENTE///
 var App = {
     channels: {
+        'MULTI': {
+            'nombre': 'MULTIPANTALLA',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Monitor_Interactivo_Public_PG_1_MULTI.html" frameborder="0"></iframe></div>'
+        },
         '24HTVN': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24PLAY.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal24HTVN.html" frameborder="0"></iframe><a href="Señal24HTVN.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤ24 PLAYㅤ</div></a></div>'
@@ -1312,7 +1316,7 @@ var App = {
         App.seedModal();
         App.add("cima");
         if (!App.isMobile()) {
-            App.add("PRESIDENCIA");
+            App.add("MULTI");
 
         }
     }
