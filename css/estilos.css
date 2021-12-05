@@ -4,6 +4,7 @@ background-color: #000000;
 text-align: justify;
 font-family: 'Assistant', sans-serif;
 }
+
 .h1{
 margin: 10px;
 background-color: #0066F9;
@@ -2185,7 +2186,7 @@ section#RelojesMonitor2{
   display:inline-table;
   margin: 5px;
   width: 250px;
-  height: 50px;
+  height: auto;
   font-size: 20PX;
   border-radius: 9px;
   font-weight: bold;
@@ -2212,7 +2213,7 @@ section#RelojesMonitor2{
   display:inline-table;
   margin: 5px;
   width: 250px;
-  height: 50px;
+  height: auto;
   font-size: 20PX;
   border-radius: 9px;
   font-weight: bold;
@@ -2266,7 +2267,7 @@ section#RelojesMonitor2{
   display:inline-table;
   margin: 5px;
   width: 250px;
-  height: 50px;
+  height: auto;
   font-size: 20PX;
   border-radius: 9px;
   font-weight: bold;
@@ -2293,7 +2294,7 @@ section#RelojesMonitor2{
   display:inline-table;
   margin: 5px;
   width: 250px;
-  height: 50px;
+  height: auto;
   font-size: 20PX;
   border-radius: 9px;
   font-weight: bold;
@@ -2321,7 +2322,7 @@ section#RelojesMonitor2{
   display:inline-table;
   margin: 5px;
   width: 250px;
-  height: 50px;
+  height: auto;
   font-size: 20PX;
   border-radius: 9px;
   font-weight: bold;
@@ -2349,7 +2350,7 @@ section#RelojesMonitor2{
   display:inline-table;
   margin: 5px;
   width: 250px;
-  height: 50px;
+  height: auto;
   font-size: 20PX;
   border-radius: 9px;
   font-weight: bold;
@@ -2378,7 +2379,7 @@ section#RelojesMonitor2{
   display:inline-table;
   margin: 5px;
   width: 250px;
-  height: 50px;
+  height: auto;
   font-size: 20PX;
   border-radius: 9px;
   font-weight: bold;
@@ -2405,7 +2406,7 @@ section#RelojesMonitor2{
   display:inline-table;
   margin: 5px;
   width: auto;
-  height: 50px;
+  height: auto;
   font-size: 20PX;
   border-radius: 9px;
   font-weight: bold;
@@ -3797,5 +3798,30 @@ background-image: linear-gradient(
   background-color: #ffffff;
   border: 1px solid #ff0000;
   box-shadow: 0px 0px 10px #ff0000;
+}
+
+.BotonCardHome{
+  background-color: #FF0000;
+  border: solid 2px #FF0000;
+  margin: 0px;
+  width: auto;
+  height: auto;
+  font-size: 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .3s
+}
+
+.BotonCardHome:hover{
+  color: #FF0000;
+  background-color: #ffffff;
+  border: solid 2px #FF0000;
+  box-shadow: 0px 0px 10px #FF0000;
 }
 
