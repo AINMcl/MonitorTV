@@ -30,6 +30,21 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 </script>
 
+
+
+
+
+    
+    
+    
+<script src="https://static.13.cl/7/sites/default/files/advagg_js/js__YGVvz3d8fbxUbb6Yf89Kn4q1Pwd04lWX9mn0EeXE6l4__BJ5Y_L_32fUg57pJFqEfJ0lrilpmo5s9Zyb-ey_O1FA__vJ_kuZ_TDp2n1ZJEs67k8yi_FLOhydVnFG1ZcDx-nBM.js"></script>
+<script src="https://static.13.cl/7/sites/all/libraries/live/cl-13-website.min.js"></script>
+<script src="https://content.jwplatform.com/libraries/0xRx5gVh.js"></script>
+<script src="https://sb.scorecardresearch.com/c2/plugins/streamingtag_plugin_jwplayer.js"></script>
+<script>jwplayer.key="ZsA2F3P5XvVb/N+NFin+pxlq3UV59c6az9+0KQ==";</script>
+
+
+	  
 </head>
 
 
@@ -37,77 +52,78 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
 <body>
   
 
-    						<div style="
-							position: absolute;
-							display: inline-block;
-							width: 100%;
-							height: 100%;
-							top: 0%;
-							left: 0px;"
+<div style="
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0px;"
 							
-								class="embed-responsive embed-responsive-16by9" class="video-media">
-								<div id="player-wrapper">
-									<div id="player" class="envivo-player-default"></div>
-								</div>
-							</div>
+	class="embed-responsive embed-responsive-16by9" class="video-media">
+	<div id="player-wrapper">
+		<div id="player" class="envivo-player-default"></div>
+		</div>
+	</div>
 
-							<script>
-								// Lanzamos el player
-								document.addEventListener("DOMContentLoaded", function(event) {
-									// $streaming_ms_stream
-									token = getToken("5f51a916c21eec083ab337a8", "live");
-									document.getElementById("player-wrapper").innerHTML = "<iframe id='player' class='envivo-player-default' src='//mdstrm.com/live-stream/5f51a916c21eec083ab337a8?access_token=" + token + "&autoplay=true' width='640' height='360' allow='autoplay; fullscreen; encrypted-media' frameborder='0' allowfullscreen allowscriptaccess='always' scrolling='no'></iframe>";
-									ga('13clGlobal.send', 'event', 'Señal en vivo', 'Play');
+	<script>
+	// Lanzamos el player
+	document.addEventListener("DOMContentLoaded", function(event) {
+	// $streaming_ms_stream
+	token = getToken("5f51a916c21eec083ab337a8", "live");
+	document.getElementById("player-wrapper").innerHTML = "<iframe id='player' class='envivo-player-default' src='//mdstrm.com/live-stream/5f51a916c21eec083ab337a8?access_token=" + token + "&autoplay=true' width='640' height='360' allow='autoplay; fullscreen; encrypted-media' frameborder='0' allowfullscreen allowscriptaccess='always' scrolling='no'></iframe>";
+	ga('13clGlobal.send', 'event', 'Señal en vivo', 'Play');
 
-									if(parent.adImageUrl != null){
-										// Genero el banner oculto
-										jQuery("#player-wrapper").append("<div id='div-banner-id' style='cursor:pointer; background:url("+parent.adImageUrl+");overflow:hidden; position:absolute; bottom:10px; left:190px; width:400px; height:60px; z-index:1000'></div>");
-										jQuery("#div-banner-id").click(function(){
-											var win = window.open(parent.adClickUrl,"_blank");
-											win.focus();
-										});
-										jQuery("#div-banner-id").hide();
+	if(parent.adImageUrl != null){
+
+	// Genero el banner oculto
+	jQuery("#player-wrapper").append("<div id='div-banner-id' style='cursor:pointer; background:url("+parent.adImageUrl+");overflow:hidden; position:absolute; bottom:10px; left:190px; width:400px; height:60px; z-index:1000'></div>");
+	jQuery("#div-banner-id").click(function(){
+		var win = window.open(parent.adClickUrl,"_blank");
+	win.focus();
+	});
+	jQuery("#div-banner-id").hide();
 										
-										var cerrarUrl = "https://static.13.cl/static/jwplayer/x.png";								
-										jQuery("#player-wrapper").append("<div id='div-close-id' style='cursor:pointer; background:url("+cerrarUrl+"); overflow:hidden; position:absolute; bottom:62px; left:604px; width:15px; height:15px; z-index:1002'></div>");
-										jQuery("#div-close-id").click(function(){
-											jQuery("#div-banner-id").hide();jQuery("#div-close-id").hide();
-										});
-										jQuery("#div-close-id").hide();
+	var cerrarUrl = "https://static.13.cl/static/jwplayer/x.png";								
+	jQuery("#player-wrapper").append("<div id='div-close-id' style='cursor:pointer; background:url("+cerrarUrl+"); overflow:hidden; position:absolute; bottom:62px; left:604px; width:15px; height:15px; z-index:1002'></div>");
+	jQuery("#div-close-id").click(function(){
+		jQuery("#div-banner-id").hide();jQuery("#div-close-id").hide();
+	});
+	jQuery("#div-close-id").hide();
 
 
-										// Programamos la aparicion del banner
-										var bannerInterval, bannerIntervalCounter = 1;
-										setTimeout(function(){
-											var bannerLeft = parseInt(jQuery("#player-wrapper").width() / 2) - 200;
-											var closeLeft = bannerLeft + 400;
-											jQuery("#div-banner-id").css("left", bannerLeft + "px");
-											jQuery("#div-banner-id").show();
-											jQuery("#div-close-id").css("left", closeLeft + "px");
-											jQuery("#div-close-id").show();
-											setTimeout(function(){
-												jQuery("#div-banner-id").hide();
-												jQuery("#div-close-id").hide();
-											},8000);
-											bannerInterval = setInterval(function(){
-												if(bannerIntervalCounter++ < 7){
-													var bannerLeft = parseInt(jQuery("#player-wrapper").width() / 2) - 200;
-													var closeLeft = bannerLeft + 400;
-													jQuery("#div-banner-id").css("left", bannerLeft + "px");
-													jQuery("#div-banner-id").show();
-													jQuery("#div-close-id").css("left", closeLeft + "px");
-													jQuery("#div-close-id").show();
-													setTimeout(function(){
-														jQuery("#div-banner-id").hide();
-														jQuery("#div-close-id").hide();
-													},8000);
-												} else clearInterval(bannerInterval);
-											},360000);
-										},7000);
-									}
-								});
-							</script>
+	// Programamos la aparicion del banner
+	var bannerInterval, bannerIntervalCounter = 1;
+	setTimeout(function(){
+		var bannerLeft = parseInt(jQuery("#player-wrapper").width() / 2) - 200;
+		var closeLeft = bannerLeft + 400;
+		jQuery("#div-banner-id").css("left", bannerLeft + "px");
+		jQuery("#div-banner-id").show();
+		jQuery("#div-close-id").css("left", closeLeft + "px");
+		jQuery("#div-close-id").show();
+		setTimeout(function(){
+			jQuery("#div-banner-id").hide();
+			jQuery("#div-close-id").hide();
+		},8000);
+		bannerInterval = setInterval(function(){
+		if(bannerIntervalCounter++ < 7){
+			var bannerLeft = parseInt(jQuery("#player-wrapper").width() / 2) - 200;
+			var closeLeft = bannerLeft + 400;
+			jQuery("#div-banner-id").css("left", bannerLeft + "px");
+			jQuery("#div-banner-id").show();
+			jQuery("#div-close-id").css("left", closeLeft + "px");
+			jQuery("#div-close-id").show();
+			setTimeout(function(){
+			jQuery("#div-banner-id").hide();
+			jQuery("#div-close-id").hide();
+			},8000);
+		} else clearInterval(bannerInterval);
+		},360000);
+		},7000);
+		}
+		});
+		</script>
 					
-			</div>
+	</div>
 </body>
 </html>
