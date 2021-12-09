@@ -71,7 +71,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
 	document.addEventListener("DOMContentLoaded", function(event) {
 	// $streaming_ms_stream
 	token = getToken("5f51a916c21eec083ab337a8", "live");
-	document.getElementById("player-wrapper").innerHTML = "<iframe id='player' class='envivo-player-default' src='//mdstrm.com/live-stream/5f51a916c21eec083ab337a8?access_token=" + token + "&autoplay=true' width='640' height='360' allow='autoplay; fullscreen; encrypted-media' frameborder='0' allowfullscreen allowscriptaccess='always' scrolling='no'></iframe>";
+	document.getElementById("player-wrapper").innerHTML = "<iframe id='player' class='envivo-player-default' src='//mdstrm.com/live-stream/5f51a916c21eec083ab337a8?access_token=" + token + "&autoplay=true&volume=0' width='640' height='360' allow='autoplay; fullscreen; encrypted-media' frameborder='0' allowfullscreen allowscriptaccess='always' scrolling='no'></iframe>";
 	ga('13clGlobal.send', 'event', 'Señal en vivo', 'Play');
 
 	if(parent.adImageUrl != null){
