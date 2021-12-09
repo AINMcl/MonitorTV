@@ -1,73 +1,2532 @@
-<!doctype html>
-<html lang="en">
+
+<!DOCTYPE html>
+<html lang="es-ES">
   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Inicio | 13.cl</title>
+    <style>
+      .lazy-background {
+        background-image: none!important;
+      }
+    </style>
+    <link type="text/css" rel="stylesheet" href="https://static.13.cl/7/sites/default/files/advagg_css/css__YZMmyCjxADNsxWJVyzxskiYBiPsGboww8DDJoAv1iVA__PqGVjSeXe3e-YM4xspxCavDlyydtEB28TRpZPTEwV5I__vJ_kuZ_TDp2n1ZJEs67k8yi_FLOhydVnFG1ZcDx-nBM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://static.13.cl/7/sites/default/files/advagg_css/css__v-PoxD0JnuOcvSgEIjWYyBZCY-mWllZ458-sQ371MR8__a-3EEgivRuYMQo023Op9ksj7Jnx7TIcLEiGLDhylx48__vJ_kuZ_TDp2n1ZJEs67k8yi_FLOhydVnFG1ZcDx-nBM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://static.13.cl/7/sites/default/files/advagg_css/css__Hw1LKfu9cFEDez_Y48f7egqOkuE6l6FiedKoE_tpSHs__Mc1rGEPfMv5_YCpZX-n8b6sqKBqNJfT3mZpI2gyLs2g__vJ_kuZ_TDp2n1ZJEs67k8yi_FLOhydVnFG1ZcDx-nBM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://static.13.cl/7/sites/default/files/advagg_css/css__3R3KaWXwl62R6iileqBoCpHQBnI_zkhGzsTcqkUwyC8__N9HQURT5oikPN-USRRRjuEl1GxxLtWorsK5fWm6A-Ro__vJ_kuZ_TDp2n1ZJEs67k8yi_FLOhydVnFG1ZcDx-nBM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://static.13.cl/7/sites/all/themes/portal/programas/mujer13/estilos.css?version=202112021837" media="all" />
 
-    <title> CANAL 13</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"/>
+    <!-- DFP Tag -->
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>  
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
 
-    <link href="../../css/estilos.css" rel="stylesheet" type="text/css"/>
-    <link rel="icon" href='../../imagenes/Icon.png' type="image/png"/>
-
-    <link rel="preconnect" href="https://fonts.gstatic.com"/>
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet"/>
+    var ads13positions = [];
+    function ads13PositionRendered(){
+      ads13positions.shift();
+      if(ads13positions.length == 0){
+        console.log("ads13Ready");
+        if(typeof ads13Ready == 'function'){
+          ads13Ready();
+          console.log("ads13Ready dispatched");
+        }
+      }
+    } 
+    </script>  
 
     
-    <!--bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    <script>
+        // Dispositivo
+        var dispositivo = 'desktop';
+        try {
+            if ( $(window).width() <= 1024 ) {
+                dispositivo = "tablet";
+            }
+            if ( $(window).width() <= 640 ) {
+                dispositivo = "mobile";
+            }
+        } catch(err) {}
     </script>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
+    <!-- Cxense script begin -->
+    <script type="text/javascript">
+    var cX = cX || {}; cX.callQueue = cX.callQueue || [];
+    cX.callQueue.push(['setSiteId', '1132882043386718452']);
+    cX.callQueue.push(['cint', '200']);
+	cX.callQueue.push(['setEventAttributes', { origin: 'c13-vod', persistedQueryId: 'eceb023010d00bfe463dc41d9953a708c4d3fcb6' }]);
     
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    cX.callQueue.push(['invoke', function() {
+		var cookieLoginData = JSON.parse(cX.getCookie("loginData"));
+		if(cookieLoginData !== null){
+			if(cookieLoginData.hasOwnProperty('uuid')){
+				cX.addExternalId({'id': cookieLoginData.uuid, 'type': 'c13'});
+			}
+		}
+    }]);	
+	
+    cX.callQueue.push(['sendPageViewEvent']);
     </script>
+    <script type="text/javascript">
+    (function(d,s,e,t){e=d.createElement(s);e.type='text/java'+s;e.async='async';
+    e.src='http'+('https:'===location.protocol?'s://s':'://')+'cdn.cxense.com/cx.js';
+    t=d.getElementsByTagName(s)[0];t.parentNode.insertBefore(e,t);})(document,'script');
+    </script>
+
+    <!-- Cxense script end -->
+	
+	<!-- Script a insertar en el head  SK-->
+	<script>
+	  !function(f,b,e,v,n,t,s)
+	  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	  n.queue=[];t=b.createElement(e);t.async=!0;
+	  t.src=v;s=b.getElementsByTagName(e)[0];
+	  s.parentNode.insertBefore(t,s)}(window, document,'script',
+	  'https://connect.facebook.net/en_US/fbevents.js');
+	  fbq('init', '577267486068233');
+	  fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	  src="https://www.facebook.com/tr?id=577267486068233&ev=PageView&noscript=1"
+	/></noscript>
+	<script async="" defer="" src="//survey.g.doubleclick.net/async_survey?site=fjqu2y4qhjkwf66rcpz464uslu"></script>  
+	<!-- Fin del script SK -->	
+	<!--  SK - GTM   -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-MW2S47H');</script>
+	<!--  SK - GTM   -->
+	
+    <script src="https://static.13.cl/7/sites/default/files/advagg_js/js__YGVvz3d8fbxUbb6Yf89Kn4q1Pwd04lWX9mn0EeXE6l4__BJ5Y_L_32fUg57pJFqEfJ0lrilpmo5s9Zyb-ey_O1FA__vJ_kuZ_TDp2n1ZJEs67k8yi_FLOhydVnFG1ZcDx-nBM.js"></script>
+<script src="https://static.13.cl/7/sites/all/libraries/live/cl-13-website.min.js"></script>
+<script src="https://content.jwplatform.com/libraries/0xRx5gVh.js"></script>
+<script src="https://sb.scorecardresearch.com/c2/plugins/streamingtag_plugin_jwplayer.js"></script>
+<script>jwplayer.key="ZsA2F3P5XvVb/N+NFin+pxlq3UV59c6az9+0KQ==";</script>
+<script>if (typeof ads13Queue === "undefined"){
+	var ads13Queue = new Array();
+}
+ads13Queue.push({
+	'w': 500, 
+	'f': function(){
+		if(dispositivo=='desktop'){
+			console.log('DFP push desktop 13.cl/portada/halfpage.sev');
+			cX.callQueue.push(['invoke', function() {	
+				googletag.cmd.push(function() {
+					googletag.defineSlot('/112372207/' + '13.cl/portada/halfpage.sev', [300, 600], 'oas_halfpagesev').addService(googletag.pubads());
+				});
+			}]);
+		}
+	}
+});</script>
+<script>if (typeof ads13Queue === "undefined"){
+	var ads13Queue = new Array();
+}
+ads13Queue.push({
+	'w': 25, 
+	'f': function(){
+		if(dispositivo=='desktop'){
+			console.log('DFP push desktop 13.cl/portada/mediumrectangule.1');
+			cX.callQueue.push(['invoke', function() {	
+				googletag.cmd.push(function() {
+					googletag.defineSlot('/112372207/' + '13.cl/portada/mediumrectangule.1', [300, 250], 'oas_Position1').addService(googletag.pubads());
+				});
+			}]);
+		}
+	}
+});</script>
+<script>if (typeof ads13Queue === "undefined"){
+	var ads13Queue = new Array();
+}
+ads13Queue.push({
+	'w': 500, 
+	'f': function(){
+		if(dispositivo=='desktop'){
+			console.log('DFP push desktop 13.cl/portada/halfpage.1');
+			cX.callQueue.push(['invoke', function() {	
+				googletag.cmd.push(function() {
+					googletag.defineSlot('/112372207/' + '13.cl/portada/halfpage.1', [300, 600], 'oas_halfpage1').addService(googletag.pubads());
+				});
+			}]);
+		}
+	}
+});</script>
+<script>if (typeof ads13Queue === "undefined"){
+	var ads13Queue = new Array();
+}
+ads13Queue.push({
+	'w': 500, 
+	'f': function(){
+		if(dispositivo=='desktop'){
+			console.log('DFP push desktop 13.cl/portada/leaderboard.2');
+			cX.callQueue.push(['invoke', function() {	
+				googletag.cmd.push(function() {
+					googletag.defineSlot('/112372207/' + '13.cl/portada/leaderboard.2', [[728, 90], [970, 90], [970, 250]], 'oas_Top1').addService(googletag.pubads());
+				});
+			}]);
+		}
+	}
+});</script>
+<script>if (typeof ads13Queue === "undefined"){
+	var ads13Queue = new Array();
+}
+ads13Queue.push({
+	'w': 500, 
+	'f': function(){
+		if(dispositivo=='desktop'){
+			console.log('DFP push desktop 13.cl/portada/leaderboard.3');
+			cX.callQueue.push(['invoke', function() {	
+				googletag.cmd.push(function() {
+					googletag.defineSlot('/112372207/' + '13.cl/portada/leaderboard.3', [[728, 90], [970, 90], [970, 250]], 'oas_Top2').addService(googletag.pubads());
+				});
+			}]);
+		}
+	}
+});</script>
+<script>if (typeof ads13Queue === "undefined"){
+	var ads13Queue = new Array();
+}
+ads13Queue.push({
+	'w': 500, 
+	'f': function(){
+		if(dispositivo=='desktop'){
+			console.log('DFP push desktop 13.cl/portada/leaderboard.4');
+			cX.callQueue.push(['invoke', function() {	
+				googletag.cmd.push(function() {
+					googletag.defineSlot('/112372207/' + '13.cl/portada/leaderboard.4', [[728, 90], [970, 90], [970, 250]], 'oas_Top3').addService(googletag.pubads());
+				});
+			}]);
+		}
+	}
+});</script>
+<script>if (typeof ads13Queue === "undefined"){
+	var ads13Queue = new Array();
+}
+ads13Queue.push({
+	'w': 500, 
+	'f': function(){
+		if(dispositivo=='desktop'){
+			console.log('DFP push desktop 13.cl/portada/mediumrectangule.2');
+			cX.callQueue.push(['invoke', function() {	
+				googletag.cmd.push(function() {
+					googletag.defineSlot('/112372207/' + '13.cl/portada/mediumrectangule.2', [300, 250], 'oas_Position2').addService(googletag.pubads());
+				});
+			}]);
+		}
+	}
+});</script>
+<script>if (typeof ads13Queue === "undefined"){
+	var ads13Queue = new Array();
+}
+ads13Queue.push({
+	'w': 1, 
+	'f': function(){
+		if(dispositivo=='desktop'){
+			console.log('DFP push desktop 13.cl/portada/intersticial');
+			cX.callQueue.push(['invoke', function() {	
+				googletag.cmd.push(function() {
+					googletag.defineSlot('/112372207/' + '13.cl/portada/intersticial', [980, 600], 'oas_x95').setCollapseEmptyDiv(true,true).addService(googletag.pubads());
+				});
+			}]);
+		}
+	}
+});</script>
+<script>if (typeof ads13Queue === "undefined"){
+	var ads13Queue = new Array();
+}
+ads13Queue.push({
+	'w': 5, 
+	'f': function(){
+		if(dispositivo=='desktop'){
+			console.log('DFP push desktop 13.cl/portada/in-banner');
+			cX.callQueue.push(['invoke', function() {	
+				googletag.cmd.push(function() {
+					googletag.defineSlot('/112372207/' + '13.cl/portada/in-banner', [1, 1], 'oas_1by1').setCollapseEmptyDiv(true,true).addService(googletag.pubads());
+				});
+			}]);
+		}
+	}
+});</script>
+<script>if (typeof ads13Queue === "undefined"){
+	var ads13Queue = new Array();
+}
+ads13Queue.push({
+	'w': 10, 
+	'f': function(){
+		if(dispositivo=='tablet'){
+			console.log('DFP push tablet 13.cl/portada/skin');
+			cX.callQueue.push(['invoke', function() {	
+				googletag.cmd.push(function() {
+					googletag.defineSlot('/112372207/' + '13.cl/portada/skin', [1900, 1200], 'oas_skin').setCollapseEmptyDiv(true,true).addService(googletag.companionAds()).addService(googletag.pubads());
+				});
+			}]);
+		}
+	}
+});if (typeof ads13Queue === "undefined"){
+	var ads13Queue = new Array();
+}
+ads13Queue.push({
+	'w': 10, 
+	'f': function(){
+		if(dispositivo=='desktop'){
+			console.log('DFP push desktop 13.cl/portada/skin');
+			cX.callQueue.push(['invoke', function() {	
+				googletag.cmd.push(function() {
+					googletag.defineSlot('/112372207/' + '13.cl/portada/skin', [1900, 1200], 'oas_skin').setCollapseEmptyDiv(true,true).addService(googletag.companionAds()).addService(googletag.pubads());
+				});
+			}]);
+		}
+	}
+});</script>
+<script>if (typeof ads13Queue === "undefined"){
+	var ads13Queue = new Array();
+}
+ads13Queue.push({
+	'w': 15, 
+	'f': function(){
+		if(dispositivo=='desktop'){
+			console.log('DFP push desktop 13.cl/portada/leaderboard.1');
+			cX.callQueue.push(['invoke', function() {	
+				googletag.cmd.push(function() {
+					googletag.defineSlot('/112372207/' + '13.cl/portada/leaderboard.1', [[728, 90], [970, 90], [970, 250]], 'oas_Top').addService(googletag.companionAds()).addService(googletag.pubads());
+				});
+			}]);
+		}
+	}
+});</script>
+<script>	
+	// Queu order based on weight
+	ads13Queue.sort(function(a, b) {
+		return a.w - b.w;
+	});
+	ads13Queue.forEach(function(ads13Item){
+		console.log("Ads13Queue item weight ", ads13Item.w);
+		(ads13Item.f)();
+	});
+
+	// DFP: end of initialization
+	var halfpageSlot = null;
+	var dfp_id = '112372207';
+	var dfp_adunit = '13.cl/portada';
+	var dfp_targeting = [];
+	dfp_targeting['contentid'] = 'portada';
+	cX.callQueue.push(['invoke', function() {
+		googletag.cmd.push(function() {
+			googletag.pubads().setTargeting('contentid', 'portada')
+							  .setTargeting('CxSegments',cX.getUserSegmentIds({persistedQueryId:'92297dd7e90be54ad8e9da2466245e45ca8464e8'}));
+			googletag.pubads().enableSingleRequest();
+			googletag.pubads().enableLazyLoad({
+				// Fetch slots within 5 viewports.
+				fetchMarginPercent: 500,
+				// Render slots within 2 viewports.
+				renderMarginPercent: 200,
+				// Double the above values on mobile, where viewports are smaller
+				// and users tend to scroll faster.
+				mobileScaling: 2.0
+			});	
+					
+			googletag.enableServices();
+		});
+	}]);</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"portal","theme_token":"wo7gfVY0jFNDKc2RKermp1WttgrQ6CyQEhChQlrvtQ4","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/portal\/resources\/styles\/application.css":1,"sites\/all\/themes\/portal\/resources\/styles\/devices.css":1,"sites\/all\/themes\/portal\/resources\/styles\/sprites.css":1,"https:\/\/static.13.cl\/7\/sites\/all\/themes\/portal\/programas\/mujer13\/estilos.css?version=202112021837":1},"js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/es_qRKqP12_FpvJybMprbzvFzzzTrCb2n5cGzwVNRqyFno.js":1,"https:\/\/static.13.cl\/7\/sites\/all\/libraries\/live\/cl-13-website.min.js":1,"https:\/\/content.jwplatform.com\/libraries\/0xRx5gVh.js":1,"https:\/\/sb.scorecardresearch.com\/c2\/plugins\/streamingtag_plugin_jwplayer.js":1}}});</script>
+    <meta name="description" content="Sitio web oficial de Canal 13, primer canal de transmisión chileno en transformarse en una casa editorial que traspasa sus contenidos a todas sus plataformas como Internet, radio, cable y eventos multitudinarios.">
+    <meta name="viewport" content="width=device-width">
+    <link rel="publisher" href="Canal 13">
+    <meta name="robots" content="robots.txt">
+    <meta property="og:title" content="Inicio | 13.cl">
+    <meta property="og:description" content="Sitio web oficial de Canal 13, primer canal de transmisión chileno en transformarse en una casa editorial que traspasa sus contenidos a todas sus plataformas como Internet, radio, cable y eventos multitudinarios.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.13.cl/">
+    <meta property="og:image" content="https://static.13.cl/7/sites/all/themes/portal/images/default.jpg">
+    <meta property="og:site_name" content="Canal 13">
+    <meta property="fb:app_id" content="164212590304407">
+    <meta property="og:locale" content="es_LA">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Inicio | 13.cl">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta name="twitter:image" content="https://static.13.cl/7/sites/all/themes/portal/images/default.jpg">
+    <meta name="twitter:site" content="@canal13">
+    <meta name="twitter:creator" content="@canal13">
+    <meta name="twitter:domain" content="13.cl">
+    <meta name="twitter:url" content="https://www.13.cl/">
+    <meta name="twitter:description" content="Sitio web oficial de Canal 13, primer canal de transmisión chileno en transformarse en una casa editorial que traspasa sus contenidos a todas sus plataformas como Internet, radio, cable y eventos multitudinarios.">
+    <meta name="content-type" content="">
+    <meta name="content-category" content="">
+    <meta name="content-date"  content="">
+    <link rel="apple-touch-icon-precomposed" href="https://static.13.cl/7/sites/all/themes/portal/resources/images/apps/precomposed57.png" sizes="57x57">
+    <link rel="apple-touch-icon-precomposed" href="https://static.13.cl/7/sites/all/themes/portal/resources/images/apps/precomposed60.png" sizes="60x60">
+    <link rel="apple-touch-icon-precomposed" href="https://static.13.cl/7/sites/all/themes/portal/resources/images/apps/precomposed72.png" sizes="72x72">
+    <link rel="apple-touch-icon-precomposed" href="https://static.13.cl/7/sites/all/themes/portal/resources/images/apps/precomposed76.png" sizes="76x76">
+    <link rel="apple-touch-icon-precomposed" href="https://static.13.cl/7/sites/all/themes/portal/resources/images/apps/precomposed114.png" sizes="114x114">
+    <link rel="apple-touch-icon-precomposed" href="https://static.13.cl/7/sites/all/themes/portal/resources/images/apps/precomposed120.png" sizes="120x120">
+    <link rel="apple-touch-icon-precomposed" href="https://static.13.cl/7/sites/all/themes/portal/resources/images/apps/precomposed144.png" sizes="144x144">
+    <link rel="apple-touch-icon-precomposed" href="https://static.13.cl/7/sites/all/themes/portal/resources/images/apps/precomposed152.png" sizes="152x152">
+    <link rel="apple-touch-icon-precomposed" href="https://static.13.cl/7/sites/all/themes/portal/resources/images/apps/precomposed180.png" sizes="180x180">
+    <link href="https://static.13.cl/7/sites/all/themes/portal/resources/images/apps/favicon.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="https://static.13.cl/7/sites/all/themes/portal/resources/images/apps/favicon32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="https://static.13.cl/7/sites/all/themes/portal/resources/images/apps/favicon96.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="https://static.13.cl/7/sites/all/themes/portal/resources/images/apps/android-chrome.png" rel="icon" sizes="192x192" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap">
+    <script src="https://static.13.cl/static/js/jquery.cookie.min.js"></script>
+    <link rel="shortcut icon" href="https://static.13.cl/7/sites/all/themes/portal/fav.ico" type="image/vnd.microsoft.icon" />
+
+    <link rel="canonical" href="https://www.13.cl/" />
+
+          <meta name="cXenseParse:pageclass" content="frontpage">
     
-  </head>
-  <body id="data" style="background-color: #ffffff;">
+    
+    <script>
+    var dax_name = 'portada';
+    </script>
+
+
+  
+
+  
+
+
+
+  
+    <meta property="fb:pages" content="292534509886" />
+    <meta property="fb:admins" content="1137406412"/>
 
     <script>
-    let url =
-      "https://us-central1-canal-13-stream-api.cloudfunctions.net/media/token?id=5f51a916c21eec083ab337a8&type=live";
-    fetch(url)
-      .then((response) => response.json())
-      .then((data) => mostrarData(data.data))
-      .catch((error) => console.log(error));
-    
-    const mostrarData = (data) => {
-      let html = "";
-      for (let i = 0; i < data.length; i++) {
-        html += `
-        <div class="TituloSismo">
-		                    ${data[i].status} | ${data[i].token}
-	                    </div>
-	                    <div class="ImagenSismo">
-                      <div style="position: relative; float:left; width: auto; height:100%">
-		                      <img height="100%" width="auto"
-		                      src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-star-stroked+FF0000(${data[i].longitude},${data[i].latitude})/${data[i].longitude},${data[i].latitude},7,0/1000x1000?access_token=pk.eyJ1IjoiYWlubSIsImEiOiJja2w0NnhyYjAxOTJxMnZvZWlscjFzMm95In0.ig6COzSDvS_H-YWRVhXIGQ"frameborder="0"></img>
-                      </div>
-	                    </div>
-	                    <div class="DatosSismo">
-		                  <div class="BarraDato">
-		                    CENTRO SISMOLOGICO NACIONAL - CHILE ALERTA API DEMO:
-		                  </div>
-		                  <div class="BarraDato2">
-                        <b>REFERENCIA: </b>${data[i].token}
-		                  </div>
-	                    </div>
-        `;
-      }
-      let container = document.querySelector("#data");
-      container.innerHTML = html;
-    };
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20386425-17', 'auto');
+    ga('create', 'UA-58258336-13', 'auto', {'name': '13clGlobal'});  // ID para seguimiento global del sitio.
+    ga('create', 'UA-208206795-2', 'auto', {'name': 'Hitmap'});
+
+    ga('require', 'displayfeatures');
+
+          ga('send', 'pageview');
+      ga('13clGlobal.send', 'pageview'); // Envia los page views para el seguimiento global del sitio.
+        </script>
+
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <!--<link type="text/css" rel="stylesheet" media="screen" href="http://static.13.cl/7/static/gigya/css/style-new.css?v4" /> -->
+    <!-- Fin Gigya 1 -->
+    <!------ Js Variables SETUP begin ------>
+    <script type="text/javascript">
+      var sg13 = ($.cookie('segmentos13') != null ? $.cookie('segmentos13') : "u#0").split('#'),
+        PROFILE_S1 = sg13[0],
+        PROFILE_S2 = isNaN(sg13[1])?0:sg13[1],
+        DAX_PV = 26524;
+
+		var login13 = $.cookie('loginData') != null ? 1 : 0;
     </script>
-  </body>
+    <!------ Js Variables SETUP end ------>
+    <script>window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if (d.getElementById(id)) return t;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));</script>
+	<!-- Moat Content Tag -->
+	<script>
+	(function(){function x(){for(var a=[8],b=1;1>=b;b++)a.push(8+b),a.push(8-b);a=a[Math.floor(Math.random()*a.length)];return{b:a,a:0==Math.floor(Math.random()*a)}}function h(a){var b=a=a.replace(":","");try{for(var c=0;100>c&&(a=decodeURIComponent(a),b!=a)&&!a.match(/^http(s)?\:/);c++)b=a}catch(d){}return a.replace(/(^\s+|\s+$)/g,"")}try{if(!location||!location.hostname||!location.pathname)return!1;var c=document.location.hostname.replace(/^www\./,""),q=function(){for(var a,b=document.getElementsByTagName("meta"),
+	c,d=0,e=b.length;d<e;d++)if(c=b[d],"og:title"===c.getAttribute("property")){a=c.getAttribute("content");break}a||(a=document.title||"Untitled");return a}(),b={},b=function(a,b,c){a.l1=b;a.l2=c;a.l3="__page__";a.l4="-";return a}(b,c,q),k=(new Date).getTime(),l=Math.floor(Math.random()*Math.pow(10,12)),m,d;d=x();m=d.a?d.b:0;b.zmoatab_cm=m;b.t=k;b.de=l;b.zMoatAB_SNPT=!0;var n;n=m?m:1;var r;r=d?d.a?!0:!1:!0;var c=[],y=(new Date).getTime().toString(35),t=[h(b.l1),h(b.l2),h(b.l3),h(b.l4)].join(":"),q=/zct[a-z0-9]+/i,
+	e="",f;for(f in b)b.hasOwnProperty(f)&&f.match(q)&&(e+="&"+f+"="+b[f]);var u=document.referrer.match(/^([^:]{2,}:\/\/[^\/]*)/),p=u?u[1]:document.referrer,z="https://45iwsp5zdnq0-a.akamaihd.net/"+y+".gif?e=17&d="+encodeURIComponent(t)+"&de="+l+"&t="+k+"&i=FIRECLIPCONTENT1&cm="+n+"&j="+encodeURIComponent(p)+e+"&mp=1&ac=1&pl=1&bq=10&vc=2&cs=0",A="https://px.moatads.com/pixel.gif?e=17&d="+encodeURIComponent(t)+"&de="+l+"&t="+k+"&i=FIRECLIPCONTENT1&cm="+n+"&j="+encodeURIComponent(p)+e+"&mp=0&ac=1&pl=1&bq=10&ad_type=img&vc=2&cs=0",
+	B="https://px.moatads.com/pixel.gif?e=17&d="+encodeURIComponent(t)+"&de="+l+"&t="+k+"&i=FIRECLIPCONTENT1&cm="+n+"&j="+encodeURIComponent(p)+e+"&ku=1&ac=1&pl=1&bq=10&ad_type=img&vc=2&cs=0";r&&((new Image).src=z,(new Image).src=A);for(var v in b)c.push(v+"="+encodeURIComponent(b[v]));var c=c.join("&"),c=c+"&vc=2",g=document.createElement("script");g.type="text/javascript";g.async=!0;r&&(g.onerror=function(){(new Image).src=B});var w=document.getElementsByTagName("script")[0];w.parentNode.insertBefore(g,
+	w);g.src="https://z.moatads.com/fireclipcontent855623386095/moatcontent.js#"+c}catch(a){try{var C="//pixel.moatads.com/pixel.gif?e=24&d=data%3Adata%3Adata%3Adata&i=MOATCONTENTABSNIPPET1"+e+"&vc=2&ac=1&k="+encodeURIComponent(a)+"&j="+encodeURIComponent(p)+"&cs="+(new Date).getTime();(new Image).src=C}catch(D){}}})();
+	</script>	
+	<!-- CSS y Widget Login 13 -->
+	<link type="text/css" rel="stylesheet" href="https://login.13.cl/sites/all/themes/login/css/styles-externos.css?202112021837" media="all" />
+  <script src="https://login.13.cl/sites/all/libraries/login13/widgets.js?202112021837"></script>		
+  <!-- Retargetly -->	
+  <script type="text/javascript"> var _rl_cn = _rl_cn || 0,_rl_ptc = ("https:" == window.location.protocol ? "https" : "http"); window._rl_ids = window._rl_ids || []; window._rely = window._rely || []; _rl_ids.push({pid:1395,src:0}); _rely.send = _rely.send?_rely.send:function() {}; (function() { var rl = document.createElement("script"); rl.type = "text/javascript"; rl.async = true; rl.src = _rl_ptc + "://api.retargetly.com/loader?id=" + _rl_ids[_rl_ids.length-1].pid; rl.id = "rely-api-"+(_rl_cn++); var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(rl, s); })(); </script>	
+  
+  <script src="https://static.13.cl/7/sites/all/libraries/jquery.webticker.min.js"></script>  
+  </head>
+<body class="html front not-logged-in no-sidebars page-portal page-views page-home"  id="top" data-device="desktop">
+  <!--facebook-->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3&appId=164212590304407";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!--Twitter-->
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+  <!--Instagram
+  <script>(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src="//x.instagramfollowbutton.com/follow.js";s.parentNode.insertBefore(g,s);}(document,"script"));</script>
+  -->
+
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6906499" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&c2=6906499&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+<!-- SK - GTM (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MW2S47H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!--  SK - GTM  (noscript) -->
+
+
+
+    
+<div id="oas_x95" data-dfp-name="intersticial" data-oas-x="980" data-oas-y="600" data-oas-name="x95" class="oas-position" data-oas-device="desktop" data-dfp-collapse="yes" data-dfp-weight="1"></div>
+<!-- 1by1 va en el mismo bloque que x95 -->
+<div id="oas_1by1" data-dfp-name="in-banner" data-oas-x="1" data-oas-y="1" data-oas-name="1x1" class="oas-position" data-oas-device="desktop" data-dfp-collapse="yes" data-dfp-weight="5"></div>
+<div id="oas_skin" data-dfp-name="skin" data-oas-x="1900" data-oas-y="1200" data-oas-name="skin" class="oas-position" data-oas-device="tablet,desktop" data-dfp-collapse="yes" data-dfp-weight="10" data-dfp-companion="yes"></div>
+
+
+	<div class="banner top-header center-banner">
+		<div id="oas_Top" data-dfp-name="leaderboard.1" data-dfp-companion="yes" data-oas-x="728" data-oas-y="90" data-oas-name="Top" class="oas-position" data-oas-device="desktop" data-dfp-weight="15"></div>
+
+<!--script>OAS_AD('Top');</script-->	</div>
+
+
+    <style>
+#oas_skin {
+    display: none;
+}
+</style><!--
+<div class="banner top-header center-banner">
+     </div>
+-->
+
+<header class="site-header">
+  <div class="row" data-hit-categoria="Header Corporativo - Menú Principal"><a href="/" title="Volver al inicio" class="site-logo" data-hit-etiqueta="Logo Canal 13" data-hit-accion="Logo Canal 13"><img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/logo_13cl-2x.png?1" alt="Logo canal 13 de chile" width="95" height="87"></a>
+    <ul role="menu" class="top-menu" data-hit-categoria="Header Corporativo - Menú Superior">
+      <li><a data-hit-etiqueta="Item 1" href="https://www.t13.cl" title="Tele13" target="_blank" data-hit-accion="T13">T13</a></li>
+      <li><a data-hit-etiqueta="Item 2" href="https://www.t13.cl/deportest13" title="Deportes 13" target="_blank" data-hit-accion="Deportes T13">Deportes T13</a></li>
+      <li><a data-hit-etiqueta="Item 3" href="https://www.ar13.cl/" title="AR13" target="_blank" data-hit-accion="AR13">AR13</a></li>
+      <li><a data-hit-etiqueta="Item 4" href="https://www.nosotras13.cl/" title="Nosotras13" target="_blank" data-hit-accion="Nosotras 13">Nosotras 13</a></li>
+      <li><a data-hit-etiqueta="Item 5" href="https://www.13.cl/smart13" title="Smart13" target="_blank" data-hit-accion="Smart13">Smart13</a></li>
+      <li><a data-hit-etiqueta="Item 6" href="https://www.13.cl/13e" title="13E" data-hit-accion="13E">13E</a></li>
+      <li><a data-hit-etiqueta="Item 7" href="https://www.13c.cl" title="13C" target="_blank" data-hit-accion="13C">13C</a></li>
+      <li><a data-hit-etiqueta="Item 8" href="https://www.13.cl/rec" title="RecTV" target="_blank" data-hit-accion="RecTV">RecTV</a></li>
+      <li><a data-hit-etiqueta="Item 9" href="https://www.13.cl/bazar" title="Bazar13" target="_blank" data-hit-accion="Bazar13">Bazar13</a></li>
+      <li><a data-hit-etiqueta="Item 10" href="https://www.13.cl/comparte" title="13 Comparte" target="_blank" data-hit-accion="13 Comparte">13 Comparte</a></li>
+      <li><a href="#" title="RDFMedia" class="caret-down">RDFMedia</a>
+        <ul class="modal">
+          <li> <a data-hit-etiqueta="RDF - Item 1" href="https://www.horizonte.cl/" title="Horizonte" target="_blank" data-hit-accion="Horizonte">Horizonte</a></li>
+          <li> <a data-hit-etiqueta="RDF - Item 2" href="https://oasisfm.cl/" title="Oasis FM" target="_blank" data-hit-accion="Oasis FM">Oasis FM</a></li>
+          <li> <a data-hit-etiqueta="RDF - Item 3" href="https://playfm.cl/" title="Play FM" target="_blank" data-hit-accion="Play FM">Play FM</a></li>
+          <li> <a data-hit-etiqueta="RDF - Item 4" href="https://sonarfm.cl/" title="Sonar FM" target="_blank" data-hit-accion="Sonar FM">Sonar FM</a></li>
+          <li> <a data-hit-etiqueta="RDF - Item 5" href="https://www.tele13radio.cl" title="Tele13 Radio" target="_blank" data-hit-accion="Tele13 Radio">Tele13 Radio</a></li>
+          <li> <a data-hit-etiqueta="RDF - Item 6" href="https://www.emisorpodcasting.com/" title="Emisor Podcasting" target="_blank" data-hit-accion="Emisor Podcasting">Emisor Podcasting</a></li>
+        </ul>
+      </li>
+    </ul>
+    <nav class="site-nav" data-hit-categoria="Header Corporativo - Menú Principal">
+      <ul role="menu">
+        <li><a href="/programas" title="Programas" class="open-program">Programas</a></li>
+        <li><a data-hit-etiqueta="Capítulos" data-hit-accion="Capítulos" href="/capitulos" title="Capítulos completos">Capítulos</a></li>
+        <li><a data-hit-etiqueta="Programación" data-hit-accion="Programación" href="/programacion" title="Programación">Programación</a></li>
+        <li><a data-hit-etiqueta="En vivo" data-hit-accion="En vivo" href="/en-vivo" title="En vivo">En vivo</a></li>
+        <li><a data-hit-etiqueta="13E" data-hit-accion="13E" href="/13e" title="13E"><img src="https://www-storage.13.cl/c13/13e/13e.svg" width="33"></a></li>
+        <li><a data-hit-etiqueta="13Now" data-hit-accion="13Now" href="/now" title="13Now">13Now</a></li>
+        <li style="margin-left: 10px; margin-top: -6px;"><a data-hit-etiqueta="Amazon Music" data-hit-accion="Amazon Music" href="https://musicapp.amazon.com?ref=dmm_mf_disp_cl_dig_13cl_log" title="Amazon Music" target="_blank"><img src="https://www-storage.13.cl/t13/assets/svg/logos-amazonmusic.svg" width="120"></a></li>
+      </ul>
+      <div action="" method="" class="search-button">
+        <button type="button" role="button" class="show svg-search"></button>
+      </div>
+      <form action="/buscador" method="GET" class="site-search">
+        <fieldset>
+          <input type="hidden" name="type" id="" value="">
+          <input type="hidden" name="sort" id="" value="">
+          <button type="submit" role="button" class="svg-search"></button>
+          <input type="text" name="t" id="" placeholder="BUSCAR" value=""><a href="#" title="Cerrar buscador" class="search-close"></a>
+        </fieldset>
+      </form>
+    </nav>
+    <div class="header-actions">
+      <div class="follow-us">
+          <a data-hit-etiqueta="Item Redes 1" data-hit-accion="Facebook" href="https://www.facebook.com/elcanal13" target="_blank"><span class="svg-facebook"></span></a>
+          <a data-hit-etiqueta="Item Redes 2" data-hit-accion="Twitter" href="https://twitter.com/canal13" target="_blank"><span class="svg-twitter"></span></a>
+          <a data-hit-etiqueta="Item Redes 3" data-hit-accion="Instagram" href="https://instagram.com/canal13cl" target="_blank"><span class="svg-instagram"></span></a>
+          <a data-hit-etiqueta="Item Redes 4" data-hit-accion="Youtube" href="https://www.youtube.com/canal13" target="_blank" style=" filter: brightness(0); display: inline-block;"><img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/yt.png" style=" margin-top: -3px;"></a>
+      </div>
+     <div class="user-action"><div class="login13-widget-init login13-widget-init-default"></div></div>	
+	</div>
+    </div>
+  </div>
+  <div data-pagination=".swiper-bullets" data-slidesperview="4" data-slidespercolumn="2" data-space="20" data-slidespergroup="4" class="programs-menu" data-hit-categoria="Header Corporativo - Menú Programas">
+        <div class="row">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+                                                
+            
+            
+                                  
+          <div class="swiper-slide"><a href="/programas/tu-dia" title="Tu Día" data-hit-etiqueta="Item 1" data-hit-accion="Tu Día"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/640x360_26_0.jpg?itok=gtSBEbxP" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/caso-cerrado" title="Caso Cerrado" data-hit-etiqueta="Item 2" data-hit-accion="Caso Cerrado"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/casocerrado.jpg?itok=o0FurdIO" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/teleton-2021" title="Teletón 2021" data-hit-etiqueta="Item 3" data-hit-accion="Teletón 2021"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/640x360_46_0.jpg?itok=KGwHZejT" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/13-live" title="13 Live" data-hit-etiqueta="Item 4" data-hit-accion="13 Live"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/640x360_7_0.jpg?itok=KRXvwOOc" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/los-5-mandamientos" title="Los 5 Mandamientos" data-hit-etiqueta="Item 5" data-hit-accion="Los 5 Mandamientos"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/5_mandamientos.jpg?itok=tNPQNisC" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/red-bull" title="Red Bull Batalla" data-hit-etiqueta="Item 6" data-hit-accion="Red Bull Batalla"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/default_1_4.jpg?itok=rx2qrBOD" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/city-tour-t7" title="City Tour T7" data-hit-etiqueta="Item 7" data-hit-accion="City Tour T7"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/640x360_44_0.jpg?itok=SWOyQBWH" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/los-2000" title="Los 2000" data-hit-etiqueta="Item 8" data-hit-accion="Los 2000"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/640x360_21_0.jpg?itok=UwXbPKGF" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/cita-de-negocios" title="Cita de Negocios" data-hit-etiqueta="Item 9" data-hit-accion="Cita de Negocios"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/citadenegocioss.jpg?itok=LsDhTyp1" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/adrenalina" title="Adrenalina" data-hit-etiqueta="Item 10" data-hit-accion="Adrenalina"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/640x360_2_2.jpg?itok=gO8Pzn7-" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/si-nos-dejan" title="Si nos dejan" data-hit-etiqueta="Item 11" data-hit-accion="Si nos dejan"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/640x360_22_0.jpg?itok=PcahexZA" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/cafe-social" title="Café Social" data-hit-etiqueta="Item 12" data-hit-accion="Café Social"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/cafesocial_0.jpg?itok=8ILdI4WC" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/que-dice-chile" title="Qué Dice Chile" data-hit-etiqueta="Item 13" data-hit-accion="Qué Dice Chile"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/640x360_50.jpg?itok=dlyDgMgM" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/masterchef-celebrity" title="MasterChef Celebrity" data-hit-etiqueta="Item 14" data-hit-accion="MasterChef Celebrity"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/640x360_49.jpg?itok=Qfevj-8F" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/la-torre-de-mabel" title="La Torre de Mabel" data-hit-etiqueta="Item 15" data-hit-accion="La Torre de Mabel"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/640x360_1_1.jpg?itok=Y30RFD6B" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/aqui-somos-todos" title="Aquí somos todos" data-hit-etiqueta="Item 16" data-hit-accion="Aquí somos todos"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/640x360_25_0.jpg?itok=d_PciwZn" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/lugares-que-hablan" title="Lugares que Hablan " data-hit-etiqueta="Item 17" data-hit-accion="Lugares que Hablan "><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/640x360_34.jpg?itok=O-aJx_OI" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/servicios-13" title="Servicios 13" data-hit-etiqueta="Item 18" data-hit-accion="Servicios 13"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/640x3601_1.jpg?itok=5vT-g4Ab" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/entretencion" title="Entretención" data-hit-etiqueta="Item 19" data-hit-accion="Entretención"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/entretencion.jpg?itok=phqNDXcE" width="260" height="146"></a></div>        
+          <div class="swiper-slide"><a href="/programas/sabado-de-reportajes" title="Cultura en el 13" data-hit-etiqueta="Item 20" data-hit-accion="Cultura en el 13"><img data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/260x150/public/programas/configuracion/field-imagen/640x360_15_0.jpg?itok=KhFOuLVb" width="260" height="146"></a></div>              
+            
+            
+            
+            
+                        </div>
+            <div class="swiper-pagination">
+              <div class="swiper-btn swiper-btn-prev"></div>
+              <div class="swiper-bullets"></div>
+              <div class="swiper-btn swiper-btn-next"></div>
+            </div>
+          </div>
+        </div>
+      </div></header>
+
+<style>
+body {
+font-family:Arial;
+}
+.video.video-live .video-media {
+    margin-bottom: 25px;
+    width: 100%;
+    position: relative;
+    height: 1px;
+    padding-top: 56%;
+z-index:1;
+}
+.video-featured-left {
+    min-height: 520px;
+}
+.video-featured-left iframe { width: 100%; }
+.site-header .follow-us > a + a {
+  margin-left: 13px;
+}
+.site-header .follow-us > a:hover span {
+ color: #fb6900;
+}
+#home-playerbreaking {
+    background: #111111!important;
+    padding: 20px 0;
+}
+#home-playerbreaking-left {
+    position: relative;
+}
+#home-playerbreaking-left .video-media {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 56.3%;
+}
+#home-playerbreaking-wrapper span.video-live {
+    color: white;
+    text-transform: uppercase;
+    font: 800 28px/23px "proxima";
+    padding: 26px 0;
+    display: block;
+}
+
+#home-playerbreaking-wrapper span.icon-alert-small-orange {
+    margin-right: 10px;
+}
+
+#home-playerbreaking-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div#home-playerbreaking-left.collapsed .video-media, div#home-playerbreaking-left.collapsed  .clearfix {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+div#home-playerbreaking-left-switch {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+div#home-playerbreaking-left-switch a {
+    color: white;
+    text-align: center;
+transition: opacity: .3s;
+}
+
+div#home-playerbreaking-left-switch {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;text-align:center;
+}
+
+div#home-playerbreaking-left-switch div {
+    grid-row: 2;
+}
+div#home-playerbreaking-left-switch a:hover {
+    opacity:.7;
+}
+div#home-playerbreaking-left-switch h2 {
+    grid-column: 1/-1;
+    padding-bottom: 23px;
+    font: 800 32px/34px "proxima";
+}
+div#home-playerbreaking-left-switch img {
+    max-width: 100%;
+}
+.lazy-background {
+    background-image: none!important;
+}
+/* Estilos por default de ITT */
+#oas_x95 {
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    height: 0;
+}
+.site-header .row {
+    position: relative;
+    max-width: 1150px;
+}
+img[data-desktop] {
+    opacity: 0;
+}
+
+img[data-image] {
+    transition: opacity .5s .5s;
+}
+body.programas-landing-sindestacado main.site-content .mod-content .col.col3 .news-data h1.news-title{max-height:initial;color:white;}
+.programas-display-muro #oas_Position1 {min-width: 300px;}
+.programas-display-muro, .programas-display-muro .view-content {width: 100%;}
+body.programas-landing-sindestacado main.site-content .mod-content .col.col3 article {margin-bottom: 0;}
+.programas-display-muro-item .news .news-media{position:initial;}
+body.programas-landing-sindestacado main.site-content .row {
+    max-width: 1275px;
+    width: 98%;
+}
+
+.view-portal-13live-programacion .view-content a[alt*=Linea] {
+    background: #209153;
+}
+.view-portal-13live-programacion .view-content a[alt*=Hermanos] {
+    background: #d5ac12;
+}
+/* Limitamos dimensiones de posicion skin, ya que se usa solo para cargar JS y CSS */
+div#oas_skin iframe {
+    max-width: 100%;
+    height: 1px;
+}
+div#separadorDiv {
+    max-width: 100%;
+}
+
+.mod-channels-list.clearfix .mod-content > article:first-child figure {
+    /*width: 100%;
+    height: 0;
+    padding-top: 64%;
+    position: relative;
+    background: black;
+    overflow: hidden;*/
+}
+.mod-channels-list.clearfix .mod-content > article:first-child figure img {
+    /*position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;*/
+}
+.mod-list-vertical .news-box .news-data {
+    min-height: 150px!important;
+}
+
+.node-type-programas-articulo article.news.news-full.row {
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-gap: 35px;
+}
+
+.node-type-programas-articulo div#oas_halfpage1 {
+    position: sticky;
+    top: 20px;
+    margin-top: 30px;
+}
+#portal-bienvenida-splash_video iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: .6; }
+.page-builder .pull-left figure.news-media {
+    min-height: 545px;
+    position: relative;
+}
+
+.page-builder .pull-left figure.news-media a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page-builder .pull-left figure.news-media a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+.vivela {
+    display: none;
+}
+header#elecciones2021-header a span {
+    margin-left: 7px;
+}
+
+@media (min-width: 1447px){
+    section.mod.mod-program.copa-america .row {
+        max-width: 1100px;
+    }
+}
+
+
+
+.footercorporativo .logo-list { display: flex; flex: 1; flex-wrap: wrap; grid-gap: initial; width: initial; }
+.trece-e-programacion-item:first-child::before {
+    filter: none!important;
+}
+
+body.programas-landing-sindestacado.hermandad-sin-limites .programas-header-wrapper .program-header h1.program-title {
+    font-size: 74px;
+    max-width: 400px;
+}
+
+@media (max-width: 780px) {
+                .footercorporativo .logo-list  { flex: 0; flex-grow: 10; justify-content: space-around; flex-flow: row wrap; align-items: stretch; }
+                .footercorporativo .logo-list { display: inline-flex; width: 100%; overflow: scroll; flex: initial; justify-content: initial; flex-flow: initial; }
+}
+
+    
+}
+@media (min-width: 1447px) {
+/*.page-portal.page-home .banner-halfpage-fixed {margin-bottom: 690px;}*/
+}
+
+</style>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+
+<script>
+$(document).ready(function(){
+$('a[title="Ver todos los capitulos"]').parent().parent().parent().remove();
+})
+</script><article itemscope="" itemtype="http://schema.org/Article" class="alert" data-hit-categoria="Último Minuto">
+	<div class="row">
+		<div class="alert-title">
+			<span class="anim-alert"></span>
+			<span class="text">13 E | CONOCE NUESTRA NUEVA SEÑAL</span>
+		</div>
+		<h1 class="alert-news-title">
+			<a href="https://www.13.cl/13e" title="Entretención a toda hora" itremprop="name" data-hit-etiqueta="Botón" data-hit-accion="13 E | CONOCE NUESTRA NUEVA SEÑAL">Entretención a toda hora<span class="icon-arrowright-medium-white"></span></a>
+		</h1>
+	</div>
+</article><main role="main" class="site-content">
+		
+
+
+        
+  
+  
+                    
+
+<style>
+.page-home .page-builder .swiper-wrapper { height: max-content;}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Huincha T13.cl -->
+	<style>
+		.ticker-wrapper{background-color: #000;padding: 4px 0px;}
+		#ticker-t13{margin: 0px;max-width: 1132px;margin: 0 auto;display: flex;border-radius: 5px;overflow: hidden;}
+		#ticker-t13 a.logo{display: block;background-color: #fb6900;padding: 10px 12px;}
+		#ticker-t13 h5{display: inline-block;background-color: #333333;padding: 0;font-weight: normal;font-size: 14px;}
+		#ticker-t13 h5 a{color: #eee;}
+		ul#webTicker{font: unset!important;}
+		ul#webTicker li {border-right: 1px solid #000;background-color: #333333}   
+	</style>
+	<div class="ticker-wrapper">
+		<div id="ticker-t13">
+	<a href="https://www.t13.cl/" target="_blank" class="logo"><img src="https://www-storage.13.cl/c13/13cl/logo-t13.png" width="40" height="26"></a>
+	<div class="tickercontainer">
+	 	<div class="mask">
+        	<ul id="webTicker" class="marquee-content">
+				<li><h5 itemprop="name headline"><a href="https://www.t13.cl?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="Presidente Piñera promulga Ley de Matrimonio Igualitario: \"Es un día histórico\"" itemprop="https://www.t13.cl?utm_source=13&utm_medium=13.cl&utm_campaign=home" target="_blank">Presidente Piñera promulga Ley de Matrimonio Igualitario: "Es un día histórico"</a></h5></li>
+				<li><h5 itemprop="name headline"><a href="https://www.t13.cl?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="Cathy Barriga acusa injurias tras querella en su contra por fraude al fisco" itemprop="https://www.t13.cl?utm_source=13&utm_medium=13.cl&utm_campaign=home" target="_blank">Cathy Barriga acusa injurias tras querella en su contra por fraude al fisco</a></h5></li>
+				<li><h5 itemprop="name headline"><a href="https://www.t13.cl?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="Canal 13 rechaza ingreso a la fuerza de manifestantes a dependencias de la estación" itemprop="https://www.t13.cl?utm_source=13&utm_medium=13.cl&utm_campaign=home" target="_blank">Canal 13 rechaza ingreso a la fuerza de manifestantes a dependencias de la estación</a></h5></li>
+				<li><h5 itemprop="name headline"><a href="https://www.t13.cl?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="[ESPECIAL MOVIDAS] Revisa los fichajes y bajas en el fútbol chileno para la temporada 2022" itemprop="https://www.t13.cl?utm_source=13&utm_medium=13.cl&utm_campaign=home" target="_blank">[ESPECIAL MOVIDAS] Revisa los fichajes y bajas en el fútbol chileno para la temporada 2022</a></h5></li>
+			</ul>
+		</div>
+	</div>
+</div>
+	</div>
+	<script>
+		jQuery('#webTicker').webTicker({
+			speed: 35,
+			height: '46px',
+			startEmpty: false,
+		});
+	</script> 
+
+<!-- Bienvenida -->
+<style>
+		/* Bienvenida - Splash */
+		header.portal-bienvenida-splash {background: #000; z-index: 1; height: 720px; overflow: hidden; position: relative; }
+		#portal-bienvenida-splash_video {position: absolute; top: 0; left: 0; z-index: 4; width: 100%; -o-object-fit: cover; object-fit: cover; padding-top: 56.26%; height: 0; }
+		.portal-bienvenida-splash__wrapper {position: relative; height: 100%; z-index: 6; }
+		.portal-bienvenida-splash_video iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: .6; }
+		.portal-bienvenida-splash__wrapper .row > img {width: 155px; height: auto; margin: 45px 0; }
+		header.portal-bienvenida-splash .content__data {display: grid; grid-template-columns: auto 300px; row-gap: 84px; margin: auto 0 60px 0; }
+		header.portal-bienvenida-splash .row {color: #fff; height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
+		#portal-bienvenida-splash_video::before {display: block; content: ""; width: 100%; height: 100%; position: absolute; bottom: -2px; left: 0; z-index: 5; background: linear-gradient(to bottom,rgba(0,0,0,0) 0,#000 100%); }
+		header.portal-bienvenida-splash .content__data h2 {font-size: 34px; line-height: 36px; font: 800 48px/48px "proxima"; text-transform: uppercase; }
+		header.portal-bienvenida-splash a.button {border: 3px solid #ff6c1c;background: #ff6c1c; text-transform: uppercase; font-weight: 900; padding: 9px 14px; display: inline-flex; transition: opacity .5s; color: white; font: bold 18px/22px "proxima"; transition: background .2s;margin-top:20px;}
+		header.portal-bienvenida-splash a.button::before {content: ""; width: 0; height: 0; border-left: 11px solid #fff; border-top: 10px solid transparent; border-bottom: 10px solid transparent; display: inline-block; margin-right: 12px;}
+		header.portal-bienvenida-splash a.button:hover {background:transparent;}
+		header.portal-bienvenida-splash .row p {font: 18px/21px "proxima"; }
+		header.portal-bienvenida-splash .text {max-width: 510px; }
+		header.portal-bienvenida-splash .text .epigraph {color: #ff6c1c;text-transform: uppercase; font: bold 20px/22px "proxima";}
+		header.portal-bienvenida-splash .text .epigraph::after {content: "";width: 50px;height: 2px; background: #ff6c1c; display: block;margin: 5px 0 15px 0;}
+		header.portal-bienvenida-splash .banner_one {display: flex;flex-direction: column;justify-content: flex-end;}
+		img.portal-bienvenida-splash-logo {position: absolute;top: 0;left: 0;width: 100%;height: auto;opacity: .3;}
+		@media (max-width: 1000px) {
+			header.portal-bienvenida-splash {height: auto; padding-top: 200px; }
+			header.portal-bienvenida-splash .text {text-align: center; width: 100%; position: relative;margin:auto; }
+			header.portal-bienvenida-splash .content__data h2 {font-size: 26px; line-height: 27px; max-width: 85%; margin: auto; }
+			header.portal-bienvenida-splash .content__data {grid-template-columns: 1fr; row-gap: 50px; }
+			header.portal-bienvenida-splash .text .epigraph {font: bold 16px/22px "proxima"; }
+			header.portal-bienvenida-splash .text .epigraph::after {margin: 2px auto 15px; }
+			header.portal-bienvenida-splash .banner_one {text-align: center; }
+			header.portal-bienvenida-splash a.button {font-size: 0; border-radius: 50%; width: 65px; height: 65px; padding: 0; display: flex; align-items: center; justify-content: center; position: absolute; top: -136px; left: calc(50% - 36px); }
+			header.portal-bienvenida-splash a.button::before {margin-right: 0; border-left: 18px solid #fff; border-top: 13px solid transparent; border-bottom: 13px solid transparent; margin-right: -5px; }
+			header.portal-bienvenida-splash .content__data p {display: none; }
+			#portal-bienvenida-splash_video { width: 120%; padding-top: 67.26%; transform: translateX(-10%);}
+		}
+	</style>
+		
+		
+		<style>
+			#home-playerbreaking{background:#444444;padding:20px 0;}
+			#home-playerbreaking #home-playerbreaking-wrapper{width:100%;display:grid;grid-template-columns:auto 300px;grid-gap:0 30px;}
+			#click_text_overlay .container {border-radius: 10px;padding: 7px;background-color: black;position: absolute;top: 0;left: 0;}
+			#click_text_overlay {color: white;position: absolute;top: 0;z-index: 10;cursor: pointer;width: 100%;height: 90%;display: block;}
+		</style>
+				<article itemscope="" itemtype="http://schema.org/Article" id="home-playerbreaking">
+			<div class="row">
+				<div id="home-playerbreaking-wrapper">
+									<div id="home-playerbreaking-left">
+																	<!-- Player Canal 13 -->
+							<div class="video-media">
+								<div id="player-wrapper">
+									<div id="player" class="envivo-player-default"></div>
+								</div>
+							</div>
+							<script>
+								// Lanzamos el player
+								document.addEventListener("DOMContentLoaded", function(event) {
+									// $streaming_ms_stream
+									token = getToken("5f51a916c21eec083ab337a8", "live");
+									document.getElementById("player-wrapper").innerHTML = "<iframe id='player' class='envivo-player-default' src='//mdstrm.com/live-stream/5f51a916c21eec083ab337a8?access_token=" + token + "&autoplay=true' width='640' height='360' allow='autoplay; fullscreen; encrypted-media' frameborder='0' allowfullscreen allowscriptaccess='always' scrolling='no'></iframe>";
+									ga('13clGlobal.send', 'event', 'Señal en vivo', 'Play');
+
+									if(parent.adImageUrl != null){
+										// Genero el banner oculto
+										jQuery("#player-wrapper").append("<div id='div-banner-id' style='cursor:pointer; background:url("+parent.adImageUrl+");overflow:hidden; position:absolute; bottom:10px; left:190px; width:400px; height:60px; z-index:1000'></div>");
+										jQuery("#div-banner-id").click(function(){
+											var win = window.open(parent.adClickUrl,"_blank");
+											win.focus();
+										});
+										jQuery("#div-banner-id").hide();
+										
+										var cerrarUrl = "https://static.13.cl/static/jwplayer/x.png";								
+										jQuery("#player-wrapper").append("<div id='div-close-id' style='cursor:pointer; background:url("+cerrarUrl+"); overflow:hidden; position:absolute; bottom:62px; left:604px; width:15px; height:15px; z-index:1002'></div>");
+										jQuery("#div-close-id").click(function(){
+											jQuery("#div-banner-id").hide();jQuery("#div-close-id").hide();
+										});
+										jQuery("#div-close-id").hide();
+
+
+										// Programamos la aparicion del banner
+										var bannerInterval, bannerIntervalCounter = 1;
+										setTimeout(function(){
+											var bannerLeft = parseInt(jQuery("#player-wrapper").width() / 2) - 200;
+											var closeLeft = bannerLeft + 400;
+											jQuery("#div-banner-id").css("left", bannerLeft + "px");
+											jQuery("#div-banner-id").show();
+											jQuery("#div-close-id").css("left", closeLeft + "px");
+											jQuery("#div-close-id").show();
+											setTimeout(function(){
+												jQuery("#div-banner-id").hide();
+												jQuery("#div-close-id").hide();
+											},8000);
+											bannerInterval = setInterval(function(){
+												if(bannerIntervalCounter++ < 7){
+													var bannerLeft = parseInt(jQuery("#player-wrapper").width() / 2) - 200;
+													var closeLeft = bannerLeft + 400;
+													jQuery("#div-banner-id").css("left", bannerLeft + "px");
+													jQuery("#div-banner-id").show();
+													jQuery("#div-close-id").css("left", closeLeft + "px");
+													jQuery("#div-close-id").show();
+													setTimeout(function(){
+														jQuery("#div-banner-id").hide();
+														jQuery("#div-close-id").hide();
+													},8000);
+												} else clearInterval(bannerInterval);
+											},360000);
+										},7000);
+									}
+								});
+							</script>
+													<div class="clearfix">
+								<span class="video-live"><span class="icon-alert-small-orange"></span>En vivo</span>
+							</div>
+											</div>
+					<div id="home-playerbreaking-right">
+						<div class="banner"><div id="oas_halfpagesev" data-dfp-name="halfpage.sev" data-oas-x="300" data-oas-y="600" data-oas-name="halfpagesev" class="oas-position" data-oas-device="desktop"></div>
+</div>					</div>
+			</div>
+		</article>
+	<!-- Fin Bienvenida -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Autorefresh -->
+
+
+<!-- Destacados Principales -->
+      
+
+        
+  
+  <div class="page-builder clearfix">
+  <!--
+  Ocultamos posicion Top1 hasta el fin de la campana de Falabella
+  <div class="banner top-header center-banner">
+      </div>-->
+  <div class="row-builder" data-hit-categoria="Home - Destacados Principales">
+    <div class="pull-left">
+      <div data-swiper data-pagination=".swiper-bullets" class="swiper">
+        <div class="swiper-container">
+          <div class="swiper-pagination">
+            <div class="swiper-btn swiper-btn-prev"></div>
+            <div class="swiper-bullets"></div>
+            <div class="swiper-btn swiper-btn-next"></div>
+          </div>
+          <div class="swiper-wrapper">
+                              
+          <div class="swiper-slide">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box inner">
+	
+	<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+		<a href="https://www.13.cl/programas/tu-dia/noticias/pension-garantizada-universal-en-cuanto-aumentaran-las-jubilaciones" data-hit-etiqueta="Item 1" data-hit-accion="Gobierno anunció Pensión Garantizada Universal">
+			<img src="https://static.13.cl/7/sites/default/files/styles/manualcrop_890x500/public/portal/destacados/field-imagen/a_uno_1303051.jpg?itok=xChOVde3" alt="Gobierno anunció Pensión Garantizada Universal" width="785" height="546" itemprop="contentUrl">
+		</a>
+	</figure>
+	<div class="news-data">
+		<a href="https://www.13.cl/programas/tu-dia/noticias/pension-garantizada-universal-en-cuanto-aumentaran-las-jubilaciones" data-hit-etiqueta="Item 1" data-hit-accion="Gobierno anunció Pensión Garantizada Universal" class="news-section">Tu Día</a>
+		<h1 itemprop="name headline" class="news-title">
+			<a href="https://www.13.cl/programas/tu-dia/noticias/pension-garantizada-universal-en-cuanto-aumentaran-las-jubilaciones" data-hit-etiqueta="Item 1" data-hit-accion="Gobierno anunció Pensión Garantizada Universal" itemprop="url">Gobierno anunció Pensión Garantizada Universal</a>
+		</h1>
+		<p class="news-excerpt">Conoce en cuánto aumentarían las jubilaciones</p>
+	</div>
+	</article>
+</div>    
+          <div class="swiper-slide">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box inner">
+	
+	<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+		<a href="https://www.13.cl/programas/masterchef-celebrity/momentos/conoce-al-equipo-que-logro-impresionar-a-los-chefs-y-subir" data-hit-etiqueta="Item 2" data-hit-accion="Conoce al equipo que logró subir al balcón">
+			<img src="https://static.13.cl/7/sites/default/files/styles/manualcrop_890x500/public/portal/destacados/field-imagen/equipobalcon.jpg?itok=ctzCrixP" alt="Conoce al equipo que logró subir al balcón" width="785" height="546" itemprop="contentUrl">
+		</a>
+	</figure>
+	<div class="news-data">
+		<a href="https://www.13.cl/programas/masterchef-celebrity/momentos/conoce-al-equipo-que-logro-impresionar-a-los-chefs-y-subir" data-hit-etiqueta="Item 2" data-hit-accion="Conoce al equipo que logró subir al balcón" class="news-section">MasterChef Celebrity</a>
+		<h1 itemprop="name headline" class="news-title">
+			<a href="https://www.13.cl/programas/masterchef-celebrity/momentos/conoce-al-equipo-que-logro-impresionar-a-los-chefs-y-subir" data-hit-etiqueta="Item 2" data-hit-accion="Conoce al equipo que logró subir al balcón" itemprop="url">Conoce al equipo que logró subir al balcón</a>
+		</h1>
+		<p class="news-excerpt">Lograron impresionar a los chefs. </p>
+	</div>
+	</article>
+</div>    
+          <div class="swiper-slide">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box inner">
+	
+	<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+		<a href="https://www.13.cl/programas/entretencion/canal-13/otro-clasico-esta-de-vuelta-cerro-alegre-se-reestrenara-en-las" data-hit-etiqueta="Item 3" data-hit-accion="&quot;Cerro Alegre&quot; vuelve a las pantallas de Canal 13">
+			<img src="https://static.13.cl/7/sites/default/files/styles/manualcrop_890x500/public/portal/destacados/field-imagen/cerro_alegre.jpg?itok=LwE1XStT" alt="&quot;Cerro Alegre&quot; vuelve a las pantallas de Canal 13" width="785" height="546" itemprop="contentUrl">
+		</a>
+	</figure>
+	<div class="news-data">
+		<a href="https://www.13.cl/programas/entretencion/canal-13/otro-clasico-esta-de-vuelta-cerro-alegre-se-reestrenara-en-las" data-hit-etiqueta="Item 3" data-hit-accion="&quot;Cerro Alegre&quot; vuelve a las pantallas de Canal 13" class="news-section">¡Otro clásico está de vuelta!</a>
+		<h1 itemprop="name headline" class="news-title">
+			<a href="https://www.13.cl/programas/entretencion/canal-13/otro-clasico-esta-de-vuelta-cerro-alegre-se-reestrenara-en-las" data-hit-etiqueta="Item 3" data-hit-accion="&quot;Cerro Alegre&quot; vuelve a las pantallas de Canal 13" itemprop="url">&quot;Cerro Alegre&quot; vuelve a las pantallas de Canal 13</a>
+		</h1>
+		<p class="news-excerpt">Desde el verano 2022 se tomará el 13 nuevamente.</p>
+	</div>
+	</article>
+</div>    
+          <div class="swiper-slide">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box inner">
+	
+	<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+		<a href="https://www.13.cl/programas/si-nos-dejan/capitulos/si-nos-dejan-capitulo-49-martin-y-sergio-tienen-una-fuerte" data-hit-etiqueta="Item 4" data-hit-accion="Martín y Sergio tienen una fuerte discusión">
+			<img src="https://static.13.cl/7/sites/default/files/styles/manualcrop_890x500/public/portal/destacados/field-imagen/sndcap49dest_0.jpg?itok=h--w8e66" alt="Martín y Sergio tienen una fuerte discusión" width="785" height="546" itemprop="contentUrl">
+		</a>
+	</figure>
+	<div class="news-data">
+		<a href="https://www.13.cl/programas/si-nos-dejan/capitulos/si-nos-dejan-capitulo-49-martin-y-sergio-tienen-una-fuerte" data-hit-etiqueta="Item 4" data-hit-accion="Martín y Sergio tienen una fuerte discusión" class="news-section">Si nos dejan</a>
+		<h1 itemprop="name headline" class="news-title">
+			<a href="https://www.13.cl/programas/si-nos-dejan/capitulos/si-nos-dejan-capitulo-49-martin-y-sergio-tienen-una-fuerte" data-hit-etiqueta="Item 4" data-hit-accion="Martín y Sergio tienen una fuerte discusión" itemprop="url">Martín y Sergio tienen una fuerte discusión</a>
+		</h1>
+		<p class="news-excerpt">¡Revive este imperdible capítulo!</p>
+	</div>
+	</article>
+</div>                        </div>
+        </div>
+      </div>
+    </div>
+    <div class="pull-right">
+                        
+  
+  
+                      
+          <article itemscope itemtype="http://schema.org/Article" class="news news-box">
+	
+	<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+		<a href="https://www.13.cl/programas/entretencion/tiempo-libre/regalate-un-pozo-de-usd-291-millones-del-powerball-para-estas" data-hit-etiqueta="Item Last" data-hit-accion="¡Regálate un pozo de USD 291 millones del Powerball!">
+			<img src="https://static.13.cl/7/sites/default/files/styles/manualcrop_535x300/public/portal/destacados/field-imagen/346346345.jpg?itok=xATwSz-X" alt="¡Regálate un pozo de USD 291 millones del Powerball!" width="356" height="201" itemprop="contentUrl">
+		</a>
+	</figure>
+	<div class="news-data">
+		<a href="https://www.13.cl/programas/entretencion/tiempo-libre/regalate-un-pozo-de-usd-291-millones-del-powerball-para-estas" data-hit-etiqueta="Item Last" data-hit-accion="¡Regálate un pozo de USD 291 millones del Powerball!" class="news-section">Para esta navidades</a>
+		<h1 itemprop="name headline" class="news-title">
+			<a href="https://www.13.cl/programas/entretencion/tiempo-libre/regalate-un-pozo-de-usd-291-millones-del-powerball-para-estas" data-hit-etiqueta="Item Last" data-hit-accion="¡Regálate un pozo de USD 291 millones del Powerball!" itemprop="url">¡Regálate un pozo de USD 291 millones del Powerball!</a>
+		</h1>
+	</div>
+</article>        
+  
+  
+  
+  
+          
+      <div class="banner banner-position1">
+        <div id="oas_Position1" data-dfp-name="mediumrectangule.1" data-oas-x="300" data-oas-y="250" data-oas-name="Position1" class="oas-position" data-oas-device="desktop" data-dfp-weight="25"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  
+  	
+
+<!-- Programacion -->
+<div data-hit-categoria="Home - Programación">
+	
+<div class="mod-grilla">
+  <div class="orange"></div>
+  <div class="row">
+  
+      <div class="grilla-title">
+      <h3>Hoy en el 13</h3><a href="/programacion" title="Ir a la programación" data-hit-accion="Ver toda la programación" data-hit-etiqueta="Ver Más">Ver toda la programación</a>
+    </div>
+    <div data-swiper data-slidesperview="auto" class="grilla-slide">
+      <div class="swiper-btn swiper-btn-prev"></div>
+      <div class="swiper-btn swiper-btn-next"></div>
+                        
+  
+  
+                      
+          <div class="grilla-vivo">
+	<strong><span class="icon-alert-small-orange">
+	</span>En vivo</strong><span>Aquí somos todos</span>
+</div>        
+  
+  
+  
+  
+              <div class="swiper-container">
+        <ol class="swiper-wrapper">
+                        
+  
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-09T17:30:00-03:00">17:30</span></time>
+    <div class="title">Caso Cerrado</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-09T19:35:00-03:00">19:35</span></time>
+    <div class="title">Qué Dice Chile</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-09T20:50:00-03:00">20:50</span></time>
+    <div class="title">Franja electoral</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-09T21:00:00-03:00">21:00</span></time>
+    <div class="title">Teletrece Central</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-09T22:35:00-03:00">22:35</span></time>
+    <div class="title">El Tiempo</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-09T22:45:00-03:00">22:45</span></time>
+    <div class="title">Los 5 Mandamientos</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-10T01:20:00-03:00">01:20</span></time>
+    <div class="title">Teletrece Noche</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-10T02:20:00-03:00">02:20</span></time>
+    <div class="title">Súper Series: Criminal Minds </div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-10T03:00:00-03:00">03:00</span></time>
+    <div class="title">Cierre transmisiones</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-10T06:00:00-03:00">06:00</span></time>
+    <div class="title">3x3</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-10T06:30:00-03:00">06:30</span></time>
+    <div class="title">Teletrece AM</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-10T08:00:00-03:00">08:00</span></time>
+    <div class="title">Tu Día</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-10T13:00:00-03:00">13:00</span></time>
+    <div class="title">Teletrece Tarde</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-10T15:15:00-03:00">15:15</span></time>
+    <div class="title">Si nos dejan</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-10T16:00:00-03:00">16:00</span></time>
+    <div class="title">Aquí somos todos</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-10T17:30:00-03:00">17:30</span></time>
+    <div class="title">Caso Cerrado</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-10T19:35:00-03:00">19:35</span></time>
+    <div class="title">Qué Dice Chile</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-10T20:50:00-03:00">20:50</span></time>
+    <div class="title">Franja electoral</div>
+ </li>    
+          <li class="swiper-slide">
+    <time datetime="ss"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-12-10T21:00:00-03:00">21:00</span></time>
+    <div class="title">Teletrece Central</div>
+ </li>                      </ol>
+      </div>
+
+  
+  
+  
+  
+  
+    </div>
+  </div>
+</div></div>
+
+<div class="banner-halfpage-wrapper">
+	<div class="banner-halfpage-fixed">
+			<div id="oas_halfpage1" data-dfp-name="halfpage.1" data-oas-x="300" data-oas-y="600" data-oas-name="halfpage.1" class="oas-position" data-oas-device="desktop"></div>	</div>
+
+
+	<div class="row row-halfpage-fix row-masreciente">
+		<!-- Mas Destacados -->
+		<section class="mod mod-list">
+              <!--<header class="mod-header clearfix">
+      <h3 class="mod-title">Destacados</h3>
+</header>-->  
+  
+    <div class="mod-content clearfix">
+      </div>
+  
+  
+  
+  
+  </section>
+		<!-- Ultimos Capitulos -->
+		
+		<!-- Autopromo -->
+		        
+  
+  
+                      
+          <div class="autopromo-container"><a href="https://www.13.cl/13e?utm_source=13cl&amp;utm_medium=banner&amp;utm_campaign=autopromos" target="_blank"><img typeof="foaf:Image" src="https://static.13.cl/7/sites/default/files/autopromos/field-970x90/banner-conoce_970x90_0.jpg" width="970" height="90" alt="" /></a></div>        
+  
+  
+  
+  
+  
+		<!-- Lo Ultimo -->
+		<section class="mod mod-list mod-ranking" data-hit-categoria="Home - Lo Más Reciente">
+              <header class="mod-header clearfix">
+      <h3 class="mod-title">Lo más reciente</h3>
+</header>  
+  
+    <div data-swiper data-slidesperview="auto" data-space="16" class="mod-content clearfix">
+    <div class="swiper-btn swiper-btn-prev"></div>
+    <div class="swiper-btn swiper-btn-next"></div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+                          
+          <div class="swiper-slide">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/aqui-somos-todos/noticias/pension-garantizada-universal-quienes-lo-podrian-recibir" title="Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?" data-hit-etiqueta="Item 1" data-hit-accion="Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/pensionesast-1.jpg?itok=hVK4Qmvt" alt="Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:17:07</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/aqui-somos-todos/noticias/pension-garantizada-universal-quienes-lo-podrian-recibir" title="Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?" data-hit-etiqueta="Item 1" data-hit-accion="Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?" class="news-section"><span class="lineage-item lineage-item-level-0">Aquí somos todos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/aqui-somos-todos/noticias/pension-garantizada-universal-quienes-lo-podrian-recibir" title="Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?" data-hit-etiqueta="Item 1" data-hit-accion="Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?" itemprop="url">Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="swiper-slide">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/los-5-mandamientos/momentos/lo-calme-daniela-aranguiz-revelo-como-negocio-con-su" title="&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador" data-hit-etiqueta="Item 2" data-hit-accion="&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/captura_de_pantalla_2021-12-09_163117.jpg?itok=th3YL0GA" alt="&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:05:27</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/los-5-mandamientos/momentos/lo-calme-daniela-aranguiz-revelo-como-negocio-con-su" title="&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador" data-hit-etiqueta="Item 2" data-hit-accion="&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador" class="news-section"><span class="lineage-item lineage-item-level-0">Los 5 mandamientos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/los-5-mandamientos/momentos/lo-calme-daniela-aranguiz-revelo-como-negocio-con-su" title="&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador" data-hit-etiqueta="Item 2" data-hit-accion="&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador" itemprop="url">&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="swiper-slide">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/servicios-13/salud/oms-dice-que-las-vacunas-dan-inmunidad-hasta-por-seis-meses-contra-el" title="OMS dice que las vacunas dan inmunidad hasta por seis meses contra el Covid-19" data-hit-etiqueta="Item 3" data-hit-accion="OMS dice que las vacunas dan inmunidad hasta por seis meses contra el Covid-19">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/a_uno_1196251_0.jpg?itok=LSP-O6lZ" alt="OMS dice que las vacunas dan inmunidad hasta por seis meses contra el Covid-19" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/servicios-13/salud/oms-dice-que-las-vacunas-dan-inmunidad-hasta-por-seis-meses-contra-el" title="OMS dice que las vacunas dan inmunidad hasta por seis meses contra el Covid-19" class="news-section" data-hit-etiqueta="Item 3" data-hit-accion="OMS dice que las vacunas dan inmunidad hasta por seis meses contra el Covid-19"><span class="lineage-item lineage-item-level-0">Servicios 13</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/servicios-13/salud/oms-dice-que-las-vacunas-dan-inmunidad-hasta-por-seis-meses-contra-el" title="OMS dice que las vacunas dan inmunidad hasta por seis meses contra el Covid-19" itemprop="url" data-hit-etiqueta="Item 3" data-hit-accion="OMS dice que las vacunas dan inmunidad hasta por seis meses contra el Covid-19">OMS dice que las vacunas dan inmunidad hasta por seis meses contra el Covid-19</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="swiper-slide">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/los-5-mandamientos/momentos/el-desconocido-romance-entre-rigeo-y-lola-melnyck" title="El desconocido romance entre Rigeo y Lola Melnyck" data-hit-etiqueta="Item 4" data-hit-accion="El desconocido romance entre Rigeo y Lola Melnyck">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/maria_pilas_nunez_2_1.jpg?itok=9uZLycTs" alt="El desconocido romance entre Rigeo y Lola Melnyck" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:01:22</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/los-5-mandamientos/momentos/el-desconocido-romance-entre-rigeo-y-lola-melnyck" title="El desconocido romance entre Rigeo y Lola Melnyck" data-hit-etiqueta="Item 4" data-hit-accion="El desconocido romance entre Rigeo y Lola Melnyck" class="news-section"><span class="lineage-item lineage-item-level-0">Los 5 mandamientos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/los-5-mandamientos/momentos/el-desconocido-romance-entre-rigeo-y-lola-melnyck" title="El desconocido romance entre Rigeo y Lola Melnyck" data-hit-etiqueta="Item 4" data-hit-accion="El desconocido romance entre Rigeo y Lola Melnyck" itemprop="url">El desconocido romance entre Rigeo y Lola Melnyck</a>
+			</h1>
+		</div>
+	</article>
+</div>                </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  </section>	</div>
+	<!-- Programas Destacados -->
+	<div class="banner top-header"><div class="row row-halfpage-fix"><div id="oas_Top1" data-dfp-name="leaderboard.2" data-oas-x="728" data-oas-y="90" data-oas-name="Top1" class="oas-position" data-oas-device="desktop"></div>
+
+<!--script>OAS_AD('Top1');</script--></div></div>	<section class="mod mod-program los-5-mandamientos lazy-background" data-hit-categoria="Home - Programas Destacados - los-5-mandamientos (Index: 1)"><link type="text/css" rel="stylesheet" href="https://static.13.cl/7/sites/all/themes/portal/programas/los-5-mandamientos/estilos.css?version=202112021837" media="print" onload="this.media='all'" /><div class="row row-halfpage-fix"><div class="mod-content clearfix">        
+  
+                
+  
+  
+                      
+          <div class="mod-header">
+            <h2 class="program-title"><a href="/programas/los-5-mandamientos" title="Los 5 Mandamientos" data-hit-etiqueta="Nombre del programa" data-hit-accion="Los 5 Mandamientos">Los 5 Mandamientos</a></h2>
+            <time class="program-date">Lunes, Martes y Jueves después de T13 Central</time>
+            <p class="program-excerpt">Súmate al nuevo estelar de conversación de Martín</p><a href="/programas/los-5-mandamientos" title="Ver mas" class="btn" data-hit-etiqueta="Ver Más" data-hit-accion="Los 5 Mandamientos">Ver mas</a>
+ </div>        
+  
+  
+  
+  
+    
+                      
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/los-5-mandamientos/momentos/lo-calme-daniela-aranguiz-revelo-como-negocio-con-su" title="&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador" data-hit-etiqueta="Item 1" data-hit-accion="&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/captura_de_pantalla_2021-12-09_163117.jpg?itok=th3YL0GA" alt="&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:05:27</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/los-5-mandamientos/momentos/lo-calme-daniela-aranguiz-revelo-como-negocio-con-su" title="&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador" class="news-section" data-hit-etiqueta="Item 1" data-hit-accion="&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador"><span class="lineage-item lineage-item-level-0">Momentos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/los-5-mandamientos/momentos/lo-calme-daniela-aranguiz-revelo-como-negocio-con-su" title="&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador" itemprop="url" data-hit-etiqueta="Item 1" data-hit-accion="&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador">&quot;Lo calmé&quot;: Daniela Aránguiz reveló cómo negoció con su secuestrador</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/los-5-mandamientos/momentos/le-pegue-una-cachetada-bien-fuerte-daniela-aranguiz" title=" &quot;Le pegué una cachetada bien fuerte&quot;: Daniela Aránguiz desclasificó su salida de Mekano" data-hit-etiqueta="Item 2" data-hit-accion=" &quot;Le pegué una cachetada bien fuerte&quot;: Daniela Aránguiz desclasificó su salida de Mekano">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/danyaranguizf_263718608_618599242597173_1862611349085990422_n.jpg?itok=p-et5l8j" alt=" &quot;Le pegué una cachetada bien fuerte&quot;: Daniela Aránguiz desclasificó su salida de Mekano" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:06:23</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/los-5-mandamientos/momentos/le-pegue-una-cachetada-bien-fuerte-daniela-aranguiz" title=" &quot;Le pegué una cachetada bien fuerte&quot;: Daniela Aránguiz desclasificó su salida de Mekano" class="news-section" data-hit-etiqueta="Item 2" data-hit-accion=" &quot;Le pegué una cachetada bien fuerte&quot;: Daniela Aránguiz desclasificó su salida de Mekano"><span class="lineage-item lineage-item-level-0">Momentos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/los-5-mandamientos/momentos/le-pegue-una-cachetada-bien-fuerte-daniela-aranguiz" title=" &quot;Le pegué una cachetada bien fuerte&quot;: Daniela Aránguiz desclasificó su salida de Mekano" itemprop="url" data-hit-etiqueta="Item 2" data-hit-accion=" &quot;Le pegué una cachetada bien fuerte&quot;: Daniela Aránguiz desclasificó su salida de Mekano"> &quot;Le pegué una cachetada bien fuerte&quot;: Daniela Aránguiz desclasificó su salida de Mekano</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/los-5-mandamientos/momentos/daniela-aranguiz-revelo-detalles-de-su-polemica-salida-de" title="Daniela Aránguiz reveló detalles de su polémica salida de Mekano" data-hit-etiqueta="Item 3" data-hit-accion="Daniela Aránguiz reveló detalles de su polémica salida de Mekano">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/mekanodaniela.jpg?itok=2Pxsjr6d" alt="Daniela Aránguiz reveló detalles de su polémica salida de Mekano" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:06:23</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/los-5-mandamientos/momentos/daniela-aranguiz-revelo-detalles-de-su-polemica-salida-de" title="Daniela Aránguiz reveló detalles de su polémica salida de Mekano" class="news-section" data-hit-etiqueta="Item 3" data-hit-accion="Daniela Aránguiz reveló detalles de su polémica salida de Mekano"><span class="lineage-item lineage-item-level-0">Momentos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/los-5-mandamientos/momentos/daniela-aranguiz-revelo-detalles-de-su-polemica-salida-de" title="Daniela Aránguiz reveló detalles de su polémica salida de Mekano" itemprop="url" data-hit-etiqueta="Item 3" data-hit-accion="Daniela Aránguiz reveló detalles de su polémica salida de Mekano">Daniela Aránguiz reveló detalles de su polémica salida de Mekano</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/los-5-mandamientos/capitulos/los-5-mandamientos-capitulo-46-daniela-aranguiz-y-rigeo" title="Los 5 Mandamientos / Capítulo 46 / Daniela Aránguiz y Rigeo" data-hit-etiqueta="Item 4" data-hit-accion="Los 5 Mandamientos / Capítulo 46 / Daniela Aránguiz y Rigeo">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/l5m0812.jpg?itok=sGHbl1oo" alt="Los 5 Mandamientos / Capítulo 46 / Daniela Aránguiz y Rigeo" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">01:15:26</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/los-5-mandamientos/capitulos/los-5-mandamientos-capitulo-46-daniela-aranguiz-y-rigeo" title="Los 5 Mandamientos / Capítulo 46 / Daniela Aránguiz y Rigeo" class="news-section" data-hit-etiqueta="Item 4" data-hit-accion="Los 5 Mandamientos / Capítulo 46 / Daniela Aránguiz y Rigeo"><span class="lineage-item lineage-item-level-0">Capítulos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/los-5-mandamientos/capitulos/los-5-mandamientos-capitulo-46-daniela-aranguiz-y-rigeo" title="Los 5 Mandamientos / Capítulo 46 / Daniela Aránguiz y Rigeo" itemprop="url" data-hit-etiqueta="Item 4" data-hit-accion="Los 5 Mandamientos / Capítulo 46 / Daniela Aránguiz y Rigeo">Los 5 Mandamientos / Capítulo 46 / Daniela Aránguiz y Rigeo</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+  
+  
+  
+  
+  </div></div></section><section class="mod mod-program masterchef-celebrity lazy-background" data-hit-categoria="Home - Programas Destacados - masterchef-celebrity (Index: 2)"><link type="text/css" rel="stylesheet" href="https://static.13.cl/7/sites/all/themes/portal/programas/masterchef-celebrity/estilos.css?version=202112021837" media="print" onload="this.media='all'" /><div class="row row-halfpage-fix"><div class="mod-content clearfix">        
+  
+                
+  
+  
+                      
+          <div class="mod-header">
+            <h2 class="program-title"><a href="/programas/masterchef-celebrity" title="MasterChef Celebrity" data-hit-etiqueta="Nombre del programa" data-hit-accion="MasterChef Celebrity">MasterChef Celebrity</a></h2>
+            <time class="program-date">Miércoles y Domingo después de T13 Central</time>
+            <p class="program-excerpt">Las celebridades se toman la cocina</p><a href="/programas/masterchef-celebrity" title="Ver mas" class="btn" data-hit-etiqueta="Ver Más" data-hit-accion="MasterChef Celebrity">Ver mas</a>
+ </div>        
+  
+  
+  
+  
+    
+                      
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/masterchef-celebrity/momentos/esta-llorando-gaston-bernardou-se-emociono-hasta-las" title="&quot;Está llorando&quot;: Gastón Bernardou se emocionó hasta las lágrimas tras decisión de los jueces" data-hit-etiqueta="Item 1" data-hit-accion="&quot;Está llorando&quot;: Gastón Bernardou se emocionó hasta las lágrimas tras decisión de los jueces">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/cap_24_mccch_2021_ccn0465.jpg?itok=lWMZDxx8" alt="&quot;Está llorando&quot;: Gastón Bernardou se emocionó hasta las lágrimas tras decisión de los jueces" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:03:01</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/masterchef-celebrity/momentos/esta-llorando-gaston-bernardou-se-emociono-hasta-las" title="&quot;Está llorando&quot;: Gastón Bernardou se emocionó hasta las lágrimas tras decisión de los jueces" class="news-section" data-hit-etiqueta="Item 1" data-hit-accion="&quot;Está llorando&quot;: Gastón Bernardou se emocionó hasta las lágrimas tras decisión de los jueces"><span class="lineage-item lineage-item-level-0">Momentos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/masterchef-celebrity/momentos/esta-llorando-gaston-bernardou-se-emociono-hasta-las" title="&quot;Está llorando&quot;: Gastón Bernardou se emocionó hasta las lágrimas tras decisión de los jueces" itemprop="url" data-hit-etiqueta="Item 1" data-hit-accion="&quot;Está llorando&quot;: Gastón Bernardou se emocionó hasta las lágrimas tras decisión de los jueces">&quot;Está llorando&quot;: Gastón Bernardou se emocionó hasta las lágrimas tras decisión de los jueces</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/masterchef-celebrity/capitulos/masterchef-celebrity-segunda-temporada-capitulo-24" title="MasterChef Celebrity / Segunda Temporada / Capítulo 24" data-hit-etiqueta="Item 2" data-hit-accion="MasterChef Celebrity / Segunda Temporada / Capítulo 24">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/cap_24_mccch_2021_ccn9686.jpg?itok=jLp8vskH" alt="MasterChef Celebrity / Segunda Temporada / Capítulo 24" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">01:30:54</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/masterchef-celebrity/capitulos/masterchef-celebrity-segunda-temporada-capitulo-24" title="MasterChef Celebrity / Segunda Temporada / Capítulo 24" class="news-section" data-hit-etiqueta="Item 2" data-hit-accion="MasterChef Celebrity / Segunda Temporada / Capítulo 24"><span class="lineage-item lineage-item-level-0">Capítulos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/masterchef-celebrity/capitulos/masterchef-celebrity-segunda-temporada-capitulo-24" title="MasterChef Celebrity / Segunda Temporada / Capítulo 24" itemprop="url" data-hit-etiqueta="Item 2" data-hit-accion="MasterChef Celebrity / Segunda Temporada / Capítulo 24">MasterChef Celebrity / Segunda Temporada / Capítulo 24</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/masterchef-celebrity/momentos/proximo-capitulo-estara-marcado-por-intenso-reto-de" title="Próximo capítulo estará marcado por intenso reto de eliminación " data-hit-etiqueta="Item 3" data-hit-accion="Próximo capítulo estará marcado por intenso reto de eliminación ">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/proxcap_1.jpg?itok=lhAjqHLq" alt="Próximo capítulo estará marcado por intenso reto de eliminación " width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:01:10</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/masterchef-celebrity/momentos/proximo-capitulo-estara-marcado-por-intenso-reto-de" title="Próximo capítulo estará marcado por intenso reto de eliminación " class="news-section" data-hit-etiqueta="Item 3" data-hit-accion="Próximo capítulo estará marcado por intenso reto de eliminación "><span class="lineage-item lineage-item-level-0">Momentos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/masterchef-celebrity/momentos/proximo-capitulo-estara-marcado-por-intenso-reto-de" title="Próximo capítulo estará marcado por intenso reto de eliminación " itemprop="url" data-hit-etiqueta="Item 3" data-hit-accion="Próximo capítulo estará marcado por intenso reto de eliminación ">Próximo capítulo estará marcado por intenso reto de eliminación </a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/masterchef-celebrity/momentos/plato-reflejo-el-trabajo-en-equipo-equipo-azul-logro" title="Plato reflejó el trabajo en equipo: Equipo azul logró destacar " data-hit-etiqueta="Item 4" data-hit-accion="Plato reflejó el trabajo en equipo: Equipo azul logró destacar ">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/cap_24_mccch_2021_ccn0407_1.jpg?itok=8C0YTg5A" alt="Plato reflejó el trabajo en equipo: Equipo azul logró destacar " width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:02:54</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/masterchef-celebrity/momentos/plato-reflejo-el-trabajo-en-equipo-equipo-azul-logro" title="Plato reflejó el trabajo en equipo: Equipo azul logró destacar " class="news-section" data-hit-etiqueta="Item 4" data-hit-accion="Plato reflejó el trabajo en equipo: Equipo azul logró destacar "><span class="lineage-item lineage-item-level-0">Momentos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/masterchef-celebrity/momentos/plato-reflejo-el-trabajo-en-equipo-equipo-azul-logro" title="Plato reflejó el trabajo en equipo: Equipo azul logró destacar " itemprop="url" data-hit-etiqueta="Item 4" data-hit-accion="Plato reflejó el trabajo en equipo: Equipo azul logró destacar ">Plato reflejó el trabajo en equipo: Equipo azul logró destacar </a>
+			</h1>
+		</div>
+	</article>
+</div>        
+  
+  
+  
+  
+  </div></div></section><section class="mod mod-program que-dice-chile lazy-background" data-hit-categoria="Home - Programas Destacados - que-dice-chile (Index: 3)"><link type="text/css" rel="stylesheet" href="https://static.13.cl/7/sites/all/themes/portal/programas/que-dice-chile/estilos.css?version=202112021837" media="print" onload="this.media='all'" /><div class="row row-halfpage-fix"><div class="mod-content clearfix">        
+  
+                
+  
+  
+                      
+          <div class="mod-header">
+            <h2 class="program-title"><a href="/programas/que-dice-chile" title="Qué Dice Chile" data-hit-etiqueta="Nombre del programa" data-hit-accion="Qué Dice Chile">Qué Dice Chile</a></h2>
+            <time class="program-date">Lunes a viernes después de Caso Cerrado</time>
+            <p class="program-excerpt">Familias en juego</p><a href="/programas/que-dice-chile" title="Ver mas" class="btn" data-hit-etiqueta="Ver Más" data-hit-accion="Qué Dice Chile">Ver mas</a>
+ </div>        
+  
+  
+  
+  
+    
+                      
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/que-dice-chile/capitulos/que-dice-chile-capitulo-82" title="¡Qué Dice Chile! / Capítulo 82" data-hit-etiqueta="Item 1" data-hit-accion="¡Qué Dice Chile! / Capítulo 82">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/qdicechile0712.jpg?itok=lTnpgI6y" alt="¡Qué Dice Chile! / Capítulo 82" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">01:01:05</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/que-dice-chile/capitulos/que-dice-chile-capitulo-82" title="¡Qué Dice Chile! / Capítulo 82" class="news-section" data-hit-etiqueta="Item 1" data-hit-accion="¡Qué Dice Chile! / Capítulo 82"><span class="lineage-item lineage-item-level-0">Capítulos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/que-dice-chile/capitulos/que-dice-chile-capitulo-82" title="¡Qué Dice Chile! / Capítulo 82" itemprop="url" data-hit-etiqueta="Item 1" data-hit-accion="¡Qué Dice Chile! / Capítulo 82">¡Qué Dice Chile! / Capítulo 82</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/que-dice-chile/capitulos/que-dice-chile-capitulo-83" title="¡Qué Dice Chile! / Capítulo 83" data-hit-etiqueta="Item 2" data-hit-accion="¡Qué Dice Chile! / Capítulo 83">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/qdch0812.jpg?itok=tHk2B8f2" alt="¡Qué Dice Chile! / Capítulo 83" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">01:04:11</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/que-dice-chile/capitulos/que-dice-chile-capitulo-83" title="¡Qué Dice Chile! / Capítulo 83" class="news-section" data-hit-etiqueta="Item 2" data-hit-accion="¡Qué Dice Chile! / Capítulo 83"><span class="lineage-item lineage-item-level-0">Capítulos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/que-dice-chile/capitulos/que-dice-chile-capitulo-83" title="¡Qué Dice Chile! / Capítulo 83" itemprop="url" data-hit-etiqueta="Item 2" data-hit-accion="¡Qué Dice Chile! / Capítulo 83">¡Qué Dice Chile! / Capítulo 83</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/que-dice-chile/capitulos/que-dice-chile-capitulo-81" title="¡Qué Dice Chile! / Capítulo 81" data-hit-etiqueta="Item 3" data-hit-accion="¡Qué Dice Chile! / Capítulo 81">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/qdicechile061221.jpg?itok=5mv63Zhp" alt="¡Qué Dice Chile! / Capítulo 81" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">01:03:44</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/que-dice-chile/capitulos/que-dice-chile-capitulo-81" title="¡Qué Dice Chile! / Capítulo 81" class="news-section" data-hit-etiqueta="Item 3" data-hit-accion="¡Qué Dice Chile! / Capítulo 81"><span class="lineage-item lineage-item-level-0">Capítulos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/que-dice-chile/capitulos/que-dice-chile-capitulo-81" title="¡Qué Dice Chile! / Capítulo 81" itemprop="url" data-hit-etiqueta="Item 3" data-hit-accion="¡Qué Dice Chile! / Capítulo 81">¡Qué Dice Chile! / Capítulo 81</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/que-dice-chile/capitulos/que-dice-chile-capitulo-80" title="¡Qué Dice Chile! / Capítulo 80" data-hit-etiqueta="Item 4" data-hit-accion="¡Qué Dice Chile! / Capítulo 80">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/qdccap80-3.jpg?itok=bMENmUhc" alt="¡Qué Dice Chile! / Capítulo 80" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">01:05:10</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/que-dice-chile/capitulos/que-dice-chile-capitulo-80" title="¡Qué Dice Chile! / Capítulo 80" class="news-section" data-hit-etiqueta="Item 4" data-hit-accion="¡Qué Dice Chile! / Capítulo 80"><span class="lineage-item lineage-item-level-0">Capítulos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/que-dice-chile/capitulos/que-dice-chile-capitulo-80" title="¡Qué Dice Chile! / Capítulo 80" itemprop="url" data-hit-etiqueta="Item 4" data-hit-accion="¡Qué Dice Chile! / Capítulo 80">¡Qué Dice Chile! / Capítulo 80</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+  
+  
+  
+  
+  </div></div></section><section class="mod mod-program lugares-que-hablan lazy-background" data-hit-categoria="Home - Programas Destacados - lugares-que-hablan (Index: 4)"><link type="text/css" rel="stylesheet" href="https://static.13.cl/7/sites/all/themes/portal/programas/lugares-que-hablan/estilos.css?version=202112021837" media="print" onload="this.media='all'" /><div class="row row-halfpage-fix"><div class="mod-content clearfix">        
+  
+                
+  
+  
+                      
+          <div class="mod-header">
+            <h2 class="program-title"><a href="/programas/lugares-que-hablan" title="Lugares que Hablan " data-hit-etiqueta="Nombre del programa" data-hit-accion="Lugares que Hablan ">Lugares que Hablan </a></h2>
+            <time class="program-date">Sábado después de T13 Central</time>
+            <p class="program-excerpt">Pancho Saavedra conocerá a personas que logran salir adelante</p><a href="/programas/lugares-que-hablan" title="Ver mas" class="btn" data-hit-etiqueta="Ver Más" data-hit-accion="Lugares que Hablan ">Ver mas</a>
+ </div>        
+  
+  
+  
+  
+    
+                      
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/lugares-que-hablan/momentos/chilotes-pancho-saavedra-se-sorprendio-por-insultos-clasistas" title="&quot;Chilotes&quot;: Pancho Saavedra se sorprendió por insultos clasistas " data-hit-etiqueta="Item 1" data-hit-accion="&quot;Chilotes&quot;: Pancho Saavedra se sorprendió por insultos clasistas ">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/panchosaavedralugares.jpg?itok=7_exOZQn" alt="&quot;Chilotes&quot;: Pancho Saavedra se sorprendió por insultos clasistas " width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/lugares-que-hablan/momentos/chilotes-pancho-saavedra-se-sorprendio-por-insultos-clasistas" title="&quot;Chilotes&quot;: Pancho Saavedra se sorprendió por insultos clasistas " class="news-section" data-hit-etiqueta="Item 1" data-hit-accion="&quot;Chilotes&quot;: Pancho Saavedra se sorprendió por insultos clasistas "><span class="lineage-item lineage-item-level-0">Momentos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/lugares-que-hablan/momentos/chilotes-pancho-saavedra-se-sorprendio-por-insultos-clasistas" title="&quot;Chilotes&quot;: Pancho Saavedra se sorprendió por insultos clasistas " itemprop="url" data-hit-etiqueta="Item 1" data-hit-accion="&quot;Chilotes&quot;: Pancho Saavedra se sorprendió por insultos clasistas ">&quot;Chilotes&quot;: Pancho Saavedra se sorprendió por insultos clasistas </a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/lugares-que-hablan/capitulos/lugares-que-hablan-segunda-temporada-2021-puerto-natales" title="Lugares que Hablan / Segunda temporada 2021 / Puerto Natales" data-hit-etiqueta="Item 2" data-hit-accion="Lugares que Hablan / Segunda temporada 2021 / Puerto Natales">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/portada_cap_0.jpg?itok=0wndeG41" alt="Lugares que Hablan / Segunda temporada 2021 / Puerto Natales" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">01:40:49</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/lugares-que-hablan/capitulos/lugares-que-hablan-segunda-temporada-2021-puerto-natales" title="Lugares que Hablan / Segunda temporada 2021 / Puerto Natales" class="news-section" data-hit-etiqueta="Item 2" data-hit-accion="Lugares que Hablan / Segunda temporada 2021 / Puerto Natales"><span class="lineage-item lineage-item-level-0">Capítulos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/lugares-que-hablan/capitulos/lugares-que-hablan-segunda-temporada-2021-puerto-natales" title="Lugares que Hablan / Segunda temporada 2021 / Puerto Natales" itemprop="url" data-hit-etiqueta="Item 2" data-hit-accion="Lugares que Hablan / Segunda temporada 2021 / Puerto Natales">Lugares que Hablan / Segunda temporada 2021 / Puerto Natales</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/lugares-que-hablan/momentos/avance-proximo-capitulo-de-lugares-que-hablan-2" title="Avance próximo capítulo de &quot;Lugares que Hablan&quot;" data-hit-etiqueta="Item 3" data-hit-accion="Avance próximo capítulo de &quot;Lugares que Hablan&quot;">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/portada_avance.jpg?itok=8xFFKFdR" alt="Avance próximo capítulo de &quot;Lugares que Hablan&quot;" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:03:52</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/lugares-que-hablan/momentos/avance-proximo-capitulo-de-lugares-que-hablan-2" title="Avance próximo capítulo de &quot;Lugares que Hablan&quot;" class="news-section" data-hit-etiqueta="Item 3" data-hit-accion="Avance próximo capítulo de &quot;Lugares que Hablan&quot;"><span class="lineage-item lineage-item-level-0">Momentos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/lugares-que-hablan/momentos/avance-proximo-capitulo-de-lugares-que-hablan-2" title="Avance próximo capítulo de &quot;Lugares que Hablan&quot;" itemprop="url" data-hit-etiqueta="Item 3" data-hit-accion="Avance próximo capítulo de &quot;Lugares que Hablan&quot;">Avance próximo capítulo de &quot;Lugares que Hablan&quot;</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/lugares-que-hablan/momentos/pancho-saavedra-conoce-la-cueva-del-milodon" title="Pancho Saavedra conoce la Cueva del Milodón" data-hit-etiqueta="Item 4" data-hit-accion="Pancho Saavedra conoce la Cueva del Milodón">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/portada_moment_3.jpg?itok=Fa2KC4aB" alt="Pancho Saavedra conoce la Cueva del Milodón" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:05:24</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/lugares-que-hablan/momentos/pancho-saavedra-conoce-la-cueva-del-milodon" title="Pancho Saavedra conoce la Cueva del Milodón" class="news-section" data-hit-etiqueta="Item 4" data-hit-accion="Pancho Saavedra conoce la Cueva del Milodón"><span class="lineage-item lineage-item-level-0">Momentos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/lugares-que-hablan/momentos/pancho-saavedra-conoce-la-cueva-del-milodon" title="Pancho Saavedra conoce la Cueva del Milodón" itemprop="url" data-hit-etiqueta="Item 4" data-hit-accion="Pancho Saavedra conoce la Cueva del Milodón">Pancho Saavedra conoce la Cueva del Milodón</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+  
+  
+  
+  
+  </div></div></section><section class="mod mod-program aqui-somos-todos lazy-background" data-hit-categoria="Home - Programas Destacados - aqui-somos-todos (Index: 5)"><link type="text/css" rel="stylesheet" href="https://static.13.cl/7/sites/all/themes/portal/programas/aqui-somos-todos/estilos.css?version=202112021837" media="print" onload="this.media='all'" /><div class="row row-halfpage-fix"><div class="mod-content clearfix">        
+  
+                
+  
+  
+                      
+          <div class="mod-header">
+            <h2 class="program-title"><a href="/programas/aqui-somos-todos" title="Aquí somos todos" data-hit-etiqueta="Nombre del programa" data-hit-accion="Aquí somos todos">Aquí somos todos</a></h2>
+            <time class="program-date">Lunes a viernes 15:55 Hrs. </time>
+            <p class="program-excerpt">Pequeños grandes problemas que juntos, buscamos solucionar </p><a href="/programas/aqui-somos-todos" title="Ver mas" class="btn" data-hit-etiqueta="Ver Más" data-hit-accion="Aquí somos todos">Ver mas</a>
+ </div>        
+  
+  
+  
+  
+    
+                      
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/aqui-somos-todos/noticias/pension-garantizada-universal-quienes-lo-podrian-recibir" title="Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?" data-hit-etiqueta="Item 1" data-hit-accion="Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/pensionesast-1.jpg?itok=hVK4Qmvt" alt="Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:17:07</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/aqui-somos-todos/noticias/pension-garantizada-universal-quienes-lo-podrian-recibir" title="Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?" class="news-section" data-hit-etiqueta="Item 1" data-hit-accion="Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?"><span class="lineage-item lineage-item-level-0">Noticias</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/aqui-somos-todos/noticias/pension-garantizada-universal-quienes-lo-podrian-recibir" title="Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?" itemprop="url" data-hit-etiqueta="Item 1" data-hit-accion="Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?">Pensión Garantizada Universal: ¿Quiénes lo podrían recibir?</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/aqui-somos-todos/noticias/como-cuidar-a-los-ninos-en-la-piscina-experto-entrego-consejos" title="¿Cómo cuidar a los niños en la piscina? Experto entregó consejos" data-hit-etiqueta="Item 2" data-hit-accion="¿Cómo cuidar a los niños en la piscina? Experto entregó consejos">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/a_uno_1334855.jpg?itok=_fpD3S_o" alt="¿Cómo cuidar a los niños en la piscina? Experto entregó consejos" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:12:34</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/aqui-somos-todos/noticias/como-cuidar-a-los-ninos-en-la-piscina-experto-entrego-consejos" title="¿Cómo cuidar a los niños en la piscina? Experto entregó consejos" class="news-section" data-hit-etiqueta="Item 2" data-hit-accion="¿Cómo cuidar a los niños en la piscina? Experto entregó consejos"><span class="lineage-item lineage-item-level-0">Noticias</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/aqui-somos-todos/noticias/como-cuidar-a-los-ninos-en-la-piscina-experto-entrego-consejos" title="¿Cómo cuidar a los niños en la piscina? Experto entregó consejos" itemprop="url" data-hit-etiqueta="Item 2" data-hit-accion="¿Cómo cuidar a los niños en la piscina? Experto entregó consejos">¿Cómo cuidar a los niños en la piscina? Experto entregó consejos</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/aqui-somos-todos/capitulos/aqui-somos-todos-capitulo-424" title="Aquí Somos Todos / Capítulo 424" data-hit-etiqueta="Item 3" data-hit-accion="Aquí Somos Todos / Capítulo 424">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/ast0212.jpg?itok=4J78ON6l" alt="Aquí Somos Todos / Capítulo 424" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:31:18</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/aqui-somos-todos/capitulos/aqui-somos-todos-capitulo-424" title="Aquí Somos Todos / Capítulo 424" class="news-section" data-hit-etiqueta="Item 3" data-hit-accion="Aquí Somos Todos / Capítulo 424"><span class="lineage-item lineage-item-level-0">Capítulos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/aqui-somos-todos/capitulos/aqui-somos-todos-capitulo-424" title="Aquí Somos Todos / Capítulo 424" itemprop="url" data-hit-etiqueta="Item 3" data-hit-accion="Aquí Somos Todos / Capítulo 424">Aquí Somos Todos / Capítulo 424</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/aqui-somos-todos/casos/nos-activamos-por-las-panaderas-solidarias-de-penalolen" title="Nos activamos por las panaderas solidarias de Peñalolén" data-hit-etiqueta="Item 4" data-hit-accion="Nos activamos por las panaderas solidarias de Peñalolén">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/panaderassolidarias.jpg?itok=pS8NdOFh" alt="Nos activamos por las panaderas solidarias de Peñalolén" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:03:13</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/aqui-somos-todos/casos/nos-activamos-por-las-panaderas-solidarias-de-penalolen" title="Nos activamos por las panaderas solidarias de Peñalolén" class="news-section" data-hit-etiqueta="Item 4" data-hit-accion="Nos activamos por las panaderas solidarias de Peñalolén"><span class="lineage-item lineage-item-level-0">Casos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/aqui-somos-todos/casos/nos-activamos-por-las-panaderas-solidarias-de-penalolen" title="Nos activamos por las panaderas solidarias de Peñalolén" itemprop="url" data-hit-etiqueta="Item 4" data-hit-accion="Nos activamos por las panaderas solidarias de Peñalolén">Nos activamos por las panaderas solidarias de Peñalolén</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+  
+  
+  
+  
+  </div></div></section><section class="mod mod-program cita-de-negocios lazy-background" data-hit-categoria="Home - Programas Destacados - cita-de-negocios (Index: 6)"><link type="text/css" rel="stylesheet" href="https://static.13.cl/7/sites/all/themes/portal/programas/cita-de-negocios/estilos.css?version=202112021837" media="print" onload="this.media='all'" /><div class="row row-halfpage-fix"><div class="mod-content clearfix">        
+  
+                
+  
+  
+                      
+          <div class="mod-header">
+            <h2 class="program-title"><a href="/programas/cita-de-negocios" title="Cita de Negocios" data-hit-etiqueta="Nombre del programa" data-hit-accion="Cita de Negocios">Cita de Negocios</a></h2>
+            <time class="program-date">Domingo después de MasterChef Chile</time>
+            <p class="program-excerpt"></p><a href="/programas/cita-de-negocios" title="Ver mas" class="btn" data-hit-etiqueta="Ver Más" data-hit-accion="Cita de Negocios">Ver mas</a>
+ </div>        
+  
+  
+  
+  
+    
+                      
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/cita-de-negocios/capitulos/cita-de-negocios-capitulo-6" title="Cita de Negocios / Capítulo 6" data-hit-etiqueta="Item 1" data-hit-accion="Cita de Negocios / Capítulo 6">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/8479534t.jpg?itok=JR6z0zF5" alt="Cita de Negocios / Capítulo 6" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:45:16</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/cita-de-negocios/capitulos/cita-de-negocios-capitulo-6" title="Cita de Negocios / Capítulo 6" class="news-section" data-hit-etiqueta="Item 1" data-hit-accion="Cita de Negocios / Capítulo 6"><span class="lineage-item lineage-item-level-0">Capítulos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/cita-de-negocios/capitulos/cita-de-negocios-capitulo-6" title="Cita de Negocios / Capítulo 6" itemprop="url" data-hit-etiqueta="Item 1" data-hit-accion="Cita de Negocios / Capítulo 6">Cita de Negocios / Capítulo 6</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/cita-de-negocios/noticias/empresarios-se-enfrentaron-por-primera-vez-al-jurado-de-cita-de" title="Empresarios se enfrentaron por primera vez al jurado de &quot;Cita de Negocios&quot;" data-hit-etiqueta="Item 2" data-hit-accion="Empresarios se enfrentaron por primera vez al jurado de &quot;Cita de Negocios&quot;">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/vlcsnap-2021-12-06-12h13m42s550.jpg?itok=-WBiPJiG" alt="Empresarios se enfrentaron por primera vez al jurado de &quot;Cita de Negocios&quot;" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/cita-de-negocios/noticias/empresarios-se-enfrentaron-por-primera-vez-al-jurado-de-cita-de" title="Empresarios se enfrentaron por primera vez al jurado de &quot;Cita de Negocios&quot;" class="news-section" data-hit-etiqueta="Item 2" data-hit-accion="Empresarios se enfrentaron por primera vez al jurado de &quot;Cita de Negocios&quot;"><span class="lineage-item lineage-item-level-0">Noticias</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/cita-de-negocios/noticias/empresarios-se-enfrentaron-por-primera-vez-al-jurado-de-cita-de" title="Empresarios se enfrentaron por primera vez al jurado de &quot;Cita de Negocios&quot;" itemprop="url" data-hit-etiqueta="Item 2" data-hit-accion="Empresarios se enfrentaron por primera vez al jurado de &quot;Cita de Negocios&quot;">Empresarios se enfrentaron por primera vez al jurado de &quot;Cita de Negocios&quot;</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/cita-de-negocios/noticias/polo-ramirez-compartio-con-pequenos-empresarios-en-cita-de" title="Polo Ramírez compartió con pequeños empresarios en &quot;Cita de Negocios&quot;" data-hit-etiqueta="Item 3" data-hit-accion="Polo Ramírez compartió con pequeños empresarios en &quot;Cita de Negocios&quot;">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/534524363.jpg?itok=2BCSfo-B" alt="Polo Ramírez compartió con pequeños empresarios en &quot;Cita de Negocios&quot;" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/cita-de-negocios/noticias/polo-ramirez-compartio-con-pequenos-empresarios-en-cita-de" title="Polo Ramírez compartió con pequeños empresarios en &quot;Cita de Negocios&quot;" class="news-section" data-hit-etiqueta="Item 3" data-hit-accion="Polo Ramírez compartió con pequeños empresarios en &quot;Cita de Negocios&quot;"><span class="lineage-item lineage-item-level-0">Noticias</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/cita-de-negocios/noticias/polo-ramirez-compartio-con-pequenos-empresarios-en-cita-de" title="Polo Ramírez compartió con pequeños empresarios en &quot;Cita de Negocios&quot;" itemprop="url" data-hit-etiqueta="Item 3" data-hit-accion="Polo Ramírez compartió con pequeños empresarios en &quot;Cita de Negocios&quot;">Polo Ramírez compartió con pequeños empresarios en &quot;Cita de Negocios&quot;</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/cita-de-negocios/capitulos/cita-de-negocios-capitulo-5" title="Cita de Negocios / Capítulo 5" data-hit-etiqueta="Item 4" data-hit-accion="Cita de Negocios / Capítulo 5">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/adsgda_polo.jpg?itok=n_Eo1jZP" alt="Cita de Negocios / Capítulo 5" width="356" height="201" itemprop="contentUrl">
+				<span class="video-duration">00:46:52</span><span class="play"></span>
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/cita-de-negocios/capitulos/cita-de-negocios-capitulo-5" title="Cita de Negocios / Capítulo 5" class="news-section" data-hit-etiqueta="Item 4" data-hit-accion="Cita de Negocios / Capítulo 5"><span class="lineage-item lineage-item-level-0">Capítulos</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/cita-de-negocios/capitulos/cita-de-negocios-capitulo-5" title="Cita de Negocios / Capítulo 5" itemprop="url" data-hit-etiqueta="Item 4" data-hit-accion="Cita de Negocios / Capítulo 5">Cita de Negocios / Capítulo 5</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+  
+  
+  
+  
+  </div></div></section><section class="mod mod-program hermandad-sin-limites lazy-background" data-hit-categoria="Home - Programas Destacados - hermandad-sin-limites (Index: 7)"><link type="text/css" rel="stylesheet" href="https://static.13.cl/7/sites/all/themes/portal/programas/hermandad-sin-limites/estilos.css?version=202112021837" media="print" onload="this.media='all'" /><div class="row row-halfpage-fix"><div class="mod-content clearfix">        
+  
+                
+  
+  
+                      
+          <div class="mod-header">
+            <h2 class="program-title"><a href="/programas/hermandad-sin-limites" title="Hermandad Sin Límites" data-hit-etiqueta="Nombre del programa" data-hit-accion="Hermandad Sin Límites">Hermandad Sin Límites</a></h2>
+            <time class="program-date">Un especial de Playgram</time>
+            <p class="program-excerpt"></p><a href="/programas/hermandad-sin-limites" title="Ver mas" class="btn" data-hit-etiqueta="Ver Más" data-hit-accion="Hermandad Sin Límites">Ver mas</a>
+ </div>        
+  
+  
+  
+  
+    
+                      
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/hermandad-sin-limites/podcast/el-rol-de-la-mujer-en-la-publicidad" title="El Rol de la Mujer en la Publicidad" data-hit-etiqueta="Item 1" data-hit-accion="El Rol de la Mujer en la Publicidad">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/53467657564.jpg?itok=BzCRq1ud" alt="El Rol de la Mujer en la Publicidad" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/hermandad-sin-limites/podcast/el-rol-de-la-mujer-en-la-publicidad" title="El Rol de la Mujer en la Publicidad" class="news-section" data-hit-etiqueta="Item 1" data-hit-accion="El Rol de la Mujer en la Publicidad"><span class="lineage-item lineage-item-level-0">Podcast</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/hermandad-sin-limites/podcast/el-rol-de-la-mujer-en-la-publicidad" title="El Rol de la Mujer en la Publicidad" itemprop="url" data-hit-etiqueta="Item 1" data-hit-accion="El Rol de la Mujer en la Publicidad">El Rol de la Mujer en la Publicidad</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/hermandad-sin-limites/podcast/unidas-por-la-musica" title="Unidas por la Música" data-hit-etiqueta="Item 2" data-hit-accion="Unidas por la Música">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/45980.jpg?itok=sIvJ3zJ7" alt="Unidas por la Música" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/hermandad-sin-limites/podcast/unidas-por-la-musica" title="Unidas por la Música" class="news-section" data-hit-etiqueta="Item 2" data-hit-accion="Unidas por la Música"><span class="lineage-item lineage-item-level-0">Podcast</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/hermandad-sin-limites/podcast/unidas-por-la-musica" title="Unidas por la Música" itemprop="url" data-hit-etiqueta="Item 2" data-hit-accion="Unidas por la Música">Unidas por la Música</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/hermandad-sin-limites/highlight/sisterland-celebremos-lo-que-nos-hace-diferentes" title="Sisterland: Celebremos lo que nos hace diferentes" data-hit-etiqueta="Item 3" data-hit-accion="Sisterland: Celebremos lo que nos hace diferentes">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/diseno_sin_titulo_11_5.jpg?itok=wMcjr1Wq" alt="Sisterland: Celebremos lo que nos hace diferentes" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/hermandad-sin-limites/highlight/sisterland-celebremos-lo-que-nos-hace-diferentes" title="Sisterland: Celebremos lo que nos hace diferentes" class="news-section" data-hit-etiqueta="Item 3" data-hit-accion="Sisterland: Celebremos lo que nos hace diferentes"><span class="lineage-item lineage-item-level-0">Highlight</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/hermandad-sin-limites/highlight/sisterland-celebremos-lo-que-nos-hace-diferentes" title="Sisterland: Celebremos lo que nos hace diferentes" itemprop="url" data-hit-etiqueta="Item 3" data-hit-accion="Sisterland: Celebremos lo que nos hace diferentes">Sisterland: Celebremos lo que nos hace diferentes</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/programas/hermandad-sin-limites/podcast/las-protagonistas-detras-de-mensajes-monumentales" title="Las protagonistas detrás de Mensajes Monumentales" data-hit-etiqueta="Item 4" data-hit-accion="Las protagonistas detrás de Mensajes Monumentales">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_300x165/public/programas/articulos/field-imagen/654908546.jpg?itok=tIgm3VZz" alt="Las protagonistas detrás de Mensajes Monumentales" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="/programas/hermandad-sin-limites/podcast/las-protagonistas-detras-de-mensajes-monumentales" title="Las protagonistas detrás de Mensajes Monumentales" class="news-section" data-hit-etiqueta="Item 4" data-hit-accion="Las protagonistas detrás de Mensajes Monumentales"><span class="lineage-item lineage-item-level-0">Podcast</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/programas/hermandad-sin-limites/podcast/las-protagonistas-detras-de-mensajes-monumentales" title="Las protagonistas detrás de Mensajes Monumentales" itemprop="url" data-hit-etiqueta="Item 4" data-hit-accion="Las protagonistas detrás de Mensajes Monumentales">Las protagonistas detrás de Mensajes Monumentales</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+  
+  
+  
+  
+  </div></div></section><!-- Realpath: /var/www/html  -->
+<section class="mod mod-program mujer13" data-hit-categoria="Home - Programas Destacados - Nosotras13">
+	<div class="row row-halfpage-fix">
+		<div class="mod-content clearfix">          
+			<div class="mod-header">
+				<h2 class="program-title"><a href="http://www.nosotras13.cl/?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="Nosotras 13" target="_blank">Nosotras 13</a></h2>
+				<time class="program-date"></time>
+				<p class="program-excerpt">Un espacio que muestra una perspectiva fresca, moderna e inclusiva del mundo femenino. </p><a href="http://www.nosotras13.cl/?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="Ver mas" class="btn" target="_blank">Ver mas</a>
+			</div>    
+			<div class="col col3">
+	<article itemscope="" itemtype="http://schema.org/Article" class="news news-box">
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="https://www.nosotras13.cl/historias/mujer-asesina-su-hija-de-5-meses-punaladas-y-dice-no-estar-arrepentida?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="Mujer asesina a su hija de 5 meses a puñaladas y dice no estar arrepentida" target="_blank">
+				<img data-image src="https://www.nosotras13.cl/sites/default/files/styles/manualcrop_740x415/public/mujer13/field-image/asesinamadreasesina.jpg" data-desktop="https://www.nosotras13.cl/sites/default/files/styles/manualcrop_740x415/public/mujer13/field-image/asesinamadreasesina.jpg" alt="Mujer asesina a su hija de 5 meses a puñaladas y dice no estar arrepentida" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="https://www.nosotras13.cl/historias/mujer-asesina-su-hija-de-5-meses-punaladas-y-dice-no-estar-arrepentida?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="Mujer asesina a su hija de 5 meses a puñaladas y dice no estar arrepentida" class="news-section" target="_blank"><span class="lineage-item lineage-item-level-0">Nosotras13</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="https://www.nosotras13.cl/historias/mujer-asesina-su-hija-de-5-meses-punaladas-y-dice-no-estar-arrepentida?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="Mujer asesina a su hija de 5 meses a puñaladas y dice no estar arrepentida" itemprop="url" target="_blank">Mujer asesina a su hija de 5 meses a puñaladas y dice no estar arrepentida</a>
+			</h1>
+		</div>
+	</article>
+</div>
+<div class="col col3">
+	<article itemscope="" itemtype="http://schema.org/Article" class="news news-box">
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="https://www.nosotras13.cl/historias/hoy-el-tunel-parece-sin-salida-el-preocupante-mensaje-de-karen-bejarano-tras-sufrir?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="\"Hoy, el túnel parece sin salida\": El preocupante mensaje de Karen Bejarano tras sufrir crisis de ansiedad" target="_blank">
+				<img data-image src="https://www.nosotras13.cl/sites/default/files/styles/manualcrop_740x415/public/mujer13/field-image/f1280x720-13804_145479_5050.jpg" data-desktop="https://www.nosotras13.cl/sites/default/files/styles/manualcrop_740x415/public/mujer13/field-image/f1280x720-13804_145479_5050.jpg" alt="\"Hoy, el túnel parece sin salida\": El preocupante mensaje de Karen Bejarano tras sufrir crisis de ansiedad" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="https://www.nosotras13.cl/historias/hoy-el-tunel-parece-sin-salida-el-preocupante-mensaje-de-karen-bejarano-tras-sufrir?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="\"Hoy, el túnel parece sin salida\": El preocupante mensaje de Karen Bejarano tras sufrir crisis de ansiedad" class="news-section" target="_blank"><span class="lineage-item lineage-item-level-0">Nosotras13</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="https://www.nosotras13.cl/historias/hoy-el-tunel-parece-sin-salida-el-preocupante-mensaje-de-karen-bejarano-tras-sufrir?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="\"Hoy, el túnel parece sin salida\": El preocupante mensaje de Karen Bejarano tras sufrir crisis de ansiedad" itemprop="url" target="_blank">"Hoy, el túnel parece sin salida": El preocupante mensaje de Karen Bejarano tras sufrir crisis de ansiedad</a>
+			</h1>
+		</div>
+	</article>
+</div>
+<div class="col col3">
+	<article itemscope="" itemtype="http://schema.org/Article" class="news news-box">
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="https://www.nosotras13.cl/poder-femenino/forbes-2021-rihanna-taylor-swift-y-oprah-winfrey-se-encuentran-en-el-listado-de-las?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="Forbes 2021: Rihanna, Taylor Swift y Oprah Winfrey se encuentran en el listado de las 100 mujeres más poderosas del mundo" target="_blank">
+				<img data-image src="https://www.nosotras13.cl/sites/default/files/styles/manualcrop_740x415/public/mujer13/field-image/100-mujeres-poderosas-portada2.jpg" data-desktop="https://www.nosotras13.cl/sites/default/files/styles/manualcrop_740x415/public/mujer13/field-image/100-mujeres-poderosas-portada2.jpg" alt="Forbes 2021: Rihanna, Taylor Swift y Oprah Winfrey se encuentran en el listado de las 100 mujeres más poderosas del mundo" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="https://www.nosotras13.cl/poder-femenino/forbes-2021-rihanna-taylor-swift-y-oprah-winfrey-se-encuentran-en-el-listado-de-las?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="Forbes 2021: Rihanna, Taylor Swift y Oprah Winfrey se encuentran en el listado de las 100 mujeres más poderosas del mundo" class="news-section" target="_blank"><span class="lineage-item lineage-item-level-0">Nosotras13</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="https://www.nosotras13.cl/poder-femenino/forbes-2021-rihanna-taylor-swift-y-oprah-winfrey-se-encuentran-en-el-listado-de-las?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="Forbes 2021: Rihanna, Taylor Swift y Oprah Winfrey se encuentran en el listado de las 100 mujeres más poderosas del mundo" itemprop="url" target="_blank">Forbes 2021: Rihanna, Taylor Swift y Oprah Winfrey se encuentran en el listado de las 100 mujeres más poderosas del mundo</a>
+			</h1>
+		</div>
+	</article>
+</div>
+<div class="col col3">
+	<article itemscope="" itemtype="http://schema.org/Article" class="news news-box">
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="https://www.nosotras13.cl/actualidad/mon-laferte-denuncia-haber-sido-victima-de-acoso-por-parte-de-productor-de-television?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="Mon Laferte denuncia haber sido víctima de acoso por parte de productor de televisión" target="_blank">
+				<img data-image src="https://www.nosotras13.cl/sites/default/files/styles/manualcrop_740x415/public/mujer13/field-image/mon_laferte_mural.jpg" data-desktop="https://www.nosotras13.cl/sites/default/files/styles/manualcrop_740x415/public/mujer13/field-image/mon_laferte_mural.jpg" alt="Mon Laferte denuncia haber sido víctima de acoso por parte de productor de televisión" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="https://www.nosotras13.cl/actualidad/mon-laferte-denuncia-haber-sido-victima-de-acoso-por-parte-de-productor-de-television?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="Mon Laferte denuncia haber sido víctima de acoso por parte de productor de televisión" class="news-section" target="_blank"><span class="lineage-item lineage-item-level-0">Nosotras13</span></a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="https://www.nosotras13.cl/actualidad/mon-laferte-denuncia-haber-sido-victima-de-acoso-por-parte-de-productor-de-television?utm_source=13&utm_medium=13.cl&utm_campaign=home" title="Mon Laferte denuncia haber sido víctima de acoso por parte de productor de televisión" itemprop="url" target="_blank">Mon Laferte denuncia haber sido víctima de acoso por parte de productor de televisión</a>
+			</h1>
+		</div>
+	</article>
+</div>
+ 
+		</div>  
+	</div>
+</section>
+<section class="mod mod-program senales13 lazy-background" data-hit-categoria="Home - Programas Destacados - Señales 13"><div class="row row-halfpage-fix"><div class="mod-content clearfix">        
+  
+                
+  
+  
+                      
+          <div class="mod-header">
+            <h2 class="program-title">Señales 13</h2>
+            <p class="program-excerpt">Conoce la programación de nuestra señal RETRO y nuestra señal CULTURAL</p>
+ </div>        
+  
+  
+  
+  
+    
+                      
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/rec/blog/el-antes-y-despues-de-los-conductores-de-si-se-la-puede-gana" title="El antes y después de los conductores de “Si se la Puede Gana”" data-hit-etiqueta="Item 1" data-hit-accion="El antes y después de los conductores de “Si se la Puede Gana”">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/356x201/public/rec/blog/field-imagen/portadas_sitio_y_ytb_640x360_-_2021-12-09t171754.154.jpg?itok=0elZxhEM" alt="El antes y después de los conductores de “Si se la Puede Gana”" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="/rec/blog/el-antes-y-despues-de-los-conductores-de-si-se-la-puede-gana" title="El antes y después de los conductores de “Si se la Puede Gana”" class="news-section" data-hit-etiqueta="Item 1" data-hit-accion="El antes y después de los conductores de “Si se la Puede Gana”">Rec</a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/rec/blog/el-antes-y-despues-de-los-conductores-de-si-se-la-puede-gana" title="El antes y después de los conductores de “Si se la Puede Gana”" itemprop="url" data-hit-etiqueta="Item 1" data-hit-accion="El antes y después de los conductores de “Si se la Puede Gana”">El antes y después de los conductores de “Si se la Puede Gana”</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/c/blog/alucinante-conoce-el-romantico-hotel-creado-con-barricas-de-vino-centenarias" title="¡Alucinante! Conoce el romántico hotel creado con barricas de vino centenarias" data-hit-etiqueta="Item 2" data-hit-accion="¡Alucinante! Conoce el romántico hotel creado con barricas de vino centenarias">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/356x201/public/13c/blog/field-imagen/portadas_sitio_y_ytb_640x360_41_3.jpg?itok=YrxVLvb2" alt="¡Alucinante! Conoce el romántico hotel creado con barricas de vino centenarias" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="/c/blog/alucinante-conoce-el-romantico-hotel-creado-con-barricas-de-vino-centenarias" title="¡Alucinante! Conoce el romántico hotel creado con barricas de vino centenarias" class="news-section" data-hit-etiqueta="Item 2" data-hit-accion="¡Alucinante! Conoce el romántico hotel creado con barricas de vino centenarias">13c</a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/c/blog/alucinante-conoce-el-romantico-hotel-creado-con-barricas-de-vino-centenarias" title="¡Alucinante! Conoce el romántico hotel creado con barricas de vino centenarias" itemprop="url" data-hit-etiqueta="Item 2" data-hit-accion="¡Alucinante! Conoce el romántico hotel creado con barricas de vino centenarias">¡Alucinante! Conoce el romántico hotel creado con barricas de vino centenarias</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/c/blog/dia-del-derecho-de-los-animales-que-debes-pensar-antes-de-adoptar-una-mascota" title="Día del Derecho de los Animales: Qué debes pensar antes de adoptar una mascota" data-hit-etiqueta="Item 3" data-hit-accion="Día del Derecho de los Animales: Qué debes pensar antes de adoptar una mascota">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/356x201/public/13c/blog/field-imagen/portadas_sitio_y_ytb_640x360_-_2021-12-09t114432.157.jpg?itok=JGRihV-h" alt="Día del Derecho de los Animales: Qué debes pensar antes de adoptar una mascota" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="/c/blog/dia-del-derecho-de-los-animales-que-debes-pensar-antes-de-adoptar-una-mascota" title="Día del Derecho de los Animales: Qué debes pensar antes de adoptar una mascota" class="news-section" data-hit-etiqueta="Item 3" data-hit-accion="Día del Derecho de los Animales: Qué debes pensar antes de adoptar una mascota">13c</a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/c/blog/dia-del-derecho-de-los-animales-que-debes-pensar-antes-de-adoptar-una-mascota" title="Día del Derecho de los Animales: Qué debes pensar antes de adoptar una mascota" itemprop="url" data-hit-etiqueta="Item 3" data-hit-accion="Día del Derecho de los Animales: Qué debes pensar antes de adoptar una mascota">Día del Derecho de los Animales: Qué debes pensar antes de adoptar una mascota</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+          <div class="col col3">
+	<article itemscope itemtype="http://schema.org/Article" class="news news-box">
+		
+		<figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+			<a href="/c/blog/hoy-me-lanzo-javiera-mena-y-myriam-hernandez-unen-epocas-pop-en-dunas" title="Hoy me lanzo: Javiera Mena y Myriam Hernández unen épocas pop en “Dunas”" data-hit-etiqueta="Item 4" data-hit-accion="Hoy me lanzo: Javiera Mena y Myriam Hernández unen épocas pop en “Dunas”">
+				<img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/356x201/public/13c/blog/field-imagen/portadas_sitio_y_ytb_640x360_-_2021-12-09t113054.379.jpg?itok=TjE0iqhI" alt="Hoy me lanzo: Javiera Mena y Myriam Hernández unen épocas pop en “Dunas”" width="356" height="201" itemprop="contentUrl">
+			</a>
+		</figure>
+		<div class="news-data"><a href="/c/blog/hoy-me-lanzo-javiera-mena-y-myriam-hernandez-unen-epocas-pop-en-dunas" title="Hoy me lanzo: Javiera Mena y Myriam Hernández unen épocas pop en “Dunas”" class="news-section" data-hit-etiqueta="Item 4" data-hit-accion="Hoy me lanzo: Javiera Mena y Myriam Hernández unen épocas pop en “Dunas”">13c</a>
+			<h1 itemprop="name headline" class="news-title">
+				<a href="/c/blog/hoy-me-lanzo-javiera-mena-y-myriam-hernandez-unen-epocas-pop-en-dunas" title="Hoy me lanzo: Javiera Mena y Myriam Hernández unen épocas pop en “Dunas”" itemprop="url" data-hit-etiqueta="Item 4" data-hit-accion="Hoy me lanzo: Javiera Mena y Myriam Hernández unen épocas pop en “Dunas”">Hoy me lanzo: Javiera Mena y Myriam Hernández unen épocas pop en “Dunas”</a>
+			</h1>
+		</div>
+	</article>
+</div>        
+  
+  
+  
+  
+  </div></div></section><link type="text/css" rel="stylesheet" href="https://static.13.cl/7/sites/all/themes/portal/programas/senales13/estilos.css?version=202112021837" media="print" onload="this.media='all'" />	
+
+
+
+	<div class="row row-halfpage-fix">
+		<div class="banner top-header"></div>
+		<!-- Castings -->
+		<div class="banner top-header"><div id="oas_Top3" data-dfp-name="leaderboard.4" data-oas-x="728" data-oas-y="90" data-oas-name="Top3" class="oas-position" data-oas-device="desktop"></div>
+
+<!--script>OAS_AD('Top3');</script--></div>
 
 	</div>
+
+</div>
+
+<div class="row row-halfpage-fix">
+	<!-- Otros sitios -->
+	</div>
+        
+  
+  
+                <section class="mod-grid-news" data-hit-categoria="Home - Corporativo">
+	<div class="row">
+		<header class="mod-header">
+		<h3 class="mod-title">Corporativo</h3>
+		</header>
+	</div>
+	<div class="mod-content">
+		<div class="row-builder">
+										      
+          <div class="col col4">
+  <article itemscope itemtype="http://schema.org/Article" class="news news-box">
+  
+     <figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+      <a href="/exclusivos/ecosistema-digital-de-canal-13-consolida-su-liderazgo" title="Ecosistema digital de Canal 13 consolida su liderazgo " data-hit-etiqueta="Item 1" data-hit-accion="Ecosistema digital de Canal 13 consolida su liderazgo ">
+        <img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_535x300/public/portal/exclusivos/field-imagen/diseno_sin_titulo_66.jpg?itok=enmssPnS" alt="Ecosistema digital de Canal 13 consolida su liderazgo " width="356" height="201" itemprop="contentUrl">
+      </a>
+    </figure>
+    <div class="news-data"><a href="/exclusivos/ecosistema-digital-de-canal-13-consolida-su-liderazgo" title="#" class="news-section" data-hit-etiqueta="Item 1" data-hit-accion="Ecosistema digital de Canal 13 consolida su liderazgo "></a>
+      <h1 itemprop="name headline" class="news-title"><a href="/exclusivos/ecosistema-digital-de-canal-13-consolida-su-liderazgo" title="Ecosistema digital de Canal 13 consolida su liderazgo " itemprop="url" data-hit-etiqueta="Item 1" data-hit-accion="Ecosistema digital de Canal 13 consolida su liderazgo ">Ecosistema digital de Canal 13 consolida su liderazgo </a></h1>
+    </div>
+  </article>
+</div>  										      
+          <div class="col col4">
+  <article itemscope itemtype="http://schema.org/Article" class="news news-box">
+  
+     <figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+      <a href="/exclusivos/engie-chile-y-canal-13-finalizan-instalacion-de-techo-de-paneles-solares" title="ENGIE Chile y Canal 13 finalizan instalación de techo de paneles solares " data-hit-etiqueta="Item 2" data-hit-accion="ENGIE Chile y Canal 13 finalizan instalación de techo de paneles solares ">
+        <img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_535x300/public/portal/exclusivos/field-imagen/canal13techosolar3.jpg?itok=GYpIw6NS" alt="ENGIE Chile y Canal 13 finalizan instalación de techo de paneles solares " width="356" height="201" itemprop="contentUrl">
+      </a>
+    </figure>
+    <div class="news-data"><a href="/exclusivos/engie-chile-y-canal-13-finalizan-instalacion-de-techo-de-paneles-solares" title="#" class="news-section" data-hit-etiqueta="Item 2" data-hit-accion="ENGIE Chile y Canal 13 finalizan instalación de techo de paneles solares "></a>
+      <h1 itemprop="name headline" class="news-title"><a href="/exclusivos/engie-chile-y-canal-13-finalizan-instalacion-de-techo-de-paneles-solares" title="ENGIE Chile y Canal 13 finalizan instalación de techo de paneles solares " itemprop="url" data-hit-etiqueta="Item 2" data-hit-accion="ENGIE Chile y Canal 13 finalizan instalación de techo de paneles solares ">ENGIE Chile y Canal 13 finalizan instalación de techo de paneles solares </a></h1>
+    </div>
+  </article>
+</div>  												<div class="col col4">
+						<div class="banner banner-position1 banner-box">
+							<div id="oas_Position2" data-dfp-name="mediumrectangule.2" data-oas-x="300" data-oas-y="250" data-oas-name="Position2" class="oas-position" data-oas-device="desktop"></div>
+						</div>
+					</div>
+							      
+          <div class="col col4">
+  <article itemscope itemtype="http://schema.org/Article" class="news news-box">
+  
+     <figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+      <a href="/exclusivos/declaracion-publica" title="Declaración pública " data-hit-etiqueta="Item 3" data-hit-accion="Declaración pública ">
+        <img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_535x300/public/portal/exclusivos/field-imagen/logo_13_0.jpg?itok=7FR1S2rP" alt="Declaración pública " width="356" height="201" itemprop="contentUrl">
+      </a>
+    </figure>
+    <div class="news-data"><a href="/exclusivos/declaracion-publica" title="#" class="news-section" data-hit-etiqueta="Item 3" data-hit-accion="Declaración pública "></a>
+      <h1 itemprop="name headline" class="news-title"><a href="/exclusivos/declaracion-publica" title="Declaración pública " itemprop="url" data-hit-etiqueta="Item 3" data-hit-accion="Declaración pública ">Declaración pública </a></h1>
+    </div>
+  </article>
+</div>  										      
+          <div class="col col4">
+  <article itemscope itemtype="http://schema.org/Article" class="news news-box">
+  
+     <figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+      <a href="/exclusivos/incidente-de-ciberseguridad" title="Incidente de ciberseguridad" data-hit-etiqueta="Item 4" data-hit-accion="Incidente de ciberseguridad">
+        <img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_535x300/public/portal/exclusivos/field-imagen/logo_13.jpg?itok=pUx2ZEvU" alt="Incidente de ciberseguridad" width="356" height="201" itemprop="contentUrl">
+      </a>
+    </figure>
+    <div class="news-data"><a href="/exclusivos/incidente-de-ciberseguridad" title="#" class="news-section" data-hit-etiqueta="Item 4" data-hit-accion="Incidente de ciberseguridad"></a>
+      <h1 itemprop="name headline" class="news-title"><a href="/exclusivos/incidente-de-ciberseguridad" title="Incidente de ciberseguridad" itemprop="url" data-hit-etiqueta="Item 4" data-hit-accion="Incidente de ciberseguridad">Incidente de ciberseguridad</a></h1>
+    </div>
+  </article>
+</div>  										      
+          <div class="col col4">
+  <article itemscope itemtype="http://schema.org/Article" class="news news-box">
+  
+     <figure itemprop="image" itemtype="http://schema.org/ImageObject" class="news-media">
+      <a href="/exclusivos/canal-13-aumenta-el-numero-de-integrantes-de-su-directorio" title="Canal 13 aumenta el número de integrantes de su Directorio" data-hit-etiqueta="Item 5" data-hit-accion="Canal 13 aumenta el número de integrantes de su Directorio">
+        <img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/lazyload.gif" data-image data-desktop="https://static.13.cl/7/sites/default/files/styles/manualcrop_535x300/public/portal/exclusivos/field-imagen/89736934765.jpg?itok=5x1GFtD4" alt="Canal 13 aumenta el número de integrantes de su Directorio" width="356" height="201" itemprop="contentUrl">
+      </a>
+    </figure>
+    <div class="news-data"><a href="/exclusivos/canal-13-aumenta-el-numero-de-integrantes-de-su-directorio" title="#" class="news-section" data-hit-etiqueta="Item 5" data-hit-accion="Canal 13 aumenta el número de integrantes de su Directorio"></a>
+      <h1 itemprop="name headline" class="news-title"><a href="/exclusivos/canal-13-aumenta-el-numero-de-integrantes-de-su-directorio" title="Canal 13 aumenta el número de integrantes de su Directorio" itemprop="url" data-hit-etiqueta="Item 5" data-hit-accion="Canal 13 aumenta el número de integrantes de su Directorio">Canal 13 aumenta el número de integrantes de su Directorio</a></h1>
+    </div>
+  </article>
+</div>  					</div>
+	</div>
+</section>      
+  
+  
+  
+  
+  <div class="banner top-header"><div id="oas_Top4" data-oas-x="728" data-oas-y="90" data-oas-name="Top4" class="oas-position" data-oas-device="desktop"></div>
+
+<!--script>OAS_AD('Top4');</script--></div>
+      
+  
+  
+  
+  
+  	    <script>
+document.querySelectorAll('[data-hit-etiqueta]').forEach(function(link) {
+	  if(link.closest("[data-hit-categoria]") && link.hasAttribute("data-hit-etiqueta")){
+	      link.addEventListener('click', function (event) {
+	          let hitCategoria = this.closest("[data-hit-categoria]").getAttribute("data-hit-categoria");
+	          let hitAccion = this.getAttribute("data-hit-accion");
+	          let hitEtiqueta = this.getAttribute("data-hit-etiqueta");
+	          let hitTarget = "self";
+	          if(this.hasAttribute("target") && this.getAttribute("target") == '_blank'){
+			hitTarget = "blank";
+	          }
+	          let hitLink = this.getAttribute("href");
+						try {
+		          event.preventDefault();
+							ga('Hitmap.send', 'event', {
+							   'eventCategory': hitCategoria,
+							   'eventAction': hitAccion,
+							   'eventLabel': hitEtiqueta,
+							   'hitCallback': function() {
+							      hitMapRedirect(hitTarget,hitLink);
+							    },
+							   'hitCallbackFail' : function () {
+							      hitMapRedirect(hitTarget,hitLink);
+							   }
+							});
+						} catch (error){
+							console.error(error);
+							hitMapRedirect(hitTarget,hitLink);
+						}
+	      });
+	  }else{
+	      
+	  }
+});
+function hitMapRedirect(target,link){
+	if(target == "self"){
+		window.location = link;
+	}
+	if(target == "blank"){
+		window.open(link, '_blank').focus();
+	}
+}
+</script></main>
+  <footer id="footer" class="region region-footer">
+    <style>        
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+            body{margin:0;padding:0;}
+            .footercorporativo { background-color: #27272b; padding: 50px; font-family: proxima; color: white;font-family: Roboto; }
+            .footercorporativo a { color: white; text-decoration: none; font-size: 16px; flex: 1; display: block; }
+            .footercorporativo nav.footer-nav a { padding: 0px 0 6px 0; }
+            .footercorporativo .footer-nav ul li { list-style: none; }
+            .footercorporativo nav.footer-nav { display: grid; grid-template-columns: minmax(auto, 370px) max-content max-content auto; width: 100%; grid-gap: 72px; }
+            .footercorporativo .row { max-width: 1200px; margin: auto; }
+            .footercorporativo img#footer-iab-auditado { width: 90px; margin: auto 0 0 auto; display: block; }
+            .footercorporativo h5 { color: #fb6900; text-transform: uppercase; font-size:16px;margin-bottom: 17px;letter-spacing: 1px; }
+            .footercorporativo .col:first-child ul { grid-template-columns: 1fr 1fr; display: grid; }
+            .footercorporativo ul { margin: 0; padding: 0; }
+            .footercorporativo .logo-list img { height: 40px; width: auto; max-width:initial; }
+            .footercorporativo .logo-list .view-content > div { display: flex; flex: 1; flex-wrap: wrap; }
+            .footercorporativo .logo-list a { padding: 9px 7px; text-align: center;}
+            .footercorporativo .footer-bottom { margin-top: 40px; }
+            .footercorporativo .logo-list a:first-child { flex: 0; }
+            .footercorporativo .red-cl { margin-top: 50px; }
+            .footercorporativo .red-cl h5 { margin: 0; }
+            .footercorporativo p {margin: 0;}
+            .footercorporativo .follow {display: flex;align-items: center;justify-content: center;}
+
+            @media (max-width: 1100px) {
+                .footercorporativo .col:first-child ul { grid-template-columns: 1fr; }
+            }
+
+            @media (max-width: 780px) {
+                .footercorporativo { padding: 20px;text-align: center;}
+                .footercorporativo p { color: #888894; font-size: 14px;grid-gap: 20px 0;}
+                .footercorporativo nav.footer-nav { grid-template-columns: 1fr; grid-gap: 30px 0;}
+                .footercorporativo .col:first-child ul { grid-template-columns: 1fr; }
+                .footercorporativo .col:nth-child(2) { display: none; }
+                .footercorporativo .logo-list .view-content > div { flex: 0; flex-grow: 10; justify-content: space-around; flex-flow: row wrap; align-items: stretch; }
+                .footercorporativo .logo-list .view-content > div { display: inline-flex; width: 100%; overflow: scroll; flex: initial; justify-content: initial; flex-flow: initial; }
+                .footercorporativo .logo-list a { display: block; margin-right: 10px; }
+                .footercorporativo .red-cl { width: 100%; overflow: scroll;}
+                .footercorporativo h5 { margin: 0 0 10px 0; }
+                .footercorporativo img#footer-iab-auditado { margin: auto;}
+            }
+</style>
+
+  <footer class="footercorporativo">
+      <div class="row">
+        <div class="footer-top">
+          <nav class="footer-nav">
+            <div class="col">
+              <h5>Programas</h5>
+                      
+  
+  
+                    <ul>          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.13.cl/programas/si-nos-dejan" title="Si nos dejan">Si nos dejan</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.13.cl/programas/servicios-13" title="Servicios 13">Servicios 13</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.13.cl/programas/red-bull" title="Red Bull Batalla">Red Bull Batalla</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.13.cl/programas/entretencion" title="Entretención">Entretención</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.13.cl/programas/city-tour-t7" title="City Tour T7">City Tour T7</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.13.cl/programas/cita-de-negocios" title="Cita de Negocios">Cita de Negocios</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.13.cl/programas/masterchef-celebrity" title="MasterChef Celebrity">MasterChef Celebrity</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.13.cl/programas/cafe-social" title="Café Social">Café Social</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.13.cl/programas/aqui-somos-todos" title="Aquí somos todos">Aquí somos todos</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.13.cl/programas/adrenalina" title="Adrenalina">Adrenalina</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.13.cl/programas/lugares-que-hablan" title="Lugares que Hablan ">Lugares que Hablan </a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.13.cl/programas/sabado-de-reportajes" title="Cultura en el 13">Cultura en el 13</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.13.cl/programas/tu-dia" title="Tu Día">Tu Día</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.13.cl/programas/los-5-mandamientos" title="Los 5 Mandamientos">Los 5 Mandamientos</a></span>  </div></li>
+      </ul>      
+  
+  
+  
+  
+              </div>
+            <div class="col">
+              <h5>Corporativo</h5>
+              <ul>
+                <li><a target="_blank" href="http://www.13.cl/corporativo/" title="Quiénes somos">Quiénes somos</a></li>
+                <li><a target="_blank" href="http://www.13.cl/comercial" title="Área Comercial">Área Comercial</a></li>
+                <li><a target="_blank" href="http://www.13.cl/comercial/politicas-comerciales" title="Políticas comerciales">Políticas comerciales</a></li>
+                <li><a target="_blank" href="http://www.13.cl/proveedores" title="Proveedores">Proveedores</a></li>
+                <li><a target="_blank" href="http://canaltrece.trabajando.com/index.cfm" title="Trabaja con nosotros">Trabaja con nosotros</a></li>
+                <li><a target="_blank" href="http://www.13.cl/corporativo/mediciones-de-campo-electromagnetico-de-estaciones-transmisoras" title="Mediciones antenas">Mediciones antenas</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <h5>Ayuda</h5>
+              <ul>
+                <!--<li><a target="_blank" href="http://www.13.cl/faq.htm" title="Preguntas frecuentes">Preguntas frecuentes</a></li>-->
+                <li><a target="_blank" href="http://www.13.cl/concursos" title="Bases de concursos">Bases de concursos</a></li>
+              </ul>
+              <br>
+              <br>
+              <h5>Siguenos</h5>
+              <div class="follow"><a href="https://www.facebook.com/elcanal13" title="Siguenos en Facebook" rel="nofollow" traget="_blank"><img src="https://www-storage.13.cl/t13/assets/svg/logos-facebook.svg"/></a><a href="https://twitter.com/canal13" title="Siguenos en Twitter" rel="nofollow" traget="_blank"><img src="https://www-storage.13.cl/t13/assets/svg/logos-twitter.svg"></a><a href="https://instagram.com/canal13cl" title="Siguenos en Instagram" rel="nofollow" traget="_blank"><img src="https://www-storage.13.cl/t13/assets/svg/logos-instagram.svg"/></a></div>
+            </div>
+            <div class="col">
+                        <img src="https://static.13.cl/7/sites/all/themes/portal/resources/images/iab-medio-auditado.svg" id="footer-iab-auditado"/>
+            </div>
+          </nav>
+          <div class="red-cl">
+            <h5>Red 13.cl</h5>
+ <div class="logo-list">
+        
+  
+  
+                      
+          <a href="https://www.13.cl" target="_blank"><img src="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/logo_13cl-2x.png" data-mobile="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/logo_13cl-2x.png" /></a><a href="https://www.ar13.cl" target="_blank"><img src="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/logo6.png" data-mobile="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/logo6.png" /></a><a href="https://www.nosotras13.cl/" target="_blank"><img src="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/nosotras_13.png" data-mobile="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/nosotras_13.png" /></a><a href="https://www.13.cl/smart13" target="_blank"><img src="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/smart_13.png" data-mobile="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/smart_13.png" /></a><a href="https://www.13.cl/esports" target="_blank"><img src="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/logo2.png" data-mobile="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/logo2.png" /></a><a href="https://www.13.cl/now" target="_blank"><img src="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/logo2_0.png" data-mobile="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/logo2_0.png" /></a><a href="https://www.t13.cl/" target="_blank"><img src="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/t13asd.png" data-mobile="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/t13asd.png" /></a><a href="https://www.13.cl/c" target="_blank"><img src="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/13c_2018.png" data-mobile="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/13c_2018.png" /></a><a href="https://www.13.cl/rec" target="_blank"><img src="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/rec_2018.png" data-mobile="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/rec_2018.png" /></a><a href="https://www.tele13radio.cl/" target="_blank"><img src="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/t13-radio.png" data-mobile="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/t13-radio.png" /></a><a href="https://oasisfm.cl/" target="_blank"><img src="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/oasis.png" data-mobile="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/oasis.png" /></a><a href="https://www.playfm.cl" target="_blank"><img src="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/play.png" data-mobile="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/play.png" /></a><a href="https://sonarfm.cl/" target="_blank"><img src="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/sonar.png" data-mobile="https://static.13.cl/7/sites/default/files/portal/footer/field-red13-logos/sonar.png" /></a>        
+  
+  
+  
+  
+  </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="pull-left">
+            <p>Inés Matte Urrejola 0848, Santiago, Chile - Fono (562) 2 251 4000</p>
+            <p>&copy; Todos los derechos reservados. 13.cl</p>
+          </div>
+          <div class="pull-right"></div>
+        </div>
+      </div>
+    </footer><!-- PUSH -->
+    <script>
+      const configNotification = {
+        path_sw: '/sites/all/libraries/13-notifications/sw.js',
+        enable_prompt: true,
+        disabled: true,
+        prompt_setting: {
+          image: 'https://www-storage.13.cl/c13/push-notifications/13.jpg',
+          cookie_duration: 10,
+          text: 'Recibe antes la información en 13.cl de todos su programas y contenidos exclusivos',
+          text_true: 'SÚMATE',
+          text_false: 'NO POR AHORA',
+        },
+      };
+
+      const alert = document.createElement('script');
+      const n = document.getElementsByTagName('script')[0];
+      alert.async = '1';
+      alert.src = '/sites/all/libraries/13-notifications/13-alert.min.js?r=' + Math.ceil(Math.random() * 99999);
+      n.parentNode.insertBefore(alert, n);
+
+      function closePrestitial(){
+            console.log('Push OK!!');
+            configNotification._initFCM(); 
+      };
+    </script>
+<!--/ PUSH--><script>
+googletag.cmd.push(function() {
+        	googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+			if (event.slot.getSlotElementId() === 'oas_x95') {
+				console.log(event.slot.getSlotElementId());
+                    		console.log(event.slot.getResponseInformation());
+				if(!event.slot.getResponseInformation() || event.slot.getResponseInformation()['advertiserId'] == 0){
+                   		 // No hay Prestitial, despliego Push
+                    		closePrestitial();
+                		}
+           	 	}
+        	});
+});
+</script><script type="text/javascript" src="https://static.13.cl/7/sites/all/themes/portal/js/unmentionableWithGA.js?201609021104"></script>
+<script>
+(function(){
+    if(typeof window.adblockDetector === 'undefined') {
+        //console.log("adblockDetector undefined");
+    } else {
+        window.adblockDetector.init(
+            {
+                debug: true,
+                found: function(){},
+                notFound: function(){}}
+        );
+    }
+}());
+</script>
+  </footer>
+
+<div id="oas_x93" data-oas-x="1" data-oas-y="1" data-oas-name="x93" class="oas-position" data-oas-device="desktop"></div>
+  <script>if(dispositivo=='desktop')cX.callQueue.push(['invoke', function() {googletag.cmd.push(function() { googletag.display('oas_halfpagesev'); })}]);
+</script>
+<script>if(dispositivo=='desktop')cX.callQueue.push(['invoke', function() {googletag.cmd.push(function() { googletag.display('oas_Position1'); })}]);
+</script>
+<script>if(dispositivo=='desktop')cX.callQueue.push(['invoke', function() {googletag.cmd.push(function() { googletag.display('oas_halfpage1'); })}]);
+</script>
+<script>if(dispositivo=='desktop')cX.callQueue.push(['invoke', function() {googletag.cmd.push(function() { googletag.display('oas_Top1'); })}]);
+</script>
+<script>if(dispositivo=='desktop')cX.callQueue.push(['invoke', function() {googletag.cmd.push(function() { googletag.display('oas_Top2'); })}]);
+</script>
+<script>if(dispositivo=='desktop')cX.callQueue.push(['invoke', function() {googletag.cmd.push(function() { googletag.display('oas_Top3'); })}]);
+</script>
+<script>if(dispositivo=='desktop')cX.callQueue.push(['invoke', function() {googletag.cmd.push(function() { googletag.display('oas_Position2'); })}]);
+</script>
+<script>if(dispositivo=='desktop')cX.callQueue.push(['invoke', function() {googletag.cmd.push(function() { googletag.display('oas_x95'); })}]);
+</script>
+<script>if(dispositivo=='desktop')cX.callQueue.push(['invoke', function() {googletag.cmd.push(function() { googletag.display('oas_1by1'); })}]);
+</script>
+<script>if(dispositivo=='tablet')cX.callQueue.push(['invoke', function() {googletag.cmd.push(function() { googletag.display('oas_skin'); })}]);
+if(dispositivo=='desktop')cX.callQueue.push(['invoke', function() {googletag.cmd.push(function() { googletag.display('oas_skin'); })}]);
+</script>
+<script>if(dispositivo=='desktop')cX.callQueue.push(['invoke', function() {googletag.cmd.push(function() { googletag.display('oas_Top'); })}]);
+</script>
+    <script src="https://static.13.cl/7/sites/all/themes/portal/resources/scripts/libs/swiper.min.js"></script>
+
+    <!--AGREGAR MAZONRY SOLO EN LA HOME DE UN PROGRAMA-->
+    <script src="https://static.13.cl/7/sites/all/themes/portal/resources/scripts/libs/masonry.pkgd.min.js"></script>
+
+    <script src="https://static.13.cl/7/sites/all/themes/portal/resources/scripts/application.js?202112021837"></script>
+
+
+</body>
 </html>
