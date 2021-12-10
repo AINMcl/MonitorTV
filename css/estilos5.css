@@ -11,28 +11,11 @@ body {
     padding: 0;
     margin: 0;
     color: #ACBDCE;
-    background: #071a2c; 
+    background-color: #071a2c;
     font-family: 'Poppins', sans-serif, Arial;
 }
 
-a {
-    color: #8a8a8a;
-    border-bottom: 1px #808080 dotted;
-    text-decoration: none;
-}
-a:hover{
-    color: #ffffff;
-    border-bottom: 2px #fa9919 dotted;
-}
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    height: 60px;
-}
 
 main {
     min-height: calc(100vh - 100px);
@@ -64,7 +47,6 @@ main {
     grid-template-columns: 100%; 
     height: 80vh;  
     gap: 10px;
-    width: 100%;
     scrollbar-width: thin;
     overflow-y: scroll; 
 }
@@ -121,7 +103,7 @@ main {
 
   
 
-.active {
+.SeñalSeleccionada {
     background-color: #ffffff;
     color: #129700;
     border-radius: 5px;

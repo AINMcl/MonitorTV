@@ -30,10 +30,10 @@ for (const canal of LosCanales) {
 // https://www.w3schools.com/howto/howto_js_active_element.asp
 for (let i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function () {
-        let current = document.getElementsByClassName("active");
+        let current = document.getElementsByClassName("SeñalSeleccionada");
         if (current.length > 0) {
-            current[0].className = current[0].className.replace(" active", "");
+            current[0].className = current[0].className.replace(" SeñalSeleccionada", "");
         }
-        this.className += " active";
+        this.className += " SeñalSeleccionada";
     });
 }
