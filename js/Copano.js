@@ -126,6 +126,14 @@ var App = {
             'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCIERRE MESAS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://reloj-alarma.es/embed/temporizador/#date=2021-12-19T18:00:00&title=CIERRE+DE+MESAS&theme=1&color=0&ampm=0&sound=cuckoo" frameborder="0"></iframe></div>'
         },
+        'Contador_Inicio_DEBATE_ARCHI': {
+            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠINICIO DEBATE ARCHI - ESTILO 1',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://reloj-alarma.es/embed/temporizador/#date=2021-12-10T08:00:00&title=DEBATE+PRESIDENCIA+ARCHI&theme=1&color=0&ampm=0&sound=cuckoo" frameborder="0"></iframe></div>'
+        },
+        'Contador_Inicio_DEBATE_ARCHI2': {
+            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠINICIO DEBATE ARCHI - ESTILO 2',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://stagetimer.io/r/KXMMXMDA/" frameborder="0"></iframe></div>'
+        },
     },
     add: function(canal) {
         if (App.channels[canal]) {
