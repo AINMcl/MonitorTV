@@ -134,6 +134,10 @@ var App = {
             'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠINICIO DEBATE ARCHI - ESTILO 2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://stagetimer.io/r/KXMMXMDA/" frameborder="0"></iframe></div>'
         },
+        'Especial3': {
+            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠINICIO DEBATE ARCHI - ESTILO 3',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_1.html" frameborder="0" allowfullscreen></iframe></div>'
+        },
     },
     add: function(canal) {
         if (App.channels[canal]) {
