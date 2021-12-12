@@ -136,6 +136,10 @@ var App = {
             'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCIERRE MESAS - ESTILO 3',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_4.html" frameborder="0"></iframe></div>'
         },
+        //'VUELO_BACHELET': {
+        //    'nombre': '<img style="height: 15px; width:auto:" src="imagenes/NoLogo.svg"></img>ﾠRASTREO VUELO M. BACHELET',
+        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="TEST.html" frameborder="0"></iframe></div>'
+        //},
     },
     add: function(canal) {
         if (App.channels[canal]) {
