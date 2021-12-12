@@ -1,5 +1,32 @@
 let LosCanales = [
     {
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 1',
+        'url': 'MonitorAINM1.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 2',
+        'url': 'MonitorAINM2.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 3',
+        'url': 'MonitorAINM3.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 4',
+        'url': 'MonitorAINM4.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 5',
+        'url': 'MonitorAINM5.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 6',
+        'url': 'MonitorAINM6.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 7',
+        'url': 'MonitorAINM7.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 8',
+        'url': 'MonitorAINM8.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 9',
+        'url': 'MonitorAINM9.html'
+    },{
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24PLAY.svg"></img>',
         'url': 'Señal24HTVN.html'
     },{
