@@ -1,0 +1,772 @@
+
+<!DOCTYPE html>
+<html lang="es-ES" class="backgroundVideo">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        
+        <title>PortalImo - I. Municipalidad de Osorno - Chile</title>
+        
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Lemon' rel='stylesheet' type='text/css'>
+        
+        <link rel="shortcut icon" href="images/favicon.jpg">
+
+        <!-- CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+
+    
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+ <link href="css/video-js.css" rel="stylesheet">
+<script src="js/video.js"></script>
+<script src="js/videojs-contrib-hls.js"></script>    
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<style type="text/css">
+
+body{
+  
+    
+          
+  background: url(http://www.portalimo.cl/img/fondoimo.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.if-image {
+
+filter: grayscale(100%);
+
+-webkit-filter: grayscale(100%);
+
+}
+
+.if-image {
+
+filter: grayscale(100%);
+
+-webkit-filter: grayscale(100%);
+
+transition:filter 0.4s;
+
+-webkit-transition:-webkit-filter 1s;
+
+}
+
+.if-image:hover {
+
+filter: grayscale(0);
+
+-webkit-filter: grayscale(0);
+
+}
+
+.zoom {
+
+  transition: transform .2s; /* Animation */
+ 
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.video-list-thumbs > li > a{
+	display:block;
+	position:relative;
+	background-color: #002d58;
+	color: #fff;
+	padding: 8px;
+	border-radius:3px
+    transition:all 500ms ease-in-out;
+    border-radius:4px
+}
+.video-list-thumbs > li > a:hover{
+	box-shadow:0 2px 5px rgba(0,0,0,.3);
+	text-decoration:none
+}
+.video-list-thumbs h2{
+	bottom: 0;
+	font-size: 14px;
+	height: 33px;
+	margin: 8px 0 0;
+}
+.video-list-thumbs .glyphicon-play-circle{
+    font-size: 60px;
+    opacity: 0.6;
+    position: absolute;
+    right: 39%;
+    top: 31%;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    transition:all 500ms ease-in-out;
+}
+.video-list-thumbs > li > a:hover .glyphicon-play-circle{
+	color:#fff;
+	opacity:1;
+	text-shadow:0 1px 3px rgba(0,0,0,.8);
+}
+.video-list-thumbs .duration{
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 2px;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	left: 12px;
+	line-height: 13px;
+	padding: 2px 3px 1px;
+	position: absolute;
+	top: 12px;
+    transition:all 500ms ease;
+}
+.video-list-thumbs > li > a:hover .duration{
+	background-color:#000;
+}
+@media (min-width:320px) and (max-width: 480px) { 
+	.video-list-thumbs .glyphicon-play-circle{
+    font-size: 35px;
+    right: 36%;
+    top: 27%;
+	}
+	.video-list-thumbs h2{
+		bottom: 0;
+		font-size: 12px;
+		height: 22px;
+		margin: 8px 0 0;
+	}
+}
+
+
+
+
+.site-footer
+{
+  background-color:#002d58;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#ffffff;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#ffffff;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#ffffff;
+  background-color:#ffffff
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+
+
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.youtube:hover
+{
+  background-color:#c4302b
+}
+.social-icons a.flickr:hover
+{
+  background-color:#000000
+}
+.social-icons a.instagram:hover
+{
+  background-color:#ff0084
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+
+
+                body {font-family: Arial, Helvetica, sans-serif;}
+                
+                /* The Modal (background) */
+                .modal {
+                  display: none; /* Hidden by default */
+                  position: fixed; /* Stay in place */
+                  z-index: 1; /* Sit on top */
+                  padding-top: 100px; /* Location of the box */
+                  left: 0;
+                  top: 0;
+                  width: 100%; /* Full width */
+                  height: 100%; /* Full height */
+                  overflow: auto; /* Enable scroll if needed */
+                  background-color: rgb(0,0,0); /* Fallback color */
+                  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                }
+                
+                /* Modal Content */
+                .modal-content {
+                  background-color: #fefefe;
+                  margin: auto;
+                  padding: 20px;
+                  border: 1px solid #888;
+                  width: 900px;
+                }
+                
+                /* The Close Button */
+                .close {
+                  color: #aaaaaa;
+                  float: right;
+                  font-size: 28px;
+                  font-weight: bold;
+                }
+                
+                .close:hover,
+                .close:focus {
+                  color: #000;
+                  text-decoration: none;
+                  cursor: pointer;
+                }
+                
+
+</style>
+  <style>
+	 	
+		.header{
+		background-position:  center center;
+		height: 150px;
+				
+		background-image: url(img/head2.png);
+		
+		background-repeat:no-repeat;
+		background-size: cover;
+		background-color: #002d58;
+		text-align:center;
+		}
+   		.center1 {
+		  margin-left: auto;
+		 margin-right: auto;
+		 display: block;
+		}
+	</style>      
+    </head>
+    <body>
+<div class="header">	
+<div class="container">	
+	
+		 
+					<div class="col-md-3"><br>
+						<img src="img/logoportal.png" height="120px" alt="Thumbnail label" />
+					</div>
+					<div class="col-md-8">
+						
+					</div>
+					<div class="col-md-1"><br>
+						<img src="img/logomuni.png" height="120px" alt="Thumbnail label" />
+					</div>
+		
+</div>
+</div>
+<!--
+<div id="cabecera">
+<video id="video" loop autoplay preload muted>
+<source src="/fondo.mp4" type='video/mp4; codecs="avc1,mp4a"' />
+
+</video>
+
+</div>
+
+     
+        <a id="bgndVideo"  data-property="{videoURL:'https://www.youtube.com/watch?v=nJhh1rhyf2s',containment:'body',autoPlay:true, mute:false, startAt:0,opacity:40,ratio:'4/3', addRaster:true}">&nbsp;</a>
+
+  -->  
+
+        <div class="video-btns">
+       
+        </div>
+        
+        <!-- CONTAINER -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+				</div>
+				<div class="col-md-8">
+
+
+                  <br>
+				
+               			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
+				<ol class="carousel-indicators"><br />
+<b>Notice</b>:  Undefined variable: Rows in <b>/home/portaloso/public_html/index2.php</b> on line <b>449</b><br />
+				</ol>				<div class="carousel-inner"><br />
+<b>Notice</b>:  Undefined variable: Rows in <b>/home/portaloso/public_html/index2.php</b> on line <b>458</b><br />
+					</div>
+
+		
+
+						   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>					
+
+				</div>
+				<div class="col-md-2">
+				</div>
+			</div>
+
+
+
+				</div>  
+                   
+            
+<div class="container">
+
+                    <div class="section clearfix">
+
+							<a href="https://www.municipalidadosorno.cl/"><img class="if-image zoom" src="img/municipalidad.png" alt="Thumbnail label" height="145px" />	</a>
+                     <!--   <a href="#" class="open_aboutus btn btn-transparent animated fadeInUp">Mas Información</a>-->
+                    
+							<a target="_blank" href="https://www.daemosorno.cl/"><img class="if-image zoom" src="img/daem.png" alt="Thumbnail label" height="145px"  />	</a>
+							<a target="_blank" href="https://www.desmo.cl/"><img class="if-image zoom" src="img/desmo.png" alt="Thumbnail label" height="145px" />	</a>
+							<a target="_blank" href="https://www.osornotv.cl/"><img class="if-image zoom" src="img/canal.png" alt="Thumbnail label" height="145px" />	</a>
+							<a target="_blank" href="https://www.osornochile.cl/"><img class="if-image zoom" src="img/turismo.png" alt="Thumbnail label" height="145px" />	</a>	
+                     <!--   <a href="#" class="open_aboutus btn btn-transparent animated fadeInUp">Mas Información</a>-->
+                   
+
+				
+
+            <a href="https://www.municipalidadosorno.cl/telefonos.php" title="Teléfonos" target="_blank"><img  src="img/telefonos.png"  alt="Telefonos" height="44px"></a>
+			<a href="https://farmaciapopularonline.cl/Home/Index?farmacia=Osorno" target="_blank"><img  src="img/farmacia.png" height="44px"/></a>
+			<a href="#" class="about"><img  src="img/guiatramites.png" height="44px"/></a>
+					
+                    </div>
+					</div>
+
+					<div class="section clearfix">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<ul class="list-unstyled video-list-thumbs row">
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a  title="Plaza de Armas">
+												<img onclick="modalClick('http://216.155.78.8:19021/player.html')" src="http://216.155.78.8:19021/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Plaza de Armas</h2>
+											</a>
+										</li>
+
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a data-toggle="modal" href="#1" title="Plaza de Armas">
+												<img  src="http://www.portalimo.cl/img/plaza.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Plaza de Armas</h2>
+											</a>
+										</li>
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a  title="Parque Chuyaca">
+												<img onclick="modalClick('http://216.155.78.8:19022/player.html')" src="http://216.155.78.8:19022/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Parque Chuyaca</h2>
+											
+												
+											</a>
+										</li>
+										
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a  title="Feria Rahue">
+												<img onclick="modalClick('http://216.155.78.8:19024/player.html')" src="http://216.155.78.8:19024/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Feria Rahue</h2>
+												
+												
+											</a>
+										</li>
+									
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a  title="Estadio Alberto Allaire">
+												<img onclick="modalClick('http://216.155.78.8:19025/player.html')" src="http://216.155.78.8:19025/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Estadio Alberto Allaire</h2>
+											
+												
+											</a>
+										</li>
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a  title="Villa Olimpica">
+												<img onclick="modalClick('http://216.155.78.8:19026/player.html')" src="http://216.155.78.8:19026/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Villa Olimpica</h2>
+												
+											
+											</a>
+										</li>
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a  title="Parque Cuarto Centenario">
+												<img onclick="modalClick('http://216.155.78.8:19027/player.html')" src="http://216.155.78.8:19027/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Parque Cuarto Centenario</h2>
+							
+												
+											</a>
+										</li>
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a  title="Estadio Parque Schott">
+												<img onclick="modalClick('http://216.155.78.8:19028/player.html')" src="http://216.155.78.8:19028/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Estadio Parque Schott</h2>
+										
+												
+											</a>
+										</li>
+										
+									
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a  title="Puente San Pablo">
+												<img onclick="modalClick('http://216.155.78.8:19029/player.html')" src="http://216.155.78.8:19029/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Puente San Pablo</h2>
+											
+												</a>
+											
+										</li>
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a  title="Complejo Deportivo Alday">
+												<img onclick="modalClick('http://216.155.78.8:19030/player.html')" src="http://216.155.78.8:19030/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Complejo Deportivo Alday</h2>
+												
+											
+											</a>
+										</li>
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a  title="Mercado Municipal">
+												<img onclick="modalClick('http://216.155.78.8:19031/player.html')" src="http://216.155.78.8:19031/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Mercado Municipal</h2>
+												
+												
+											</a>
+										</li>
+
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a  title="Complejo Rahue Alto">
+												<img onclick="modalClick('http://216.155.78.8:19023/player.html')" src="http://216.155.78.8:19023/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Complejo Rahue Alto</h2>
+												
+											
+											</a>
+										</li>
+
+										
+									
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a  title="Puente Chaurakawin">
+												<img onclick="modalClick('http://216.155.78.8:19033/player.html')" src="http://216.155.78.8:19033/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Puente Chaurakawin</h2>
+												
+												
+											</a>
+										</li>
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a  title="Puente San Pedro">
+												<img onclick="modalClick('http://216.155.78.8:19034/player.html')" src="http://216.155.78.8:19034/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Puente San Pedro</h2>
+												
+											
+											</a>
+										</li>
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a  title="Parque Olegario Mohr">
+												<img onclick="modalClick('http://216.155.78.8:19035/player.html')" src="http://216.155.78.8:19035/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Parque Olegario Mohr</h2>
+												
+												
+											</a>
+										</li>
+
+										<li class="col-lg-3 col-sm-4 col-xs-6">
+											<a title="Recinto Panguimapu">
+												<img onclick="modalClick('http://216.155.78.8:19032/player.html')" src="http://216.155.78.8:19032/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
+												<h2>Recinto Panguimapu</h2>
+												
+												
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- END CONTAINER -->
+
+							
+
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="camaraFrame"></iframe></p>
+    </div>
+  
+  </div>
+
+        <!-- FOOTER -->
+<footer class="site-footer">
+      <div class="container">
+        <div class="row">
+
+  <div class="col-xs-4 col-md-2">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://www.facebook.com/pages/Municipalidad-de-Osorno/223193687697755?ref=hl" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="http://www.twitter.com/muni_osorno" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="youtube" href="https://www.youtube.com/user/municipalidadosorno/videos" target="_blank"><i class="fa fa-youtube"></i></a></li> <br> 
+			  <li><a class="flickr" href="http://www.flickr.com/photos/muni_osorno" target="_blank"><i class="fa fa-flickr"></i></a></li>
+			  <li><a class="instagram" href="https://www.instagram.com/muni_osorno" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+
+     
+            
+          </div>
+			<div class="col-xs-4 col-md-2">
+            <h6 class="text-left">Municipalidad<br>de Osorno </h6>
+			<p class="text-left"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Av. Mackenna 850<br><i class="fa fa-at"></i>&nbsp;alcaldia@imo.cl<br>
+            <i class="fa fa-phone"></i>&nbsp;+56642264300</p>
+          </div>
+		
+		  
+          
+
+          <div class="col-xs-4 col-md-2">
+            <h6 class="text-left">Departamento de Educación </h6>
+			<p class="text-left"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Av. Mackenna 1421<br><i class="fa fa-at"></i>&nbsp;daem@imo.cl<br>
+            <i class="fa fa-phone"></i>&nbsp;+56642264300</p>
+          </div>
+		<div class="col-xs-4 col-md-2">
+            <h6 class="text-left">Departamento de Salud</h6>
+            <p class="text-justify"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Av. Mackenna 850<br><i class="fa fa-at"></i>&nbsp;salud@imo.cl<br>
+			<i class="fa fa-phone"></i>&nbsp;+56642264300</p>
+          </div>
+			<div class="col-xs-4 col-md-2">
+            <h6 class="text-left">Canal OsornoTV+</h6>
+             <p class="text-justify"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Av. Mackenna 850<br><i class="fa fa-at"></i>&nbsp;salud@imo.cl<br>
+			<i class="fa fa-phone"></i>&nbsp;+56642264300</p>
+          </div>
+          <div class="col-xs-4 col-md-2">
+            <h6 class="text-left">Turismo Osorno</h6>
+             <p class="text-justify"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Francisco Bilbao 851<br><i class="fa fa-at"></i>&nbsp;turismo@imo.cl<br>
+			<i class="fa fa-phone"></i>&nbsp;+56642264300</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12"><br>
+            <p class="copyright-text">Copyright &copy; 2019 
+         <a href="#">I. Municipalidad de Osorno</a>.
+            </p>
+			<p class="copyright-text">Descarga nuestra aplicación OsornoApp</p>
+			<a href="https://apps.apple.com/bo/app/osornoapp/id1329448129"><img  src="img/apple.png" alt="Thumbnail label" height="40px" />	</a>
+
+			<a href="https://play.google.com/store/apps/details?id=cl.rialis.imo&hl=es"><img   src="img/android.png" alt="Thumbnail label" height="40px" />	</a>
+
+          </div>
+
+          
+        </div>
+      </div>
+</footer>
+  <div id="1" class="modal fade" role="dialog">
+								<div class="modal-dialog modal-lg">
+									<div class="modal-content">
+									<span class="close">&times;</span>
+									<video id=usastreams-video  keyLicencia="2854361USAstreams.COM" crossorigin="anonymous"  class="video-js vjs-fluid vjs-default-skin" autoplay controls poster=''><source src="https://hd.chileservidores.cl:1936/osorno1/live/playlist.m3u8" type="application/x-mpegURL"></video>    <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">    <script type="text/javascript" src ="https://unpkg.com/video.js/dist/video.js"></script>    <script type="text/javascript" src ="https://cp.usastreams.com/playerHTML5/ContadorVideo.js"></script>    <link href="https://cp.usastreams.com/playerHTML5/media/twitter.css" rel="stylesheet">    <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>    <script>      (function(window, videojs) {        var player = window.player = videojs('usastreams-video');          return false;        }      (window, window.videojs));    </script>
+									</div>
+								<div>
+							<div>     
+        <!-- END FOOTER -->
+
+
+       
+        <!-- END ABOUT US -->
+        
+ <script>
+    function modalClick(url){
+        modal.style.display = "block";
+        var frame = document.getElementById("camaraFrame");
+        frame.innerHTML = '<iframe src="'+url+"?stats=1"+'" name="restreamer-player" width="800" height="450" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true">';
+    }
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+		<!-- JS -->
+
+<script type="text/javascript">
+$(window).load(function() {
+	$('#preloader').fadeOut('slow');
+	$('body').css({'overflow':'visible'});
+})
+</script>
+        <script src="js/jquery.plugin.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+     
+
+ 
+        <script src="js/scripts.js"></script>
+ 
+        
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </body>
+</html>
