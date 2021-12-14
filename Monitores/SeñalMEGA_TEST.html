@@ -70,9 +70,10 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
 	// Lanzamos el player
 	document.addEventListener("DOMContentLoaded", function(event) {
 	// $streaming_ms_stream
-	token = getToken("53d2c1a32640614e62a0e000", "live");
-	document.getElementById("player-wrapper").innerHTML = "<iframe id='player' class='envivo-player-default' src='//mdstrm.com/live-stream/53d2c1a32640614e62a0e000?access_token=" + token + "&autoplay=true&volume=0' width='640' height='360' allow='autoplay; fullscreen; encrypted-media' frameborder='0' allowfullscreen allowscriptaccess='always' scrolling='no'></iframe>";
+	token = getToken("5c928b7f6d6f41084bdae898", "live");
+	document.getElementById("player-wrapper").innerHTML = "<iframe id='player' class='envivo-player-default' src='//mdstrm.com/live-stream/5c928b7f6d6f41084bdae898?access_token=" + token + "&autoplay=true&volume=0' width='640' height='360' allow='autoplay; fullscreen; encrypted-media' frameborder='0' allowfullscreen allowscriptaccess='always' scrolling='no'></iframe>";
 	ga('13clGlobal.send', 'event', 'Señal en vivo', 'Play');
+	
 
 	if(parent.adImageUrl != null){
 
@@ -122,7 +123,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
 		},7000);
 		}
 		});
-		</script>
+	</script>
 					
 	</div>
 </body>
