@@ -136,10 +136,6 @@ var App = {
             'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCIERRE MESAS - ESTILO 3',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_4.html" frameborder="0"></iframe></div>'
         },
-        'Contador_DEBATE_ANATEL': {
-            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCONTADOR DEBATE ANATEL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_5.html" frameborder="0"></iframe></div>'
-        },
     },
     add: function(canal) {
         if (App.channels[canal]) {
