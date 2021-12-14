@@ -1,772 +1,240 @@
-
-<!DOCTYPE html>
-<html lang="es-ES" class="backgroundVideo">
-    <head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-       
-        
-        <title>PortalImo - I. Municipalidad de Osorno - Chile</title>
-        
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Lemon' rel='stylesheet' type='text/css'>
-        
-        <link rel="shortcut icon" href="images/favicon.jpg">
-
-        <!-- CSS -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/animate.css" />
-
+<!DOCTYPE html><html lang="es-419" itemtype="https://schema.org/WebPage"><head>
+    <meta charset="utf-8">
+    <title>En Vivo | T13</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ICONOS -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="alternate icon" href="/favicon.ico">
+    <style>:root{font-family:Roboto,sans-serif,Arial;font-size:14px}html{scroll-behavior: smooth;}article,aside,details,figcaption,figure,footer,header,hgroup,hr,menu,nav,section{display:block}a,hr{padding:0;text-decoration:none}button,button:focus,input,input:focus{padding:0;outline:0}abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:inherit;vertical-align:baseline;background:0 0;list-style:none}ins,mark{background-color:#ff9;color:#000}body{line-height:1}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}a{margin:0;font-size:100%;vertical-align:baseline;background:0 0}ins{text-decoration:none}mark{font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{height:1px;border:0;border-top:1px solid #ccc;margin:1em 0}input,select{vertical-align:middle}#notification-modal-popover-container{z-index:400!important}.t13-site__menu{transform:translateY(-125%)}@keyframes initial-loading{0%,100%{transform:translate(-34px,0)}50%{transform:translate(96px,0)}}@-webkit-keyframes initial-loading{0%,100%{transform:translate(-34px,0)}50%{transform:translate(96px,0)}}.t13-site__splash{position:fixed;top:0;left:0;z-index:10000000000000;background:#ededed;width:100%;height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;transition:.5s ease opacity}.t13-site__splash .splash__content{width:150px;display:flex;flex-direction:column;height:150px;align-items:center;justify-content:space-evenly;transition:transform .3s 1s,opacity .3s 1s}.t13-site__splash .splash__content .splash__content__image{background-image:url(https://www-storage.13.cl/t13/assets/svg/logos-t13.svg);height:80px;width:80px;margin:0 auto 0;transform:translate(0,0);opacity:1;transition:all .5s ease-out;background-repeat:no-repeat;background-size:contain;background-position:center;filter:grayscale(1) opacity(.5)}.t13-site__splash .splash__content .splash__loading-bar{width:130px;height:2px;margin:0 auto;border-radius:2px;background-color:#cfcfcf;position:relative;overflow:hidden;z-index:1;transform:rotateY(0);transition:transform .3s ease-in}.t13-site__splash .splash__content .splash__loading-bar .splash__progress-bar{height:100%;width:68px;position:absolute;transform:translate(-34px,0);background-color:#ff6c1c;border-radius:2px;animation:initial-loading 1.5s infinite ease}.t13-site__splash.fade-load .splash__content .splash__content__image{transform:translate(0,10px);opacity:0}.t13-site__splash.fade-load .splash__loading-bar{transform:rotateY(90deg)}.t13-site__splash.splash-out{opacity:0}</style>
+    <style>.prestitial__wrapper{position:relative;display:flex;align-items:center;justify-items:center;width:100%;height:0;text-align:center;overflow:hidden;transition:height 1.5s cubic-bezier(0,.31,.26,1.13);max-height:100vh;max-height:stretch;flex-direction:column;z-index:100;background-color:#fff}.prestitial__wrapper>#dfp-x94{position:initial!important;z-index:initial!important;width:initial!important;height:initial!important;top:initial!important;left:initial!important;margin:auto}.prestitial__wrapper.prestitial__wrapper--active{height:100vh}.prestitial__close_button{position:sticky;color:#fff;font-family:Arial;background:#fb6900;border-radius:50px;left:initial;display:flex;bottom:10px;cursor:pointer;transition:all .5s;font-weight:700;text-transform:uppercase;align-items:center;justify-content:center;padding:9px 15px!important;line-height:12px;margin:auto auto 0 auto;font-size:14px;min-height:15px;border:none}.prestitial__close_button::before{width:14px;height:14px;background:url(data:image/png;base64,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UmVhZHlxyWU8AAADJmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QkQwODUyQkNGQjI3MTFFOUJCRDJDMDVFMTFGMDE5RjciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QkQwODUyQkRGQjI3MTFFOUJCRDJDMDVFMTFGMDE5RjciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCRDA4NTJCQUZCMjcxMUU5QkJEMkMwNUUxMUYwMTlGNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCRDA4NTJCQkZCMjcxMUU5QkJEMkMwNUUxMUYwMTlGNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pobe3wYAAAGZSURBVHjaYvz//z8DFMxhgTJAIoxMQGIPiAESAAggBqAyA5BSkKgISITxP0SnM0AAgaQ8/kOAHhD/BTEYocbCzQYCQ4AAAqnMAkkgY5g5DHCrGBh+M0E5MCN+ATEbNjPBrgQJ/EXWARBAIINz/yOAAZqlcAATcPqPCj4hsf+ArUUz4RWaBlGYHEzBXyTJX0Csg6ZBjwnqWBD9A+p4NiC+AmW7QuV9AQIIZuIs9JCDYhsgjoNZDQNf0BTZIcnFMGDxLUjMFk3cBiO8gOANGt8cPXiwAQv04AFhRTRFD5HdjM3h/7F5EJvDldD4n9GDB+5wLG5eDRLoRnc4FsUMAAEGE2hAEvwAzQUMBLAdNF3AQB7MwL04PPwdiPVxGIQLrIMpcsajCBQ4UkCsjkfNT2wRDcIu/0kDv4HYEls8o2MNLJkMGTwCYnlsenEF9l8iXPcJW+Qhc2wJhON3YiIPFiH/CAU2EWEMstSUCVy4Iso/GPgDxJZAzA7EJ5HE96AVMciAB4j1kL1cCsSrgNiKiEQNw65AvAaIs2FiAD0lud/rnW0pAAAAAElFTkSuQmCC) center center no-repeat;display:block;content:"";margin:auto 7px auto 0;background-size:cover}.prestitial__close_button::after{content:"Saltar Aviso"}.prestitial__close_button:hover{filter:brightness(1.1)}</style>
+    <style>.footer-sticky__wrapper{background:#333;position:fixed;bottom:0;left:0;width:100%;text-align:center;padding:5px 0;z-index:99;display:none}.footer-sticky__wrapper button{position:absolute;right:10px;top:-25px;background:#333;border:none;color:#fff;font-family:Arial;font-weight:700;height:25px;width:33px;text-align:center;border-radius:5px 5px 0 0;line-height:0}</style>
+    <style>#dfp-in-banner{line-height: 0;}</style>
+    <script type="text/javascript" src="https://www-storage.13.cl/t13/_libs/lazysizes/lazysizes.min.js" defer=""></script>
+    <link rel="preconnect" href="https://sp1cluster.cxense.com">
+    <link rel="preconnect" href="https://scomcluster.cxense.com">
+    <link rel="preconnect" href="https://api.cxense.com">
+    <link rel="preconnect" href="https://tpc.googlesyndication.com">
+    <link rel="preconnect" href="https://www.google.com">
+    <link rel="preconnect" href="https://googleads.g.doubleclick.net">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <script>var cX=cX||{};cX.callQueue=cX.callQueue||[],cX.callQueue.push(["setSiteId","1132882043386718453"]),cX.callQueue.push(["cint","200"]),cX.callQueue.push(["sendPageViewEvent"]);var googletag=googletag||{};googletag.cmd=googletag.cmd||[],cX.callQueue.push(["invoke",function(){googletag.cmd.push((function(){googletag.pubads().setTargeting("CxSegments",cX.getUserSegmentIds({persistedQueryId:"92297dd7e90be54ad8e9da2466245e45ca8464e8"})),googletag.pubads().collapseEmptyDivs(),googletag.enableServices()}))}]), cX.callQueue.push(["invoke",()=>googletag.pubads().addEventListener("slotRenderEnded",event=>"dfp-x94"===event.slot.getSlotElementId()&&!event.isEmpty&&initializePrestitialMobile())]);const closePrestitial=()=>{try{configNotification._initFCM()}catch(e){}};</script>
+    <script>const closeSticky = () => document.querySelector("#footer-sticky").style.display = 'none';</script>
+    <script>const initializeSticky = () => document.querySelector("#footer-sticky").style.display = 'block';</script>
+    <script>cX.callQueue.push(["invoke", () => googletag.pubads().addEventListener("slotRenderEnded", event => "footer-sticky-content" === event.slot.getSlotElementId() && !event.isEmpty && initializeSticky())])</script>
+    <script>const initializePrestitialMobile=()=>{document.getElementById("t13-prestitial-mobile").classList.add("prestitial__wrapper--active"),document.getElementsByClassName("prestitial__wrapper--active")[0].style.height =window.innerHeight+'px',document.getElementById("t13-prestitial-mobile-close-btn").addEventListener("click",()=>closePrestitialMobile())};</script>
+    <script>const closePrestitialMobile=()=>{const prestitialMobileElement=document.getElementById("t13-prestitial-mobile");prestitialMobileElement.classList.remove("prestitial__wrapper--active"),document.getElementById("t13-prestitial-mobile").removeAttribute("style"),setTimeout(()=>prestitialMobileElement.remove(),2e3)};</script>
+    <script>document.addEventListener('DOMContentLoaded', () => { setTimeout(()=>{document.getElementById("t13-site-splash").classList.remove("fade-load"),setTimeout(()=>document.getElementById("t13-site-splash").classList.add("fade-load"),2500),setTimeout(()=>document.getElementById("t13-site-splash").classList.add("splash-out"),2800),setTimeout(()=>(document.getElementById("t13-site-splash").style.display="none",document.getElementById("t13-site-root").classList.remove("t13-site__scroll--lock")),3300)},200),window.onbeforeunload=function(){document.body.style.transition=".1s ease opacity;",document.body.style.opacity=0,window.scrollTo(0,0)};})</script>
+    <script src="/assets/libs/dom/dom-manipulate.min.js" defer=""></script>
+    <script src="https://www-storage.13.cl/t13/microfrontend/breaking-news/v0.0.2/t13-breaking-news.min.js" async=""></script>
+    <link rel="stylesheet" href="https://www-storage.13.cl/t13/_libs/swiper/swiper-bundle.min.css">
+    <script src="https://www-storage.13.cl/t13/_libs/swiper/swiper-bundle.min.js"></script>
     
-        <link rel="stylesheet" type="text/css" href="css/styles.css" />
 
-		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
- <link href="css/video-js.css" rel="stylesheet">
-<script src="js/video.js"></script>
-<script src="js/videojs-contrib-hls.js"></script>    
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<style type="text/css">
 
-body{
+  <style ng-transition="serverApp"></style>
   
-    
-          
-  background: url(http://www.portalimo.cl/img/fondoimo.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.if-image {
-
-filter: grayscale(100%);
-
--webkit-filter: grayscale(100%);
-
-}
-
-.if-image {
-
-filter: grayscale(100%);
-
--webkit-filter: grayscale(100%);
-
-transition:filter 0.4s;
-
--webkit-transition:-webkit-filter 1s;
-
-}
-
-.if-image:hover {
-
-filter: grayscale(0);
-
--webkit-filter: grayscale(0);
-
-}
-
-.zoom {
-
-  transition: transform .2s; /* Animation */
- 
-}
-
-.zoom:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-.video-list-thumbs > li > a{
-	display:block;
-	position:relative;
-	background-color: #002d58;
-	color: #fff;
-	padding: 8px;
-	border-radius:3px
-    transition:all 500ms ease-in-out;
-    border-radius:4px
-}
-.video-list-thumbs > li > a:hover{
-	box-shadow:0 2px 5px rgba(0,0,0,.3);
-	text-decoration:none
-}
-.video-list-thumbs h2{
-	bottom: 0;
-	font-size: 14px;
-	height: 33px;
-	margin: 8px 0 0;
-}
-.video-list-thumbs .glyphicon-play-circle{
-    font-size: 60px;
-    opacity: 0.6;
-    position: absolute;
-    right: 39%;
-    top: 31%;
-    text-shadow: 0 1px 3px rgba(0,0,0,.5);
-    transition:all 500ms ease-in-out;
-}
-.video-list-thumbs > li > a:hover .glyphicon-play-circle{
-	color:#fff;
-	opacity:1;
-	text-shadow:0 1px 3px rgba(0,0,0,.8);
-}
-.video-list-thumbs .duration{
-	background-color: rgba(0, 0, 0, 0.4);
-	border-radius: 2px;
-	color: #fff;
-	font-size: 11px;
-	font-weight: bold;
-	left: 12px;
-	line-height: 13px;
-	padding: 2px 3px 1px;
-	position: absolute;
-	top: 12px;
-    transition:all 500ms ease;
-}
-.video-list-thumbs > li > a:hover .duration{
-	background-color:#000;
-}
-@media (min-width:320px) and (max-width: 480px) { 
-	.video-list-thumbs .glyphicon-play-circle{
-    font-size: 35px;
-    right: 36%;
-    top: 27%;
-	}
-	.video-list-thumbs h2{
-		bottom: 0;
-		font-size: 12px;
-		height: 22px;
-		margin: 8px 0 0;
-	}
-}
-
-
-
-
-.site-footer
-{
-  background-color:#002d58;
-  padding:45px 0 20px;
-  font-size:15px;
-  line-height:24px;
-  color:#737373;
-}
-.site-footer hr
-{
-  border-top-color:#bbb;
-  opacity:0.5
-}
-.site-footer hr.small
-{
-  margin:20px 0
-}
-.site-footer h6
-{
-  color:#fff;
-  font-size:16px;
-  text-transform:uppercase;
-  margin-top:5px;
-  letter-spacing:2px
-}
-.site-footer a
-{
-  color:#737373;
-}
-.site-footer a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links
-{
-  padding-left:0;
-  list-style:none
-}
-.footer-links li
-{
-  display:block
-}
-.footer-links a
-{
-  color:#737373
-}
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links.inline li
-{
-  display:inline-block
-}
-.site-footer .social-icons
-{
-  text-align:right
-}
-.site-footer .social-icons a
-{
-  width:40px;
-  height:40px;
-  line-height:40px;
-  margin-left:6px;
-  margin-right:0;
-  border-radius:100%;
-  background-color:#33353d
-}
-.copyright-text
-{
-  margin:0
-}
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px)
-{
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
-}
-.social-icons
-{
-  padding-left:0;
-  margin-bottom:0;
-  list-style:none
-}
-.social-icons li
-{
-  display:inline-block;
-  margin-bottom:4px
-}
-.social-icons li.title
-{
-  margin-right:15px;
-  text-transform:uppercase;
-  color:#ffffff;
-  font-weight:700;
-  font-size:13px
-}
-.social-icons a{
-  background-color:#ffffff;
-  color:#818a91;
-  font-size:16px;
-  display:inline-block;
-  line-height:44px;
-  width:44px;
-  height:44px;
-  text-align:center;
-  margin-right:8px;
-  border-radius:100%;
-  -webkit-transition:all .2s linear;
-  -o-transition:all .2s linear;
-  transition:all .2s linear
-}
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover
-{
-  color:#ffffff;
-  background-color:#ffffff
-}
-.social-icons.size-sm a
-{
-  line-height:34px;
-  height:34px;
-  width:34px;
-  font-size:14px
-}
-
-
-.social-icons a.facebook:hover
-{
-  background-color:#3b5998
-}
-.social-icons a.twitter:hover
-{
-  background-color:#00aced
-}
-.social-icons a.youtube:hover
-{
-  background-color:#c4302b
-}
-.social-icons a.flickr:hover
-{
-  background-color:#000000
-}
-.social-icons a.instagram:hover
-{
-  background-color:#ff0084
-}
-@media (max-width:767px)
-{
-  .social-icons li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600
-  }
-}
-
-
-
-                body {font-family: Arial, Helvetica, sans-serif;}
-                
-                /* The Modal (background) */
-                .modal {
-                  display: none; /* Hidden by default */
-                  position: fixed; /* Stay in place */
-                  z-index: 1; /* Sit on top */
-                  padding-top: 100px; /* Location of the box */
-                  left: 0;
-                  top: 0;
-                  width: 100%; /* Full width */
-                  height: 100%; /* Full height */
-                  overflow: auto; /* Enable scroll if needed */
-                  background-color: rgb(0,0,0); /* Fallback color */
-                  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-                }
-                
-                /* Modal Content */
-                .modal-content {
-                  background-color: #fefefe;
-                  margin: auto;
-                  padding: 20px;
-                  border: 1px solid #888;
-                  width: 900px;
-                }
-                
-                /* The Close Button */
-                .close {
-                  color: #aaaaaa;
-                  float: right;
-                  font-size: 28px;
-                  font-weight: bold;
-                }
-                
-                .close:hover,
-                .close:focus {
-                  color: #000;
-                  text-decoration: none;
-                  cursor: pointer;
-                }
-                
-
-</style>
-  <style>
-	 	
-		.header{
-		background-position:  center center;
-		height: 150px;
-				
-		background-image: url(img/head2.png);
-		
-		background-repeat:no-repeat;
-		background-size: cover;
-		background-color: #002d58;
-		text-align:center;
-		}
-   		.center1 {
-		  margin-left: auto;
-		 margin-right: auto;
-		 display: block;
-		}
-	</style>      
-    </head>
-    <body>
-<div class="header">	
-<div class="container">	
-	
-		 
-					<div class="col-md-3"><br>
-						<img src="img/logoportal.png" height="120px" alt="Thumbnail label" />
-					</div>
-					<div class="col-md-8">
-						
-					</div>
-					<div class="col-md-1"><br>
-						<img src="img/logomuni.png" height="120px" alt="Thumbnail label" />
-					</div>
-		
-</div>
-</div>
-<!--
-<div id="cabecera">
-<video id="video" loop autoplay preload muted>
-<source src="/fondo.mp4" type='video/mp4; codecs="avc1,mp4a"' />
-
-</video>
-
-</div>
-
-     
-        <a id="bgndVideo"  data-property="{videoURL:'https://www.youtube.com/watch?v=nJhh1rhyf2s',containment:'body',autoPlay:true, mute:false, startAt:0,opacity:40,ratio:'4/3', addRaster:true}">&nbsp;</a>
-
-  -->  
-
-        <div class="video-btns">
-       
-        </div>
-        
-        <!-- CONTAINER -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-				</div>
-				<div class="col-md-8">
-
-
-                  <br>
-				
-               			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-
-				<ol class="carousel-indicators"><br />
-<b>Notice</b>:  Undefined variable: Rows in <b>/home/portaloso/public_html/index2.php</b> on line <b>449</b><br />
-				</ol>				<div class="carousel-inner"><br />
-<b>Notice</b>:  Undefined variable: Rows in <b>/home/portaloso/public_html/index2.php</b> on line <b>458</b><br />
-					</div>
-
-		
-
-						   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>					
-
-				</div>
-				<div class="col-md-2">
-				</div>
-			</div>
-
-
-
-				</div>  
-                   
-            
-<div class="container">
-
-                    <div class="section clearfix">
-
-							<a href="https://www.municipalidadosorno.cl/"><img class="if-image zoom" src="img/municipalidad.png" alt="Thumbnail label" height="145px" />	</a>
-                     <!--   <a href="#" class="open_aboutus btn btn-transparent animated fadeInUp">Mas Información</a>-->
-                    
-							<a target="_blank" href="https://www.daemosorno.cl/"><img class="if-image zoom" src="img/daem.png" alt="Thumbnail label" height="145px"  />	</a>
-							<a target="_blank" href="https://www.desmo.cl/"><img class="if-image zoom" src="img/desmo.png" alt="Thumbnail label" height="145px" />	</a>
-							<a target="_blank" href="https://www.osornotv.cl/"><img class="if-image zoom" src="img/canal.png" alt="Thumbnail label" height="145px" />	</a>
-							<a target="_blank" href="https://www.osornochile.cl/"><img class="if-image zoom" src="img/turismo.png" alt="Thumbnail label" height="145px" />	</a>	
-                     <!--   <a href="#" class="open_aboutus btn btn-transparent animated fadeInUp">Mas Información</a>-->
-                   
-
-				
-
-            <a href="https://www.municipalidadosorno.cl/telefonos.php" title="Teléfonos" target="_blank"><img  src="img/telefonos.png"  alt="Telefonos" height="44px"></a>
-			<a href="https://farmaciapopularonline.cl/Home/Index?farmacia=Osorno" target="_blank"><img  src="img/farmacia.png" height="44px"/></a>
-			<a href="#" class="about"><img  src="img/guiatramites.png" height="44px"/></a>
-					
-                    </div>
-					</div>
-
-					<div class="section clearfix">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12">
-									<ul class="list-unstyled video-list-thumbs row">
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a  title="Plaza de Armas">
-												<img onclick="modalClick('http://216.155.78.8:19021/player.html')" src="http://216.155.78.8:19021/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Plaza de Armas</h2>
-											</a>
-										</li>
-
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a data-toggle="modal" href="#1" title="Plaza de Armas">
-												<img  src="http://www.portalimo.cl/img/plaza.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Plaza de Armas</h2>
-											</a>
-										</li>
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a  title="Parque Chuyaca">
-												<img onclick="modalClick('http://216.155.78.8:19022/player.html')" src="http://216.155.78.8:19022/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Parque Chuyaca</h2>
-											
-												
-											</a>
-										</li>
-										
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a  title="Feria Rahue">
-												<img onclick="modalClick('http://216.155.78.8:19024/player.html')" src="http://216.155.78.8:19024/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Feria Rahue</h2>
-												
-												
-											</a>
-										</li>
-									
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a  title="Estadio Alberto Allaire">
-												<img onclick="modalClick('http://216.155.78.8:19025/player.html')" src="http://216.155.78.8:19025/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Estadio Alberto Allaire</h2>
-											
-												
-											</a>
-										</li>
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a  title="Villa Olimpica">
-												<img onclick="modalClick('http://216.155.78.8:19026/player.html')" src="http://216.155.78.8:19026/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Villa Olimpica</h2>
-												
-											
-											</a>
-										</li>
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a  title="Parque Cuarto Centenario">
-												<img onclick="modalClick('http://216.155.78.8:19027/player.html')" src="http://216.155.78.8:19027/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Parque Cuarto Centenario</h2>
-							
-												
-											</a>
-										</li>
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a  title="Estadio Parque Schott">
-												<img onclick="modalClick('http://216.155.78.8:19028/player.html')" src="http://216.155.78.8:19028/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Estadio Parque Schott</h2>
-										
-												
-											</a>
-										</li>
-										
-									
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a  title="Puente San Pablo">
-												<img onclick="modalClick('http://216.155.78.8:19029/player.html')" src="http://216.155.78.8:19029/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Puente San Pablo</h2>
-											
-												</a>
-											
-										</li>
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a  title="Complejo Deportivo Alday">
-												<img onclick="modalClick('http://216.155.78.8:19030/player.html')" src="http://216.155.78.8:19030/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Complejo Deportivo Alday</h2>
-												
-											
-											</a>
-										</li>
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a  title="Mercado Municipal">
-												<img onclick="modalClick('http://216.155.78.8:19031/player.html')" src="http://216.155.78.8:19031/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Mercado Municipal</h2>
-												
-												
-											</a>
-										</li>
-
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a  title="Complejo Rahue Alto">
-												<img onclick="modalClick('http://216.155.78.8:19023/player.html')" src="http://216.155.78.8:19023/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Complejo Rahue Alto</h2>
-												
-											
-											</a>
-										</li>
-
-										
-									
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a  title="Puente Chaurakawin">
-												<img onclick="modalClick('http://216.155.78.8:19033/player.html')" src="http://216.155.78.8:19033/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Puente Chaurakawin</h2>
-												
-												
-											</a>
-										</li>
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a  title="Puente San Pedro">
-												<img onclick="modalClick('http://216.155.78.8:19034/player.html')" src="http://216.155.78.8:19034/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Puente San Pedro</h2>
-												
-											
-											</a>
-										</li>
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a  title="Parque Olegario Mohr">
-												<img onclick="modalClick('http://216.155.78.8:19035/player.html')" src="http://216.155.78.8:19035/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Parque Olegario Mohr</h2>
-												
-												
-											</a>
-										</li>
-
-										<li class="col-lg-3 col-sm-4 col-xs-6">
-											<a title="Recinto Panguimapu">
-												<img onclick="modalClick('http://216.155.78.8:19032/player.html')" src="http://216.155.78.8:19032/images/live.jpg" name="restreamer-player" alt="Barca" class="img-responsive" height="130px" />
-												<h2>Recinto Panguimapu</h2>
-												
-												
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-
-                </div>
-            </div>
-
-        </div>
-
-        <!-- END CONTAINER -->
-
-							
-
-<div id="myModal" class="modal">
-
-    <!-- Modal content -->
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <p id="camaraFrame"></iframe></p>
-    </div>
-  
-  </div>
-
-        <!-- FOOTER -->
-<footer class="site-footer">
-      <div class="container">
-        <div class="row">
-
-  <div class="col-xs-4 col-md-2">
-            <ul class="social-icons">
-              <li><a class="facebook" href="https://www.facebook.com/pages/Municipalidad-de-Osorno/223193687697755?ref=hl" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="twitter" href="http://www.twitter.com/muni_osorno" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="youtube" href="https://www.youtube.com/user/municipalidadosorno/videos" target="_blank"><i class="fa fa-youtube"></i></a></li> <br> 
-			  <li><a class="flickr" href="http://www.flickr.com/photos/muni_osorno" target="_blank"><i class="fa fa-flickr"></i></a></li>
-			  <li><a class="instagram" href="https://www.instagram.com/muni_osorno" target="_blank"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-
-     
-            
-          </div>
-			<div class="col-xs-4 col-md-2">
-            <h6 class="text-left">Municipalidad<br>de Osorno </h6>
-			<p class="text-left"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Av. Mackenna 850<br><i class="fa fa-at"></i>&nbsp;alcaldia@imo.cl<br>
-            <i class="fa fa-phone"></i>&nbsp;+56642264300</p>
-          </div>
-		
-		  
-          
-
-          <div class="col-xs-4 col-md-2">
-            <h6 class="text-left">Departamento de Educación </h6>
-			<p class="text-left"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Av. Mackenna 1421<br><i class="fa fa-at"></i>&nbsp;daem@imo.cl<br>
-            <i class="fa fa-phone"></i>&nbsp;+56642264300</p>
-          </div>
-		<div class="col-xs-4 col-md-2">
-            <h6 class="text-left">Departamento de Salud</h6>
-            <p class="text-justify"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Av. Mackenna 850<br><i class="fa fa-at"></i>&nbsp;salud@imo.cl<br>
-			<i class="fa fa-phone"></i>&nbsp;+56642264300</p>
-          </div>
-			<div class="col-xs-4 col-md-2">
-            <h6 class="text-left">Canal OsornoTV+</h6>
-             <p class="text-justify"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Av. Mackenna 850<br><i class="fa fa-at"></i>&nbsp;salud@imo.cl<br>
-			<i class="fa fa-phone"></i>&nbsp;+56642264300</p>
-          </div>
-          <div class="col-xs-4 col-md-2">
-            <h6 class="text-left">Turismo Osorno</h6>
-             <p class="text-justify"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Francisco Bilbao 851<br><i class="fa fa-at"></i>&nbsp;turismo@imo.cl<br>
-			<i class="fa fa-phone"></i>&nbsp;+56642264300</p>
-          </div>
-        </div>
-        <hr>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12"><br>
-            <p class="copyright-text">Copyright &copy; 2019 
-         <a href="#">I. Municipalidad de Osorno</a>.
-            </p>
-			<p class="copyright-text">Descarga nuestra aplicación OsornoApp</p>
-			<a href="https://apps.apple.com/bo/app/osornoapp/id1329448129"><img  src="img/apple.png" alt="Thumbnail label" height="40px" />	</a>
-
-			<a href="https://play.google.com/store/apps/details?id=cl.rialis.imo&hl=es"><img   src="img/android.png" alt="Thumbnail label" height="40px" />	</a>
-
-          </div>
-
-          
-        </div>
-      </div>
-</footer>
-  <div id="1" class="modal fade" role="dialog">
-								<div class="modal-dialog modal-lg">
-									<div class="modal-content">
-									<span class="close">&times;</span>
-									<video id=usastreams-video  keyLicencia="2854361USAstreams.COM" crossorigin="anonymous"  class="video-js vjs-fluid vjs-default-skin" autoplay controls poster=''><source src="https://hd.chileservidores.cl:1936/osorno1/live/playlist.m3u8" type="application/x-mpegURL"></video>    <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">    <script type="text/javascript" src ="https://unpkg.com/video.js/dist/video.js"></script>    <script type="text/javascript" src ="https://cp.usastreams.com/playerHTML5/ContadorVideo.js"></script>    <link href="https://cp.usastreams.com/playerHTML5/media/twitter.css" rel="stylesheet">    <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>    <script>      (function(window, videojs) {        var player = window.player = videojs('usastreams-video');          return false;        }      (window, window.videojs));    </script>
-									</div>
-								<div>
-							<div>     
-        <!-- END FOOTER -->
-
-
-       
-        <!-- END ABOUT US -->
-        
- <script>
-    function modalClick(url){
-        modal.style.display = "block";
-        var frame = document.getElementById("camaraFrame");
-        frame.innerHTML = '<iframe src="'+url+"?stats=1"+'" name="restreamer-player" width="800" height="450" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true">';
-    }
-    // Get the modal
-    var modal = document.getElementById("myModal");
-    
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
-    
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-    
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-    
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
+  <link rel="stylesheet" type="text/css" href="/styles-en-vivo-bundle.css">
+  <link rel="canonical" href="https://www.t13.cl/en-vivo">
+  <meta name="description" content="Señal T13 EN VIVO, disponible en T13.cl y las plataformas digitales de T13.">
+  <meta name="keywords" content=""><meta name="tags" content="">
+  <meta name="author" content="Tele 13"><meta name="channel_name" content="landing">
+  <meta name="page_description" content="En Vivo | T13 Señal T13 EN VIVO, disponible en T13.cl y las plataformas digitales de T13. ">
+  <meta name="page_title" content="En Vivo | T13">
+  <meta name="page_publish_time" content="undefined">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@T13">
+  <meta name="twitter:creator" content="@T13">
+  <meta name="twitter:title" content="En Vivo | T13">
+  <meta name="twitter:image" content="https://www-storage.13.cl/t13/_images/t13-en-vivo-rss-banner-v2.jpg">
+  <meta name="twitter:description" content="Señal T13 EN VIVO, disponible en T13.cl y las plataformas digitales de T13.">
+  <meta name="twitter:url" content="https://www.t13.clhttps://www.t13.cl/en-vivo">
+  <meta property="og:title" content="En Vivo | T13">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Señal T13 EN VIVO, disponible en T13.cl y las plataformas digitales de T13.">
+  <meta property="og:image" content="https://www-storage.13.cl/t13/_images/t13-en-vivo-rss-banner-v2.jpg">
+  <meta property="og:url" content="https://www.t13.clhttps://www.t13.cl/en-vivo">
+  <meta property="og:site_name" content="https://www.facebook.com/teletrece">
+  <meta property="og:locale" content="es_LA">
+  <meta property="fb:page_id" content="203381729743399">
+  <meta property="article:author" content="https://www.facebook.com/teletrece">
+  <meta property="article:publisher" content="https://www.facebook.com/teletrece">
+  <script type="text/javascript">if (window.innerWidth <= 767) {cX.callQueue.push([
+        'invoke',
+        function () {
+          googletag.cmd.push(function () {
+            googletag
+              .defineSlot(
+                '/112372207/m.t13.cl/en-vivo/intersticial',
+                [[300, 450]],
+                'dfp-x94'
+              )
+              .addService(googletag.pubads());
+            googletag.display('dfp-x94');
+          });
+        }
+      ]);} else if (window.innerWidth <= 1099) { cX.callQueue.push([
+      'invoke',
+      function () {
+        googletag.cmd.push(function () {
+          googletag
+            .defineSlot(
+              '/112372207/t13.cl/en-vivo/intersticial',
+              [[980, 600]],
+              'dfp-x95'
+            )
+            .addService(googletag.pubads());
+          googletag.display('dfp-x95');
+        });
       }
-    }
-    </script>
-		<!-- JS -->
+    ]);} else {cX.callQueue.push([
+      'invoke',
+      function () {
+        googletag.cmd.push(function () {
+          googletag
+            .defineSlot(
+              '/112372207/t13.cl/en-vivo/intersticial',
+              [[980, 600]],
+              'dfp-x95'
+            )
+            .addService(googletag.pubads());
+          googletag.display('dfp-x95');
+        });
+      }
+    ]);};</script><script type="text/javascript">if (window.innerWidth <= 767) {} else if (window.innerWidth <= 1099) { cX.callQueue.push([
+      'invoke',
+      function () {
+        googletag.cmd.push(function () {
+          googletag
+            .defineSlot(
+              '/112372207/t13.cl/en-vivo/in-banner',
+              [[1, 1]],
+              'dfp-in-banner'
+            )
+            .addService(googletag.pubads());
+          googletag.display('dfp-in-banner');
+        });
+      }
+    ]);} else {cX.callQueue.push([
+      'invoke',
+      function () {
+        googletag.cmd.push(function () {
+          googletag
+            .defineSlot(
+              '/112372207/t13.cl/en-vivo/in-banner',
+              [[1, 1]],
+              'dfp-in-banner'
+            )
+            .addService(googletag.pubads());
+          googletag.display('dfp-in-banner');
+        });
+      }
+    ]);};</script><script type="text/javascript">if (window.innerWidth <= 767) {cX.callQueue.push([
+        'invoke',
+        function () {
+          googletag.cmd.push(function () {
+            googletag
+              .defineSlot(
+                '/112372207/m.t13.cl/en-vivo/footer',
+                [[320, 50], [320, 100]],
+                'footer-sticky-content'
+              )
+              .addService(googletag.pubads());
+            googletag.display('footer-sticky-content');
+          });
+        }
+      ]);} else if (window.innerWidth <= 1099) { } else {};</script><script type="text/javascript">if (window.innerWidth <= 767) {cX.callQueue.push([
+        'invoke',
+        function () {
+          googletag.cmd.push(function () {
+            googletag
+              .defineSlot(
+                '/112372207/m.t13.cl/en-vivo/leaderboard.1',
+                [[320, 50]],
+                'dfp-en-vivo-top'
+              )
+              .addService(googletag.pubads());
+            googletag.display('dfp-en-vivo-top');
+          });
+        }
+      ]);} else if (window.innerWidth <= 1099) { cX.callQueue.push([
+      'invoke',
+      function () {
+        googletag.cmd.push(function () {
+          googletag
+            .defineSlot(
+              '/112372207/t13.cl/en-vivo/leaderboard.1',
+              [[728, 90]],
+              'dfp-en-vivo-top'
+            )
+            .addService(googletag.pubads());
+          googletag.display('dfp-en-vivo-top');
+        });
+      }
+    ]);} else {cX.callQueue.push([
+      'invoke',
+      function () {
+        googletag.cmd.push(function () {
+          googletag
+            .defineSlot(
+              '/112372207/t13.cl/en-vivo/leaderboard.1',
+              [[728, 90],[970, 90],[970, 250]],
+              'dfp-en-vivo-top'
+            )
+            .addService(googletag.pubads());
+          googletag.display('dfp-en-vivo-top');
+        });
+      }
+    ]);};</script><script type="text/javascript">if (window.innerWidth <= 767) {cX.callQueue.push([
+        'invoke',
+        function () {
+          googletag.cmd.push(function () {
+            googletag
+              .defineSlot(
+                '/112372207/m.t13.cl/en-vivo/leaderboard.2',
+                [[320, 50]],
+                'dfp-en-vivo-middle'
+              )
+              .addService(googletag.pubads());
+            googletag.display('dfp-en-vivo-middle');
+          });
+        }
+      ]);} else if (window.innerWidth <= 1099) { cX.callQueue.push([
+      'invoke',
+      function () {
+        googletag.cmd.push(function () {
+          googletag
+            .defineSlot(
+              '/112372207/t13.cl/en-vivo/leaderboard.2',
+              [[728, 90]],
+              'dfp-en-vivo-middle'
+            )
+            .addService(googletag.pubads());
+          googletag.display('dfp-en-vivo-middle');
+        });
+      }
+    ]);} else {cX.callQueue.push([
+      'invoke',
+      function () {
+        googletag.cmd.push(function () {
+          googletag
+            .defineSlot(
+              '/112372207/t13.cl/en-vivo/leaderboard.3',
+              [[728, 90],[970, 90],[970, 250]],
+              'dfp-en-vivo-middle'
+            )
+            .addService(googletag.pubads());
+          googletag.display('dfp-en-vivo-middle');
+        });
+      }
+    ]);};</script></head>
 
-<script type="text/javascript">
-$(window).load(function() {
-	$('#preloader').fadeOut('slow');
-	$('body').css({'overflow':'visible'});
-})
-</script>
-        <script src="js/jquery.plugin.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-     
-
- 
-        <script src="js/scripts.js"></script>
- 
-        
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-        <script src="js/respond.min.js"></script>
-        <![endif]-->
-    </body>
-</html>
+  <body id="t13-site-root" class="t13-site__scroll--lock" ng-version="10.1.6"><div id="dfp-x95"></div><div id="dfp-in-banner"></div><div id="t13-prestitial-mobile" class="prestitial__wrapper"><div id="dfp-x94"></div><button id="t13-prestitial-mobile-close-btn" aria-label="Close Prestitial" class="prestitial__close_button t13__shadow__deep_2"></button></div><router-outlet></router-outlet><div id="t13-site-wrapper" class="t13-site__wrapper"><div id="t13-site-splash" class="t13-site__splash fade-load"><div class="splash__content"><div class="splash__content__image"></div><div class="splash__loading-bar"><div class="splash__progress-bar"></div></div></div></div><div id="t13-site-menu" class="t13-site__menu"><div class="menu__top">
+      <div class="live-page__live-stream-player"><div id="live-stream-player-video" class="live-stream-player__video">
+                            
+      
+      <iframe data-mediastream-src="https://mdstrm.com/live-stream/5f32956afa1e1d747b8a30a3?autoplay=true&amp;player=5fbfae059cb310081e8fd363" id="5f32956afa1e1d747b8a30a3" width="640" height="360" allow="autoplay; fullscreen; encrypted-media" frameborder="0" allowscriptaccess="always" scrolling="no" class="lazyload"></iframe></div>
+      <div class="live-stream-player__footer social-share-list">
+                                           
+</body></html>
