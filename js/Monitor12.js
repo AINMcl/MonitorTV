@@ -1,107 +1,57 @@
 let LosCanales = [
     {
-        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 1',
-        'url': 'MonitorAINM1.html'
-    },{
-        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 2',
-        'url': 'MonitorAINM2.html'
-    },{
-        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 3',
-        'url': 'MonitorAINM3.html'
-    },{
-        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 4',
-        'url': 'MonitorAINM4.html'
-    },{
-        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 5',
-        'url': 'MonitorAINM5.html'
-    },{
-        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 6',
-        'url': 'MonitorAINM6.html'
-    },{
-        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 7',
-        'url': 'MonitorAINM7.html'
-    },{
-        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 8',
-        'url': 'MonitorAINM8.html'
-    },{
-        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 9',
-        'url': 'MonitorAINM9.html'
-    },{
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24PLAY.svg"></img>',
         'url': 'Señal24HTVN.html'
-    },{
+    }, {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CNNCHILE2.svg"></img>',
         'url': 'SeñalCNNCHILE.html'
-    },{
+    }, {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS.svg"></img>',
         'url': 'SeñalMEGANOTICIAS.html'
-    },{
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
-        'url': 'SeñalT13MOVIL.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
+        'url': 'SeñalT13_ENVIVO_IFRAME_AINM_GITHUB.html'
     }, {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVN.svg"></img>',
         'url': 'SeñalTVN.html'
-    },{
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_NTV.svg"></img>',
-        'url': 'SeñalNTV.html'
     }, {
-    //    'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVNPLAY_2.svg"></img>',
-    //    'url': 'SeñalTVNPLAY.html" frameborder="0"></iframe><a href="SeñalTVNPLAY.html"TVNㅤ</div></a></div>'
-    //}, {
-    //    'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVN2.svg"></img>',
-    //    'url': 'SeñalTVN2.htmlㅤTVN2'
-    //}, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVCHILE.svg"></img>',
-        'url': 'SeñalTVCHILE.html'
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVN.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
+        'url': '../Monitores/Senal/WEB/SeñalTVN_IFRAME_AINM_GITHUB.html'
     },{
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGA.svg"></img>',
         'url': 'SeñalMEGA.html'
-    },{
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>',
-        'url': 'SeñalCHV.html'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Canal13.svg"></img>',
-        'url': 'SeñalCANAL13.html'
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
+        'url': '../Monitores/Senal/WEB/SeñalCHV_IFRAME.html'
+    //},
+    //'CANAL 13': {
+    //    'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Canal13.svg"></img>',
+    //    'url': 'SeñalCANAL13.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 13ㅤ</div></div></div>'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Canal13.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img> AINM GITHUB',
+        'url': '../Monitores/Senal/WEB/SeñalCANAL13_IFRAME_AINM_GITHUB.html'
     }, {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Canal13E.svg"></img>ﾠE',
         'url': 'SeñalCANAL13_E.html'
     }, {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_LA_RED.svg"></img>',
         'url': 'SeñalLARED.html'
-    },{
+    }, {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVMAS.svg"></img>',
         'url': 'SeñalTVMAS.html'
-    },
-
-     {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVN.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
-        'url': '../Monitores/Senal/WEB/SeñalTVN_IFRAME.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
-        'url': '../Monitores/Senal/WEB/SeñalCHV_IFRAME.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Canal13.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
-        'url': '../Monitores/Senal/WEB/SeñalCANAL13_IFRAME.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_LA_RED.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
-        'url': '../Monitores/Senal/WEB/SeñalLARED_IFRAME.html'
-    },
-
-    
-
-     {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVN.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img> AINM GITHUB',
-        'url': '../Monitores/Senal/WEB/SeñalTVN_IFRAME_AINM_GITHUB.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Canal13.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img> AINM GITHUB',
-        'url': '../Monitores/Senal/WEB/SeñalCANAL13_IFRAME_AINM_GITHUB.html'
     }, {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_UCVTV.svg"></img>',
         'url': 'Señal_UCVTV.html'
+    },{
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_NTV.svg"></img>',
+        'url': 'SeñalNTV.html'
     }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVCHILE.svg"></img>',
+        'url': 'SeñalTVCHILE.html'
+    },{
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/LogoTV_WappTV.svg"></img>',
         'url': 'SeñalWAPPTV.html'
-    }, {
+    },{
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 1',
         'url': 'SeñalInterna24H_1.html'
     }, {
@@ -940,7 +890,7 @@ let LosCanales = [
         'url': 'https://player.twitch.tv/?channel=spacexstorm&parent=ainmcl.github.io'
     }, {
         'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠCOPANO',
-        'url': 'https://player.twitch.tv/?channel=copano&parent=ainmcl.github.io'
+        'url': '6'
     }, {
         'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠFENIX',
         'url': 'https://player.twitch.tv/?channel=fenixreview&parent=ainmcl.github.io'
@@ -1067,12 +1017,35 @@ let LosCanales = [
     },{
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>ﾠWEB IFRAME',
         'url': '../Monitores/Senal/WEB/SeñalCHV_IFRAME.html'
-    },
-
-    
-
-     {
+    },{
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVN.svg"></img>ﾠWEB IFRAME AINM GITHUB',
         'url': '../Monitores/Senal/WEB/SeñalTVN_IFRAME_AINM_GITHUB.html'
-    },
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 1',
+        'url': 'MonitorAINM1.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 2',
+        'url': 'MonitorAINM2.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 3',
+        'url': 'MonitorAINM3.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 4',
+        'url': 'MonitorAINM4.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 5',
+        'url': 'MonitorAINM5.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 6',
+        'url': 'MonitorAINM6.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 7',
+        'url': 'MonitorAINM7.html'
+    },{
+        'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 8',
+        'url': 'MonitorAINM8.html'
+    },{
+    'nombre': '<img style="height: 25px; width:auto:" src="../imagenes/Logo_IconSolo.svg"></img>ﾠMONITOR 9',
+    'url': 'MonitorAINM9.html'
+    }
 ]
