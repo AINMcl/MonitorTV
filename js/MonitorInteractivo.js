@@ -1320,7 +1320,7 @@ init: function() {
         App.add("MEGANOTICIAS");
         App.add("T13_ENVIVO");
 
-        App.add("TVN_WEB_IFRAME");
+        App.add("MEGA");
         App.add("CHV_WEB_IFRAME");
         App.add("CANAL13_WEB_IFRAME");
         
