@@ -110,31 +110,13 @@ var App = {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSERVEL',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCB8s6rETjmWgXrp_BxyXqdg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSERVELㅤ</div></div></div>'
         },
-
-        'Contador_Inicio_Elecciones_Inicio': {
-            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠAPERTURA MESAS - ESTILO 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://reloj-alarma.es/embed/temporizador/#date=2021-12-19T08:00:00&title=SEGUNDA+VUELTA+PRESIDENCIAL&theme=1&color=0&ampm=0&sound=cuckoo" frameborder="0"></iframe></div>'
-        },
         'Contador_Inicio_Elecciones_Inicio_2': {
-            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠAPERTURA MESAS - ESTILO 2',
+            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠAPERTURA DE MESAS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_1.html" frameborder="0" allowfullscreen></iframe></div>'
         },
-        'Contador_Inicio_Elecciones_Inicio_3': {
-            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠAPERTURA MESAS - ESTILO 3',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_3.html" frameborder="0"></iframe></div>'
-        },
-
-        'Contador_Inicio_Elecciones_Cierre': {
-            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCIERRE MESAS - ESTILO 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://reloj-alarma.es/embed/temporizador/#date=2021-12-19T18:00:00&title=CIERRE+DE+MESAS&theme=1&color=0&ampm=0&sound=cuckoo" frameborder="0"></iframe></div>'
-        },
         'Contador_Inicio_Elecciones_Cierre_2': {
-            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCIERRE MESAS - ESTILO 2',
+            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCIERRE DE MESAS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_2.html" frameborder="0"></iframe></div>'
-        },
-        'Contador_Inicio_Elecciones_Cierre_3': {
-            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCIERRE MESAS - ESTILO 3',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_4.html" frameborder="0"></iframe></div>'
         },
         'ELECCIONES_YOUTUBE_BORIC': {
             'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg">ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠGABRIEL BORIC',
