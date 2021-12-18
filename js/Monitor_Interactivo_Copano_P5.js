@@ -446,7 +446,7 @@ var App = {
         App.seedModal();
         App.add("cima");
         if (!App.isMobile()) {
-            App.add("PRESIDENCIA");
+            App.add("CHV_NOTICIAS_YT");
 
         }
     }
