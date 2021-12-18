@@ -134,6 +134,14 @@ var App = {
             'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg">ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Facebook.svg"></img>ﾠJOSE ANTONIO KAST',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Elecciones_Facebook_Kast.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤKASTㅤ</div></div></div>'
         },
+        'Contador_Fin_Piñera_Estilo_1': {
+            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠFIN PIÑERA - ESTILO 1',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_6.html" frameborder="0" allowfullscreen></iframe></div>'
+        },
+        'Contador_Fin_Piñera_Estilo_2': {
+            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠFIN PIÑERA - ESTILO 2',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_7.html" frameborder="0" allowfullscreen></iframe></div>'
+        },
     },
     add: function(canal) {
         if (App.channels[canal]) {
