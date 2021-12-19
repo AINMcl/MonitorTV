@@ -170,6 +170,10 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠAYSEN | CANAL 11 PUERTO AYSEN',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/CANAL11_AY.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤAYSEN - CANAL 11 PTO AYSENㅤ</div></div></div>'
         },
+        '+GENIAL': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠAYSEN | +GENIAL',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIO_GENIAL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤAYSEN - +GENIALㅤ</div></div></div>'
+        },
         'ITV_PATAGONIA': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠMAGALLANES | ITV PATAGONIA',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ITV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤMAGALLANES - ITV PATAGONIAㅤ</div></div></div>'
@@ -242,12 +246,12 @@ init: function() {
         App.add("ADNRADIO");
         App.add("COOPERATIVA");
 
-        App.add("IQUIQUE_TV");
-        App.add("ATACAMA_TV");
+        App.add("ANTOFAGASTA_TV");
         App.add("MIRADIO_TV");
+        App.add("LTV");
 
-        App.add("CONTIVICION");
-        App.add("OSORNO_TV");
+        App.add("PUCON_TV");
+        App.add("+GENIAL");
         App.add("PINGUINO_TV");
 
     }
