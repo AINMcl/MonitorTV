@@ -454,7 +454,7 @@ var App = {
         App.seedModal();
         App.add("cima");
         if (!App.isMobile()) {
-            App.add("24HTVN_YT");
+            App.add("24HTVN");
 
         }
     }
