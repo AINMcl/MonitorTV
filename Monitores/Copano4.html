@@ -67,6 +67,39 @@
     <iframe class="embed-responsive-item"
     src="Señal_CAMARA_PLAZA_ITALIA_CIMA.html" frameborder="0"></iframe>
 </div>
+
+<div style="position: absolute; top: 0.3em; left: 0.3em;width: auto;height: 20px;line-height: 20px; text-align: left;">
+
+    <a><span type="button" class="Boton_ON_OFF_Botones">ㅤOCULTAR/MOSTAR BOTONESㅤ</span></a>
+
+</div>
+
+<script>
+function launchFullScreen(element) {
+if(element.requestFullScreen) {
+element.requestFullScreen();
+} else if(element.mozRequestFullScreen) {
+element.mozRequestFullScreen();
+} else if(element.webkitRequestFullScreen) {
+element.webkitRequestFullScreen();
+}
+
+if(element.requestFullScreen) {
+element.requestFullScreen();
+}
+}
+// Lanza en pantalla completa en navegadores que lo soporten
+function cancelFullScreen() {
+ if(document.cancelFullScreen) {
+     document.cancelFullScreen();
+ } else if(document.mozCancelFullScreen) {
+     document.mozCancelFullScreen();
+ } else if(document.webkitCancelFullScreen) {
+     document.webkitCancelFullScreen();
+ }
+}
+</script>
+
     
 </body>
 
