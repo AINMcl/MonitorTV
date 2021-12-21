@@ -47,44 +47,96 @@
 
 <body>
 
-    <div style="position: relative; width: 100%; height:100%;" >
-        <div style="width: 100%; float: left; top: 0%;" class="embed-responsive embed-responsive-16by9">
-            <img class="embed-responsive-item"
-            src="imagenes/FondoMultipantallaNacional.svg" frameborder="0"></img>
-        </div>
-    </div>
+<body>
 
+	<div style="
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	top: 0%;
+	left: 0px;
+	"
+	class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item"
+		src="Monitor_Interactivo_P5_AINM.html" frameborder="0"></iframe>
+		
+	</div>
 
-        <div style="position: absolute; width: 50%; left: 0%; top: 2.782%;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="SeñalCNNCHILE2.html" frameborder="0"></iframe>
-        </div>
-        <div style="position: absolute; width: 50%; right: 0%; top: 2.782%;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="Señal24HTVN.html" frameborder="0"></iframe>
-        </div>
+	<div style="
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	top: 0%;
+	right: 0px;
+	"
+	class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item"
+		src="Monitor_Interactivo_P2_AINM.html" frameborder="0"></iframe>
+	</div>
 
-        <div style="position: absolute; width: 25%; left: 0%; float: left; top: 63.20%;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="Senal/WEB/SeñalTVN_IFRAME_AINM_GITHUB.html" frameborder="0"></iframe>
-        </div>
-		<div style="position: absolute; width: 25%; left: 25%; float: left; top: 63.20%;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="Senal/WEB/SeñalMEGA.html" frameborder="0"></iframe>
-        </div>
-		<div style="position: absolute; width: 25%; left: 50%; float: left; top: 63.20%;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="Senal/WEB/SeñalCHV_IFRAME.html" frameborder="0"></iframe>
-        </div>
-		<div style="position: absolute; width: 25%; right: 0%; float: left; top: 63.20%;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="Senal/WEB/SeñalCANAL13_IFRAME_AINM_GITHUB.html" frameborder="0"></iframe>
-        </div>
-
+	<div style="
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	top: 50%;
+	left: 0px;
+	"
+	class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item"
+		src="Monitor_Interactivo_P4_AINM.html" frameborder="0"></iframe>
+	</div>
 	
 
-    
+	<div style="
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	top: 50%;
+	right: 0px;"
+	class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item"
+		src="Monitor_Interactivo_P11_AINM.html" frameborder="0"></iframe>
+	</div>
 
+    <div class="Botones" style="position: absolute; top: 0.5%; width: 100%;height: 20px;line-height: 20px; text-align: center;">
+
+        <a onclick="launchFullScreen(document.documentElement);"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_1.svg"></img>ﾠ</span></a>
+        
+        <a href="Home.html"><span class="TEXTO_BotonIrAHome waves-effect waves-light">ㅤIR A HOMEㅤ</span></a>
+    
+        <a onclick="cancelFullScreen();"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_2.svg"></img>ﾠ</span></a>
+        
+    </div>
+    
+    <script>
+    function launchFullScreen(element) {
+    if(element.requestFullScreen) {
+    element.requestFullScreen();
+    } else if(element.mozRequestFullScreen) {
+    element.mozRequestFullScreen();
+    } else if(element.webkitRequestFullScreen) {
+    element.webkitRequestFullScreen();
+    }
+    
+    if(element.requestFullScreen) {
+    element.requestFullScreen();
+    }
+    }
+    // Lanza en pantalla completa en navegadores que lo soporten
+    function cancelFullScreen() {
+     if(document.cancelFullScreen) {
+         document.cancelFullScreen();
+     } else if(document.mozCancelFullScreen) {
+         document.mozCancelFullScreen();
+     } else if(document.webkitCancelFullScreen) {
+         document.webkitCancelFullScreen();
+     }
+    }
+    </script>
     
 </body>
 

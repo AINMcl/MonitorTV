@@ -158,6 +158,10 @@ var App = {
             'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠFIN PIÑERA - ESTILO 2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_7.html" frameborder="0" allowfullscreen></iframe></div>'
         },
+        'Contador_Fin_De_Año': {
+            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠFIN DE AÑO',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_8.html" frameborder="0"></iframe></div>'
+        },
     },
     add: function(canal) {
         if (App.channels[canal]) {
