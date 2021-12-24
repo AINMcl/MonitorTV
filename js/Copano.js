@@ -135,8 +135,12 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_8.html" frameborder="0"></iframe></div>'
         },
         'Santa_1': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠSANTA TRACKER - NORAD',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠSANTA TRACKER - NORAD 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SantaTracker_1.html" frameborder="0"></iframe></div>'
+        },
+        'Santa_5': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠSANTA TRACKER - NORAD 2',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SantaTracker_3.html" frameborder="0"></iframe></div>'
         },
         'Santa_2': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠSANTA TRACKER - GOOGLE',
