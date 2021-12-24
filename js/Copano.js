@@ -134,6 +134,14 @@ var App = {
             'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠFIN DE AÑO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_8.html" frameborder="0"></iframe></div>'
         },
+        'Santa_1': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠSANTA TRACKER - NORAD',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SantaTracker_1.html" frameborder="0"></iframe></div>'
+        },
+        'Santa_2': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠSANTA TRACKER - GOOGLE',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SantaTracker_2.html" frameborder="0"></iframe></div>'
+        },
     },
     add: function(canal) {
         if (App.channels[canal]) {

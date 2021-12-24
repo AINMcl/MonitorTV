@@ -116,6 +116,8 @@
         <a href="Home.html"><span class="TEXTO_BotonIrAHome waves-effect waves-light">ㅤIR A HOMEㅤ</span></a>
 
         <a onclick="cancelFullScreen();"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_2.svg"></img>ﾠ</span></a>
+        <a><span type="button" id="zoom-out" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/IconoMENOS.svg"></img>ﾠ</span></a>
+        <a><span type="button" id="zoom-in" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/IconoMAS.svg"></img>ﾠ</span></a>
         
     </div>
     
@@ -150,6 +152,26 @@
      }
  }
     </script>
+
+</div>
+
+<script>
+    $('#zoom-in').click(function() {
+       updtZoom(0.1);
+});
+
+$('#zoom-out').click(function() {
+       updtZoom(-0.1);
+});
+
+zoomLvl = 1;
+
+var updtZoom = function(zoom) {
+       zoomLvl += zoom;
+$('body').css({ zoom: zoomLvl, '-moz-transform': 'scale(' + zoomLvl + ')' });
+}
+
+</script>
 
     
     
