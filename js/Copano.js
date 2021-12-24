@@ -142,6 +142,10 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠSANTA TRACKER - GOOGLE',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SantaTracker_2.html" frameborder="0"></iframe></div>'
         },
+        'Santa_3': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠSANTA TRACKER - VIDEO',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6tvMhHGJJB4?autoplay=true&mute=1" frameborder="0"></iframe></div>'
+        },
         'Contador_NAVIDAD': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠCONTADOR NAVIDAD',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_9_NAVIDAD.html" frameborder="0"></iframe></div>'
