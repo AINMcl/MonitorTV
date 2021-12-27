@@ -134,30 +134,6 @@ var App = {
             'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠFIN DE AÑO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_8.html" frameborder="0"></iframe></div>'
         },
-        'Santa_1': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠSANTA TRACKER - NORAD 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SantaTracker_1.html" frameborder="0"></iframe></div>'
-        },
-        'Santa_5': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠSANTA TRACKER - NORAD 2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SantaTracker_3.html" frameborder="0"></iframe></div>'
-        },
-        'Santa_2': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠSANTA TRACKER - GOOGLE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SantaTracker_2.html" frameborder="0"></iframe></div>'
-        },
-        'Santa_3': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠSANTA TRACKER - VIDEO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6tvMhHGJJB4?autoplay=true&mute=1" frameborder="0"></iframe></div>'
-        },
-        'Santa_4': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠSANTA TRACKER - VIDEO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Pz_P7d1VhPM?autoplay=true&mute=1" frameborder="0"></iframe></div>'
-        },
-        'Contador_NAVIDAD': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icon_Santa.svg"></img>ﾠCONTADOR NAVIDAD',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_9_NAVIDAD.html" frameborder="0"></iframe></div>'
-        },
     },
     add: function(canal) {
         if (App.channels[canal]) {
