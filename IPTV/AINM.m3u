@@ -10,23 +10,22 @@ https://mdstrm.com/live-stream-playlist/5c0e8b19e4c87f3f2d3e6a59.m3u8
 https://unlimited1-cl-isp.dps.live/lared/lared.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/qpx3sj3z/Logo-TVN.png" group-title="Nacional", TVN
-https://unlimited1-cl-isp.dps.live/tvn/tvn.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/QMVCsgS3/Logo-TVN.png" group-title="Nacional", TVNPLAY
-https://mdstrm.com/live-stream-playlist-v/57a498c4d7b86d600e5461cb.m3u8?access_token=6pn6enAIqAWWhh1Phb6AD9UDWu2aZjnmlbs4VNEyLmycq07CjK21MHgkTeFW1SnmqNkftpqzcMg
+https://marine2.miplay.cl/tvn/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/nH8DBrTc/Logo-TVCHILE.png" group-title="Nacional", TV Chile
 https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/q0NyPs95/Logo-MEGA.png" group-title="Nacional", MEGA 
-http://unlimited1-cl.dps.live/mega/mega.smil/mega/livestream0/chunks.m3u8
+https://marine2.miplay.cl/mega/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/q0NyPs95/Logo-MEGA.png" group-title="Nacional", MEGA PLUS 
+https://marine2.miplay.cl/megaplus/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/6314180f1c9c61176726fc4ebe695c23o.png" group-title="Nacional", CHILEVISION
-https://mdstrm.com/live-stream-playlist/5cc0855ddf297e136a586daa.m3u8
+https://marine2.miplay.cl/chilevision/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/7a33554716a5fac0dd04e69d1e65d8e2o.png" group-title="Nacional", CANAL 13
-https://cl-canal13-13now-live.ned.media/live.m3u8?PlaylistM3UCL
-
+https://marine2.miplay.cl/canal13/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CNN_Chile_logo_2017.svg/480px-CNN_Chile_logo_2017.svg.png" group-title="Noticias", CNN CHILE
 https://unlimited1-cl-isp.dps.live/cnn/cnn.smil/playlist.m3u8
