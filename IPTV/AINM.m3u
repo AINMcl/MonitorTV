@@ -42,33 +42,6 @@ http://mdstrm.com/live-stream-playlist-v/57d1a22064f5d85712b20dab.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/ZK9sCHxq/Logo-GOB.png" group-title="SATELITE", PRESIDENCIA
 http://mdstrm.com/live-stream-playlist/5dc17f8944795108a2a52a49.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.thomsonreuters.com.ar/content/dam/openweb/images/argentina/Artworked/16-9/rtr_ahz_rgb_pos.png.transform/rect-768/q90/image.png" group-title="SATELITE", REUTERS
-http://mdstrm.com/live-stream-playlist-v/53443c472c6e89675103cc4c.m3u8
-
-#EXTINF:-1 tvg-logo="https://www.multivu.com/players/Spanish/8302551-telemundo-center-new-headquarters/image/TelemundoLogo_es_1522881019311-null-HR.jpg" group-title="SATELITE", TELEMUNDO
-https://tlmdhd-lh.akamaihd.net/i/tlmd1_1@79627/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/1280px-VOA_logo.svg.png" group-title="SATELITE", VOA
-https://voavvideo-i.akamaihd.net/hls/live/850902-b/VOAV_TVMC10_MRG/master_1.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/1280px-VOA_logo.svg.png" group-title="SATELITE", SKY NEWS EXTRA 1
-https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/1280px-VOA_logo.svg.png" group-title="SATELITE", SKY NEWS EXTRA 2
-https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/1280px-VOA_logo.svg.png" group-title="SATELITE", SKY NEWS EXTRA 3
-https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/1280px-VOA_logo.svg.png" group-title="SATELITE", BLOOMBERG LIVE EVENT 1
-https://www.bloomberg.com/media-manifest/streams/us-event.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/1280px-VOA_logo.svg.png" group-title="SATELITE", BLOOMBERG LIVE POLITICS
-https://www.bloomberg.com/media-manifest/streams/politics.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/1280px-VOA_logo.svg.png" group-title="SATELITE", CBS46 WGCL TV
-https://live.field59.com/wgcl/ngrp:wgcl1_all/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Fm4yKDcN/MEDIABANCO.png" group-title="Noticias", CNN INTERNACIONAL
 https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 
@@ -107,6 +80,27 @@ http://mdstrm.com/live-stream-playlist-v/5ddfef39d0ff235bffface57.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/nxSxgp1k/Logo-MEGANOTICIAS.png" group-title="MEGANOTICIAS", MEGANOTICIAS SEÑAL 4
 http://mdstrm.com/live-stream-playlist-v/56f97fc0b9bb39786b04a3b0.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.thomsonreuters.com.ar/content/dam/openweb/images/argentina/Artworked/16-9/rtr_ahz_rgb_pos.png.transform/rect-768/q90/image.png" group-title="SATELITE", REUTERS
+http://mdstrm.com/live-stream-playlist-v/53443c472c6e89675103cc4c.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.multivu.com/players/Spanish/8302551-telemundo-center-new-headquarters/image/TelemundoLogo_es_1522881019311-null-HR.jpg" group-title="SATELITE", TELEMUNDO
+https://tlmdhd-lh.akamaihd.net/i/tlmd1_1@79627/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/1280px-VOA_logo.svg.png" group-title="SATELITE", VOA
+https://voavvideo-i.akamaihd.net/hls/live/850902-b/VOAV_TVMC10_MRG/master_1.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/1280px-VOA_logo.svg.png" group-title="SATELITE", SKY NEWS EXTRA 1
+https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/1280px-VOA_logo.svg.png" group-title="SATELITE", SKY NEWS EXTRA 2
+https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/1280px-VOA_logo.svg.png" group-title="SATELITE", SKY NEWS EXTRA 3
+https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/1280px-VOA_logo.svg.png" group-title="SATELITE", CBS46 WGCL TV
+https://live.field59.com/wgcl/ngrp:wgcl1_all/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://fotos.subefotos.com/eb9ddb53d35283e2eb417c0f630014c6o.png" group-title="Radio Video", ADN RADIO
 https://unlimited1-cl-isp.dps.live/adntv/adntv.smil/playlist.m3u8
