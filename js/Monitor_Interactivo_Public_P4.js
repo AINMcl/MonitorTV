@@ -19,7 +19,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalMEGANOTICIAS.html" frameborder="0"></iframe><a href="SeñalMEGANOTICIAS.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤMEGANOTICIASㅤ</div></a></div>'
         },
         'T13_ENVIVO': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalT13_ENVIVO.html" frameborder="0"></iframe><a href="SeñalT13MOVIL.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤT13ㅤ</div></a></div>'
         },
         'TVN': {
@@ -33,10 +33,6 @@ var App = {
         'TVN_WEB_IFRAME': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVN.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/WEB/SeñalTVN_IFRAME.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTVNㅤ</div></div></div>'
-        },
-        'MEGA': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGA.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalMEGA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤMEGAㅤ</div></div></div>'
         },
         'CHV_WEB_IFRAME': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
@@ -201,26 +197,6 @@ var App = {
 
 
 
-        'ELECCIONES_YOUTUBE_BORIC': {
-            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg">ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠGABRIEL BORIC',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC0gQkOPt6VVvJGO9mDy0ikw&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤBORICㅤ</div></div></div>'
-        },
-        'ELECCIONES_FACEBOOK_BORIC': {
-            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg">ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Facebook.svg"></img>ﾠGABRIEL BORIC',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Elecciones_Facebook_Boric.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤBORICㅤ</div></div></div>'
-        },
-        'ELECCIONES_FACEBOOK_KAST': {
-            'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg">ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Facebook.svg"></img>ﾠJOSE ANTONIO KAST',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Elecciones_Facebook_Kast.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤKASTㅤ</div></div></div>'
-        },
-        //'ELECCIONES_RESULTADOS': {
-        //    'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg">ﾠSERVEL RESULTADOS',
-        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="EleccionesResultados.html" frameborder="0"></iframe></div>'
-        //},
-        //'ELECCIONES_RESULTADOS_INFOGRAM': {
-        //    'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg">ﾠINFOGRAM RESULTADOS',
-        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="EleccionesResultadosInfogram.html" frameborder="0"></iframe><a href="EleccionesResultadosInfogram.html" class="FondoBotonAbrirEnOtraPestaña"><div class="TextoBotonAbrirEnOtraPestaña" waves-effect waves-gris">ㅤABRIRㅤ</div></a></div>'
-        //},
         'UCHILE_TV': {
             'nombre': 'UCHILE TV',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_UCHILETV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤUCHILE TVㅤ</div></div></div>'
