@@ -1478,7 +1478,7 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("TVN");
+        App.add("RUPTLY");
 
     }
 }

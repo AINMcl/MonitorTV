@@ -36,7 +36,7 @@ var App = {
         },
         'CHV': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCHV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTVNㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCHV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCHVㅤ</div></div></div>'
         },
         'CANAL13': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Canal13.svg"></img>',
@@ -1479,7 +1479,7 @@ init: function() {
     App.add("cima");
     if (!App.isMobile()) {
         //App.add("Señal_Interna_24HTVN_1");
-        App.add("CHV_WEB_IFRAME_1");
+        App.add("CNN_INTERNACIONAL");
 
     }
 }
