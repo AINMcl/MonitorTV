@@ -8,7 +8,7 @@ var App = {
     channels: {
         'MULTI': {
             'nombre': 'MULTIPANTALLA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Monitor_Interactivo_PG_1_MULTI.html" frameborder="0"></iframe></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Monitor_Interactivo_Public_PG_1_MULTI.html" frameborder="0"></iframe></div>'
         },
         '24HTVN': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24PLAY.svg"></img>',
