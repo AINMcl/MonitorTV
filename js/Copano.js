@@ -126,6 +126,16 @@ var App = {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/NoLogo.svg"></img>ﾠFIN DE AÑO - 2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_2.html" frameborder="0"></iframe></div>'
         },
+        'Contador_Fin_De_Año_3': {
+            'nombre': '<img style="height: 15px; width:auto:" src="imagenes/NoLogo.svg"></img>ﾠFIN DE AÑO - 3',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Contadores/ContadorAnoNuevo.html" frameborder="0"></iframe></div>'
+        },
+        'Contador_Fin_Piñera_Estilo_3': {
+            'nombre': '<img style="height: 15px; width:auto:" src="imagenes/NoLogo.svg"></img>ﾠPIÑERA - 3',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Contadores/ContadorPiñera.html" frameborder="0"></iframe></div>'
+        },
+
+        
     },
     add: function(canal) {
         if (App.channels[canal]) {
