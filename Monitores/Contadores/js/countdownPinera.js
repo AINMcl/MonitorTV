@@ -7,10 +7,10 @@ simplyCountdown('#cuenta', {
 	seconds: 0, // Default is 0 [0-59] integer
 	words: { //words displayed into the countdown
 		days: 'DIA',
-		hours: 'Hora',
-		minutes: 'Minuto',
-		seconds: 'Segundo',
-		pluralLetter: 's'
+		hours: 'HORA',
+		minutes: 'MINUTO',
+		seconds: 'SEGUNDO',
+		pluralLetter: 'S'
 	},
 	plural: true, //use plurals
 	inline: false, //set to true to get an inline basic countdown like : 24 days, 4 hours, 2 minutes, 5 seconds
