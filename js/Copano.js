@@ -134,20 +134,8 @@ var App = {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/NoLogo.svg"></img>ﾠFIN PIÑERA - 2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_7.html" frameborder="0" allowfullscreen></iframe></div>'
         },
-        'Contador_Fin_De_Año': {
-            'nombre': '<img style="height: 15px; width:auto:" src="imagenes/NoLogo.svg"></img>ﾠFIN DE AÑO - 2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_8.html" frameborder="0"></iframe></div>'
-        },
-        'Contador_Fin_De_Año_2': {
-            'nombre': '<img style="height: 15px; width:auto:" src="imagenes/NoLogo.svg"></img>ﾠFIN DE AÑO - 2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_2.html" frameborder="0"></iframe></div>'
-        },
-        'Contador_Fin_De_Año_3': {
-            'nombre': '<img style="height: 15px; width:auto:" src="imagenes/NoLogo.svg"></img>ﾠFIN DE AÑO - 3ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Contadores/ContadorAnoNuevo.html" frameborder="0"></iframe></div>'
-        },
         'Contador_Fin_Piñera_Estilo_3': {
-            'nombre': '<img style="height: 15px; width:auto:" src="imagenes/NoLogo.svg"></img>ﾠPIÑERA - 3ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 15px; width:auto:" src="imagenes/NoLogo.svg"></img>ﾠPIÑERA - 3',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Contadores/ContadorPiñera.html" frameborder="0"></iframe></div>'
         },
 
