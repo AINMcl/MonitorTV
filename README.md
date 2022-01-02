@@ -6,15 +6,15 @@
 
 Creado hace:
 <br>
-[![Created Badge](https://badges.pufler.dev/created/AINMcl/AINMcl.github.io/MonitorTV)](https://badges.pufler.dev)
+[![Created Badge](https://badges.pufler.dev/created/AINMcl/MonitorTV)](https://badges.pufler.dev)
 
 Actualizado hace:
 <br>
-[![Updated Badge](https://badges.pufler.dev/updated/AINMcl/AINMcl.github.io/MonitorTV)](https://badges.pufler.dev)
+[![Updated Badge](https://badges.pufler.dev/created/AINMcl/MonitorTV)](https://badges.pufler.dev)
 
 Visitas:
 <br>
-[![Visits Badge](https://badges.pufler.dev/visits/AINMcl/AINMcl.github.io/MonitorTV)](https://badges.pufler.dev)
+[![Visits Badge](https://badges.pufler.dev/created/AINMcl/MonitorTV)](https://badges.pufler.dev)
 
 AINM en Github hace:
 <br>
