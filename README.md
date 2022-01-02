@@ -12,10 +12,6 @@ Actualizado hace:
 <br>
 [![Updated Badge](https://badges.pufler.dev/updated/AINMcl/MonitorTV)](https://badges.pufler.dev)
 
-Visitas(2022):
-<br>
-[![Visits Badge](https://badges.pufler.dev/visits/AINMcl/MonitorTV)](https://badges.pufler.dev)
-
 AINM en Github hace:
 <br>
 [![Years Badge](https://badges.pufler.dev/years/AINMcl)](https://badges.pufler.dev)
