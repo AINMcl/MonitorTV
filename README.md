@@ -12,7 +12,7 @@ Actualizado hace:
 <br>
 [![Updated Badge](https://badges.pufler.dev/updated/AINMcl/MonitorTV)](https://badges.pufler.dev)
 
-Visitas:
+Visitas(2022):
 <br>
 [![Visits Badge](https://badges.pufler.dev/visits/AINMcl/MonitorTV)](https://badges.pufler.dev)
 
