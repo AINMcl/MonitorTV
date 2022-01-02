@@ -10,11 +10,11 @@ Creado hace:
 
 Actualizado hace:
 <br>
-[![Updated Badge](https://badges.pufler.dev/created/AINMcl/MonitorTV)](https://badges.pufler.dev)
+[![Updated Badge](https://badges.pufler.dev/updated/AINMcl/MonitorTV)](https://badges.pufler.dev)
 
 Visitas:
 <br>
-[![Visits Badge](https://badges.pufler.dev/created/AINMcl/MonitorTV)](https://badges.pufler.dev)
+[![Visits Badge](https://badges.pufler.dev/visits/AINMcl/MonitorTV)](https://badges.pufler.dev)
 
 AINM en Github hace:
 <br>
