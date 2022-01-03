@@ -50,8 +50,9 @@
 .channel{
     background-color: #ffffff;
     display: flex;
+    padding-left: 5%;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     border-color: #171e27;
     border-width: 2.3px;
     border-radius: 0px;
@@ -60,7 +61,7 @@
     height: 90px;
     color: #171e27;
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Assistant', sans-serif;
     font-weight: bold;
     cursor:
