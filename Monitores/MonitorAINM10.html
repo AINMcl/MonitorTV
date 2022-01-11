@@ -120,17 +120,23 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
 
         <a onclick="launchFullScreen(document.documentElement);"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_1.svg"></img>ﾠ</span></a>
         
+        <a ><span type="button" class="Boton_ON_OFF_Titulos waves-effect waves-light">ㅤOCULTAR / MOSTRAR RELOJESㅤ</span></a>
+        
         <a href="HomeAINM.html"><span class="TEXTO_BotonIrAHome waves-effect waves-light">ㅤIR A HOMEㅤ</span></a>
 
         <a onclick="cancelFullScreen();"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_2.svg"></img>ﾠ</span></a>
         
     </div>
     
-    <div style="position: absolute; top: 0.3em; left: 0.3em;width: auto;height: 20px;line-height: 20px; text-align: left;">
 
-        <a><span  type="button" class="Boton_ON_OFF_Botones">ㅤOCULTAR BOTONESㅤ</span></a>
-
-    </div>
+    <script>
+        $(document).ready(function(){
+           $(".Boton_ON_OFF_Titulos").click(function(){
+                $(".CAJATituloDePantallaPequeña2").toggle();
+                $(".ZonaRelojes").toggle();
+          });
+        });
+    </script>
     
     <script rel="preload" as="script" src="../js/Monitor_Interactivo_AINM1.js"></script>
     <script>
@@ -147,8 +153,9 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
         element.requestFullScreen();
       }
     }
-    // Lanza en pantalla completa en navegadores que lo soporten
-     function cancelFullScreen() {
+
+        // Lanza en pantalla completa en navegadores que lo soporten
+        function cancelFullScreen() {
          if(document.cancelFullScreen) {
              document.cancelFullScreen();
          } else if(document.mozCancelFullScreen) {
@@ -157,7 +164,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
              document.webkitCancelFullScreen();
          }
      }
-        </script>
+    </script>
 
 
 

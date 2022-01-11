@@ -23,29 +23,6 @@ color: #FFFFFF;
   }
 
 
-section#Pantallas1{
-  display: inline-block;
-  margin: 0px;
-  width: 1280px;
-  height: 360px;
-  padding: 0px;   
-  background-color: #000000;
-  font-weight: bold;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-section#Pantallas2{
-  display: inline-block;
-  margin: 0px;
-  width: 1280px;
-  height: 239px;
-  padding: 0px;   
-  background-color: #000000;
-  font-weight: bold;
-  text-align: center;
-  color: #FFFFFF;
-}
 
 
 .CajaBotones {
@@ -137,34 +114,6 @@ section#Pantallas2{
 
 
 
-
-.Titulo_Señal_Inferior_Monitor2{
-  display: inline-block;
-  margin: 0px;
-  width: 100px;
-  height: 15px;
-  padding: 0px;   
-  border-radius: 3px;
-  background: rgba(0, 0, 0, 0.3);
-  font-size: x-small;
-  text-align: center;
-  font-weight: bold;
-  color: #FFFFFF;
-}
-
-
-.Titulo_Señal_Largo{
-  display: inline-block;
-  margin: 0px;
-  width: 200px;
-  height: 20px;
-  padding: 0px;   
-  border-radius: 4px;
-  background: rgba(0, 0, 0, 0.3);
-  text-align: center;
-  font-weight: bold;
-  color: #FFFFFF;
-}
 
 
 section#Relojes{
@@ -368,35 +317,6 @@ section#FondoImagenHome{
 
 
 
-/*--------PAGINA MONITOR GIGANTE MONITOR 2--------*/
-
-
-
-
-section#PantallasInferior1{
-  display: inline-block;
-  margin: 0px;
-  width: 1280px;
-  height: 180px;
-  padding: 0px;   
-  background-color: #000000;
-  font-weight: bold;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-section#PantallasInferior2{
-  display: inline-block;
-  margin: 0px;
-  width: 1280px;
-  height: 180px;
-  padding: 0px;   
-  background-color: #000000;
-  font-weight: bold;
-  text-align: center;
-  color: #FFFFFF;
-}
-
 .Div_Pantalla_Pequeña_Inferior_Monitor2{
   width: 320px;
   height: 180px;
@@ -425,128 +345,6 @@ section#RelojesMonitor2{
 
 
 
-
-
-.InfoSismo1VERDE{
-  width: 50%;
-  height: 70px;
-  line-height: 70px;
-  background-color: rgb(0, 173, 0);
-  float: left;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #000000;
-  font-weight: bold;
-  line-height: 100px;
-}
-
-.InfoSismo2VERDE{
-  width: 50%;
-  height: 70px;
-  line-height: 70px;
-  background-color: rgb(0, 173, 0);
-  float: left;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #000000;
-  font-weight: bold;
-  line-height: 100px;
-}
-
-
-.InfoSismo1AMARILLO{
-  width: 50%;
-  height: 70px;
-  line-height: 70px;
-  background-color: #eeff00;
-  float: left;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #000000;
-  font-weight: bold;
-  line-height: 100px;
-}
-
-.InfoSismo2AMARILLO{
-  width: 50%;
-  height: 70px;
-  line-height: 70px;
-  background-color: #eeff00;
-  float: left;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #000000;
-  font-weight: bold;
-  line-height: 100px;
-}
-
-.InfoSismo1NARANJO{
-  width: 50%;
-  height: 70px;
-  line-height: 70px;
-  background-color: #ff5e00;
-  float: left;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  font-weight: bold;
-  line-height: 100px;
-}
-
-.InfoSismo2NARANJO{
-  width: 50%;
-  height: 70px;
-  line-height: 70px;
-  background-color: #ff5e00;
-  float: left;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  font-weight: bold;
-  line-height: 100px;
-}
-
-.InfoSismo1ROJO{
-  width: 50%;
-  height: 70px;
-  line-height: 70px;
-  background-color: #ff0000;
-  float: left;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  font-weight: bold;
-  line-height: 100px;
-}
-
-.InfoSismo2ROJO{
-  width: 50%;
-  height: 70px;
-  line-height: 70px;
-  background-color: #ff0000;
-  float: left;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  font-weight: bold;
-  line-height: 100px;
-}
 
 
 
@@ -3426,6 +3224,8 @@ background-image: linear-gradient(
   color:#0000df;
 }
 
+
+
 .BotonRecargarPagina2{
   display: inline-block;
   position: absolute;
@@ -3848,4 +3648,167 @@ background-image: linear-gradient(
   border: solid 2px #FF0000;
   box-shadow: 0px 0px 10px #FF0000;
 }
+
+.BotonMenuAjustes{
+  display: inline-block;
+  background: #0000df;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonMenuAjustes:hover{
+  background:#0159be;
+  color:#fff
+}
+
+.BotonMenuAjustes2{
+  display: inline-block;
+  background: #0000df;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 49%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonMenuAjustes2:hover{
+  background:#0159be;
+  color:#fff
+}
+
+
+.BarraMenuSeñales{
+  display: inline-block;
+  background-color: rgba(46, 45, 45, 0.9);
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  align-items: left;
+}
+
+.BotonMenuSeñales{
+  background-color: #ff0000;
+  border-color: #8f00c7;
+  display:inline-table;
+  margin: 0px;
+  width: 130px;
+  height: 35px;
+  font-size: 15PX;
+  border-radius: 4px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 35px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .6s
+}
+
+.BotonMenuSeñales:hover{
+  color: #ff0000;
+  background-color: #ffffff;
+  border-color: #ff0000;
+  box-shadow: 0px 0px 10px #ff0000;
+}
+
+.BotonMenuSeñalesPantallaCompleta{
+  display: inline-block;
+  background: #0000df;
+  width: 40px;
+  height: 40px;
+  line-height: 50px;
+  font-size: 20px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonMenuSeñalesPantallaCompleta:hover{
+  background:#0159be;
+  color:#fff
+}
+
+.BotonMenuSeñalesVerde{
+  display: inline-block;
+  background-color: #00cc00;
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .6s
+}
+
+.BotonMenuSeñalesVerde:hover{
+  color: #ff0000;
+  background-color: #FFFFFF;
+  border-color: #ff0000;
+  box-shadow: 0px 0px 10px #ff0000;
+}
+
+.BotonMenuSeñalesRojo{
+  display: inline-block;
+  background-color: #FF0000;
+  width: auto;
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .6s
+}
+
+.BotonMenuSeñalesRojo:hover{
+  color: #ff0000;
+  background-color: #FFFFFF;
+  border-color: #ff0000;
+  box-shadow: 0px 0px 10px #FF0000
+}
+
+
 
