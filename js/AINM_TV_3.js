@@ -3,16 +3,16 @@ let LosCanales = [
         'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_24PLAY.svg"></img>',
         'url': 'Señal24HTVN.html'
     }, {
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_CANAL24H.svg"></img>',
+        'nombre': '<img style="height: 50px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>',
         'url': 'SeñalCanal24HTVN.html'
     },{
         'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_CNNCHILE2.svg"></img>',
         'url': 'SeñalCNNCHILE.html'
     },{
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_MEGANOTICIAS.svg"></img>',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>',
         'url': 'SeñalMEGANOTICIAS.html'
     }, {
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
         'url': 'SeñalT13_ENVIVO_IFRAME_AINM_GITHUB.html'
     }, {
         'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_TVN.svg"></img>',
@@ -27,7 +27,7 @@ let LosCanales = [
         'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_Canal13.svg"></img>',
         'url': 'SeñalCANAL13.html'
     }, {
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_LA_RED.svg"></img>',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_LA_RED.svg"></img>',
         'url': 'SeñalLARED.html'
     },{
         'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_TVMAS.svg"></img>',
@@ -48,61 +48,61 @@ let LosCanales = [
         'nombre': '<img style="height: 30px; width:auto:" src="imagenes/LogoTV_WappTV.svg"></img>',
         'url': 'SeñalWAPPTV.html'
     },{
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_TVN.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_TVN.svg"></img>',
         'url': '../Monitores/Senal/WEB/SeñalTVN_IFRAME_AINM_GITHUB.html'
     },{
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_CHV.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_CHV.svg"></img>',
         'url': '../Monitores/Senal/WEB/SeñalCHV_IFRAME.html'
     }, {
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_Canal13.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_Canal13.svg"></img>',
         'url': '../Monitores/Senal/WEB/SeñalCANAL13_IFRAME_AINM_GITHUB.html'
     },{
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 1',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠ1',
         'url': 'SeñalInterna24H_1.html'
     }, {
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 2',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠ2',
         'url': 'SeñalInterna24H_2.html'
     }, {
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 3',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠ3',
         'url': 'SeñalInterna24H_3.html'
     },{
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 4',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠ4',
         'url': 'SeñalInterna24H_4.html'
     }, {
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 5',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠ5',
         'url': 'SeñalInterna24H_5.html'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_TVN.svg"></img>ﾠDOCUMENTACION TVN',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_TVN.svg"></img>',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCeKSSTjG4r-Qvcpjnwgo0VQ&autoplay=true&mute=1'
     }, {
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 1',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠ1',
         'url': 'SeñalInternaMEGANOTICIAS_1.html'
     }, {
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 2',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠ2',
         'url': 'SeñalInternaMEGANOTICIAS_2.html'
     }, {
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 3',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠ3',
         'url': 'SeñalInternaMEGANOTICIAS_3.html'
     },{
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 4',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠ4',
         'url': 'SeñalInternaMEGANOTICIAS_4.html'
     },{
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_CNNCHILE2.svg"></img>ﾠSEÑAL 1',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_CNNCHILE2.svg"></img>ﾠ1',
         'url': 'SeñalInternaCNNCHILE_1.html'
     },{
         'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_CHV.svg"></img>ﾠEVENTOSﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalOcasional.svg"></img>',
         'url': 'SeñalCHV_EVENTOS.html'
     },{
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_BIOBIOCHILE.svg"></img>ﾠSEÑAL 1',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_BIOBIOCHILE.svg"></img>ﾠ1',
         'url': 'SeñalBIOBIOCHILE_1.html'
     }, {
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_BIOBIOCHILE.svg"></img>ﾠSEÑAL 2',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_BIOBIOCHILE.svg"></img>ﾠ2',
         'url': 'SeñalBIOBIOCHILE_2.html'
     }, {
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_BIOBIOCHILE.svg"></img>ﾠSEÑAL 3',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_BIOBIOCHILE.svg"></img>ﾠ3',
         'url': 'SeñalBIOBIOCHILE_3.html'
     }, {
-        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_BIOBIOCHILE.svg"></img>ﾠSEÑAL 4',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_BIOBIOCHILE.svg"></img>ﾠ4',
         'url': 'SeñalBIOBIOCHILE_4.html'
     },{
         'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠ<img style="height: 40px; width:auto:" src="imagenes/Logo_RLN.svg"></img>ﾠ',
