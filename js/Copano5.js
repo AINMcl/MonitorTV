@@ -424,6 +424,7 @@ seedModal: function() {
 init: function() {
     App.seedModal();
     App.add("cima");
+    
     if (!App.isMobile()) {
         App.add("CANAL24HTVN");
         App.add("CNN_CHILE");
