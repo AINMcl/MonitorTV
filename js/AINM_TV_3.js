@@ -318,10 +318,10 @@ let LosCanales = [
         'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠﾠFOX NEWS',
         'url': 'SeñalFOX_NEWS.html'
     },{
-        'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠCNN',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_CNN.svg"></img>',
         'url': 'SeñalCNN.html'
     }, {
-        'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠCNN INTERNATIONAL',
+        'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_CNN.svg"></img>INTERNATIONAL',
         'url': 'SeñalCNNINTERNACIONAL.html'
     }, {
         'nombre': '<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠCNN ESPAÑOL',

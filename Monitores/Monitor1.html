@@ -70,7 +70,7 @@
     
 </head>
 
-<body>
+<body style="overflow: hidden;">
     <div class="CAJABoton_SeleccionarSeñales">
         <div class="row no-gutters row-canales" id="los-canales"></div>
         <!--modal listado canales-->
@@ -96,6 +96,9 @@
     
     <div class="Botones" style="position: absolute; bottom: 0.5%; width: 100%;height: 20px;line-height: 20px; text-align: center;">
 
+        <a onclick="launchFullScreen(document.documentElement);"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_1.svg"></img>ﾠ</span></a>
+        
+
         <div class="SeleccionarStreamsPorFila waves-effect waves-light">
             <select  class="StreamsPorFila" id="Stream_por_fila">
                 <option value="X">STREAMS</option>
@@ -109,6 +112,9 @@
         <a ><span type="button" class="Boton_ON_OFF_Titulos waves-effect waves-light">ㅤTITULOSㅤ</span></a>
         <a href="Home.html"><span class="TEXTO_BotonIrAHome waves-effect waves-light">ㅤIR A HOMEㅤ</span></a>
 
+        <a onclick="cancelFullScreen();"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_2.svg"></img>ﾠ</span></a>
+        
+        
     </div>
     
     <div style="position: absolute; top: 0.3em; left: 0.3em;width: auto;height: 20px;line-height: 20px; text-align: left;">
@@ -118,7 +124,35 @@
     </div>
     
     <script rel="preload" as="script" src="../js/MonitorInteractivo.js"></script>
+
+    <script>
+        function launchFullScreen(element) {
+      if(element.requestFullScreen) {
+        element.requestFullScreen();
+      } else if(element.mozRequestFullScreen) {
+        element.mozRequestFullScreen();
+      } else if(element.webkitRequestFullScreen) {
+        element.webkitRequestFullScreen();
+      }
+    
+      if(element.requestFullScreen) {
+        element.requestFullScreen();
+      }
+    }
+    // Lanza en pantalla completa en navegadores que lo soporten
+     function cancelFullScreen() {
+         if(document.cancelFullScreen) {
+             document.cancelFullScreen();
+         } else if(document.mozCancelFullScreen) {
+             document.mozCancelFullScreen();
+         } else if(document.webkitCancelFullScreen) {
+             document.webkitCancelFullScreen();
+         }
+     }
+        </script>
     
 </body>
+
+
 
 </html>
