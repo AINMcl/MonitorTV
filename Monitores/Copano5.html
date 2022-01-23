@@ -1,21 +1,31 @@
 <!doctype html>
 <html lang="es">
 
+<!--
+    ESTA PAGINA (MONITOR Interactivo)
+    ESTA BASADO EN EL TRABAJO DE
+    alplox.github.io/tele/ 
+    DE ALPLOX (github.com/Alplox)
+-->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Copano 5</title>
+    <title>Copano 1</title>
 
     <link rel="icon" href='imagenes/Icon.png' type="image/png"/>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link href="../css/estilos.css" rel="stylesheet" type="text/css">
-    <link href="../css/estilos2.css" rel="stylesheet" type="text/css">
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link href="../css/estilos.css" rel="stylesheet" type="text/css">
+        <link href="../css/estilos2.css" rel="stylesheet" type="text/css">
+        <script src="../js/Efecto.js"></script>
 
     <!-- TIPOGRAFIA GOOGLE-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
+
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
     <script>
@@ -25,6 +35,8 @@
 
         gtag('config', 'G-RT53GZ16EW');
     </script>
+
+    <!-- para dropdown -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -35,7 +47,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
     </script>
-    <script src="Reproductor.js" type="text/javascript"></script>
+
+    
+
+
+    <script>
+        $(document).ready(function(){
+           $(".Boton_ON_OFF_Titulos").click(function(){
+                $(".CAJATituloDePantallaPequeña2").toggle();
+                $(".FondoTitulosMonitor1").toggle();
+          });
+        });
+    </script>
+
+
     <script>
         $(document).ready(function(){
             $(".Boton_ON_OFF_Botones").click(function(){
@@ -43,204 +68,72 @@
             });
         });
     </script>
+
+    <script src="Reproductor.js" type="text/javascript"></script>
+    
 </head>
 
-<body>
-
-<body>
-
-	<div style="position: absolute; display: inline-block; width: 100%; height:100%" >
-        
-        <!--CUADRO 1-->
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/Señal24HTVN.html" frameborder="0"></iframe>
-            <a href="Señal24HTVN.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤ24HORASㅤ</div>
-            </a>
+<body style="overflow: hidden;">
+    <div class="CAJABoton_SeleccionarSeñales">
+        <div class="row no-gutters row-canales" id="los-canales"></div>
+        <!--modal listado canales-->
+        <div class="modal" id="custom-modal">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content" style="border-width: 0px;">
+                    <div class="modal-header FondoTitulo">
+                        <h5 class="Titulo">SELECCIONAR SEÑALES</h5>
+                        
+                        <button type="button" class="close" id="custom-close" data-dismiss="modal">
+                        </button>
+                    </div>
+                    <div id="PorFiltrar">
+                        <div class="modal-body canales-body"></div>
+                    </div>
+                    <div class="modal-footer FondoTitulo">
+                        <a><span class="BotonCierreMenuSeñales waves-effect waves-red" id="custom-close2" data-dismiss="modal">CERRAR MENU</span></a>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <!--CUADRO 2-->
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalCNNCHILE.html" frameborder="0"></iframe>
-            <a href="SeñalCNNCHILE.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCNN CHILEㅤ</div>
-            </a>
-        </div>
-
-        <!--CUADRO 3-->
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalMEGANOTICIAS.html" frameborder="0"></iframe>
-            <a href="SeñalMEGANOTICIAS2.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤMEGANOTICIASㅤ</div>
-            </a>
-        </div>
-
-        <!--CUADRO 4-->
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalT13_EN_VIVO.html" frameborder="0"></iframe>
-            <a href="SeñalT13_EN_VIVO_YT.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤT13ㅤ</div>
-            </a>
-        </div>
-
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalBIOBIOTV.html" frameborder="0"></iframe>
-            <a href="SeñalRADIO_BIOBIOTV.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤBIO BIO TVㅤ</div>
-            </a>
-        </div>
-
-        <!--CUADRO 5-->
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalRADIO_ADN.html" frameborder="0"></iframe>
-            <a href="SeñalRADIO_ADN.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤADN RADIOㅤ</div>
-            </a>
-        </div>
-
-
-        <!--CUADRO 6-->
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalMBCO_L.html" frameborder="0"></iframe>
-            <a href="SeñalMEDIABANCO.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤMEDIABANCOㅤ</div>
-            </a>
-        </div>
-
-        <!--CUADRO 7-->
-        
-
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalPLAZA_ITALIA.html" frameborder="0"></iframe>
-            <a href="Señal_CAMARA_PLAZA_ITALIA_CIMA.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤPLAZA ITALIAㅤ</div>
-            </a>
-        </div>
-
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalIquiqueTV.html" frameborder="0"></iframe>
-            <a href="../Monitores/Senal/REGIONALES/IQUIQUE_TV.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤIQUIQUE TVㅤ</div>
-            </a>
-        </div>
-
-        <!--CUADRO 8-->
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalAM_CANAL.html" frameborder="0"></iframe>
-            <a href="../Monitores/Senal/REGIONALES/AM_CANAL.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤAM CANALㅤ</div>
-            </a>
-        </div>
-
-        <!--CUADRO 9-->
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalMIRADIO_TV.html" frameborder="0"></iframe>
-            <a href="../Monitores/Senal/REGIONALES/MIRADIO_TV.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤMI RADIOㅤ</div>
-            </a>
-        </div>
-
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalAntofagastaTV.html" frameborder="0"></iframe>
-            <a href="../Monitores/Senal/REGIONALES/ANTOFAGASTA_TV.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤANTOFAGASTA TVㅤ</div>
-            </a>
-        </div>
-
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalPuconTV.html" frameborder="0"></iframe>
-            <a href="../Monitores/Senal/REGIONALES/PUCONTV.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤPUCON TVㅤ</div>
-            </a>
-        </div>
-
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalOsornoTV.html" frameborder="0"></iframe>
-            <a href="../Monitores/Senal/REGIONALES/OSORNO_TV.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤOSORNO TVㅤ</div>
-            </a>
-        </div>
-
-        <!--CUADRO 10-->
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalRADIO_GENIAL.html" frameborder="0"></iframe>
-            <a href="SeñalRADIO_GENIAL.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤRADIO GENIAL AYSENㅤ</div>
-            </a>
-        </div>
-
-        <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="../Monitores/Senal/BajaCalidad/SeñalPINGUINO_TV.html" frameborder="0"></iframe>
-            <a href="../Monitores/Senal/REGIONALES/PINGUINO_TV.html" target="_blank" class="FondoTitulosMonitor1">
-                <div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤPINGUINO TVㅤ</div>
-            </a>
-        </div>
-        
     </div>
+    
+    <div class="Botones" style="position: absolute; top: 1%; width: 100%; height: 0px;line-height: 20px; text-align: center; background-color: red;">
 
-
-    <div class="Botones" style="position: absolute; top: 0.5%; width: 100%;height: 20px;line-height: 20px; text-align: center;">
         <a onclick="launchFullScreen(document.documentElement);"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_1.svg"></img>ﾠ</span></a>
         
+
+        <div class="BotonSeleccionarSeñales waves-effect waves-light" type="button" id="custom-btn">ㅤSELECCIONAR SEÑALESㅤ</div>
+        <a href="HomeCOPANO.html"><span class="TEXTO_BotonIrAHome waves-effect waves-light">ㅤIR A HOMEㅤ</span></a>
+
+        <a onclick="cancelFullScreen();"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_2.svg"></img>ﾠ</span></a>
         <!--<a><span type="button" id="zoom-out" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/IconoMENOS.svg"></img>ﾠ</span></a>
         <a><span type="button" id="zoom-in" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/IconoMAS.svg"></img>ﾠ</span></a>
         -->
-        <a href="HomeCOPANO.html"><span class="TEXTO_BotonIrAHome waves-effect waves-light">ㅤIR A HOMEㅤ</span></a>
+        
+    </div>
     
-        <a onclick="cancelFullScreen();"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_2.svg"></img>ﾠ</span></a>
+    <div style="position: absolute; top: 0.3em; left: 0.3em;width: auto;height: 20px;line-height: 20px; text-align: left;">
+
+        <a><span type="button" class="Boton_ON_OFF_Botones">ㅤOCULTAR/MOSTAR BOTONESㅤ</span></a>
 
     </div>
 
     <script>
-        $('#zoom-in').click(function() {
-   		updtZoom(0.1);
-	});
-
-	$('#zoom-out').click(function() {
-   		updtZoom(-0.1);
-	});
-
-	zoomLvl = 1;
-
-	var updtZoom = function(zoom) {
-   		zoomLvl += zoom;
-   $('body').css({ zoom: zoomLvl, '-moz-transform': 'scale(' + zoomLvl + ')' });
-	}
-
-    </script>
-    
-    <script>
     function launchFullScreen(element) {
-    if(element.requestFullScreen) {
+  if(element.requestFullScreen) {
     element.requestFullScreen();
-    } else if(element.mozRequestFullScreen) {
+  } else if(element.mozRequestFullScreen) {
     element.mozRequestFullScreen();
-    } else if(element.webkitRequestFullScreen) {
+  } else if(element.webkitRequestFullScreen) {
     element.webkitRequestFullScreen();
-    }
-    
-    if(element.requestFullScreen) {
+  }
+
+  if(element.requestFullScreen) {
     element.requestFullScreen();
-    }
-    }
-    // Lanza en pantalla completa en navegadores que lo soporten
-    function cancelFullScreen() {
+  }
+}
+// Lanza en pantalla completa en navegadores que lo soporten
+ function cancelFullScreen() {
      if(document.cancelFullScreen) {
          document.cancelFullScreen();
      } else if(document.mozCancelFullScreen) {
@@ -248,8 +141,32 @@
      } else if(document.webkitCancelFullScreen) {
          document.webkitCancelFullScreen();
      }
-    }
+ }
     </script>
+
+</div>
+
+<script>
+    $('#zoom-in').click(function() {
+       updtZoom(0.1);
+});
+
+$('#zoom-out').click(function() {
+       updtZoom(-0.1);
+});
+
+zoomLvl = 1;
+
+var updtZoom = function(zoom) {
+       zoomLvl += zoom;
+$('body').css({ zoom: zoomLvl, '-moz-transform': 'scale(' + zoomLvl + ')' });
+}
+
+</script>
+
+    
+    
+    <script rel="preload" as="script" src="../js/Copano5.js"></script>
     
 </body>
 
