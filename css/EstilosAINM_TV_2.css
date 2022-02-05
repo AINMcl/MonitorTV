@@ -14,7 +14,7 @@
     padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 20px;
-    padding-right: 20px;
+    
 }
 
 .BotonesListaCanales{
@@ -41,8 +41,21 @@
 
 
 ::-webkit-scrollbar {
-    display: none;
+    width: 12px;
+    background-color: rgb(255, 255, 255);
 }
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        /* color of the tracking area */
+  }
+
+::-webkit-scrollbar-thumb {
+    
+    height: 50px;
+    background-color: rgb(124, 124, 124);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid rgb(48, 48, 48);  /* creates padding around scroll thumb */
+  }
 
 
 
@@ -54,7 +67,8 @@
     border-color: #171e27;
     border-width: 1.5px;
     border-radius: 0px;
-    width: 100%;
+    padding-left: 5%;
+    width: 99%;
     height: 10%;
     color: #171e27;
     margin: 0;
