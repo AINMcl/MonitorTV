@@ -33,30 +33,6 @@
   color:rgb(0, 0, 0)
 }
 
-.BotonNuevosCambios{
-  background-color: #ff6600;
-  border-color: #ff6600;
-  margin: 0px;
-  width: auto;
-  height: 22px;
-  font-size: 12PX;
-  border-radius: 4px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  line-height: 22px;
-  color: #ffffff;
-  cursor:
-  pointer;
-  transition:all .6s
-}
-
-.BotonNuevosCambios:hover{
-  color: #ff6600;
-  background-color: #ffffff;
-  border-color: #ff6600;
-  box-shadow: 0px 0px 10px #ff6600;
-}
 
 
 
