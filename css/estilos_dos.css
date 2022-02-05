@@ -36,3 +36,26 @@
 
 
 
+
+.CajaTitulosLargo{
+  margin: 0px;
+  width: 200px;
+  border-radius: 4px;
+  background:rgba(0, 0, 0, 0);
+  font-weight: bold;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0px;
+  top: 220px;
+  cursor:
+  pointer;
+  transition:all .4s;
+}
+
+.CajaTitulosLargo:hover{
+  color:#fff;
+  background: rgba(221, 0, 0, 100);
+}
+
+
+
