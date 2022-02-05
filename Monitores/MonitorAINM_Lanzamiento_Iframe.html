@@ -11,17 +11,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Monitor Interactivo</title>
+    <title>Monitor Lanzamiento Interactivo</title>
 
     <link rel="icon" href='imagenes/Icon.png' type="image/png"/>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link href="../css/estilos.css" rel="stylesheet" type="text/css">
-
-        <link href="../css/Estilos_2.css" rel="stylesheet" type="text/css">
-
-
         <link href="../css/estilos2.css" rel="stylesheet" type="text/css">
         <script src="../js/Efecto.js"></script>
 
@@ -87,7 +83,6 @@
                         <h5 class="Titulo">SELECCIONAR SEÑALES</h5>
                         <button type="button" class="close" id="custom-close" data-dismiss="modal">
                         </button>
-                        <a href="Actualizaciones.html"><span data-toggle="modal" data-target="#exampleModal" class="BotonNuevosCambios waves-effect waves-naranjo">ㅤVER CAMBIOS MAS RECIENTESㅤ</span></a>ㅤ
                         <a href="Info.html"><span class="BotonInfoSeñales waves-effect waves-azul">ㅤINFORMACION SOBRE SEÑALESㅤ</span></a>
                     </div>
                     <div id="PorFiltrar">
@@ -103,9 +98,6 @@
     
     <div class="Botones" style="position: absolute; bottom: 0.5%; width: 100%;height: 20px;line-height: 20px; text-align: center;">
 
-        <a onclick="launchFullScreen(document.documentElement);"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_1.svg"></img>ﾠ</span></a>
-        
-
         <div class="SeleccionarStreamsPorFila waves-effect waves-light">
             <select  class="StreamsPorFila" id="Stream_por_fila">
                 <option value="X">STREAMS</option>
@@ -116,11 +108,6 @@
         </div>
 
         <div class="BotonSeleccionarSeñales waves-effect waves-light" type="button" id="custom-btn">ㅤSELECCIONAR SEÑALESㅤ</div>
-        <a ><span type="button" class="Boton_ON_OFF_Titulos waves-effect waves-light">ㅤTITULOSㅤ</span></a>
-        <a href="Home.html"><span class="TEXTO_BotonIrAHome waves-effect waves-light">ㅤIR A HOMEㅤ</span></a>
-
-        <a onclick="cancelFullScreen();"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_2.svg"></img>ﾠ</span></a>
-        
         
     </div>
     
@@ -130,41 +117,36 @@
 
     </div>
     
-    <script rel="preload" as="script" src="../js/MonitorInteractivo.js"></script>
+    <script rel="preload" as="script" src="../js/Monitor_Interactivo_Lanzamiento.js"></script>
 
-    
-
-
-    <!--PANTALLA COMPLETA-->
     <script>
         function launchFullScreen(element) {
-        if(element.requestFullScreen) {
+      if(element.requestFullScreen) {
         element.requestFullScreen();
-        }
-        else if(element.mozRequestFullScreen){
+      } else if(element.mozRequestFullScreen) {
         element.mozRequestFullScreen();
-        }
-        else if(element.webkitRequestFullScreen) {
+      } else if(element.webkitRequestFullScreen) {
         element.webkitRequestFullScreen();
-        }
+      }
     
-        if(element.requestFullScreen) {
+      if(element.requestFullScreen) {
         element.requestFullScreen();
-        }
+      }
     }
-    
-        function cancelFullScreen() {
-        if(document.cancelFullScreen) {
+    // Lanza en pantalla completa en navegadores que lo soporten
+     function cancelFullScreen() {
+         if(document.cancelFullScreen) {
              document.cancelFullScreen();
-        }
-        else if(document.mozCancelFullScreen) {
+         } else if(document.mozCancelFullScreen) {
              document.mozCancelFullScreen();
-        }
-        else if(document.webkitCancelFullScreen) {
+         } else if(document.webkitCancelFullScreen) {
              document.webkitCancelFullScreen();
-        }
-    }
-    </script>
+         }
+     }
+        </script>
     
 </body>
+
+
+
 </html>

@@ -7,6 +7,11 @@
 }
 
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+
 .channels-container{
     padding: 10px;
     width: 100%;
@@ -53,7 +58,7 @@
     align-items: center;
     justify-content: left;
     border-color: #171e27;
-    border-width: 2.3px;
+    border-width: 2px;
     border-radius: 0px;
     height: 3rem;
     width: 100%;
@@ -70,7 +75,7 @@
 .channel:hover {
     background-color: rgb(255, 255, 255);
     border-color: #0000df;
-    border-width: 2.3px;
+    border-width: 2px;
     font-weight: bold;
     color:#0000df;
     border-radius: 0px;
