@@ -5,6 +5,8 @@ text-align: justify;
 font-family: 'Assistant', sans-serif;
 }
 
+
+
 .h1{
 margin: 10px;
 background-color: #0066F9;
@@ -3060,6 +3062,25 @@ background-image: linear-gradient(
   border-color: #ff6600;
   box-shadow: 0px 0px 10px #ff6600;
 }
+
+.canales-body::-webkit-scrollbar {
+  width: 10px;
+}
+
+.canales-body::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0);
+}
+
+.canales-body::-webkit-scrollbar-thumb {
+  height: 60px;
+  background-color: #424242;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 1px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
+}
+
+
+
+
 
 
 
