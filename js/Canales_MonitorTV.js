@@ -69,6 +69,21 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Tele13RADIO.svg"></img>',
         'url': 'SeñalRADIO_T13.html'
     }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_Radio_Infinita.svg"></img>',
+        'url': 'SeñalRADIO_INFINITA.html'
+    },{
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_RadioLaClave.svg"></img>',
+        'url': 'SeñalRADIO_LACLAVE.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_RadioTiempo.svg"></img>',
+        'url': 'SeñalRADIO_TIEMPO.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_RadioPudahuel.svg"></img>',
+        'url': 'SeñalRADIO_PUDAHUEL.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_RadioDuna.svg"></img>',
+        'url': 'SeñalRADIO_DUNA.html'
+    }, {
         'nombre': '<img style="height: 30px; width:auto:" src="imagenes/Logo_UCHILETV.svg"></img>',
         'url': 'Señal_UCHILETV.html'
     }, {

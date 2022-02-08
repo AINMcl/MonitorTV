@@ -1950,18 +1950,15 @@ section#RelojesMonitor2{
 .waves-effect.waves-naranjo .waves-ripple {
   background-color: #ff660094;
 }
-
-
 .BotonTV_Señales{
   background-color: #ffffff;
   font-family: 'Assistant', sans-serif;
   font-weight: normal;
   border-color: #171e27;
-  border-width: 2px ;
+  border-width: 2px;
   border-radius: 5px;
   margin-bottom: 1px;
   text-align: left;
-  border-width: 2.3px;
   color: #171e27;
   cursor:
   pointer;
@@ -1971,7 +1968,7 @@ section#RelojesMonitor2{
 .BotonTV_Señales:hover{
   background-color: rgb(255, 255, 255);
   border-color: #0000df;
-  border-width: 2.3px;
+  border-width: 2px;
   font-weight: bold;
   color:#0000df;
   box-shadow: 0px 0px 10px #0000df;
@@ -1985,7 +1982,7 @@ section#RelojesMonitor2{
   font-weight: bold;
   border-color:#129700;
   color: #129700;
-  border-width: 2.3px;
+  border-width: 2px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px #129700;
   text-align: left;
@@ -1999,7 +1996,7 @@ section#RelojesMonitor2{
   background-color:rgb(255, 255, 255);
   box-shadow: 0px 0px 10px #ff0000;
   backdrop-filter: blur(8px);
-  border-width: 2.3px;
+  border-width: 2px;
   border-color:#ff0000
 }
 
@@ -3078,6 +3075,11 @@ background-image: linear-gradient(
   border: 1px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
 }
 
+.ColorTitulo:hover{
+  transition:all .6s;
+  color: #0000df;
+  background-color: #0000df ;
+}
 
 
 

@@ -7,41 +7,30 @@
 }
 
 
-::-webkit-scrollbar {
-    display: none;
-}
-
-
 .channels-container{
-    padding: 10px;
     width: 100%;
     height: 90%;
     padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 10px;
+    
 }
 
 .BotonesListaCanales{
     background-color: #bebebe;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
     padding: 10px;
     width: 100%;
     height: 10%;
 }
 
-.recordatorio {
-    font-weight: 700;
-    font-size: calc(2rem + 2vw);
-    text-transform: uppercase;
-    color: #fa9919;
-}
 
 /* listado canales */
 .channel-list {
-    display: grid;
+    display: inline-block;
     grid-template-columns: 100%; 
     height: 100%;  
     width: 100%;
@@ -51,6 +40,24 @@
 }
 
 
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: rgb(124, 124, 124);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid rgb(48, 48, 48);  /* creates padding around scroll thumb */
+}
+
+
+
 
 .channel{
     background-color: #ffffff;
@@ -58,15 +65,17 @@
     align-items: center;
     justify-content: left;
     border-color: #171e27;
-    border-width: 2px;
+    border-width: 1.5px;
     border-radius: 0px;
-    height: 3rem;
-    width: 100%;
+    padding-left: 5%;
+    width: 99%;
+    height: 10%;
     color: #171e27;
     margin: 0;
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Assistant', sans-serif;
     font-weight: bold;
+    margin-bottom: 5%;
     cursor:
     pointer;
     transition:all .2s
@@ -88,7 +97,7 @@
     background-color: #ffffff;
     color: #129700;
     border-radius: 0px;
-    border: 2.3px solid #129700;
+    border: 2px solid #129700;
     box-shadow: 0px 0px 10px #129700;
 }
 
