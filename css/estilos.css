@@ -1955,6 +1955,7 @@ section#RelojesMonitor2{
   font-family: 'Assistant', sans-serif;
   font-weight: normal;
   border-color: #171e27;
+  height: 45px;
   border-width: 2px;
   border-radius: 5px;
   margin-bottom: 1px;
@@ -1978,6 +1979,7 @@ section#RelojesMonitor2{
 .BotonTV_SeñalSeleccionada{
   background-color: rgb(255, 255, 255);
   backdrop-filter: blur(5px);
+  height: 45px;
   font-family: 'Assistant', sans-serif;
   font-weight: bold;
   border-color:#129700;

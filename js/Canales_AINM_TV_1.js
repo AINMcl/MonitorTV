@@ -487,43 +487,43 @@ let LosCanales = [
 
     
     {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 1',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_1.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal1.html'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 2',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_2.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal2.html'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 3',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_3.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal3.html'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 4',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_4.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal4.html'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 5',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_5.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal5.html'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 6',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_6.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal6.html'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 7',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_7.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal7.html'
     },{
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 8',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_8.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal8.html'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 9',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_9.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal9.html'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 10',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_10.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal10.html'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 11',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_11.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal11.html'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 12',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_12.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal12.html'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 13',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_13.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal13.html'
     }, {
         'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠT. CONTITUCIONAL',

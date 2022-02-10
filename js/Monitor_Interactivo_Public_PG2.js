@@ -27,7 +27,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalMEGANOTICIAS.html" frameborder="0"></iframe><a href="SeñalMEGANOTICIAS.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤMEGANOTICIASㅤ</div></a></div>'
         },
         'T13_ENVIVO': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Iframe_Externo.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalT13_ENVIVO.html" frameborder="0"></iframe><a href="SeñalT13MOVIL.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤT13ㅤ</div></a></div>'
         },
         'TVN': {
@@ -39,7 +39,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalMEGA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤMEGAㅤ</div></div></div>'
         },
         'TVN_WEB_IFRAME': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVN.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Iframe_Externo.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_TVN.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/WEB/SeñalTVN_IFRAME.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTVNㅤ</div></div></div>'
         },
         'MEGA': {
@@ -47,11 +47,11 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalMEGA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤMEGAㅤ</div></div></div>'
         },
         'CHV_WEB_IFRAME': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Iframe_Externo.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/WEB/SeñalCHV_IFRAME.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCHVㅤ</div></div></div>'
         },
         'CANAL13_WEB_IFRAME': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Canal13.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_WebIframe.svg"></img>',
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Iframe_Externo.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_Canal13.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/WEB/SeñalCANAL13_IFRAME.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 13ㅤ</div></div></div>'
         },
         'LARED': {
@@ -79,7 +79,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalNTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤNTVㅤ</div></div></div>'
         },
         'TV_CHILE': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVCHILE.svg"></img>',
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Iframe_Externo.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_TVCHILE.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTVCHILE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV CHILEㅤ</div></div></div>'
         },
         'Señal_Interna_24HTVN_1': {
@@ -107,7 +107,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalInternaCNNCHILE_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCNNCHILE 1ㅤ</div></div></div>'
         },
         'CHVEVENTOS': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>ﾠEVENTOSﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalOcasional.svg"></img>',
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>ﾠEVENTOS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCHV_EVENTOS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCHV EVENTOSㅤ</div></div></div>'
         },
         'BIOBIO_CHILE_1': {
@@ -194,7 +194,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_CDTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS TVㅤ</div></div></div>'
         },
         'PRESIDENCIA': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_GOB.svg"></img>ﾠPRESIDENCIA',
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_GOB.svg"></img>ﾠPRESIDENCIA',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPRESIDENCIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPRESIDENCIAㅤ</div></div></div>'
         },
         'REUTERS': {
@@ -202,7 +202,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalREUTERS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤREUTERSㅤ</div></div></div>'
         },
         'TELEMUNDO': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠTELEMUNDOﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalOcasional.svg"></img>',
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠTELEMUNDO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTELEMUNDONOTICIAS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTELEMUNDOㅤ</div></div></div>'
         },
         'VOA': {
@@ -238,8 +238,8 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SEÑAL_NBC_LIVE_4.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤNBC NEWS LIVE EVENT 4ㅤ</div></div></div>'
         },
         'TEGNADIGITAL_1': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠWHITE HOUSE VIDEOﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalOcasional.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SEÑAL_TEGNADIGITAL_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTEGNADIGITAL 1ㅤ</div></div></div>'
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠWHITE HOUSE VIDEO',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SEÑAL_TEGNADIGITAL_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤWHITE HOUSEㅤ</div></div></div>'
         },
         'CCTV+1': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCCTV+ 1',
@@ -262,15 +262,15 @@ var App = {
         //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SEÑAL_RTVC_3.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤRTVC LIVE 3ㅤ</div></div></div>'
         //},
         'SERVEL': {
-            'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSERVEL',
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSERVEL',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCB8s6rETjmWgXrp_BxyXqdg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSERVELㅤ</div></div></div>'
         },
         'AGENCIA_UNO': {
-            'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠAGENCIA UNO TVﾠ',
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠAGENCIA UNO TVﾠ',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_AGENCIAUNOTV_2.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤAGENCIA UNOㅤ</div></div></div>'
         },
         'MEDIABANCO_YT': {
-            'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠMEDIABANCOﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalOcasional.svg"></img>',
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠMEDIABANCO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_MEDIABANCO_YT.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤMEDIABANCOㅤ</div></div></div>'
         },
         'TELEMUNDO_YT': {
@@ -617,192 +617,195 @@ var App = {
         },
 
         
-        'CONVENCION_CONSTITUCIONAL_1': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal1.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal1.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL 1ㅤ</div></a></div>'
-        },
-        'CONVENCION_CONSTITUCIONAL_2': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal2.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal2.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL 2ㅤ</div></a></div>'
-        },
-        'CONVENCION_CONSTITUCIONAL_3': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 3',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal3.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL 3ㅤ</div></a></div>'
-        },
-        'CONVENCION_CONSTITUCIONAL_4': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 4',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal4.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL 4ㅤ</div></a></div>'
-        },
-        'CONVENCION_CONSTITUCIONAL_5': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 5',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal5.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL 5ㅤ</div></a></div>'
-        },
-        'CONVENCION_CONSTITUCIONAL_6': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 6',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal6.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL 6ㅤ</div></a></div>'
-        },
-        'CONVENCION_CONSTITUCIONAL_7': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 7',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal7.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL 7ㅤ</div></a></div>'
-        },
-        'CONVENCION_CONSTITUCIONAL_8': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 8',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal8.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL 8ㅤ</div></a></div>'
-        },
-        'CONVENCION_CONSTITUCIONAL_9': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 9',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal9.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL 9ㅤ</div></a></div>'
-        },
-        'CONVENCION_CONSTITUCIONAL_10': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 10',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal10.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL 10ㅤ</div></a></div>'
-        },
-        'CONVENCION_CONSTITUCIONAL_11': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 11',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal11.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL 11ㅤ</div></a></div>'
-        },
-        'CONVENCION_CONSTITUCIONAL_12': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 12',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal12.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL 12ㅤ</div></a></div>'
-        },
-        'CONVENCION_CONSTITUCIONAL_13': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CC.svg"></img>ﾠCONVENCION CONSTITUCIONAL 13',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal13.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL 13ㅤ</div></a></div>'
-        //},
-        //'CONVENCION_CONSTITUCIONAL_YouTube_1': {
-        //    'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠCONVENCION CONSTITUCIONAL 1',
-        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCRlIWVAxQdAnCl4D4UR9r3Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCONVENCION CONSTITUCIONAL 1ㅤ</div></div></div>'
-        //},
-        //'CONVENCION_CONSTITUCIONAL_YouTube_2': {
-        //    'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠCONVENCION CONSTITUCIONAL 2',
-        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCXdVTVjJR0O-VbN78Sd89Gg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCONVENCION CONSTITUCIONAL 2ㅤ</div></div></div>'
-        //},
-        //'CONVENCION_CONSTITUCIONAL_YouTube_3': {
-        //    'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠCONVENCION CONSTITUCIONAL 3',
-        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCrU5uanHGl-cc7ZdLatPDDg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCONVENCION CONSTITUCIONAL 3ㅤ</div></div></div>'
-        //},
-        //'CONVENCION_CONSTITUCIONAL_YouTube_4': {
-        //    'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠCONVENCION CONSTITUCIONAL 4',
-        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCnRIVAs0Ov_-QYqEVfA2MRQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCONVENCION CONSTITUCIONAL 4ㅤ</div></div></div>'
-        //},
-        //'CONVENCION_CONSTITUCIONAL_YouTube_5': {
-        //    'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠCONVENCION CONSTITUCIONAL 5',
-        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCSzWo-vzG3F54HJs7e3CXxw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCONVENCION CONSTITUCIONAL 5ㅤ</div></div></div>'
-        //},
-        //'CONVENCION_CONSTITUCIONAL_YouTube_6': {
-        //    'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠCONVENCION CONSTITUCIONAL 6',
-        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCjj0ghVa8skE1jNq4pQyhrA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCONVENCION CONSTITUCIONAL 6ㅤ</div></div></div>'
-        },
         'TC_YouTube': {
-            'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠT. CONTITUCIONAL',
+            'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠTRIB. CONSTITUCIONAL',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOSㅤ</div></div></div>'
         },
         'SENADO_YouTube': {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠTV SENADO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=true&mute=1"frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤT. Constitucionalㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=true&mute=1"frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV SENADOㅤ</div></div></div>'
         },
         'DIPUTADOS_YouTube': {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠTV DIPUTADOS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOSㅤ</div></div></div>'
         },
+
+        
+        'CONVENCION_CONSTITUCIONAL_1': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_1.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal1.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal1.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL - SEÑAL 1ㅤ</div></a></div>'
+        },
+        'CONVENCION_CONSTITUCIONAL_2': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_2.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal2.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal2.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL - SEÑAL 2ㅤ</div></a></div>'
+        },
+        'CONVENCION_CONSTITUCIONAL_3': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_3.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal3.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL - SEÑAL 3ㅤ</div></a></div>'
+        },
+        'CONVENCION_CONSTITUCIONAL_4': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_4.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal4.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL - SEÑAL 4ㅤ</div></a></div>'
+        },
+        'CONVENCION_CONSTITUCIONAL_5': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_5.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal5.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL - SEÑAL 5ㅤ</div></a></div>'
+        },
+        'CONVENCION_CONSTITUCIONAL_6': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_6.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal6.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL - SEÑAL 6ㅤ</div></a></div>'
+        },
+        'CONVENCION_CONSTITUCIONAL_7': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_7.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal7.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL - SEÑAL 7ㅤ</div></a></div>'
+        },
+        'CONVENCION_CONSTITUCIONAL_8': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_8.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal8.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL - SEÑAL 8ㅤ</div></a></div>'
+        },
+        'CONVENCION_CONSTITUCIONAL_9': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_9.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal9.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL - SEÑAL 9ㅤ</div></a></div>'
+        },
+        'CONVENCION_CONSTITUCIONAL_10': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_10.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal10.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL - SEÑAL 10ㅤ</div></a></div>'
+        },
+        'CONVENCION_CONSTITUCIONAL_11': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_11.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal11.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL - SEÑAL 11ㅤ</div></a></div>'
+        },
+        'CONVENCION_CONSTITUCIONAL_12': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_12.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal12.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL - SEÑAL 12ㅤ</div></a></div>'
+        },
+        'CONVENCION_CONSTITUCIONAL_13': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_Convencion_Constitucional_Señal_13.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/ConvencionConstitucional/Senal13.html" frameborder="0"></iframe><a href="Senal/ConvencionConstitucional/Senal3.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤCONVENCION CONSTITUCIONAL - SEÑAL 13ㅤ</div></a></div>'
+        //},
+        //'CONVENCION_CONSTITUCIONAL_YouTube_1': {
+        //    'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠSEÑAL 1',
+        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCRlIWVAxQdAnCl4D4UR9r3Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSEÑAL 1ㅤ</div></div></div>'
+        //},
+        //'CONVENCION_CONSTITUCIONAL_YouTube_2': {
+        //    'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠSEÑAL 2',
+        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCXdVTVjJR0O-VbN78Sd89Gg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSEÑAL 2ㅤ</div></div></div>'
+        //},
+        //'CONVENCION_CONSTITUCIONAL_YouTube_3': {
+        //    'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠSEÑAL 3',
+        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCrU5uanHGl-cc7ZdLatPDDg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSEÑAL 3ㅤ</div></div></div>'
+        //},
+        //'CONVENCION_CONSTITUCIONAL_YouTube_4': {
+        //    'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠSEÑAL 4',
+        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCnRIVAs0Ov_-QYqEVfA2MRQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSEÑAL 4ㅤ</div></div></div>'
+        //},
+        //'CONVENCION_CONSTITUCIONAL_YouTube_5': {
+        //    'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠSEÑAL 5',
+        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCSzWo-vzG3F54HJs7e3CXxw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSEÑAL 5ㅤ</div></div></div>'
+        //},
+        //'CONVENCION_CONSTITUCIONAL_YouTube_6': {
+        //    'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠSEÑAL 6',
+        //    'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCjj0ghVa8skE1jNq4pQyhrA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSEÑAL 6ㅤ</div></div></div>'
+        },
         'TV_SENADO_1': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSENADO_2.svg">ﾠSEÑAL 1ﾠ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_TVSENADO_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV SENADO 2ㅤ</div></div></div>'
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSenado_Señal_1.svg">',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_TVSENADO_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV SENADO - SEÑAL 2ㅤ</div></div></div>'
         },
         'TV_SENADO_2': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSENADO_2.svg">ﾠSEÑAL 2ﾠ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_TVSENADO_2.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV SENADO 2ㅤ</div></div></div>'
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSenado_Señal_2.svg">',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_TVSENADO_2.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV SENADO - SEÑAL 2ㅤ</div></div></div>'
         },
         'TV_SENADO_3': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSENADO_2.svg">ﾠSEÑAL 3ﾠ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_TVSENADO_3.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV SENADO 3ㅤ</div></div></div>'
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSenado_Señal_3.svg">',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_TVSENADO_3.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV SENADO - SEÑAL 3ㅤ</div></div></div>'
         },
         'TV_SENADO_4': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSENADO_2.svg">ﾠSEÑAL 4ﾠ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_TVSENADO_4.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV SENADO 4ㅤ</div></div></div>'
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSenado_Señal_4.svg">',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_TVSENADO_4.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV SENADO - SEÑAL 4ㅤ</div></div></div>'
         },
         'TV_SENADO_5': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSENADO_2.svg">ﾠSEÑAL 5ﾠ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_TVSENADO_5.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV SENADO 5ㅤ</div></div></div>'
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSenado_Señal_5.svg">',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_TVSENADO_5.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV SENADO - SEÑAL 5ㅤ</div></div></div>'
         },
         'TV_SENADO_6': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSENADO_2.svg">ﾠSEÑAL 6ﾠ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_TVSENADO_6.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV SENADO 6ㅤ</div></div></div>'
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSenado_Señal_6.svg">',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_TVSENADO_6.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV SENADO - SEÑAL 6ㅤ</div></div></div>'
         },
         'DIPUTADOS_YouTube_1': {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠDIPUTADOS 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCcULnWuDzgQG9yF0Dv3DIgg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS 1ㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCcULnWuDzgQG9yF0Dv3DIgg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS - SEÑAL 1ㅤ</div></div></div>'
         },
         'DIPUTADOS_YouTube_3': {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠDIPUTADOS 3',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCF6KgLfQqQzekn8U1DwVs9g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS 3ㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCF6KgLfQqQzekn8U1DwVs9g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS - SEÑAL 3ㅤ</div></div></div>'
         },
         'DIPUTADOS_YouTube_5': {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠDIPUTADOS 5',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC0QKtI8NpeMObauDylsSUDA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS 5ㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC0QKtI8NpeMObauDylsSUDA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS - SEÑAL 5ㅤ</div></div></div>'
         },
         'DIPUTADOS_YouTube_6': {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠDIPUTADOS 6',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCspWzpGflwb6A8PZqWw49CQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS 6ㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCspWzpGflwb6A8PZqWw49CQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS - SEÑAL 6ㅤ</div></div></div>'
         },
         'DIPUTADOS_YouTube_7': {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠDIPUTADOS 7',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS 7ㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS - SEÑAL 7ㅤ</div></div></div>'
         },
         'DIPUTADOS_YouTube_8': {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠDIPUTADOS 8',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS 8ㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS - SEÑAL 8ㅤ</div></div></div>'
         },
         'DIPUTADOS_YouTube_11': {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠDIPUTADOS 11',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCYPKjGKq2yLbAnmth5rFZmQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS 11ㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCYPKjGKq2yLbAnmth5rFZmQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS - SEÑAL 11ㅤ</div></div></div>'
         },
         'DIPUTADOS_YouTube_12': {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠDIPUTADOS 12',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCVOWFY-sgbDglBsfOap9okg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS 12ㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCVOWFY-sgbDglBsfOap9okg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS - SEÑAL 12ㅤ</div></div></div>'
         },
         'DIPUTADOS_YouTube_13': {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠDIPUTADOS 13',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS 13ㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤDIPUTADOS - SEÑAL 13ㅤ</div></div></div>'
         },
+
+
+
+        'PoderJudicialTV_1': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 1',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL - SEÑAL 1ㅤ</div></div></div>'
+        },
+        'PoderJudicialTV_2': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 2',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_2.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL - SEÑAL 2ㅤ</div></div></div>'
+        },
+        'PoderJudicialTV_3': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 3',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_3.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL - SEÑAL 3ㅤ</div></div></div>'
+        },
+        'PoderJudicialTV_4': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 4',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_4.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL - SEÑAL 4ㅤ</div></div></div>'
+        },
+        'PoderJudicialTV_5': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 5',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_5.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL - SEÑAL 5ㅤ</div></div></div>'
+        },
+        'PoderJudicialTV_6': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 6',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_6.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL - SEÑAL 6ㅤ</div></div></div>'
+        },
+        'PoderJudicialTV_7': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 7',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_7.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL - SEÑAL 7ㅤ</div></div></div>'
+        },
+        'PoderJudicialTV_8': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 8',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_8.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL - SEÑAL 8ㅤ</div></div></div>'
+        },
+
 
 
         
-        'PoderJudicialTV_1': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 1ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL 1ㅤ</div></div></div>'
-        },
-        'PoderJudicialTV_2': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 2ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_2.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL 2ㅤ</div></div></div>'
-        },
-        'PoderJudicialTV_3': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 3ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_3.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL 3ㅤ</div></div></div>'
-        },
-        'PoderJudicialTV_4': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 4ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_4.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL 4ㅤ</div></div></div>'
-        },
-        'PoderJudicialTV_5': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 5ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_5.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL 5ㅤ</div></div></div>'
-        },
-        'PoderJudicialTV_6': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 6ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_6.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL 6ㅤ</div></div></div>'
-        },
-        'PoderJudicialTV_7': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 7ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_7.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL 7ㅤ</div></div></div>'
-        },
-        'PoderJudicialTV_8': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 8ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPoderJudicial_8.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPODER JUDICIAL 8ㅤ</div></div></div>'
-        },
-
-
-
         
         
         
@@ -815,8 +818,12 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCAMPARQUEMET_TERRAZA_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSTGO. PARQUEMET TERRAZAㅤ</div></div></div>'
         },
         'PLAZAITALIA_CIMA': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠPLAZA ITALIA (Galeria Cima)',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠPLAZA ITALIA ',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_CAMARA_PLAZA_ITALIA_CIMA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPLAZA ITALIAㅤ</div></div></div>'
+        },
+        'PLAZAITALIA_CIMA2': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠPLAZA ITALIA 2',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_CAMARA_PLAZA_ITALIA_CIMA_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPLAZA ITALIAㅤ</div></div></div>'
         },
         'LEDRIUM_1': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠPROVIDENCIA (Ledrium)',
@@ -835,15 +842,23 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCAMARA_IQUIQUE_PLAYA_LA_PUNTA2.html" frameborder="0"></iframe><a href="https://www.glaseado.cl/surf-cams/la-punta-2/" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤIQUIQUEㅤ</div></a></div>'
         },
         'OSORNO_1': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠOSORNO PLAZA ARMAS',
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠOSORNO PLAZA OP1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/Camara_Osorno.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤOSORNOㅤ</div></div></div>'
         },
+        'OSORNO_2': {
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠOSORNO PLAZA OP2',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_CAMARA_OSORNO_YT.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤOSORNOㅤ</div></div></div>'
+        },
+        'OSORNO_3': {
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠOSORNO PLAZA OP3',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_CAMARA_OSORNO_YT_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤOSORNOㅤ</div></div></div>'
+        },
         'VALPARAISO': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠVALPARAISOﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalOcasional.svg"></img>',
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠVALPARAISO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_CAMARA_VALPARAISO.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤVALPARAISOㅤ</div></div></div>'
         },
         'COYHAIQUE': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCOYHAIQUE (Radio)ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalOcasional.svg"></img>',
+            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCOYHAIQUE (Radio)',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIO_CANALSURPATAGONIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCOYHAIQUEㅤ</div></div></div>'
         },
         'CAPITOLIO_EEUU_1': {
@@ -886,6 +901,8 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/jp.svg"></img>ﾠTOKYO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QOjmvL3e7Lc?autoplay=true&mute=1" frameborder="0"></iframe><a href="https://youtu.be/QOjmvL3e7Lc" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤTOKYOㅤ</div></a></div>'
         },
+
+
         'ARICA_TV': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠARICA | ARICA TV',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARICA_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤARICA - ARICA TVㅤ</div></div></div>'
@@ -1161,42 +1178,6 @@ var App = {
         'LabPadre_SentinelCam': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠSTARBASE: Sentinel Cam',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/LabPadre/SentinelCam.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSentinel Camㅤ</div></div></div>'
-        },
-        'PantallaVacia1': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠVACIO 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="" frameborder="0"></iframe></div>'
-        },
-        'PantallaVacia2': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠVACIO 2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="" frameborder="0"></iframe></div>'
-        },
-        'PantallaVacia3': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠVACIO 3',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="" frameborder="0"></iframe></div>'
-        },
-        'Barras_1': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠBARRAS 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <img class="embed-responsive-item" src="imagenes/SinSeñal.png" frameborder="0"></img></div>'
-        },
-        'Barras_2': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠBARRAS 2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <img class="embed-responsive-item" src="imagenes/SinSeñal.png" frameborder="0"></img></div>'
-        },
-        'Barras_3': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠBARRAS 3',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <img class="embed-responsive-item" src="imagenes/SinSeñal.png" frameborder="0"></img></div>'
-        },
-        'Barras_4': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠBARRAS 4',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <img class="embed-responsive-item" src="imagenes/SinSeñal.png" frameborder="0"></img></div>'
-        },
-        'Barras_5': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠBARRAS 5',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <img class="embed-responsive-item" src="imagenes/SinSeñal.png" frameborder="0"></img></div>'
-        },
-        'Barras_6': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠBARRAS 6',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <img class="embed-responsive-item" src="imagenes/SinSeñal.png" frameborder="0"></img></div>'
         },
         'RELOJES': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Reloj.svg"></img>ﾠRELOJES CHILE',
