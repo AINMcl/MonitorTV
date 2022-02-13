@@ -39,6 +39,14 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 </script>
 
+<script>
+    $(document).ready(function(){
+        $(".TextoBotonRecargar2").click(function(){
+            $(".Botones").toggle();
+        });
+    });
+</script>
+
 </head>
 <body>
 
@@ -70,6 +78,10 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
     
         <a onclick="cancelFullScreen();"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_2.svg"></img>ﾠ</span></a>
         
+    </div>
+
+    <div style="position: absolute; top: 4%;" class="FondoBotonRecargar">
+        <a><span type="button" class="TextoBotonRecargar2">ㅤOCULTAR BOTONESㅤ</span></a>
     </div>
     
     <script>
