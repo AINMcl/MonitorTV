@@ -1,1 +1,45 @@
-1
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<script type="text/javascript" src="//cdrvrs.com/5/4324606" async data-cfasync="false"></script>
+<head>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="black">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<!--<script src="keys.js"></script>-->
+<script src="//cdn.bitmovin.com/player/web/8/bitmovinplayer.js"></script>
+<style>.bmpui-ui-watermark{display:none;}</style>
+<script async src='/cdn-cgi/challenge-platform/h/b/scripts/invisible.js'></script>
+
+</head>
+<body style="margin:0">
+
+    
+<div id="-"></div>
+<script>
+var container = document.getElementById("-");
+function override(url) {
+  if (url.indexOf("ing") > -1) return;
+  return url;
+}
+var opens = XMLHttpRequest.prototype.open;
+XMLHttpRequest.prototype.open = function() {
+  var url = override(arguments[1]);
+  arguments[1] = url;
+  return opens.apply(this, arguments);
+}
+const config =	{
+		key: " ",
+		playback: {autoplay: false},
+		cast: {enable: true},
+		}
+var source =	{
+		dash: atob("Ly9jaHJvbWVjYXN0LmN2YXR0di5jb20uYXIvbGl2ZS9jMmxpdmUvQ05OX2VuX0VzcGFub2wvU0FfTGl2ZV9kYXNoX2VuY18yQS9DTk5fZW5fRXNwYW5vbC5tcGQ="),
+		drm: {widevine: {LA_URL: atob("bGk/aWQ9Zmw=")}}
+		}
+var player = new bitmovin.player.Player(container, config);
+    player.load(source);
+</script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dd86626fd407513',m:'9mPSmLSv15ziTCw8bdHWSjp1K5BpAXUGJsFsc_HGbTk-1644863755-0-AbUEVh32kvYETTgg+gbYcaffo+jm1aA3aCJ7OgE3gBAIMtwjAm72ETqJTXinBwjYwHoVpYZI6GPIX8fqVLvaEwINN5yopkGr9muXR4K+52AqxwNDADodIK9F+sIGRwecajlg8yEsIZjIQUHQ3u2X7kQ=',s:[0x747bfc841c,0x783fff509f],u:'/cdn-cgi/challenge-platform/h/b'}})();</script></body>
+</html>
