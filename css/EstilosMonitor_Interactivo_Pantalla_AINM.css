@@ -1,3 +1,23 @@
+.modal-body{
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+    text-align: left;
+}
+
+.modal-footer{
+    border-radius: 0px !important;
+    background-color: #424242;
+    flex-wrap: nowrap;
+}
+
+.modal-content{
+    backdrop-filter: blur(5px) !important;
+    background-color: rgba(255, 0, 0, 0.493)
+}
+
+.FondoBotonesSeñales{
+    background-color: #0000df;
+}
 
 
 .video-container{
@@ -9,34 +29,7 @@
 
 .channels-container{
     width: 100%;
-    height: 90%;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 10px;
-    
-}
-
-.BotonHomeTV{
-    display: inline-block;
-    background-color: #5e5e5e;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-top: 15px;
-    width: 100%;
-    height: 10%;
-    cursor:
-    pointer;
-    transition:all .3s
-}
-
-.BotonHomeTV:hover{
-    color: #ffffff;
-    background-color: #ff0000;
+    height: 100%;
 }
 
 
@@ -78,16 +71,16 @@
     justify-content: left;
     border-color: #171e27;
     border-width: 1.5px;
-    border-radius: 0px;
+    border-radius: 5px;
     padding-left: 5%;
-    width: 99%;
-    height: 10%;
+    width: 100%;
+    height: 50px;
     color: #171e27;
     margin: 0;
     font-size: 15px;
     font-family: 'Assistant', sans-serif;
     font-weight: bold;
-    margin-bottom: 5%;
+    margin-bottom: 10px;
     cursor:
     pointer;
     transition:all .2s
@@ -100,7 +93,7 @@
     border-width: 2px;
     font-weight: bold;
     color:#0000df;
-    border-radius: 0px;
+    border-radius: 5px;
     box-shadow: 0px 0px 10px #0000df;
 }
 
@@ -109,7 +102,7 @@
 .SeñalSeleccionada {
     background-color: #ffffff;
     color: #129700;
-    border-radius: 0px;
+    border-radius: 5px;
     border: 2px solid #129700;
     box-shadow: 0px 0px 10px #129700;
 }
@@ -134,3 +127,10 @@
     height: 100%;
     background: transparent;
 }
+
+
+
+
+
+
+

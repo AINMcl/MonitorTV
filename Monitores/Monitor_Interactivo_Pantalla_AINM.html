@@ -7,10 +7,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
     
+<link rel="stylesheet" href="../css/EstilosMonitor_Interactivo_Pantalla_AINM.css">
 <link href="../css/estilos.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="../css/EstilosAINM_TV_2.css">
 
-<script src="../js/Canales_AINM_TV_2.js"></script>
+
+<script src="../js/Monitor_Interactivo_Pantalla_Señales.js"></script>
+
+<script src="../js/Efecto.js"></script>
 
 <link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
 
@@ -47,31 +50,40 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
 
 <body style="background-color: #f2f2f2;font-family: 'Assistant', sans-serif;">
     
-    <div style="position: absolute; display: inline-block; width: 100%; height:100%" >
-        <div style="background-color: #ffffff; width: 25%; height:100%; float: left; position: absolute; left: 0%;">
-            <div class="channels-container">
-                <section id="channel-list" class="channel-list">
-                </section>
-            </div>
-            <div class="BotonesListaCanales">
-                <div style="width: 49%; display:inline-table;">
-                    <img style="height: 30px; width:auto" src="../imagenes/Logo_IconSolo.svg"></img>
-                </div>
-                <div style="width: 49%;display:inline-table;">
-                    <a href="HomeAINM.html"><span class="BotonCardHome waves-effect waves-red">ㅤIR A HOMEㅤ</span></a>
-                </div>
-            </div>
-       </div>
 
-       <!--<hr/>☰✕✕-->
-       <div style="background-color: #d6d6d6; width: 75%; height:100%; right: 0%; position: absolute; padding-top: 30px; padding-right: 20px; padding-left: 20px;">
-            <div style="background-color: black;" id="video-container" class="video-container">
-                <iframe id="player" src=""></iframe>
+    
+    <div style="width: 100%; background-color: black;" id="video-container" class="video-container embed-responsive-16by9">
+        <iframe id="player" src=""></iframe>
+    </div>
+
+
+    <div class="modal fade" id="ModalSeñales" tabindex="-1" role="dialog" aria-labelledby="ModalSeñalesLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content FondoBotonesSeñales">
+            <div class="modal-header FondoTitulo">
+                <h5 class="Titulo">SELECCIONE UNA SEÑAL</h5>
+                <button type="button" class="close" id="custom-close" data-dismiss="modal">
+                </button>
+                <a><span class="BotonCierreMenuSeñales waves-effect waves-red" id="custom-close2" data-dismiss="modal">CERRAR MENU</span></a>
             </div>
+            <div class="modal-body">
+                <div class="channels-container">
+                    <section id="channel-list" class="channel-list">
+                    </section>
+                </div>
+            </div>
+          </div>
         </div>
-   </div>
+      </div>
+
+
+<div class="BotonLapiz">
+
+    <div class="BotonSeleccionarSeñales2" data-toggle="modal" data-target="#ModalSeñales">ㅤCAMBIAR SEÑALㅤ</div>
+    
+</div>
 
    
 </body>
-<script src="../js/script.js"></script>
+<script src="../js/Monitor_Interactivo_Pantalla_Script.js"></script>
 </html>

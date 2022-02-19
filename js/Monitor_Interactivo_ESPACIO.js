@@ -16,11 +16,11 @@ var App = {
         },
         'ISS_SD': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_NASA.svg"></img>ﾠISS CAM SD',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_ISS_SD.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤISS SDㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalISS_SD.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤISS SDㅤ</div></div></div>'
         },
         'ISS_HD': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_NASA.svg"></img>ﾠISS CAM HD',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal_ISS_HD.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤISS HDㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalISS_HD.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤISS HDㅤ</div></div></div>'
         },
         'ISS_TRACKER': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Ubicacion.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_ESA.svg"></img>ﾠISS TRACKER MAP 1',
