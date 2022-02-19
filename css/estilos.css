@@ -1332,6 +1332,7 @@ section#RelojesMonitor2{
   
 }
 
+
 .BotonHomeR{
   background-color: #ff0000;
   border-color: #ff0000;
@@ -3079,6 +3080,34 @@ background-image: linear-gradient(
   transition:all .6s;
   color: #0000df;
   background-color: #0000df ;
+}
+
+
+.BotonActualizaciones{
+  background-color: #ff0000;
+  border-color: #ff0000;
+  border: 3px solid;
+  display:inline-table;
+  margin: 5px;
+  width: auto;
+  height: auto;
+  font-size: 20PX;
+  border-radius: 9px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonActualizaciones:hover{
+  color:#ff0000;
+  background-color:#ffffff;
+  border-color:#ff0000;
+  box-shadow: 0px 0px 15px #ff0000;
 }
 
 
