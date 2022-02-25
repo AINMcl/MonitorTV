@@ -213,6 +213,15 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 4',
         'url': 'SeñalNBC_LIVE_4.html'
     }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE 1',
+        'url': 'SeñalCNN_NEWS_SOURCE_LIVE_1.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE 2',
+        'url': 'SeñalCNN_NEWS_SOURCE_LIVE_2.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE 4',
+        'url': 'SeñalCNN_NEWS_SOURCE_LIVE_4.html'
+    }, {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN LIVE EVENT 1',
         'url': 'SeñalCNN_LIVE_EVENT_1.html'
     }, {

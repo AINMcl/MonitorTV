@@ -172,6 +172,9 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠREUTERS',
         'url': 'SeñalREUTERS.html'
     }, {
+        'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Iframe_Externo.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠREUTERS WEB',
+        'url': 'https://www.reuters.tv/live?nonav=true'
+    }, {
         'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠTELEMUNDO',
         'url': 'SeñalTELEMUNDONOTICIAS.html'
     }, {
@@ -216,6 +219,15 @@ let LosCanales = [
     }, {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 4',
         'url': 'SeñalNBC_LIVE_4.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE 1',
+        'url': 'SeñalCNN_NEWS_SOURCE_LIVE_1.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE 2',
+        'url': 'SeñalCNN_NEWS_SOURCE_LIVE_2.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE 4',
+        'url': 'SeñalCNN_NEWS_SOURCE_LIVE_4.html'
     }, {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN LIVE EVENT 1',
         'url': 'SeñalCNN_LIVE_EVENT_1.html'
@@ -689,6 +701,11 @@ let LosCanales = [
     {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 3)',
         'url': 'https://www.youtube.com/embed/iZebYm-nenY?autoplay=true&mute=1'
+    },
+    //UCRANIA3
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 4)',
+        'url': 'https://www.youtube.com/embed/teF2f1DkeEQ?autoplay=true&mute=1'
     },
     //Severodonetsk
     {
