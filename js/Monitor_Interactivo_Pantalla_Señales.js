@@ -226,6 +226,9 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE 2',
         'url': 'SeñalCNN_NEWS_SOURCE_LIVE_2.html'
     }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE 3',
+        'url': 'SeñalCNN_NEWS_SOURCE_LIVE_3.html'
+    }, {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE 4',
         'url': 'SeñalCNN_NEWS_SOURCE_LIVE_4.html'
     }, {
