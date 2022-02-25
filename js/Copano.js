@@ -34,6 +34,10 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 3)',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iZebYm-nenY?autoplay=true&mute=1" frameborder="0"></iframe><a href="https://youtu.be/2cyQPN5xQtU" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤUCRANIAㅤ</div></a></div>'
         },
+        'UCRANIA3': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 4)',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/teF2f1DkeEQ?autoplay=true&mute=1" frameborder="0"></iframe><a href="https://youtu.be/2cyQPN5xQtU" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤUCRANIAㅤ</div></a></div>'
+        },
         'Severodonetsk': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠSEVERODONETSK',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kzQdh7Sd7ZM?autoplay=true&mute=1" frameborder="0"></iframe><a href="https://youtu.be/kzQdh7Sd7ZM" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤSEVERODONETSKㅤ</div></a></div>'
