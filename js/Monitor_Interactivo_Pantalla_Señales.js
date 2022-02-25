@@ -660,6 +660,41 @@ let LosCanales = [
 
     
     
+    //KIEV
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV 1',
+        'url': 'https://www.youtube.com/embed/5e-FSBVHv8g?autoplay=true&mute=1'
+    },
+    //KIEV2
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV 2',
+        'url': 'https://www.youtube.com/embed/K_ktlQnDr8A?autoplay=true&mute=1'
+    },
+    //KIEV3
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV 3',
+        'url': 'https://www.youtube.com/embed/mUkztfrsOfs?autoplay=true&mute=1'
+    },
+    //KIEV4
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV (MULTICAM 1)',
+        'url': 'https://www.youtube.com/embed/HIPNVm6lNfM?autoplay=true&mute=1'
+    },
+    //UCRANIA
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 2)',
+        'url': 'https://www.youtube.com/embed/JahPwum5PBg?autoplay=true&mute=1'
+    },
+    //UCRANIA2
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 3)',
+        'url': 'https://www.youtube.com/embed/iZebYm-nenY?autoplay=true&mute=1'
+    },
+    //Severodonetsk
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠSEVERODONETSK',
+        'url': 'https://www.youtube.com/embed/kzQdh7Sd7ZM?autoplay=true&mute=1'
+    },
     {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠPARQUEMET CUMBRE',
         'url': 'SeñalCAMPARQUEMET_CUMBRE_2.html'
