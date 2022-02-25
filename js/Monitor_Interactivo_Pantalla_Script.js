@@ -4,6 +4,11 @@ const btns = seccionCanales.getElementsByClassName("channel");
 const nombreBarra = document.createElement('div');
 
 
+const ancla = document.createElement('A');
+ancla.id = 'links';
+ancla.title = 'Ir a la página oficial de esta transmisión';
+
+
 for (const canal of LosCanales) {
     const BtnCanal = document.createElement('BUTTON');
 

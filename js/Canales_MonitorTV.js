@@ -1,7 +1,8 @@
 let LosCanales = [
     {
         'nombre': '<img style="height: 35%; width:auto:" src="imagenes/Logo_24PLAY.svg"></img>',
-        'url': 'Señal24HTVN.html'
+        'url': 'Señal24HTVN.html',
+        'id': '24 HORAS'
     }, {
         'nombre': '<img style="height: 35%; width:auto:" src="imagenes/Logo_CANAL24H.svg"></img>',
         'url': 'SeñalCanal24HTVN.html'
