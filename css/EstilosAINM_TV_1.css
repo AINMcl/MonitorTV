@@ -39,7 +39,7 @@
     background-color: #ff0000;
 }
 
-.AvisonActualizacion{
+.AvisoActualizacion{
     display: inline-block;
     background-color: #969696;
     color: #ffffff;
@@ -56,7 +56,7 @@
     transition:all .3s
 }
 
-.AvisonActualizacion:hover{
+.AvisoActualizacion:hover{
     color: #ffffff;
     background-color: #42b301;
 }
