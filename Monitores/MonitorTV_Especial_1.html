@@ -47,27 +47,33 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
 
 </head>
 
-<body style="background-color: #f2f2f2;font-family: 'Assistant', sans-serif;">
+<body style="background-color: #f2f2f2;font-family: 'Assistant', sans-serif; overflow: hidden;">
+    
     
     <div style="position: absolute; display: inline-block; width: 100%; height:100%" >
         
-        <div style="background-color: #ffffff; width: 25%; height:100%; float: left; position: absolute; left: 0%;">
+        <div style="background-color: #ffffff; width: 25%; height:99%; float: left; position: absolute; left: 0%;">
 
-            <div class="channels-container">
+            <div class="channels-container" style="padding-bottom: 5px;">
                 <section id="channel-list" class="channel-list">
                 </section>
             </div>
+            <div class="AvisonActualizacion" style="font-size: 12px;">
+                Actualizado el 26 Febrero a las 12:00
+            </div>
             
             <a href="Home.html"><span class="BotonHomeTV waves-effect waves-red">ㅤIR A HOMEㅤ</span></a>
+            
 
        </div>
 
        <!--<hr/>☰✕✕-->
-       <div style="background-color: #d6d6d6; width: 75%; height:100%; right: 0%; position: absolute; padding-top: 30px; padding-right: 20px; padding-left: 20px;">
+        <div style="background-color: #d6d6d6; width: 75%; height:100%; right: 0%; position: absolute; padding-top: 30px; padding-right: 20px; padding-left: 20px;">
             <div style="background-color: black;" id="video-container" class="video-container">
                 <iframe id="player" src=""></iframe>
             </div>
         </div>
+        
    </div>
 
    

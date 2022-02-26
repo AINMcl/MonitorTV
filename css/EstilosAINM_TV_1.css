@@ -39,6 +39,28 @@
     background-color: #ff0000;
 }
 
+.AvisonActualizacion{
+    display: inline-block;
+    background-color: #969696;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    width: 100%;
+    height: 3%;
+    cursor:
+    pointer;
+    transition:all .3s
+}
+
+.AvisonActualizacion:hover{
+    color: #ffffff;
+    background-color: #42b301;
+}
+
 
 /* listado canales */
 .channel-list {
