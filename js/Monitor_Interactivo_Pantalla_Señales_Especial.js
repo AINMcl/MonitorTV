@@ -58,42 +58,6 @@ let LosCanales = [
         'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠTELEMUNDO',
         'url': 'SeñalTELEMUNDONOTICIAS.html'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 1',
-        'url': 'SeñalVOA_LIVE_01.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 6',
-        'url': 'SeñalVOA_LIVE_06.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 9',
-        'url': 'SeñalVOA_LIVE_09.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 10',
-        'url': 'SeñalVOA_LIVE_10.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 13',
-        'url': 'SeñalVOA_LIVE_13.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSKY NEWS EXTRA 1',
-        'url': 'SeñalSKY_NEWS_EXTRA_1.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSKY NEWS EXTRA 2',
-        'url': 'SeñalSKY_NEWS_EXTRA_2.html'
-    },{
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSKY NEWS EXTRA 3',
-        'url': 'SeñalSKY_NEWS_EXTRA_3.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 1',
-        'url': 'SeñalNBC_LIVE_1.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 2',
-        'url': 'SeñalNBC_LIVE_2.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 3',
-        'url': 'SeñalNBC_LIVE_3.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 4',
-        'url': 'SeñalNBC_LIVE_4.html'
-    }, {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE 1',
         'url': 'SeñalCNN_NEWS_SOURCE_LIVE_1.html'
     }, {
@@ -123,6 +87,42 @@ let LosCanales = [
     }, {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN LIVE EVENT 5',
         'url': 'SeñalCNN_LIVE_EVENT_5.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 1',
+        'url': 'SeñalNBC_LIVE_1.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 2',
+        'url': 'SeñalNBC_LIVE_2.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 3',
+        'url': 'SeñalNBC_LIVE_3.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 4',
+        'url': 'SeñalNBC_LIVE_4.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 1',
+        'url': 'SeñalVOA_LIVE_01.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 6',
+        'url': 'SeñalVOA_LIVE_06.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 9',
+        'url': 'SeñalVOA_LIVE_09.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 10',
+        'url': 'SeñalVOA_LIVE_10.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 13',
+        'url': 'SeñalVOA_LIVE_13.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSKY NEWS EXTRA 1',
+        'url': 'SeñalSKY_NEWS_EXTRA_1.html'
+    }, {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSKY NEWS EXTRA 2',
+        'url': 'SeñalSKY_NEWS_EXTRA_2.html'
+    },{
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSKY NEWS EXTRA 3',
+        'url': 'SeñalSKY_NEWS_EXTRA_3.html'
     }, {
         'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠTELEMUNDO',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCRwA1NUcUnwsly35ikGhp0A&autoplay=true&mute=1'
