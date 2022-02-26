@@ -4,11 +4,6 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV 1 (FOX NEWS)',
         'url': 'https://www.youtube.com/embed/5e-FSBVHv8g?autoplay=true&mute=1'
     },
-    //KIEV CAM 2
-    {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV 2 (DW)',
-        'url': 'https://www.youtube.com/embed/1e0MV6ox-OE?autoplay=true&mute=1'
-    },
     //KIEV CAM 3
     {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV 3',
@@ -37,7 +32,7 @@ let LosCanales = [
     //UCRANIA MULTICAM 5
     {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 5)',
-        'url': 'https://www.youtube.com/embed/iUkfhlIvvKQ?autoplay=true&mute=1'
+        'url': 'https://www.youtube.com/embed/0zRChSztdtQ?autoplay=true&mute=1'
     },
     //UCRANIA MULTICAM 6
     {
