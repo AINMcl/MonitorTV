@@ -182,13 +182,7 @@ let LosCanales = [
     }, {
         'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠAGENCIA UNO TV',
         'url': 'SeñalAGENCIAUNOTV_2.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠMEDIABANCO',
-        'url': 'SeñalMEDIABANCO.html'
-    }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠMEDIABANCO 2',
-        'url': 'SeñalMEDIABANCO2.html'
-    }, 
+    },
     
     {
         'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠRUPTLY',
