@@ -22,6 +22,10 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV 4 (CNN)',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_NEWS_SOURCE_LIVE_3.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤKIEVㅤ</div></div></div>'
         },
+        'KIEV3': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV 5 (DW)',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-Q7FuPINDjA?autoplay=true&mute=1" frameborder="0"></iframe><a href="https://youtu.be/2cyQPN5xQtU" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤKIEVㅤ</div></a></div>'
+        },
         'KIEV4': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV (MULTICAM 1)',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HIPNVm6lNfM?autoplay=true&mute=1" frameborder="0"></iframe><a href="https://youtu.be/2cyQPN5xQtU" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">ㅤKIEVㅤ</div></a></div>'
