@@ -1,43 +1,43 @@
 let LosCanales = [
     //KIEV CAM 1
     {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV 1 (FOX NEWS)',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV CAM 1 (FOX NEWS)',
         'url': 'https://www.youtube.com/embed/5e-FSBVHv8g?autoplay=true&mute=1'
     },
-    //KIEV CAM 3
+    //UCRANIA CAM 1
     {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV 3',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA CAM 1 (NEWS)',
         'url': 'https://www.youtube.com/embed/8EihuEbqiBA?autoplay=true&mute=1'
-    },
-    //KIEV CAM 4
-    {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV (MULTICAM 1)',
-        'url': 'https://www.youtube.com/embed/HIPNVm6lNfM?autoplay=true&mute=1'
     },
     //UCRANIA MULTICAM 1
     {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 2)',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 1)',
         'url': 'https://www.youtube.com/embed/JahPwum5PBg?autoplay=true&mute=1'
+    },
+    //UCRANIA MULTICAM 2
+    {
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 2)',
+        'url': 'https://www.youtube.com/embed/iZebYm-nenY?autoplay=true&mute=1'
     },
     //UCRANIA MULTICAM 3
     {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 3)',
-        'url': 'https://www.youtube.com/embed/iZebYm-nenY?autoplay=true&mute=1'
+        'url': 'https://www.youtube.com/embed/x3yMxxAkN4w?autoplay=true&mute=1'
     },
     //UCRANIA MULTICAM 4
     {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 4)',
-        'url': 'https://www.youtube.com/embed/x3yMxxAkN4w?autoplay=true&mute=1'
+        'url': 'https://www.youtube.com/embed/lf-EEnsxZXo?autoplay=true&mute=1'
     },
     //UCRANIA MULTICAM 5
     {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 5)',
-        'url': 'https://www.youtube.com/embed/0zRChSztdtQ?autoplay=true&mute=1'
+        'url': 'https://www.youtube.com/embed/e2gC37ILQmk?autoplay=true&mute=1'
     },
     //UCRANIA MULTICAM 6
     {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 6)',
-        'url': 'https://www.youtube.com/embed/e2gC37ILQmk?autoplay=true&mute=1'
+        'url': 'https://www.youtube.com/embed/k8yBajlwRwU?autoplay=true&mute=1'
     },
     
     
