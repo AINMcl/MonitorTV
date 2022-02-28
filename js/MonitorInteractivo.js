@@ -1,6 +1,6 @@
 
 var size = 4;
-
+///ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>///
 ///6 = 2 PANTALLAS HORIZONTALMENTE///
 ///3 = 4 PANTALLAS HORIZONTALMENTE///
 ///4 = 3 PANTALLAS HORIZONTALMENTE///
@@ -197,6 +197,10 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠREUTERS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalREUTERS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤREUTERSㅤ</div></div></div>'
         },
+        'REUTERS_WEB': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠREUTERS WEB',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.reuters.tv/live?nonav=true" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤREUTERS WEBㅤ</div></div></div>'
+        },
         'TELEMUNDO': {
             'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠTELEMUNDO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTELEMUNDONOTICIAS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTELEMUNDOㅤ</div></div></div>'
@@ -250,43 +254,43 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalNBC_LIVE_4.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤNBC NEWS LIVE EVENT 4ㅤ</div></div></div>'
         },
         'CNN_NEWS_SOURCE_LIVE_1': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE LIVE 1ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE LIVE 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_NEWS_SOURCE_LIVE_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCNN NEWS SOURCE 1ㅤ</div></div></div>'
         },
         'CNN_NEWS_SOURCE_LIVE_2': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE LIVE 2ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE LIVE 2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_NEWS_SOURCE_LIVE_2.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCNN NEWS SOURCE 2ㅤ</div></div></div>'
         },
         'CNN_NEWS_SOURCE_LIVE_3': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE LIVE 3ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE LIVE 3',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_NEWS_SOURCE_LIVE_3.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCNN NEWS SOURCE 3ㅤ</div></div></div>'
         },
         'CNN_NEWS_SOURCE_LIVE_4': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE LIVE 4ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE LIVE 4',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_NEWS_SOURCE_LIVE_4.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCNN NEWS SOURCE 4ㅤ</div></div></div>'
         },
         'CNN_NEWS_SOURCE_LIVE_5': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE LIVE 5ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE LIVE 5',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_NEWS_SOURCE_LIVE_5.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCNN NEWS SOURCE 5ㅤ</div></div></div>'
         },
         'CNN_LIVE_EVENT_1': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN LIVE EVENT 1ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN LIVE EVENT 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_LIVE_EVENT_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCNN LIVE EVENT 1ㅤ</div></div></div>'
         },
         'CNN_LIVE_EVENT_2': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN LIVE EVENT 2ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN LIVE EVENT 2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_LIVE_EVENT_2.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCNN LIVE EVENT 2ㅤ</div></div></div>'
         },
         'CNN_LIVE_EVENT_3': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN LIVE EVENT 3ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN LIVE EVENT 3',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_LIVE_EVENT_3.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCNN LIVE EVENT 3ㅤ</div></div></div>'
         },
         'CNN_LIVE_EVENT_4': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN LIVE EVENT 4ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN LIVE EVENT 4',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_LIVE_EVENT_4.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCNN LIVE EVENT 4ㅤ</div></div></div>'
         },
         'CNN_LIVE_EVENT_5': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN LIVE EVENT 5ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN LIVE EVENT 5',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_LIVE_EVENT_5.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCNN LIVE EVENT 5ㅤ</div></div></div>'
         },
         'CNNI_LIVE_EVENT_1': {
