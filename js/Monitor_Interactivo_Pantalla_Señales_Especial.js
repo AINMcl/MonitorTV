@@ -241,7 +241,7 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/qa.svg"></img>ﾠAL JAZEERA ARABIC',
         'url': 'https://www.youtube.com/embed/EeCn9FN94RU?autoplay=true&mute=1'
     }, {
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠAL JAZEERA ENG',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/qa.svg"></img>ﾠAL JAZEERA ENG',
         'url': 'https://www.youtube.com/embed/-upyPouRrB8?autoplay=true&mute=1'
     }, {
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠCSPAN',
