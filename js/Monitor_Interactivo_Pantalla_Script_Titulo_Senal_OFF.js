@@ -6,7 +6,7 @@ const nombreBarra = document.createElement('div');
 
 const ancla = document.createElement('A');
 ancla.id = 'links';
-ancla.title = 'Ir a la página oficial de esta transmisión';
+ancla.title = 'TITULO DE SEÑAL';
 
 
 for (const canal of LosCanales) {
@@ -22,9 +22,7 @@ for (const canal of LosCanales) {
         );
 
         document.getElementById('video-container').appendChild(nombreBarra);
-        ancla.href = canal.fuente;
         ancla.innerText = canal.nombre;
-        document.getElementById('nombre-barra').appendChild(ancla);
     };
     seccionCanales.appendChild(BtnCanal)
 }
