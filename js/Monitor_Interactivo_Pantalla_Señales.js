@@ -41,7 +41,7 @@ let LosCanales = [
         'url': 'SeñalLARED.html'
     },{
         'titulo': 'ㅤTV+ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_TVMAS.svg"></img>',
+        'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Iframe_Externo.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_TVMAS.svg"></img>',
         'url': 'SeñalTVMAS.html'
     }, {
         'titulo': 'ㅤUCV TVㅤ',
@@ -60,6 +60,10 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGAPLUS.svg"></img>',
         'url': 'SeñalMEGA_PLUS.html'
     }, {
+        'titulo': 'ㅤMEGAㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGA.svg"></img>ㅤOPCION 2',
+        'url': 'SeñalMEGA2.html'
+    },{
         'titulo': 'ㅤWAPP TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/LogoTV_WappTV.svg"></img>',
         'url': 'SeñalWAPPTV.html'
