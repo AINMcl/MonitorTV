@@ -7,6 +7,7 @@ font-family: 'Assistant', sans-serif;
 
 
 
+
 .h1{
 margin: 10px;
 background-color: #0066F9;
@@ -3109,6 +3110,35 @@ background-image: linear-gradient(
   border-color:#ff0000;
   box-shadow: 0px 0px 15px #ff0000;
 }
+
+.BotonCerrarMenu2{
+  background-color: #ff0000;
+  border-color: #ff0000;
+  margin: 0px;
+  width: auto;
+  height: 20px;
+  font-size: 12PX;
+  border-radius: 4px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .6s
+}
+
+.BotonCerrarMenu2:hover{
+  color: #ff0000;
+  background-color: #ffffff;
+  border-color: #ff0000;
+  box-shadow: 0px 0px 10px #ff0000;
+}
+
+
+
+
 
 
 

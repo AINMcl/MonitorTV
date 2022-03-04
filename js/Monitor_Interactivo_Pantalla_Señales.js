@@ -60,10 +60,6 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGAPLUS.svg"></img>',
         'url': 'SeñalMEGA_PLUS.html'
     }, {
-        'titulo': 'ㅤMEGAㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGA.svg"></img>ㅤOPCION 2',
-        'url': 'SeñalMEGA2.html'
-    },{
         'titulo': 'ㅤWAPP TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/LogoTV_WappTV.svg"></img>',
         'url': 'SeñalWAPPTV.html'
