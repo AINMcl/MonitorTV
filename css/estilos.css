@@ -5,9 +5,6 @@ text-align: justify;
 font-family: 'Assistant', sans-serif;
 }
 
-
-
-
 .h1{
 margin: 10px;
 background-color: #0066F9;
@@ -24,8 +21,6 @@ color: #FFFFFF;
   color: #000000;
   font-family: 'Assistant', sans-serif;
   }
-
-
 
 
 .CajaBotones {
@@ -2167,13 +2162,6 @@ background-image: linear-gradient(
 }
 
 
-.ZonaRelojes{
-
-}
-
-.Mediabanco2_Iframe{
-  
-}
 
 .BotonLapiz{
   position: absolute;
@@ -3135,6 +3123,64 @@ background-image: linear-gradient(
   border-color: #ff0000;
   box-shadow: 0px 0px 10px #ff0000;
 }
+
+.BarraBotonesConfigSeñales{
+  position: absolute;
+  top: 1%;
+  width: auto;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+
+.BotonEditSeñales{
+  display: inline-block;
+  background:rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  margin: 0px;
+  width: auto;
+  height: 20px;
+  line-height: 20px;
+  font-size: 11px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+.BotonEditSeñales:hover{
+  background: #c90101;
+  color:#fff
+}
+
+.BotonOcultarBotonEditSeñal{
+  display: inline-block;
+  background:rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  margin: 0px;
+  width: auto;
+  height: 20px;
+  line-height: 20px;
+  font-size: 11px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+.BotonOcultarBotonEditSeñal:hover{
+  background:#c90101;
+  color:#fff
+}
+
 
 
 
