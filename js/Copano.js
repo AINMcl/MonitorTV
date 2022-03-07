@@ -126,13 +126,13 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_GOB.svg"></img>ﾠSEÑAL PRESIDENCIA',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPRESIDENCIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPRESIDENCIAㅤ</div></div></div>'
         },
-        'Contador_Fin_Piñera': {
-            'nombre': '<img style="height: 15px; width:auto:" src="imagenes/NoLogo.svg"></img>ﾠPIÑERA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Contadores/ContadorPiñera.html" frameborder="0"></iframe></div>'
-        },
         'Contador_Fin_Año': {
             'nombre': '<img style="height: 15px; width:auto:" src="imagenes/NoLogo.svg"></img>ﾠFIN DE AÑO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Contadores/ContadorFinDeAño.html" frameborder="0"></iframe></div>'
+        },
+        'Contador_Fin_Piñera': {
+            'nombre': '<img style="height: 15px; width:auto:" src="imagenes/NoLogo.svg"></img>ﾠPIÑERA',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Contador_6.html" frameborder="0"></iframe></div>'
         },
 
         
