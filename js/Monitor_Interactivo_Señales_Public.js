@@ -1427,13 +1427,14 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("24HTVN");
+        App.add("CANAL24HTVN");
         App.add("MEGANOTICIAS");
-        App.add("T13_ENVIVO");
+        App.add("CNN_ESP");
 
-        App.add("MEGA");
         App.add("CHV_WEB_IFRAME");
-        App.add("TVN");
+        App.add("T13_ENVIVO");
+        App.add("CNN_INTERNACIONAL");
+        
         
         
     }
