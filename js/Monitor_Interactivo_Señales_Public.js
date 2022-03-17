@@ -1453,11 +1453,11 @@ init: function() {
     if (!App.isMobile()) {
         App.add("CANAL24HTVN");
         App.add("MEGANOTICIAS");
-        App.add("CNN_ESP");
+        App.add("T13_ENVIVO");
 
         App.add("CHV_WEB_IFRAME");
-        App.add("T13_ENVIVO");
-        App.add("CNN_INTERNACIONAL");
+        App.add("TVN_WEB_IFRAME");
+        App.add("CANAL13_WEB_IFRAME");
         
         
         
