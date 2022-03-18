@@ -507,6 +507,10 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ar.svg"></img>ﾠCANAL 26',
         'url': 'SeñalCANAL_26_ARG.html'
     }, {
+        'titulo': 'ㅤABC TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/py.svg"></img>ﾠABC TV',
+        'url': 'SeñalABCTV.html'
+    }, {
         'titulo': 'ㅤDWㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg">ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/de.svg"></img>ﾠDW',
         'url': 'SeñalDW_DEUTSCH.html'
@@ -550,6 +554,18 @@ let LosCanales = [
         'titulo': 'ㅤIRAN INTERNATIONALㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ir.svg"></img>ﾠIRAN INTERNATIONAL',
         'url': 'SeñalIRAN_INTERNACIONAL.html'
+    },{
+        'titulo': 'ㅤPRESS TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ir.svg"></img>ﾠPRESS TV',
+        'url': 'SeñalPRESSTV.html'
+    },{
+        'titulo': 'ㅤHISPANTVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ir.svg"></img>ﾠHISPANTV',
+        'url': 'SeñalHISPANTV_ESP.html'
+    },{
+        'titulo': 'ㅤTRT WORLDㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/tr.svg"></img>ﾠTRT WORLD',
+        'url': 'SeñalTRTWORLD.html'
     },{
         'titulo': 'ㅤSKY NEWSㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/gb.svg"></img>ﾠSKY NEWS',
