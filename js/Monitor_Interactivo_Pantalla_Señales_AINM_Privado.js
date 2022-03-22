@@ -281,19 +281,19 @@ let LosCanales = [
         'url': 'SeñalSKY_NEWS_EXTRA_3.html'
     }, {
         'titulo': 'ㅤNBC NOW LIVE 1ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NOW LIVE 1',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS NOW LIVE 1',
         'url': 'SeñalNBC_LIVE_1.html'
     }, {
         'titulo': 'ㅤNBC NOW LIVE 2ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NOW LIVE 2',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS NOW LIVE 2',
         'url': 'SeñalNBC_LIVE_2.html'
     }, {
         'titulo': 'ㅤNBC NOW LIVE 3ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NOW LIVE 3',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS NOW LIVE 3',
         'url': 'SeñalNBC_LIVE_3.html'
     }, {
         'titulo': 'ㅤNBC NOW LIVE 4ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NOW LIVE 4',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS NOW LIVE 4',
         'url': 'SeñalNBC_LIVE_4.html'
     }, {
         'titulo': 'ㅤCBS NEWS LIVE 1ㅤ',
