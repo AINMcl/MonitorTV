@@ -1471,7 +1471,7 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("CANAL24HTVN");
+        App.add("24HTVN");
         App.add("MEGANOTICIAS");
         App.add("T13_ENVIVO");
 
