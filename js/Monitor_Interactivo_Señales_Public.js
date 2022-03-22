@@ -265,6 +265,18 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NEWS LIVE EVENT 4',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalNBC_LIVE_4.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤNBC NEWS LIVE EVENT 4ㅤ</div></div></div>'
         },
+        'CBSNEWS_LIVE_1': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCBS NEWS LIVE 1ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCBSNEWS_LIVE_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCBS NEWS LIVE 1ㅤ</div></div></div>'
+        },
+        'CBSNEWS_LIVE_2': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCBS NEWS LIVE 2ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCBSNEWS_LIVE_2.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCBS NEWS LIVE 2ㅤ</div></div></div>'
+        },
+        'CBSNEWS_LIVE_3': {
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCBS NEWS LIVE 3ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCBSNEWS_LIVE_3.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCBS NEWS LIVE 3ㅤ</div></div></div>'
+        },
         'CNN_NEWS_SOURCE_LIVE_1': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWS SOURCE LIVE 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_NEWS_SOURCE_LIVE_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCNN NEWS SOURCE 1ㅤ</div></div></div>'
@@ -312,14 +324,6 @@ var App = {
         'CNN_LIVE_EVENT_5': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN LIVE EVENT 5',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_LIVE_EVENT_5.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCNN LIVE EVENT 5ㅤ</div></div></div>'
-        },
-        'CNNI_LIVE_EVENT_1': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN INTERNATIONAL LIVE EVENT 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNNI_LIVE_EVENT_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCNNI LIVE EVENT 1ㅤ</div></div></div>'
-        },
-        'CBSN_LIVE_EVENT_1': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCBSN LIVE EVENT 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCBSN_LIVE_EVENT_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCBSN LIVE EVENT 1ㅤ</div></div></div>'
         },
         'RTVE_LIVE_OCASIONAL_1': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠRTVE LIVE OCASIONAL 1',
@@ -478,7 +482,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCANAL_26_ARG.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 26ㅤ</div></div></div>'
         },
         'ABCTV': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/py.svg"></img>ﾠABC TVﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/py.svg"></img>ﾠABC TV',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalABCTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤABC TVㅤ</div></div></div>'
         },
         'DW': {
@@ -534,15 +538,15 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalIRAN_INTERNACIONAL.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤIRAN INTERNATIONALㅤ</div></div></div>'
         },
         'PRESSTV': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/py.svg"></img>ﾠPRESS TVﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/py.svg"></img>ﾠPRESS TV',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPRESSTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPRESS TVㅤ</div></div></div>'
         },
         'HISPANTV': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/py.svg"></img>ﾠHISPAN TVﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/py.svg"></img>ﾠHISPAN TV',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalHISPANTV_ESP.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤHISPAN TVㅤ</div></div></div>'
         },
         'TRTWORLD': {
-            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/tr.svg"></img>ﾠTRT WORLDﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+            'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/tr.svg"></img>ﾠTRT WORLD',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTRTWORLD.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTRT WORLDㅤ</div></div></div>'
         },
         'AL_JAZEERA_ARABIC': {

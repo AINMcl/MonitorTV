@@ -284,6 +284,18 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠNBC NOW LIVE 4',
         'url': 'SeñalNBC_LIVE_4.html'
     }, {
+        'titulo': 'ㅤCBS NEWS LIVE 1ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCBS NEWS LIVE 1',
+        'url': 'SeñalCBSNEWS_LIVE_1.html'
+    }, {
+        'titulo': 'ㅤCBS NEWS LIVE 2ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCBS NEWS LIVE 2',
+        'url': 'SeñalCBSNEWS_LIVE_2.html'
+    }, {
+        'titulo': 'ㅤCBS NEWS LIVE 3ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCBS NEWS LIVE 3',
+        'url': 'SeñalCBSNEWS_LIVE_3.html'
+    }, {
         'titulo': 'ㅤCNN NEWSOURCE LIVE 1ㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWSOURCE LIVE 1',
         'url': 'SeñalCNN_NEWS_SOURCE_LIVE_1.html'
@@ -335,10 +347,6 @@ let LosCanales = [
         'titulo': 'ㅤCNNI LIVE EVENT 1ㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN INTERNATIONAL LIVE EVENT 1',
         'url': 'SeñalCNNI_LIVE_EVENT_1.html'
-    }, {
-        'titulo': 'ㅤCBSN LIVE 1ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCBSN LIVE EVENT 1',
-        'url': 'SeñalCBSN_LIVE_EVENT_1.html'
     }, {
         'titulo': 'ㅤRTVE OCASIONAL 1ㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠRTVE LIVE OCASIONAL 1',
