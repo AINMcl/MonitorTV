@@ -37,11 +37,10 @@ body {
 .portada .header {
 	margin-bottom: 100px;
 	text-transform: uppercase;
-	letter-spacing: 3px;
 }
 
 .portada .header .logotipo {
-	font-size: 50px;
+	font-size: 40px;
 	font-size: 900;
 	margin-bottom: 20px;
 }
