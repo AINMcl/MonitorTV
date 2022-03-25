@@ -1,0 +1,84 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title> CHV </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+
+<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+<link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
+
+<style> html,body{width:100%;height:100%} </style>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-RT53GZ16EW');
+</script>
+<!--bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+
+</head>
+
+<body style="overflow: hidden;">
+
+
+	<div class='video'>
+		<script type="text/javascript" src="../js/JWPLAYER1.js"></script>
+		<script type="text/javascript" src="../js/JWPLAYER2.js"></script>
+  		
+		<!--
+		<script src="https://use.fontawesome.com/20603b964f.js"></script>
+		<script type="text/javascript" src="https://content.jwplatform.com/libraries/LJ361JYj.js"></script>
+		-->
+
+		<script type="text/javascript">jwplayer.key = '1D+gHSE2Rx0yS3PCZqQVcnLvQMGr/Hpy+FXkvQ==';</script>
+		
+		<div id="myElement"></div>
+		
+		
+		<script type="text/javascript">
+			jwplayer("myElement").setup({
+			file : 'https://mdstrm.com/live-stream-playlist-v/561430ae330428c223687e1e.m3u8',
+			image: "https://i.postimg.cc/7xR54W5P/Fondo-TV-1.png",
+			aspectratio: "16:9",
+			width: '100%',
+			autostart: true,
+			abouttext: '1',
+			aboutlink: '1',
+			tracks:[{"file":"<?php echo $cc; ?>","label":"Indonesia","kind":"captions","default":"true"}],
+			captions: {color: '#ffb800',fontSize: 30,backgroundOpacity: 0},
+			
+				    })
+		</script>
+  </div>
+	
+	
+	
+	
+	
+</body>
+</html>
