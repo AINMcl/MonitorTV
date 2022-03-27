@@ -296,6 +296,46 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCBS NEWS LIVE 3',
         'url': 'SeñalCBSNEWS_LIVE_3.html'
     }, {
+        'titulo': 'ㅤABC NEWS LIVE 1ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 1ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'url': 'SeñalABCNEWS_LIVE_1.html'
+    }, {
+        'titulo': 'ㅤABC NEWS LIVE 2ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 2ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'url': 'SeñalABCNEWS_LIVE_2.html'
+    }, {
+        'titulo': 'ㅤABC NEWS LIVE 3ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 3ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'url': 'SeñalABCNEWS_LIVE_3.html'
+    }, {
+        'titulo': 'ㅤABC NEWS LIVE 4ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 4ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'url': 'SeñalABCNEWS_LIVE_4.html'
+    }, {
+        'titulo': 'ㅤABC NEWS LIVE 5ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 5ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'url': 'SeñalABCNEWS_LIVE_5.html'
+    }, {
+        'titulo': 'ㅤABC NEWS LIVE 6ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 6ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'url': 'SeñalABCNEWS_LIVE_6.html'
+    }, {
+        'titulo': 'ㅤABC NEWS LIVE 7ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 7ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'url': 'SeñalABCNEWS_LIVE_7.html'
+    }, {
+        'titulo': 'ㅤABC NEWS LIVE 8ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 8ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'url': 'SeñalABCNEWS_LIVE_8.html'
+    }, {
+        'titulo': 'ㅤABC NEWS LIVE 9ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 9ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'url': 'SeñalABCNEWS_LIVE_9.html'
+    }, {
+        'titulo': 'ㅤABC NEWS LIVE 10ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 10ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'url': 'SeñalABCNEWS_LIVE_10.html'
+    }, {
         'titulo': 'ㅤCNN NEWSOURCE LIVE 1ㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCNN NEWSOURCE LIVE 1',
         'url': 'SeñalCNN_NEWS_SOURCE_LIVE_1.html'
@@ -520,11 +560,11 @@ let LosCanales = [
         'url': 'SeñalABCTV.html'
     }, {
         'titulo': 'ㅤATVㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠATVﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠATV',
         'url': 'SeñalATV.html'
     }, {
         'titulo': 'ㅤATV PLUSㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠATV PLUSﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠATV PLUS',
         'url': 'SeñalATVPLUS.html'
     }, {
         'titulo': 'ㅤDWㅤ',
@@ -615,9 +655,17 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠCBS NEWS',
         'url': 'SeñalCBSNEWS.html'
     }, {
+        'titulo': 'ㅤFOX NEWSㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠFOX NEWSﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'url': 'SeñalFOX_NEWS.html'
+    }, {
         'titulo': 'ㅤFOX NEWS NOWㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠFOX NEWS NOW',
         'url': 'SeñalFOX_NEWS_NOW.html'
+    }, {
+        'titulo': 'ㅤFOX NEWS WEATHERㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠFOX WEATHERﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'url': 'SeñalFOX_WEATHER.html'
     }, {
         'titulo': 'ㅤCNNㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg">ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠCNN',

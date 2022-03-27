@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<title> CHV </title>
+<title> ABC NEWS LIVE 4 </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 
@@ -15,7 +15,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
 
-
+<link href="../css/video-js.css" rel="stylesheet">
+<script src="../js/video.js"></script>
+<script src="../js/videojs-contrib-hls.js"></script>
+<script src='../js/estilosvideojw.js'></script>
+<script>jwplayer.key='fpjDq6xZtjNRpxYoVu4nj0jRIZqgVeQSpqiuNYojy3JFZW2B';</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
 <script>
@@ -25,6 +29,7 @@
 
 	gtag('config', 'G-RT53GZ16EW');
 </script>
+
 <!--bootstrap-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -41,39 +46,23 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 </script>
 
+<script src="Reproductor.js" type="text/javascript"></script>
+
+<script>
+	var player = new Playerjs({
+		id:"Reproductor",
+		file:"https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master.m3u8",
+		autoplay:1
+		});
+</script>
 </head>
 
-<body style="overflow: hidden;">
+<body>
 
-
-	<div class='video'>
-		
-		<!--
-		<script src="https://use.fontawesome.com/20603b964f.js"></script>
-		<script type="text/javascript" src="https://content.jwplatform.com/libraries/LJ361JYj.js"></script>
-		-->
-		<script type="text/javascript" src="../js/JWPLAYER1.js"></script>
-		<script type="text/javascript" src="../js/JWPLAYER2.js"></script>
-  		
-		<script type="text/javascript">jwplayer.key = '1D+gHSE2Rx0yS3PCZqQVcnLvQMGr/Hpy+FXkvQ==';</script>
-		
-		<div id="myElement"></div>
-		
-		
-		<script type="text/javascript">
-			jwplayer("myElement").setup({
-			file : 'https://mdstrm.com/live-stream-playlist-v/5346f5f2c1e6f5810b5b9df0.m3u8',
-			image: "https://i.postimg.cc/7xR54W5P/Fondo-TV-1.png",
-			aspectratio: "16:9",
-			width: '100%',
-			autostart: true,
-			abouttext: '1',
-			aboutlink: '1',
-			captions: {color: '#ffb800',fontSize: 30,backgroundOpacity: 0},
-			
-				    })
-		</script>
-  </div>
+	<div style="position: absolute; width: 100%; height:100%" >
+		<div style="width: 100%; height:100%" id="Reproductor">
+		</div>
+	</div>
 	
 	
 	
