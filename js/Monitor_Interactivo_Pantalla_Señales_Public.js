@@ -16,6 +16,10 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS.svg"></img>',
         'url': 'SeñalMEGANOTICIAS.html'
     }, {
+        'titulo': 'ㅤCHV NOTICIASㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV_NOTICIAS.svg"></img>',
+        'url': 'SeñalCHVNOTICIAS_PLUTOTV.html'
+    }, {
         'titulo': 'ㅤT13ㅤ',
         'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Iframe_Externo.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
         'url': 'SeñalT13_ENVIVO_IFRAME_AINM_GITHUB.html'
@@ -566,6 +570,10 @@ let LosCanales = [
         'titulo': 'ㅤATV PLUSㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠATV PLUS',
         'url': 'SeñalATVPLUS.html'
+    }, {
+        'titulo': 'ㅤONDA DIGITAL TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠONDA DIGITAL TV',
+        'url': 'SeñalONDADIGITALTV_1.html'
     }, {
         'titulo': 'ㅤDWㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg">ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/de.svg"></img>ﾠDW',

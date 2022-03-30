@@ -1,9 +1,5 @@
 let LosCanales = [
     {
-        'titulo': 'ㅤTEST JWPLAYERㅤ',
-        'nombre': 'TEST JW PLAYER',
-        'url': 'SeñalJWPLAYER.html'
-    }, {
         'titulo': 'ㅤ24 PLAYㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24PLAY.svg"></img>',
         'url': 'Señal24HTVN.html'
@@ -19,6 +15,10 @@ let LosCanales = [
         'titulo': 'ㅤMEGANOTICIASㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS.svg"></img>',
         'url': 'SeñalMEGANOTICIAS.html'
+    }, {
+        'titulo': 'ㅤCHV NOTICIASㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV_NOTICIAS.svg"></img>',
+        'url': 'SeñalCHVNOTICIAS_PLUTOTV.html'
     }, {
         'titulo': 'ㅤT13ㅤ',
         'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Iframe_Externo.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
@@ -582,6 +582,10 @@ let LosCanales = [
         'titulo': 'ㅤATV PLUSㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠATV PLUS',
         'url': 'SeñalATVPLUS.html'
+    }, {
+        'titulo': 'ㅤONDA DIGITAL TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠONDA DIGITAL TV',
+        'url': 'SeñalONDADIGITALTV_1.html'
     }, {
         'titulo': 'ㅤDWㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg">ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/de.svg"></img>ﾠDW',
@@ -1605,5 +1609,29 @@ let LosCanales = [
         'titulo': '',
         'nombre': 'ESPACIO VACIO',
         'url': ''
-    },
+    }, {
+        'titulo': 'ㅤTEST JWPLAYERㅤ',
+        'nombre': 'TEST JW PLAYER',
+        'url': 'SeñalJWPLAYER.html'
+    }, {
+        'titulo': 'ㅤADNTV - FUTBOL 1ㅤ',
+        'nombre': 'ADNTV - FUTBOL 1',
+        'url': 'https://live.amplificador.cl/2022/live-1/'
+    }, {
+        'titulo': 'ㅤADNTV - FUTBOL 2ㅤ',
+        'nombre': 'ADNTV - FUTBOL 2',
+        'url': 'https://live.amplificador.cl/2022/live-2/'
+    }, {
+        'titulo': 'ㅤADNTV - FUTBOL 3ㅤ',
+        'nombre': 'ADNTV - FUTBOL 3',
+        'url': 'https://live.amplificador.cl/2022/live-3/'
+    }, {
+        'titulo': 'ㅤADNTV - FUTBOL 4ㅤ',
+        'nombre': 'ADNTV - FUTBOL 4',
+        'url': 'https://live.amplificador.cl/2022/live-4/'
+    }, {
+        'titulo': 'ㅤADNTV - FUTBOL 5ㅤ',
+        'nombre': 'ADNTV - FUTBOL 5',
+        'url': 'https://live.amplificador.cl/2022/live-5/'
+    }
 ]
