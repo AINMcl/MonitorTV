@@ -503,6 +503,78 @@ let LosCanales = [
         'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠWKYC Channel 3',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCNBmxc6FvKyxtCpUygcdINA&autoplay=true&mute=1'
     }, {
+        'titulo': 'ㅤNHK WORLDㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/jp.svg"></img>ﾠNHK WORLD',
+        'url': 'SeñalNHK.html'
+    },{
+        'titulo': 'ㅤIRAN INTERNATIONALㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ir.svg"></img>ﾠIRAN INTERNATIONAL',
+        'url': 'SeñalIRAN_INTERNACIONAL.html'
+    },{
+        'titulo': 'ㅤPRESS TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ir.svg"></img>ﾠPRESS TV',
+        'url': 'SeñalPRESSTV.html'
+    },{
+        'titulo': 'ㅤHISPANTVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ir.svg"></img>ﾠHISPANTV',
+        'url': 'SeñalHISPANTV_ESP.html'
+    },{
+        'titulo': 'ㅤTRT WORLDㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/tr.svg"></img>ﾠTRT WORLD',
+        'url': 'SeñalTRTWORLD.html'
+    },{
+        'titulo': 'ㅤAL JAZEERA ARABICㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width: 25px" src="https://flagcdn.com/qa.svg"></img>ﾠAL JAZEERA ARABIC',
+        'url': 'https://www.youtube.com/embed/eJ6ZMd4sVrI?autoplay=true&mute=1'
+    }, {
+        'titulo': 'ㅤAL JAZEERA ENGㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width: 25px" src="https://flagcdn.com/qa.svg"></img>ﾠAL JAZEERA ENG',
+        'url': 'https://www.youtube.com/embed/-upyPouRrB8?autoplay=true&mute=1'
+    }, {
+        'titulo': 'ㅤTNㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ar.svg"></img>ﾠTN',
+        'url': 'SeñalTN.html'
+    },{
+        'titulo': 'ㅤCANAL 26ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ar.svg"></img>ﾠCANAL 26',
+        'url': 'SeñalCANAL_26_ARG.html'
+    }, {
+        'titulo': 'ㅤABC TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/py.svg"></img>ﾠABC TV',
+        'url': 'SeñalABCTV.html'
+    }, {
+        'titulo': 'ㅤATVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠATV',
+        'url': 'SeñalATV.html'
+    }, {
+        'titulo': 'ㅤATV PLUSㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠATV PLUS',
+        'url': 'SeñalATVPLUS.html'
+    }, {
+        'titulo': 'ㅤONDA DIGITAL TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠONDA DIGITAL TV',
+        'url': 'SeñalONDADIGITALTV_1.html'
+    }, {
+        'titulo': 'ㅤNOTICIAS CARACOLㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/co.svg"></img>ﾠNOTICIAS CARACOL',
+        'url': 'SeñalCARACOLNOTICIAS.html'
+    }, {
+        'titulo': 'ㅤTELESURㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ve.svg"></img>ﾠTELESUR',
+        'url': 'SeñalTELESUR.html'
+    }, {
+        'titulo': 'ㅤVTVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ve.svg"></img>ﾠVTV',
+        'url': 'SeñalVTV.html'
+    }, {
+        'titulo': 'ㅤTVesㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ve.svg"></img>ﾠTVes',
+        'code': 'SeñalTVes.html'
+    }, {
+        'titulo': 'ㅤFORO TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/mx.svg"></img>ﾠFORO TV',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCUsm-fannqOY02PNN67C0KA&autoplay=true&mute=1'
+    }, {
         'titulo': 'ㅤEURONEWS ESPAÑOLㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/eu.svg"></img>ﾠEURONEWS ESPAÑOL',
         'url': 'SeñalEURONEWS_ESPANOL.html'
@@ -551,30 +623,6 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg">ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/es.svg"></img>ﾠLA 2',
         'url': 'SeñalTVE_LA2.html'
     }, {
-        'titulo': 'ㅤTNㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ar.svg"></img>ﾠTN',
-        'url': 'SeñalTN.html'
-    },{
-        'titulo': 'ㅤCANAL 26ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ar.svg"></img>ﾠCANAL 26',
-        'url': 'SeñalCANAL_26_ARG.html'
-    }, {
-        'titulo': 'ㅤABC TVㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/py.svg"></img>ﾠABC TV',
-        'url': 'SeñalABCTV.html'
-    }, {
-        'titulo': 'ㅤATVㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠATV',
-        'url': 'SeñalATV.html'
-    }, {
-        'titulo': 'ㅤATV PLUSㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠATV PLUS',
-        'url': 'SeñalATVPLUS.html'
-    }, {
-        'titulo': 'ㅤONDA DIGITAL TVㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠONDA DIGITAL TV',
-        'url': 'SeñalONDADIGITALTV_1.html'
-    }, {
         'titulo': 'ㅤDWㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg">ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/de.svg"></img>ﾠDW',
         'url': 'SeñalDW_DEUTSCH.html'
@@ -603,34 +651,6 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg">ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ru.svg"></img>ﾠRT ALEMAN',
         'url': 'SeñalRT_ALEMAN.html'
     }, {
-        'titulo': 'ㅤTELESURㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ve.svg"></img>ﾠTELESUR',
-        'url': 'SeñalTELESUR.html'
-    },{
-        'titulo': 'ㅤFORO TVㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/mx.svg"></img>ﾠFORO TV',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCUsm-fannqOY02PNN67C0KA&autoplay=true&mute=1'
-    }, {
-        'titulo': 'ㅤNHK WORLDㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/jp.svg"></img>ﾠNHK WORLD',
-        'url': 'SeñalNHK.html'
-    },{
-        'titulo': 'ㅤIRAN INTERNATIONALㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ir.svg"></img>ﾠIRAN INTERNATIONAL',
-        'url': 'SeñalIRAN_INTERNACIONAL.html'
-    },{
-        'titulo': 'ㅤPRESS TVㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ir.svg"></img>ﾠPRESS TV',
-        'url': 'SeñalPRESSTV.html'
-    },{
-        'titulo': 'ㅤHISPANTVㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/ir.svg"></img>ﾠHISPANTV',
-        'url': 'SeñalHISPANTV_ESP.html'
-    },{
-        'titulo': 'ㅤTRT WORLDㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/tr.svg"></img>ﾠTRT WORLD',
-        'url': 'SeñalTRTWORLD.html'
-    },{
         'titulo': 'ㅤSKY NEWSㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/gb.svg"></img>ﾠSKY NEWS',
         'url': 'SeñalSKY_NEWS.html'
@@ -639,13 +659,9 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/gb.svg"></img>ﾠBBC NEWS',
         'url': 'SeñalBBCNEWS.html'
     }, {
-        'titulo': 'ㅤAL JAZEERA ARABICㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/qa.svg"></img>ﾠAL JAZEERA ARABIC',
-        'url': 'https://www.youtube.com/embed/eJ6ZMd4sVrI?autoplay=true&mute=1'
-    }, {
-        'titulo': 'ㅤAL JAZEERA ENGㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/qa.svg"></img>ﾠAL JAZEERA ENG',
-        'url': 'https://www.youtube.com/embed/-upyPouRrB8?autoplay=true&mute=1'
+        'titulo': 'ㅤBBC WORLD NEWSㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/gb.svg"></img>ﾠBBC WORLD NEWS',
+        'url': 'SeñalBBCWORLDNEWS.html'
     }, {
         'titulo': 'ㅤCSPANㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠCSPAN',
@@ -660,19 +676,19 @@ let LosCanales = [
         'url': 'SeñalNBCNEWS.html'
     }, {
         'titulo': 'ㅤCBS NEWSㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠCBS NEWS',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠCBS NEWS LIVE',
         'url': 'SeñalCBSNEWS.html'
     }, {
         'titulo': 'ㅤFOX NEWSㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠFOX NEWSﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠFOX NEWS',
         'url': 'SeñalFOX_NEWS.html'
     }, {
         'titulo': 'ㅤFOX NEWS NOWㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠFOX NEWS NOW',
         'url': 'SeñalFOX_NEWS_NOW.html'
     }, {
-        'titulo': 'ㅤFOX NEWS WEATHERㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠFOX WEATHERﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'titulo': 'ㅤFOX WEATHERㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠFOX WEATHER',
         'url': 'SeñalFOX_WEATHER.html'
     }, {
         'titulo': 'ㅤCNNㅤ',
