@@ -1423,7 +1423,7 @@ let LosCanales = [
         'url': 'SeñalNASATV_MEDIA_YOUTUBE.html'
     },{
         'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_NASA.svg"></img>ﾠNASA KENNEDY SPACE CENTER',
+        'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_NASA.svg"></img>ﾠKENNEDY SPACE CENTER',
         'url': 'SeñalNASATV_KSC.html'
     },{
         'titulo': 'ㅤTITULOㅤ',
