@@ -1561,7 +1561,7 @@ let LosCanales = [
         'url': 'https://player.twitch.tv/?channel=thegrefg&parent=ainmcl.github.io'
     },{
         'titulo': 'ㅤJUAN GUARNIZOㅤ',
-        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠTHE GREFG',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠJUAN GUARNIZO',
         'url': 'https://player.twitch.tv/?channel=juansguarnizo&parent=ainmcl.github.io'
     },{
         'titulo': 'ㅤDEQIUVㅤ',
@@ -1639,7 +1639,7 @@ let LosCanales = [
         'url': 'https://www.twitch.tv/embed/thegrefg/chat?parent=ainmcl.github.io'
     },{
         'titulo': 'ㅤJUAN GUARNIZOㅤ',
-        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠTHE GREFG',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠJUAN GUARNIZO',
         'url': 'https://www.twitch.tv/embed/juansguarnizo/chat?parent=ainmcl.github.io'
     },{
         'titulo': 'ㅤDEQIUVㅤ',
