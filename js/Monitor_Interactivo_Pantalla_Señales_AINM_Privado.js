@@ -1533,27 +1533,9 @@ let LosCanales = [
         'titulo': 'ㅤSTARBASE: SENTINEL CAMㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_LABPADRE.svg"></img>ﾠSENTINEL CAM',
         'url': 'Senal/LabPadre/SentinelCam.html'
-    }, {
-        'titulo': 'ㅤRDRONE UYㅤ',
-        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠRDRONE UY',
-        'url': 'https://player.twitch.tv/?channel=rdroneuy&parent=ainmcl.github.io'
-    },{
-        'titulo': 'ㅤSPACEX STORMㅤ',
-        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠSPACEX STORM',
-        'url': 'https://player.twitch.tv/?channel=spacexstorm&parent=ainmcl.github.io'
-    }, {
-        'titulo': 'ㅤCOPANOㅤ',
-        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠCOPANO',
-        'url': '6'
-    }, {
-        'titulo': 'ㅤFENIX REVIEWㅤ',
-        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠFENIX',
-        'url': 'https://player.twitch.tv/?channel=fenixreview&parent=ainmcl.github.io'
-    }, {
-        'titulo': 'ㅤJACK WALLACEㅤ',
-        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠJACK',
-        'url': 'https://player.twitch.tv/?channel=unjackwallace&parent=ainmcl.github.io'
-    },{
+    }, 
+    //TWITCH VIDEO
+    {
         'titulo': 'ㅤIBAIㅤ',
         'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠIBAI',
         'url': 'https://player.twitch.tv/?channel=ibai&parent=ainmcl.github.io'
@@ -1562,42 +1544,152 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠAURONPLAY',
         'url': 'https://player.twitch.tv/?channel=auronplay&parent=ainmcl.github.io'
     },{
+        'titulo': 'ㅤRUBIUSㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠRUBIUS',
+        'url': 'https://player.twitch.tv/?channel=rubius&parent=ainmcl.github.io'
+    },{
         'titulo': 'ㅤTHE FOCUSㅤ',
         'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠTHE FOCUS',
         'url': 'https://player.twitch.tv/?channel=xxxthefocusxxx&parent=ainmcl.github.io'
     },{
-        'titulo': 'ㅤJACK WALLACEㅤ',
-        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠJACK',
-        'url': 'https://www.twitch.tv/embed/unjackwallace/chat?parent=ainmcl.github.io'
-    }, {
+        'titulo': 'ㅤAXOZERㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠAXOZER',
+        'url': 'https://player.twitch.tv/?channel=axozer&parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤTHE GREFGㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠTHE GREFG',
+        'url': 'https://player.twitch.tv/?channel=thegrefg&parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤJUAN GUARNIZOㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠTHE GREFG',
+        'url': 'https://player.twitch.tv/?channel=juansguarnizo&parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤDEQIUVㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠDEQIUV',
+        'url': 'https://player.twitch.tv/?channel=deqiuv&parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤKARCHEZㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠKARCHEZ',
+        'url': 'https://player.twitch.tv/?channel=karchez&parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤLUZUㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠLUZU',
+        'url': 'https://player.twitch.tv/?channel=luzu&parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤPOLISPOLㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠPOLISPOL',
+        'url': 'https://player.twitch.tv/?channel=polispol1&parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤCAROLAㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠCAROLA',
+        'url': 'https://player.twitch.tv/?channel=carola&parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤBIYINㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠBIYIN',
+        'url': 'https://player.twitch.tv/?channel=biyin_&parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤCOPANOㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠCOPANO',
+        'url': 'https://player.twitch.tv/?channel=copano&parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤROBERTTSONㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠROBERTTSON',
+        'url': 'https://player.twitch.tv/?channel=roberttson&parent=ainmcl.github.io'
+    },{
         'titulo': 'ㅤRDRONE UYㅤ',
-        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠRDRONE UY',
-        'url': 'https://www.twitch.tv/embed/rdroneuy/chat?parent=ainmcl.github.io'
-    }, {
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠRDRONE UY',
+        'url': 'https://player.twitch.tv/?channel=rdroneuy&parent=ainmcl.github.io'
+    },{
         'titulo': 'ㅤSPACEX STORMㅤ',
-        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠSPACEX STORM',
-        'url': 'https://www.twitch.tv/embed/spacexstorm/chat?parent=ainmcl.github.io'
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠSPACEX STORM',
+        'url': 'https://player.twitch.tv/?channel=spacexstorm&parent=ainmcl.github.io'
     }, {
+        'titulo': 'ㅤFENIX REVIEWㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠFENIX',
+        'url': 'https://player.twitch.tv/?channel=fenixreview&parent=ainmcl.github.io'
+    }, {
+        'titulo': 'ㅤJACK WALLACEㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Video_1.svg"></img>ﾠJACK',
+        'url': 'https://player.twitch.tv/?channel=unjackwallace&parent=ainmcl.github.io'
+    },
+    //TWITCH CHAT
+    {
+        'titulo': 'ㅤIBAIㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠIBAI',
+        'url': 'https://www.twitch.tv/embed/ibai/chat?parent=ainmcl.github.io'
+    }, {
+        'titulo': 'ㅤAUROPLAYㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠAURONPLAY',
+        'url': 'https://www.twitch.tv/embed/auronplay/chat?parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤRUBIUSㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠRUBIUS',
+        'url': 'https://www.twitch.tv/embed/rubius/chat?parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤTHE FOCUSㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠTHE FOCUS',
+        'url': 'https://www.twitch.tv/embed/xxxthefocusxxx/chat?parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤAXOZERㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠAXOZER',
+        'url': 'https://www.twitch.tv/embed/axozer/chat?parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤTHE GREFGㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠTHE GREFG',
+        'url': 'https://www.twitch.tv/embed/thegrefg/chat?parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤJUAN GUARNIZOㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠTHE GREFG',
+        'url': 'https://www.twitch.tv/embed/juansguarnizo/chat?parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤDEQIUVㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠDEQIUV',
+        'url': 'https://www.twitch.tv/embed/deqiuv/chat?parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤKARCHEZㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠKARCHEZ',
+        'url': 'https://www.twitch.tv/embed/karchez/chat?parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤLUZUㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠLUZU',
+        'url': 'https://www.twitch.tv/embed/luzu/chat?parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤPOLISPOLㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠPOLISPOL',
+        'url': 'https://www.twitch.tv/embed/polispol1/chat?parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤCAROLAㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠCAROLA',
+        'url': 'https://www.twitch.tv/embed/carola/chat?parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤBIYINㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠBIYIN',
+        'url': 'https://www.twitch.tv/embed/biyin_/chat?parent=ainmcl.github.io'
+    },{
         'titulo': 'ㅤCOPANOㅤ',
         'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠCOPANO',
         'url': 'https://www.twitch.tv/embed/copano/chat?parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤROBERTTSONㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠROBERTTSON',
+        'url': 'https://www.twitch.tv/embed/roberttson/chat?parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤRDRONE UYㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠRDRONE UY',
+        'url': 'https://www.twitch.tv/embed/rdroneuy/chat?parent=ainmcl.github.io'
+    },{
+        'titulo': 'ㅤSPACEX STORMㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠSPACEX STORM',
+        'url': 'https://www.twitch.tv/embed/spacexstorm/chat?parent=ainmcl.github.io'
     }, {
         'titulo': 'ㅤFENIX REVIEWㅤ',
         'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠFENIX',
         'url': 'https://www.twitch.tv/embed/fenixreview/chat?parent=ainmcl.github.io'
     }, {
-        'titulo': 'ㅤIBAIㅤ',
-        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠIBAI',
-        'url': 'https://www.twitch.tv/embed/ibai/chat?parent=ainmcl.github.io'
+        'titulo': 'ㅤJACK WALLACEㅤ',
+        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠJACK',
+        'url': 'https://www.twitch.tv/embed/unjackwallace/chat?parent=ainmcl.github.io'
     },{
-        'titulo': 'ㅤAURON PLAYㅤ',
-        'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_Twitch_Chat_1.svg"></img>ﾠAURONPLAY',
-        'url': 'https://www.twitch.tv/embed/auronplay/chat?parent=ainmcl.github.io'
-    }, {
-        'titulo': 'ㅤCOPANOㅤ',
-        'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠCOPANO',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCVTL17ftpqx3lQ_IaGUNgSg&autoplay=true&mute=1'
-    }, {
         'titulo': 'ㅤKRAOㅤ',
         'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠKRAO ESP',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCZPR5ypKlxb1W_3RNIfWGKQ&autoplay=true&mute=1'
