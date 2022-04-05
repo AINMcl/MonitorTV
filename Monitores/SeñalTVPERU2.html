@@ -1,0 +1,56 @@
+
+<style type="text/css">
+	body {
+	  margin: 0;
+  }
+  </style>
+  <body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4387266-9"></script>
+  <script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+  
+	gtag('config', 'UA-4387266-9');
+  </script>
+  <div class="player">
+  <style type="text/css">
+  .player {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 798px;
+  }
+  </style>
+   
+	<script src="jw7/jwplayer.js"></script>
+	<script src="css2.js"></script>
+	
+  <div id="my-video"></div>
+  <script type="text/javascript">
+  var player = jwplayer('my-video').setup({
+  playlist: [{
+		  sources: [{
+			  file: "https://cdnh76.iblups.com/hls/R9WtilpKKB.m3u8",
+			  label: "0",
+			  type: "hls",
+			  preload: "none"
+		  }]
+  }],
+	  primary: "html5",
+	  hlshtml: true,
+   stretching: "exactfit",
+   width: "100%",
+   height: "100%",
+   aspectratio: "16:9",
+   aboutlink:"https://iblups.com",
+   abouttext:"iblups.com",
+   autostart: true,
+   mute: true
+  
+  });
+  </script>
+  </div>
+  </body>
+  </html>
+  

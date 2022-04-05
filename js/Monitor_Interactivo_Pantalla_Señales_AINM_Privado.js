@@ -1,5 +1,9 @@
 let LosCanales = [
     {
+        'titulo': 'ㅤTVPERU TESTㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24PLAY.svg"></img>',
+        'url': 'SeñalTVPERU.html'
+    }, {
         'titulo': 'ㅤ24 PLAYㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24PLAY.svg"></img>',
         'url': 'Señal24HTVN.html'
