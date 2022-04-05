@@ -256,9 +256,33 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 1',
         'url': 'SeñalVOA_LIVE_01.html'
     }, {
+        'titulo': 'ㅤVOA TV LIVE 2ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 2',
+        'url': 'SeñalVOA_LIVE_02.html'
+    }, {
+        'titulo': 'ㅤVOA TV LIVE 3ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 3',
+        'url': 'SeñalVOA_LIVE_03.html'
+    }, {
+        'titulo': 'ㅤVOA TV LIVE 4ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 4',
+        'url': 'SeñalVOA_LIVE_04.html'
+    }, {
+        'titulo': 'ㅤVOA TV LIVE 5ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 5',
+        'url': 'SeñalVOA_LIVE_05.html'
+    }, {
         'titulo': 'ㅤVOA TV LIVE 6ㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 6',
         'url': 'SeñalVOA_LIVE_06.html'
+    }, {
+        'titulo': 'ㅤVOA TV LIVE 7ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 7',
+        'url': 'SeñalVOA_LIVE_07.html'
+    }, {
+        'titulo': 'ㅤVOA TV LIVE 8ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 8',
+        'url': 'SeñalVOA_LIVE_08.html'
     }, {
         'titulo': 'ㅤVOA TV LIVE 9ㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 9',
@@ -562,10 +586,6 @@ let LosCanales = [
         'titulo': 'ㅤATV PLUSㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠATV PLUS',
         'url': 'SeñalATVPLUS.html'
-    }, {
-        'titulo': 'ㅤLATINA TVㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠLATINA TV',
-        'url': 'SeñalLatinaTV.html'
     }, {
         'titulo': 'ㅤONDA DIGITAL TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠONDA DIGITAL TV',

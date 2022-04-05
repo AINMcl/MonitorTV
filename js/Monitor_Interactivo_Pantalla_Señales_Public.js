@@ -244,9 +244,33 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 1',
         'url': 'SeñalVOA_LIVE_01.html'
     }, {
+        'titulo': 'ㅤVOA TV LIVE 2ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 2',
+        'url': 'SeñalVOA_LIVE_02.html'
+    }, {
+        'titulo': 'ㅤVOA TV LIVE 3ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 3',
+        'url': 'SeñalVOA_LIVE_03.html'
+    }, {
+        'titulo': 'ㅤVOA TV LIVE 4ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 4',
+        'url': 'SeñalVOA_LIVE_04.html'
+    }, {
+        'titulo': 'ㅤVOA TV LIVE 5ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 5',
+        'url': 'SeñalVOA_LIVE_05.html'
+    }, {
         'titulo': 'ㅤVOA TV LIVE 6ㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 6',
         'url': 'SeñalVOA_LIVE_06.html'
+    }, {
+        'titulo': 'ㅤVOA TV LIVE 7ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 7',
+        'url': 'SeñalVOA_LIVE_07.html'
+    }, {
+        'titulo': 'ㅤVOA TV LIVE 8ㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 8',
+        'url': 'SeñalVOA_LIVE_08.html'
     }, {
         'titulo': 'ㅤVOA TV LIVE 9ㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠVOA TV LIVE 9',
@@ -301,43 +325,43 @@ let LosCanales = [
         'url': 'SeñalCBSNEWS_LIVE_3.html'
     }, {
         'titulo': 'ㅤABC NEWS LIVE 1ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 1ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 1',
         'url': 'SeñalABCNEWS_LIVE_1.html'
     }, {
         'titulo': 'ㅤABC NEWS LIVE 2ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 2ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 2',
         'url': 'SeñalABCNEWS_LIVE_2.html'
     }, {
         'titulo': 'ㅤABC NEWS LIVE 3ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 3ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 3',
         'url': 'SeñalABCNEWS_LIVE_3.html'
     }, {
         'titulo': 'ㅤABC NEWS LIVE 4ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 4ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 4',
         'url': 'SeñalABCNEWS_LIVE_4.html'
     }, {
         'titulo': 'ㅤABC NEWS LIVE 5ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 5ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 5',
         'url': 'SeñalABCNEWS_LIVE_5.html'
     }, {
         'titulo': 'ㅤABC NEWS LIVE 6ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 6ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 6',
         'url': 'SeñalABCNEWS_LIVE_6.html'
     }, {
         'titulo': 'ㅤABC NEWS LIVE 7ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 7ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 7',
         'url': 'SeñalABCNEWS_LIVE_7.html'
     }, {
         'titulo': 'ㅤABC NEWS LIVE 8ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 8ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 8',
         'url': 'SeñalABCNEWS_LIVE_8.html'
     }, {
         'titulo': 'ㅤABC NEWS LIVE 9ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 9ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 9',
         'url': 'SeñalABCNEWS_LIVE_9.html'
     }, {
         'titulo': 'ㅤABC NEWS LIVE 10ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 10ﾠ<img style="height: 15px; width:auto:" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠABC NEWS LIVE 10',
         'url': 'SeñalABCNEWS_LIVE_10.html'
     }, {
         'titulo': 'ㅤCNN NEWSOURCE LIVE 1ㅤ',
