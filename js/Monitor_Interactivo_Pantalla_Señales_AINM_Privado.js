@@ -1,9 +1,5 @@
 let LosCanales = [
     {
-        'titulo': 'ㅤTVPERU TESTㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24PLAY.svg"></img>',
-        'url': 'SeñalTVPERU.html'
-    }, {
         'titulo': 'ㅤ24 PLAYㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24PLAY.svg"></img>',
         'url': 'Señal24HTVN.html'
@@ -590,6 +586,10 @@ let LosCanales = [
         'titulo': 'ㅤATV PLUSㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠATV PLUS',
         'url': 'SeñalATVPLUS.html'
+    }, {
+        'titulo': 'ㅤTVPERU INTERNACIONALㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠTV PERU INTERNACIONAL',
+        'url': 'SeñalTVPERU_INTERNACIONAL.html'
     }, {
         'titulo': 'ㅤONDA DIGITAL TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠONDA DIGITAL TV',

@@ -575,6 +575,10 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠATV PLUS',
         'url': 'SeñalATVPLUS.html'
     }, {
+        'titulo': 'ㅤTVPERU INTERNACIONALㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠTV PERU INTERNACIONAL',
+        'url': 'SeñalTVPERU_INTERNACIONAL.html'
+    }, {
         'titulo': 'ㅤONDA DIGITAL TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠONDA DIGITAL TV',
         'url': 'SeñalONDADIGITALTV_1.html'
