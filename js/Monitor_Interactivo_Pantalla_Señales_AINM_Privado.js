@@ -10,7 +10,7 @@ let LosCanales = [
     },{
         'titulo': 'ㅤCNN CHILEㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CNNCHILE2.svg"></img>',
-        'url': 'SeñalCNNCHILE.html'
+        'url': 'SeñalCNNCHILE2.html'
     },{
         'titulo': 'ㅤMEGANOTICIASㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS.svg"></img>',
@@ -181,7 +181,7 @@ let LosCanales = [
         'url': 'SeñalRADIO_DUNA.html'
     }, {
         'titulo': 'ㅤRADIO LAS NIEVESㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_RLN.svg"></img>ﾠ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠAYSEN | RADIO LAS NIEVES',        
         'url': 'SeñalRADIOLASNIEVES.html'
     }, {
         'titulo': 'ㅤRADIO MILENARIAㅤ',
@@ -562,6 +562,10 @@ let LosCanales = [
         'titulo': 'ㅤATV PLUSㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠATV PLUS',
         'url': 'SeñalATVPLUS.html'
+    }, {
+        'titulo': 'ㅤLATINA TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠLATINA TV',
+        'url': 'SeñalLatinaTV.html'
     }, {
         'titulo': 'ㅤONDA DIGITAL TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/pe.svg"></img>ﾠONDA DIGITAL TV',
