@@ -74,10 +74,6 @@ var App = {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_NTV.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalNTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤNTVㅤ</div></div></div>'
         },
-        'TV_CHILE': {
-            'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Iframe_Externo.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_TVCHILE.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/WEB/SeñalTV_CHILE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTV CHILEㅤ</div></div></div>'
-        },
         'Señal_Interna_24HTVN_1': {
             'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalInterna24H_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤ24HORAS 1ㅤ</div></div></div>'
@@ -1643,13 +1639,13 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        //App.add("24HTVN");
-        //App.add("MEGANOTICIAS");
-        //App.add("T13_ENVIVO");
+        App.add("24HTVN");
+        App.add("MEGANOTICIAS");
+        App.add("T13_ENVIVO");
 
-        //App.add("CHV_WEB_IFRAME");
-        //App.add("TVN_WEB_IFRAME");
-        //App.add("CANAL13_WEB_IFRAME");
+        App.add("CHV_WEB_IFRAME");
+        App.add("TVN_WEB_IFRAME");
+        App.add("CANAL13_WEB_IFRAME");
         
         
         

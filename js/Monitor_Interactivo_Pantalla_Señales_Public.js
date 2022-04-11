@@ -56,10 +56,6 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_NTV.svg"></img>',
         'url': 'SeñalNTV.html'
     }, {
-        'titulo': 'ㅤTV CHILEㅤ',
-        'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Iframe_Externo.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_TVCHILE.svg"></img>',
-        'url': 'SeñalTVCHILE.html'
-    }, {
         'titulo': 'ㅤWAPP TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/LogoTV_WappTV.svg"></img>',
         'url': 'SeñalWAPPTV.html'
