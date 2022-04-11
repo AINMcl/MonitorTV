@@ -60,14 +60,14 @@ let LosCanales = [
         'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Iframe_Externo.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_TVCHILE.svg"></img>',
         'url': 'SeñalTVCHILE.html'
     }, {
-        'titulo': 'ㅤMEGA PLUSㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGAPLUS.svg"></img>',
-        'url': 'SeñalMEGA_PLUS.html'
-    }, {
         'titulo': 'ㅤWAPP TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/LogoTV_WappTV.svg"></img>',
         'url': 'SeñalWAPPTV.html'
     },{
+        'titulo': 'ㅤU CHILE TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_UCHILETV_2.svg"></img>',
+        'url': 'SeñalUCHILETV.html'
+    }, {
         'titulo': 'ㅤTVNㅤ',
         'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Iframe_Externo.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_TVN.svg"></img>',
         'url': '../Monitores/Senal/WEB/SeñalTVN_IFRAME_AINM_GITHUB.html'
@@ -195,19 +195,10 @@ let LosCanales = [
         'titulo': 'ㅤRADIO CANAL SUR PATAGONIAㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Microfono1.svg"></img>ﾠAYSEN | CANAL SUR PATAGONIA',
         'url': 'SeñalRADIO_CANALSURPATAGONIA.html'
-    }, {
-        'titulo': 'ㅤU CHILE TVㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠUCHILE TVﾠ',
-        'url': 'SeñalUCHILETV.html'
-    }, {
-        'titulo': 'ㅤSENADO TVㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSENADO_2.svg"></img>',
-        'url': 'SeñalSENADO_TV.html'
-    }, {
-        'titulo': 'ㅤDIPUTADOS TVㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠDIPUTADOS TVﾠ',
-        'url': 'SeñalCDTV.html'
-    },{
+    },
+    
+    //SEÑALES GOBIERNO
+    {
         'titulo': 'ㅤPRESIDENCIA CHILEㅤ',
         'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_GOB.svg"></img>ﾠPRESIDENCIA',
         'url': 'SeñalPRESIDENCIA.html'
@@ -224,9 +215,25 @@ let LosCanales = [
         'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_GOB.svg"></img>ﾠPDTE. BORIC',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC0gQkOPt6VVvJGO9mDy0ikw&autoplay=true&mute=1'
     }, {
-        'titulo': 'ㅤSERVELㅤ',
-        'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠSERVEL',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCB8s6rETjmWgXrp_BxyXqdg&autoplay=true&mute=1'
+        'titulo': 'ㅤSENADO TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSENADO_2.svg"></img>',
+        'url': 'SeñalSENADO_TV.html'
+    }, {
+        'titulo': 'ㅤDIPUTADOS TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠDIPUTADOS TVﾠ',
+        'url': 'SeñalCDTV.html'
+    },{
+        'titulo': 'ㅤTV SENADOㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSENADO_2.svg"></img>',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=true&mute=1'
+    }, {
+        'titulo': 'ㅤTV DIPUTADOSㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠTV DIPUTADOS',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=true&mute=1'
+    }, {
+        'titulo': 'ㅤCONVENCION CONSTITUCIONALㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠCONVENCION CONSTITUCIONAL',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCRlIWVAxQdAnCl4D4UR9r3Q&autoplay=true&mute=1'
     }, {
         'titulo': 'ㅤREUTERSㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠREUTERS',
@@ -475,6 +482,14 @@ let LosCanales = [
         'titulo': 'ㅤCCTV+ 2ㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg"></img>ﾠCCTV+ 2',
         'url': 'SeñalCCTVPLUS_2.html'
+    },{
+        'titulo': 'ㅤSERVELㅤ',
+        'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠSERVEL',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCB8s6rETjmWgXrp_BxyXqdg&autoplay=true&mute=1'
+    }, {
+        'titulo': 'ㅤAGENCIA UNO TVㅤ',
+        'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠAGENCIA UNO TV',
+        'url': 'SeñalAGENCIAUNOTV_2.html'
     },{
         'titulo': 'ㅤMEDIABANCOㅤ',
         'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Antena2.svg">ﾠMEDIABANCO',
@@ -1245,139 +1260,169 @@ let LosCanales = [
         'titulo': 'ㅤTITULOㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/jp.svg"></img>ﾠTOKYO',
         'url': 'https://www.youtube.com/embed/QOjmvL3e7Lc?autoplay=true&mute=1'
-    },{
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Icono_Camara.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="https://flagcdn.com/es.svg"></img>ﾠVOLCAN LA PALMA',
-        'url': 'SeñalRTVC_1.html'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
+    },
+    
+    //REGIONALES
+    {
+        'titulo': 'ㅤARICA TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠARICA | ARICA TV',
-        'url': 'Senal/REGIONALES/ARICA_TV.html'
+        'url': 'Senal/REGIONALES/ARICA_ARICA_TV.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤCAPPISSIMA TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠARICA | CAPPISSIMA TV',
-        'url': 'Senal/REGIONALES/CAPPISSIMA_TV.html'
+        'url': 'Senal/REGIONALES/ARICA_CAPPISSIMA_TV.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤIQUIQUE Tㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠTARAPACA | IQUIQUE TV',
-        'url': 'Senal/REGIONALES/IQUIQUE_TV.html'
+        'url': 'Senal/REGIONALES/TARAPACA_IQUIQUE_TV.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤANTOFAGASTA TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠANTOFAGASTA | ANTOFAGASTA TV',
-        'url': 'Senal/REGIONALES/ANTOFAGASTA_TV.html'
+        'url': 'Senal/REGIONALES/ANTOFAGASTA_ANTOFAGASTA_TV.html'
     },{
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤLRP TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠANTOFAGASTA | LRP TV',
-        'url': 'Senal/REGIONALES/LRP_TV.html'
+        'url': 'Senal/REGIONALES/ANTOFAGASTA_LRP_TV.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤAM CANALㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠANTOFAGASTA | AM CANAL',
-        'url': 'Senal/REGIONALES/AM_CANAL.html'
+        'url': 'Senal/REGIONALES/ANTOFAGASTA_AM_CANAL.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤTALTAL TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠANTOFAGASTA | TALTAL TV',
-        'url': 'Senal/REGIONALES/TALTAL_TV.html'
+        'url': 'Senal/REGIONALES/ANTOFAGASTA_TALTAL_TV.html'
     },{
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤATACAMA TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠATACAMA | ATACAMA TV',
-        'url': 'Senal/REGIONALES/ATACAMA_TV.html'
+        'url': 'Senal/REGIONALES/ATACAMA_ATACAMA_TV.html'
     },{
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤHOLVOET TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠATACAMA | HOLVOET TV',
+        'url': 'Senal/REGIONALES/ATACAMA_HOLVOET_TV.html'
+    },{
+        'titulo': 'ㅤMIRADIO TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠCOQUIMBO | MI RADIO TV',
-        'url': 'Senal/REGIONALES/MIRADIO_TV.html'
+        'url': 'Senal/REGIONALES/COQUIMBO_MIRADIO_TV.html'
     },{
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤQUINTA TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠVALPARAISO | QUINTA TV',
-        'url': 'Senal/REGIONALES/QUINTA_TV.html'
+        'url': 'Senal/REGIONALES/VALPARAISO_QUINTA_TV.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤVTVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠVALPARAISO | VTV',
+        'url': 'Senal/REGIONALES/VALPARAISO_VTV.html'
+    }, {
+        'titulo': 'ㅤSTGO TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠRM | STGO TV',
-        'url': 'Senal/REGIONALES/STGO_TV.html'
+        'url': 'Senal/REGIONALES/METROPOLITANA_STGO_TV.html'
     },{
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤSTGO TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠOHIGGINS | TELECANAL SANTA CRUZ',
+        'url': 'Senal/REGIONALES/OHIGGINS_TELECANAL.html'
+    },{
+        'titulo': 'ㅤCAMPUS TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠMAULE | CAMPUS UTALCA TV',
-        'url': 'Senal/REGIONALES/CAMPUS_TV.html'
+        'url': 'Senal/REGIONALES/MAULE_CAMPUS_TV.html'
     },{
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤTELECANALㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠMAULE | TELECANAL TALCA',
+        'url': 'Senal/REGIONALES/MAULE_TELECANAL.html'
+    },{
+        'titulo': 'ㅤCONTIVISIONㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠMAULE | CONTIVISION',
-        'url': 'Senal/REGIONALES/CONTIVISION.html'
+        'url': 'Senal/REGIONALES/MAULE_CONTIVISION.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤTV5 LINARESㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠMAULE | TV5 LINARES',
-        'url': 'Senal/REGIONALES/TV5LINARES.html'
+        'url': 'Senal/REGIONALES/MAULE_TV5LINARES.html'
     },{
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠMAULE | UTV SAN CLEMENTE',
-        'url': 'Senal/REGIONALES/TV5LINARES.html'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤTV MAULESURㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠMAULE | TV MAULE SUR',
-        'url': 'Senal/REGIONALES/TVMAULESUR.html'
+        'url': 'Senal/REGIONALES/MAULE_TVMAULESUR.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤUTV SANCLEMENTEㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠMAULE | UTV SANCLEMENTE',
+        'url': 'Senal/REGIONALES/MAULE_UTVSANCLEMENTE.html'
+    }, {
+        'titulo': 'ㅤCANAL9 BIOBIO TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠBIOBIO | CANAL 9 BIOBIO TV',
-        'url': 'Senal/REGIONALES/CANAL9BIOBIOTV.html'
+        'url': 'Senal/REGIONALES/BIOBIO_CANAL9BIOBIOTV.html'
     },{
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤTVUㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠBIOBIO | TVU',
-        'url': 'Senal/REGIONALES/TVU.html'
+        'url': 'Senal/REGIONALES/BIOBIO_TVU.html'
     },{
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤTV8ㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠBIOBIO | TV8',
-        'url': 'Senal/REGIONALES/TV8.html'
+        'url': 'Senal/REGIONALES/BIOBIO_TV8.html'
     },{
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤENERGIA TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠBIOBIO | ENERGIA TV',
-        'url': 'Senal/REGIONALES/ENERGIATV.html'
+        'url': 'Senal/REGIONALES/BIOBIO_ENERGIATV.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤTEMUCO TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠARAUCANIA | TEMUCO TV',
-        'url': 'Senal/REGIONALES/TEMUCO_TV.html'
+        'url': 'Senal/REGIONALES/ARAUCANIA_TEMUCO_TV.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤLTVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠARAUCANIA | LTV',
-        'url': 'Senal/REGIONALES/LTV.html'
+        'url': 'Senal/REGIONALES/ARAUCANIA_LTV.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤPUCON TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠARAUCANIA | PUCON TV',
-        'url': 'Senal/REGIONALES/PUCONTV.html'
+        'url': 'Senal/REGIONALES/ARAUCANIA_PUCONTV.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤTELEANGOLㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠARAUCANIA | TELE ANGOL',
+        'url': 'Senal/REGIONALES/ARAUCANIA_TELEANGOL.html'
+    }, {
+        'titulo': 'ㅤOSORNO TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠLOS LAGOS | OSORNO TV',
-        'url': 'Senal/REGIONALES/OSORNO_TV.html'
+        'url': 'Senal/REGIONALES/LOS_LAGOS_OSORNO_TV.html'
     },{
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤTVINETㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠLOS LAGOS | TV INET',
+        'url': 'Senal/REGIONALES/LOS_LAGOS_TVINET.html'
+    }, {
+        'titulo': 'ㅤCANAL5 PTO. MONTTㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠLOS LAGOS | CANAL 5 PUERTO MONTT',
-        'url': 'Senal/REGIONALES/CANAL5_PTOMONTT.html'
+        'url': 'Senal/REGIONALES/LOS_LAGOS_CANAL5_PTOMONTT.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤDECIMA TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠLOS LAGOS | DECIMA TV',
-        'url': 'Senal/REGIONALES/DECIMA_TV.html'
+        'url': 'Senal/REGIONALES/LOS_LAGOS_DECIMA_TV.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤCANAL2 QUELLONㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠLOS LAGOS | CANAL 2 QUELLON',
-        'url': 'Senal/REGIONALES/CANAL2_QUELLON.html'
+        'url': 'Senal/REGIONALES/LOS_LAGOS_CANAL2_QUELLON.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤROCCO TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠAYSEN | ROCCO TV COYHAIQUE',
-        'url': 'Senal/REGIONALES/ROCCOTV.html'
+        'url': 'Senal/REGIONALES/AYSEN_ROCCOTV.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤSANTAMARIA TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠAYSEN | SANTA MARIA TV COYHAIQUE',
-        'url': 'Senal/REGIONALES/SANTAMARIA_TV.html'
+        'url': 'Senal/REGIONALES/AYSEN_SANTAMARIA_TV.html'
     },{
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤCANAL11 AYSENㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠAYSEN | CANAL 11 PUERTO AYSEN',
-        'url': 'Senal/REGIONALES/CANAL11_AY.html'
+        'url': 'Senal/REGIONALES/AYSEN_CANAL11.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤAYSEN TVㅤ',
+        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠAYSEN | AYSEN TV',
+        'url': 'Senal/REGIONALES/AYSEN_AYSENTV.html'
+    }, {
+        'titulo': 'ㅤITVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠMAGALLANES | ITV PATAGONIA',
-        'url': 'Senal/REGIONALES/ITV.html'
+        'url': 'Senal/REGIONALES/MAGALLANES_ITV.html'
     }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤPINGUINO TVㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Icono_TV_News.svg"></img>ﾠMAGALLANES | PINGUINO TV',
-        'url': 'Senal/REGIONALES/PINGUINO_TV.html'
-    }, {
+        'url': 'Senal/REGIONALES/MAGALLANES_PINGUINO_TV.html'
+    }, 
+    
+    //SISMOS
+    {
         'titulo': 'ㅤTITULOㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_ALOMAX.svg"></img>ﾠDETECTOR SISMOS',
         'url': 'MonitorEARLY-EST_DETECTOR.html'

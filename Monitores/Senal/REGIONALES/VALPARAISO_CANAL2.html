@@ -32,24 +32,26 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 </script>
 
+<script src="../../Reproductor.js" type="text/javascript"></script>
+
+<script>
+	var player = new Playerjs({
+		id:"Reproductor",
+		file:"https://unlimited1-cl-isp.dps.live/canal2/canal2.smil/playlist.m3u8",
+		autoplay:1
+		});
+</script>
 </head>
+
 <body>
 
-    <div style="
-	position: absolute;
-	display: inline-block;
-	width: 100%;
-	height: 100%;
-	top: 0%;
-	right: 0px;
-	">
-	<img width="100%" height="100%" src="http://146.83.206.15/image" frameborder="0">
-	</img>
+	<div style="position: absolute; width: 100%; height:100%" >
+		<div style="width: 100%; height:100%" id="Reproductor">
+		</div>
 	</div>
 
-	
-<div class="FondoBotonRecargar">
-	<a href="javascript:location.reload()"> <span type="button" class="TextoBotonRecargar2">ㅤRECARGAR ESTA SEÑALㅤ</span></a>
-</div>
+	<div class="FondoBotonRecargar">
+		<a href="javascript:location.reload()"> <span type="button" class="TextoBotonRecargar2">ㅤRECARGAR ESTA SEÑALㅤ</span></a>
+	</div>
 </body>
 </html>
