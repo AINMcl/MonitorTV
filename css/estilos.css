@@ -2009,6 +2009,24 @@ section#RelojesMonitor2{
   margin:auto;
 }
 
+.FondoTituloSeleccionarSeñales{
+  display: flex;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  background-color: #c70000;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s
+}
+
+
 .FondoSeñales{
   background-color: #ffffff;
   border: 0px;
@@ -2164,6 +2182,9 @@ background-image: linear-gradient(
 
 
 
+
+
+
 .BotonLapiz{
   position: absolute;
   top: 1%;
@@ -2176,35 +2197,38 @@ background-image: linear-gradient(
 .BotonCambiarSeñal{
   position: absolute;
   top: 1%;
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  text-align: center;
+  left: 1%;
+  width: auto;
+  height: auto;
 }
+
+
 
 .BotonCambiarSeñalTexto{
-  display: inline-block;
+  display: flex;
   position: absolute;
-  left: 1%;
-  background:rgba(0, 0, 0, 0);
-  margin: 0px;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
+  background-color: #0004ff00;
   color: #ffffff00;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  border-radius: 5px;
   cursor:
   pointer;
-  transition:all .5s
-}
-.BotonCambiarSeñalTexto:hover{
-  background:#ff5e00;
-  color:#fff
+  transition:all .3s
 }
 
+.BotonCambiarSeñalTexto:hover{
+  background-color:#0004ff;
+  color:rgb(255, 255, 255)
+}
+
+.BotonCambiarSeñalTexto:active{
+  background-color:#ff0000;
+  color:rgb(255, 255, 255)
+}
 
 .BotonFrameLink{
   position: absolute;
@@ -2944,6 +2968,9 @@ background-image: linear-gradient(
   transition:all .6s
 }
 
+
+
+
 .BotonMenuSeñales:hover{
   color: #ff0000;
   background-color: #ffffff;
@@ -3213,6 +3240,104 @@ background-image: linear-gradient(
   background:#c90101;
   color:#fff
 }
+
+.ContenedorBotonMenuDesplegable{
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  width: auto;
+  height: auto;
+}
+
+.BotonMenuDesplegable{
+  display: flex;
+  color: #ffffff;
+  background:rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  border-radius: 100%;
+  cursor:
+  pointer;
+  transition:all .3s
+}
+
+.BotonMenuDesplegable:hover{
+  color: #ffffff;
+  background:rgb(255, 0, 0);
+}
+
+.BotonMenuDesplegablePantallaCompleta{
+  display: inline-block;
+  background-color: #0045da;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  cursor:
+  pointer;
+  transition:all .3s
+}
+
+.BotonMenuDesplegablePantallaCompleta:hover{
+  color: #ffffff;
+  background-color: #ff0000;
+}
+
+.BotonMenuDesplegableHome{
+  display: inline-block;
+  background-color: #5e5e5e;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  cursor:
+  pointer;
+  transition:all .3s
+}
+
+.BotonMenuDesplegableHome:hover{
+  color: #ffffff;
+  background-color: #ff0000;
+}
+
+.MenuDesplegableHome{
+  display: inline-block;
+  background-color: #5e5e5e;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  cursor:
+  pointer;
+  transition:all .3s
+}
+
+.MenuDesplegableHome:hover{
+  color: #ffffff;
+  background-color: #ff0000;
+}
+
 
 
 

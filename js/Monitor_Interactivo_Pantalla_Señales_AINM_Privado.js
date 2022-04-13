@@ -1,5 +1,9 @@
 let LosCanales = [
     {
+        'titulo': '',
+        'nombre': 'MONITOR CARRUSEL NOTICIAS',
+        'url': 'MonitorAINM_CARRUSEL_NOTICIAS.html'
+    }, {
         'titulo': 'ㅤ24 PLAYㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24PLAY.svg"></img>',
         'url': 'Señal24HTVN.html'
