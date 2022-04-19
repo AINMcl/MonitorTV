@@ -1,0 +1,359 @@
+body {
+    background: #000000;
+}
+
+.navbar {
+    position: relative;
+    padding: 0rem 1rem;
+}
+
+/* Animacion boton canales*/
+.pulsate {
+    color: rgb(16, 173, 201);
+    font-size: 1.5em;
+    animation: pulsate 3s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0.5;
+}
+
+@keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.modal-content{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+
+
+
+.range-slider__range {
+    -webkit-appearance: none;
+    width: calc(100% - (73px));
+    height: 10px;
+    border-radius: 5px;
+    background: #ac5102;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.range-slider__range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #203e5c;
+    cursor: pointer;
+}
+
+.range-slider__range::-webkit-slider-thumb:hover {
+    background: #6b96c2;
+}
+
+.range-slider__range:active::-webkit-slider-thumb {
+    background: #6b96c2;
+}
+
+.range-slider__range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    border-radius: 50%;
+    background: #203e5c;
+    cursor: pointer;
+}
+
+.range-slider__range::-moz-range-thumb:hover {
+    background: #6b96c2;
+}
+
+.range-slider__range:active::-moz-range-thumb {
+    background: #6b96c2;
+}
+
+/* numero que indica tamaño activo*/
+.range-slider__value {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    background: #203e5c;
+    padding: 5px 10px;
+    margin-left: 8px;
+}
+
+.range-slider__value:after {
+    top: 8px;
+    left: -7px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-right: 7px solid #203e5c;
+    border-bottom: 7px solid transparent;
+    content: "";
+}
+
+::-moz-range-track {
+    background: #1f1f1f;
+    border: 0;
+}
+
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+    border: 0;
+}
+
+/* modal */
+.ContainerBotonesSeñales {
+    height: 100%;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.ContenedorListaBotonesSeñales{
+    width: 100%;
+    height: 80%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+}
+
+.modal-footer {
+    border-radius: 0px !important;
+    background-color: #424242;
+    flex-wrap: nowrap;
+}
+
+/* interior modal canales */
+.canales-body {
+    text-align:center;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+}
+
+
+.compartir-body{
+    text-align:center;
+}
+
+/* botones de canales */
+.modal-body button {
+    margin-right: 0.8em;
+    width: 30%;
+    margin-bottom: 0.5em;
+}
+
+@media(min-width: 800px) {
+    .modal-body button {
+        width: 30%;
+    }
+}
+
+@media(min-width: 1620px) {
+    .modal-body button {
+        width: 30%;
+    }
+}
+
+
+/* texto tablas modales*/
+td {
+    text-align:left;
+}
+
+
+/* Mi intento de responsive (para telefonos...)*/
+@media screen and (max-width: 767px) {
+    .navbar {
+        padding: .5rem 1rem;
+    }
+    .navbar-toggler {
+        padding: 0rem;
+    }
+    .pulsate {
+        font-size: 1.2em;
+    }
+    .hora {
+        font-size: 1.2em;
+    }
+    .time-credits {
+        font-size: .7em; 
+    }
+    .no-js {
+        font-size: 150%;
+    }
+    .nombre-barra {
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        line-height: 12px;
+    }
+    .modal-footer {
+        flex-wrap: wrap;
+    }
+    #mifiltro {   
+        width: 100%;
+    }
+
+    
+}
+
+
+
+
+
+
+._BotonTV_Monitor1_Señales{
+   background-color: #ffffff;
+   font-family: 'Assistant', sans-serif;
+   font-weight: normal;
+   border-color: #171e27;
+   height: 45px;
+   width: 90%;
+   border-width: 2px;
+   border-radius: 5px;
+   margin-bottom: 1px;
+   text-align: left;
+   color: #171e27;
+   cursor:
+   pointer;
+   transition:all .2s
+  }
+  
+._BotonTV_Monitor1_Señales:hover{
+   background-color: rgb(255, 255, 255);
+   border-color: #0000df;
+   border-width: 2px;
+   font-weight: bold;
+   color:#0000df;
+   box-shadow: 0px 0px 10px #0000df;
+}
+  
+  
+._BotonTV_Monitor1_SeñalSeleccionada{
+  background-color: rgb(255, 255, 255);
+  backdrop-filter: blur(5px);
+  height: 45px;
+  font-family: 'Assistant', sans-serif;
+  font-weight: bold;
+  border-color:#129700;
+  color: #129700;
+  border-width: 2px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #129700;
+  text-align: left;
+  cursor:
+  pointer;
+  transition:all .2s
+}
+    
+._BotonTV_Monitor1_SeñalSeleccionada:hover{
+  color:rgb(255, 0, 0);
+  background-color:rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px #ff0000;
+  backdrop-filter: blur(8px);
+  border-width: 2px;
+  border-color:#ff0000
+}
+
+
+.BotonTV_Monitor1_Señales{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-color: #171e27;
+    border-width: 2px;
+    border-radius: 0px;
+    padding-left: 5%;
+    width: 99%;
+    height: 50PX;
+    color: #171e27;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+    cursor:
+    pointer;
+    transition:all .2s
+}
+    
+.BotonTV_Monitor1_Señales:hover {
+    background-color: rgb(255, 255, 255);
+    border-color: #0000df;
+    border-width: 2px;
+    font-weight: bold;
+    color:#0000df;
+    border-radius: 0px;
+    box-shadow: 0px 0px 10px #0000df;
+}
+
+.BotonTV_Monitor1_SeñalSeleccionada{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-color:#16be00;
+    color: #129700;
+    box-shadow: 0px 0px 10px #129700;
+    border-width: 2px;
+    border-radius: 0px;
+    padding-left: 5%;
+    width: 99%;
+    height: 50PX;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+    cursor:
+    pointer;
+    transition:all .2s
+}
+    
+.BotonTV_Monitor1_SeñalSeleccionada:hover {
+    color:rgb(255, 0, 0);
+    font-weight: bold;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px #ff0000;
+    backdrop-filter: blur(8px);
+    border-width: 2px;
+    border-color:#ff0000
+}
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: rgb(124, 124, 124);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid rgb(48, 48, 48);  /* creates padding around scroll thumb */
+}
+  
+
+
+

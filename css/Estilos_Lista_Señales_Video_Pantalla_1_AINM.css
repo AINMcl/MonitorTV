@@ -40,14 +40,11 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    height: 50px;
+    height: 30px;
     background-color: rgb(124, 124, 124);    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 1px solid rgb(48, 48, 48);  /* creates padding around scroll thumb */
 }
-
-
-
 
 .channel{
     background-color: #ffffff;

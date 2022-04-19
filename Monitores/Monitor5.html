@@ -1,121 +1,133 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="es">
+
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Monitor 5</title>
 
-<title> Monitor 5 </title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <link rel="icon" href='imagenes/Icon.png' type="image/png"/>
 
-<link href="../css/estilos.css" rel="stylesheet" type="text/css">
-<link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="../css/estilos.css" rel="stylesheet" type="text/css">
+    <link href="../css/estilos2.css" rel="stylesheet" type="text/css">
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
+    <!-- TIPOGRAFIA GOOGLE-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- TIPOGRAFIA ICONOS GOOGLE-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    gtag('config', 'G-RT53GZ16EW');
-</script>
-
-
-<!--bootstrap-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-</script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-</script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
-
-<script>
-    $(document).ready(function(){
-        $(".TextoBotonRecargar2").click(function(){
-            $(".Botones").toggle();
-        });
-    });
-</script>
-
-</head>
-<body>
-
-	<div style="position: absolute; display: inline-block; width: 100%; height:100%" >
-        <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
-        </div>
-        <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
-        </div>
-        <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
-        </div>
-        <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
-        </div>
-       </div>
-    </div>
-
-    <div class="Botones" style="position: absolute; top: 1%; width: 100%; height: 0px;line-height: 20px; text-align: center; background-color: red;">
-
-        <a onclick="launchFullScreen(document.documentElement);"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_1.svg"></img>ﾠ</span></a>
-        
-        <a href="Home.html"><span class="TEXTO_BotonIrAHome waves-effect waves-light">ㅤIR A HOMEㅤ</span></a>
-    
-        <a onclick="cancelFullScreen();"><span type="button" class="Boton_PantallaCompleta waves-effect waves-light">ﾠ<img style="height: 15px; width:auto;" src="imagenes/PantallaCompleta_2.svg"></img>ﾠ</span></a>
-        
-    </div>
-
-    <div style="position: absolute; top: 4%;" class="FondoBotonRecargar">
-        <a><span type="button" class="TextoBotonRecargar2">ㅤOCULTAR BOTONESㅤ</span></a>
-    </div>
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
     <script>
-    function launchFullScreen(element) {
-    if(element.requestFullScreen) {
-    element.requestFullScreen();
-    } else if(element.mozRequestFullScreen) {
-    element.mozRequestFullScreen();
-    } else if(element.webkitRequestFullScreen) {
-    element.webkitRequestFullScreen();
-    }
-    
-    if(element.requestFullScreen) {
-    element.requestFullScreen();
-    }
-    }
-    // Lanza en pantalla completa en navegadores que lo soporten
-    function cancelFullScreen() {
-     if(document.cancelFullScreen) {
-         document.cancelFullScreen();
-     } else if(document.mozCancelFullScreen) {
-         document.mozCancelFullScreen();
-     } else if(document.webkitCancelFullScreen) {
-         document.webkitCancelFullScreen();
-     }
-    }
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-RT53GZ16EW');
     </script>
 
-
-</div>
-
-
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 
+    <script>
+        $(document).ready(function(){
+            $(".TextoBotonRecargar2").click(function(){
+                $(".Botones").toggle();
+            });
+        });
+    </script>
+</head>
+
+<body style="font-family: 'Assistant', sans-serif; overflow: hidden;">
+  
+    <!-- SEÑALES PANTALLA -->
+    <div style="position: absolute; display: inline-block; width: 100%; height:100%" >
+      <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"
+          src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
+      </div>
+    
+      <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"
+          src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
+      </div>
+    
+      <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"
+          src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
+      </div>
+    
+      <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"
+          src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
+      </div>
+    </div>
+
+    
+
+
+    <!-- BOTON ABRIR MENU DESPLEGABLE  -->
+    <div class="ContenedorBotonMenuDesplegable">
+        <div class="BotonMenuDesplegable" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span style="font-size: 20px;" class="material-icons">settings</span></div>
+    </div>
+
+	<!-- MENU DEPEGLABLE -->
+	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">MENU</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+    <div class="offcanvas-body">
+        <div class="CuerpoMenuDesplegable">
+            <a href="Home.html"><span class="BotonMenuDesplegableAzul_2 waves-effect waves-red">IR A HOME</span></a>
+            <div class="BotonMenuDesplegableAzul_2" id="fullscreen"><img style="height: 20px; width:auto;" src="imagenes/PantallaCompleta_1.svg"></img><span>ﾠENTRAR PANTALLA COMPLETA</span></div>
+        </div>
+    </div>
+
+		
+
+
+
+        
+    <!-- Contenido de off canvas, end.  -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- PANTALLA COMPLETA = https://alplox.github.io/tele/ -->
+    <script>
+        // https://javascript.plainenglish.io/enter-full-screen-mode-with-javascript-a8a782d96dc
+        const btnFullscreen = document.querySelector('#fullscreen'),
+              btnFullscreenImg = btnFullscreen.querySelector('img'),
+              btnFullscreenSpan = btnFullscreen.querySelector('span'); 
+
+        function getFullscreenElement() {
+          return document.fullscreenElement   //standard property
+          || document.webkitFullscreenElement //safari/opera support
+          || document.mozFullscreenElement    //firefox support
+          || document.msFullscreenElement;    //ie/edge support
+        }
+
+        function toggleFullscreen() {
+          if(getFullscreenElement()) {
+            document.exitFullscreen();
+            btnFullscreenImg.setAttribute('src', 'imagenes/PantallaCompleta_1.svg');
+            btnFullscreenSpan.innerHTML = 'ﾠENTRAR A PANTALLA COMPLETA';
+          }else {
+            document.documentElement.requestFullscreen().catch(console.log);
+            btnFullscreenImg.setAttribute('src', 'imagenes/PantallaCompleta_2.svg');
+            btnFullscreenSpan.innerHTML = 'ﾠSALIR DE PANTALLA COMPLETA';
+          }
+        }
+
+        btnFullscreen.addEventListener('click', () => {
+          toggleFullscreen();
+        });
+    </script>
 
 </body>
+
 </html>

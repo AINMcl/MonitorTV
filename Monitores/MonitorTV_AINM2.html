@@ -40,7 +40,7 @@
 
 </head>
 
-<body style="background-color: #f2f2f2;font-family: 'Assistant', sans-serif;">
+<body style="background-color: #f2f2f2; font-family: 'Assistant', sans-serif;">
     
     <div style="position: absolute; display: inline-block; width: 100%; height:100%" >
         <div style="background-color: black;" id="video-container" class="video-container">
@@ -51,34 +51,31 @@
         </div>
     </div>
 
-    <!-- BOTON MENU  -->
+    <!-- BOTON MENU -->
     <div class="ContenedorBotonMenuDesplegable">
         <div class="BotonMenuDesplegable" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span style="font-size: 20px;" class="material-icons">settings</span></div>
     </div>
 
-    <!-- MENU  -->
-	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <!-- MENU -->
+	  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasExampleLabel">MENU</h5>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <div class="BarraListaSeñales" style="background-color: #ffffff; width: 100%; height: 85%; float: left; position: absolute; left: 0%;">
-                <div type="button" class="BotonMenuDesplegablePantallaCompleta" id="fullscreen"><img style="height: 20px; width:auto;" src="imagenes/PantallaCompleta_1.svg"></img> <span>Entrar pantalla completa</span></div>
-                <a href="HomeAINM.html"><span class="BotonMenuDesplegableHome waves-effect waves-red">ㅤIR A HOMEㅤ</span></a>
-                    <div class="channels-container">
-                        <section id="channel-list" class="channel-list">
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </div>
+          <div class="CuerpoMenuDesplegable">
+            <a href="HomeAINM.html"><span class="BotonMenuDesplegableAzul_2 waves-effect waves-red">IR A HOME</span></a>
+            <div class="BotonMenuDesplegableAzul_2" id="fullscreen"><img style="height: 20px; width:auto;" src="imagenes/PantallaCompleta_1.svg"></img><span>ﾠENTRAR PANTALLA COMPLETA</span></div>
+            <div class="CuerpoSeñalesMenuDesplegable">
+              <section id="channel-list" class="channel-list">
+              </section>
+          </div>
     </div>
 
     <!-- Contenido de off canvas, end.  -->
 	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	
-    <!--PANTALLA COMPLETA-->
+    <!-- PANTALLA COMPLETA = https://alplox.github.io/tele/ -->
     <script>
         // https://javascript.plainenglish.io/enter-full-screen-mode-with-javascript-a8a782d96dc
         const btnFullscreen = document.querySelector('#fullscreen'),
@@ -96,11 +93,11 @@
           if(getFullscreenElement()) {
             document.exitFullscreen();
             btnFullscreenImg.setAttribute('src', 'imagenes/PantallaCompleta_1.svg');
-            btnFullscreenSpan.innerHTML = 'ENTRAR A PANTALLA COMPLETA';
+            btnFullscreenSpan.innerHTML = 'ﾠENTRAR A PANTALLA COMPLETA';
           }else {
             document.documentElement.requestFullscreen().catch(console.log);
             btnFullscreenImg.setAttribute('src', 'imagenes/PantallaCompleta_2.svg');
-            btnFullscreenSpan.innerHTML = 'SALIR DE PANTALLA COMPLETA';
+            btnFullscreenSpan.innerHTML = 'ﾠSALIR DE PANTALLA COMPLETA';
           }
         }
 
