@@ -47,87 +47,93 @@
 
 <body style="font-family: 'Assistant', sans-serif; overflow: hidden;">
   
-    <!-- SEÑALES PANTALLA -->
-    <div style="position: absolute; display: inline-block; width: 100%; height:100%" >
-      <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item"
-          src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
-      </div>
-    
-      <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item"
-          src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
-      </div>
-    
-      <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item"
-          src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
-      </div>
-    
-      <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item"
-          src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
-      </div>
+  <!-- SEÑALES PANTALLA -->
+  <div style="position: absolute; display: inline-block; width: 100%; height:100%" >
+    <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item"
+        src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
     </div>
+  
+    <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item"
+        src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
+    </div>
+  
+    <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item"
+        src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
+    </div>
+  
+    <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item"
+        src="Monitor_Interactivo_Pantalla_Public.html" frameborder="0"></iframe>
+    </div>
+  </div>
 
     
 
 
-    <!-- BOTON ABRIR MENU DESPLEGABLE  -->
-    <div class="ContenedorBotonMenuDesplegable">
-        <div class="BotonMenuDesplegable" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span style="font-size: 20px;" class="material-icons">settings</span></div>
-    </div>
-
-	<!-- MENU -->
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">MENU</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <div class="CuerpoMenuDesplegable">
-                <a  href="Home.html" style="text-decoration: none;"><span class="BotonMenuDesplegableGris waves-effect waves-grisoscuro"><span style="margin-right: 5px;" class="material-icons">home</span>IR A HOME</span></a>
-                <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
-            </div>
-        </div>
-    </div>
-
-        
-    <!-- Contenido de off canvas, end.  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!-- PANTALLA COMPLETA = https://alplox.github.io/tele/ -->
-    <script>
-      // https://javascript.plainenglish.io/enter-full-screen-mode-with-javascript-a8a782d96dc
-      const btnFullscreen = document.querySelector('#fullscreen'),
-            btnFullscreenSpanIcon = btnFullscreen.querySelector('text'),
-            btnFullscreenSpan = btnFullscreen.querySelector('span');
-
-      function getFullscreenElement() {
-        return document.fullscreenElement   //standard property
-        || document.webkitFullscreenElement //safari/opera support
-        || document.mozFullscreenElement    //firefox support
-        || document.msFullscreenElement;    //ie/edge support
-      }
-
-      function toggleFullscreen() {
-        if(getFullscreenElement()) {
-          document.exitFullscreen();
-          btnFullscreenSpanIcon.innerHTML = 'ENTRAR A PANTALLA COMPLETA';
-          btnFullscreenSpan.innerHTML = 'open_in_full';
-
-        }else {
-          document.documentElement.requestFullscreen().catch(console.log);
-          btnFullscreenSpanIcon.innerHTML = 'SALIR DE PANTALLA COMPLETA';
-          btnFullscreenSpan.innerHTML = 'close_fullscreen';
-
-        }
-      }
-
-      btnFullscreen.addEventListener('click', () => {
-        toggleFullscreen();
-      });
-    </script>
+  <!-- BOTON MENU  -->
+  <div class="ContenedorBotonMenuDesplegable">
+    <div class="BotonMenuDesplegable" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span style="font-size: 20px;" class="material-icons">settings</span></div>
+  </div>
+  
+  <!-- MENU DEPEGLABLE -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">MENU</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable">
+          <a style="text-decoration: none;" href="Home.html" ><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons">home</span>IR AL HOME</span></a>
+      
+          <br>
+          <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
+          <a style="text-decoration: none;" href="javascript:location.reload()"><span class="BotonMenuDesplegableAzul waves-effect waves-grisoscuro"><span style="margin-right: 5px;" class="material-icons">replay</span>RECARGAR PAGINA</span></a>
+          <br>
+          <div style="font-family: 'Assistant', sans-serif;">
+              <b>ACTUALIZADO:</b> 20 ABRIL - 16:15
+          </div>
+      </div>
+  </div>
+  </div>
+  
+  <!-- Contenido de off canvas, end.  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  <!--PANTALLA COMPLETA-->
+  <script>
+  // https://javascript.plainenglish.io/enter-full-screen-mode-with-javascript-a8a782d96dc
+  const btnFullscreen = document.querySelector('#fullscreen'),
+        btnFullscreenSpanIcon = btnFullscreen.querySelector('text'),
+        btnFullscreenSpan = btnFullscreen.querySelector('span');
+  
+  function getFullscreenElement() {
+    return document.fullscreenElement   //standard property
+    || document.webkitFullscreenElement //safari/opera support
+    || document.mozFullscreenElement    //firefox support
+    || document.msFullscreenElement;    //ie/edge support
+  }
+  
+  function toggleFullscreen() {
+    if(getFullscreenElement()) {
+      document.exitFullscreen();
+      btnFullscreenSpanIcon.innerHTML = 'ENTRAR A PANTALLA COMPLETA';
+      btnFullscreenSpan.innerHTML = 'open_in_full';
+    
+    }else {
+      document.documentElement.requestFullscreen().catch(console.log);
+      btnFullscreenSpanIcon.innerHTML = 'SALIR DE PANTALLA COMPLETA';
+      btnFullscreenSpan.innerHTML = 'close_fullscreen';
+    
+    }
+  }
+  
+  btnFullscreen.addEventListener('click', () => {
+    toggleFullscreen();
+  });
+  </script>
 
 
 

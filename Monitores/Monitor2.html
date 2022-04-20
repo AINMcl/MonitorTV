@@ -79,63 +79,67 @@
     
 
 
-        <!-- BOTON MENU  -->
-        <div class="ContenedorBotonMenuDesplegable">
-            <div class="BotonMenuDesplegable" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span style="font-size: 20px;" class="material-icons">settings</span></div>
-        </div>
+    <!-- BOTON MENU  -->
+    <div class="ContenedorBotonMenuDesplegable">
+        <div class="BotonMenuDesplegable" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span style="font-size: 20px;" class="material-icons">settings</span></div>
+    </div>
 
-		<!-- MENU  -->
-		<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+		<!-- MENU DEPEGLABLE -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">MENU</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">MENU</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-          <div style="background-color: #ffffff; width: 100%; height: 85%; float: left; position: absolute; left: 0%;">
-            <div type="button" class="BotonMenuDesplegablePantallaCompleta" id="fullscreen"><img style="height: 20px; width:auto;" src="imagenes/PantallaCompleta_1.svg"></img> <span>Entrar pantalla completa</span></div>
-            <a href="Home.html"><span class="MenuDesplegableHome waves-effect waves-red">ㅤIR A HOMEㅤ</span></a>
+          <div class="CuerpoMenuDesplegable">
+              <a style="text-decoration: none;" href="Home.html" ><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons">home</span>IR AL HOME</span></a>
+
+              <br>
+              <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
+              <a style="text-decoration: none;" href="javascript:location.reload()"><span class="BotonMenuDesplegableAzul waves-effect waves-grisoscuro"><span style="margin-right: 5px;" class="material-icons">replay</span>RECARGAR PAGINA</span></a>
+              <br>
+              <div style="font-family: 'Assistant', sans-serif;">
+                  <b>ACTUALIZADO:</b> 20 ABRIL - 16:15
+              </div>
           </div>
-        </div>
       </div>
+  </div>
 
-		
+  <!-- Contenido de off canvas, end.  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+  <!--PANTALLA COMPLETA-->
+  <script>
+      // https://javascript.plainenglish.io/enter-full-screen-mode-with-javascript-a8a782d96dc
+      const btnFullscreen = document.querySelector('#fullscreen'),
+            btnFullscreenSpanIcon = btnFullscreen.querySelector('text'),
+            btnFullscreenSpan = btnFullscreen.querySelector('span');
 
+      function getFullscreenElement() {
+        return document.fullscreenElement   //standard property
+        || document.webkitFullscreenElement //safari/opera support
+        || document.mozFullscreenElement    //firefox support
+        || document.msFullscreenElement;    //ie/edge support
+      }
 
-        
-        <!-- Contenido de off canvas, end.  -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	
-        <!--PANTALLA COMPLETA: https://alplox.github.io/tele/-->
-        <script>
-            // https://javascript.plainenglish.io/enter-full-screen-mode-with-javascript-a8a782d96dc
-            const btnFullscreen = document.querySelector('#fullscreen'),
-                  btnFullscreenImg = btnFullscreen.querySelector('img'),
-                  btnFullscreenSpan = btnFullscreen.querySelector('span'); 
+      function toggleFullscreen() {
+        if(getFullscreenElement()) {
+          document.exitFullscreen();
+          btnFullscreenSpanIcon.innerHTML = 'ENTRAR A PANTALLA COMPLETA';
+          btnFullscreenSpan.innerHTML = 'open_in_full';
 
-            function getFullscreenElement() {
-              return document.fullscreenElement   //standard property
-              || document.webkitFullscreenElement //safari/opera support
-              || document.mozFullscreenElement    //firefox support
-              || document.msFullscreenElement;    //ie/edge support
-            }
+        }else {
+          document.documentElement.requestFullscreen().catch(console.log);
+          btnFullscreenSpanIcon.innerHTML = 'SALIR DE PANTALLA COMPLETA';
+          btnFullscreenSpan.innerHTML = 'close_fullscreen';
 
-            function toggleFullscreen() {
-              if(getFullscreenElement()) {
-                document.exitFullscreen();
-                btnFullscreenImg.setAttribute('src', 'imagenes/PantallaCompleta_1.svg');
-                btnFullscreenSpan.innerHTML = 'ENTRAR A PANTALLA COMPLETA';
-              }else {
-                document.documentElement.requestFullscreen().catch(console.log);
-                btnFullscreenImg.setAttribute('src', 'imagenes/PantallaCompleta_2.svg');
-                btnFullscreenSpan.innerHTML = 'SALIR DE PANTALLA COMPLETA';
-              }
-            }
+        }
+      }
 
-            btnFullscreen.addEventListener('click', () => {
-              toggleFullscreen();
-            });
-         </script>
+      btnFullscreen.addEventListener('click', () => {
+        toggleFullscreen();
+      });
+    </script>
 </body>
 
 </html>
