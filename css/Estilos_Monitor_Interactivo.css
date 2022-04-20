@@ -1,0 +1,234 @@
+body {
+    background: #000000;
+}
+
+.navbar {
+    position: relative;
+    padding: 0rem 1rem;
+}
+
+/* Animacion boton canales*/
+.pulsate {
+    color: rgb(16, 173, 201);
+    font-size: 1.5em;
+    animation: pulsate 3s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0.5;
+}
+
+@keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.modal-content{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+/* selector nº streams */
+label {
+   color: #fff;
+}
+
+/* boton on/off nombres stream*/
+.btn1-nombres-stream {
+    margin-bottom: 1%;
+}
+
+/* slider tamaño streams*/
+.range-slider {
+    width: 100%;
+}
+
+.range-slider__range {
+    -webkit-appearance: none;
+    width: calc(100% - (73px));
+    height: 10px;
+    border-radius: 5px;
+    background: #ac5102;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.range-slider__range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #203e5c;
+    cursor: pointer;
+}
+
+.range-slider__range::-webkit-slider-thumb:hover {
+    background: #6b96c2;
+}
+
+.range-slider__range:active::-webkit-slider-thumb {
+    background: #6b96c2;
+}
+
+.range-slider__range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    border-radius: 50%;
+    background: #203e5c;
+    cursor: pointer;
+}
+
+.range-slider__range::-moz-range-thumb:hover {
+    background: #6b96c2;
+}
+
+.range-slider__range:active::-moz-range-thumb {
+    background: #6b96c2;
+}
+
+/* numero que indica tamaño activo*/
+.range-slider__value {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    background: #203e5c;
+    padding: 5px 10px;
+    margin-left: 8px;
+}
+
+.range-slider__value:after {
+    top: 8px;
+    left: -7px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-right: 7px solid #203e5c;
+    border-bottom: 7px solid transparent;
+    content: "";
+}
+
+::-moz-range-track {
+    background: #1f1f1f;
+    border: 0;
+}
+
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+    border: 0;
+}
+
+/* modal */
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+    text-align: left;
+}
+
+.modal-footer {
+    border-radius: 0px !important;
+    background-color: #424242;
+    flex-wrap: nowrap;
+}
+
+/* interior modal canales */
+.canales-body {
+    text-align:center;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+}
+
+
+.compartir-body{
+    text-align:center;
+}
+
+/* botones de canales */
+.modal-body button {
+    margin-right: 0.8em;
+    width: 30%;
+    margin-bottom: 0.5em;
+}
+
+@media(min-width: 800px) {
+    .modal-body button {
+        width: 30%;
+    }
+}
+
+@media(min-width: 1620px) {
+    .modal-body button {
+        width: 30%;
+    }
+}
+
+/* boton copiar enlace*/
+.btn-copiar {
+    margin-right: 1em;
+    border-radius: 5px;
+    width: 50%;
+    margin-bottom: 0.4em;
+}
+
+
+.nombre-color:hover {
+    opacity: 1;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* texto tablas modales*/
+td {
+    text-align:left;
+}
+
+
+/* Mi intento de responsive (para telefonos...)*/
+@media screen and (max-width: 767px) {
+    .navbar {
+        padding: .5rem 1rem;
+    }
+    .navbar-toggler {
+        padding: 0rem;
+    }
+    .pulsate {
+        font-size: 1.2em;
+    }
+    .hora {
+        font-size: 1.2em;
+    }
+    .time-credits {
+        font-size: .7em; 
+    }
+    .no-js {
+        font-size: 150%;
+    }
+    .nombre-barra {
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        line-height: 12px;
+    }
+    .modal-footer {
+        flex-wrap: wrap;
+    }
+    #mifiltro {   
+        width: 100%;
+    }
+
+    
+}
+
+
+

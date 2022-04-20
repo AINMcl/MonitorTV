@@ -1,19 +1,37 @@
-
-
 .video-container{
     width: 100%;
     height: 100%;
-    
 }
 
-
-.channels-container{
+.CuerpoListadoBotonesSeñalesMonitorTV{
     width: 100%;
     height: 90%;
-    padding-top: 30px;
     padding-bottom: 20px;
+}
+
+.CuerpoBarraLateralMonitorTV{
+    padding-top: 20px;
     padding-left: 20px;
-    padding-right: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-family: 'Assistant', sans-serif;
+    background-color: #ffffff;
+    width: 25%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    left: 0%;
+}
+
+.CuerpoVideoMonitorTV{
+    background-color: #d6d6d6;
+    width: 75%;
+    height:100%;
+    right: 0%;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .BotonHomeTV{

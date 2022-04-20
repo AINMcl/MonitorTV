@@ -57,21 +57,20 @@
     
     <div style="position: absolute; display: inline-block; width: 100%; height:100%" >
         
-        <div class="BarraListaSeñales" style="background-color: #ffffff; width: 25%; height:100%; float: left; position: absolute; left: 0%;">
-
-            <div class="channels-container">
-                <section id="channel-list" class="channel-list">
-                </section>
+        <div class="CuerpoBarraLateralMonitorTV">
+                <div class="CuerpoListadoBotonesSeñalesMonitorTV">
+                    <section id="channel-list" class="channel-list">
+                    </section>
+                </div>
+                
+                <!-- BOTON ABRIR MENU DESPLEGABLE -->
+                <a style="text-decoration: none;" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span class="BotonMenuDesplegableGris waves-effect waves-grisoscuro"><span style="margin-right: 5px;" class="material-icons">settings</span>MENU</span></a>
             </div>
-        
-            <a href="HomeAINM.html"><span class="BotonHomeTV waves-effect waves-red">ㅤIR A HOMEㅤ</span></a>
-       </div>
 
        <!--<hr/>☰✕✕-->
-       <div style="background-color: #d6d6d6; width: 75%; height:100%; right: 0%; position: absolute; padding-top: 30px; padding-right: 20px; padding-left: 20px;">
+       <div class="CuerpoVideoMonitorTV">
             <div style="background-color: black;" id="video-container" class="video-container">
                 <iframe id="player" src=""></iframe>
-
                 <div class="FondoTitulosMonitor1">
                     <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra"></div>
                 </div>
@@ -79,20 +78,21 @@
         </div>
     </div>
 
-    <!-- BOTON ABRIR MENU DESPLEGABLE -->
-    <div class="ContenedorBotonMenuDesplegable">
-        <div class="BotonMenuDesplegable" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span style="font-size: 20px;" class="material-icons">settings</span></div>
-    </div>
 
 	<!-- MENU DEPEGLABLE -->
-	<div style="width: 30%;" class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasExampleLabel">MENU</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
             <div class="CuerpoMenuDesplegable">
-                <div class="BotonMenuDesplegableAzul_2" id="fullscreen"><img style="height: 20px; width:auto;" src="imagenes/PantallaCompleta_1.svg"></img><span>ﾠENTRAR PANTALLA COMPLETA</span></div>
+                <a style="text-decoration: none;" href="HomeAINM.html"><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons">home</span>IR A HOME</span></a>
+                <br>
+                <a style="text-decoration: none;" href="javascript:location.reload()"><span class="BotonMenuDesplegableGris waves-effect waves-grisoscuro"><span style="margin-right: 5px;" class="material-icons">replay</span>RECARGAR PAGINA</span></a>
+                
+                <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
+
             </div>
         </div>
     </div>
@@ -104,32 +104,34 @@
     <script>
         // https://javascript.plainenglish.io/enter-full-screen-mode-with-javascript-a8a782d96dc
         const btnFullscreen = document.querySelector('#fullscreen'),
-              btnFullscreenImg = btnFullscreen.querySelector('img'),
-              btnFullscreenSpan = btnFullscreen.querySelector('span'); 
-
+              btnFullscreenSpanIcon = btnFullscreen.querySelector('text'),
+              btnFullscreenSpan = btnFullscreen.querySelector('span');
+  
         function getFullscreenElement() {
           return document.fullscreenElement   //standard property
           || document.webkitFullscreenElement //safari/opera support
           || document.mozFullscreenElement    //firefox support
           || document.msFullscreenElement;    //ie/edge support
         }
-
+  
         function toggleFullscreen() {
           if(getFullscreenElement()) {
             document.exitFullscreen();
-            btnFullscreenImg.setAttribute('src', 'imagenes/PantallaCompleta_1.svg');
-            btnFullscreenSpan.innerHTML = 'ﾠENTRAR A PANTALLA COMPLETA';
+            btnFullscreenSpanIcon.innerHTML = 'ENTRAR A PANTALLA COMPLETA';
+            btnFullscreenSpan.innerHTML = 'open_in_full';
+  
           }else {
             document.documentElement.requestFullscreen().catch(console.log);
-            btnFullscreenImg.setAttribute('src', 'imagenes/PantallaCompleta_2.svg');
-            btnFullscreenSpan.innerHTML = 'ﾠSALIR DE PANTALLA COMPLETA';
+            btnFullscreenSpanIcon.innerHTML = 'SALIR DE PANTALLA COMPLETA';
+            btnFullscreenSpan.innerHTML = 'close_fullscreen';
+  
           }
         }
-
+  
         btnFullscreen.addEventListener('click', () => {
           toggleFullscreen();
         });
-    </script>
+      </script>
     
    
 </body>
