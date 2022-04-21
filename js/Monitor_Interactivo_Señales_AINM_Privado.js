@@ -1,5 +1,5 @@
 
-var size = 4;
+var size = 6;
 
 ///6 = 2 PANTALLAS HORIZONTALMENTE///
 ///3 = 4 PANTALLAS HORIZONTALMENTE///
@@ -1846,7 +1846,7 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("CNN_CHILE");
+        App.add("24HTVN");
         App.add("MEGANOTICIAS");
 
     }
@@ -1859,6 +1859,18 @@ var modal = document.getElementById("custom-modal");
 var btn = document.getElementById("custom-btn");
 var span = document.getElementById("custom-close");
 var span2 = document.getElementById("custom-close2");
+
+var hue = document.getElementById("Stream_por_fila");
+
+hue.onchange = function (event) {
+    size = event.target.value
+    sizeMobile = event.target.value
+    let canal2 = document.querySelectorAll(".stream");
+    for (let videos of canal2) {
+        videos.classList.remove("col-12", "col-6", "col-4", "col-3", "col-2");
+        videos.classList.add("col-" + event.target.value);
+    }
+}
 
 btn.onclick = function () {
     modal.style.display = "block";
@@ -1878,17 +1890,7 @@ span2.onclick = function () {
     modal.style.display = "none";
 }
 
-var hue = document.getElementById("Stream_por_fila");
 
-hue.onchange = function (event) {
-    size = event.target.value
-    sizeMobile = event.target.value
-    let canal2 = document.querySelectorAll(".stream");
-    for (let videos of canal2) {
-        videos.classList.remove("col-12", "col-6", "col-4", "col-3", "col-2");
-        videos.classList.add("col-" + event.target.value);
-    }
-}
 
 var anchoStreams = document.getElementById("Tamaño_streams");
 

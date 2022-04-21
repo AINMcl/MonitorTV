@@ -153,8 +153,7 @@
     cursor:
     pointer;
     transition:all .2s
-    
-  }
+}
     
 .channel:hover {
     background-color: rgb(255, 255, 255);

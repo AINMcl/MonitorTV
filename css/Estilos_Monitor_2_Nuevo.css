@@ -161,7 +161,7 @@ input::-moz-focus-outer {
 /* botones de canales */
 .modal-body button {
     width: 100%;
-    margin-bottom: 0.5em;
+    margin-bottom: 10px;
     margin-right: 0px;
 }
 
@@ -236,53 +236,66 @@ td {
 
 .BotonTV_Señales{
     background-color: #ffffff;
-    font-family: 'Assistant', sans-serif;
-    font-weight: normal;
-    border-color: #171e27;
-    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-color: #2E4053;
     border-width: 2px;
-    border-radius: 5px;
-    margin-bottom: 1px;
-    margin-right: 0px;
-    text-align: left;
-    color: #171e27;
+    border-radius: 0px;
+    padding-left: 5%;
+    width: 99%;
+    height: 55px;
+    color: #2E4053;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
     cursor:
     pointer;
     transition:all .2s
 }
-
-.BotonTV_Señales:hover{
+    
+.BotonTV_Señales:hover {
     background-color: rgb(255, 255, 255);
     border-color: #0000df;
     border-width: 2px;
     font-weight: bold;
     color:#0000df;
-    box-shadow: 0px 0px 10px #0000df;
+    border-radius: 0px;
+    box-shadow: 0px 2px 10px #0000df;
 }
+
 .BotonTV_SeñalSeleccionada{
-    background-color: rgb(255, 255, 255);
-    backdrop-filter: blur(5px);
-    height: 45px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-color: #15b100;
+    border-width: 2px;
+    border-radius: 0px;
+    padding-left: 5%;
+    width: 99%;
+    height: 55px;
+    color: #15b100;
+    margin: 0;
+    font-size: 15px;
     font-family: 'Assistant', sans-serif;
     font-weight: bold;
-    border-color:#129700;
-    color: #129700;
-    border-width: 2px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px #129700;
-    text-align: left;
+    margin-bottom: 5%;
     cursor:
     pointer;
     transition:all .2s
 }
-  
-.BotonTV_SeñalSeleccionada:hover{
-    color:rgb(255, 0, 0);
-    background-color:rgb(255, 255, 255);
-    box-shadow: 0px 0px 10px #ff0000;
-    backdrop-filter: blur(8px);
+    
+.BotonTV_SeñalSeleccionada:hover {
+    background-color: rgb(255, 255, 255);
+    border-color: #ff0000;
     border-width: 2px;
-    border-color:#ff0000
+    font-weight: bold;
+    color:#ff0000;
+    border-radius: 0px;
+    box-shadow: 0px 2px 10px #ff0000;
 }
 
 

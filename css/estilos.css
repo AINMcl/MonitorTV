@@ -57,20 +57,6 @@ color: #FFFFFF;
 
 
 
-.Titulo_Señal{
-  display: inline-block;
-  margin: 0px;
-  width: 150px;
-  height: 20px;
-  padding: 0px;   
-  border-radius: 4px;
-  background: rgba(0, 0, 0, 0.3);
-  text-align: center;
-  font-weight: bold;
-  color: #FFFFFF;
-}
-
-
 
 
 
@@ -112,17 +98,6 @@ section#Relojes{
   color:#fff
 }
 
-
-
-section#RelojesMonitor2{
-  display: inline-block;
-  margin: 0px;
-  padding: 0px;   
-  background-color: #000000;
-  font-weight: bold;
-  text-align: center;
-  color: #FFFFFF;
-}
 
 
 
@@ -278,6 +253,7 @@ section#RelojesMonitor2{
   pointer;
   transition:all .7s
 }
+
 
 .BotonesHomeGRIS:hover{
   background:#25252F;
@@ -472,261 +448,6 @@ section#RelojesMonitor2{
 .TextoBotonHome{
   background-color: red;
 }
-
-
-.BOTON_MonitorSismo{
-  background-color: #032eeb;
-  display: inline-block;
-  margin: 0px;
-  width: 70px;
-  height: 20px;
-  line-height: 20px;
-  padding: 0px;
-  border-radius: 0px;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.BOTON_MonitorSismo:hover{
-  background:#010172;
-  color:#fff
-}
-
-.NombreEstacionesAysen2{
-  background-color: #0177ec;
-  display:inline-table;
-  margin: 0px;
-  width: 200px;
-  height: 20px;
-  padding: 0px; 
-  font-size: 15PX;
-  border-radius: 0px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 20px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.NombreEstacionesAysen2:hover{
-  background:#0000df;
-  color:#fff
-}
-
-
-
-.CajaTitulos{
-  margin: 0px;
-  width: 150px;
-  border-radius: 4px;
-  background:rgba(0, 0, 0, 0);
-  font-weight: bold;
-  color: #FFFFFF;
-  position: absolute;
-  left: 0px;
-  top: 220px;
-  cursor:
-  pointer;
-  transition:all .4s;
-}
-
-
-
-.CAJATextoTituloPantallaPequeñaSpacex{
-  background: rgb(0, 0, 0, 0.0);
-  margin: 0 auto;
-  width: 100%;
-  height: 15px;
-  line-height: 15px;
-  position: absolute;
-  top: 5px;
-}
-
-.TextoTituloPantallaPequeñaSpacex{
-  background: rgba(0, 0, 0, 0.6);
-  margin: 0 auto;
-  width: 20%;
-  height: 15px;
-  line-height: 15px;
-  border-radius: 3px;
-  position: relative;
-  font-family: 'Assistant', sans-serif;
-  font-size: 10px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-}
-
-
-.CAJATextoTituloPantallaGrandeSpacex{
-  background: rgb(0, 0, 0, 0.0);
-  margin: 0 auto;
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  position: absolute;
-  top: 2%;
-}
-
-.TextoTituloPantallaGrandeSpacex{
-  background: rgba(0, 0, 0, 0.6);
-  margin: 0 auto;
-  width: 20%;
-  height: 20px;
-  line-height: 20px;
-  border-radius: 3px;
-  position: relative;
-  font-family: 'Assistant', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-}
-
-
-
-.CAJATextoTituloPantallaGrande{
-  background: rgb(0, 0, 0, 0.0);
-  margin: 0 auto;
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  position: absolute;
-  top: 1%;
-}
-
-.TextoTituloPantallaGrande{
-  background: rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
-  width: 20%;
-  height: 20px;
-  line-height: 20px;
-  border-radius: 3px;
-  position: relative;
-  font-family: 'Assistant', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-}
-
-.TextoTituloPantallaGrandeNueva{
-  background: rgba(0, 0, 0, 0.6);
-  margin: 0 auto;
-  width: 20%;
-  height: 20px;
-  line-height: 20px;
-  position: absolute;
-  bottom: 5px;
-  font-family: 'Assistant', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-}
-
-.TextoTituloPantallaPequeñaNueva{
-  background: rgba(0, 0, 0, 0.6);
-  margin: 0 auto;
-  width: 20%;
-  height: 15px;
-  line-height: 15px;
-  position: absolute;
-  bottom: 3px;
-  font-family: 'Assistant', sans-serif;
-  font-size: 10px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-}
-
-.BarraBotonSpacex2{
-  background:rgba(0, 0, 0, 0);
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  position: absolute;
-  top: 1%;
-  text-align: center;
-}
-
-
-.CAJATitulosMonitor4{
-  background: rgb(0, 0, 0, 0.0);
-  margin: 0;
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  position: absolute;
-}
-
-.CAJATitulosMonitor4_LEFT{
-  background: rgba(0, 110, 255, 0);
-  display: inline-block;
-  float: left;
-  margin: 0;
-  width: 50%;
-  height: 20px;
-  line-height: 20px;
-  position: relative;
-  top: 0px;
-}
-.CAJATitulosMonitor4_RIGHT{
-  background: rgba(0, 110, 255, 0);
-  display: inline-block;
-  float: left;
-  margin: 0;
-  width: 50%;
-  height: 20px;
-  line-height: 20px;
-  position: relative;
-  top: 0px;
-}
-
-.BarraMonitorNoticias4{
-  background:rgba(0, 0, 0, 0);
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  position: absolute;
-  top: 5px;
-  text-align: center;
-}
-
-
-
-.BotonMonitorNoticias4{
-  background: rgba(0, 0, 0, 0.0);
-  display:inline-table;
-  margin: 0 auto;
-  width: 5%;
-  height: 20px;
-  line-height: 20px;
-  border-radius: 3px;
-  position: relative;
-  font-family: 'Assistant', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.BotonMonitorNoticias4:hover{
-  background:#0000f1;
-  color:#fff
-}
-
-
 .CAJATituloDePantallaPequeña{
   background: rgb(0, 0, 0, 0.0);
   margin: 0 auto;
@@ -761,51 +482,6 @@ section#RelojesMonitor2{
   background:#0067dd;
   color:#fff
 }
-
-
-.CAJATituloDePantallaGrande{
-  background: rgb(0, 0, 0, 0.0);
-  margin: 0 auto;
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  position: absolute;
-  top: 2%;
-  text-align: center;
-  
-}
-
-
-.TEXTOTituloDePantallaGrande{
-  background-image: linear-gradient(
--225deg
-, rgba(18, 20, 23, 0.6) 0%, rgba(18, 20, 23, 0.75) 28%, rgba(18, 20, 23, 0.71) 71%, rgba(18, 20, 23, 0.4) 100%);margin: 0 auto;
-
-
-  backdrop-filter: blur(5px);
-  margin: 0 auto;
-  width: 20%;
-  height: 20px;
-  line-height: 20px;
-  border-radius: 3px;
-  position: relative;
-  font-family: 'Assistant', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-  cursor:
-  pointer;
-  transition:all .5s;
-  display:inline-table;
-
-}
-
-.TEXTOTituloDePantallaGrande:hover{
-  background:#0067dd;
-  color:#fff
-}
-
 /*--------------------------------------------*/
 
 .BARRA_BotonIrAHome{
@@ -818,18 +494,6 @@ section#RelojesMonitor2{
   margin: 0 auto;
   text-align: center;
 }
-
-.BARRA_BotonIrAHome2{
-  background:rgba(0, 0, 0, 0);
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  position: absolute;
-  bottom: 2%;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .TEXTO_BotonIrAHome{
   display: inline-block;
   background:rgba(0, 0, 0, 0.3);
@@ -865,6 +529,7 @@ section#RelojesMonitor2{
   top: 5px;
   text-align: center;
 }
+
 
 .TEXTOTituloDePantallaPequeñaNEGRA{
   background: rgba(0, 0, 0, 0.6);
@@ -1980,7 +1645,7 @@ section#RelojesMonitor2{
   border-width: 2px;
   font-weight: bold;
   color:#0000df;
-  box-shadow: 0px 0px 10px #0000df;
+  box-shadow: 0px 2px 10px #0000df;
 }
 
 .BotonTV_SeñalSeleccionada{
@@ -1993,7 +1658,7 @@ section#RelojesMonitor2{
   color: #129700;
   border-width: 2px;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px #129700;
+  box-shadow: 0px 2px 10px #129700;
   text-align: left;
   cursor:
   pointer;
@@ -2003,7 +1668,7 @@ section#RelojesMonitor2{
 .BotonTV_SeñalSeleccionada:hover{
   color:rgb(255, 0, 0);
   background-color:rgb(255, 255, 255);
-  box-shadow: 0px 0px 10px #ff0000;
+  box-shadow: 0px 2px 10px #ff0000;
   backdrop-filter: blur(8px);
   border-width: 2px;
   border-color:#ff0000
@@ -3564,6 +3229,8 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 15px #2E4053;
 }
 
+
+
 .BotonModalFlotanteRojoPequeño{
   display: flex;
   background-color: #ff0000;
@@ -3643,6 +3310,45 @@ background-image: linear-gradient(
   font-weight: bold;
   align-items: center;
 }
+
+.BotonMenuDesplegableTituloMenu{
+  display: flex;
+  background-color: #F2F2F2;
+  color: #000000;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 20px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20PX;
+  font-weight: bold;
+  align-items: center;
+}
+
+.BotonMenuDesplegableCerarMenu{
+  display: flex;
+  background-color: #FF0000;
+  color: #FFFFFF;
+  margin-left: 0px;
+  padding: 20px;
+  width: auto;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20PX;
+  font-weight: bold;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonMenuDesplegableCerarMenu:hover{
+  color: #ff0000;
+  background-color: #FFFFFF;
+}
+
+
 
 
 
