@@ -1660,15 +1660,6 @@ var btn = document.getElementById("custom-btn");
 var span = document.getElementById("custom-close");
 var span2 = document.getElementById("custom-close2");
 
-//ELIMINAR SEÑALES = https://alplox.github.io/tele/
-const btnLimpiar = document.querySelector('#Borrar');
-btnLimpiar.addEventListener('click', () => {
-  let transmisionPorLimpiar = document.querySelectorAll('.stream');
-    transmisionPorLimpiar.forEach(transmision => {
-      let dataCanal = transmision.getAttribute('data-canal');
-      App.remove(dataCanal);
-    })
-});
 
 btn.onclick = function () {
     modal.style.display = "block";

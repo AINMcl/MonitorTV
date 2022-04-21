@@ -1013,6 +1013,8 @@ section#RelojesMonitor2{
   transition:all .5s
 }
 
+
+
 .StreamsPorFila{
   display: inline-block;
   background:rgba(0, 0, 0, 0.3);
@@ -3532,6 +3534,33 @@ background-image: linear-gradient(
   background-color: #FFFFFF;
   border: solid 2px #2E4053;
   box-shadow: 0px 0px 15px #2E4053;
+}
+
+.BotonModalFlotanteRojoPequeño{
+  display: flex;
+  background-color: #ff0000;
+  border: solid 2px #ff0000;
+  color: #FFFFFF;
+  margin-left: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  height: 35px;
+  line-height: 35px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonModalFlotanteRojoPequeño:hover{
+  color: #ff0000;
+  background-color: #FFFFFF;
+  border: solid 2px #ff0000;
+  box-shadow: 0px 0px 15px #ff0000;
 }
 
 .CuerpoMenuDesplegable{
