@@ -241,7 +241,7 @@ td {
     justify-content: left;
     border-color: #2E4053;
     border-width: 2px;
-    border-radius: 0px;
+    border-radius: 5px;
     padding-left: 5%;
     width: 99%;
     height: 55px;
@@ -262,7 +262,6 @@ td {
     border-width: 2px;
     font-weight: bold;
     color:#0000df;
-    border-radius: 0px;
     box-shadow: 0px 2px 10px #0000df;
 }
 
@@ -273,7 +272,7 @@ td {
     justify-content: left;
     border-color: #15b100;
     border-width: 2px;
-    border-radius: 0px;
+    border-radius: 5px;
     padding-left: 5%;
     width: 99%;
     height: 55px;
@@ -294,7 +293,6 @@ td {
     border-width: 2px;
     font-weight: bold;
     color:#ff0000;
-    border-radius: 0px;
     box-shadow: 0px 2px 10px #ff0000;
 }
 
