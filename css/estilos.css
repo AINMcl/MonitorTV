@@ -3480,34 +3480,6 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 15px #FF0000;
 }
 
-.BotonMenuDesplegableGris{
-  display: flex;
-  background-color: #2E4053;
-  border: solid 2px #2E4053;
-  color: #FFFFFF;
-  box-shadow: 0px 2px 5px #9B9B9B;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  padding-left: 10px;
-  width: 100%;
-  height: 45px;
-  line-height: 45px;
-  font-size: 17px;
-  border-radius: 5px;
-  font-weight: bold;
-  align-items: center;
-  cursor:
-  pointer;
-  transition:all .3s;
-}
-
-.BotonMenuDesplegableGris:hover{
-  color: #2E4053;
-  background-color: #FFFFFF;
-  border: solid 2px #2E4053;
-  box-shadow: 0px 0px 15px #2E4053;
-}
-
 .BotonMenuDesplegableGrisPequeño{
   display: flex;
   background-color: #2E4053;
@@ -3530,6 +3502,62 @@ background-image: linear-gradient(
 }
 
 .BotonMenuDesplegableGrisPequeño:hover{
+  color: #2E4053;
+  background-color: #FFFFFF;
+  border: solid 2px #2E4053;
+  box-shadow: 0px 0px 15px #2E4053;
+}
+
+.BotonMenuDesplegableRojoPequeño{
+  display: flex;
+  background-color: #FF0000;
+  border: solid 2px #FF0000;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 5px #9B9B9B;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
+  width: 50%;
+  height: 45px;
+  line-height: 45px;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonMenuDesplegableRojoPequeño:hover{
+  color: #FF0000;
+  background-color: #FFFFFF;
+  border: solid 2px #FF0000;
+  box-shadow: 0px 0px 15px #FF0000;
+}
+
+.BotonMenuDesplegableGris{
+  display: flex;
+  background-color: #2E4053;
+  border: solid 2px #2E4053;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 5px #9B9B9B;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonMenuDesplegableGris:hover{
   color: #2E4053;
   background-color: #FFFFFF;
   border: solid 2px #2E4053;
@@ -3596,6 +3624,24 @@ background-image: linear-gradient(
   right: 1%;
   width: auto;
   height: auto;
+}
+
+.Form_Stream_Por_Fila{
+  display: flex;
+  background-color: #2E4053;
+  border: solid 2px #2E4053;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 5px #9B9B9B;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
+  width: 100%;
+  height: 90px;
+  line-height: 45px;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
 }
 
 

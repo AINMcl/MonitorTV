@@ -2,125 +2,147 @@
 <html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Monitor 3 AINM</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Monitor 3 AINM</title>
 
-    <link rel="icon" href='imagenes/Icon.png' type="image/png"/>
+  <link rel="icon" href='imagenes/Icon.png' type="image/png"/>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link href="../css/estilos.css" rel="stylesheet" type="text/css">
-    <link href="../css/estilos2.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+  integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link href="../css/estilos.css" rel="stylesheet" type="text/css">
+  <link href="../css/estilos2.css" rel="stylesheet" type="text/css">
 
-    <!-- TIPOGRAFIA GOOGLE-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  <script src="../js/Efecto.js"></script>
 
-        gtag('config', 'G-RT53GZ16EW');
-    </script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
-    </script>
-    <script src="Reproductor.js" type="text/javascript"></script>
-    
-    
-    <script>
-        $(document).ready(function(){
-            $(".Boton_ON_OFF_Titulos").click(function(){
-                $(".ZonaRelojes").toggle();
-            });
-        });
-    </script>
+  <!-- TIPOGRAFIA GOOGLE-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-RT53GZ16EW');
+  </script>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <script>
+      $(document).ready(function(){
+          $(".TextoBotonRecargar2").click(function(){
+              $(".Botones").toggle();
+          });
+      });
+  </script>
 </head>
 
-<body style="background-color: black; background-color: black;">
+<body style="font-family: 'Assistant', sans-serif; overflow: hidden; background-color: #000000;">
+  
+  <div style="position: absolute; display: inline-block; width: 100%; height:100%" >
+    <div style="width: 66.6666666666%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item"
+      src="Monitor_Interactivo_Pantalla_1_AINM.html" frameborder="0"></iframe>
+    </div>
+    <div style="width: 33.3333333333%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item"
+      src="Monitor_Interactivo_Pantalla_1_AINM.html" frameborder="0"></iframe>
+    </div>
+    <div style="width: 33.3333333333%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item"
+      src="Monitor_Interactivo_Pantalla_1_AINM.html" frameborder="0"></iframe>
+    </div>
+    <div style="width: 100%; height:33.333333333%; float: left; position: relative;">
+      <div style="width: 33.3333333333%; float: left;" class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item"
+        src="Monitor_Interactivo_Pantalla_1_AINM.html" frameborder="0"></iframe>
+      </div>
+      <div style="width: 33.3333333333%; float: left;" class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item"
+        src="Monitor_Interactivo_Pantalla_1_AINM.html" frameborder="0"></iframe>
+      </div>
+      <div style="width: 33.3333333333%; float: left;" class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item"
+        src="Monitor_Interactivo_Pantalla_1_AINM.html" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+
     
 
-        <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="Monitor_Interactivo_Pantalla_1_AINM.html" frameborder="0"></iframe>
-        </div>
-        <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-            src="MonitorAINM3_MULTI.html" frameborder="0"></iframe>
-        </div>
-        <div style="width: 100%; height:33.333333333%; float: left; position: relative;">
-            <div style="width: 33.3333333333%; float: left;" class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item"
-                src="Monitor_Interactivo_Pantalla_1_AINM.html" frameborder="0"></iframe>
-            </div>
-            <div style="width: 33.3333333333%; float: left;" class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item"
-                src="Monitor_Interactivo_Pantalla_1_AINM.html" frameborder="0"></iframe>
-            </div>
-            <div style="width: 33.3333333333%; float: left;" class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item"
-                src="Monitor_Interactivo_Pantalla_1_AINM.html" frameborder="0"></iframe>
-            </div>
-       </div>
 
-    <div class="ZonaRelojes">
-		<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item"
-				src="Reloj_UTC.html" frameborder="0"></iframe>
-		</div>
-		
-		<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item"
-				src="Reloj_CHILE_CONTINENTAL.html" frameborder="0"></iframe>
-		</div>
-		
-		<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item"
-				src="Reloj_CHILE_MAGALLANES.html" frameborder="0"></iframe>
-		</div>
-		
-		<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item"
-				src="Reloj_CHILE_INSULAR.html" frameborder="0"></iframe>
-		</div>
-		
-		<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item"
-				src="Reloj_ESPAÑA.html" frameborder="0"></iframe>
-		</div>
-		
-		<div style="width: 16.66666666666667%; float: left;" class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item"
-				src="Reloj_COSTA_ESTE_USA.html" frameborder="0"></iframe>
-		</div>
-		
-	</div>
+  <!-- BOTON MENU  -->
+  <div class="ContenedorBotonMenuDesplegable">
+    <div class="BotonMenuDesplegable" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span style="font-size: 20px;" class="material-icons">settings</span></div>
+  </div>
 
-
-    <div class="Botones" style="position: absolute; bottom: 0.5em; width: 100%;height: 20px;line-height: 20px; text-align: center;">
-
-		<a ><span type="button" class="Boton_ON_OFF_Titulos waves-effect waves-light">ㅤOCULTAR / MOSTRAR RELOJESㅤ</span></a>
-		<a href="HomeAINM.html"><span class="TEXTO_BotonIrAHome waves-effect waves-light">ㅤIR A HOMEㅤ</span></a>
-	
-	</div>
-
-	<div style="position: absolute; bottom: 0.3em; right: 0.3em;width: auto;height: 25px;line-height: 25px; text-align: left;">
-
-        <a href="javascript:location.reload()"><span type="button" class="BotonRecargarPagina"><img style="height: 25px; width:auto" src="imagenes/Icono_Recargar.svg"></img></span></a>
-
+	<!-- MENU DEPEGLABLE -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">MENU</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-    <script rel="preload" as="script" src="../js/MonitorInteractivo.js"></script>
+    <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable">
 
+        <a style="text-decoration: none;" href="HomeAINM.html" ><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons">home</span>IR AL HOME</span></a>
+        
+        <br>
+
+        <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
+
+        <a style="text-decoration: none;" href="javascript:location.reload()"><span class="BotonMenuDesplegableAzul waves-effect waves-grisoscuro"><span style="margin-right: 5px;" class="material-icons">replay</span>RECARGAR PAGINA</span></a>
+
+        <br>
+
+        <div style="width: 100%; height: 40px;">
+          <iframe  style="width: 100%; height: 100%;" src="FechaActualizacion.html" frameborder="0"></iframe>
+        </div>
+      </div> 
+    </div>
+  </div>
+    
+  <!-- Contenido de off canvas, end.  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  <!--PANTALLA COMPLETA-->
+  <script>
+  // https://javascript.plainenglish.io/enter-full-screen-mode-with-javascript-a8a782d96dc
+  const btnFullscreen = document.querySelector('#fullscreen'),
+        btnFullscreenSpanIcon = btnFullscreen.querySelector('text'),
+        btnFullscreenSpan = btnFullscreen.querySelector('span');
+  
+  function getFullscreenElement() {
+    return document.fullscreenElement   //standard property
+    || document.webkitFullscreenElement //safari/opera support
+    || document.mozFullscreenElement    //firefox support
+    || document.msFullscreenElement;    //ie/edge support
+  }
+  
+  function toggleFullscreen() {
+    if(getFullscreenElement()) {
+      document.exitFullscreen();
+      btnFullscreenSpanIcon.innerHTML = 'ENTRAR A PANTALLA COMPLETA';
+      btnFullscreenSpan.innerHTML = 'open_in_full';
+    
+    }else {
+      document.documentElement.requestFullscreen().catch(console.log);
+      btnFullscreenSpanIcon.innerHTML = 'SALIR DE PANTALLA COMPLETA';
+      btnFullscreenSpan.innerHTML = 'close_fullscreen';
+    
+    }
+  }
+  
+  btnFullscreen.addEventListener('click', () => {
+    toggleFullscreen();
+  });
+  </script>
 </body>
 
 </html>
