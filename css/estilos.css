@@ -2014,7 +2014,6 @@ section#RelojesMonitor2{
   color: white;
   width: 100%;
   text-align: center;
-  margin:auto;
 }
 
 .FondoTituloSeleccionarSeñales{
@@ -2718,6 +2717,32 @@ background-image: linear-gradient(
   background-color: #ffffff;
   border-color: #1c28d4;
   box-shadow: 0px 0px 10px #1c28d4;
+}
+
+.BotonMenuMonitor1{
+  display: flex;
+  background-color: #0004d8;
+  border: solid 2px #0004d8;
+  color: #FFFFFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  height: 30px;
+  line-height: 25px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .5s;
+}
+
+.BotonMenuMonitor1:hover{
+  color: #0004d8;
+  background-color: #ffffff;
+  border-color: #0004d8;
+  box-shadow: 0px 0px 10px #0004d8;
 }
 
 .TextoTitulosSeñalesDOS{

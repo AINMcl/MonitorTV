@@ -1846,8 +1846,8 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        //App.add("CNN_CHILE");
-        //App.add("MEGANOTICIAS");
+        App.add("CNN_CHILE");
+        App.add("MEGANOTICIAS");
 
     }
 }
@@ -1859,6 +1859,16 @@ var modal = document.getElementById("custom-modal");
 var btn = document.getElementById("custom-btn");
 var span = document.getElementById("custom-close");
 var span2 = document.getElementById("custom-close2");
+
+//ELIMINAR SEÑALES = https://alplox.github.io/tele/
+const btnLimpiar = document.querySelector('#Borrar');
+btnLimpiar.addEventListener('click', () => {
+  let transmisionPorLimpiar = document.querySelectorAll('.stream');
+    transmisionPorLimpiar.forEach(transmision => {
+      let dataCanal = transmision.getAttribute('data-canal');
+      App.remove(dataCanal);
+    })
+});
 
 btn.onclick = function () {
     modal.style.display = "block";
@@ -1896,3 +1906,5 @@ anchoStreams.oninput = function (event) {
     let streams2 = document.getElementById("los-canales");
     streams2.style.maxWidth = event.target.value + "%"
 }
+
+
