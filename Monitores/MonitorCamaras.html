@@ -112,7 +112,7 @@
                 
                 <div class="BotonMenuDesplegableGris Boton_ON_OFF_Titulos waves-effect waves-grisoscuro" id="OcultarBotones"><span style="margin-right: 5px;" class="material-icons">visibility_off</span><text>OCULTAR / MOSTRAR TITULOS SEÑAL</text></div>
 
-                <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" id="BorrarSenales1"><span style="margin-right: 5px;" class="material-icons">delete</span><text>LIMPIAR SEÑALES</text></div>
+                <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" id="BorrarStreams1"><span style="margin-right: 5px;" class="material-icons">delete</span><text>LIMPIAR SEÑALES</text></div>
                 
                 <br>
 
@@ -133,11 +133,11 @@
                 <div style="width: 100%; height: auto; display: inline-flex;">
                     <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="margin-right: 5px;" class="material-icons">arrow_back</span><text>VOLVER</text></div>
                     <span style="margin-left: 3%;"></span>
-                    <div class="BotonMenuDesplegableRojoPequeño Boton_ON_OFF_Titulos waves-effect waves-grisoscuro" data-bs-dismiss="offcanvas" aria-label="Close"><span style="margin-right: 5px;" class="material-icons">clear</span><text>CERRAR</text></div>
+                    <div class="BotonMenuDesplegableRojoPequeño Boton_ON_OFF_Titulos waves-effect waves-red" data-bs-dismiss="offcanvas" aria-label="Close"><span style="margin-right: 5px;" class="material-icons">clear</span><text>CERRAR</text></div>
                 </div>
-                <br>
+                <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" id="BorrarStreams2"><span style="margin-right: 5px;" class="material-icons">delete</span><text>LIMPIAR SEÑALES</text></div>
 
-                <div style="height: 100%;" class="modal-body canales-body" id="PorFiltrar"></div>
+                <div class="modal-body canales-body" id="PorFiltrar"></div>
             </div>
       </div>
     </div>
@@ -182,7 +182,7 @@
 
     <script>
         //BTN1 ELIMINAR SEÑALES = https://alplox.github.io/tele/
-        const btnLimpiar = document.querySelector('#Borrar');
+        const btnLimpiar = document.querySelector('#BorrarStreams1');
         btnLimpiar.addEventListener('click', () => {
           let transmisionPorLimpiar = document.querySelectorAll('.stream');
             transmisionPorLimpiar.forEach(transmision => {
@@ -194,7 +194,7 @@
 
     <script>
         //BTN2 ELIMINAR SEÑALES = https://alplox.github.io/tele/
-        const btnLimpiarSenal = document.querySelector('#BorrarSenales1');
+        const btnLimpiarSenal = document.querySelector('#BorrarStreams2');
         btnLimpiarSenal.addEventListener('click', () => {
           let transmisionPorLimpiar = document.querySelectorAll('.stream');
             transmisionPorLimpiar.forEach(transmision => {

@@ -150,7 +150,8 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        //App.add("PLAZAITALIA_CIMA");
+        App.add("24HTVN");
+        App.add("MEGANOTICIAS");
 
     }
 }
@@ -162,6 +163,8 @@ var modal = document.getElementById("custom-modal");
 var btn = document.getElementById("custom-btn");
 var span = document.getElementById("custom-close");
 var span2 = document.getElementById("custom-close2");
+
+var hue = document.getElementById("Stream_por_fila");
 
 hue.onchange = function (event) {
     size = event.target.value
@@ -190,8 +193,6 @@ span.onclick = function () {
 span2.onclick = function () {
     modal.style.display = "none";
 }
-
-var hue = document.getElementById("Stream_por_fila");
 
 
 
