@@ -11,7 +11,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Monitor AINM 2</title>
+    <title>Monitor AINM 1 Anterior</title>
 
     <link rel="icon" href='imagenes/Icon.png' type="image/png"/>
 
@@ -23,7 +23,7 @@
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- ESTILOS LOCALES -->
     <link href="../css/estilos.css" rel="stylesheet" type="text/css">
-    <link href="../css/Estilos_Monitor_2_Nuevo.css" rel="stylesheet" type="text/css">
+    <link href="../css/estilos2.css" rel="stylesheet" type="text/css">
     <script src="../js/Efecto.js"></script>
 
     <!-- TIPOGRAFIA GOOGLE-->
@@ -31,8 +31,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
     
     <!-- TIPOGRAFIA ICONOS GOOGLE-->
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
@@ -78,68 +77,78 @@
     </noscript>
 
 
-    <div class="row no-gutters row-canales" id="los-canales"></div>
-        
+    <div class="CAJABoton_SeleccionarSeñales">
+        <div class="row no-gutters row-canales" id="los-canales"></div>
+        <!--modal listado canales-->
+        <div class="modal" id="custom-modal">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content" style="border-width: 0px;">
+                    <div class="modal-header FondoTitulo">
+                        <h5 class="Titulo">SELECCIONAR SEÑALES</h5>
+                        <button type="button" class="close" id="custom-close" data-dismiss="modal">
+                        </button>
+                        <a style="text-decoration: none;" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span class="BotonMenuMonitor1 waves-effect waves-azul"><span style="margin-right: 5px; font-size: 17px;" class="material-icons">settings</span>MENU</span></a>
+                    </div>
+                    <div id="PorFiltrar">
+                        <div class="modal-body canales-body"></div>
+                    </div>
+                    <div class="modal-footer FondoTitulo">
+
+                        <div class="BotonModalFlotanteRojoPequeño waves-effect waves-red" id="Borrar"><span style="margin-right: 5px;" class="material-icons">delete</span><span>LIMPIAR SEÑALES</span></div>
+                        <a><div class="BotonModalFlotanteRojoPequeño waves-effect waves-red" id="custom-close2" data-dismiss="modal"><span style="margin-right: 5px;" class="material-icons">clear</span><span>CERRAR</span></div></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
 
     <!-- BOTON MENU  -->
     <div class="ContenedorBotonMenuDesplegable">
-        <div class="BotonMenuDesplegable" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="font-size: 20px;" class="material-icons">settings</span></div>
+        <div class="BotonMenuDesplegable" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span style="font-size: 20px;" class="material-icons">settings</span></div>
     </div>
 
 
     <!-- MENU DEPEGLABLE -->
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="MenuDespeglableAjustes" aria-labelledby="MenuDespeglableAjustesLabel">
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="MenuDespeglableAjustesLabel">MENU</h5>
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">MENU</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
             <div class="CuerpoMenuDesplegable">
-
                 <a style="text-decoration: none;" href="HomeAINM.html"><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons">home</span>IR AL HOME</span></a>
 
+                <a style="text-decoration: none;" href="Home.html"><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons">home</span>IR AL HOME PUBLICO</span></a>
+
                 <br>
-                <a style="text-decoration: none;" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales"><span class="BotonMenuDesplegableVerde waves-effect waves-verde"><span style="margin-right: 5px;" class="material-icons">tv</span>SELECCIONAR SEÑALES</span></a>
+                <a style="text-decoration: none;" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" id="custom-btn"><span class="BotonMenuDesplegableVerde waves-effect waves-verde"><span style="margin-right: 5px;" class="material-icons">tv</span>SELECCIONAR SEÑALES</span></a>
                 
                 <br>
                 <select class="BotonMenuDesplegableGris" id="Stream_por_fila">
-                    <option value="X">STREAMS POR FILA</option>
-                    <option value="12">1 STREAM</option>
-                    <option value="6" >2 STREAMS</option>
-                    <option value="4" >3 STREAMS</option>
+                    <option value="X">SEÑALES POR FILA</option>
+                    <option value="12">1 SEÑAL</option>
+                    <option value="6" >2 SEÑALES</option>
+                    <option value="4" >3 SEÑALES</option>
                 </select>
-                
-                <div class="BotonMenuDesplegableGris Boton_ON_OFF_Titulos waves-effect waves-grisoscuro" id="OcultarBotones"><span style="margin-right: 5px;" class="material-icons">visibility_off</span><text>OCULTAR / MOSTRAR TITULOS SEÑAL</text></div>
 
-                <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" id="BorrarStreams1"><span style="margin-right: 5px;" class="material-icons">delete</span><text>LIMPIAR SEÑALES</text></div>
                 
+                <div style="width: 100%; height: auto; display: inline-flex;">
+                    <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" id="BorrarSenales1"><span style="margin-right: 5px;" class="material-icons">delete</span><text>SEÑALES</text></div>
+                    <span style="margin-left: 3%;"></span>
+                    <div class="BotonMenuDesplegableGrisPequeño Boton_ON_OFF_Titulos waves-effect waves-grisoscuro" id="OcultarBotones"><span style="margin-right: 5px;" class="material-icons">visibility_off</span><text>TITULOS</text></div>
+                </div>
                 <br>
 
                 <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
                 <a style="text-decoration: none;" href="javascript:location.reload()"><span class="BotonMenuDesplegableAzul waves-effect waves-azul"><span style="margin-right: 5px;" class="material-icons">replay</span>RECARGAR PAGINA</span></a>
                 <br>
+                <div style="width: 100%; height: 40px;">
+                    <iframe  style="width: 100%; height: 100%;" src="FechaActualizacion.html" frameborder="0"></iframe>
+                </div>
             </div>
         </div>
-    </div>
-
-
-    <!-- MENU DEPEGLABLE -->
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="MenuDespeglableSeñales" aria-labelledby="MenuDespeglableSeñalesLabel">
-
-      <div class="offcanvas-body">
-            <div class="CuerpoMenuDesplegable2">
-                
-                <div style="width: 100%; height: auto; display: inline-flex;">
-                    <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="margin-right: 5px;" class="material-icons">arrow_back</span><text>VOLVER</text></div>
-                    <span style="margin-left: 3%;"></span>
-                    <div class="BotonMenuDesplegableRojoPequeño Boton_ON_OFF_Titulos waves-effect waves-grisoscuro" data-bs-dismiss="offcanvas" aria-label="Close"><span style="margin-right: 5px;" class="material-icons">clear</span><text>CERRAR</text></div>
-                </div>
-                <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" id="BorrarStreams2"><span style="margin-right: 5px;" class="material-icons">delete</span><text>LIMPIAR SEÑALES</text></div>
-
-                <div class="modal-body canales-body" id="PorFiltrar"></div>
-            </div>
-      </div>
     </div>
 
 
@@ -182,7 +191,7 @@
 
     <script>
         //BTN1 ELIMINAR SEÑALES = https://alplox.github.io/tele/
-        const btnLimpiar = document.querySelector('#BorrarStreams1');
+        const btnLimpiar = document.querySelector('#Borrar');
         btnLimpiar.addEventListener('click', () => {
           let transmisionPorLimpiar = document.querySelectorAll('.stream');
             transmisionPorLimpiar.forEach(transmision => {
@@ -194,7 +203,7 @@
 
     <script>
         //BTN2 ELIMINAR SEÑALES = https://alplox.github.io/tele/
-        const btnLimpiarSenal = document.querySelector('#BorrarStreams2');
+        const btnLimpiarSenal = document.querySelector('#BorrarSenales1');
         btnLimpiarSenal.addEventListener('click', () => {
           let transmisionPorLimpiar = document.querySelectorAll('.stream');
             transmisionPorLimpiar.forEach(transmision => {
