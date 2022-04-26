@@ -10,7 +10,7 @@ let LosCanales = [
     },{
         'titulo': 'ㅤCNN CHILEㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width:auto:" src="imagenes/Logo_CNNCHILE2.svg"></img>',
-        'url': 'SeñalCNNCHILE2.html'
+        'url': 'SeñalCNNCHILE.html'
     },{
         'titulo': 'ㅤMEGANOTICIASㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS.svg"></img>',
