@@ -1,1 +1,0 @@
-var playerConfig = {"autoplay":true,"mute":false,"statistics":false,"color":"#26a132","logo":{"image":"","position":"bottom-right","link":""}}

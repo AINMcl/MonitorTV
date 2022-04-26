@@ -1120,6 +1120,40 @@ let LosCanales = [
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=true&mute=1'
     },{
 
+        
+        'titulo': 'ㅤPODER JUDICIAL TV 1ㅤ',
+        'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 1',
+        'url': 'SeñalPoderJudicial_1.html'
+    },{
+        'titulo': 'ㅤPODER JUDICIAL TV 2ㅤ',
+        'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 2',
+        'url': 'SeñalPoderJudicial_2.html'
+    },{
+        'titulo': 'ㅤPODER JUDICIAL TV 3ㅤ',
+        'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 3',
+        'url': 'SeñalPoderJudicial_3.html'
+    },{
+        'titulo': 'ㅤPODER JUDICIAL TV 4ㅤ',
+        'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 4',
+        'url': 'SeñalPoderJudicial_4.html'
+    },{
+        'titulo': 'ㅤPODER JUDICIAL TV 5ㅤ',
+        'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 5',
+        'url': 'SeñalPoderJudicial_5.html'
+    },{
+        'titulo': 'ㅤPODER JUDICIAL TV 6ㅤ',
+        'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 6',
+        'url': 'SeñalPoderJudicial_6.html'
+    },{
+        'titulo': 'ㅤPODER JUDICIAL TV 7ㅤ',
+        'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 7',
+        'url': 'SeñalPoderJudicial_7.html'
+    },{
+        'titulo': 'ㅤPODER JUDICIAL TV 8ㅤ',
+        'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_PoderJudicialTV.svg"></img>ﾠSEÑAL 8',
+        'url': 'SeñalPoderJudicial_8.html'
+    },{
+
     //CAMARAS
 
         'titulo': 'ㅤPARQUEMET CUMBREㅤ',
