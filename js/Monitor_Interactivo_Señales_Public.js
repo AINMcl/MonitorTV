@@ -70,15 +70,15 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width:auto:" src="imagenes/LogoTV_WappTV.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalWAPPTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤWAPP TVㅤ</div></div></div>'
         },
-        'TVN_WEB_IFRAME_AINMGITHUB_1': {
+        'TVN_WEB_IFRAME': {
             'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width:auto:" src="imagenes/Logo_TVN.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/WEB/SeñalTVN_IFRAME_AINM_GITHUB.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTVNㅤ</div></div></div>'
         },
-        'CHV_WEB_IFRAME_1': {
+        'CHV_WEB_IFRAME': {
             'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/WEB/SeñalCHV_IFRAME.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCHVㅤ</div></div></div>'
         },
-        'CANAL13_WEB_IFRAME_AINMGITHUB_1': {
+        'CANAL13_WEB_IFRAME': {
             'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width:auto:" src="imagenes/Logo_Canal13.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/WEB/SeñalCANAL13_IFRAME_AINM_GITHUB.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 13ㅤ</div></div></div>'
         },
@@ -1717,13 +1717,13 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        //App.add("24HTVN");
-        //App.add("MEGANOTICIAS");
-        //App.add("T13_ENVIVO");
+        App.add("24HTVN");
+        App.add("MEGANOTICIAS");
+        App.add("T13_ENVIVO");
 
-        //App.add("CHV_WEB_IFRAME");
-        //App.add("TVN_WEB_IFRAME");
-        //App.add("CANAL13_WEB_IFRAME");
+        App.add("CHV_WEB_IFRAME");
+        App.add("TVN_WEB_IFRAME");
+        App.add("CANAL13_WEB_IFRAME");
         
         
         
