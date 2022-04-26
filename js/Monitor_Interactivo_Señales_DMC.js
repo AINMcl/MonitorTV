@@ -7,95 +7,95 @@ var size = 6;
 var App = {
      channels: {
         'CHILE_TRUECOLOR': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | Color Verdadero',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>COLOR VERDADERO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_TRUECOLOR.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤTRUE COLORㅤ</div></div></div>'
         },
         'CHILE_TRUECOLOR_NUBES_ALTAS': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | Nubes Altas',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>NUBES ALTAS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_TRUECOLOR_NUBES_ALTAS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤNUBES ALTASㅤ</div></div></div>'
         },
         'CHILE_TRUECOLOR_NUBES_MEDIAS': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | Nubes Medias',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>NUBES MEDIAS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_TRUECOLOR_NUBES_MEDIAS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤNUBES MEDIASㅤ</div></div></div>'
         },
         'CHILE_TRUECOLOR_NUBES_BAJAS': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | Nubes Bajas',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>NUBES BAJAS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_TRUECOLOR_NUBES_BAJAS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤNUBES BAJASㅤ</div></div></div>'
         },
         'CHILE_TRUECOLOR_PRECIPITACION_TOTAL': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | Precipitacion Total',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>PRECIPITACION TOTAL',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_TRUECOLOR_PRECIPITACION_TOTAL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤPRECIPITACION TOTALㅤ</div></div></div>'
         },
         'CHILE_TRUECOLOR_AGUA_PRECIPITABLE': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | Agua Precipitable',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>AGUA PRECIPITABLE',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_TRUECOLOR_AGUA_PRECIPITABLE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤAGUA PRECIPITABLEㅤ</div></div></div>'
         },
         'CHILE_TRUECOLOR_VIENTOMAYORA20NUDOS': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | Viento Mayor a 20 Nudos',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>VIENTO MAYOR A 20 NUDOS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_TRUECOLOR_VIENTOMAYORA20NUDOS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤVIENTO MAYOR A 20 NUDOSㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL1': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 1: Visible azul',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 1: VISIBLE AZUL',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL2': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 2: Visible rojo',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 2: VISIBLE ROJO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL3': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 3: Vegetación IR cercano',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 3: VEGETACION IR CERCANO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL3.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL4': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 4: Cirros IR cercano',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 4: CIRROS IR CERCANO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL4.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL5': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 5: Nieve/hielo IR cercano',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 5: NIEVE/HIELO IR CERCANO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL5.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL6': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 6: Tamaño partículas nubes',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 6: TAMANO PARTICULAS NUBES',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL6.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL7': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 7: Infrarroja de onda corta',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 7: INFRAROJA DE ONDA CORTA',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL7.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL8': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 8: Vapor agua niveles altos',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 8: VAPOR AGUA NIVELES ALTOS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL8.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL9': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 9: Vapor agua niveles medios',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 9: VAPOR AGUA NIVELES MEDIOS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL9.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL10': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 10: Vapor agua niveles bajos',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 10: VAPOR AGUA NIVELES BAJOS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL10.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL11': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 11: IR, Fase topes nubosos',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 11: IR, FASE TOMES NUBOSOS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL11.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL12': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 12: IR, ozono',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 12: IR, OZONO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL12.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL13': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 13: IR onda larga limpio',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 13: IR ONDA LARGA LIMPIO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL13.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL14': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 14: IR onda larga',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 14: IR ONDA LARGA',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL14.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL15': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 15: IR onda larga sucio',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 15: IR ONDA LARGA SUCIO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL15.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
         'CHILE_GOES_16_CANAL16': {
-            'nombre': '<img style="height: 20px; width:auto;" src="imagenes/Icono_TV.svg"></img>ﾠCHILE | CANAL 16: IR onda larga CO2',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">satellite_alt</span>CANAL 16: IR ONDA LARGA CO2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/DMC/CHILE_GOES_16_CANAL16.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCANAL 1: VISIBLE AZULㅤ</div></div></div>'
         },
     },
@@ -158,8 +158,7 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("CHILE_TRUECOLOR");
-        App.add("CHILE_TRUECOLOR_NUBES_ALTAS");
+        //App.add("24HTVN");
 
     }
 }
@@ -171,6 +170,18 @@ var modal = document.getElementById("custom-modal");
 var btn = document.getElementById("custom-btn");
 var span = document.getElementById("custom-close");
 var span2 = document.getElementById("custom-close2");
+
+var hue = document.getElementById("Stream_por_fila");
+
+hue.onchange = function (event) {
+    size = event.target.value
+    sizeMobile = event.target.value
+    let canal2 = document.querySelectorAll(".stream");
+    for (let videos of canal2) {
+        videos.classList.remove("col-12", "col-6", "col-4", "col-3", "col-2");
+        videos.classList.add("col-" + event.target.value);
+    }
+}
 
 btn.onclick = function () {
     modal.style.display = "block";
@@ -190,17 +201,7 @@ span2.onclick = function () {
     modal.style.display = "none";
 }
 
-var hue = document.getElementById("Stream_por_fila");
 
-hue.onchange = function (event) {
-    size = event.target.value
-    sizeMobile = event.target.value
-    let canal2 = document.querySelectorAll(".stream");
-    for (let videos of canal2) {
-        videos.classList.remove("col-12", "col-6", "col-4", "col-3", "col-2");
-        videos.classList.add("col-" + event.target.value);
-    }
-}
 
 var anchoStreams = document.getElementById("Tamaño_streams");
 

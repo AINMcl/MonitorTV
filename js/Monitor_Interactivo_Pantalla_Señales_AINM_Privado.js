@@ -447,20 +447,20 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>CNN INTERNATIONAL LIVE EVENT 1',
         'url': 'SeñalCNNI_LIVE_EVENT_1.html'
     }, {
-        'titulo': 'ㅤ24H TVE OCASIONAL 2ㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE OCASIONAL 2',
+        'titulo': 'ㅤ24H TVE LIVE 2ㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 2',
         'url': 'Señal24H_TVE_OCASIONAL_2.html'
     }, {
-        'titulo': 'ㅤ24H TVE OCASIONAL 3ㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE OCASIONAL 3',
+        'titulo': 'ㅤ24H TVE LIVE 3ㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 3',
         'url': 'Señal24H_TVE_OCASIONAL_3.html'
     }, {
-        'titulo': 'ㅤ24H TVE OCASIONAL 4ㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE OCASIONAL 4',
+        'titulo': 'ㅤ24H TVE LIVE 4ㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 4',
         'url': 'Señal24H_TVE_OCASIONAL_4.html'
     }, {
-        'titulo': 'ㅤ24H TVE OCASIONAL 5ㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE OCASIONAL 5',
+        'titulo': 'ㅤ24H TVE LIVE 5ㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 5',
         'url': 'Señal24H_TVE_OCASIONAL_5.html'
     }, {
         'titulo': 'ㅤRTVE OCASIONAL 1ㅤ',
@@ -515,6 +515,10 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>THE WHITE HOUSE LIVE VIDEO',
         'url': 'SeñalTEGNADIGITAL_1.html'
     }, {
+        'titulo': 'ㅤONU_TVㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ONU WEB TV',
+        'url': 'http://www.kaltura.com//p/2503451/embedPlaykitJs/uiconf_id/47917953?iframeembed=true&entry_id=1_gb6tjmle'
+    },{
         'titulo': 'ㅤCCTV+ 1ㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 1',
         'url': 'SeñalCCTVPLUS_1.html'
@@ -652,7 +656,7 @@ let LosCanales = [
     }, {
         'titulo': 'ㅤTVesㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/ve.svg"></img>ﾠTVes',
-        'code': 'SeñalTVes.html'
+        'url': 'SeñalTVes.html'
     }, {
         'titulo': 'ㅤFORO TVㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/mx.svg"></img>ﾠFORO TV',
@@ -710,13 +714,13 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/de.svg"></img>ﾠDW',
         'url': 'SeñalDW_DEUTSCH.html'
     }, {
-        'titulo': 'ㅤDW ESPAÑOLㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/de.svg"></img>ﾠDW ESPAÑOL',
-        'url': 'SeñalDW_ESPAÑOL.html'
-    }, {
         'titulo': 'ㅤDW ENGLISHㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/de.svg"></img>ﾠDW ENGLISH',
         'url': 'SeñalDW_ENGLISH.html'
+    }, {
+        'titulo': 'ㅤDW ESPAÑOLㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/de.svg"></img>ﾠDW ESPAÑOL',
+        'url': 'SeñalDW_ESPAÑOL.html'
     }, {
         'titulo': 'ㅤRT ENGLISHㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/ru.svg"></img>ﾠRT ENGLISH',
@@ -1187,148 +1191,82 @@ let LosCanales = [
         'titulo': 'ㅤTITULOㅤ',
         'nombre': '<img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠDIPUTADOS 13',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=true&mute=1'
-    },
+    },{
 
+    //CAMARAS
 
-
-    
-    
-    
-    //KIEV CAM 1
-    {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV 1 (FOX NEWS)',
-        'url': 'https://www.youtube.com/embed/5e-FSBVHv8g?autoplay=true&mute=1'
-    },
-    //KIEV CAM 2
-    {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV 2 (DW)',
-        'url': 'https://www.youtube.com/embed/1e0MV6ox-OE?autoplay=true&mute=1'
-    },
-    //KIEV CAM 3
-    {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV 3',
-        'url': 'https://www.youtube.com/embed/8EihuEbqiBA?autoplay=true&mute=1'
-    },
-    //KIEV CAM 4
-    {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠKIEV (MULTICAM 1)',
-        'url': 'https://www.youtube.com/embed/HIPNVm6lNfM?autoplay=true&mute=1'
-    },
-    //UCRANIA MULTICAM 1
-    {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 2)',
-        'url': 'https://www.youtube.com/embed/JahPwum5PBg?autoplay=true&mute=1'
-    },
-    //UCRANIA MULTICAM 3
-    {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 3)',
-        'url': 'https://www.youtube.com/embed/iZebYm-nenY?autoplay=true&mute=1'
-    },
-    //UCRANIA MULTICAM 4
-    {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 4)',
-        'url': 'https://www.youtube.com/embed/x3yMxxAkN4w?autoplay=true&mute=1'
-    },
-    //UCRANIA MULTICAM 5
-    {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 5)',
-        'url': 'https://www.youtube.com/embed/iUkfhlIvvKQ?autoplay=true&mute=1'
-    },
-    //UCRANIA MULTICAM 6
-    {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/ua.svg"></img>ﾠUCRANIA (MULTICAM 6)',
-        'url': 'https://www.youtube.com/embed/e2gC37ILQmk?autoplay=true&mute=1'
-    },
-    {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤPARQUEMET CUMBREㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠPARQUEMET CUMBRE',
         'url': 'SeñalCAMPARQUEMET_CUMBRE_2.html'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
+    },{
+        'titulo': 'ㅤPARQUEMET TERRAZAㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠPARQUEMET TERRAZA',
         'url': 'SeñalCAMPARQUEMET_TERRAZA_2.html'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
+    },{
+        'titulo': 'ㅤPLAZAITALIAㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠPLAZA ITALIA (Galeria Cima)',
         'url': 'SeñalCAMARA_PLAZA_ITALIA_CIMA.html'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
+    },{
+        'titulo': 'ㅤPROVIDENCIAㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠPROVIDENCIA (Ledrium)',
         'url': 'SeñalCAMARA_LEDRIUM_PROVIDENCIA.html'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠOSORNO PLAZA ARMAS',
-        'url': 'Senal/REGIONALES/Camara_Osorno.html'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCOYHAIQUE (Radio)',
-        'url': 'SeñalRADIO_CANALSURPATAGONIA.html'
     },{
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠCNN',
-        'url': 'SeñalInternaCNNCHILE_1_2.html'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠWHITE HOUSE',
-        'url': 'https://www.youtube.com/embed/T5zRi2J0uYg?autoplay=true&mute=1'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤLEDRIUM (CAM MAS RECIENTE)ㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠLEDRIUM (CAM MAS RECIENTE)',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCTDewuGhfwGv6JRNnqa-yXw&autoplay=true&mute=1'
+    },{
+        'titulo': 'ㅤOSORNO (OP1)ㅤ',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠOSORNO (OP1)',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCwsMrFLSR2_wospO1MaGsaQ&autoplay=true&mute=1'
+    },{
+        'titulo': 'ㅤOSORNO (OP2)ㅤ',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠOSORNO (OP2)',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCD7sqegDNyZxmdnCj6xqH6g&autoplay=true&mute=1'
+    },{
+        'titulo': 'ㅤVALPARAISOㅤ',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠVALPARAISO',
+        'url': 'SeñalCAMARA_VALPARAISO.html'
+    },{
+        'titulo': 'ㅤCAPITOLIO EEUUㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠCAPITOLIO EEUU',
         'url': 'SeñalCAMARA_CAPITOLIO_EEUU.html'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
+    },{
+        'titulo': 'ㅤNYC Brooklyn Bridgeㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠNYC BROOKLYN BRIDGE',
         'url': 'https://www.youtube.com/embed/KGuCGd726RA?autoplay=true&mute=1'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
+    },{
+        'titulo': 'ㅤLower Manhattan New York Harborㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠNYC LOWER MANHATTAN',
         'url': 'https://www.youtube.com/embed/Vj0XKu6AoOw?autoplay=true&mute=1'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠTIMES SQUARE',
-        'url': 'https://www.youtube.com/embed/AdUw5RdyZxI?autoplay=true&mute=1'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠTIMES SQUARE: DUFFY SQUARE',
-        'url': 'https://www.youtube.com/embed/mNawBricEYw?autoplay=true&mute=1'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠTIMES SQUARE: EXPRESS VIEW',
-        'url': 'https://www.youtube.com/embed/OBmXqlPxtAQ?autoplay=true&mute=1'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠTIMES SQUARE: 1560 BROADWAY',
-        'url': 'https://www.youtube.com/embed/4qyZLflp-sI?autoplay=true&mute=1'
     },{
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠLAS VEGAS',
-        'url': 'https://www.youtube.com/embed/oy3tQ5Hacm8?autoplay=true&mute=1'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
+        'titulo': 'ㅤTIMES SQUAREㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠTIMES SQUARE 1',
+        'url': 'https://www.youtube.com/embed/AdUw5RdyZxI?autoplay=true&mute=1'
+    },{
+        'titulo': 'ㅤTIMES SQUARE: DUFFY SQUAREㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠTIMES SQUARE 2',
+        'url': 'https://www.youtube.com/embed/mNawBricEYw?autoplay=true&mute=1'
+    },{
+        'titulo': 'ㅤTIMES SQUARE: EXPRESS VIEWㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠTIMES SQUARE 3',
+        'url': 'https://www.youtube.com/embed/6dtpPYTQaSQ?autoplay=true&mute=1'
+    },{
+        'titulo': 'ㅤTIMES SQUARE: 1540 BROADWAYㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/us.svg"></img>ﾠTIMES SQUARE 4',
+        'url': 'https://www.youtube.com/embed/rZjblGbbCmE?autoplay=true&mute=1'
+    },{
+        'titulo': 'ㅤFOUR SEASONS HOTEL BUENOS AIRESㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/ar.svg"></img>ﾠFOUR SEASONS HOTEL BS.As',
         'url': 'https://www.youtube.com/embed/if91GyWP3zQ?autoplay=true&mute=1'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
+    },{
+        'titulo': 'ㅤUSHUAIAㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/ar.svg"></img>ﾠUSHUAIA',
         'url': 'SeñalCAMARA_USHUAIA.html'
-    }, {
-        'titulo': 'ㅤTITULOㅤ',
+    },{
+        'titulo': 'ㅤTOKIOㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/jp.svg"></img>ﾠTOKYO',
         'url': 'https://www.youtube.com/embed/QOjmvL3e7Lc?autoplay=true&mute=1'
     },{
-        'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/es.svg"></img>ﾠVOLCAN LA PALMA',
-        'url': 'SeñalRTVC_1.html'
-    }, {
         'titulo': 'ㅤARICA TVㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARICA | ARICA TV',
         'url': 'Senal/REGIONALES/ARICA_ARICA_TV.html'
