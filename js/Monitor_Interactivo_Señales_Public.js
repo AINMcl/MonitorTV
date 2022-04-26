@@ -1719,7 +1719,7 @@ init: function() {
     if (!App.isMobile()) {
         App.add("24HTVN");
         App.add("MEGANOTICIAS");
-        App.add("T13_ENVIVO");
+        App.add("T13_WEB_IFRAME");
 
         App.add("CHV_WEB_IFRAME");
         App.add("TVN_WEB_IFRAME");
