@@ -164,7 +164,7 @@ var App = {
         },
         'REWIND_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">music_note</span><img style="height: 20px; width:auto:" src="imagenes/Logo_REWIND_TV.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalREWINDTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤREWIND TVㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalREWINDTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤREWIND TV RADIOㅤ</div></div></div>'
         },
 
 
