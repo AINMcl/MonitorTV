@@ -103,6 +103,16 @@ let LosCanales = [
         'titulo': 'ㅤCHV EVENTOS',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>ﾠEVENTOS',
         'url': 'SeñalCHV_EVENTOS.html'
+    },{
+
+    
+        'titulo': 'ㅤZAPPING TV MUSICㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round">music_note</span><img style="height: 20px; width:auto:" src="imagenes/Logo_ZAPPING_TV_MUSIC.svg"></img>',
+        'url': 'SeñalZAPPINGTV_MUSIC.html'
+    },{
+        'titulo': 'ㅤREWIND TVㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round">music_note</span><img style="height: 20px; width:auto:" src="imagenes/Logo_REWIND_TV.svg"></img>',
+        'url': 'SeñalREWINDTV.html'
     },
     
     

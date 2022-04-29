@@ -25,8 +25,8 @@ let LosCanales = [
         'url': 'SeñalCHVNOTICIAS_PLUTOTV.html'
     }, {
         'titulo': 'ㅤT13ㅤ',
-        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
-        'url': 'SeñalT13_ENVIVO_IFRAME_AINM_GITHUB.html'
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
+        'url': 'SeñalT13_EN_VIVO.html'
     }, {
         'titulo': 'ㅤTVNㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width:auto:" src="imagenes/Logo_TVN.svg"></img>',
@@ -76,6 +76,10 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width:auto:" src="imagenes/Logo_UCHILETV_2.svg"></img>',
         'url': 'SeñalUCHILETV.html'
     }, {
+        'titulo': 'ㅤT13ㅤ',
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width:auto:" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
+        'url': 'SeñalT13_ENVIVO_IFRAME_AINM_GITHUB.html'
+    }, {
         'titulo': 'ㅤTVNㅤ',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width:auto:" src="imagenes/Logo_TVN.svg"></img>',
         'url': '../Monitores/Senal/WEB/SeñalTVN_IFRAME_AINM_GITHUB.html'
@@ -89,51 +93,51 @@ let LosCanales = [
         'url': '../Monitores/Senal/WEB/SeñalCANAL13_IFRAME_AINM_GITHUB.html'
     },{
         'titulo': 'ㅤ24 HORAS 1ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 1',
         'url': 'SeñalInterna24H_1.html'
     }, {
         'titulo': 'ㅤ24 HORAS 2ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 2',
         'url': 'SeñalInterna24H_2.html'
     }, {
         'titulo': 'ㅤ24 HORAS 3ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 3',
         'url': 'SeñalInterna24H_3.html'
     },{
         'titulo': 'ㅤ24 HORAS 4ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 4',
         'url': 'SeñalInterna24H_4.html'
     }, {
         'titulo': 'ㅤ24 HORAS 5ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 5',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠSEÑAL 5',
         'url': 'SeñalInterna24H_5.html'
     }, {
         'titulo': 'ㅤDOCUMENTACION TVNㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_TVN.svg"></img>ﾠDOCUMENTACION TVN',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width:auto:" src="imagenes/Logo_24HTVN.svg"></img>ﾠ<img style="height: 15px; width:auto:" src="imagenes/Logo_TVN.svg"></img>ﾠDOCUMENTACION TVN',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCeKSSTjG4r-Qvcpjnwgo0VQ&autoplay=true&mute=1'
     }, {
         'titulo': 'ㅤMEGANOTICIAS 1ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 1',
         'url': 'SeñalInternaMEGANOTICIAS_1.html'
     }, {
         'titulo': 'ㅤMEGANOTICIAS 2ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 2',
         'url': 'SeñalInternaMEGANOTICIAS_2.html'
     }, {
         'titulo': 'ㅤMEGANOTICIAS 3ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 3',
         'url': 'SeñalInternaMEGANOTICIAS_3.html'
     },{
         'titulo': 'ㅤMEGANOTICIAS 4ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width:auto:" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>ﾠSEÑAL 4',
         'url': 'SeñalInternaMEGANOTICIAS_4.html'
     },{
-        'titulo': 'ㅤCNN CHILE 1ㅤ',
-        'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_CNNCHILE2.svg"></img>ﾠSEÑAL 1',
+        'titulo': 'ㅤCNN CHILEㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width:auto:" src="imagenes/Logo_CNNCHILE2.svg"></img>ﾠSEÑAL 1',
         'url': 'SeñalInternaCNNCHILE_1.html'
     },{
         'titulo': 'ㅤCHV EVENTOS',
-        'nombre': '<img style="height: 25px; width:auto:" src="imagenes/Icono_Aviso_Ocasional.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>ﾠEVENTOS',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width:auto:" src="imagenes/Logo_CHV.svg"></img>ﾠEVENTOS',
         'url': 'SeñalCHV_EVENTOS.html'
     },{
         'titulo': 'ㅤBIOBIO 1ㅤ',
@@ -151,6 +155,14 @@ let LosCanales = [
         'titulo': 'ㅤBIOBIO 4ㅤ',
         'nombre': '<img style="height: 20px; width:auto:" src="imagenes/Logo_BIOBIOCHILE.svg"></img>ﾠSEÑAL 4',
         'url': 'SeñalBIOBIOCHILE_4.html'
+    },{
+        'titulo': 'ㅤZAPPING TV MUSICㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round">music_note</span><img style="height: 20px; width:auto:" src="imagenes/Logo_ZAPPING_TV_MUSIC.svg"></img>',
+        'url': 'SeñalZAPPINGTV_MUSIC.html'
+    },{
+        'titulo': 'ㅤREWIND TVㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round">music_note</span><img style="height: 20px; width:auto:" src="imagenes/Logo_REWIND_TV.svg"></img>',
+        'url': 'SeñalREWINDTV.html'
     },{
         'titulo': 'ㅤADN RADIOㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width:auto:" src="imagenes/Logo_ADNRADIO.svg"></img>ﾠ',
