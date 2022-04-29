@@ -186,20 +186,20 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width:auto:" src="imagenes/Logo_GOB.svg"></img>ﾠPDTE. BORIC',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC0gQkOPt6VVvJGO9mDy0ikw&autoplay=true&mute=1'
     }, {
-        'titulo': 'ㅤSENADO TVㅤ',
+        'titulo': 'ㅤTV SENADOㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width:auto:" src="imagenes/Logo_TVSENADO_2.svg"></img>',
         'url': 'SeñalSENADO_TV.html'
     }, {
-        'titulo': 'ㅤDIPUTADOS TVㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>DIPUTADOS TVﾠ',
+        'titulo': 'ㅤTV DIPUTADOSㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>TV DIPUTADOSﾠ',
         'url': 'SeñalCDTV.html'
     },{
         'titulo': 'ㅤTV SENADOㅤ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="imagenes/Logo_TVSENADO_2.svg"></img>',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=true&mute=1'
     }, {
-        'titulo': 'ㅤDIPUTADOS TVㅤ',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠDIPUTADOS TV',
+        'titulo': 'ㅤTV DIPUTADOSㅤ',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width:auto:" src="imagenes/Logo_YT.svg"></img>ﾠTV DIPUTADOS',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=true&mute=1'
     }, {
         'titulo': 'ㅤCONVENCION CONSTITUCIONALㅤ',
