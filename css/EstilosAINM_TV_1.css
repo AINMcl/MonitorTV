@@ -192,7 +192,7 @@
     font-size: 15px;
     font-family: 'Assistant', sans-serif;
     font-weight: bold;
-    margin-bottom: 5%;
+    margin-bottom: 12px;
     cursor:
     pointer;
     transition:all .2s
@@ -224,7 +224,7 @@
     font-size: 15px;
     font-family: 'Assistant', sans-serif;
     font-weight: bold;
-    margin-bottom: 5%;
+    margin-bottom: 12px;
     cursor:
     pointer;
     transition:all .2s
