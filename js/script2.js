@@ -8,7 +8,7 @@ ancla.id = 'links';
 ancla.title = 'Ir a la página oficial de esta transmisión';
 
 for (const canal of LosCanales) {
-    const BtnCanal = document.createElement('BUTTON');
+    const BtnCanal = document.createElement('div');
 
     BtnCanal.classList.add('channel');
     BtnCanal.innerHTML = canal.nombre;

@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -174,9 +174,9 @@
 
 
   <!-- MENU DEPEGLABLE SEÑALES PANTALLA 1 -->
-  <div class="offcanvas offcanvas-start" tabindex="-1" id="MenuDespeglableSeñalesP1" aria-labelledby="MenuDespeglableSeñalesP1Label">
-    <div class="offcanvas-body">
-          <div class="CuerpoMenuDesplegable2">
+  <div class="TransparenteBlur offcanvas offcanvas-start" tabindex="-1" id="MenuDespeglableSeñalesP1" aria-labelledby="MenuDespeglableSeñalesP1Label">
+    <div class="Transparente offcanvas-body ">
+          <div class="Transparente CuerpoMenuDesplegable2">
               <div style="width: 100%; height: auto; display: inline-flex;">
                   <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="margin-right: 5px;" class="material-icons">arrow_back</span><text>VOLVER</text></div>
                   <span style="margin-left: 3%;"></span>
@@ -283,7 +283,7 @@
     
     
       for (const canalP1 of LosCanales) {
-          const BtnCanalP1 = document.createElement('BUTTON');
+          const BtnCanalP1 = document.createElement('div');
       
           BtnCanalP1.classList.add('channel');
           BtnCanalP1.innerHTML = canalP1.nombre;
@@ -330,7 +330,7 @@
     
     
       for (const canalP2 of LosCanales) {
-          const BtnCanalP2 = document.createElement('BUTTON');
+          const BtnCanalP2 = document.createElement('div');
       
           BtnCanalP2.classList.add('channel');
           BtnCanalP2.innerHTML = canalP2.nombre;
@@ -377,7 +377,7 @@
     
     
       for (const canalP3 of LosCanales) {
-          const BtnCanalP3 = document.createElement('BUTTON');
+          const BtnCanalP3 = document.createElement('div');
       
           BtnCanalP3.classList.add('channel');
           BtnCanalP3.innerHTML = canalP3.nombre;
@@ -423,7 +423,7 @@
     
     
       for (const canalP4 of LosCanales) {
-          const BtnCanalP4 = document.createElement('BUTTON');
+          const BtnCanalP4 = document.createElement('div');
       
           BtnCanalP4.classList.add('channel');
           BtnCanalP4.innerHTML = canalP4.nombre;
@@ -469,7 +469,7 @@
     
     
       for (const canalP5 of LosCanales) {
-          const BtnCanalP5 = document.createElement('BUTTON');
+          const BtnCanalP5 = document.createElement('div');
       
           BtnCanalP5.classList.add('channel');
           BtnCanalP5.innerHTML = canalP5.nombre;
@@ -516,7 +516,7 @@
     
     
       for (const canalP6 of LosCanales) {
-          const BtnCanalP6 = document.createElement('BUTTON');
+          const BtnCanalP6 = document.createElement('div');
       
           BtnCanalP6.classList.add('channel');
           BtnCanalP6.innerHTML = canalP6.nombre;

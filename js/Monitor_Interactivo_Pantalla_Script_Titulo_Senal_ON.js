@@ -10,7 +10,7 @@ ancla.title = 'TITULO DE SEÑAL';
 
 
 for (const canal of LosCanales) {
-    const BtnCanal = document.createElement('BUTTON');
+    const BtnCanal = document.createElement('div');
 
     BtnCanal.classList.add('channel');
     BtnCanal.innerHTML = canal.nombre;

@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
 
 
 
@@ -183,7 +183,7 @@
 
 
       for (const canal of LosCanales) {
-          const BtnCanal = document.createElement('BUTTON');
+          const BtnCanal = document.createElement('div');
       
           BtnCanal.classList.add('channel');
           BtnCanal.innerHTML = canal.nombre;
@@ -225,7 +225,7 @@
     
     
       for (const canal of LosCanales) {
-          const BtnCanalP2 = document.createElement('BUTTON');
+          const BtnCanalP2 = document.createElement('div');
       
           BtnCanalP2.classList.add('channel');
           BtnCanalP2.innerHTML = canal.nombre;

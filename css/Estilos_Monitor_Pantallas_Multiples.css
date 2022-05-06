@@ -130,18 +130,36 @@
     border: 1px solid rgb(48, 48, 48);  /* creates padding around scroll thumb */
 }
 
+
+/*
+DEGRADADO
+https://cssgradient.io/
+background: rgb(9,94,121);
+background: linear-gradient(180deg, rgba(9,94,121,1) 15%, rgba(34,0,255,1) 92%);
+
+
+
+.Transparente{
+    background-color: #ffffff00;
+}
+
+.TransparenteBlur{
+  background-color: #ffffff85;
+  backdrop-filter: blur(3px);
+}
+*/
+
 .channel{
     background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: left;
-    border-color: #2E4053;
-    border-width: 2px;
+    border: solid 2px #2E4053;
+    color: #2E4053;
     border-radius: 5px;
     padding-left: 5%;
     width: 99%;
     height: 55px;
-    color: #2E4053;
     margin: 0;
     font-size: 15px;
     font-family: 'Assistant', sans-serif;
@@ -171,14 +189,13 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    border-color: #15b100;
+    border: solid 2px #15b100;
+    color: #15b100;
     box-shadow: 0px 2px 10px #15b100;
-    border-width: 2px;
     border-radius: 5px;
     padding-left: 5%;
     width: 99%;
     height: 55px;
-    color: #15b100;
     margin: 0;
     font-size: 15px;
     font-family: 'Assistant', sans-serif;
