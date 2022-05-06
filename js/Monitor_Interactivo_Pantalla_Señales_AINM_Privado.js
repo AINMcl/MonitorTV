@@ -963,7 +963,7 @@ let LosCanales = [
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCRsUoZYC1ULUspipMRnMhwg&autoplay=true&mute=1'
     }, {
         'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_T13.svg"></img>',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=true&mute=1'
     },{
         'titulo': 'ㅤTITULOㅤ',
@@ -995,7 +995,7 @@ let LosCanales = [
         'url': 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmeganoticiascl%2Flive%2F&show_text=0&mute=0'
     }, {
         'titulo': 'ㅤTITULOㅤ',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_T13.svg"></img>',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
         'url': 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fteletrece%2Flive%2F&show_text=0&mute=0'
     }, {
         'titulo': 'ㅤTITULOㅤ',
