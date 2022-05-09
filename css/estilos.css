@@ -1829,7 +1829,8 @@ background-image: linear-gradient(
 .TextoTitulosMonitor1{
   background: rgba(0, 0, 0, 0.55);
   backdrop-filter: blur(3px);
-  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
   width: auto;
   height: auto;
   border-radius: 3px;
@@ -2585,32 +2586,31 @@ background-image: linear-gradient(
 }
 
 .BotonHomeAbrirEnOtraPestaña{
-  display:inline-table;
+  display: flex;
   background-color: #FF0000;
   border: solid 2px #FF0000;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 5px #9B9B9B;
+  margin-bottom: 10px;
   margin-left: 0px;
   padding-left: 10px;
-  padding-right: 10px;
-  width: auto;
-  height: 30px;
-  line-height: 30px;
-  font-size: 15px;
-  border-radius: 4px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 17px;
+  border-radius: 5px;
   font-weight: bold;
-  justify-content: center;
   align-items: center;
-  color: #ffffff;
   cursor:
   pointer;
   transition:all .3s;
 }
 
 .BotonHomeAbrirEnOtraPestaña:hover{
-  color: #1100ff;
-  height: 30px;
-  background-color: #ffffff;
-  border: solid 2px #1100ff;
-  box-shadow: 0px 0px 10px #1100ff;
+  color: #FF0000;
+  background-color: #FFFFFF;
+  border: solid 2px #FF0000;
+  box-shadow: 0px 0px 15px #FF0000;
 }
 
 .BotonMenuAjustes{
