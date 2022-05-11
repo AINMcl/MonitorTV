@@ -1686,7 +1686,7 @@ init: function() {
         App.add("T13_WEB_IFRAME");
 
         App.add("CHV_WEB_IFRAME");
-        App.add("TVN_WEB_IFRAME");
+        App.add("TVN");
         App.add("CANAL13_WEB_IFRAME");
         
         
