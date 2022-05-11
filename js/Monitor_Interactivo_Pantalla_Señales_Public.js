@@ -21,8 +21,8 @@ let LosCanales = [
         'url': 'SeñalCHVNOTICIAS_PLUTOTV.html'
     }, {
         'titulo': 'T13',
-        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
-        'url': 'SeñalT13_ENVIVO_IFRAME_AINM_GITHUB.html'
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
+        'url': 'SeñalT13_ENVIVO.html'
     }, {
         'titulo': 'TVN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>',
@@ -36,13 +36,25 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CHV.svg"></img>',
         'url': 'SeñalCHV.html'
     }, {
-        'titulo': 'CANAL 13',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Canal13.svg"></img>',
-        'url': 'SeñalCANAL13.html'
-    }, {
         'titulo': 'LA RED',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_LA_RED.svg"></img>',
         'url': 'SeñalLARED.html'
+    },{
+        'titulo': 'T13',
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
+        'url': 'SeñalT13_ENVIVO_IFRAME.html'
+    }, {
+        'titulo': 'TVN',
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>',
+        'url': '../Monitores/Senal/WEB/SeñalTVN_IFRAME.html'
+    },{
+        'titulo': 'CHV',
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CHV.svg"></img>',
+        'url': '../Monitores/Senal/WEB/SeñalCHV_IFRAME.html'
+    }, {
+        'titulo': 'CANAL 13',
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Canal13.svg"></img>',
+        'url': '../Monitores/Senal/WEB/SeñalCANAL13_IFRAME.html'
     },{
         'titulo': 'TV+',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVMAS.svg"></img>',
@@ -63,18 +75,6 @@ let LosCanales = [
         'titulo': 'WAPP TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/LogoTV_WappTV.svg"></img>',
         'url': 'SeñalWAPPTV.html'
-    },{
-        'titulo': 'TVN',
-        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>',
-        'url': '../Monitores/Senal/WEB/SeñalTVN_IFRAME.html'
-    },{
-        'titulo': 'CHV',
-        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CHV.svg"></img>',
-        'url': '../Monitores/Senal/WEB/SeñalCHV_IFRAME.html'
-    }, {
-        'titulo': 'CANAL 13',
-        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Canal13.svg"></img>',
-        'url': '../Monitores/Senal/WEB/SeñalCANAL13_IFRAME.html'
     },{
         'titulo': '24 HORAS 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL 1',

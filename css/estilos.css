@@ -3200,6 +3200,34 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 15px #FF0000;
 }
 
+.BotonMenuDesplegableAzulPequeño{
+  display: flex;
+  background-color: #041DAD;
+  border: solid 2px #041DAD;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 5px #9B9B9B;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
+  width: 50%;
+  height: 45px;
+  line-height: 45px;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonMenuDesplegableAzulPequeño:hover{
+  color: #041DAD;
+  background-color: #FFFFFF;
+  border: solid 2px #041DAD;
+  box-shadow: 0px 0px 15px #041DAD;
+}
+
 .BotonMenuDesplegableGris{
   display: flex;
   background-color: #2E4053;
