@@ -590,34 +590,6 @@ let LosCanales = [
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>WKYC Channel 3',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCNBmxc6FvKyxtCpUygcdINA&autoplay=true&mute=1'
     }, {
-        'titulo': 'NHK WORLD',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg"></img>NHK WORLD',
-        'url': 'SeñalNHK.html'
-    },{
-        'titulo': 'IRAN INTERNATIONAL',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ir.svg"></img>IRAN INTERNATIONAL',
-        'url': 'SeñalIRAN_INTERNACIONAL.html'
-    },{
-        'titulo': 'PRESS TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ir.svg"></img>PRESS TV',
-        'url': 'SeñalPRESSTV.html'
-    },{
-        'titulo': 'HISPANTV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ir.svg"></img>HISPANTV',
-        'url': 'SeñalHISPANTV_ESP.html'
-    },{
-        'titulo': 'TRT WORLD',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/tr.svg"></img>TRT WORLD',
-        'url': 'SeñalTRTWORLD.html'
-    },{
-        'titulo': 'AL JAZEERA ARABIC',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg"></img>AL JAZEERA ARABIC',
-        'url': 'https://www.youtube.com/embed/eJ6ZMd4sVrI?autoplay=true&mute=1'
-    }, {
-        'titulo': 'AL JAZEERA ENG',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg"></img>AL JAZEERA ENG',
-        'url': 'https://www.youtube.com/embed/-upyPouRrB8?autoplay=true&mute=1'
-    }, {
         'titulo': 'TN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg"></img>TN',
         'url': 'SeñalTN.html'
@@ -669,10 +641,6 @@ let LosCanales = [
         'titulo': 'TVes',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ve.svg"></img>TVes',
         'url': 'SeñalTVes.html'
-    }, {
-        'titulo': 'FORO TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg"></img>FORO TV',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCUsm-fannqOY02PNN67C0KA&autoplay=true&mute=1'
     }, {
         'titulo': 'EURONEWS ESPAÑOL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/eu.svg"></img>EURONEWS ESPAÑOL',
@@ -749,6 +717,38 @@ let LosCanales = [
         'titulo': 'RT ALEMAN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg"></img>RT ALEMAN',
         'url': 'SeñalRT_ALEMAN.html'
+    }, {
+        'titulo': 'NHK WORLD',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg"></img>NHK WORLD',
+        'url': 'SeñalNHK.html'
+    },{
+        'titulo': 'IRAN INTERNATIONAL',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ir.svg"></img>IRAN INTERNATIONAL',
+        'url': 'SeñalIRAN_INTERNACIONAL.html'
+    },{
+        'titulo': 'PRESS TV',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ir.svg"></img>PRESS TV',
+        'url': 'SeñalPRESSTV.html'
+    },{
+        'titulo': 'HISPANTV',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ir.svg"></img>HISPANTV',
+        'url': 'SeñalHISPANTV_ESP.html'
+    },{
+        'titulo': 'TRT WORLD',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/tr.svg"></img>TRT WORLD',
+        'url': 'SeñalTRTWORLD.html'
+    },{
+        'titulo': 'AL JAZEERA ENGLISH',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg"></img>AL JAZEERA ENGLISH',
+        'url': 'SeñalAl_JAZEERA_EN.html'
+    }, {
+        'titulo': 'AL JAZEERA ARABIC',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg"></img>AL JAZEERA ARABIC',
+        'url': 'SeñalAl_JAZEERA_ARABIC.html'
+    }, {
+        'titulo': 'AL JAZEERA MUBASHER',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg"></img>AL JAZEERA MUBASHER',
+        'url': 'SeñalAl_JAZEERA_MUBASHER.html'
     }, {
         'titulo': 'SKY NEWS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg"></img>SKY NEWS',
@@ -914,6 +914,10 @@ let LosCanales = [
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg"></img>LA NACION',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCba3hpU7EFBSk817y9qZkiA&autoplay=true&mute=1'
     }, {
+        'titulo': 'FORO TV',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg"></img>FORO TV',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCUsm-fannqOY02PNN67C0KA&autoplay=true&mute=1'
+    }, {
         'titulo': 'MILENIO NOTICIAS',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg"></img>MILENIO NOTICIAS',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCFxHplbcoJK9m70c4VyTIxg&autoplay=true&mute=1'
@@ -933,6 +937,18 @@ let LosCanales = [
         'titulo': 'RT ESPAÑOL',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg"></img><span style="margin-right: 10px;">RT ESPAÑOL</span><span style="margin-right: 10px; color: #FF0000" class="material-icons-round">error_outline</span>',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCEIhICHOQOonjE6V0SLdrHQ&autoplay=true&mute=1'
+    }, {
+        'titulo': 'AL JAZEERA ENG',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg"></img>AL JAZEERA ENGLISH',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCNye-wNBqNL5ZzHSJj3l8Bg&autoplay=true&mute=1'
+    }, {
+        'titulo': 'AL JAZEERA ARABIC',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg"></img>AL JAZEERA ARABIC',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCfiwzLy-8yKzIbsmZTzxDgw&autoplay=true&mute=1'
+    }, {
+        'titulo': 'AL JAZEERA MUBASHER',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg"></img>AL JAZEERA MUBASHER',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCCv1Pd24oPErw5S7zJWltnQ&autoplay=true&mute=1'
     }, {
         'titulo': 'UCRANIA24',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ua.svg"></img>UCRANIA24',
