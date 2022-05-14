@@ -744,15 +744,15 @@ let LosCanales = [
     },{
         'titulo': 'AL JAZEERA ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg"></img>AL JAZEERA ENGLISH',
-        'url': 'SeñalAl_JAZEERA_EN.html'
+        'url': 'SeñalAL_JAZEERA_EN.html'
     }, {
         'titulo': 'AL JAZEERA ARABIC',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg"></img>AL JAZEERA ARABIC',
-        'url': 'SeñalAl_JAZEERA_ARABIC.html'
+        'url': 'SeñalAL_JAZEERA_ARABIC.html'
     }, {
         'titulo': 'AL JAZEERA MUBASHER',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg"></img>AL JAZEERA MUBASHER',
-        'url': 'SeñalAl_JAZEERA_MUBASHER.html'
+        'url': 'SeñalAL_JAZEERA_MUBASHER.html'
     }, {
         'titulo': 'SKY NEWS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg"></img>SKY NEWS',
