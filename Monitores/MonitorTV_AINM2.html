@@ -10,7 +10,7 @@
 <link href="../css/estilos.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="../css/EstilosAINM_TV_1.css">
 
-<script src="../js/Monitor_Interactivo_Pantalla_Señales_AINM_Privado.js"></script>
+<script src="../js/Monitor_Interactivo_Pantalla_Señales_Public.js"></script>
 
 <script src="../js/Efecto.js"></script>
 
@@ -59,14 +59,15 @@
     <!-- MENU -->
 	  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">MENU</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <span class="CuerpoTituloMenuAjustes"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">video_settings</span>AJUSTES - MONITOR TV 2</span>
+            <!--<h5 class="offcanvas-title" id="MenuDespeglableAjustesLabel"><b>MENU</b></h5>-->
+            <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
         </div>
         <div class="offcanvas-body">
           <div class="CuerpoMenuDesplegable">
-            <a style="text-decoration: none;" href="HomeAINM.html"><span class="BotonMenuDesplegableGris waves-effect waves-grisoscuro"><span style="margin-right: 5px;" class="material-icons">home</span>IR A HOME</span></a>
-            <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
-            <div class="CuerpoSeñalesMenuDesplegable">
+            <a style="text-decoration: none;" href="HomeAINM.html" ><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons">home</span>IR AL HOME</span></a>
+            <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
+            <div style="height: 85%;" class="CuerpoSeñalesMenuDesplegable">
               <section id="channel-list" class="channel-list">
               </section>
           </div>

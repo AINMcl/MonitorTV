@@ -3,106 +3,115 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-    <title> Monitor TV1 AINM </title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
-
-    <link href="../css/estilos.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/EstilosAINM_TV_1.css">
-
-    <script src="../js/Monitor_Interactivo_Pantalla_Señales_Public.js"></script>
-
-    <script src="../js/Efecto.js"></script>
-
-    <link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
-
-    <!-- TIPOGRAFIA GOOGLE-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
-    <!-- TIPOGRAFIA ICONOS GOOGLE-->
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-RT53GZ16EW');
-    </script>
-
-
-    <!--bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<title> Monitor TV2 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
     
+<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/EstilosAINM_TV_1.css">
+
+<script src="../js/Monitor_Interactivo_Pantalla_Señales_Public.js"></script>
+
+<script src="../js/Efecto.js"></script>
+
+<link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RT53GZ16EW');
+</script>
+
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
 </head>
 
-<body style="background-color: #f2f2f2;font-family: 'Assistant', sans-serif;">
+<body style="background-color: #f2f2f2; font-family: 'Assistant', sans-serif;">
     
     <div style="position: absolute; display: inline-block; width: 100%; height:100%" >
-        
-        <div class="BarraListaSeñales" style="background-color: #ffffff; width: 25%; height:100%; float: left; position: absolute; left: 0%;">
-            <div class="CuerpoMenuTV1">
-                
-                <div class="channels-container">
-                    <section id="channel-list" class="channel-list">
-                    </section>
-                </div>
-                <a style="text-decoration: none;" href="Home.html"><span class="BotonMenuDesplegableGris waves-effect waves-grisoscuro"><span style="margin-right: 5px;" class="material-icons">home</span>IR A HOME</span></a>
-                <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
-
-            </div>
-        </div>
-
-       <!--<hr/>☰✕✕-->
-       <div style="background-color: #d6d6d6; width: 75%; height:100%; right: 0%; position: absolute; padding-top: 20px; padding-right: 20px; padding-left: 20px;">
-            <div style="background-color: black;" id="video-container" class="video-container">
-                <iframe id="player" src=""></iframe>
-                <div class="FondoTitulosMonitor1">
-                    <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra"></div>
-                </div>
+        <div style="background-color: black;" id="video-container" class="video-container">
+            <iframe id="player" src=""></iframe>
+            <div class="FondoTitulosMonitor1">
+                <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra"></div>
             </div>
         </div>
     </div>
 
-    <!-- BOTON ABRIR MENU DESPLEGABLE -->
+    <!-- BOTON MENU -->
     <div class="ContenedorBotonMenuDesplegable">
         <div class="BotonMenuDesplegable" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span style="font-size: 20px;" class="material-icons">settings</span></div>
     </div>
 
-	<!-- MENU DEPEGLABLE -->
-	<div style="width: 30%;" class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <!-- MENU -->
+	  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">MENU</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <span class="CuerpoTituloMenuAjustes"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">video_settings</span>AJUSTES - MONITOR TV 2</span>
+            <!--<h5 class="offcanvas-title" id="MenuDespeglableAjustesLabel"><b>MENU</b></h5>-->
+            <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
         </div>
         <div class="offcanvas-body">
-            <div class="CuerpoMenuDesplegable">
-                <div class="BotonMenuDesplegableAzul_2" id="fullscreen"><img style="height: 20px; width:auto;" src="imagenes/PantallaCompleta_1.svg"></img><span>ﾠENTRAR PANTALLA COMPLETA</span></div>
-            </div>
-        </div>
+          <div class="CuerpoMenuDesplegable">
+            <a style="text-decoration: none;" href="Home.html" ><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons">home</span>IR AL HOME</span></a>
+            <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
+            <div style="height: 85%;" class="CuerpoSeñalesMenuDesplegable">
+              <section id="channel-list" class="channel-list">
+              </section>
+          </div>
     </div>
 
+        
     <!-- Contenido de off canvas, end.  -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!--PANTALLA COMPLETA-->
+    <script>
+      // https://javascript.plainenglish.io/enter-full-screen-mode-with-javascript-a8a782d96dc
+      const btnFullscreen = document.querySelector('#fullscreen'),
+            btnFullscreenSpanIcon = btnFullscreen.querySelector('text'),
+            btnFullscreenSpan = btnFullscreen.querySelector('span');
+
+      function getFullscreenElement() {
+        return document.fullscreenElement   //standard property
+        || document.webkitFullscreenElement //safari/opera support
+        || document.mozFullscreenElement    //firefox support
+        || document.msFullscreenElement;    //ie/edge support
+      }
+
+      function toggleFullscreen() {
+        if(getFullscreenElement()) {
+          document.exitFullscreen();
+          btnFullscreenSpanIcon.innerHTML = 'ENTRAR A PANTALLA COMPLETA';
+          btnFullscreenSpan.innerHTML = 'open_in_full';
+
+        }else {
+          document.documentElement.requestFullscreen().catch(console.log);
+          btnFullscreenSpanIcon.innerHTML = 'SALIR DE PANTALLA COMPLETA';
+          btnFullscreenSpan.innerHTML = 'close_fullscreen';
+
+        }
+      }
+
+      btnFullscreen.addEventListener('click', () => {
+        toggleFullscreen();
+      });
+    </script>
+
+
+    <!--
     <script>
         // https://javascript.plainenglish.io/enter-full-screen-mode-with-javascript-a8a782d96dc
         const btnFullscreen = document.querySelector('#fullscreen'),
@@ -131,8 +140,7 @@
         btnFullscreen.addEventListener('click', () => {
           toggleFullscreen();
         });
-    </script>
-    
+    </script>-->
    
 </body>
 <script src="../js/Monitor_Interactivo_Pantalla_Script_Titulo_Senal_OFF.js"></script>
