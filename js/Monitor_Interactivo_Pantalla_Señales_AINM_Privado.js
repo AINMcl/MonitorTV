@@ -4,6 +4,10 @@ let LosCanales = [
         'nombre': 'MONITOR CARRUSEL NOTICIAS',
         'url': 'MonitorAINM_CARRUSEL_NOTICIAS.html'
     }, {
+        'titulo': 'EUROVISION 2022',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>EUROVISION 2022',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCRpjHHu8ivVWs73uxHlWwFA&autoplay=true&mute=1'
+    }, {
         'titulo': '24 PLAY',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24PLAY.svg"></img>',
         'url': 'Señal24HTVN.html'
