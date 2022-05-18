@@ -193,16 +193,24 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIO_LACLAVE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO LA CLAVE</div></div></div>'
         },
         'TIEMPO': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_RadioTiempo.svg"></img>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO TIEMPO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIO_TIEMPO.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO TIEMPO</div></div></div>'
         },
         'PUDAHUEL': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_RadioPudahuel.svg"></img>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO PUDAHUEL',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIO_PUDAHUEL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO PUDAHUEL</div></div></div>'
         },
         'SeñalRADIO_DUNA': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_RadioDuna.svg"></img>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO DUNA',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIO_DUNA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO DUNA</div></div></div>'
+        },
+        'SeñalRADIO_ROMANTICA': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO ROMANTICA',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIO_ROMANTICA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO ROMANTICA</div></div></div>'
+        },
+        'SeñalRADIO_INICIA': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO INICIA',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIO_INICIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO INICIA</div></div></div>'
         },
 
 

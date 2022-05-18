@@ -189,16 +189,24 @@ let LosCanales = [
         'url': 'SeñalRADIO_LACLAVE.html'
     }, {
         'titulo': 'RADIO TIEMPO',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_RadioTiempo.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO TIEMPO',
         'url': 'SeñalRADIO_TIEMPO.html'
     }, {
         'titulo': 'RADIO PUDAHUEL',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_RadioPudahuel.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO PUDAHUEL',
         'url': 'SeñalRADIO_PUDAHUEL.html'
     }, {
         'titulo': 'RADIO DUNA',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_RadioDuna.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO DUNA',
         'url': 'SeñalRADIO_DUNA.html'
+    }, {
+        'titulo': 'RADIO ROMANTICA',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO ROMANTICA',
+        'url': 'SeñalRADIO_ROMANTICA.html'
+    }, {
+        'titulo': 'RADIO INICIA',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO INICIA',
+        'url': 'SeñalRADIO_INICIA.html'
     }, {
         'titulo': 'RADIO LAS NIEVES',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | RADIO LAS NIEVES',        

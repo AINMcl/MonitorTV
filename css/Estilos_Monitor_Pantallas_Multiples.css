@@ -184,7 +184,8 @@ background: linear-gradient(180deg, rgba(9,94,121,1) 15%, rgba(34,0,255,1) 92%);
 .SeñalSeleccionadaP3,
 .SeñalSeleccionadaP4,
 .SeñalSeleccionadaP5,
-.SeñalSeleccionadaP6{
+.SeñalSeleccionadaP6,
+.SeñalSeleccionadaP7{
     background-color: #ffffff;
     display: flex;
     align-items: center;
