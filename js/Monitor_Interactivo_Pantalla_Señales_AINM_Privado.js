@@ -1077,6 +1077,14 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">mic</span>COOPERATIVA',
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/Cooperativa/live/&show_text=1&mute=0'
     },{
+        'titulo': 'AYSEN | RADIO GENIAL',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | RADIO GENIAL',
+        'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/RadioGenialFM/live/&show_text=1&mute=0'
+    },{
+        'titulo': 'AYSEN | RADIO MILENARIA',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | RADIO MILENARIA',
+        'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/RadioMilenariaFM/live/&show_text=1&mute=0'
+    },{
         'titulo': 'TVN RED ANTOFAGASTA',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>ANTOFAGASTA',
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/TVNREDANTOFAGASTA/live/&show_text=1&mute=0'
@@ -1292,6 +1300,10 @@ let LosCanales = [
         'titulo': 'OSORNO (OP2)',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>OSORNO (OP2)',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCD7sqegDNyZxmdnCj6xqH6g&autoplay=true&mute=1'
+    },{
+        'titulo': 'COYHAIQUE',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>COYHAIQUE',
+        'url': 'SeñalRADIO_CANALSURPATAGONIA.html'
     },{
         'titulo': 'VALPARAISO',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>VALPARAISO',

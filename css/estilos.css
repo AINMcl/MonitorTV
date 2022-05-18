@@ -3473,6 +3473,12 @@ background-image: linear-gradient(
 }
 
 
+.MenuDesplegableRedondeado{
+  border-radius: 10px;
+  margin: 15px;
+}
+
+
 
 
 
