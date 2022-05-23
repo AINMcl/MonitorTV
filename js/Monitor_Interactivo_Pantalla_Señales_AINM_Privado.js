@@ -68,6 +68,10 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCVTV.svg"></img>',
         'url': 'SeñalUCVTV.html'
     }, {
+        'titulo': 'UCV TV 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCVTV.svg"></img> SEÑAL2',
+        'url': 'SeñalUCVTV2.html'
+    }, {
         'titulo': 'TV+',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVMAS.svg"></img>',
         'url': 'SeñalTVMAS.html'
@@ -1531,7 +1535,7 @@ let LosCanales = [
     },{
         'titulo': 'ISS TRACKER',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Ubicacion.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_ESA.svg"></img>ISS TRACKER MAP 1',
-        'url': 'SeñalISS_TRACKER.html'
+        'url': 'ESPACIO_RASTREO_ISS_ESA.html'
     }, {
         'titulo': 'ISS TRACKER',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Ubicacion.svg"></img>ISS TRACKER MAP 2',
@@ -1881,9 +1885,9 @@ let LosCanales = [
         'nombre': 'ESPACIO VACIO',
         'url': ''
     }, {
-        'titulo': 'TWITTER FALL',
-        'nombre': 'TWITTER FALL',
-        'url': 'https://twitterfall.com/'
+        'titulo': '',
+        'nombre': 'BARRAS TV',
+        'url': 'SeñalBARRASTV.html'
     }, {
         'titulo': 'TEST JWPLAYER',
         'nombre': 'TEST JW PLAYER',

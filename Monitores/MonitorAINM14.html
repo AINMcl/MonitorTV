@@ -1,74 +1,703 @@
-
-
-
-<!DOCTYPE html>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>WebTV  |  Cámara de Diputados - CHILE</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <link rel="stylesheet" href="http://webtv.camara.cl/flowplayer6/skin/functional.css" />
-    <link href="http://webtv.camara.cl/online/img/st1.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="http://releases.flowplayer.org/6.0.4/skin/minimalist.css" />
-        
-    <script src="http://webtv.camara.cl/jwplayer/jwplayer.js"></script>
-    <script> jwplayer.key = "MhrxaNFGEB5yljdFSf9UVSrPW9Ppa0TUoJ1wNnuDThg=";</script>
+<title> Monitor AINM 12 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    
+<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/Estilos_Monitor_Pantallas_Multiples.css">
 
-    <style type="text/css">
-.flowplayer { 
-    width: 53%;
-    max-height: 100%;
-    margin-right: 10px;
-    float: right;
-}
-#areaDatos  {
-    width: 40%; float: left; 
-    margin-left: 10px; 
-    height: 95%;
-    border: 1px solid #999999;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 12px;
-}
-    </style>
+<script src="../js/Monitor_Interactivo_Pantalla_Señales_AINM_Privado.js"></script>
 
-    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.10.4/dojo/dojo.js" data-dojo-config="async: true, parseOnLoad: true, locale:'es-CL', isDebug:true"></script>
-    <script src="http://webtv.camara.cl/online/principal.js"></script>
-    <script>
-        require(["dojo/parser", "dijit/layout/ContentPane", "dijit/form/FilteringSelect", "dijit/form/Button", "dojox/grid/DataGrid", "dijit/layout/AccordionContainer", "dijit/layout/TabContainer"]);
+<script src="../js/Efecto.js"></script>
 
-        setTimeout(function () { conectar(); }, 2000);
-    </script>
+<link rel="icon" href='../imagenes/Icon.png' type="image/png"/>
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RT53GZ16EW');
+</script>
+
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
 
-<body>
-<div style="clear: both;"> </div>
-
-<div style="width: 100%; float: left; height: 74%;">
-
-    <div data-dojo-type="dijit/layout/ContentPane" id="areaDatos" style="overflow: hidden;">
-    </div>
-    <div id="playerOnline2" style="width: 53%; max-height: 100%; height:100%; float:right; margin-right:10px;">
-        <div id="playerOnline">
-            <video controls/>
-            <script type="text/javascript">
-                var playerInstanceP = jwplayer("playerOnline");
-                playerInstanceP.setup({
-                    //file: "https://camara.02.cl.cdnz.cl/cdndvr/live/playlist.m3u8?DVR",
-                    file: "https://tls-cl.cdnz.cl/camara/live/playlist.m3u8?DVR",
-                    width: "100%",
-                    aspectratio: "4:3",
-                    stretching: "exactfit",
-                    hlshtml: true,
-                    primary: "html5",					
-                    autostart: true
-                });
-            </script>
+<body style="background-color: #000000; font-family: 'Assistant', sans-serif; overflow: hidden;">
+      
+  <div style="position: absolute; display: inline-block; width: 100%; height:25%; background-color: #000000;">
+    <!--aria-controls="MenuDespeglableSeñalesPX"-->
+    <!--PANTALLA 1-->
+    <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: rgb(0, 0, 0);" id="video-container-P1" class="video-container">
+        <iframe class="embed-responsive-item" id="playerP1" src=""></iframe>
+        <div class="FondoTitulosMonitor1">
+            <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P1"></div>
         </div>
-    </div>      
+        <div class="BotonCambiarSeñal">
+            <div class="BotonCambiarSeñalTexto" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP1" role="button" aria-controls="MenuDespeglableSeñalesP1"><span class="material-icons">mode_edit</span></div>
+          </div>
+      </div>
+    </div>
 
-</div>
+    <!--PANTALLA 2-->
+    <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: rgb(0, 0, 0);" id="video-container-P2" class="video-container">
+        <iframe class="embed-responsive-item" id="playerP2" src=""></iframe>
+        <div class="FondoTitulosMonitor1">
+            <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P2"></div>
+        </div>
+        <div class="BotonCambiarSeñal">
+            <div class="BotonCambiarSeñalTexto" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP2" role="button" aria-controls="MenuDespeglableSeñalesP2"><span class="material-icons">mode_edit</span></div>
+          </div>
+      </div>
+    </div>
 
+    <!--PANTALLA 3-->
+    <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: rgb(0, 0, 0);" id="video-container-P3" class="video-container">
+        <iframe class="embed-responsive-item" id="playerP3" src=""></iframe>
+        <div class="FondoTitulosMonitor1">
+            <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P3"></div>
+        </div>
+        <div class="BotonCambiarSeñal">
+            <div class="BotonCambiarSeñalTexto" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP3" role="button" aria-controls="MenuDespeglableSeñalesP3"><span class="material-icons">mode_edit</span></div>
+          </div>
+      </div>
+    </div>
+
+    <!--PANTALLA 4-->
+    <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: rgb(0, 0, 0);" id="video-container-P4" class="video-container">
+        <iframe class="embed-responsive-item" id="playerP4" src=""></iframe>
+        <div class="FondoTitulosMonitor1">
+            <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P4"></div>
+        </div>
+        <div class="BotonCambiarSeñal">
+            <div class="BotonCambiarSeñalTexto" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP4" role="button" aria-controls="MenuDespeglableSeñalesP4"><span class="material-icons">mode_edit</span></div>
+          </div>
+      </div>
+    </div>  
+  </div>
+
+  <div style="position: absolute; display: inline-block; bottom: 0px; left: 0px; width: 100%; height: 75%; background-color: #000000;">
+    
+    <div style="width: 62.5%; float: left;">
+
+        <!--aria-controls="MenuDespeglableSeñalesPX"-->
+        <!--PANTALLA 7-->
+        <div style="width: 100%; float: left;" class="embed-responsive embed-responsive-16by9">
+            <div style="background-color: rgb(0, 0, 0);" id="video-container-P7" class="video-container">
+              <iframe class="embed-responsive-item" id="playerP7" src=""></iframe>
+              <div class="FondoTitulosMonitor1">
+                  <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P7"></div>
+              </div>
+              <div class="BotonCambiarSeñal">
+                  <div class="BotonCambiarSeñalTexto" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP7" role="button" aria-controls="MenuDespeglableSeñalesP7"><span class="material-icons">mode_edit</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!--RELOJ UTC-->
+        <div style="width: 20%; float: left;" class="embed-responsive embed-responsive-16by9">
+            <div style="background-color: rgb(0, 0, 0);"class="video-container">
+              <iframe class="embed-responsive-item"
+              src="Reloj_UTC.html"></iframe>
+            </div>
+        </div>
+
+        <!--RELOJ UTC-->
+        <div style="width: 20%; float: left;" class="embed-responsive embed-responsive-16by9">
+            <div style="background-color: rgb(0, 0, 0);"class="video-container">
+              <iframe class="embed-responsive-item"
+              src="Reloj_CHILE_CONTINENTAL.html"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+
+    
+
+    <!--aria-controls="MenuDespeglableSeñalesPX"-->
+      <!--PANTALLA 5-->
+      <div style="width: 37.5%; float: left;" class="embed-responsive embed-responsive-16by9">
+        <div style="background-color: rgb(0, 0, 0);" id="video-container-P5" class="video-container">
+          <iframe class="embed-responsive-item" id="playerP5" src=""></iframe>
+          <div class="FondoTitulosMonitor1">
+              <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P5"></div>
+          </div>
+          <div class="BotonCambiarSeñal">
+              <div class="BotonCambiarSeñalTexto" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP5" role="button" aria-controls="MenuDespeglableSeñalesP5"><span class="material-icons">mode_edit</span></div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!--PANTALLA 6-->
+    <div style="width: 37.5%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: rgb(0, 0, 0);" id="video-container-P6" class="video-container">
+        <iframe class="embed-responsive-item" id="playerP6" src=""></iframe>
+        <div class="FondoTitulosMonitor1">
+            <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P6"></div>
+        </div>
+        <div class="BotonCambiarSeñal">
+            <div class="BotonCambiarSeñalTexto" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP6" role="button" aria-controls="MenuDespeglableSeñalesP6"><span class="material-icons">mode_edit</span></div>
+          </div>
+      </div>
+    </div>
+    
+
+  </div>
+
+  
+
+
+    
+  <!-- BOTON MENU  -->
+  <div class="ContenedorBotonMenuDesplegable">
+    <div class="BotonMenuDesplegable" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="font-size: 20px;" class="material-icons">settings</span></div>
+  </div>
+
+
+  <!-- MENU DEPEGLABLE AJUSTES -->
+  <div style="width: 30%;" class="offcanvas offcanvas-start" tabindex="-1" id="MenuDespeglableAjustes" aria-labelledby="MenuDespeglableAjustesLabel">
+    <div style="padding-left: 20px; padding-right: 20px;" class="offcanvas-header">
+      <span class="CuerpoTituloMenuAjustes"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">video_settings</span>AJUSTES - MONITOR AINM 13</span>
+      <!--<h5 class="offcanvas-title" id="MenuDespeglableAjustesLabel"><b>MENU</b></h5>-->
+      <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
+    </div>
+      <div class="offcanvas-body">
+          <div class="CuerpoMenuDesplegable">
+
+              <a style="text-decoration: none;" href="HomeAINM.html"><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons">home</span>IR AL HOME</span></a>
+
+              <br>
+              
+              <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP1" role="button" aria-controls="MenuDespeglableSeñalesP1"><span style="margin-right: 5px;" class="material-icons">tv</span><text>PANTALLA 1</text></div>
+              <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP2" role="button" aria-controls="MenuDespeglableSeñalesP2"><span style="margin-right: 5px;" class="material-icons">tv</span><text>PANTALLA 2</text></div>
+              <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP3" role="button" aria-controls="MenuDespeglableSeñalesP3"><span style="margin-right: 5px;" class="material-icons">tv</span><text>PANTALLA 3</text></div>
+              <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP4" role="button" aria-controls="MenuDespeglableSeñalesP4"><span style="margin-right: 5px;" class="material-icons">tv</span><text>PANTALLA 4</text></div>
+              <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP5" role="button" aria-controls="MenuDespeglableSeñalesP5"><span style="margin-right: 5px;" class="material-icons">tv</span><text>PANTALLA 5</text></div>
+              <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP6" role="button" aria-controls="MenuDespeglableSeñalesP6"><span style="margin-right: 5px;" class="material-icons">tv</span><text>PANTALLA 6</text></div>
+              <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP7" role="button" aria-controls="MenuDespeglableSeñalesP7"><span style="margin-right: 5px;" class="material-icons">tv</span><text>PANTALLA 7</text></div>
+              <br>
+              <!--<div style="width: 100%;">
+                <div style="width: 20%; height: auto; display: inline-block;">
+                  <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP1" role="button" aria-controls="MenuDespeglableSeñalesP1"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P1</text></div>
+                  <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP2" role="button" aria-controls="MenuDespeglableSeñalesP2"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P2</text></div>
+                  <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP3" role="button" aria-controls="MenuDespeglableSeñalesP3"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P3</text></div>
+                  <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP4" role="button" aria-controls="MenuDespeglableSeñalesP4"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P4</text></div>
+                </div>
+                <span style="margin-left: 3%;"></span>
+                <div style="width: 70%; height: auto; display: inline-block;">
+                  <div style="width: 100%; height: auto; display: inline-block;">
+                    <div style="width: 100%;" class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP1" role="button" aria-controls="MenuDespeglableSeñalesP1"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P5</text></div>
+                  </div>
+                  <div style="width: 100%; height: auto; display: inline-block;">
+                    <div style="width: 50%;" class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP2" role="button" aria-controls="MenuDespeglableSeñalesP2"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P6</text></div>
+                    <div style="width: 50%;" class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñalesP3" role="button" aria-controls="MenuDespeglableSeñalesP3"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P7</text></div>
+                  </div>
+                </div>
+              </div>-->
+              
+
+              <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
+              <a style="text-decoration: none;" href="javascript:location.reload()"><span class="BotonMenuDesplegableAzul waves-effect waves-azul"><span style="margin-right: 5px;" class="material-icons">replay</span>RECARGAR PAGINA</span></a>
+              <br>
+          </div>
+      </div>
+  </div>
+
+
+  <!-- MENU DEPEGLABLE SEÑALES PANTALLA 1 -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="MenuDespeglableSeñalesP1" aria-labelledby="MenuDespeglableSeñalesP1Label">
+    <div class="offcanvas-body">
+          <div class="CuerpoMenuDesplegable2">
+              <div style="width: 100%; height: auto; display: inline-flex;">
+                  <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="margin-right: 5px;" class="material-icons">arrow_back</span><text>VOLVER</text></div>
+                  <span style="margin-left: 3%;"></span>
+                  <div class="BotonMenuDesplegableRojoPequeño waves-effect waves-red" data-bs-dismiss="offcanvas" aria-label="Close"><span style="margin-right: 5px;" class="material-icons">clear</span><text>CERRAR</text></div>
+              </div>
+              <section id="channel-list-P1" class="channel-list">
+              </section>
+          </div>
+    </div>
+  </div>
+
+  <!-- MENU DEPEGLABLE SEÑALES PANTALLA 2 -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="MenuDespeglableSeñalesP2" aria-labelledby="MenuDespeglableSeñalesP2Label">
+    <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable2">
+        <div style="width: 100%; height: auto; display: inline-flex;">
+          <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="margin-right: 5px;" class="material-icons">arrow_back</span><text>VOLVER</text></div>
+          <span style="margin-left: 3%;"></span>
+          <div class="BotonMenuDesplegableRojoPequeño waves-effect waves-red" data-bs-dismiss="offcanvas" aria-label="Close"><span style="margin-right: 5px;" class="material-icons">clear</span><text>CERRAR</text></div>
+        </div>
+        <section id="channel-list-P2" class="channel-list">
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- MENU DEPEGLABLE SEÑALES PANTALLA 3 -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="MenuDespeglableSeñalesP3" aria-labelledby="MenuDespeglableSeñalesP3Label">
+    <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable2">
+        <div style="width: 100%; height: auto; display: inline-flex;">
+          <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="margin-right: 5px;" class="material-icons">arrow_back</span><text>VOLVER</text></div>
+          <span style="margin-left: 3%;"></span>
+          <div class="BotonMenuDesplegableRojoPequeño waves-effect waves-red" data-bs-dismiss="offcanvas" aria-label="Close"><span style="margin-right: 5px;" class="material-icons">clear</span><text>CERRAR</text></div>
+        </div>
+        <section id="channel-list-P3" class="channel-list">
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- MENU DEPEGLABLE SEÑALES PANTALLA 4 -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="MenuDespeglableSeñalesP4" aria-labelledby="MenuDespeglableSeñalesP4Label">
+    <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable2">
+        <div style="width: 100%; height: auto; display: inline-flex;">
+          <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="margin-right: 5px;" class="material-icons">arrow_back</span><text>VOLVER</text></div>
+          <span style="margin-left: 3%;"></span>
+          <div class="BotonMenuDesplegableRojoPequeño waves-effect waves-red" data-bs-dismiss="offcanvas" aria-label="Close"><span style="margin-right: 5px;" class="material-icons">clear</span><text>CERRAR</text></div>
+        </div>
+        <section id="channel-list-P4" class="channel-list">
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- MENU DEPEGLABLE SEÑALES PANTALLA 5 -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="MenuDespeglableSeñalesP5" aria-labelledby="MenuDespeglableSeñalesP5Label">
+    <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable2">
+        <div style="width: 100%; height: auto; display: inline-flex;">
+          <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="margin-right: 5px;" class="material-icons">arrow_back</span><text>VOLVER</text></div>
+          <span style="margin-left: 3%;"></span>
+          <div class="BotonMenuDesplegableRojoPequeño waves-effect waves-red" data-bs-dismiss="offcanvas" aria-label="Close"><span style="margin-right: 5px;" class="material-icons">clear</span><text>CERRAR</text></div>
+        </div>
+        <section id="channel-list-P5" class="channel-list">
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- MENU DEPEGLABLE SEÑALES PANTALLA 6 -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="MenuDespeglableSeñalesP6" aria-labelledby="MenuDespeglableSeñalesP6Label">
+    <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable2">
+        <div style="width: 100%; height: auto; display: inline-flex;">
+          <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="margin-right: 5px;" class="material-icons">arrow_back</span><text>VOLVER</text></div>
+          <span style="margin-left: 3%;"></span>
+          <div class="BotonMenuDesplegableRojoPequeño waves-effect waves-red" data-bs-dismiss="offcanvas" aria-label="Close"><span style="margin-right: 5px;" class="material-icons">clear</span><text>CERRAR</text></div>
+        </div>
+        <section id="channel-list-P6" class="channel-list">
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- MENU DEPEGLABLE SEÑALES PANTALLA 7 -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="MenuDespeglableSeñalesP7" aria-labelledby="MenuDespeglableSeñalesP7Label">
+    <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable2">
+        <div style="width: 100%; height: auto; display: inline-flex;">
+          <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="margin-right: 5px;" class="material-icons">arrow_back</span><text>VOLVER</text></div>
+          <span style="margin-left: 3%;"></span>
+          <div class="BotonMenuDesplegableRojoPequeño waves-effect waves-red" data-bs-dismiss="offcanvas" aria-label="Close"><span style="margin-right: 5px;" class="material-icons">clear</span><text>CERRAR</text></div>
+        </div>
+        <section id="channel-list-P7" class="channel-list">
+        </section>
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    <!-- Contenido de off canvas, end.  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!--PANTALLA 1-->
+    <script>
+      const seccionCanalesP1 = document.getElementById("channel-list-P1");
+      const btnsP1 = seccionCanalesP1.getElementsByClassName("channel");
+    
+      const nombreBarraP1 = document.createElement('div');
+    
+    
+      const anclaP1 = document.createElement('A');
+      anclaP1.id = 'links';
+      anclaP1.title = 'TITULO DE SEÑAL';
+    
+    
+      for (const canalP1 of LosCanales) {
+          const BtnCanalP1 = document.createElement('div');
+      
+          BtnCanalP1.classList.add('channel');
+          BtnCanalP1.innerHTML = canalP1.nombre;
+          
+      
+          BtnCanalP1.onclick = () => { // https://stackoverflow.com/questions/3316207/add-onclick-event-to-newly-added-element-in-javascript
+              playerP1.setAttribute(
+                  'src',
+                  canalP1.url
+              );
+          
+              document.getElementById('video-container-P1').appendChild(nombreBarraP1);
+              anclaP1.innerText = canalP1.nombre;
+              document.getElementById('nombre-barra-P1').appendChild(anclaP1);
+              anclaP1.innerText = canalP1.titulo;
+          };
+          seccionCanalesP1.appendChild(BtnCanalP1)
+      }
+    
+      // https://www.w3schools.com/howto/howto_js_active_element.asp
+      for (let i = 0; i < btnsP1.length; i++) {
+          btnsP1[i].addEventListener("click", function () {
+              let current = document.getElementsByClassName("SeñalSeleccionadaP1");
+              if (current.length > 0) {
+                  current[0].className = current[0].className.replace(" SeñalSeleccionadaP1", "");
+              }
+              this.className += " SeñalSeleccionadaP1";
+          });
+      }
+    </script>
+
+
+    <!--PANTALLA 2-->
+    <script>
+      const seccionCanalesP2 = document.getElementById("channel-list-P2");
+      const btnsP2 = seccionCanalesP2.getElementsByClassName("channel");
+    
+      const nombreBarraP2 = document.createElement('div');
+    
+    
+      const anclaP2 = document.createElement('A');
+      anclaP2.id = 'links';
+      anclaP2.title = 'TITULO DE SEÑAL';
+    
+    
+      for (const canalP2 of LosCanales) {
+          const BtnCanalP2 = document.createElement('div');
+      
+          BtnCanalP2.classList.add('channel');
+          BtnCanalP2.innerHTML = canalP2.nombre;
+          
+      
+          BtnCanalP2.onclick = () => { // https://stackoverflow.com/questions/3316207/add-onclick-event-to-newly-added-element-in-javascript
+              playerP2.setAttribute(
+                  'src',
+                  canalP2.url
+              );
+          
+              document.getElementById('video-container-P2').appendChild(nombreBarraP2);
+              anclaP2.innerText = canalP2.nombre;
+              document.getElementById('nombre-barra-P2').appendChild(anclaP2);
+              anclaP2.innerText = canalP2.titulo;
+          };
+          seccionCanalesP2.appendChild(BtnCanalP2)
+      }
+    
+      // https://www.w3schools.com/howto/howto_js_active_element.asp
+      for (let i = 0; i < btnsP2.length; i++) {
+          btnsP2[i].addEventListener("click", function () {
+              let current = document.getElementsByClassName("SeñalSeleccionadaP2");
+              if (current.length > 0) {
+                  current[0].className = current[0].className.replace(" SeñalSeleccionadaP2", "");
+              }
+              this.className += " SeñalSeleccionadaP2";
+          });
+      }
+    </script>
+
+
+    <!--PANTALLA 3-->
+    <script>
+      const seccionCanalesP3 = document.getElementById("channel-list-P3");
+      const btnsP3 = seccionCanalesP3.getElementsByClassName("channel");
+    
+      const nombreBarraP3 = document.createElement('div');
+    
+    
+      const anclaP3 = document.createElement('A');
+      anclaP3.id = 'links';
+      anclaP3.title = 'TITULO DE SEÑAL';
+    
+    
+      for (const canalP3 of LosCanales) {
+          const BtnCanalP3 = document.createElement('div');
+      
+          BtnCanalP3.classList.add('channel');
+          BtnCanalP3.innerHTML = canalP3.nombre;
+          
+      
+          BtnCanalP3.onclick = () => { // https://stackoverflow.com/questions/3316207/add-onclick-event-to-newly-added-element-in-javascript
+              playerP3.setAttribute(
+                  'src',
+                  canalP3.url
+              );
+          
+              document.getElementById('video-container-P3').appendChild(nombreBarraP3);
+              anclaP3.innerText = canalP3.nombre;
+              document.getElementById('nombre-barra-P3').appendChild(anclaP3);
+              anclaP3.innerText = canalP3.titulo;
+          };
+          seccionCanalesP3.appendChild(BtnCanalP3)
+      }
+    
+      // https://www.w3schools.com/howto/howto_js_active_element.asp
+      for (let i = 0; i < btnsP3.length; i++) {
+          btnsP3[i].addEventListener("click", function () {
+              let current = document.getElementsByClassName("SeñalSeleccionadaP3");
+              if (current.length > 0) {
+                  current[0].className = current[0].className.replace(" SeñalSeleccionadaP3", "");
+              }
+              this.className += " SeñalSeleccionadaP3";
+          });
+      }
+    </script>
+
+    <!--PANTALLA 4-->
+    <script>
+      const seccionCanalesP4 = document.getElementById("channel-list-P4");
+      const btnsP4 = seccionCanalesP4.getElementsByClassName("channel");
+    
+      const nombreBarraP4 = document.createElement('div');
+    
+    
+      const anclaP4 = document.createElement('A');
+      anclaP4.id = 'links';
+      anclaP4.title = 'TITULO DE SEÑAL';
+    
+    
+      for (const canalP4 of LosCanales) {
+          const BtnCanalP4 = document.createElement('div');
+      
+          BtnCanalP4.classList.add('channel');
+          BtnCanalP4.innerHTML = canalP4.nombre;
+          
+      
+          BtnCanalP4.onclick = () => { // https://stackoverflow.com/questions/3316207/add-onclick-event-to-newly-added-element-in-javascript
+              playerP4.setAttribute(
+                  'src',
+                  canalP4.url
+              );
+          
+              document.getElementById('video-container-P4').appendChild(nombreBarraP4);
+              anclaP4.innerText = canalP4.nombre;
+              document.getElementById('nombre-barra-P4').appendChild(anclaP4);
+              anclaP4.innerText = canalP4.titulo;
+          };
+          seccionCanalesP4.appendChild(BtnCanalP4)
+      }
+    
+      // https://www.w3schools.com/howto/howto_js_active_element.asp
+      for (let i = 0; i < btnsP4.length; i++) {
+          btnsP4[i].addEventListener("click", function () {
+              let current = document.getElementsByClassName("SeñalSeleccionadaP4");
+              if (current.length > 0) {
+                  current[0].className = current[0].className.replace(" SeñalSeleccionadaP4", "");
+              }
+              this.className += " SeñalSeleccionadaP4";
+          });
+      }
+    </script>
+
+    <!--PANTALLA 5-->
+    <script>
+      const seccionCanalesP5 = document.getElementById("channel-list-P5");
+      const btnsP5 = seccionCanalesP5.getElementsByClassName("channel");
+    
+      const nombreBarraP5 = document.createElement('div');
+    
+    
+      const anclaP5 = document.createElement('A');
+      anclaP5.id = 'links';
+      anclaP5.title = 'TITULO DE SEÑAL';
+    
+    
+      for (const canalP5 of LosCanales) {
+          const BtnCanalP5 = document.createElement('div');
+      
+          BtnCanalP5.classList.add('channel');
+          BtnCanalP5.innerHTML = canalP5.nombre;
+          
+      
+          BtnCanalP5.onclick = () => { // https://stackoverflow.com/questions/3316207/add-onclick-event-to-newly-added-element-in-javascript
+              playerP5.setAttribute(
+                  'src',
+                  canalP5.url
+              );
+          
+              document.getElementById('video-container-P5').appendChild(nombreBarraP5);
+              anclaP5.innerText = canalP5.nombre;
+              document.getElementById('nombre-barra-P5').appendChild(anclaP5);
+              anclaP5.innerText = canalP5.titulo;
+          };
+          seccionCanalesP5.appendChild(BtnCanalP5)
+      }
+    
+      // https://www.w3schools.com/howto/howto_js_active_element.asp
+      for (let i = 0; i < btnsP5.length; i++) {
+          btnsP5[i].addEventListener("click", function () {
+              let current = document.getElementsByClassName("SeñalSeleccionadaP5");
+              if (current.length > 0) {
+                  current[0].className = current[0].className.replace(" SeñalSeleccionadaP5", "");
+              }
+              this.className += " SeñalSeleccionadaP5";
+          });
+      }
+    </script>
+
+
+    <!--PANTALLA 6-->
+    <script>
+      const seccionCanalesP6 = document.getElementById("channel-list-P6");
+      const btnsP6 = seccionCanalesP6.getElementsByClassName("channel");
+    
+      const nombreBarraP6 = document.createElement('div');
+    
+    
+      const anclaP6 = document.createElement('A');
+      anclaP6.id = 'links';
+      anclaP6.title = 'TITULO DE SEÑAL';
+    
+    
+      for (const canalP6 of LosCanales) {
+          const BtnCanalP6 = document.createElement('div');
+      
+          BtnCanalP6.classList.add('channel');
+          BtnCanalP6.innerHTML = canalP6.nombre;
+          
+      
+          BtnCanalP6.onclick = () => { // https://stackoverflow.com/questions/3316207/add-onclick-event-to-newly-added-element-in-javascript
+              playerP6.setAttribute(
+                  'src',
+                  canalP6.url
+              );
+          
+              document.getElementById('video-container-P6').appendChild(nombreBarraP6);
+              anclaP6.innerText = canalP6.nombre;
+              document.getElementById('nombre-barra-P6').appendChild(anclaP6);
+              anclaP6.innerText = canalP6.titulo;
+          };
+          seccionCanalesP6.appendChild(BtnCanalP6)
+      }
+    
+      // https://www.w3schools.com/howto/howto_js_active_element.asp
+      for (let i = 0; i < btnsP6.length; i++) {
+          btnsP6[i].addEventListener("click", function () {
+              let current = document.getElementsByClassName("SeñalSeleccionadaP6");
+              if (current.length > 0) {
+                  current[0].className = current[0].className.replace(" SeñalSeleccionadaP6", "");
+              }
+              this.className += " SeñalSeleccionadaP6";
+          });
+      }
+    </script>
+
+    <!--PANTALLA 6-->
+    <script>
+        const seccionCanalesP7 = document.getElementById("channel-list-P7");
+        const btnsP7 = seccionCanalesP7.getElementsByClassName("channel");
+      
+        const nombreBarraP7 = document.createElement('div');
+      
+      
+        const anclaP7 = document.createElement('A');
+        anclaP7.id = 'links';
+        anclaP7.title = 'TITULO DE SEÑAL';
+      
+      
+        for (const canalP7 of LosCanales) {
+            const BtnCanalP7 = document.createElement('div');
+        
+            BtnCanalP7.classList.add('channel');
+            BtnCanalP7.innerHTML = canalP7.nombre;
+            
+        
+            BtnCanalP7.onclick = () => { // https://stackoverflow.com/questions/3316207/add-onclick-event-to-newly-added-element-in-javascript
+                playerP7.setAttribute(
+                    'src',
+                    canalP7.url
+                );
+            
+                document.getElementById('video-container-P7').appendChild(nombreBarraP7);
+                anclaP7.innerText = canalP7.nombre;
+                document.getElementById('nombre-barra-P7').appendChild(anclaP7);
+                anclaP7.innerText = canalP7.titulo;
+            };
+            seccionCanalesP7.appendChild(BtnCanalP7)
+        }
+      
+        // https://www.w3schools.com/howto/howto_js_active_element.asp
+        for (let i = 0; i < btnsP7.length; i++) {
+            btnsP7[i].addEventListener("click", function () {
+                let current = document.getElementsByClassName("SeñalSeleccionadaP7");
+                if (current.length > 0) {
+                    current[0].className = current[0].className.replace(" SeñalSeleccionadaP7", "");
+                }
+                this.className += " SeñalSeleccionadaP7";
+            });
+        }
+      </script>
+
+    
+
+    <!--PANTALLA COMPLETA-->
+    <script>
+        // https://javascript.plainenglish.io/enter-full-screen-mode-with-javascript-a8a782d96dc
+        const btnFullscreen = document.querySelector('#fullscreen'),
+              btnFullscreenSpanIcon = btnFullscreen.querySelector('text'),
+              btnFullscreenSpan = btnFullscreen.querySelector('span');
+  
+        function getFullscreenElement() {
+          return document.fullscreenElement   //standard property
+          || document.webkitFullscreenElement //safari/opera support
+          || document.mozFullscreenElement    //firefox support
+          || document.msFullscreenElement;    //ie/edge support
+        }
+  
+        function toggleFullscreen() {
+          if(getFullscreenElement()) {
+            document.exitFullscreen();
+            btnFullscreenSpanIcon.innerHTML = 'ENTRAR A PANTALLA COMPLETA';
+            btnFullscreenSpan.innerHTML = 'open_in_full';
+  
+          }else {
+            document.documentElement.requestFullscreen().catch(console.log);
+            btnFullscreenSpanIcon.innerHTML = 'SALIR DE PANTALLA COMPLETA';
+            btnFullscreenSpan.innerHTML = 'close_fullscreen';
+  
+          }
+        }
+  
+        btnFullscreen.addEventListener('click', () => {
+          toggleFullscreen();
+        });
+    </script>
+   
 </body>
+
+
+
+</html>

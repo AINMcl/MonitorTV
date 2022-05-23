@@ -1872,6 +1872,14 @@ background-image: linear-gradient(
   height: auto;
 }
 
+.BotonPCTEST{
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  width: auto;
+  height: auto;
+}
+
 .BotonCambiarSeñalTexto{
   display: flex;
   position: absolute;
