@@ -187,6 +187,10 @@ var App = {
             'nombre': '<span style="margin-right: 10px; color: #FF0000" class="material-icons-round">date_range</span>PLEBISCITO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Contadores/ContadorPLEBISCITO.html" frameborder="0"></iframe></div>'
         },
+        'Contador_CUENTA_PUBLICA': {
+            'nombre': '<span style="margin-right: 10px; color: #FF0000" class="material-icons-round">date_range</span>CUENTA PUBLICA BORIC',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Contadores/ContadorCUENTA_PUBLICA.html" frameborder="0"></iframe></div>'
+        },
 
         
     },
