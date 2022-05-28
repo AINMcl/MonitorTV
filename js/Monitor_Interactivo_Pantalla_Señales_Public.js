@@ -152,11 +152,11 @@ let LosCanales = [
         'url': 'SeñalRADIO_DUNA.html'
     }, {
         'titulo': 'RADIO ROMANTICA',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO ROMANTICA<img style="height: 15px; width: auto; margin-left: 10px;" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO ROMANTICA',
         'url': 'SeñalRADIO_ROMANTICA.html'
     }, {
         'titulo': 'RADIO INICIA',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO INICIA<img style="height: 15px; width: auto; margin-left: 10px;" src="imagenes/Icono_SeñalNueva.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO INICIA',
         'url': 'SeñalRADIO_INICIA.html'
     }, {
         'titulo': 'RADIO LAS NIEVES',
@@ -1163,6 +1163,10 @@ let LosCanales = [
         'titulo': 'PLAZAITALIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>PLAZA ITALIA (Galeria Cima)',
         'url': 'SeñalCAMARA_PLAZA_ITALIA_CIMA.html'
+    },{
+        'titulo': 'TOBALABA',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>TOBALABA (Ledrium)',
+        'url': 'SeñalCAMARA_LEDRIUM_TOBALABA.html'
     },{
         'titulo': 'PROVIDENCIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>PROVIDENCIA (Ledrium)',

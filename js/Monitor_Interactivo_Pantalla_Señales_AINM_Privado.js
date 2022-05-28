@@ -1289,6 +1289,10 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>PLAZA ITALIA (Galeria Cima)',
         'url': 'SeñalCAMARA_PLAZA_ITALIA_CIMA.html'
     },{
+        'titulo': 'TOBALABA',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>TOBALABA (Ledrium)',
+        'url': 'SeñalCAMARA_LEDRIUM_TOBALABA.html'
+    },{
         'titulo': 'PROVIDENCIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>PROVIDENCIA (Ledrium)',
         'url': 'SeñalCAMARA_LEDRIUM_PROVIDENCIA.html'
