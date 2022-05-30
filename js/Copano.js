@@ -48,8 +48,8 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCAMARA_LEDRIUM_TOBALABA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TOBALABA</div></div></div>'
         },
         'LEDRIUM_1': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>PROVIDENCIA (Ledrium)<span style="margin-left: 10px; color: #39AA1A" class="material-icons-round" title="SEÑAL REPARADA">published_with_changes</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCAMARA_LEDRIUM_PROVIDENCIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PROVIDENCIA</div></div></div>'
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>C. CENTER (Ledrium)<span style="margin-left: 10px; color: #39AA1A" class="material-icons-round" title="SEÑAL REPARADA">published_with_changes</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCAMARA_LEDRIUM_COSTANERA_CENTER.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">COSTANERA CENTER</div></div></div>'
         },
         'LEDRIUM_2': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>LEDRIUM (CAM MAS RECIENTE)<span style="margin-left: 10px; color: #39AA1A" class="material-icons-round" title="SEÑAL REPARADA">published_with_changes</span>',
