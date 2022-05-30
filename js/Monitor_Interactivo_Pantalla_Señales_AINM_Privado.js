@@ -1,7 +1,7 @@
 let LosCanales = [
     {
         'titulo': 'YOUTUBE TEST',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>YOUTUBE TEST',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>YOUTUBE TEST<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px;" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A;">NUEVO</span>',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=true&mute=1&allowfullscreen=1'
     }, {
         'titulo': '24 PLAY',
