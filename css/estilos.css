@@ -1603,7 +1603,7 @@ section#Relojes{
 }
 
 .waves-effect.waves-verde .waves-ripple {
-  background-color: #5abb0080;
+  background-color: #7bff0080;
 }
 
 .waves-effect.waves-verde2 .waves-ripple {
@@ -3119,6 +3119,13 @@ background-image: linear-gradient(
   cursor:
   pointer;
   transition:all .3s;
+}
+
+.BotonMenuDesplegableVerde:hover{
+  color: #139F04;
+  background-color: #FFFFFF;
+  border: solid 2px #139F04;
+  box-shadow: 0px 0px 15px #139F04;
 }
 
 .BotonMenuDesplegableNaranja{
