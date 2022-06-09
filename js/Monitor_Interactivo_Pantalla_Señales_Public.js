@@ -226,6 +226,58 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>TELEMUNDO NOTICIAS',
         'url': 'SeñalTELEMUNDONOTICIAS.html'
     }, {
+        'titulo': 'VOA TV LIVE 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 1',
+        'url': 'SeñalVOA_LIVE_01.html'
+    }, {
+        'titulo': 'VOA TV LIVE 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 2',
+        'url': 'SeñalVOA_LIVE_02.html'
+    }, {
+        'titulo': 'VOA TV LIVE 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 3',
+        'url': 'SeñalVOA_LIVE_03.html'
+    }, {
+        'titulo': 'VOA TV LIVE 4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 4',
+        'url': 'SeñalVOA_LIVE_04.html'
+    }, {
+        'titulo': 'VOA TV LIVE 5',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 5',
+        'url': 'SeñalVOA_LIVE_05.html'
+    }, {
+        'titulo': 'VOA TV LIVE 6',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 6',
+        'url': 'SeñalVOA_LIVE_06.html'
+    }, {
+        'titulo': 'VOA TV LIVE 7',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 7',
+        'url': 'SeñalVOA_LIVE_07.html'
+    }, {
+        'titulo': 'VOA TV LIVE 8',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 8',
+        'url': 'SeñalVOA_LIVE_08.html'
+    }, {
+        'titulo': 'VOA TV LIVE 9',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 9',
+        'url': 'SeñalVOA_LIVE_09.html'
+    }, {
+        'titulo': 'VOA TV LIVE 10',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 10',
+        'url': 'SeñalVOA_LIVE_10.html'
+    }, {
+        'titulo': 'VOA TV LIVE 11',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 11',
+        'url': 'SeñalVOA_LIVE_11.html'
+    }, {
+        'titulo': 'VOA TV LIVE 12',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 12',
+        'url': 'SeñalVOA_LIVE_12.html'
+    }, {
+        'titulo': 'VOA TV LIVE 13',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 13',
+        'url': 'SeñalVOA_LIVE_13.html'
+    }, {
         'titulo': 'SKY NEWS EXTRA 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>SKY NEWS EXTRA 1',
         'url': 'SeñalSKY_NEWS_EXTRA_1.html'

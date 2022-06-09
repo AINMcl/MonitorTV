@@ -1,8 +1,8 @@
 let LosCanales = [
     {
-        'titulo': 'YOUTUBE TEST',
+        'titulo': 'BARRAS 1',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>YOUTUBE TEST<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=true&mute=1&allowfullscreen=1'
+        'url': 'SeñalBARRAS_TV_1.html'
     }, {
         'titulo': '24 PLAY',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24PLAY.svg"></img>',
@@ -334,6 +334,14 @@ let LosCanales = [
         'titulo': 'VOA TV LIVE 10',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 10',
         'url': 'SeñalVOA_LIVE_10.html'
+    }, {
+        'titulo': 'VOA TV LIVE 11',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 11',
+        'url': 'SeñalVOA_LIVE_11.html'
+    }, {
+        'titulo': 'VOA TV LIVE 12',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 12',
+        'url': 'SeñalVOA_LIVE_12.html'
     }, {
         'titulo': 'VOA TV LIVE 13',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 13',
