@@ -490,14 +490,6 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 2',
         'url': 'SeñalCCTVPLUS_2.html'
     },{
-        'titulo': 'CUMBRE DE LAS AMERICAS - ES',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>CUMBRE DE LAS AMERICAS - ESPAÑOL<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCeBiOnisZuUXJIOaEdNcUMw&autoplay=true&mute=1'
-    }, {
-        'titulo': 'CUMBRE DE LAS AMERICAS - EN',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>CUMBRE DE LAS AMERICAS - ENGLISH<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCkeUaqQN4wCFzr676KQgh_w&autoplay=true&mute=1'
-    }, {
         'titulo': 'SERVEL',
         'nombre': '<img style="height: 15px; width:auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>SERVEL',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCB8s6rETjmWgXrp_BxyXqdg&autoplay=true&mute=1'
@@ -513,6 +505,10 @@ let LosCanales = [
         'titulo': 'TELEMUNDO NOTICIAS',
         'nombre': '<img style="height: 15px; width:auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>TELEMUNDO NOTICIAS',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCRwA1NUcUnwsly35ikGhp0A&autoplay=true&mute=1'
+    }, {
+        'titulo': 'AL ROJO VIVO (TELEMUNDO)',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>AL ROJO VIVO (TELEMUNDO)<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCDUxOvbwu1bnyD7AucP0ESw&autoplay=true&mute=1'
     }, {
         'titulo': 'VOA TV ESPAÑOL',
         'nombre': '<img style="height: 15px; width:auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV ESP',
