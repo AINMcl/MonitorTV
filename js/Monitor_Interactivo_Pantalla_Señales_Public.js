@@ -386,6 +386,22 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN NEWSOURCE LIVE 7',
         'url': 'SeñalCNN_NEWS_SOURCE_LIVE_7.html'
     }, {
+        'titulo': 'CNN NEWSOURCE LIVE INTL 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN NEWSOURCE LIVE INTL 1',
+        'url': 'SeñalCNN_NEWS_SOURCE_LIVE_INTL_1.html'
+    }, {
+        'titulo': 'CNN NEWSOURCE LIVE INTL 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN NEWSOURCE LIVE INTL 2',
+        'url': 'SeñalCNN_NEWS_SOURCE_LIVE_INTL_2.html'
+    }, {
+        'titulo': 'CNN NEWSOURCE LIVE INTL 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN NEWSOURCE LIVE INTL 3',
+        'url': 'SeñalCNN_NEWS_SOURCE_LIVE_INTL_3.html'
+    }, {
+        'titulo': 'CNN NEWSOURCE LIVE INTL 4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN NEWSOURCE LIVE INTL 4',
+        'url': 'SeñalCNN_NEWS_SOURCE_LIVE_INTL_4.html'
+    }, {
         'titulo': 'CNN LIVE EVENT 1',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>CNN LIVE EVENT 1',
         'url': 'SeñalCNN_LIVE_EVENT_1.html'

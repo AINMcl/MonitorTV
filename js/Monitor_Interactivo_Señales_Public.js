@@ -393,6 +393,22 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN NEWS SOURCE LIVE 7',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_NEWS_SOURCE_LIVE_7.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CNN NEWS SOURCE 7</div></div></div>'
         },
+        'CNN_NEWS_SOURCE_LIVE_INTL_1': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN NEWSOURCE LIVE INTL 1',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_NEWS_SOURCE_LIVE_INTL_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CNN NEWSOURCE LIVE INTL 1</div></div></div>'
+        },
+        'CNN_NEWS_SOURCE_LIVE_INTL_2': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN NEWSOURCE LIVE INTL 2',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_NEWS_SOURCE_LIVE_INTL_2.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CNN NEWSOURCE LIVE INTL 2</div></div></div>'
+        },
+        'CNN_NEWS_SOURCE_LIVE_INTL_3': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN NEWSOURCE LIVE INTL 3',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_NEWS_SOURCE_LIVE_INTL_3.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CNN NEWSOURCE LIVE INTL 3</div></div></div>'
+        },
+        'CNN_NEWS_SOURCE_LIVE_INTL_4': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN NEWSOURCE LIVE INTL 4',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_NEWS_SOURCE_LIVE_INTL_4.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CNN NEWSOURCE LIVE INTL 4</div></div></div>'
+        },
         'CNN_LIVE_EVENT_1': {
             'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>CNN LIVE EVENT 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_LIVE_EVENT_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CNN LIVE EVENT 1</div></div></div>'
