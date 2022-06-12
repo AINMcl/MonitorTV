@@ -13,6 +13,8 @@ for (const canal of LosCanales) {
     const BtnCanal = document.createElement('div');
 
     BtnCanal.classList.add('ListaSeñales_Señal');
+    BtnCanal.classList.add('waves-effect');
+    BtnCanal.classList.add('waves-grisclaro');
     BtnCanal.innerHTML = canal.nombre;
 
     BtnCanal.onclick = () => { // https://stackoverflow.com/questions/3316207/add-onclick-event-to-newly-added-element-in-javascript

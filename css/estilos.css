@@ -1622,6 +1622,10 @@ section#Relojes{
   background-color: #2e4053b4;
 }
 
+.waves-effect.waves-grisclaro .waves-ripple {
+  background-color: rgba(163, 163, 163, 0.38);
+}
+
 .waves-effect.waves-naranjo .waves-ripple {
   background-color: #ff660094;
 }
@@ -3545,32 +3549,34 @@ background-image: linear-gradient(
 
 .ListaSeñales_Señal{
   background-color: #ffffff;
-  display: flex;
   align-items: center;
-  justify-content: left;
-  border: solid 2px #2E4053;
+  text-align: left;
+  border: solid 2px #a6abac;
   color: #2E4053;
   border-radius: 5px;
-  padding-left: 5%;
-  width: 50%;
-  height: 55px;
-  margin: 0;
+  padding-left: 2%;
+  width: 30%;
+  height: 70px;
   font-size: 15px;
   font-family: 'Assistant', sans-serif;
   font-weight: bold;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
+  margin-right: 50px;
   cursor:
   pointer;
   transition:all .2s
 }
   
 .ListaSeñales_Señal:hover {
-  background-color: rgb(255, 255, 255);
-  border-color: #0000df;
+  background-color: #FFFFFF;
+  border-color: #a6abac;
   border-width: 2px;
   font-weight: bold;
   color:#0000df;
-  box-shadow: 0px 2px 10px #0000df;
+}
+
+.ListadoDeSeñalesDisponibles{
+  width: 100%;
 }
 
 

@@ -101,50 +101,16 @@
   </nav>
 
 <br>
-  <div style="position: absolute; display: inline-block; width: 100%; height:100%" >    
-    <section id="channel-list" class="channel-list">
+<h2 class="TextoInfo">LISTA DE SEÑALES DISPONIBLES</h2>
+<BR>
+  <div style="display: flex;">    
+    <section id="channel-list" class="ListadoDeSeñalesDisponibles">
     </section>
   </div>
 
 
 	
 
-  <!-- Contenido de off canvas, end.  -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!--PANTALLA COMPLETA-->
-    <script>
-        // https://javascript.plainenglish.io/enter-full-screen-mode-with-javascript-a8a782d96dc
-        const btnFullscreen = document.querySelector('#fullscreen'),
-              btnFullscreenSpanIcon = btnFullscreen.querySelector('text'),
-              btnFullscreenSpan = btnFullscreen.querySelector('span');
-  
-        function getFullscreenElement() {
-          return document.fullscreenElement   //standard property
-          || document.webkitFullscreenElement //safari/opera support
-          || document.mozFullscreenElement    //firefox support
-          || document.msFullscreenElement;    //ie/edge support
-        }
-  
-        function toggleFullscreen() {
-          if(getFullscreenElement()) {
-            document.exitFullscreen();
-            btnFullscreenSpanIcon.innerHTML = 'ENTRAR A PANTALLA COMPLETA';
-            btnFullscreenSpan.innerHTML = 'open_in_full';
-  
-          }else {
-            document.documentElement.requestFullscreen().catch(console.log);
-            btnFullscreenSpanIcon.innerHTML = 'SALIR DE PANTALLA COMPLETA';
-            btnFullscreenSpan.innerHTML = 'close_fullscreen';
-  
-          }
-        }
-  
-        btnFullscreen.addEventListener('click', () => {
-          toggleFullscreen();
-        });
-      </script>
-    
    
 </body>
 <script src="../js/Lista_Canales.js"></script>

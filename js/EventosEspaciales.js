@@ -1,4 +1,4 @@
-    //ELIMINAR SEÑALES = https://alplox.github.io/tele/
+    //ELIMINAR SEÑALES = https://alplox.github.io/teles/
     const btnLimpiar = document.querySelector('#Borrar');
     btnLimpiar.addEventListener('click', () => {
       let transmisionPorLimpiar = document.querySelectorAll('.stream');
@@ -8,7 +8,7 @@
         })
     });
 
-    //ELIMINAR SEÑALES = https://alplox.github.io/tele/
+    //ELIMINAR SEÑALES = https://alplox.github.io/teles/
     const btnLimpiarSenal = document.querySelector('#BorrarSenales1');
     btnLimpiarSenal.addEventListener('click', () => {
       let transmisionPorLimpiar = document.querySelectorAll('.stream');

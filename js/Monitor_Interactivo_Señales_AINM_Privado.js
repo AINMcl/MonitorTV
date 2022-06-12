@@ -1944,6 +1944,7 @@ remove: function(canal) {
         var n = document.querySelector('button[data-canal="' + canal + '"]');
         n.classList.remove("BotonTV_SeñalSeleccionada");
         n.classList.add("BotonTV_Señales");
+        
     }
 },
 isMobile: function() {
@@ -1958,6 +1959,8 @@ seedModal: function() {
         buttonTV = document.createElement("button");
         buttonTV.classList.add("btn");
         buttonTV.classList.add("BotonTV_Señales");
+        buttonTV.classList.add("waves-effect");
+        buttonTV.classList.add("waves-grisclaro");
         buttonTV.setAttribute("data-canal", llave);
         buttonTV.innerHTML = App.channels[llave].nombre;
         let n = document.querySelector(".modal-body");

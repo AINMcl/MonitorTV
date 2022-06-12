@@ -295,6 +295,10 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>TELEMUNDO NOTICIAS',
         'url': 'SeñalTELEMUNDONOTICIAS.html'
     }, {
+        'titulo': 'CUMBRE AMERICAS - ESPAÑOL',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CUMBRE AMERICAS - ESPAÑOL',
+        'url': 'https://www.youtube.com/embed/3P08F_WPwso?autoplay=true&mute=1&frameborder=0&allowfullscreen'
+    }, {
         'titulo': 'VOA TV LIVE 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 1',
         'url': 'SeñalVOA_LIVE_01.html'
