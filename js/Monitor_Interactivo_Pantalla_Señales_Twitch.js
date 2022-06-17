@@ -45,6 +45,10 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>POLISPOL',
         'url': 'https://player.twitch.tv/?channel=polispol1&parent=ainmcl.github.io'
     },{
+        'titulo': 'KOMANCHE',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>KOMANCHE',
+        'url': 'https://player.twitch.tv/?channel=komanche&parent=ainmcl.github.io'
+    },{
         'titulo': 'CAROLA',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAROLA',
         'url': 'https://player.twitch.tv/?channel=carola&parent=ainmcl.github.io'
@@ -53,6 +57,44 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>BIYIN',
         'url': 'https://player.twitch.tv/?channel=biyin_&parent=ainmcl.github.io'
     },{
+        'titulo': 'SPREEN',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>SPREEN',
+        'url': 'https://player.twitch.tv/?channel=elspreen&parent=ainmcl.github.io'
+    },{
+        'titulo': 'ILLOJUAN',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>ILLOJUAN',
+        'url': 'https://player.twitch.tv/?channel=illojuan&parent=ainmcl.github.io'
+    },{
+        'titulo': 'TANIZEN',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>TANIZEN',
+        'url': 'https://player.twitch.tv/?channel=tanizen&parent=ainmcl.github.io'
+    },{
+        'titulo': 'XOKAS',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>XOKAS',
+        'url': 'https://player.twitch.tv/?channel=elxokas&parent=ainmcl.github.io'
+    },{
+        'titulo': 'EL MARIANA',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>EL MARIANA',
+        'url': 'https://player.twitch.tv/?channel=elmariana&parent=ainmcl.github.io'
+    },{
+        'titulo': 'QUCKITY',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>QUCKITY',
+        'url': 'https://player.twitch.tv/?channel=quackitytoo&parent=ainmcl.github.io'
+    },{
+        'titulo': 'MENOSTRECE',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>MENOSTRECE',
+        'url': 'https://player.twitch.tv/?channel=menostrece&parent=ainmcl.github.io'
+    },{
+        'titulo': 'DANIREP',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>DANIREP',
+        'url': 'https://player.twitch.tv/?channel=thedanirep&parent=ainmcl.github.io'
+    },{
+        'titulo': 'RIOBOO',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>RIOBOO',
+        'url': 'https://player.twitch.tv/?channel=rioboo&parent=ainmcl.github.io'
+    },{
+
+
         'titulo': 'COPANO',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>COPANO',
         'url': 'https://player.twitch.tv/?channel=copano&parent=ainmcl.github.io'
