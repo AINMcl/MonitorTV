@@ -183,10 +183,6 @@ let LosCanales = [
         'url': 'SeñalPRESIDENCIA.html'
     }, {
         'titulo': 'PRESIDENCIA CHILE',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_GOB.svg"></img>PRESIDENCIA 2',
-        'url': 'SeñalPRESIDENCIA_2.html'
-    }, {
-        'titulo': 'PRESIDENCIA CHILE',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_GOB.svg"></img>GOBIERNO DE CHILE',
         'url': 'SeñalPRESIDENCIA_3.html'
     }, {
