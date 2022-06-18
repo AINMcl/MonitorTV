@@ -185,10 +185,6 @@ var App = {
             'nombre': '<span style="margin-right: 10px; color: #FF0000" class="material-icons-round">date_range</span>FIN DE AÑO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Contadores/ContadorFinDeAño.html" frameborder="0"></iframe></div>'
         },
-        'Contador_100BORIC': {
-            'nombre': '<span style="margin-right: 10px; color: #FF0000" class="material-icons-round">date_range</span>BORIC 100 DIAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Contadores/Contador100BORIC.html" frameborder="0"></iframe></div>'
-        },
         'Contador_PLEBISCITO': {
             'nombre': '<span style="margin-right: 10px; color: #FF0000" class="material-icons-round">date_range</span>PLEBISCITO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Contadores/ContadorPLEBISCITO.html" frameborder="0"></iframe></div>'
