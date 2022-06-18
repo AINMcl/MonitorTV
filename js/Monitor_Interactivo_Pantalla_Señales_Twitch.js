@@ -93,6 +93,14 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>RIOBOO',
         'url': 'https://player.twitch.tv/?channel=rioboo&parent=ainmcl.github.io'
     },{
+        'titulo': 'ANDER',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>ANDER',
+        'url': 'https://player.twitch.tv/?channel=tvander&parent=ainmcl.github.io'
+    },{
+        'titulo': 'REVEN',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Twitch.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>REVEN',
+        'url': 'https://player.twitch.tv/?channel=reventxz&parent=ainmcl.github.io'
+    },{
 
 
         'titulo': 'COPANO',

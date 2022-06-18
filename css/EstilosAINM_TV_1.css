@@ -274,3 +274,21 @@
 .nombre-barra>span:hover {
     opacity: 1;
 }
+
+
+
+.CuerpoListaDeSeñalesMonitorTVMOVIL{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family: 'Assistant', sans-serif;
+    background-color: #ffffff;
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+
+.CuerpoVideoMonitorTVMOVIL{
+    background-color: #ffffff;
+    width: 100%;
+}
