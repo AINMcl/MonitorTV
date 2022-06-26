@@ -239,10 +239,6 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_GOB.svg"></img>GOBIERNO DE CHILE',
         'url': 'SeñalPRESIDENCIA_3.html'
     }, {
-        'titulo': 'PRESIDENCIA CHILE',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_GOB.svg"></img>PDTE. BORIC',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UC0gQkOPt6VVvJGO9mDy0ikw&autoplay=true&mute=1'
-    }, {
         'titulo': 'TV SENADO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg"></img>',
         'url': 'SeñalSENADO_TV.html'
@@ -471,18 +467,6 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN NEWSOURCE LIVE INTL 4',
         'url': 'SeñalCNN_NEWS_SOURCE_LIVE_INTL_4.html'
     }, {
-        'titulo': 'CNN GO CNN',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN GO - CNN',
-        'url': 'SeñalCNN_GO_CNN.html'
-    }, {
-        'titulo': 'CNN GO HLN',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN GO - HLN',
-        'url': 'SeñalCNN_GO_HLN.html'
-    }, {
-        'titulo': 'CNN GO CNNI',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN GO - CNN INTERNATIONAL',
-        'url': 'SeñalCNN_GO_CNNI.html'
-    }, {
         'titulo': 'CNN LIVE EVENT 1',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>CNN LIVE EVENT 1',
         'url': 'SeñalCNN_LIVE_EVENT_1.html'
@@ -547,9 +531,37 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>RTVE LIVE OCASIONAL 6',
         'url': 'SeñalRTVEOCASIONAL_6.html'
     }, {
-        'titulo': 'CBS46TV WGCL LIVE 1',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CBS46 WGCLTV LIVE 1',
-        'url': 'SeñalCBS46_WGCL_TV.html'
+        'titulo': 'ABC7 LOS ANGELES (KABC)',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ABC7 LOS ANGELES (KABC)',
+        'url': 'SeñalABC7_LA_KABC.html'
+    }, {
+        'titulo': 'ABC7 NEW YORK (WABC)',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ABC7 NEW YORK (WABC)',
+        'url': 'SeñalABC7_NY_WABC.html'
+    }, {
+        'titulo': 'ABC7 LOS ANGELES (KABC) LIVE 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC7 LOS ANGELES (KABC) LIVE 1',
+        'url': 'SeñalABC7_LA_KABC_LIVE_1.html'
+    }, {
+        'titulo': 'ABC7 LOS ANGELES (KABC) LIVE 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC7 LOS ANGELES (KABC) LIVE 2',
+        'url': 'SeñalABC7_LA_KABC_LIVE_2.html'
+    }, {
+        'titulo': 'ABC7 NEW YORK (WABC) LIVE 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC7 NEW YORK (WABC) LIVE 1',
+        'url': 'SeñalABC7_NY_WABC_LIVE_1.html'
+    }, {
+        'titulo': 'ABC7 NEW YORK (WABC) LIVE 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC7 NEW YORK (WABC) LIVE 2',
+        'url': 'SeñalABC7_NY_WABC_LIVE_2.html'
+    }, {
+        'titulo': 'ABC7 NEW YORK (WABC) LIVE 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC7 NEW YORK (WABC) LIVE 3',
+        'url': 'SeñalABC7_NY_WABC_LIVE_3.html'
+    }, {
+        'titulo': 'ABC7 WASHINGTON DC (WJLA) LIVE 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC7 WASHINGTON DC (WJLA) LIVE 1',
+        'url': 'SeñalABC7_WDC_WJLA_LIVE_1.html'
     }, {
         'titulo': 'WKYC LIVE 1',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>WKYC 1',
@@ -571,14 +583,6 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>KHOU 3',
         'url': 'SeñalKHOU_3.html'
     },{
-        'titulo': 'THE WHITE HOUSE LIVE VIDEO',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>THE WHITE HOUSE LIVE VIDEO',
-        'url': 'SeñalTEGNADIGITAL_1.html'
-    }, {
-        'titulo': 'ONU_TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ONU WEB TV',
-        'url': 'http://www.kaltura.com//p/2503451/embedPlaykitJs/uiconf_id/47917953?iframeembed=true&entry_id=1_gb6tjmle'
-    },{
         'titulo': 'CCTV+ 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 1',
         'url': 'SeñalCCTVPLUS_1.html'
@@ -587,6 +591,22 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 2',
         'url': 'SeñalCCTVPLUS_2.html'
     },{
+        'titulo': 'PRESIDENCIA CHILE',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>PRESIDENCIA CHILE',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UC_5Sh9VhJlgCspl4mLM2duw&autoplay=true&mute=1'
+    }, {
+        'titulo': 'PRESIDENCIA ARGENTINA',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg"></img>PRESIDENCIA ARGENTINA',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCXOIosipLXV0p_35MjTu0Aw&autoplay=true&mute=1'
+    }, {
+        'titulo': 'PRESIDENCIA ECUADOR',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg"></img>PRESIDENCIA ECUADOR',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCn2XiuAROvRcqscSI2Ni-6A&autoplay=true&mute=1'
+    }, {
+        'titulo': 'PRESIDENCIA BRASIL',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg"></img>PRESIDENCIA BRASIL',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCjjYaSHsZSUNTSwUV8OfOrA&autoplay=true&mute=1'
+    }, {
         'titulo': 'MEDIABANCO',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>MEDIABANCO',
         'url': 'SeñalMEDIABANCO_YT.html'
@@ -982,6 +1002,14 @@ let LosCanales = [
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg"></img>LATINA NOTICIAS',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCpSJ5fGhmAME9Kx2D3ZvN3Q&autoplay=true&mute=1'
     },{
+        'titulo': 'NOTICIAS RCN',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg"></img>NOTICIAS RCN',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCnr6pbeXJmkNQJ9PSYle7QQ&autoplay=true&mute=1'
+    },{
+        'titulo': 'NOTICIAS CARACOL',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg"></img>NOTICIAS CARACOL',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UC2Xq2PK-got3Rtz9ZJ32hLQ&autoplay=true&mute=1'
+    },{
         'titulo': 'AMERICA TV',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg"></img>AMERICA TV',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC6NVDkuzY2exMOVFw4i9oHw&autoplay=true&mute=1'
@@ -1356,18 +1384,21 @@ let LosCanales = [
     },{
 
     //CAMARAS
-
-        'titulo': 'PARQUEMET CUMBRE',
+        'titulo': 'STGO. PARQUEMET CUMBRE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>STGO. PARQUEMET CUMBRE',
         'url': 'SeñalCAMPARQUEMET_CUMBRE_2.html'
     },{
-        'titulo': 'PARQUEMET TERRAZA',
+        'titulo': 'STGO. PARQUEMET TERRAZA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>STGO. PARQUEMET TERRAZA',
         'url': 'SeñalCAMPARQUEMET_TERRAZA_2.html'
     },{
-        'titulo': 'PLAZAITALIA',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>PLAZA ITALIA<span style="margin-left: 3px; font-size: 12px;">(GALERIA CIMA)</span>',
+        'titulo': 'STGO. PLAZA ITALIA',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>STGO. PLAZA ITALIA<span style="margin-left: 3px; font-size: 12px;">(GALERIA CIMA)</span>',
         'url': 'SeñalCAMARA_PLAZA_ITALIA_CIMA.html'
+    },{
+        'titulo': 'STGO. SUR ORIENTE',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>STGO. SUR ORIENTE',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCMvQGOyumsXP4V7dGAdIKWg&autoplay=true&mute=1'
     },{
         'titulo': 'CERRILLOS',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>CERRILLOS<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
@@ -1389,6 +1420,22 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>TOBALABA<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'url': 'SeñalCAMARA_LEDRIUM_TOBALABA.html'
     },{
+        'titulo': 'LEDRIUM YOUTUBE MAS RECIENTE',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>STGO. LEDRIUM<span style="margin-left: 3px; font-size: 12px;">(MAS RECIENTE)</span>',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCDMqTaUZsY3ElB4xWpO8tFA&autoplay=true&mute=1'
+    },{
+        'titulo': 'VALPARAISO BAHIA',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>VALPARAISO BAHIA',
+        'url': 'SeñalCAMARA_VALPARAISO.html'
+    },{
+        'titulo': 'VALPARAISO CIUDAD',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>VALPARAISO CIUDAD',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCXaQjESu5cdF1CGH1aAA52Q&autoplay=true&mute=1'
+    },{
+        'titulo': 'VIÑA DEL MAR',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>VIÑA DEL MAR',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCLir6Xg0TVDGccruOZp8jaQ&autoplay=true&mute=1'
+    },{
         'titulo': 'OSORNO (OP1)',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>OSORNO (OP1)',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCwsMrFLSR2_wospO1MaGsaQ&autoplay=true&mute=1'
@@ -1400,10 +1447,6 @@ let LosCanales = [
         'titulo': 'COYHAIQUE',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>COYHAIQUE',
         'url': 'SeñalRADIO_CANALSURPATAGONIA.html'
-    },{
-        'titulo': 'VALPARAISO',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>VALPARAISO',
-        'url': 'SeñalCAMARA_VALPARAISO.html'
     },{
         'titulo': 'CAPITOLIO EEUU',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg"></img>CAPITOLIO EEUU',
@@ -1431,7 +1474,7 @@ let LosCanales = [
     },{
         'titulo': 'TIMES SQUARE: 1540 BROADWAY',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg"></img>TIMES SQUARE 4',
-        'url': 'https://www.youtube.com/embed/rZjblGbbCmE?autoplay=true&mute=1'
+        'url': 'https://www.youtube.com/embed/Hb-jD7q6Tqw?autoplay=true&mute=1'
     },{
         'titulo': 'FOUR SEASONS HOTEL BUENOS AIRES',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg"></img>FOUR SEASONS HOTEL BS.As',
