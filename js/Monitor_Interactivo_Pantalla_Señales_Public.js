@@ -1315,13 +1315,9 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>VIÑA DEL MAR',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCLir6Xg0TVDGccruOZp8jaQ&autoplay=true&mute=1'
     },{
-        'titulo': 'OSORNO (OP1)',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>OSORNO (OP1)',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCwsMrFLSR2_wospO1MaGsaQ&autoplay=true&mute=1'
-    },{
-        'titulo': 'OSORNO (OP2)',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>OSORNO (OP2)',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCD7sqegDNyZxmdnCj6xqH6g&autoplay=true&mute=1'
+        'titulo': 'OSORNO',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>OSORNO',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCbOdujzxdR-D-o1jKLr96CA&autoplay=true&mute=1'
     },{
         'titulo': 'COYHAIQUE',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg"></img>COYHAIQUE',

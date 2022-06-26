@@ -22,7 +22,7 @@ let LosCanales = [
     },{
         'titulo': 'ㅤOSORNO_1ㅤ',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠOSORNO (OP1)',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCwsMrFLSR2_wospO1MaGsaQ&autoplay=true&mute=1'
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCbOdujzxdR-D-o1jKLr96CA&autoplay=true&mute=1'
     },{
         'titulo': 'ㅤOSORNO_2ㅤ',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width:auto:" src="https://flagcdn.com/cl.svg"></img>ﾠOSORNO (OP2)',
