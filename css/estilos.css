@@ -3566,6 +3566,116 @@ background-image: linear-gradient(
   pointer;
   transition:all .2s
 }
+
+.NotaLinkGrande{
+  background-color: #003DD5;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.NotaLinkGrande:hover {
+  background-color: #001081;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.NotaLinkPequeña{
+  background-color: #FF0000;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.NotaLinkPequeña:hover {
+  background-color: #9A0000;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.NotaPequeñaSinFondo{
+  color: #000000;
+  height: 30px;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.BotonMenuSuperior{
+  height: 25px;
+  line-height: 25px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #000000;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonMenuSuperior:hover {
+  background-color: #1C59BD;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.BotonIrTabla{
+  height: 25px;
+  line-height: 25px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-right: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #000000;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonIrTabla:hover {
+  background-color: #FF0000;
+  font-weight: bold;
+  color: #FFFFFF;
+}
   
 .ListaSeñales_Señal:hover {
   background-color: #FFFFFF;
@@ -3577,6 +3687,74 @@ background-image: linear-gradient(
 
 .ListadoDeSeñalesDisponibles{
   width: 100%;
+}
+
+.Bagde-Amarillo{
+  background-color: #FFC107;
+  width: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  color: #000000;
+  border-radius: 3px;
+}
+
+.Bagde-Azul{
+  background-color: #44cfeb;
+  width: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  color: #000000;
+  border-radius: 3px;
+}
+
+.Bagde-Rojo{
+  background-color: #FF0000;
+  width: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-radius: 3px;
+}
+
+.Bagde-Verde{
+  background-color: #00AE20;
+  width: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  color: #000000;
+  border-radius: 3px;
 }
 
 

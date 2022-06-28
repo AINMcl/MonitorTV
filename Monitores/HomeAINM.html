@@ -16,21 +16,9 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
 
-<!--bootstrap-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-</script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-</script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -46,57 +34,48 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
 </head>
 <body style="background-color: #ffffff; font-family: 'Assistant', sans-serif;background-image: url(img/FondoAÑONUEVO_1.png)">
 
-    
-  <nav  class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-        <img src="../imagenes/Logo_IconSolo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+  <nav class="navbar navbar-expand-lg" style="padding-left: 5%; padding-right: 5%; background-color: rgb(233, 233, 233);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../imagenes/Logo_IconSolo.svg" width="30" height="30" class="d-inline-block align-text-top">
         AINMcl
       </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="HomeAINM.html">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Info.html">INFORMACIONES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Actualizaciones.html">REGISTRO DE ACTUALIZACIONES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Ayuda.html">AYUDA</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            OTROS
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="https://twitter.com/AINMcl">SEGUIR EN TWITTER</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="mailto:navarro.andre@live.cl?Subject=Consulta%20Pagina%20Github%20AINMcl">CONTACTO POR CORREO</a>
-          </div>
-        </li>
-        <!--<li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>-->
-      </ul>
-      <span style="color: #000;" class="navbar-text">
-        HOME PRINCIPAL
-      </span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <a style="text-decoration: none;" href="HomeAINM.html"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Home</span></a>
+        <a style="text-decoration: none;" href="Info.html"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Informaciones</span></a>
+        <a style="text-decoration: none;" href="Actualizaciones.html"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Registro Actualizaciones</span></a>
+        <!--
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>-->
+      </div>
     </div>
   </nav>
-  <div class="TituloHome2" style="background-color: rgb(255, 0, 0); color: rgb(255, 255, 255);">
-      HOME AINM PRIVADO - NO DIFUNDIR ESTA PAGINA NI SUS SEÑALES QUE CONTIENEﾠ<a href="Home.html"><span type="button" class="TituloHome2_BOTON waves-effect waves-light">ㅤIR AL HOME PUBLICOㅤ</span></a>
+  <div class="NotaLinkPequeña waves-effect waves-light" >
+      HOME AINM PRIVADOﾠ
   </div>
-  <div class="TituloHome2" style="background-color: rgb(0, 132, 255); color: rgb(255, 255, 255);">
-TEST ACTUALIZACION</div>
-  <!--<div class="TituloHome2" style="background-color: rgb(0, 35, 151); color: rgb(255, 255, 255);">
-    MONITOR ESPECIAL - LANZAMIENTOﾠ<a href="MonitorAINM_Lanzamiento.html"><span type="button" class="TituloHome2_BOTON waves-effect waves-light">ㅤIRㅤ</span></a>
-</div>-->
+  <a class="NotaLinkGrande waves-effect waves-light" style="text-decoration: none;" href="Home.html"><span>IR AL HOME PUBLICO</span></a>
 
   <br>
       <div style="width: 100%;text-align: center;">
@@ -499,17 +478,6 @@ TEST ACTUALIZACION</div>
       <br>
       <br>
 
-      <div style="position: absolute; top: 0.3em; right: 0.3em;width: auto;height: 25px;line-height: 25px; text-align: left;">
-
-          <a href="javascript:location.reload()"><span type="button" class="BotonRecargarPagina"><img style="height: 25px; width:auto" src="imagenes/Icono_Recargar.svg"></img></span></a>
-
-      </div>
-
-      <div style="position: absolute; top: 0.3em; left: 0.3em;width: auto;height: 20px;line-height: 20px; text-align: left;">
-
-          <a href="../indice.html"> <span style="position: absorlute; " type="button" class="Boton_Home_1">ㅤINDICEㅤ</span></a>
-
-      </div>
 
 
 

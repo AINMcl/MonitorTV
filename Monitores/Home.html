@@ -24,78 +24,62 @@
 
 <meta name="google-site-verification" content="OzvKYDaX5pn8b4H-UntvjnBmnWpn-EtjsByG1irqpeY" />
 
-<!--bootstrap-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-</script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-</script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
 
 <script src="../js/Efecto.js"></script>
 </head>
 <body style="background-color: #ffffff; font-family: 'Assistant', sans-serif;">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="../imagenes/Logo_IconSolo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-            AINMcl
-          </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <!--<li class="nav-item active">
-              <a class="nav-link" href="Home.html">HOME</a>
-            </li>
-            -->
-            <li class="nav-item">
-              <a class="nav-link" href="Info.html">INFORMACIONES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Actualizaciones.html">REGISTRO DE ACTUALIZACIONES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Ayuda.html">AYUDA</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                OTROS
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="https://twitter.com/AINMcl">SEGUIR EN TWITTER</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="mailto:navarro.andre@live.cl?Subject=Consulta%20Pagina%20Github%20AINMcl">CONTACTO POR CORREO</a>
-              </div>
-            </li>
-            <!--<li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>-->
-          </ul>
-          <span style="color: #000;" class="navbar-text">
-            HOME PRINCIPAL - TV CHILENA EN VIVO
-          </span>
-        </div>
-      </nav>
-    <br>
+  <nav class="navbar navbar-expand-lg" style="padding-left: 4%; padding-right: 4%; background-color: rgb(233, 233, 233);">
+    <div class="container-fluid" style="padding-left: 0px;">
+      <a class="navbar-brand" href="#">
+        <img src="../imagenes/Logo_IconSolo.svg" width="30" height="30" class="d-inline-block align-text-top">
+        AINMcl
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <a style="text-decoration: none;" href="Home.html"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Home</span></a>
+        <a style="text-decoration: none;" href="Info.html"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Informaciones</span></a>
+        <a style="text-decoration: none;" href="Actualizaciones.html"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Registro Actualizaciones</span></a>
+        <!--
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>-->
+      </div>
+    </div>
+  </nav>
+  <br>
 
     
 
-    <div style="width: 100%;text-align: center;">
+    <div style="width: 100%;text-align: center; padding-left: 2%; padding-right: 2%;">
 
       <div class="card" style="width: 30%; margin: 1%; display:inline-table; text-align: left;">
         <a class="waves-effect waves-light" href="MonitorTV.html"><img class="card-img-top" src="imagenes/Monitor_TV.png"></a>
-        <div class="card-body">
-          <h5 style="font-weight: bold;" class="card-title">MONITOR TV</h5><span class="badge badge-warning">INTERACTIVO</span>ﾠ<span class="badge badge-info">TAMAÑO PREDETERMINADO</span>
+        <div class="card-body" >
+          <h5 style="font-weight: bold;" class="card-title">MONITOR TV</h5><span class="Bagde-Amarillo">INTERACTIVO</span><span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span>
           <p class="card-text">Señales de TV, Radio, Noticias u otros, de chile y el Mundo que elijas, puedes ver solo 1 señal en vivo.</p>
           <!--<h5 class="card-title">MONITOR 6</h5>-->
           <a href="MonitorTV.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
@@ -105,7 +89,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 30%; margin: 1%; display:inline-table; text-align: left;">
         <a class="waves-effect waves-light" href="Monitor1.html"><img class="card-img-top" src="imagenes/Monitor1.png"></a>
         <div class="card-body">
-          <h5 style="font-weight: bold;" class="card-title">MONITOR 1</h5><span class="badge badge-warning">INTERACTIVO</span>ﾠ<span class="badge badge-success">TAMAÑO PERSONALIZADO</span>
+          <h5 style="font-weight: bold;" class="card-title">MONITOR 1</h5><span class="Bagde-Amarillo">INTERACTIVO</span><span class="Bagde-Verde">TAMAÑO PERSONALIZADO</span>
           <p class="card-text">Observa de forma Multiple las Señales de TV, Radios, Noticias y otros, de chile y el Mundo, Puedes ver hasta 9 señales en vivo.</p>
           <a href="Monitor1.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
         </div>
@@ -114,7 +98,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 30%; margin: 1%; display:inline-table; text-align: left;">
         <a class="waves-effect waves-light" href="Monitor2.html"><img class="card-img-top" src="imagenes/MonitorNacionales.png"></a>
         <div class="card-body">
-          <h5 style="font-weight: bold;" class="card-title">MONITOR 2</h5><span class="badge badge-info">TAMAÑO PREDETERMINADO</span>ﾠ<span class="badge badge-success">NUEVO</span>
+          <h5 style="font-weight: bold;" class="card-title">MONITOR 2</h5><span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span><span class="Bagde-Verde">NUEVO</span>
           <p class="card-text">Observa de forma Multiple los cuatro canales de TV Nacional (TVN, MEGA, CHV y CANAL 13)</p>
           <a href="Monitor2.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
         </div>
@@ -123,7 +107,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 30%; margin: 1%; display:inline-table; text-align: left;">
         <a class="waves-effect waves-light" href="Monitor3.html"><img class="card-img-top" src="imagenes/Monitor2.png"></a>
         <div class="card-body">
-          <h5 style="font-weight: bold;" class="card-title">MONITOR 3</h5><span class="badge badge-warning">INTERACTIVO</span>ﾠ<span class="badge badge-info">TAMAÑO PREDETERMINADO</span>ﾠ<span class="badge badge-success">ACT.RECIENTEMENTE</span>
+          <h5 style="font-weight: bold;" class="card-title">MONITOR 3</h5><span class="Bagde-Amarillo">INTERACTIVO</span><span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span>
           <p class="card-text">Observa de forma Multiple las Señales de TV, Radios, Noticias y otros, de chile y el Mundo, Puedes ver hasta 6 señales en vivo, y 6 relojes.</p>
           <a href="Monitor3.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
         </div>
@@ -132,7 +116,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 30%; margin: 1%; display:inline-table; text-align: left;">
         <a class="waves-effect waves-light" href="Monitor4.html"><img class="card-img-top" src="imagenes/MonitorC2.png"></a>
         <div class="card-body">
-          <h5 style="font-weight: bold;" class="card-title">MONITOR 4</h5><span class="badge badge-warning">INTERACTIVO</span>ﾠ<span class="badge badge-info">TAMAÑO PREDETERMINADO</span>ﾠ<span class="badge badge-success">ACT.RECIENTEMENTE</span>
+          <h5 style="font-weight: bold;" class="card-title">MONITOR 4</h5><span class="Bagde-Amarillo">INTERACTIVO</span><span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span>
           <p class="card-text">Observa de forma Multiple las Señales de TV, Radios, Noticias y otros, de chile y el Mundo, Puedes ver hasta 5 señales en vivo, y 6 relojes.</p>
           <a href="Monitor4.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
         </div>
@@ -141,7 +125,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 30%; margin: 1%; display:inline-table; text-align: left;">
         <a class="waves-effect waves-light" href="Monitor5.html"><img class="card-img-top" src="imagenes/Monitor5.png"></a>
         <div class="card-body">
-          <h5 style="font-weight: bold;" class="card-title">MONITOR 5</h5><span class="badge badge-warning">INTERACTIVO</span>ﾠ<span class="badge badge-info">TAMAÑO PREDETERMINADO</span>ﾠ<span class="badge badge-success">ACT.RECIENTEMENTE</span>
+          <h5 style="font-weight: bold;" class="card-title">MONITOR 5</h5><span class="Bagde-Amarillo">INTERACTIVO</span><span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span>
           <p class="card-text">Observa de forma Multiple las Señales de TV, Radios, Noticias y otros, de chile y el Mundo, Puedes ver solo 4 señales en vivo.</p>
           <a href="Monitor5.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
         </div>
@@ -150,7 +134,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 30%; margin: 1%; display:inline-table; text-align: left;">
         <a class="waves-effect waves-light" href="Monitor6.html"><img class="card-img-top" src="imagenes/Monitor_S3_I3.png"></a>
         <div class="card-body">
-          <h5 style="font-weight: bold;" class="card-title">MONITOR 6</h5><span class="badge badge-warning">INTERACTIVO</span>ﾠ<span class="badge badge-info">TAMAÑO PREDETERMINADO</span>ﾠ<span class="badge badge-success">ACT.RECIENTEMENTE</span>
+          <h5 style="font-weight: bold;" class="card-title">MONITOR 6</h5><span class="Bagde-Amarillo">INTERACTIVO</span><span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span>
           <p class="card-text">Observa de forma Multiple las Señales de TV, Radios, Noticias y otros, de chile y el Mundo, Puedes ver hasta 6 señales en vivo, y 6 relojes.</p>
           <!--<h5 class="card-title">MONITOR 6</h5>-->
           <a href="Monitor6.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
@@ -160,7 +144,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 30%; margin: 1%; display:inline-table; text-align: left;">
         <a class="waves-effect waves-light" href="Monitor7.html"><img class="card-img-top" src="imagenes/Monitor_S4_I2.png"></a>
         <div class="card-body">
-          <h5 style="font-weight: bold;" class="card-title">MONITOR 7</h5><span class="badge badge-info">TAMAÑO PREDETERMINADO</span>
+          <h5 style="font-weight: bold;" class="card-title">MONITOR 7</h5><span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span>
           <p class="card-text">Mira hasta 6 señales simultaneamente</p>
           <a href="Monitor7.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
         </div>
@@ -171,7 +155,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 25%; margin: 1%; display:inline-table; text-align: left;">
         <a class="waves-effect waves-light" href="MonitorTV2.html"><img class="card-img-top" src="imagenes/Monitor_TV.png"></a>
         <div class="card-body">
-          <h5 style="font-weight: bold;" class="card-title">MONITOR TV 2</h5><span class="badge badge-warning">INTERACTIVO</span>ﾠ<span class="badge badge-info">TAMAÑO PREDETERMINADO</span>ﾠ<span class="badge badge-success">NUEVO</span>
+          <h5 style="font-weight: bold;" class="card-title">MONITOR TV 2</h5><span class="Bagde-Amarillo">INTERACTIVO</span><span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span>
           <p class="card-text">Señales de TV, Radio, Noticias u otros, de chile y el Mundo que elijas, puedes ver solo 1 señal en vivo.</p>
           <!--<h5 class="card-title">MONITOR 6</h5>-->
           <a href="MonitorTV2.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
@@ -181,7 +165,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 25%; margin: 1%; display:inline-table; text-align: left;">
           <a class="waves-effect waves-light" href="MonitorCamaras.html"><img class="card-img-top" src="imagenes/Monitor1.png"></a>
           <div class="card-body">
-            <h5 style="font-weight: bold;" class="card-title">MONITOR CAMARAS</h5><span class="badge badge-warning">INTERACTIVO</span>ﾠ<span class="badge badge-success">TAMAÑO PERSONALIZADO</span>
+            <h5 style="font-weight: bold;" class="card-title">MONITOR CAMARAS</h5><span class="Bagde-Amarillo">INTERACTIVO</span><span class="Bagde-Verde">TAMAÑO PERSONALIZADO</span>
             <p class="card-text">Observa de forma Multiple las distintas camaras de chile y otros paises, puedes ver hasta 9 señales en vivo.</p>
             <!--<h5 class="card-title">MONITOR 6</h5>-->
             <a href="MonitorCamaras.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
@@ -191,7 +175,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 25%; margin: 1%; display:inline-table; text-align: left;">
           <a class="waves-effect waves-light" href="MonitorRegionales.html"><img class="card-img-top" src="imagenes/Monitor1.png"></a>
           <div class="card-body">
-            <h5 style="font-weight: bold;" class="card-title">MONITOR CANALES REGIONALES</h5><span class="badge badge-warning">INTERACTIVO</span>ﾠ<span class="badge badge-success">TAMAÑO PERSONALIZADO</span>
+            <h5 style="font-weight: bold;" class="card-title">MONITOR CANALES REGIONALES</h5><span class="Bagde-Amarillo">INTERACTIVO</span><span class="Bagde-Verde">TAMAÑO PERSONALIZADO</span>
             <p class="card-text">Observa de forma Multiple las distintas señales de canales regionales de chile, puedes ver hasta 9 señales en vivo.</p>
             <!--<h5 class="card-title">MONITOR 6</h5>-->
             <a href="MonitorRegionales.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
@@ -202,7 +186,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 25%; margin: 1%; display:inline-table; text-align: left;">
           <a class="waves-effect waves-light" href="EstacionesChile.html"><img class="card-img-top" src="imagenes/MonitorEstacionesChile.png"></a>
           <div class="card-body">
-            <h5 style="font-weight: bold;" class="card-title">MONITOR ESTACIONES SISMOGRAFICAS DE CHILE</h5><span class="badge badge-info">TAMAÑO PREDETERMINADO</span>
+            <h5 style="font-weight: bold;" class="card-title">MONITOR ESTACIONES SISMOGRAFICAS DE CHILE</h5><span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span>
             <p class="card-text">Puedes ver las estaciones sismograficas de chile en formato de imagen, se actualizan cada 2 minutos, gracias a la herramienta stationmonitor de <a href="https://www.iris.edu/hq/">iris.edu</a></p>
             <!--<h5 class="card-title">MONITOR 6</h5>-->
             <a href="EstacionesChile.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
@@ -212,7 +196,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 30%; margin: 1%; display:inline-table; text-align: left;">
           <a class="waves-effect waves-light"href="ImagenesSatelite.html"><img class="card-img-top" src="imagenes/Monitor5.png"></a>
           <div class="card-body">
-            <h5 style="font-weight: bold;" class="card-title">MONITOR DMC</h5><span class="badge badge-info">TAMAÑO PREDETERMINADO</span>
+            <h5 style="font-weight: bold;" class="card-title">MONITOR DMC</h5><span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span>
             <p class="card-text">Observa de forma Multiple las Imagenes Satelitales mas recientes de de la <a href="http://www.meteochile.gob.cl/">Direccion Meteorologica de Chile</a></p>
             <a href="ImagenesSatelite.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
           </div>
@@ -221,7 +205,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 30%; margin: 1%; display:inline-table; text-align: left;">
           <a class="waves-effect waves-light" href="Monitor_Interactivo_DMC.html"><img class="card-img-top" src="imagenes/Monitor1.png"></a>
           <div class="card-body">
-            <h5 style="font-weight: bold;" class="card-title">MONITOR DMC INTERACTIVO</h5><span class="badge badge-warning">INTERACTIVO</span>ﾠ<span class="badge badge-info">TAMAÑO PREDETERMINADO</span>
+            <h5 style="font-weight: bold;" class="card-title">MONITOR DMC INTERACTIVO</h5><span class="Bagde-Amarillo">INTERACTIVO</span>ﾠ<span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span>
             <p class="card-text">Observa de forma Multiple las Imagenes Satelitales mas recientes de de la <a href="http://www.meteochile.gob.cl/">Direccion Meteorologica de Chile</a></p>
             <a href="Monitor_Interactivo_DMC.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
           </div>
@@ -230,7 +214,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 25%; margin: 1%; display:inline-table; text-align: left;">
           <a class="waves-effect waves-light" href="MonitorVolcanes.html"><img class="card-img-top" src="imagenes/MonitorVOLCANES.png"></a>
           <div class="card-body">
-            <h5 style="font-weight: bold;" class="card-title">MONITOR VOLCANES CHILE</h5><span class="badge badge-info">TAMAÑO PREDETERMINADO</span>
+            <h5 style="font-weight: bold;" class="card-title">MONITOR VOLCANES CHILE</h5><span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span>
             <p class="card-text">Observa las camaras de vigilacia de algunos volcanes de chile, camaras de <a href="https://www.sernageomin.cl/">Sernageomin</a></p>
             <a href="MonitorVolcanes.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
           </div>
@@ -240,7 +224,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 25%; margin: 1%; display:inline-table; text-align: left;">
           <a class="waves-effect waves-light" href="MonitorNASA.html"><img class="card-img-top" src="imagenes/MonitorNASATV.png"></a>
           <div class="card-body">
-            <h5 style="font-weight: bold;" class="card-title">MONITOR SEÑALES NASA</h5><span class="badge badge-info">TAMAÑO PREDETERMINADO</span>
+            <h5 style="font-weight: bold;" class="card-title">MONITOR SEÑALES NASA</h5><span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span>
             <p class="card-text">Observa las señales de NASA TV, las camaras y ubicacion de Estacion Espacial Internacional</p>
             <a href="MonitorNASA.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
           </div>
@@ -250,7 +234,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 30%; margin: 1%; display:inline-table; text-align: left;">
           <a class="waves-effect waves-light" href="MonitorNASA_ISS.html"><img class="card-img-top" src="imagenes/MonitorNASATV.png"></a>
           <div class="card-body">
-            <h5 style="font-weight: bold;" class="card-title">MONITOR CAMARAS ESTACION ESPACIAL INTERNACIONAL</h5><span class="badge badge-info">TAMAÑO PREDETERMINADO</span>
+            <h5 style="font-weight: bold;" class="card-title">MONITOR CAMARAS ESTACION ESPACIAL INTERNACIONAL</h5><span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span>
             <p class="card-text">Observa las camaras y ubicacion de Estacion Espacial Internacional y NASATV</p>
             <a href="MonitorNASA_ISS.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
           </div>
@@ -260,7 +244,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 30%; margin: 1%; display:inline-table; text-align: left;">
           <a class="waves-effect waves-light" href="Monitor_Interactivo_Espacio.html"><img class="card-img-top" src="imagenes/Monitor1.png"></a>
           <div class="card-body">
-            <h5 style="font-weight: bold;" class="card-title">MONITOR INTERACTIVO ESPACIO</h5><span class="badge badge-warning">INTERACTIVO</span>ﾠ<span class="badge badge-success">TAMAÑO PERSONALIZADO</span>
+            <h5 style="font-weight: bold;" class="card-title">MONITOR INTERACTIVO ESPACIO</h5><span class="Bagde-Amarillo">INTERACTIVO</span>ﾠ<span class="Bagde-Verde">TAMAÑO PERSONALIZADO</span>
             <p class="card-text">Observa de forma Multiple Señales que Transmiten Asuntos Espaciales, Puedes ver hasta 9 señales en vivo.Observa las camaras de vigilacia de algunos volcanes de chile, camaras de <a href="https://www.sernageomin.cl/">Sernageomin</a></p>
             <a href="Monitor_Interactivo_Espacio.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
           </div>
@@ -269,7 +253,7 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
       <div class="card" style="width: 25%; margin: 1%; display:inline-table; text-align: left;">
           <a class="waves-effect waves-light" href="ESPACIO_2.html"><img class="card-img-top" src="imagenes/MonitorRASTREO.png"></a>
           <div class="card-body">
-            <h5 style="font-weight: bold;" class="card-title">MONITOR DE RASTREO ESPACIO</h5><span class="badge badge-info">TAMAÑO PREDETERMINADO</span>
+            <h5 style="font-weight: bold;" class="card-title">MONITOR DE RASTREO ESPACIO</h5><span class="Bagde-Azul">TAMAÑO PREDETERMINADO</span>
             <p class="card-text">Observa la ubicacion en tiempo real de la Estacio Espacial Internacional y de la Estacion Espacial China, informacion de <a href="https://heavens-above.com/">Heavens-Above</a></p>
             <a href="ESPACIO_2.html"><span class="BotonCardHome waves-effect waves-red">IR AL MONITOR</span></a>
           </div>
@@ -298,15 +282,8 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
 
       </div> 
 
-      <div class="DivBotonesHome" style="font-size: 13px;">
-          Actualizaciones:
-          <br>
-          <a href="Actualizaciones.html"><span data-toggle="modal" data-target="#exampleModal" class="BotonNuevosCambios waves-effect waves-naranjo">ㅤVER REGISTRO DE ACTUALIZACIONESㅤ</span></a>         
-      </div>
-
       <br>
       <br>
-
 	  
 </body>
 </html>
