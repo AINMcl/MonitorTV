@@ -477,37 +477,10 @@ section#Relojes{
   display:inline-table;
 }
 
-.BotonActualizacionesGrande{
-  background-color: #0048ff;
-  border: 0px solid;
-  display:inline-table;
-  padding-left: 1%;
-  padding-right: 1%;
-  margin: 5px;
-  width: auto;
-  height: auto;
-  font-size: 20PX;
-  border-radius: 9px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  line-height: 50px;
-  color: #ffffff;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.BotonActualizacionesGrande:hover{
-  color:#ffffff;
-  background-color:#002a79;
-}
-
 .TEXTOTituloDePantallaPequeña:hover{
   background:#0067dd;
   color:#fff
 }
-/*--------------------------------------------*/
 
 .BARRA_BotonIrAHome{
   background:rgba(0, 0, 0, 0);
@@ -542,8 +515,6 @@ section#Relojes{
   color:#fff
 }
 
-
-
 .CAJATituloDePantallaPequeñaNEGRA{
   background: rgb(0, 0, 0, 0.0);
   margin: 0 auto;
@@ -554,7 +525,6 @@ section#Relojes{
   top: 5px;
   text-align: center;
 }
-
 
 .TEXTOTituloDePantallaPequeñaNEGRA{
   background: rgba(0, 0, 0, 0.6);
@@ -586,7 +556,6 @@ section#Relojes{
   text-align: center;
   
 }
-
 
 .TEXTOTituloDePantallaGrande2{
   background: rgba(0, 0, 0, 0.6);
@@ -641,7 +610,6 @@ section#Relojes{
   
 }
 
-
 .TEXTOTituloDePantallaGrande2{
   background: rgb(0, 0, 0);
   margin: 0 auto;
@@ -681,9 +649,6 @@ section#Relojes{
   color:#fff
 }
 
-
-
-
 .SeleccionarStreamsPorFila{
   display: inline-block;
   background:rgba(0, 0, 0, 0);
@@ -702,8 +667,6 @@ section#Relojes{
   pointer;
   transition:all .5s
 }
-
-
 
 .StreamsPorFila{
   display: inline-block;
@@ -767,7 +730,6 @@ section#Relojes{
   color:#fff
 }
 
-
 .FondoBLANCO{
   background-color: rgb(255, 255, 255);
   font-family: 'Assistant', sans-serif;
@@ -807,7 +769,6 @@ section#Relojes{
   color:#0000df;
 }
 
-
 .BotonBordeVERDE{
   background-color: #cfcfcf;
   font-family: 'Assistant', sans-serif;
@@ -827,7 +788,6 @@ section#Relojes{
   background-color:#ffffff88;
   border-color:#ff0000
 }
-
 
 .Titulo{
   margin-bottom:0;
@@ -856,8 +816,6 @@ section#Relojes{
   background:#0099ff;
   color:rgb(0, 0, 0)
 }
-
-
 
 .BotonHomeA{
   background-color: #0000ff;
@@ -987,8 +945,6 @@ section#Relojes{
   transition:all .5s
 }
 
-
-
 .BotonHomeV2:hover{
   color:#1ea88b;
   background-color:#ffffff;
@@ -1053,8 +1009,6 @@ section#Relojes{
   box-shadow: 0px 0px 15px #ff0000;
 }
 
-
-
 .BotonHomeG{
   background-color: #444444;
   border-color: #444444;
@@ -1109,12 +1063,10 @@ section#Relojes{
   box-shadow: 0px 0px 15px #444444;
 }
 
-
 .Caja{
   width: 50%;
   float: left;
 }
-
 
 .Nombres{
   position: relative;
@@ -1124,7 +1076,6 @@ section#Relojes{
   width: 100%;
   text-align:right;
 }
-
 
 .Valores{
   position: relative;
@@ -1152,7 +1103,6 @@ section#Relojes{
   color: #ffffff;
 }
 
-
 .Valor{
   display: inline-block;
   background:rgb(255, 255, 255);
@@ -1169,8 +1119,6 @@ section#Relojes{
   border-radius: 5px;
   color: #000000;
 }
-
-
 
 .Selecciones{
   display: inline-block;
@@ -1345,9 +1293,6 @@ section#Relojes{
   transition:all .5s
 }
 
-
-
-
 .BotonMonitorTV{
   display:inline-table;
   margin: 5px;
@@ -1364,8 +1309,6 @@ section#Relojes{
   pointer;
   transition:all .5s
 }
-
-
 
 .BotonTitulosSeñales{
 
@@ -1511,7 +1454,6 @@ section#Relojes{
   margin:auto;
 }
 
-
 .ContadorIMG{
   display:inline-table;
   width: 250px;
@@ -1614,7 +1556,6 @@ section#Relojes{
 .waves-effect.waves-green .waves-ripple {
   background-color: rgba(76, 175, 80, 0.7);
 }
-
 
 .waves-effect.waves-teal .waves-ripple {
   background-color: rgba(0, 150, 136, 0.7);
@@ -3783,6 +3724,32 @@ background-image: linear-gradient(
   font-weight: bold;
   color: #000000;
   border-radius: 3px;
+}
+
+.BotonActualizacionesGrande{
+  background-color: #0048ff;
+  border: 0px solid;
+  display:inline-table;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 5px;
+  width: auto;
+  height: auto;
+  font-size: 20PX;
+  border-radius: 9px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonActualizacionesGrande:hover{
+  color:#ffffff;
+  background-color:#002a79;
 }
 
 

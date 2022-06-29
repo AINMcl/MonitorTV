@@ -128,8 +128,12 @@ let LosCanales = [
         'url': 'SeñalRADIO_BIOBIOTV.html'
     }, {
         'titulo': 'T13 RADIO',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Tele13RADIO.svg"></img>',
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Tele13RADIO.svg"></img>',
         'url': 'SeñalRADIO_T13.html'
+    }, {
+        'titulo': 'T13 RADIO',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Tele13RADIO.svg"></img>',
+        'url': 'SeñalRADIO_T13_2.html'
     }, {
         'titulo': 'RADIO INFINITA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Radio_Infinita.svg"></img>',
@@ -186,12 +190,8 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_GOB.svg"></img>GOBIERNO DE CHILE',
         'url': 'SeñalPRESIDENCIA_3.html'
     }, {
-        'titulo': 'PRESIDENCIA CHILE',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_GOB.svg"></img>PDTE. BORIC',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UC0gQkOPt6VVvJGO9mDy0ikw&autoplay=true&mute=1'
-    }, {
         'titulo': 'TV SENADO',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>TV SENADO',
         'url': 'SeñalSENADO_TV.html'
     }, {
         'titulo': 'TV DIPUTADOS',
@@ -199,7 +199,7 @@ let LosCanales = [
         'url': 'SeñalCDTV.html'
     },{
         'titulo': 'TV SENADO',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>TV SENADO',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=true&mute=1'
     }, {
         'titulo': 'TV DIPUTADOS',
@@ -519,7 +519,7 @@ let LosCanales = [
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCRwA1NUcUnwsly35ikGhp0A&autoplay=true&mute=1'
     }, {
         'titulo': 'AL ROJO VIVO (TELEMUNDO)',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>AL ROJO VIVO (TELEMUNDO)<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>AL ROJO VIVO (TELEMUNDO)',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCDUxOvbwu1bnyD7AucP0ESw&autoplay=true&mute=1'
     }, {
         'titulo': 'VOA TV ESPAÑOL',
@@ -531,11 +531,11 @@ let LosCanales = [
         'url': 'https://www.youtube.com/embed/live_stream?channel=UChqUTb7kYRX8-EiaN3XFrSQ&autoplay=true&mute=1'
     }, {
         'titulo': 'AGENCIA EFE',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>AGENCIA EFE<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>AGENCIA EFE',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCvJS-YNyaWyOucx8bGrHVvw&autoplay=true&mute=1'
     }, {
         'titulo': 'EUROPA PRESS',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>EUROPA PRESS<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>EUROPA PRESS',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCh_chnQ7OJPQ8mZ7vbXFpIQ&autoplay=true&mute=1'
     }, {
         'titulo': 'INFOBAE',
@@ -610,67 +610,67 @@ let LosCanales = [
         'url': 'SeñalONDADIGITALTV_1.html'
     }, {
         'titulo': 'BOLIVIA TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>BOLIVIA TV<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>BOLIVIA TV',
         'url': 'SeñalBOLIVIA_TV_72.html'
     }, {
         'titulo': 'CADENA A',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>CADENA A<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>CADENA A',
         'url': 'SeñalCADENA_A.html'
     }, {
         'titulo': 'RTP',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>RTP<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>RTP',
         'url': 'SeñalRTP.html'
     }, {
         'titulo': 'PAT',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>PAT<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>PAT',
         'url': 'SeñalPAT_BOLIVIA.html'
     }, {
         'titulo': 'CANAL 1',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CANAL 1<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CANAL 1',
         'url': 'SeñalCANAL1_COLOMBIA.html'
     }, {
         'titulo': 'CANAL 2',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CANAL 2<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CANAL 2',
         'url': 'SeñalCANAL2_COLOMBIA.html'
     }, {
         'titulo': 'CANAL 13',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CANAL 13<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CANAL 13',
         'url': 'SeñalCANAL13_COLOMBIA.html'
     }, {
         'titulo': 'ATN',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>ATN<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>ATN',
         'url': 'SeñalATN_TV_COLOMBIA.html'
     }, {
         'titulo': 'TELEPACIFICO',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>TELEPACIFICO<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>TELEPACIFICO',
         'url': 'SeñalTELEPACIFICO_COLOMBIA.html'
     }, {
         'titulo': 'CITY TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CITY TV<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CITY TV',
         'url': 'SeñalCITY_TV_COLOMBIA.html'
     }, {
         'titulo': 'CAPITAL',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CAPITAL<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CAPITAL',
         'url': 'SeñalCAPITALTV_COLOMBIA.html'
     }, {
         'titulo': 'CABLENOTICIAS',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CABLENOTICIAS<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CABLENOTICIAS',
         'url': 'SeñalCABLENOTICIAS_COLOMBIA.html'
     }, {
         'titulo': 'RED+ NOTICIAS',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>RED+ NOTICIAS<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>RED+ NOTICIAS',
         'url': 'SeñalRED+NOTICIAS_COLOMBIA.html'
     }, {
         'titulo': 'ECUADOR TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>ECUADOR TV<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>ECUADOR TV',
         'url': 'SeñalECUADOR_TV.html'
     }, {
         'titulo': 'RTU TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>RTU TV<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>RTU TV',
         'url': 'SeñalRTU_TV_ECUADOR.html'
     }, {
         'titulo': 'UCSG TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>UCSG TV<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>UCSG TV',
         'url': 'SeñalUCSG_ECUADOR.html'
     }, {
         'titulo': 'TELESUR',
@@ -766,11 +766,11 @@ let LosCanales = [
         'url': 'SeñalNHK.html'
     },{
         'titulo': 'NIPPON TV NEWS24',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>NIPPON TV NEWS24<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>NIPPON TV NEWS24',
         'url': 'SeñalNIPPONTV_NEWS_24.html'
     },{
         'titulo': 'KOREAN CENTRAL TV',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kp.svg" title="KOREA DEL NORTE"></img>KOREAN CENTRAL TV<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kp.svg" title="KOREA DEL NORTE"></img>KOREAN CENTRAL TV',
         'url': 'SeñalKOREAN_CENTRAL_TV.html'
     },{
         'titulo': 'IRAN INTERNATIONAL',
@@ -1121,188 +1121,224 @@ let LosCanales = [
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/Cooperativa/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED ANTOFAGASTA',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>ANTOFAGASTA',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>ANTOFAGASTA',
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/TVNREDANTOFAGASTA/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED COQUIMBO',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>COQUIMBO',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>COQUIMBO',
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/redcoquimbotvn/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED VALPARAISO',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>VALPARAISO',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>VALPARAISO',
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/Tvn-Red-Valparaíso-1051261168227502/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED OHIGGINS',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>OHIGGINS',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>OHIGGINS',
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/tvnohiggins/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED MAULE',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>MAULE',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>MAULE',
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/TVNRedMaule/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED BIOBIO',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>BIOBIO',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>BIOBIO',
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/tvnredbiobio/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED ARAUCANIA',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>ARAUCANIA',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>ARAUCANIA',
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/tvnredaraucaniaoficial/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED AUSTRAL',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>AUSTRAL',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>AUSTRAL',
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/redaustral/live/&show_text=1&mute=0'
     },
 
     
     {
-        'titulo': 'TRIBUNAL CONSTITUCIONAL',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>T. CONTITUCIONAL',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=true&mute=1'
-    }, {
         'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 1',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_1.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_1.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal1.html'
     }, {
         'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 2',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_2.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_2.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal2.html'
     }, {
         'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 3',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_3.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_3.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal3.html'
     }, {
         'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 4',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_4.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_4.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal4.html'
     }, {
         'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 5',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_5.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_5.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal5.html'
     }, {
         'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 6',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_6.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_6.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal6.html'
     }, {
         'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 7',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_7.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_7.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal7.html'
     },{
         'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 8',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_8.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_8.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal8.html'
     }, {
         'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 9',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_9.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_9.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal9.html'
     }, {
         'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 10',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_10.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_10.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal10.html'
     }, {
         'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 11',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_11.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_11.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal11.html'
     }, {
         'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 12',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_12.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_12.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal12.html'
     }, {
         'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 13',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_13.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_13.svg"></img>',
         'url': 'Senal/ConvencionConstitucional/Senal13.html'
     }, {
+        'titulo': 'TRIBUNAL CONSTITUCIONAL',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>T. CONTITUCIONAL',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=true&mute=1'
+    }, {
         'titulo': 'TV SENADO SEÑAL 1',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 1',
         'url': 'SeñalTVSENADO_1.html'
     },{
         'titulo': 'TV SENADO SEÑAL 2',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 2',
         'url': 'SeñalTVSENADO_2.html'
     }, {
         'titulo': 'TV SENADO SEÑAL 3',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 3',
         'url': 'SeñalTVSENADO_3.html'
     }, {
         'titulo': 'TV SENADO SEÑAL 4',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 4',
         'url': 'SeñalTVSENADO_4.html'
     }, {
         'titulo': 'TV SENADO SEÑAL 5',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 5',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 5',
         'url': 'SeñalTVSENADO_5.html'
     },{
         'titulo': 'TV SENADO SEÑAL 6',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 6',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 6',
         'url': 'SeñalTVSENADO_6.html'
     }, {
         'titulo': 'CAMARA DIPUTADOS SEÑAL 1',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>DIPUTADOS 1',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 1',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCcULnWuDzgQG9yF0Dv3DIgg&autoplay=true&mute=1'
     }, {
+        'titulo': 'CAMARA DIPUTADOS SEÑAL 2',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 2',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCt6ZTZoyFaCrMHURyjQ3PxA&autoplay=true&mute=1'
+    }, {
         'titulo': 'CAMARA DIPUTADOS SEÑAL 3',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>DIPUTADOS 3',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 3',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCF6KgLfQqQzekn8U1DwVs9g&autoplay=true&mute=1'
     }, {
         'titulo': 'CAMARA DIPUTADOS SEÑAL 5',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>DIPUTADOS 5',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 5',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC0QKtI8NpeMObauDylsSUDA&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 6',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>DIPUTADOS 6',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 6',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCspWzpGflwb6A8PZqWw49CQ&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 7',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>DIPUTADOS 7',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 7',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=true&mute=1'
     }, {
         'titulo': 'CAMARA DIPUTADOS SEÑAL 8',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>DIPUTADOS 8',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 8',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=true&mute=1'
     }, {
+        'titulo': 'CAMARA DIPUTADOS SEÑAL 9',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 9',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCgLlv-wIHnE_68RRSYRj8ZQ&autoplay=true&mute=1'
+    }, {
+        'titulo': 'CAMARA DIPUTADOS SEÑAL 10',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 10',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCJlJ6Q6ZV2InsE6fZWfJ9_g&autoplay=true&mute=1'
+    }, {
         'titulo': 'CAMARA DIPUTADOS SEÑAL 11',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>DIPUTADOS 11',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 11',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCYPKjGKq2yLbAnmth5rFZmQ&autoplay=true&mute=1'
     }, {
         'titulo': 'CAMARA DIPUTADOS SEÑAL 12',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>DIPUTADOS 12',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 12',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCVOWFY-sgbDglBsfOap9okg&autoplay=true&mute=1'
     }, {
         'titulo': 'CAMARA DIPUTADOS SEÑAL 13',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>DIPUTADOS 13',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 13',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=true&mute=1'
     },{
+        'titulo': 'CAMARA DIPUTADOS SEÑAL 14',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 14',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCUG6xs0GZ-t8IL3RUSWDSOQ&autoplay=true&mute=1'
+    }, {
+        'titulo': 'CAMARA DIPUTADOS SEÑAL 15',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 15',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UC8VmxlxvDhkrG6g0GnA5ksA&autoplay=true&mute=1'
+    }, {
+        'titulo': 'CAMARA DIPUTADOS SEÑAL 16',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 16',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCZz97rh70D0WSSjYSfTl-2Q&autoplay=true&mute=1'
+    }, {
+        'titulo': 'CAMARA DIPUTADOS SEÑAL 17',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 17',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCzkd-4oNNpWFN2zGWoyOz5w&autoplay=true&mute=1'
+    }, {
+        'titulo': 'CAMARA DIPUTADOS SEÑAL 18',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 18',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCNIa8pU-npLY7qm-8NVA3Sg&autoplay=true&mute=1'
+    }, {
+        'titulo': 'CAMARA DIPUTADOS SEÑAL 20',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 20',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCwk-F5PutmZrjZC8eHJ12Pg&autoplay=true&mute=1'
+    }, {
 
         
         'titulo': 'PODER JUDICIAL TV 1',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 1',
         'url': 'SeñalPoderJudicial_1.html'
     },{
         'titulo': 'PODER JUDICIAL TV 2',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 2',
         'url': 'SeñalPoderJudicial_2.html'
     },{
         'titulo': 'PODER JUDICIAL TV 3',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 3',
         'url': 'SeñalPoderJudicial_3.html'
     },{
         'titulo': 'PODER JUDICIAL TV 4',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 4',
         'url': 'SeñalPoderJudicial_4.html'
     },{
         'titulo': 'PODER JUDICIAL TV 5',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 5',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 5',
         'url': 'SeñalPoderJudicial_5.html'
     },{
         'titulo': 'PODER JUDICIAL TV 6',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 6',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 6',
         'url': 'SeñalPoderJudicial_6.html'
     },{
         'titulo': 'PODER JUDICIAL TV 7',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 7',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 7',
         'url': 'SeñalPoderJudicial_7.html'
     },{
         'titulo': 'PODER JUDICIAL TV 8',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 8',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 8',
         'url': 'SeñalPoderJudicial_8.html'
     },{
 
