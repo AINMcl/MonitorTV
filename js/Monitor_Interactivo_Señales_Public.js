@@ -1,7 +1,7 @@
 
 var size = 4;
 ///<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Icono_SeñalNueva.svg"></img>///
-///<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>///
+//////
 ///6 = 2 PANTALLAS HORIZONTALMENTE///
 ///3 = 4 PANTALLAS HORIZONTALMENTE///
 ///4 = 3 PANTALLAS HORIZONTALMENTE///
@@ -528,7 +528,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCRwA1NUcUnwsly35ikGhp0A&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TELEMUNDO</div></div></div>'
         },
         'AL_ROJO_VIVO_TM_YT': {
-            'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>AL ROJO VIVO (TELEMUNDO)<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>AL ROJO VIVO (TELEMUNDO)',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCDUxOvbwu1bnyD7AucP0ESw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">AL ROJO VIVO (TELEMUNDO)</div></div></div>'
         },
         'VOA_YT': {
@@ -540,11 +540,11 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UChqUTb7kYRX8-EiaN3XFrSQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">REUTERS</div></div></div>'
         },
         'AGENCIA_EFE_YT': {
-            'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>AGENCIA EFE<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>AGENCIA EFE',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCvJS-YNyaWyOucx8bGrHVvw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">REUTERS</div></div></div>'
         },
         'EUROPA_PRESS': {
-            'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>EUROPA PRESS<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>EUROPA PRESS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCh_chnQ7OJPQ8mZ7vbXFpIQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">REUTERS</div></div></div>'
         },
         'INFOBAE_YT': {
@@ -625,20 +625,68 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalONDADIGITALTV_1.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ONDA DIGITAL TV</div></div></div>'
         },
         'BOLIVIA_TV': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>BOLIVIA TV<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>BOLIVIA TV',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalBOLIVIA_TV_72.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">BOLIVIA TV</div></div></div>'
         },
         'CADENA_A': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>CADENA A<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>CADENA A',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCADENA_A.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CADENA A</div></div></div>'
         },
         'RTP': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>RTP<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>RTP',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRTP.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RTP</div></div></div>'
         },
         'PAT': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>PAT<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>PAT',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPAT_BOLIVIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PAT</div></div></div>'
+        },
+        'CANAL 1': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CANAL 1<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCANAL1_COLOMBIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CANAL 1</div></div></div>'
+        },
+        'CANAL 2': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CANAL 2<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCANAL2_COLOMBIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CANAL 2</div></div></div>'
+        },
+        'CANAL 13': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CANAL 13<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCANAL13_COLOMBIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CANAL 13</div></div></div>'
+        },
+        'ATN': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>ATN<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalATN_TV_COLOMBIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ATN</div></div></div>'
+        },
+        'TELEPACIFICO': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>TELEPACIFICO<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTELEPACIFICO_COLOMBIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TELEPACIFICO</div></div></div>'
+        },
+        'CITY TV': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CITY TV<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCITY_TV_COLOMBIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CITY TV</div></div></div>'
+        },
+        'CAPITAL': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CAPITAL<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCAPITALTV_COLOMBIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CAPITAL</div></div></div>'
+        },
+        'CABLENOTICIAS': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CABLENOTICIAS<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCABLENOTICIAS_COLOMBIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CABLENOTICIAS</div></div></div>'
+        },
+        'RED+ NOTICIAS': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>RED+ NOTICIAS<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRED+NOTICIAS_COLOMBIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RED+ NOTICIAS</div></div></div>'
+        },
+        'ECUADOR TV': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>ECUADOR TV<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalECUADOR_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ECUADOR TV</div></div></div>'
+        },
+        'RTU TV': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>RTU TV<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRTU_TV_ECUADOR.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RTU TV</div></div></div>'
+        },
+        'UCSG TV': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>UCSG TV<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalUCSG_ECUADOR.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">UCSG TV</div></div></div>'
         },
         'TELESUR': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ve.svg" title="VENEZUELA"></img>TELESUR',
@@ -733,11 +781,11 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalNHK.html" frameborder="0"></iframe></div><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">NHK WORLD</div></div></div>'
         },
         'NIPPONTV_NEWS_24': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>NIPPON TV NEWS24<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>NIPPON TV NEWS24',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalNIPPONTV_NEWS_24.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">NIPPON TV NEWS24</div></div></div>'
         },
         'KOREAN_CENTRAL_TV': {
-            'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kp.svg" title="KOREA DEL NORTE"></img>KOREAN CENTRAL TV<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kp.svg" title="KOREA DEL NORTE"></img>KOREAN CENTRAL TV',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalKOREAN_CENTRAL_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">KOREAN CENTRAL TV</div></div></div>'
         },
         'IRAN_INT': {
@@ -1319,7 +1367,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCAMARA_PLAZA_ITALIA_CIMA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">STGO. PLAZA ITALIA</div></div></div>'
         },
         'STGO_SUR_ORIENTE': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. SUR ORIENTE<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. SUR ORIENTE',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCMvQGOyumsXP4V7dGAdIKWg&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">STGO. SUR ORIENTE</div></div></div>'
         },
         'LEDRIUM_CERRILLOS': {
@@ -1351,7 +1399,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCAMARA_VALPARAISO.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">VALPARAISO BAHIA</div></div></div>'
         },
         'VALPARAISO_CIUDAD': {
-            'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VALPARAISO CIUDAD<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VALPARAISO CIUDAD',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCXaQjESu5cdF1CGH1aAA52Q&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">VALPARAISO CIUDAD</div></div></div>'
         },
         'OSORNO_1': {

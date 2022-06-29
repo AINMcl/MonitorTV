@@ -477,6 +477,32 @@ section#Relojes{
   display:inline-table;
 }
 
+.BotonActualizacionesGrande{
+  background-color: #0048ff;
+  border: 0px solid;
+  display:inline-table;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin: 5px;
+  width: auto;
+  height: auto;
+  font-size: 20PX;
+  border-radius: 9px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonActualizacionesGrande:hover{
+  color:#ffffff;
+  background-color:#002a79;
+}
+
 .TEXTOTituloDePantallaPequeña:hover{
   background:#0067dd;
   color:#fff
@@ -2601,6 +2627,8 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 10px #001ae0;
 }
 
+
+
 .BotonHomeAbrirEnOtraPestaña{
   display: flex;
   background-color: #FF0000;
@@ -3649,7 +3677,7 @@ background-image: linear-gradient(
 }
 
 .BotonMenuSuperior:hover {
-  background-color: #1C59BD;
+  background-color: #0048ff;
   font-weight: bold;
   color: #FFFFFF;
 }
