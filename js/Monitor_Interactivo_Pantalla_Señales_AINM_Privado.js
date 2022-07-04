@@ -536,15 +536,15 @@ let LosCanales = [
         'url': 'SeñalRTVEOCASIONAL_6.html'
     }, {
         'titulo': 'ABC7 LOS ANGELES (KABC)',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ABC7 LOS ANGELES (KABC)',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>ABC7 LOS ANGELES (KABC)',
         'url': 'SeñalABC7_LA_KABC.html'
     }, {
         'titulo': 'ABC7 NEW YORK (WABC)',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ABC7 NEW YORK (WABC)',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>ABC7 NEW YORK (WABC)',
         'url': 'SeñalABC7_NY_WABC.html'
     }, {
         'titulo': 'ABC7 CHICAGO (WLS)',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ABC7 CHICAGO (WLS)',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>ABC7 CHICAGO (WLS)',
         'url': 'SeñalABC7_CHICAGO_WLS.html'
     }, {
         'titulo': 'ABC7 LOS ANGELES (KABC) LIVE 1',
@@ -583,26 +583,6 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC7 CHICAGO (WLS) LIVE 3',
         'url': 'SeñalABC7_CHICAGO_WLS_LIVE_3.html'
     }, {
-        'titulo': 'WKYC LIVE 1',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>WKYC 1',
-        'url': 'SeñalWKYC_1.html'
-    }, {
-        'titulo': 'WKYC LIVE 2',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>WKYC 2',
-        'url': 'SeñalWKYC_2.html'
-    }, {
-        'titulo': 'KHOU LIVE 1',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>KHOU 1',
-        'url': 'SeñalKHOU_1.html'
-    },{
-        'titulo': 'KHOU LIVE 2',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>KHOU 2',
-        'url': 'SeñalKHOU_2.html'
-    }, {
-        'titulo': 'KHOU LIVE 3',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>KHOU 3',
-        'url': 'SeñalKHOU_3.html'
-    },{
         'titulo': 'CCTV+ 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 1',
         'url': 'SeñalCCTVPLUS_1.html'

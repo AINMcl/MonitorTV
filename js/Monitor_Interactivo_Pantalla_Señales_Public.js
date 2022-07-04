@@ -418,26 +418,6 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>CNN LIVE EVENT 5',
         'url': 'SeñalCNN_LIVE_EVENT_5.html'
     }, {
-        'titulo': 'CNNI LIVE EVENT 1',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>CNN INTERNATIONAL LIVE EVENT 1',
-        'url': 'SeñalCNNI_LIVE_EVENT_1.html'
-    }, {
-        'titulo': '24H TVE LIVE 2',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 2',
-        'url': 'Señal24H_TVE_OCASIONAL_2.html'
-    }, {
-        'titulo': '24H TVE LIVE 3',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 3',
-        'url': 'Señal24H_TVE_OCASIONAL_3.html'
-    }, {
-        'titulo': '24H TVE LIVE 4',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 4',
-        'url': 'Señal24H_TVE_OCASIONAL_4.html'
-    }, {
-        'titulo': '24H TVE LIVE 5',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 5',
-        'url': 'Señal24H_TVE_OCASIONAL_5.html'
-    }, {
         'titulo': 'RTVE OCASIONAL 1',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>RTVE LIVE OCASIONAL 1',
         'url': 'SeñalRTVEOCASIONAL_1.html'
@@ -462,38 +442,6 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>RTVE LIVE OCASIONAL 6',
         'url': 'SeñalRTVEOCASIONAL_6.html'
     }, {
-        'titulo': 'CBS46TV WGCL LIVE 1',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CBS46 WGCLTV LIVE 1',
-        'url': 'SeñalCBS46_WGCL_TV.html'
-    }, {
-        'titulo': 'WKYC LIVE 1',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>WKYC 1',
-        'url': 'SeñalWKYC_1.html'
-    }, {
-        'titulo': 'WKYC LIVE 2',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>WKYC 2',
-        'url': 'SeñalWKYC_2.html'
-    }, {
-        'titulo': 'KHOU LIVE 1',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>KHOU 1',
-        'url': 'SeñalKHOU_1.html'
-    },{
-        'titulo': 'KHOU LIVE 2',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>KHOU 2',
-        'url': 'SeñalKHOU_2.html'
-    }, {
-        'titulo': 'KHOU LIVE 3',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>KHOU 3',
-        'url': 'SeñalKHOU_3.html'
-    },{
-        'titulo': 'THE WHITE HOUSE LIVE VIDEO',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>THE WHITE HOUSE LIVE VIDEO',
-        'url': 'SeñalTEGNADIGITAL_1.html'
-    },{
-        'titulo': 'ONU_TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ONU WEB TV',
-        'url': 'http://www.kaltura.com//p/2503451/embedPlaykitJs/uiconf_id/47917953?iframeembed=true&entry_id=1_gb6tjmle'
-    },{
         'titulo': 'CCTV+ 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 1',
         'url': 'SeñalCCTVPLUS_1.html'
@@ -568,10 +516,6 @@ let LosCanales = [
         'titulo': 'THE SUN',
         'nombre': '<img style="height: 15px; width:auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>THE SUN',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCIzXayRP7-P0ANpq-nD-h5g&autoplay=true&mute=1'
-    }, {
-        'titulo': 'WKYC Channel 3',
-        'nombre': '<img style="height: 15px; width:auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>WKYC Channel 3',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCNBmxc6FvKyxtCpUygcdINA&autoplay=true&mute=1'
     }, {
         'titulo': 'TN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>TN',
