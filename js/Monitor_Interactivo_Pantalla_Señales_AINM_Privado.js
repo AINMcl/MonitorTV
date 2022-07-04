@@ -543,6 +543,10 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ABC7 NEW YORK (WABC)',
         'url': 'SeñalABC7_NY_WABC.html'
     }, {
+        'titulo': 'ABC7 CHICAGO (WLS)',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ABC7 CHICAGO (WLS)',
+        'url': 'SeñalABC7_CHICAGO_WLS.html'
+    }, {
         'titulo': 'ABC7 LOS ANGELES (KABC) LIVE 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC7 LOS ANGELES (KABC) LIVE 1',
         'url': 'SeñalABC7_LA_KABC_LIVE_1.html'
@@ -566,6 +570,18 @@ let LosCanales = [
         'titulo': 'ABC7 WASHINGTON DC (WJLA) LIVE 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC7 WASHINGTON DC (WJLA) LIVE 1',
         'url': 'SeñalABC7_WDC_WJLA_LIVE_1.html'
+    }, {
+        'titulo': 'ABC7 CHICAGO (WLS) LIVE 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC7 CHICAGO (WLS) LIVE 1',
+        'url': 'SeñalABC7_CHICAGO_WLS_LIVE_1.html'
+    }, {
+        'titulo': 'ABC7 CHICAGO (WLS) LIVE 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC7 CHICAGO (WLS) LIVE 2',
+        'url': 'SeñalABC7_CHICAGO_WLS_LIVE_2.html'
+    }, {
+        'titulo': 'ABC7 CHICAGO (WLS) LIVE 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC7 CHICAGO (WLS) LIVE 3',
+        'url': 'SeñalABC7_CHICAGO_WLS_LIVE_3.html'
     }, {
         'titulo': 'WKYC LIVE 1',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>WKYC 1',
