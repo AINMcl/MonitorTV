@@ -34,148 +34,51 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 
-.Boton{
-  display: inline-block;
-  margin: 0px;
-  width: 100px;
-  height: 25px;
-  line-height: 25px;
-  font-size: 15px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.Boton:hover{
-  background:#010172;
-  color:#fff}
-
-
-
-
-
-
-
-section#Relojes{
-  display: inline-block;
-  margin: 0px;
-  width: 100%;
-  height: 90px;
-  padding: 0px;
-  background-color: #000000;
-  font-weight: bold;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-
-
-.BotonHome{
-  background-color: #FF0000;
-  display: inline-block;
-  margin: 20px;
-  width: 250px;
-  height: 50px;
-  padding: 0px;
-  font-size: x-large;
-  border-radius: 10px;
-  font-weight: bold;
+.NombreEstacionesChile{
+  background-color: #5c5d5e;
+  width: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 25px;
+  padding-right: 10px;
+  font-size: 13px;
   text-align: center;
   align-items: center;
+  font-weight: bold;
   color: #FFFFFF;
   cursor:
   pointer;
   transition:all .7s
 }
 
-.BotonHome:hover{
-  background:#1E1EF0;
+.NombreEstacionesChile:hover{
+  background:#0000df;
   color:#fff
 }
 
-
-
-
-
-
-
-
-  .NombreEstacion{
-    display: inline-block;
-    margin: 0px;
-    width: 200px;
-    height: 15px;
-    padding: 5px;   
-    border-radius: 0px;
-    background: rgba(0, 0, 0, 0.4);
-    text-align: right;
-    font-weight: bold;
-    color: #FFFFFF;
-  }
-
-  
-  .NombreEstacionesChile{
-    background-color: #5c5d5e;
-    display:inline-table;
-    margin: 0px;
-    width: 350px;
-    height: 15px;
-    padding: 5px; 
-    font-size: 10PX;
-    border-radius: 0px;
-    font-weight: bold;
-    text-align: right;
-    line-height: 15px;
-    color: #FFFFFF;
-    cursor:
-    pointer;
-    transition:all .7s
-  }
-  
-  .NombreEstacionesChile:hover{
-    background:#0000df;
-    color:#fff
-  }
-
-
-  .NombreEstacionesAysen{
-    background-color: #5c5d5e;
-    display:inline-table;
-    margin: 0px;
-    width: 100%;
-    height: 20px;
-    padding: 0px; 
-    font-size: 10PX;
-    border-radius: 0px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 20px;
-    color: #FFFFFF;
-    cursor:
-    pointer;
-    transition:all .7s
-  }
-  
-  .NombreEstacionesAysen:hover{
-    background:#0000df;
-    color:#fff
-  }
-
-
-.TituloPrincipalEstacionesChile{
-  margin: 00px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  font-size: x-large;
+.NombreEstacionesAysen{
+  background-color: #5c5d5e;
+  display:inline-table;
+  margin: 0px;
+  width: 100%;
+  height: 20px;
+  padding: 0px; 
+  font-size: 10PX;
+  border-radius: 0px;
   font-weight: bold;
-  background-color: #0066F9;
   text-align: center;
+  line-height: 20px;
   color: #FFFFFF;
+  cursor:
+  pointer;
+  transition:all .7s
+}
+
+.NombreEstacionesAysen:hover{
+  background:#0000df;
+  color:#fff
 }
 
 .BotonIrisEdu{
@@ -200,253 +103,13 @@ section#Relojes{
   color:#fff
 }
 
-
-.TituloPrincipalEstacionesChile3{
-  margin: 00px;
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
-  font-size: large;
-  background-color: #6ba8fd;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-
-
-
-.TituloHome{
-  background-color: #0066F9;
-  width: 100%;
-  height: 60px;
-  margin: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #FFFFFF;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-
 .DivBotonesHome{
   width: 100%;
   text-align: center;
   margin:auto;
 }
 
-.BotonesHomeGRIS{
-  background-color: #444444;
-  display:inline-table;
-  margin: 10px;
-  width: 250px;
-  height: 50px;
-  font-size: 20PX;
-  border-radius: 0px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  line-height: 50px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .7s
-}
-
-
-.BotonesHomeGRIS:hover{
-  background:#25252F;
-  color:#fff
-}
-
-.BotonesHomeAZUL{
-  background-color: #032eeb;
-  display:inline-table;
-  margin: 10px;
-  width: 250px;
-  height: 50px;
-  font-size: 20PX;
-  border-radius: 0px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  line-height: 50px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .7s
-}
-
-.BotonesHomeAZUL:hover{
-  background:#010172;
-  color:#fff
-}
-
-.BotonesHomeAZUL2{
-  background-color: #032eeb;
-  display:inline-table;
-  margin: 10px;
-  width: 250px;
-  height: 50px;
-  font-size: 20PX;
-  border-radius: 0px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  line-height: 50px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .7s
-}
-
-.BotonesHomeAZUL2:hover{
-  background:#010172;
-  color:#fff
-}
-
-.BotonesHomeROJO{
-  background-color: #f80000;
-  display:inline-table;
-  margin: 10px;
-  width: 250px;
-  height: 50px;
-  font-size: 20PX;
-  border-radius: 0px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  line-height: 50px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .7s
-}
-
-.BotonesHomeROJO:hover{
-  background:#8f0000;
-  color:#fff
-}
-
-.BotonesHomeVERDE_2{
-  background-color: #1ea88b;
-  display:inline-table;
-  margin: 10px;
-  width: 250px;
-  height: 50px;
-  font-size: 20PX;
-  border-radius: 0px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  line-height: 50px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .7s
-}
-
-.BotonesHomeVERDE_2:hover{
-  background:#016e57;
-  color:#fff
-}
-
-.BotonesHomeNARANJO{
-  background-color: #FF6600;
-  display:inline-table;
-  margin: 10px;
-  width: 250px;
-  height: 50px;
-  font-size: 20PX;
-  border-radius: 0px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  line-height: 50px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .7s
-}
-
-.BotonesHomeNARANJO:hover{
-  background:#C04E00;
-  color:#fff
-}
-
-.BotonesHomeMORADO{
-  background-color: #8f00c7;
-  display:inline-table;
-  margin: 10px;
-  width: 250px;
-  height: 50px;
-  font-size: 20PX;
-  border-radius: 0px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  line-height: 50px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .7s
-}
-
-.BotonesHomeMORADO:hover{
-  background:#480069;
-  color:#fff
-}
-
-.BotonesHomeVERDE{
-  background-color: #5abb00;
-  display:inline-table;
-  margin: 10px;
-  width: 250px;
-  height: 50px;
-  font-size: 20PX;
-  border-radius: 0px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  line-height: 50px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .7s
-}
-
-.BotonesHomeVERDE:hover{
-  background:#1a4600;
-  color:#fff
-}
-
-.BotonesHome{
-  background-color: #bbff00;
-  display:inline-table;
-  margin: 10px;
-  width: 250px;
-  height: 50px;
-  font-size: 20PX;
-  border-radius: 0px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  line-height: 50px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .7s
-}
-
-.BotonesHomeAZUL2:hover{
-  background:#010172;
-  color:#fff
-}
-
-
-.TextoBotonHome{
-  background-color: red;
-}
+/*SE USA: TITULOS QUE SE MUESTRAN EN SEÑALES - NO BORRAR*/
 .CAJATituloDePantallaPequeña{
   background: rgb(0, 0, 0, 0.0);
   margin: 0 auto;
@@ -458,6 +121,7 @@ section#Relojes{
   text-align: center;
 }
 
+/*SE USA: TITULOS QUE SE MUESTRAN EN SEÑALES - NO BORRAR*/
 .TEXTOTituloDePantallaPequeña{
   background: rgba(0, 0, 0, 0.6);
   margin: 0 auto;
@@ -477,101 +141,13 @@ section#Relojes{
   display:inline-table;
 }
 
+/*SE USA: TITULOS QUE SE MUESTRAN EN SEÑALES - NO BORRAR*/
 .TEXTOTituloDePantallaPequeña:hover{
   background:#0067dd;
   color:#fff
 }
 
-.BARRA_BotonIrAHome{
-  background:rgba(0, 0, 0, 0);
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  position: absolute;
-  bottom: 3px;
-  margin: 0 auto;
-  text-align: center;
-}
-.TEXTO_BotonIrAHome{
-  display: inline-block;
-  background:rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(5px);
-  margin: 0px;
-  width: auto;
-  height: 20px;
-  line-height: 20px;
-  font-size: 11px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-.TEXTO_BotonIrAHome:hover{
-  background:#c90101;
-  color:#fff
-}
-
-.CAJATituloDePantallaPequeñaNEGRA{
-  background: rgb(0, 0, 0, 0.0);
-  margin: 0 auto;
-  width: 100%;
-  height: 15px;
-  line-height: 15px;
-  position: absolute;
-  top: 5px;
-  text-align: center;
-}
-
-.TEXTOTituloDePantallaPequeñaNEGRA{
-  background: rgba(0, 0, 0, 0.6);
-  margin: 0 auto;
-  width: 20%;
-  height: 15px;
-  line-height: 15px;
-  border-radius: 0px;
-  position: relative;
-  font-family: 'Assistant', sans-serif;
-  font-size: 10px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-  cursor:
-  pointer;
-  transition:all .5s;
-  display:inline-table;
-}
-
-.CAJATituloDePantallaGrande2{
-  background: rgb(0, 0, 0, 0.0);
-  margin: 0 auto;
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  position: absolute;
-  top: 2%;
-  text-align: center;
-  
-}
-
-.TEXTOTituloDePantallaGrande2{
-  background: rgba(0, 0, 0, 0.6);
-  margin: 0 auto;
-  width: 20%;
-  height: 20px;
-  line-height: 20px;
-  border-radius: 3px;
-  position: relative;
-  font-family: 'Assistant', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-}
-
+/*SE USA: TITULOS QUE SE MUESTRAN EN SEÑALES - NO BORRAR*/
 .CAJATituloDePantallaPequeña2{
   background: rgb(0, 0, 0, 0.0);
   margin: 0 auto;
@@ -583,6 +159,7 @@ section#Relojes{
   text-align: center;
 }
 
+/*SE USA: TITULOS QUE SE MUESTRAN EN SEÑALES*/
 .TEXTOTituloDePantallaPequeña2{
   background: rgba(0, 0, 0, 0.6);
   margin: 0 auto;
@@ -598,225 +175,7 @@ section#Relojes{
   display:inline-table;
 }
 
-.CAJATituloDePantallaGrande2{
-  background: rgb(0, 0, 0, 0.0);
-  margin: 0 auto;
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  position: absolute;
-  top: 2%;
-  text-align: center;
-  
-}
-
-.TEXTOTituloDePantallaGrande2{
-  background: rgb(0, 0, 0);
-  margin: 0 auto;
-  width: 20%;
-  height: 20px;
-  line-height: 20px;
-  border-radius: 3px;
-  position: relative;
-  font-family: 'Assistant', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-}
-
-.BotonSeleccionarSeñales{
-  display: inline-block;
-  background:rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(5px);
-  margin: 0px;
-  width: auto;
-  height: 20px;
-  line-height: 20px;
-  font-size: 11px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.BotonSeleccionarSeñales:hover{
-  background:#0159be;
-  color:#fff
-}
-
-.SeleccionarStreamsPorFila{
-  display: inline-block;
-  background:rgba(0, 0, 0, 0);
-  backdrop-filter: blur(5px);
-  margin: 0px;
-  width: auto;
-  height: 20px;
-  line-height: 20px;
-  font-size: 11px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.StreamsPorFila{
-  display: inline-block;
-  background:rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(5px);
-  border-color: rgba(0, 0, 0, 0);
-  margin: 0px;
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  font-size: 11px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.StreamsPorFila:hover{
-  background:#4c8304;
-  color:#fff
-}
-
-.BotonTitulos_ON_OFF{
-  display: inline-block;
-  background:rgba(0, 0, 0, 0.3);
-  margin: 0px;
-  width: 10%;
-  height: 20px;
-  line-height: 20px;
-  font-size: 10px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.BotonTitulos_ON_OFF:hover{
-  background:#0159be;
-  color:#fff
-}
-
-.BotonROJO{
-  background-color: red;
-  font-family: 'Assistant', sans-serif;
-  color: white;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.BotonROJO:hover{
-  background:#700000;
-  color:#fff
-}
-
-.FondoBLANCO{
-  background-color: rgb(255, 255, 255);
-  font-family: 'Assistant', sans-serif;
-  color: white;
-}
-
-.FondoGRIS{
-  background-color: rgb(114, 114, 114);
-  font-family: 'Assistant', sans-serif;
-  color: white;
-}
-
-.TipoTexto{
-  font-family: 'Assistant', sans-serif;
-  font-weight: bold;
-}
-
-.BotonBordeAZUL{
-  background-color: rgb(255, 255, 255);
-  font-family: 'Assistant', sans-serif;
-  font-weight: normal;
-  border-color: #000000;
-  border-width: 1px ;
-  border-radius: 5px;
-  text-align: left;
-  color: rgb(0, 0, 0);
-  cursor:
-  pointer;
-  transition:all .3s
-}
-
-.BotonBordeAZUL:hover{
-  background-color: rgb(255, 255, 255);
-  border-color: #0000df;
-  border-width: 3px;
-  font-weight: bold;
-  color:#0000df;
-}
-
-.BotonBordeVERDE{
-  background-color: #cfcfcf;
-  font-family: 'Assistant', sans-serif;
-  font-weight: normal;
-  border-color:#28a745;
-  color: #000000;
-  border-width: 3px;
-  border-radius: 5px;
-  text-align: left;
-  cursor:
-  pointer;
-  transition:all .3s
-}
-  
-.BotonBordeVERDE:hover{
-  color:rgb(255, 0, 0);
-  background-color:#ffffff88;
-  border-color:#ff0000
-}
-
-.Titulo{
-  margin-bottom:0;
-  text-align: center;
-  line-height:1.5
-}
-
-.BotonINFO{
-  display: inline-block;
-  background:rgba(0, 0, 0, 0.3);
-  margin: 0px;
-  width: 3%;
-  height: 20px;
-  line-height: 20px;
-  font-size: 10px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-.BotonINFO:hover{
-  background:#0099ff;
-  color:rgb(0, 0, 0)
-}
-
+/*SE USA: BOTON EN HOME - NO BORRAR*/
 .BotonHomeA{
   background-color: #0000ff;
   border-color: #0000ff;
@@ -844,6 +203,7 @@ section#Relojes{
   box-shadow: 0px 0px 15px #0303bb;
 }
 
+/*SE USA: BOTON EN HOME - NO BORRAR*/
 .BotonHomeM{
   background-color: #8f00c7;
   border-color: #8f00c7;
@@ -871,6 +231,7 @@ section#Relojes{
   box-shadow: 0px 0px 15px #8f00c7;
 }
 
+/*SE USA: BOTON EN HOME - NO BORRAR*/
 .BotonHomeM2{
   background-color: #8f00c7;
   border-color: #8f00c7;
@@ -898,6 +259,7 @@ section#Relojes{
   box-shadow: 0px 0px 15px #8f00c7;
 }
 
+/*SE USA: BOTON EN HOME - NO BORRAR*/
 .BotonHomeV{
   background-color: #5abb00;
   border-color: #5abb00;
@@ -918,6 +280,7 @@ section#Relojes{
   transition:all .5s
 }
 
+/*SE USA: BOTON EN HOME - NO BORRAR*/
 .BotonHomeV:hover{
   color:#5abb00;
   background-color:#ffffff;
@@ -925,6 +288,7 @@ section#Relojes{
   box-shadow: 0px 0px 15px #5abb00;
 }
 
+/*SE USA: BOTON EN HOME - NO BORRAR*/
 .BotonHomeV2{
   background-color: #1ea88b;
   border-color: #1ea88b;
@@ -945,6 +309,7 @@ section#Relojes{
   transition:all .5s
 }
 
+/*SE USA: BOTON EN HOME - NO BORRAR*/
 .BotonHomeV2:hover{
   color:#1ea88b;
   background-color:#ffffff;
@@ -952,6 +317,7 @@ section#Relojes{
   box-shadow: 0px 0px 15px #1ea88b;
 }
 
+/*SE USA: BOTON EN HOME - NO BORRAR*/
 .BotonHomeN{
   background-color: #FF6600;
   border-color: #FF6600;
@@ -973,6 +339,7 @@ section#Relojes{
   transition:all .5s
 }
 
+/*SE USA: BOTON EN HOME - NO BORRAR*/
 .BotonHomeN:hover{
   color:#FF6600;
   background-color:#ffffff;
@@ -981,7 +348,7 @@ section#Relojes{
   
 }
 
-
+/*SE USA: BOTON EN HOME - NO BORRAR*/
 .BotonHomeR{
   background-color: #ff0000;
   border-color: #ff0000;
@@ -1009,6 +376,7 @@ section#Relojes{
   box-shadow: 0px 0px 15px #ff0000;
 }
 
+/*SE USA: BOTON EN HOME - NO BORRAR*/
 .BotonHomeG{
   background-color: #444444;
   border-color: #444444;
@@ -1036,6 +404,7 @@ section#Relojes{
   box-shadow: 0px 0px 15px #444444;
 }
 
+/*SE USA: BOTON EN HOME - NO BORRAR*/
 .BotonHomeG2{
   background-color: #444444;
   border-color: #444444;
@@ -1056,6 +425,7 @@ section#Relojes{
   transition:all .5s
 }
 
+/*SE USA: BOTON EN HOME - NO BORRAR*/
 .BotonHomeG2:hover{
   color:#444444;
   background-color:#ffffff;
@@ -1063,103 +433,7 @@ section#Relojes{
   box-shadow: 0px 0px 15px #444444;
 }
 
-.Caja{
-  width: 50%;
-  float: left;
-}
-
-.Nombres{
-  position: relative;
-  display: inline-block;
-  background:rgb(255, 255, 255);
-  margin: 0px;
-  width: 100%;
-  text-align:right;
-}
-
-.Valores{
-  position: relative;
-  display: inline-block;
-  background:rgba(255, 255, 255, 0.966);
-  margin: 0px;
-  width: 100%;
-  text-align: left;
-}
-
-.Nombre{
-  display: inline-block;
-  background:#002fff;
-  border: 3px solid #002fff;
-  margin: 10px;
-  width: 20%;
-  height: 20px;
-  line-height: 20px;
-  font-size: 20px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: right;
-  padding: 5px;
-  border-radius: 5px;
-  color: #ffffff;
-}
-
-.Valor{
-  display: inline-block;
-  background:rgb(255, 255, 255);
-  border: 3px solid;
-  margin: 10px;
-  width: 20%;
-  height: 20px;
-  line-height: 20px;
-  font-size: 20px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: left;
-  padding: 5px;
-  border-radius: 5px;
-  color: #000000;
-}
-
-.Selecciones{
-  display: inline-block;
-  background:rgba(0, 0, 0, 0);
-  margin: 0px;
-  width: 100px;
-  height: 30px;
-  line-height: 20px;
-  font-size: 10px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #FFFFFF;
-}
-
-.Selecciones2{
-  display: inline-block;
-  background:rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(5px);
-  border-color: rgba(0, 0, 0, 0);
-  margin: 0px;
-  width: 100%;
-  height: 30px;
-  line-height: 20px;
-  font-size: 10px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #FFFFFF;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.Selecciones2:hover{
-  background:#006969;
-  color:#fff
-}
-
+/*SE USA: NO BORRAR*/
 .Boton_ON_OFF_Titulos{
   display: inline-block;
   background:rgba(0, 0, 0, 0.3);
@@ -1205,174 +479,16 @@ section#Relojes{
   color:#fff
 }
 
-.Boton_ON_OFF_Botones2{
-  display: inline-block;
-  background:rgba(0, 0, 0, 0);
-  margin: 0px;
-  width: 20%;
-  height: 20px;
-  line-height: 20px;
-  font-size: 10px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #ffffff00;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-.Boton_ON_OFF_Botones2:hover{
-  background-image: linear-gradient(
--225deg
-, rgba(18, 20, 23, 0.6) 0%, rgba(18, 20, 23, 0.75) 28%, rgba(18, 20, 23, 0.71) 71%, rgba(18, 20, 23, 0.4) 100%);margin: 0 auto;
-
-
-  backdrop-filter: blur(5px);
-  color:#fff
-}
-
-.Boton_ON_OFF_Titulos2{
-  display: inline-block;
-  background:rgba(0, 0, 0, 0);
-  margin: 0px;
-  width: 7%;
-  height: 20px;
-  line-height: 20px;
-  font-size: 10px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #ffffff00;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-.Boton_ON_OFF_Titulos2:hover{
-  background:#ff5e00;
-  color:#fff
-}
-
-.Boton_ON_OFF_Titulos3{
-  display: inline-block;
-  background:rgba(0, 0, 0, 0);
-  margin: 0px;
-  width: 20%;
-  height: 20px;
-  line-height: 20px;
-  font-size: 10px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #ffffff00;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-.Boton_ON_OFF_Titulos3:hover{
-  background:#ff5e00;
-  color:#fff
-}
-
-.BotonMonitorTV{
-  display:inline-table;
-  margin: 5px;
-  width: 100%;
-  height: 40px;
-  font-size: 20PX;
-  border-radius: 9px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  line-height: 50px;
-  color: #ffffff;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.BotonMonitorTV{
-  display:inline-table;
-  margin: 5px;
-  width: 80%;
-  height: 40px;
-  font-size: 15PX;
-  border-radius: 9px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  line-height: 40px;
-  color: #ffffff;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.BotonTitulosSeñales{
-
-}
 
 .Imagen{
   
-}
-
-.BMT_ROJO{
-  background-color: #ff0000;
-  border-color: #ff0000;
-  border: 3px solid;
-}
-
-.BMT_ROJO:hover{
-  color:#ff0000;
-  background-color:#ffffff;
-  border-color:#ff0000;
-}
-
-.BMT_AZUL{
-  background-color: #0000ff;
-  border-color: #0000ff;
-  border: 3px solid;
-}
-
-.BMT_AZUL:hover{
-  color:#0303bb;
-  background-color:#ffffff;
-  border-color:#0303bb;
-}
-
-.BMT_NARANJA{
-  background-color: #ff5e00;
-  border-color: #ff5e00;
-  border: 3px solid;
-}
-
-.BMT_NARANJA:hover{
-  color:#ff5e00;
-  background-color:#ffffff;
-  border-color:#ff5e00;
 }
 
 .Botones{
   
 }
 
-.infoSismo{
-  background-color: red;
-  color: white;
-  width: 50%;
-  font-size: 15px;
-  float: left;
-  display: inline-block;
-  position: relative;
-}
-
-.InfoProfundidad{
-  font-size: 15px;
-  font-weight: bold;
-}
-
+/*SE USA: NO BORRAR*/
 .TituloSismo{
   background-color: #003ec5;
   width: 100%;
@@ -1446,47 +562,7 @@ section#Relojes{
   font-weight: normal;
   color: #000000;
 }
-
-.Contador{
-  width: 100%;
-  height: 35px;
-  text-align: center;
-  margin:auto;
-}
-
-.ContadorIMG{
-  display:inline-table;
-  width: 250px;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  line-height: 50px;
-}
-
-.ContadorTexto{
-  display:inline-table;
-  width: 250px;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  line-height: 50px;
-
-  font-size: 20PX;
-  font-weight: bold;
-  color: #000000;
-}
-
-.BotonTV{
-  background-color: #171e27;
-  display:inline-table;
-  text-align: left;
-  vertical-align: middle;
-  margin: 5px;
-  width: 250px;
-  height: 120px;
-  border-radius: 9px;
-}
-
+/*SE USA: SISMOS /\/\ NO BORRAR*/
 
 .waves-effect {
   position: relative;
@@ -1657,55 +733,6 @@ section#Relojes{
   text-align: center;
 }
 
-.FondoTituloSeleccionarSeñales{
-  display: flex;
-  width: 100%;
-  height: 40px;
-  line-height: 40px;
-  padding-left: 20px;
-  background-color: #c70000;
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  align-items: center;
-  cursor:
-  pointer;
-  transition:all .3s
-}
-
-.FondoSeñales{
-  background-color: #ffffff;
-  border: 0px;
-  font-family: 'Assistant', sans-serif;
-  color: white;
-}
-
-.CAJATituloDePantalla3{
-  background: rgb(0, 0, 0, 0.0);
-  margin: 0 auto;
-  width: 100%;
-  height: 25px;
-  line-height: 25px;
-  position: absolute;
-  top: 5px;
-  text-align: center;
-}
-
-.TEXTOTituloDePantalla3{
-  background: rgba(0, 0, 0, 0.781);
-  margin: 0 auto;
-  width: auto;
-  height: 100%;
-  border-radius: 5px;
-  position: relative;
-  font-family: 'Assistant', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-  display:inline-table;
-}
 
 .FondoTitulosSeñales{
   background: rgb(0, 0, 0, 0.0);
@@ -1795,11 +822,12 @@ section#Relojes{
   left: 0%;
 }
 
-/*--------
+/*
 box-shadow: rgb(255 7 7 / 50%) 0px 2px 4px 0px;
 background-image: linear-gradient(
 -225deg
-, rgba(18, 20, 23, 0.6) 0%, rgba(18, 20, 23, 0.75) 28%, rgba(18, 20, 23, 0.71) 71%, rgba(18, 20, 23, 0.4) 100%);--------*/
+, rgba(18, 20, 23, 0.6) 0%, rgba(18, 20, 23, 0.75) 28%, rgba(18, 20, 23, 0.71) 71%, rgba(18, 20, 23, 0.4) 100%);
+*/
 
 .TextoTitulosMonitor1{
   background: rgba(0, 0, 0, 0.55);
@@ -1826,27 +854,11 @@ background-image: linear-gradient(
   color:rgb(0, 0, 0)
 }
 
-.BotonLapiz{
-  position: absolute;
-  top: 1%;
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  text-align: center;
-}
-
+/*BOTON AZUL LAPIZ*/
 .BotonCambiarSeñal{
   position: absolute;
   top: 1%;
   left: 1%;
-  width: auto;
-  height: auto;
-}
-
-.BotonPCTEST{
-  position: absolute;
-  top: 1%;
-  right: 1%;
   width: auto;
   height: auto;
 }
@@ -1877,253 +889,12 @@ background-image: linear-gradient(
   color:rgb(255, 255, 255)
 }
 
-.BotonFrameLink{
-  position: absolute;
-  top: 1%;
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  text-align: center;
-}
-
-.BotonSeleccionarSeñales2{
-  display: inline-block;
-  position: absolute;
-  left: 1%;
-  background:rgba(0, 0, 0, 0);
-  margin: 0px;
-  width: auto;
-  height: 20px;
-  line-height: 20px;
-  font-size: 10px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #ffffff00;
-  cursor:
-  pointer;
-  transition:all .5s
-}
 .BotonSeleccionarSeñales2:hover{
   background:#ff5e00;
   color:#fff
 }
 
-.BotonSeleccionarSeñales2_Antiguo{
-  display: inline-block;
-  background:rgba(37, 37, 37, 0.349);
-  margin: 0px;
-  width: 6%;
-  height: 20px;
-  line-height: 17px;
-  font-size: 10px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #ffffff;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.BotonSeleccionarSeñales2_Antiguo:hover{
-  background:#0026ff;
-  color:#fff
-}
-
-.BarraSeñalesVideo{
-  width: 100%;
-  height: 5%;
-  background-color: #0000df;
-  bottom: 0px;
-}
-
-.FondoTitulosMonitorDOS{
-  background: rgb(0, 0, 0);
-  margin: 0 auto;
-  width: 100%;
-  height: 8%;
-  line-height: auto;
-  position: absolute;
-  top: 0px;
-  text-align: center;
-  left: 0%;
-}
-
-.NombreSeñalMonitor15{
-  display:flex;
-  justify-content:space-between;
-  padding:6px;
-  background-color: rgba(31, 28, 28, 0.966)
-}
-
-.BotonRecargarPagina{
-  display: inline-block;
-  background:rgba(0, 0, 0, 0);
-  margin: 0px;
-  width: 25px;
-  height: 25px;
-  line-height: 15px;
-  font-size: 10px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 100%;
-  color: #ffffff00;
-  cursor:
-  pointer;
-  transition:all .3s
-}
-
-.BotonRecargarPagina:hover{
-  backdrop-filter: blur(5px);
-  background-color: rgb(0, 56, 241);
-  color:#fff
-}
-
-.BotonRecargarPagina3{
-  display: inline-block;
-  background:rgba(0, 0, 0, 0);
-  margin: 0px;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  font-size: 10px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 100%;
-  color: #ffffff00;
-  cursor:
-  pointer;
-  transition:all .3s
-}
-
-.BotonRecargarPagina3:hover{
-  backdrop-filter: blur(5px);
-  background-color: rgb(0, 56, 241);
-  color:#fff
-}
-
-.BotonTV_SeñalesWEBTEST{
-  background-color: #ffffff;
-  font-family: 'Assistant', sans-serif;
-  font-weight: normal;
-  border-color: #171e27;
-  border-width: 2px;
-  border-radius: 5px;
-  margin-bottom: 1px;
-  text-align: left;
-  color: #171e27;
-  cursor:
-  pointer;
-  transition:all .1s
-}
-
-.BotonTV_SeñalesWEBTEST:hover{
-  color:rgb(255, 255, 255);
-  background-color:rgb(122, 122, 122);
-  backdrop-filter: blur(8px);
-  border-width: 2px;
-  border-color:#000000
-}
-
-.BotonTV_SeñalSeleccionadaWEBTEST{
-  background-color: rgba(0, 173, 0, 0.3);
-  backdrop-filter: blur(5px);
-  font-family: 'Assistant', sans-serif;
-  font-weight: bold;
-  border-color:#171e27;
-  color: #fafafa;
-  border-width: 2px;
-  border-radius: 5px;
-  text-align: left;
-  cursor:
-  pointer;
-  transition:all .3s
-}
-
-.BotonTV_SeñalSeleccionadaWEBTEST:hover{
-  color:rgb(255, 0, 0);
-  background-color:rgb(255, 0, 0, 0.2);
-  backdrop-filter: blur(8px);
-  border-width: 3px;
-  border-color:#ff0000
-}
-
-.Boton_Home_1{
-  display: inline-block;
-  background:rgba(0, 0, 0, 0);
-  margin: 0px;
-  width: auto;
-  height: 20px;
-  line-height: 20px;
-  font-size: 10px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #ffffff00;
-  cursor:
-  pointer;
-  transition:all .2s
-}
-
-.Boton_Home_1:hover{
-  backdrop-filter: blur(5px);
-    background-color: rgb(44, 0, 238);
-  color:#fff
-}
-
-.BotonTV_SeñalesDMC{
-  background-color: #ffffff;
-  font-family: 'Assistant', sans-serif;
-  font-weight: normal;
-  border-color: #171e27;
-  border-width: 2px ;
-  border-radius: 5px;
-  margin-bottom: 1px;
-  text-align: left;
-  color: #171e27;
-  cursor:
-  pointer;
-  transition:all .2s
-}
-
-.BotonTV_SeñalesDMC:hover{
-  background-color: rgb(4, 0, 255, 0.2);
-  border-color: #0000df;
-  border-width: 3px;
-  font-weight: bold;
-  color:#0000df;
-}
-
-.BotonRecargarPagina2{
-  display: inline-block;
-  position: absolute;
-  left: 1%;
-  background:rgba(0, 0, 0, 0);
-  margin: 0px;
-  width: auto;
-  height: 20px;
-  line-height: 20px;
-  font-size: 10px;
-  padding: 0px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  color: #ffffff00;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-.BotonRecargarPagina2:hover{
-  background:#ff5e00;
-  color:#fff
-}
-
+/*BOTON AZUL PARA RECARGAR PAGINA - NO BORRAR*/
 .FondoBotonRecargar{
   background: rgb(0, 0, 0, 0.0);
   margin: 0 auto;
@@ -2137,6 +908,7 @@ background-image: linear-gradient(
   top: 1.5em;
 }
 
+/*BOTON AZUL PARA RECARGAR PAGINA - NO BORRAR*/
 .TextoBotonRecargar{
   background: rgba(0, 0, 0, 0.55);
   backdrop-filter: blur(3px);
@@ -2161,6 +933,7 @@ background-image: linear-gradient(
   color:rgb(0, 0, 0)
 }
 
+/*BOTON AZUL PARA RECARGAR PAGINA - NO BORRAR*/
 .TextoBotonRecargar2{
   display: inline-block;
   background:rgba(0, 0, 0, 0);
@@ -2178,6 +951,7 @@ background-image: linear-gradient(
   pointer;
   transition:all .2s
 }
+
 .TextoBotonRecargar2:hover{
   backdrop-filter: blur(5px);
   background-color: rgb(44, 0, 238);
@@ -3752,17 +2526,26 @@ background-image: linear-gradient(
   background-color:#002a79;
 }
 
+.TituloEstacionesChile{
+  background-color: #003DD5;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor:
+  pointer;
+  transition:all .5s
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.TituloEstacionesChile:hover {
+  background-color: #001081;
+  font-weight: bold;
+  color: #FFFFFF;
+}
