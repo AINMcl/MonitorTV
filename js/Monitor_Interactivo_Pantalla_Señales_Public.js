@@ -206,10 +206,6 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>TV DIPUTADOS',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=true&mute=1'
     }, {
-        'titulo': 'CONVENCION CONSTITUCIONAL',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional.svg"></img>',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCRlIWVAxQdAnCl4D4UR9r3Q&autoplay=true&mute=1'
-    }, {
         'titulo': 'REUTERS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>REUTERS',
         'url': 'SeñalREUTERS.html'
@@ -1111,58 +1107,6 @@ let LosCanales = [
 
     
     {
-        'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 1',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_1.svg"></img>',
-        'url': 'Senal/ConvencionConstitucional/Senal1.html'
-    }, {
-        'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 2',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_2.svg"></img>',
-        'url': 'Senal/ConvencionConstitucional/Senal2.html'
-    }, {
-        'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 3',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_3.svg"></img>',
-        'url': 'Senal/ConvencionConstitucional/Senal3.html'
-    }, {
-        'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 4',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_4.svg"></img>',
-        'url': 'Senal/ConvencionConstitucional/Senal4.html'
-    }, {
-        'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 5',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_5.svg"></img>',
-        'url': 'Senal/ConvencionConstitucional/Senal5.html'
-    }, {
-        'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 6',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_6.svg"></img>',
-        'url': 'Senal/ConvencionConstitucional/Senal6.html'
-    }, {
-        'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 7',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_7.svg"></img>',
-        'url': 'Senal/ConvencionConstitucional/Senal7.html'
-    },{
-        'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 8',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_8.svg"></img>',
-        'url': 'Senal/ConvencionConstitucional/Senal8.html'
-    }, {
-        'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 9',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_9.svg"></img>',
-        'url': 'Senal/ConvencionConstitucional/Senal9.html'
-    }, {
-        'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 10',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_10.svg"></img>',
-        'url': 'Senal/ConvencionConstitucional/Senal10.html'
-    }, {
-        'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 11',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_11.svg"></img>',
-        'url': 'Senal/ConvencionConstitucional/Senal11.html'
-    }, {
-        'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 12',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_12.svg"></img>',
-        'url': 'Senal/ConvencionConstitucional/Senal12.html'
-    }, {
-        'titulo': 'CONVENCION CONSTITUCIONAL SEÑAL 13',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Convencion_Constitucional_Señal_13.svg"></img>',
-        'url': 'Senal/ConvencionConstitucional/Senal13.html'
-    }, {
         'titulo': 'TRIBUNAL CONSTITUCIONAL',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>T. CONTITUCIONAL',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=true&mute=1'
@@ -1318,6 +1262,14 @@ let LosCanales = [
         //'titulo': 'CERRILLOS',
         //'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>CERRILLOS<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         //'url': 'SeñalCAMARA_LEDRIUM_CERRILLOS.html'
+    },{
+        'titulo': 'PEÑALOLEN NORTE',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PEÑALOLEN NORTE<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span><span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'url': 'SeñalCAMARA_LEDRIUM_PENALOLEN_NORTE.html'
+    },{
+        'titulo': 'PEÑALOLEN SUR',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PEÑALOLEN SUR<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span><span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'url': 'SeñalCAMARA_LEDRIUM_PENALOLEN_SUR.html'
     },{
         'titulo': 'COSTANERA CENTER',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>COSTANERA CENTER<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
