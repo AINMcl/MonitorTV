@@ -2593,28 +2593,3 @@ background-image: linear-gradient(
   background-color: #001eff;
   box-shadow: 0px 0px 15px #2E4053;
 }
-
-.TextoBotonEnlaceHome{
-  background: rgba(0, 0, 0, 0.55);
-  backdrop-filter: blur(3px);
-  padding-left: 10px;
-  padding-right: 10px;
-  width: auto;
-  height: auto;
-  border-radius: 3px;
-  position: relative;
-  font-family: 'Assistant', sans-serif;
-  font-size: 10px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-  display:inline-table;
-  cursor:
-  pointer;
-  transition:all .5s
-}
-
-.TextoBotonEnlaceHome:hover{
-  background:#ffffff;
-  color:rgb(0, 0, 0)
-}
