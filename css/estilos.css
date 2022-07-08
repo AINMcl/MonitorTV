@@ -577,11 +577,11 @@ color: #FFFFFF;
   vertical-align: middle;
   z-index: 1;
   will-change: opacity, transform;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
 }
 
 .waves-effect .waves-ripple {
@@ -643,6 +643,10 @@ color: #FFFFFF;
 
 .waves-effect.waves-azulclaro .waves-ripple {
   background-color: rgba(0, 4, 255, 0.349);
+}
+
+.waves-effect.waves-azulclaro2 .waves-ripple {
+  background-color: #0048ff8e;
 }
 
 .waves-effect.waves-verde .waves-ripple {
@@ -1318,8 +1322,8 @@ background-image: linear-gradient(
 }
 
 .BotonActualizacionesIr{
-  background-color: #001ae0;
-  border: solid 2px #001ae0;
+  background-color: #0048ff;
+  border: solid 2px #0048ff;
   margin: 0px;
   width: auto;
   height: auto;
@@ -1336,10 +1340,10 @@ background-image: linear-gradient(
 }
 
 .BotonActualizacionesIr:hover{
-  color: #001ae0;
+  color: #0048ff;
   background-color: #ffffff;
-  border: solid 2px #001ae0;
-  box-shadow: 0px 0px 10px #001ae0;
+  border: solid 2px #0048ff;
+  box-shadow: 0px 0px 20px #2e4053bb;
 }
 
 
@@ -2298,13 +2302,13 @@ background-image: linear-gradient(
   color: #2E4053;
   border-radius: 5px;
   padding-left: 2%;
-  width: 30%;
+  width: 25%;
   height: 70px;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Assistant', sans-serif;
   font-weight: bold;
   margin-bottom: 15px;
-  margin-right: 50px;
+  margin-right: 20px;
   cursor:
   pointer;
   transition:all .2s
@@ -2475,11 +2479,12 @@ background-image: linear-gradient(
 
 .BotonActualizacionesGrande:hover{
   color:#ffffff;
-  background-color:#002a79;
+  background-color:#001eff;
+  box-shadow: 0px 0px 20px #2e4053bb;
 }
 
 .TituloEstacionesChile{
-  background-color: #003DD5;
+  background-color: #0048ff;
   height: 50px;
   margin-top: 10px;
   margin-left: 5%;
@@ -2527,7 +2532,7 @@ background-image: linear-gradient(
 }
 
 .NotaLinkGrande{
-  background-color: #003DD5;
+  background-color: #0048ff;
   height: 50px;
   margin-top: 10px;
   margin-left: 5%;
@@ -2550,7 +2555,7 @@ background-image: linear-gradient(
   color: #FFFFFF;
 }
 
-.TituloEntradaHome{
+.BarraTituloConIcono{
   display: flex;
   color: #000000;
   margin-top: 10px;
@@ -2570,7 +2575,7 @@ background-image: linear-gradient(
 
 .BotonEnlaceHome{
   display: flex;
-  background-color: #003DD5;
+  background-color: #0048ff;
   color: #FFFFFF;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -2591,5 +2596,5 @@ background-image: linear-gradient(
 .BotonEnlaceHome:hover{
   color: #ffffff;
   background-color: #001eff;
-  box-shadow: 0px 0px 15px #2E4053;
+  box-shadow: 0px 0px 20px #2e4053bb;
 }
