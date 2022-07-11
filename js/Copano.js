@@ -126,10 +126,6 @@ var App = {
             'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_GOB.svg"></img>GOBIERNO DE CHILE',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPRESIDENCIA_3.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PRESIDENCIA</div></div></div>'
         },
-        'PDTE_BORIC': {
-            'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_GOB.svg"></img>PDTE. BORIC',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC0gQkOPt6VVvJGO9mDy0ikw&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PRESIDENCIA</div></div></div>'
-        },
         'SENADO_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>TV SENADO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalSENADO_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TV SENADO</div></div></div>'
@@ -145,10 +141,6 @@ var App = {
         'DIPUTADOS_YouTube': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>DIPUTADOS TV',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">DIPUTADOS TV</div></div></div>'
-        },
-        'CONVENCION_YouTube': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>CONVENCION CONSTITUCIONAL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCRlIWVAxQdAnCl4D4UR9r3Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CONVENCION CONSTITUCIONAL</div></div></div>'
         },
 
         //MEDIABANCO
