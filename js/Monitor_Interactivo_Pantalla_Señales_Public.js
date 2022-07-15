@@ -60,22 +60,34 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVMAS.svg"></img>',
         'url': 'SeñalTVMAS.html'
     }, {
-        'titulo': 'UCV TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCVTV.svg"></img>',
-        'url': 'SeñalUCVTV.html'
-    }, {
-        'titulo': 'U CHILE TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCHILETV_2.svg"></img>',
-        'url': 'SeñalUCHILETV.html'
+        'titulo': 'TV CHILE',
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVCHILE.svg"></img>',
+        'url': 'SeñalTVCHILE.html'
     }, {
         'titulo': 'NTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NTV.svg"></img>',
         'url': 'SeñalNTV.html'
     }, {
+        'titulo': 'UCV TV',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCVTV.svg"></img>',
+        'url': 'SeñalUCVTV.html'
+    }, {
+        'titulo': 'UCV TV 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCVTV.svg"></img> SEÑAL 2',
+        'url': 'SeñalUCVTV2.html'
+    }, {
+        'titulo': 'CHV CONTIGO',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>CHV CONTIGO',
+        'url': 'SeñalCHVCONTIGO_PLUTOTV.html'
+    }, {
         'titulo': 'WAPP TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/LogoTV_WappTV.svg"></img>',
         'url': 'SeñalWAPPTV.html'
     },{
+        'titulo': 'U CHILE TV',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCHILETV_2.svg"></img>',
+        'url': 'SeñalUCHILETV.html'
+    }, {
         'titulo': '24 HORAS 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL 1',
         'url': 'SeñalInterna24H_1.html'
@@ -142,6 +154,10 @@ let LosCanales = [
         'titulo': 'RADIO LA CLAVE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_RadioLaClave.svg"></img>',
         'url': 'SeñalRADIO_LACLAVE.html'
+    }, {
+        'titulo': 'SUBELA RADIO',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>SUBELA RADIO',
+        'url': 'SeñalRADIO_SUBELA.html'
     }, {
         'titulo': 'RADIO TIEMPO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO TIEMPO',
