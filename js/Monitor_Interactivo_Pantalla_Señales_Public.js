@@ -62,11 +62,11 @@ let LosCanales = [
     }, {
         'titulo': 'TV CHILE',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVCHILE.svg"></img>',
-        'url': 'SeñalTVCHILE.html'
+        'url': '../Monitores/Senal/WEB/SeñalTV_CHILE.html'
     }, {
         'titulo': 'NTV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NTV.svg"></img>',
-        'url': 'SeñalNTV.html'
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NTV.svg"></img>',
+        'url': '../Monitores/Senal/WEB/SeñalNTV.html'
     }, {
         'titulo': 'UCV TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCVTV.svg"></img>',

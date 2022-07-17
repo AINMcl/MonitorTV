@@ -1321,6 +1321,64 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 10px #FF0000;
 }
 
+.BotonCardHomeAzul{
+  display:inline-table;
+  background-color: #0048ff;
+  border: solid 2px #0048ff;
+  margin-left: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonCardHomeAzul:hover{
+  color: #0048ff;
+  height: 30px;
+  background-color: #ffffff;
+  border: solid 2px #0048ff;
+  box-shadow: 0px 0px 10px #0048ff;
+}
+
+.BotonCardHomeVerde2{
+  display:inline-table;
+  background-color: #1ea88b;
+  border: solid 2px #1ea88b;
+  margin-left: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonCardHomeVerde2:hover{
+  color: #1ea88b;
+  height: 30px;
+  background-color: #ffffff;
+  border: solid 2px #1ea88b;
+  box-shadow: 0px 0px 10px #1ea88b;
+}
+
 .BotonActualizacionesIr{
   background-color: #0048ff;
   border: solid 2px #0048ff;
@@ -2594,6 +2652,31 @@ background-image: linear-gradient(
 }
 
 .BotonEnlaceHome:hover{
+  color: #ffffff;
+  background-color: #001eff;
+  box-shadow: 0px 0px 20px #2e4053bb;
+}
+
+.BotonIrHomeAzul{
+  background-color: #0048ff;
+  border-color: #0000ff;
+  display:inline-table;
+  margin: 5px;
+  width: 250px;
+  height: auto;
+  font-size: 20PX;
+  border-radius: 9px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonIrHomeAzul:hover{
   color: #ffffff;
   background-color: #001eff;
   box-shadow: 0px 0px 20px #2e4053bb;
