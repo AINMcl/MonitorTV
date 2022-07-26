@@ -88,10 +88,6 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_MEGAPLUS.svg"></img>',
         'url': 'SeñalMEGA_PLUS.html'
     }, {
-        'titulo': 'CHV CONTIGO',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="https://images.pluto.tv/channels/62aa5740a47b6c000769f407/colorLogoPNG.png"></img>CHV CONTIGO',
-        'url': 'SeñalCHVCONTIGO_PLUTOTV.html'
-    }, {
         'titulo': 'WAPP TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/LogoTV_WappTV.svg"></img>',
         'url': 'SeñalWAPPTV.html'
@@ -99,6 +95,14 @@ let LosCanales = [
         'titulo': 'U CHILE TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCHILETV_2.svg"></img>',
         'url': 'SeñalUCHILETV.html'
+    }, {
+        'titulo': 'CHV CONTIGO',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>CHV CONTIGO',
+        'url': 'SeñalCHVCONTIGO_PLUTOTV.html'
+    }, {
+        'titulo': 'DEPORTES 13',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>DEPORTES 13',
+        'url': 'SeñalCANAL13_DEPORTES.html'
     }, {
         'titulo': '24 HORAS 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL 1',
