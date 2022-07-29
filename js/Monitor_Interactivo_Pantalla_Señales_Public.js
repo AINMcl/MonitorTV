@@ -781,14 +781,6 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/au.svg" title="AUSTRALIA"></img>ABC NEWS',
         'url': 'SeñalABC_NEWS_AU.html'
     }, {
-        'titulo': 'UNIVISION NOTICIAS',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>UNIVISION NOTICIAS',
-        'url': 'SeñalUNIVISION_NOTICIAS.html'
-    }, {
-        'titulo': 'WEATHER CHANNEL ESPAÑOL',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>WEATHER CHANNEL ESPAÑOL',
-        'url': 'SeñalWEATHERCHANNEL_ESP.html'
-    }, {
         'titulo': 'CSPAN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CSPAN',
         'url': 'SeñaCSPAN.html'
