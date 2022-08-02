@@ -1,8 +1,8 @@
 let LosCanales = [
     {
-        'titulo': 'BARRAS 1',
+        'titulo': 'CNN ESP',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>YOUTUBE TEST',
-        'url': 'SeñalBARRAS_TV_1.html'
+        'url': 'SeñalCNN_ESPAÑOL_1.html'
     }, {
         'titulo': '24 PLAY',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24PLAY.svg"></img>',
