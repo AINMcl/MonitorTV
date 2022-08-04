@@ -24,17 +24,9 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
         'url': 'SeñalT13_ENVIVO.html'
     }, {
-        'titulo': 'TVN',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>',
-        'url': 'SeñalTVN.html'
-    }, {
         'titulo': 'MEGA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_MEGA.svg"></img>',
         'url': 'SeñalMEGA.html'
-    }, {
-        'titulo': 'CHV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CHV.svg"></img>',
-        'url': 'SeñalCHV.html'
     }, {
         'titulo': 'LA RED',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_LA_RED.svg"></img>',
@@ -59,10 +51,6 @@ let LosCanales = [
         'titulo': 'TV+',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVMAS.svg"></img>',
         'url': 'SeñalTVMAS.html'
-    }, {
-        'titulo': 'TV CHILE',
-        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVCHILE.svg"></img>',
-        'url': '../Monitores/Senal/WEB/SeñalTV_CHILE.html'
     }, {
         'titulo': 'NTV',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NTV.svg"></img>',
