@@ -893,6 +893,30 @@ background-image: linear-gradient(
   color:rgb(255, 255, 255)
 }
 
+/*NUEVO BOTON RECARGAR SEÑAL*/
+.BotonCuadradoRecargarSeñalTexto{
+  display: flex;
+  position: absolute;
+  background-color: #0004ff00;
+  color: #ffffff00;
+  align-items: center;
+  justify-content: center;
+  top: 1%;
+  right: 1%;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  border-radius: 5px;
+  cursor:
+  pointer;
+  transition:all .3s
+}
+
+.BotonCuadradoRecargarSeñalTexto:hover{
+  background-color:#0004ff;
+  color:rgb(255, 255, 255)
+}
+
 .BotonSeleccionarSeñales2:hover{
   background:#ff5e00;
   color:#fff
