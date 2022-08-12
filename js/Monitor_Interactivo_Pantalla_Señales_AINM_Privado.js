@@ -499,6 +499,10 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>CNN INTERNATIONAL LIVE EVENT 1',
         'url': 'SeñalCNNI_LIVE_EVENT_1.html'
     }, {
+        'titulo': '24H TVE LIVE 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 1',
+        'url': 'Señal24H_TVE_OCASIONAL_1.html'
+    }, {
         'titulo': '24H TVE LIVE 2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 2',
         'url': 'Señal24H_TVE_OCASIONAL_2.html'

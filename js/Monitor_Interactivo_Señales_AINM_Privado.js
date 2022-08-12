@@ -487,6 +487,10 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN INTERNATIONAL LIVE EVENT 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNNI_LIVE_EVENT_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CNNI LIVE EVENT 1</div></div></div>'
         },
+        '24H_TVE_LIVE_OCASIONAL_1': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 1',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal24H_TVE_OCASIONAL_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">24H TVE LIVE 1</div></div></div>'
+        },
         '24H_TVE_LIVE_OCASIONAL_2': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Señal24H_TVE_OCASIONAL_2.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">24H TVE LIVE 2</div></div></div>'

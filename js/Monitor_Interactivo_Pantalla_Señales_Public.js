@@ -422,6 +422,26 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>CNN LIVE EVENT 5',
         'url': 'SeñalCNN_LIVE_EVENT_5.html'
     }, {
+        'titulo': '24H TVE LIVE 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 1',
+        'url': 'Señal24H_TVE_OCASIONAL_1.html'
+    }, {
+        'titulo': '24H TVE LIVE 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 2',
+        'url': 'Señal24H_TVE_OCASIONAL_2.html'
+    }, {
+        'titulo': '24H TVE LIVE 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 3',
+        'url': 'Señal24H_TVE_OCASIONAL_3.html'
+    }, {
+        'titulo': '24H TVE LIVE 4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 4',
+        'url': 'Señal24H_TVE_OCASIONAL_4.html'
+    }, {
+        'titulo': '24H TVE LIVE 5',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 5',
+        'url': 'Señal24H_TVE_OCASIONAL_5.html'
+    }, {
         'titulo': 'RTVE OCASIONAL 1',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>RTVE LIVE OCASIONAL 1',
         'url': 'SeñalRTVEOCASIONAL_1.html'
