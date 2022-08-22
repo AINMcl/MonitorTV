@@ -153,6 +153,10 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_RadioLaClave.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIO_LACLAVE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO LA CLAVE</div></div></div>'
         },
+        'CNN_CHILE_AUDIO': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CNN.svg"></img>CHILE (AUDIO)<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNNCHILE_Audio.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CNN CHILE AUDIO</div></div></div>'
+        },
         'SUBELA_RADIO': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>SUBELA RADIO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIO_SUBELA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">SUBELA RADIO</div></div></div>'
@@ -160,6 +164,14 @@ var App = {
         'TIEMPO': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO TIEMPO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIO_TIEMPO.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO TIEMPO</div></div></div>'
+        },
+        'PAUTA': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO PAUTA<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIO_PAUTA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO PAUTA</div></div></div>'
+        },
+        'PAUTA2': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO PAUTA 2<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRADIO_PAUTA_2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO PAUTA 2</div></div></div>'
         },
         'PUDAHUEL': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO PUDAHUEL',

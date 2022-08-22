@@ -147,6 +147,10 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_RadioLaClave.svg"></img>',
         'url': 'SeñalRADIO_LACLAVE.html'
     }, {
+        'titulo': 'CNN CHILE AUDIO',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CNN.svg"></img>CHILE (AUDIO)',
+        'url': 'SeñalCNNCHILE_Audio.html'
+    }, {
         'titulo': 'SUBELA RADIO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>SUBELA RADIO',
         'url': 'SeñalRADIO_SUBELA.html'
@@ -154,6 +158,14 @@ let LosCanales = [
         'titulo': 'RADIO TIEMPO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO TIEMPO',
         'url': 'SeñalRADIO_TIEMPO.html'
+    }, {
+        'titulo': 'RADIO PAUTA',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO PAUTA',
+        'url': 'SeñalRADIO_PAUTA.html'
+    }, {
+        'titulo': 'RADIO PAUTA',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO PAUTA 2',
+        'url': 'SeñalRADIO_PAUTA_2.html'
     }, {
         'titulo': 'RADIO PUDAHUEL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO PUDAHUEL',
