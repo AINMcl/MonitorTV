@@ -677,19 +677,17 @@ color: #FFFFFF;
   background-color: #ff660094;
 }
 
-
 .BotonTV_Señales{
   background-color: #ffffff;
   font-family: 'Assistant', sans-serif;
   font-weight: normal;
-  border-color: #2E4053;
+  border-color: #171e27;
   height: 45px;
-  padding-left: 15px;
   border-width: 2px;
   border-radius: 5px;
   margin-bottom: 1px;
   text-align: left;
-  color: #2E4053;
+  color: #171e27;
   cursor:
   pointer;
   transition:all .2s
@@ -714,7 +712,6 @@ color: #FFFFFF;
   color: #129700;
   border-width: 2px;
   border-radius: 5px;
-  padding-left: 15px;
   box-shadow: 0px 2px 10px #129700;
   text-align: left;
   cursor:
@@ -1808,9 +1805,6 @@ background-image: linear-gradient(
   color:#fff
 }
 
-
-/*BOTON MENU DESPLEGABLE*/
-
 .ContenedorBotonMenuDesplegable{
   position: absolute;
   top: 1%;
@@ -1826,18 +1820,18 @@ background-image: linear-gradient(
   backdrop-filter: blur(5px);
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   margin: 0;
-  border-radius: 5px;
+  border-radius: 100%;
   cursor:
   pointer;
   transition:all .3s
 }
 
 .BotonMenuDesplegable:hover{
-  background-color:#ff00007e;
-  color:rgb(255, 255, 255)
+  color: #ffffff;
+  background:rgb(255, 0, 0);
 }
 
 .BotonMenuDesplegablePantallaCompleta{
@@ -2218,9 +2212,8 @@ background-image: linear-gradient(
 .CuerpoMenuDesplegable{
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px;
   font-family: 'Assistant', sans-serif;
-  background-color: #ff000000;
+  background-color: #ffffff;
   width: 100%;
   height: 85%;
   float: left;
@@ -2275,6 +2268,24 @@ background-image: linear-gradient(
   height: auto;
 }
 
+.Form_Stream_Por_Fila{
+  display: flex;
+  background-color: #2E4053;
+  border: solid 2px #2E4053;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 5px #9B9B9B;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
+  width: 100%;
+  height: 90px;
+  line-height: 45px;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+}
+
 .BotonMenuDesplegableTituloMenu{
   display: flex;
   background-color: #F2F2F2;
@@ -2312,29 +2323,9 @@ background-image: linear-gradient(
   background-color: #FFFFFF;
 }
 
-
-
-.Form_Stream_Por_Fila{
-  display: flex;
-  background-color: #2E4053;
-  border: solid 2px #2E4053;
-  color: #FFFFFF;
-  box-shadow: 0px 2px 5px #9B9B9B;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  padding-left: 10px;
-  width: 100%;
-  height: 90px;
-  line-height: 45px;
-  font-size: 17px;
-  border-radius: 5px;
-  font-weight: bold;
-  align-items: center;
-}
-
 .CuerpoTituloMenuAjustes{
   display: flex;
-  /*background-color: #FFFFFF;*/
+  background-color: #FFFFFF;
   /*border: solid 2px #FFFFFF;*/
   color: #000000;
   margin-left: 0px;
@@ -2743,14 +2734,6 @@ background-image: linear-gradient(
 }
 
 .MenuFlotanteRedondeadoCentro{
-  margin-left: 33%;
-  margin-right: 33%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  border-radius: 10px;
-}
-
-.MenuFlotanteRedondeadoCentro2{
   margin-left: 33%;
   margin-right: 33%;
   margin-top: 2%;
