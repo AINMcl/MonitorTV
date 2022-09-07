@@ -187,9 +187,9 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | RADIO LAS NIEVES',        
         'url': 'SeñalRADIOLASNIEVES.html'
     }, {
-        'titulo': 'RADIO MILENARIA',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | RADIO MILENARIA',
-        'url': 'SeñalRADIO_MILENARIA.html'
+        'titulo': 'RADIO PANORAMICA INFORMATIVA',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">mic</span>AYSEN | RADIO PANORAMICA INFORMATIVA',
+        'url': 'SeñalRADIO_PANORAMICAINFORMATIVA.html'
     },{
         'titulo': 'RADIO GENIAL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | RADIO GENIAL',
@@ -198,6 +198,14 @@ let LosCanales = [
         'titulo': 'RADIO CANAL SUR PATAGONIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | CANAL SUR PATAGONIA',
         'url': 'SeñalRADIO_CANALSURPATAGONIA.html'
+    }, {
+        'titulo': 'PATAGONIA RADIO',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>LOS LAGOS | PATAGONIA RADIO',
+        'url': 'SeñalRADIO_PATAGONIA_RADIO.html'
+    }, {
+        'titulo': 'RADIO POLAR',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>MAGALLANES | RADIO POLAR',
+        'url': 'SeñalRADIO_POLAR.html'
     },
     
     //SEÑALES GOBIERNO
