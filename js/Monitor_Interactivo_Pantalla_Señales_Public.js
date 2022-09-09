@@ -578,6 +578,10 @@ let LosCanales = [
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>THE SUN',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCIzXayRP7-P0ANpq-nD-h5g&autoplay=true&mute=1'
     }, {
+        'titulo': 'RoyalChannel_YT',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>THE ROYAL FAMILY CHANNEL',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCCvgLV2Ixb8KCemj-UtXZ-g&autoplay=true&mute=1'
+    }, {
         'titulo': 'TN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>TN',
         'url': 'SeñalTN.html'
