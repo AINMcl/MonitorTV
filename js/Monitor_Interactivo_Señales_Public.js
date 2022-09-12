@@ -381,6 +381,42 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 10',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalABCNEWS_LIVE_10.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ABC NEWS LIVE 10</div></div></div>'
         },
+        'BBC_NEWS_LIVE_1': {
+            'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 1',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalBBCNEWS_LIVE_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">BBC NEWS LIVE 1</div></div></div>'
+        },
+        'BBC_NEWS_LIVE_2': {
+            'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 2',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalBBCNEWS_LIVE_2.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">BBC NEWS LIVE 2</div></div></div>'
+        },
+        'BBC_NEWS_LIVE_3': {
+            'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 3',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalBBCNEWS_LIVE_3.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">BBC NEWS LIVE 3</div></div></div>'
+        },
+        'BBC_NEWS_LIVE_4': {
+            'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 4',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalBBCNEWS_LIVE_4.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">BBC NEWS LIVE 4</div></div></div>'
+        },
+        'BBC_NEWS_LIVE_5': {
+            'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 5',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalBBCNEWS_LIVE_5.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">BBC NEWS LIVE 5</div></div></div>'
+        },
+        'BBC_NEWS_LIVE_6': {
+            'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 6',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalBBCNEWS_LIVE_6.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">BBC NEWS LIVE 6</div></div></div>'
+        },
+        'BBC_NEWS_LIVE_7': {
+            'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 7',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalBBCNEWS_LIVE_7.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">BBC NEWS LIVE 7</div></div></div>'
+        },
+        'BBC_NEWS_LIVE_8': {
+            'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 8',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalBBCNEWS_LIVE_8.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">BBC NEWS LIVE 8</div></div></div>'
+        },
+        'BBC_NEWS_LIVE_9': {
+            'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 9',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalBBCNEWS_LIVE_9.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">BBC NEWS LIVE 9</div></div></div>'
+        },
         'CNN_NEWS_SOURCE_LIVE_1': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN NEWS SOURCE LIVE 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCNN_NEWS_SOURCE_LIVE_1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CNN NEWS SOURCE 1</div></div></div>'

@@ -378,6 +378,42 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 10',
         'url': 'SeñalABCNEWS_LIVE_10.html'
     }, {
+        'titulo': 'BBC NEWS LIVE 1',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 1',
+        'url': 'SeñalBBCNEWS_LIVE_1.html'
+    }, {
+        'titulo': 'BBC NEWS LIVE 2',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 2',
+        'url': 'SeñalBBCNEWS_LIVE_2.html'
+    }, {
+        'titulo': 'BBC NEWS LIVE 3',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 3',
+        'url': 'SeñalBBCNEWS_LIVE_3.html'
+    }, {
+        'titulo': 'BBC NEWS LIVE 4',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 4',
+        'url': 'SeñalBBCNEWS_LIVE_4.html'
+    }, {
+        'titulo': 'BBC NEWS LIVE 5',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 5',
+        'url': 'SeñalBBCNEWS_LIVE_5.html'
+    }, {
+        'titulo': 'BBC NEWS LIVE 6',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 6',
+        'url': 'SeñalBBCNEWS_LIVE_6.html'
+    }, {
+        'titulo': 'BBC NEWS LIVE 7',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 7',
+        'url': 'SeñalBBCNEWS_LIVE_7.html'
+    }, {
+        'titulo': 'BBC NEWS LIVE 8',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 8',
+        'url': 'SeñalBBCNEWS_LIVE_8.html'
+    }, {
+        'titulo': 'BBC NEWS LIVE 9',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 9',
+        'url': 'SeñalBBCNEWS_LIVE_9.html'
+    }, {
         'titulo': 'CNN NEWSOURCE LIVE 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CNN NEWSOURCE LIVE 1',
         'url': 'SeñalCNN_NEWS_SOURCE_LIVE_1.html'
