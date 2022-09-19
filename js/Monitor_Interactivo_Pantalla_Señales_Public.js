@@ -434,24 +434,24 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>CNN LIVE EVENT 5',
         'url': 'SeñalCNN_LIVE_EVENT_5.html'
     }, {
-        'titulo': '24H TVE LIVE 1',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 1',
+        'titulo': '+24 RTVE SEÑAL 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 1',
         'url': 'Señal24H_TVE_OCASIONAL_1.html'
     }, {
-        'titulo': '24H TVE LIVE 2',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 2',
+        'titulo': '+24 RTVE SEÑAL 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 2',
         'url': 'Señal24H_TVE_OCASIONAL_2.html'
     }, {
-        'titulo': '24H TVE LIVE 3',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 3',
+        'titulo': '+24 RTVE SEÑAL 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 3',
         'url': 'Señal24H_TVE_OCASIONAL_3.html'
     }, {
-        'titulo': '24H TVE LIVE 4',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 4',
+        'titulo': '+24 RTVE SEÑAL 4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 4',
         'url': 'Señal24H_TVE_OCASIONAL_4.html'
     }, {
-        'titulo': '24H TVE LIVE 5',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>24H TVE LIVE 5',
+        'titulo': '+24 RTVE SEÑAL 5',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 5',
         'url': 'Señal24H_TVE_OCASIONAL_5.html'
     }, {
         'titulo': 'RTVE OCASIONAL 1',
