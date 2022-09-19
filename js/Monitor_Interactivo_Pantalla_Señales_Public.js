@@ -698,6 +698,14 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>FORO TV',
         'url': 'SeñalFOROTV_MEXICO.html'
     }, {
+        'titulo': 'MILENO TV',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>MILENO TV',
+        'url': 'SeñalMILENIO_TV.html'
+    }, {
+        'titulo': 'ADN 40',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>ADN 40',
+        'url': 'SeñalADN40.html'
+    }, {
         'titulo': 'EURONEWS ESPAÑOL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ESPAÑOL',
         'url': 'SeñalEURONEWS_ESPANOL.html'
