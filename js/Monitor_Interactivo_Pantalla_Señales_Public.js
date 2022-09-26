@@ -679,7 +679,7 @@ let LosCanales = [
         'url': 'SeñalFRANCE24_ENGLISH.html'
     }, {
         'titulo': 'RAI NEWS 24',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/it.svg" title="ITALIA"></img>RAI NEWS 24<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/it.svg" title="ITALIA"></img>RAI NEWS 24<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'url': 'SeñalRAI_NEWS24.html'
     }, {
         'titulo': '24H TVE',
@@ -767,11 +767,11 @@ let LosCanales = [
         'url': 'SeñalSKY_NEWS.html'
     }, {
         'titulo': 'BBC NEWS',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>BBC NEWS<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>BBC NEWS<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'url': 'SeñalBBCNEWS.html'
     }, {
         'titulo': 'BBC NEWS ARABIC',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>BBC NEWS ARABIC<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>BBC NEWS ARABIC<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'url': 'SeñalBBCNEWS_ARABIC.html'
     }, {
         'titulo': 'ABC NEWS',
@@ -1073,19 +1073,19 @@ let LosCanales = [
     }, {
         //RUSIA
         'titulo': 'RT',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img><span style="margin-right: 10px;">RT</span><span style="color: #FF0000; margin-right: 3px; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span>',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img><span style="margin-right: 10px;">RT</span><span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #FF0000; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCpwvZwUam-URkxB7g4USKpg&autoplay=true&mute=1'
     }, {
         'titulo': 'RT ESPAÑOL',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img><span style="margin-right: 10px;">RT ESPAÑOL</span><span style="color: #FF0000; margin-right: 3px; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span>',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img><span style="margin-right: 10px;">RT ESPAÑOL</span><span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #FF0000; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCEIhICHOQOonjE6V0SLdrHQ&autoplay=true&mute=1'
     }, {
         'titulo': 'RUPTLY',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><span style="margin-right: 10px;"><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RUPTLY</span><span style="color: #FF0000; margin-right: 3px; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span>',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><span style="margin-right: 10px;"><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RUPTLY</span><span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #FF0000; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC5aeU5hk31cLzq_sAExLVWg&autoplay=true&mute=1'
     },{
         'titulo': 'SPUTNIK',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><span style="margin-right: 10px;"><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>SPUTNIK</span><span style="color: #FF0000; margin-right: 3px; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span>',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><span style="margin-right: 10px;"><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>SPUTNIK</span><span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #FF0000; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCI4lx9retCL7_cBmmceEQ8g&autoplay=true&mute=1'
     },{
         //CHINA

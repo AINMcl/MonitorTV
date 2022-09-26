@@ -1,7 +1,6 @@
 
 var size = 4;
-///<span style="margin-left: 10px; color: #39AA1A; margin-right: 3px; font-size: 20px" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A; font-size: 13px;">NUEVO</span>///
-//////
+///<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>///
 ///6 = 2 PANTALLAS HORIZONTALMENTE///
 ///3 = 4 PANTALLAS HORIZONTALMENTE///
 ///4 = 3 PANTALLAS HORIZONTALMENTE///
@@ -679,7 +678,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalFRANCE24_ENGLISH.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">FRANCE24 ENGLISH</div></div></div>'
         },
         'RAI_NEWS24': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/it.svg" title="FRANCIA"></img>RAI NEWS 24',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/it.svg" title="FRANCIA"></img>RAI NEWS 24<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalRAI_NEWS24.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RAI NEWS 24</div></div></div>'
         },
         '24HTVE': {
@@ -1060,19 +1059,19 @@ var App = {
         },
         //RUSIA
         'RT_YT_2': {
-            'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT<span style="color: #FF0000; margin-right: 3px; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span>',
+            'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT<span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #FF0000; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCpwvZwUam-URkxB7g4USKpg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RT</div></div></div>'
         },
         'RT_ENVIVO_YT': {
-            'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT ESPAÑOL<span style="color: #FF0000; margin-right: 3px; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span>',
+            'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT ESPAÑOL<span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #FF0000; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCEIhICHOQOonjE6V0SLdrHQ&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RT ESPAÑOL</div></div></div>'
         },
         'RUPTLY_YT': {
-            'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><span style="margin-right: 10px;"><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RUPTLY</span><span style="color: #FF0000; margin-right: 3px; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span>',
+            'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RUPTLY<span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #FF0000; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC5aeU5hk31cLzq_sAExLVWg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RUPTLY</div></div></div>'
         },
         'SPUTNIK_YT': {
-            'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><span style="margin-right: 10px;"><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>SPUTNIK</span><span style="color: #FF0000; margin-right: 3px; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span>',
+            'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>SPUTNIK<span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #FF0000; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCI4lx9retCL7_cBmmceEQ8g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">SPUTNIK</div></div></div>'
         },
         //CHINA
