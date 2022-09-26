@@ -52,11 +52,18 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
 
 <script src="Reproductor.js" type="text/javascript"></script>
 
+<!--DASH-->
+<script type="text/javascript" src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+
 <script>
 	var player = new Playerjs({
 		id:"Reproductor",
-		file:"https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/nonuk/hls_pc/aks/silver_stream_01.m3u8?DVR",
-		//file:"https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/nonuk/hls_pc/cfs/silver_stream_01.m3u8?DVR",
+		file:"https://vs-cmaf-push-ww.live.cf.md.bbci.co.uk/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/pc_hd_abr_v2.mpd?DVR",
+		//file:"https://ve-hls-ww-live.akamaized.net/pool_901/live/nonuk/silver_stream_02/silver_stream_02.isml/pc_hd_abr_v3.m3u8?DVR",
+		//file:"https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/nonuk/hls_pc/cfs/silver_stream_02.m3u8?DVR",
+
+		//file:"https://ve-hls-ww-live.akamaized.net/pool_901/live/nonuk/silver_stream_05/silver_stream_05.isml/pc_hd_abr_v3.m3u8?DVR",
+		//file:"http://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/hdtv/ak/news_video_4.m3u8?DVR",
 		autoplay:1
 		});
 </script>
