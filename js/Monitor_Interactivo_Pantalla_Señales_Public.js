@@ -821,11 +821,23 @@ let LosCanales = [
     
     //NOTICIAS YOUTUBE
         
-        //BRASIL
-        'titulo': 'CNN BRASIL',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>CNN BRASIL',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCvdwhh_fDyWccR42-rReZLw&autoplay=true&mute=1'
-    }, {
+         //BRASIL
+         'titulo': 'CNN BRASIL',
+         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>CNN BRASIL',
+         'url': 'https://www.youtube.com/embed/live_stream?channel=UCvdwhh_fDyWccR42-rReZLw&autoplay=true&mute=1'
+     }, {
+         'titulo': 'TV BRASIL',
+         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>TV BRASIL<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+         'url': 'https://www.youtube.com/embed/live_stream?channel=UCSv9d0kQegylHWpP83jWSQg&autoplay=true&mute=1'
+     }, {
+         'titulo': 'BAND JORNALISMO',
+         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>BAND JORNALISMO<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+         'url': 'https://www.youtube.com/embed/live_stream?channel=UCoa-D_VfMkFrCYodrOC9-mA&autoplay=true&mute=1'
+     }, {
+         'titulo': 'JOVEM PAN NEWS',
+         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>JOVEM PAN NEWS<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+         'url': 'https://www.youtube.com/embed/live_stream?channel=UCP391YRAjSOdM_bwievgaZA&autoplay=true&mute=1'
+     }, {
         //AUSTRALIA
         'titulo': 'ABC NEWS',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/au.svg" title="AUSTRALIA"></img>ABC NEWS',
