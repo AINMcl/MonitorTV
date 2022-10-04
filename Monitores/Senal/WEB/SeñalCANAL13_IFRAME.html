@@ -54,79 +54,21 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
 
 <body>
   
-
-<div style="
+	<div style="
 	position: absolute;
 	display: inline-block;
 	width: 100%;
 	height: 100%;
 	top: 0%;
-	left: 0px;"
-							
-	class="embed-responsive embed-responsive-16by9" class="video-media">
-	<div id="player-wrapper">
-		<div id="player" class="envivo-player-default"></div>
-		</div>
+	right: 0px;
+	">
+	<iframe width="100%" height="100%"
+	src="https://rudo.video/live/c13?c3=13CL&autostart=1&volume=0&tag=eyJwcmUiOiJodHRwczpcL1wvcHViYWRzLmcuZG91YmxlY2xpY2submV0XC9nYW1wYWRcL2Fkcz9pdT1cLzExMjM3MjIwN1wvZW52aXZvLmNsXC9lbnZpdm9cL3ByZXJvbGwmZGVzY3JpcHRpb25fdXJsPWh0dHAlM0ElMkYlMkZ3d3cuMTMuY2wlMkZlbi12aXZvJmVudj12cCZpbXBsPXMmY29ycmVsYXRvcj0mdGZjZD0wJm5wYT0wJmdkZnBfcmVxPTEmb3V0cHV0PXZhc3Qmc3o9NjU2eDM2OCZjaXVfc3pzPTcyOHg5MCw5NzB4OTAsOTcweDI1MCwxOTAweDgyNSwxOTIweDc2OCw0MDB4NjAmdW52aWV3ZWRfcG9zaXRpb25fc3RhcnQ9MSZwbW5kPTAmcG14ZD0xMjAwMDAmcG1hZD0yJnBvZD0xIiwicG9zdCI6MCwibWlkIjp7InRhZyI6MCwidGltZSI6W119LCJvdmVyIjp7InRhZyI6Imh0dHBzOlwvXC9wdWJhZHMuZy5kb3VibGVjbGljay5uZXRcL2dhbXBhZFwvYWRzP2l1PVwvMTEyMzcyMjA3XC9lbnZpdm8uY2xcL2Vudml2b1wvb3ZlcmxheSZkZXNjcmlwdGlvbl91cmw9aHR0cCUzQSUyRiUyRnd3dy4xMy5jbCUyRmVuLXZpdm8mZW52PXZwJmltcGw9cyZjb3JyZWxhdG9yPSZ0ZmNkPTAmbnBhPTAmZ2RmcF9yZXE9MSZvdXRwdXQ9dmFzdCZ2YWRfdHlwZT1ub25saW5lYXImc3o9NDAweDYwJm1pIiwidGltZSI6WzYwXX19" frameborder="0" allowfullscreen>
+	</iframe>
 	</div>
-
-	<script>
-	// Lanzamos el player
-	document.addEventListener("DOMContentLoaded", function(event) {
-	// $streaming_ms_stream
-	token = getToken("5f51a916c21eec083ab337a8", "live");
-	document.getElementById("player-wrapper").innerHTML = "<iframe id='player' class='envivo-player-default' src='//mdstrm.com/live-stream/5f51a916c21eec083ab337a8?access_token=" + token + "&autoplay=true&volume=0' width='640' height='360' allow='autoplay; fullscreen; encrypted-media' frameborder='0' allowfullscreen allowscriptaccess='always' scrolling='no'></iframe>";
-	ga('13clGlobal.send', 'event', 'Señal en vivo', 'Play');
-
-	if(parent.adImageUrl != null){
-
-	// Genero el banner oculto
-	jQuery("#player-wrapper").append("<div id='div-banner-id' style='cursor:pointer; background:url("+parent.adImageUrl+");overflow:hidden; position:absolute; bottom:10px; left:190px; width:400px; height:60px; z-index:1000'></div>");
-	jQuery("#div-banner-id").click(function(){
-		var win = window.open(parent.adClickUrl,"_blank");
-	win.focus();
-	});
-	jQuery("#div-banner-id").hide();
-										
-	var cerrarUrl = "https://static.13.cl/static/jwplayer/x.png";								
-	jQuery("#player-wrapper").append("<div id='div-close-id' style='cursor:pointer; background:url("+cerrarUrl+"); overflow:hidden; position:absolute; bottom:62px; left:604px; width:15px; height:15px; z-index:1002'></div>");
-	jQuery("#div-close-id").click(function(){
-		jQuery("#div-banner-id").hide();jQuery("#div-close-id").hide();
-	});
-	jQuery("#div-close-id").hide();
-
-
-	// Programamos la aparicion del banner
-	var bannerInterval, bannerIntervalCounter = 1;
-	setTimeout(function(){
-		var bannerLeft = parseInt(jQuery("#player-wrapper").width() / 2) - 200;
-		var closeLeft = bannerLeft + 400;
-		jQuery("#div-banner-id").css("left", bannerLeft + "px");
-		jQuery("#div-banner-id").show();
-		jQuery("#div-close-id").css("left", closeLeft + "px");
-		jQuery("#div-close-id").show();
-		setTimeout(function(){
-			jQuery("#div-banner-id").hide();
-			jQuery("#div-close-id").hide();
-		},8000);
-		bannerInterval = setInterval(function(){
-		if(bannerIntervalCounter++ < 7){
-			var bannerLeft = parseInt(jQuery("#player-wrapper").width() / 2) - 200;
-			var closeLeft = bannerLeft + 400;
-			jQuery("#div-banner-id").css("left", bannerLeft + "px");
-			jQuery("#div-banner-id").show();
-			jQuery("#div-close-id").css("left", closeLeft + "px");
-			jQuery("#div-close-id").show();
-			setTimeout(function(){
-			jQuery("#div-banner-id").hide();
-			jQuery("#div-close-id").hide();
-			},8000);
-		} else clearInterval(bannerInterval);
-		},360000);
-		},7000);
-		}
-		});
-		</script>
-					
-	</div>
+	
+	<a style="text-decoration: none;" href="javascript:location.reload()" class="BotonCuadradoRecargarSeñalTexto waves-effect waves-white" role="button" >
+		<span class="material-icons">loop</span>
+	</a>
 </body>
 </html>

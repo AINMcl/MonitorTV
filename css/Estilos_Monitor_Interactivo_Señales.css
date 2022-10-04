@@ -256,11 +256,11 @@ td {
     
 .BotonTV_Señales:hover {
     background-color: rgb(255, 255, 255);
-    border-color: #0000df;
+    border-color: #2E4053;
     border-width: 2px;
     font-weight: bold;
-    color:#0000df;
-    box-shadow: 0px 2px 10px #0000df;
+    color:#2E4053;
+    box-shadow: 0px 2px 10px #586777;
 }
 
 .BotonTV_SeñalSeleccionada{
