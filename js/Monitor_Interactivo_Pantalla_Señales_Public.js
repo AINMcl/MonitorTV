@@ -36,6 +36,10 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_LA_RED.svg"></img>',
         'url': 'SeñalLARED.html'
     },{
+        'titulo': 'TV+',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVMAS.svg"></img>',
+        'url': 'SeñalTVMAS.html'
+    }, {
         'titulo': 'T13',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
         'url': 'SeñalT13_ENVIVO_IFRAME.html'
@@ -52,10 +56,6 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Canal13.svg"></img>',
         'url': '../Monitores/Senal/WEB/SeñalCANAL13_IFRAME.html'
     },{
-        'titulo': 'TV+',
-        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVMAS.svg"></img>',
-        'url': 'SeñalTVMAS.html'
-    }, {
         'titulo': 'NTV',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NTV.svg"></img>',
         'url': 'https://mdstrm.com/live-stream/5aaabe9e2c56420918184c6d?autoplay=true'
