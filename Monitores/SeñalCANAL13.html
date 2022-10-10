@@ -55,8 +55,16 @@ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCm
 <script>
 	var player = new Playerjs({
 		id:"Reproductor",
-		file:"https://origin.dpsgo.com/ssai/event/bFL1IVq9RNGlWQaqgiFuNw/master.m3u8?DVR",
-		//file:"https://unlimited1-cl-isp.dps.live/c13/c13.smil/playlist.m3u8?DVR",
+
+		file:[
+		{"title":"OPCION 1 - HD 16:9",
+		"file":"https://unlimited1-cl-isp.dps.live/13cl/13cl.smil/playlist.m3u8?DVR"},
+		{"title":"OPCION 2 - HD 16:9",
+		"file":"https://origin.dpsgo.com/ssai/event/bFL1IVq9RNGlWQaqgiFuNw/master.m3u8?DVR"},
+		//{"title":"OPCION 3",
+		//"file":"https://unlimited1-cl-isp.dps.live/c13/c13.smil/playlist.m3u8?DVR"}
+		],
+
 		autoplay:1
 		});
 </script>
