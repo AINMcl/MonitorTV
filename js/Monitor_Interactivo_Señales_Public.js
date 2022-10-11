@@ -492,6 +492,38 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCCTVPLUS_2.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CCTV+ 2</div></div></div>'
         },
+        'PANAM_SPORTS_1': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 1<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPANAMSPORTS_S1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PANAM SPORTS 1</div></div></div>'
+        },
+        'PANAM_SPORTS_2': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 2<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPANAMSPORTS_S2.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PANAM SPORTS 2</div></div></div>'
+        },
+        'PANAM_SPORTS_3': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 3<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPANAMSPORTS_S3.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PANAM SPORTS 3</div></div></div>'
+        },
+        'PANAM_SPORTS_4': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 4<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPANAMSPORTS_S4.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PANAM SPORTS 4</div></div></div>'
+        },
+        'PANAM_SPORTS_5': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 5<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPANAMSPORTS_S5.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PANAM SPORTS 5</div></div></div>'
+        },
+        'PANAM_SPORTS_6': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 6<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPANAMSPORTS_S6.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PANAM SPORTS 6</div></div></div>'
+        },
+        'PANAM_SPORTS_7': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 7<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPANAMSPORTS_S7.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PANAM SPORTS 7</div></div></div>'
+        },
+        'PANAM_SPORTS_8': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 8<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPANAMSPORTS_S8.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PANAM SPORTS 8</div></div></div>'
+        },
         //SEÑALES PRESIDENCIA
         'PRESIDENCIA_CHILE': {
             'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PRESIDENCIA CHILE',
