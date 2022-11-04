@@ -82,6 +82,10 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCHILETV_2.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalUCHILETV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">U CHILE TV</div></div></div>'
         },
+        'TELETON_TV': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 25px; width: auto; margin-right: 10px;" src="imagenes/Logo_TeletonTV.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTELETONTV_CL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TELETON TV</div></div></div>'
+        },
         'CHV_CONTIGO_PlutoTV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>CHV CONTIGO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCHVCONTIGO_PLUTOTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CHV CONTIGO</div></div></div>'

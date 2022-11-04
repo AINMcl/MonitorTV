@@ -76,6 +76,10 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCHILETV_2.svg"></img>',
         'url': 'SeñalUCHILETV.html'
     }, {
+        'titulo': 'TELETON TV',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 25px; width: auto; margin-right: 10px;" src="imagenes/Logo_TeletonTV.svg"></img>',
+        'url': 'SeñalTELETONTV_CL.html'
+    }, {
         'titulo': 'CHV CONTIGO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>CHV CONTIGO',
         'url': 'SeñalCHVCONTIGO_PLUTOTV.html'
