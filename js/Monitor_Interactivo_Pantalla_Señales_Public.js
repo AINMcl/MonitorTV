@@ -76,10 +76,6 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCHILETV_2.svg"></img>',
         'url': 'SeñalUCHILETV.html'
     }, {
-        'titulo': 'TELETON',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 25px; width: auto; margin-right: 10px;" src="imagenes/Logo_Teleton.svg"></img>',
-        'url': 'SeñalTELETON_CL_2022.html'
-    }, {
         'titulo': 'CHV CONTIGO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>CHV CONTIGO',
         'url': 'SeñalCHVCONTIGO_PLUTOTV.html'
@@ -613,14 +609,6 @@ let LosCanales = [
         'titulo': 'TELEPACIFICO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>TELEPACIFICO',
         'url': 'SeñalTELEPACIFICO_COLOMBIA.html'
-    }, {
-        'titulo': 'CITY TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CITY TV',
-        'url': 'SeñalCITY_TV_COLOMBIA.html'
-    }, {
-        'titulo': 'CAPITAL',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CAPITAL',
-        'url': 'SeñalCAPITALTV_COLOMBIA.html'
     }, {
         'titulo': 'CABLENOTICIAS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CABLENOTICIAS',
@@ -1729,22 +1717,6 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_ALOMAX.svg"></img>ULTIMOS SISMOS',
         'url': 'MonitorEARLY-EST_SISMOS.html'
     }, {
-        'titulo': 'NASA TV PUBLIC',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA TV PUBLIC',
-        'url': 'SeñalNASATVPUBLIC.html'
-    }, {
-        'titulo': 'NASA TV MEDIA',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA TV MEDIA',
-        'url': 'SeñalNASATVMEDIA.html'
-    }, {
-        'titulo': 'ISS CAM SD',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>ISS CAM SD',
-        'url': 'SeñalISS_SD.html'
-    },{
-        'titulo': 'ISS CAM HD',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>ISS CAM HD',
-        'url': 'SeñalISS_HD.html'
-    },{
         'titulo': 'ISS TRACKER',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Ubicacion.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_ESA.svg"></img>ISS TRACKER MAP 1',
         'url': 'ESPACIO_RASTREO_ISS_ESA.html'
@@ -1761,13 +1733,33 @@ let LosCanales = [
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Icono_Ubicacion.svg"></img>ISS TRACKER MAP 4',
         'url': 'ESPACIO_RASTREO_ISS_3.html'
     }, {
+        'titulo': 'NASA TV UHD',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA TV UHD (1080P)<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'SeñalNASATV_UHD_4K_1080P.html'
+    }, {
+        'titulo': 'NASA TV PUBLIC',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA TV PUBLIC',
+        'url': 'SeñalNASATVPUBLIC.html'
+    }, {
+        'titulo': 'NASA TV MEDIA',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA TV MEDIA',
+        'url': 'SeñalNASATVMEDIA.html'
+    }, {
+        'titulo': 'ARTEMIS I',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>ARTEMIS I CAM<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'SeñalNASA_ARTEMIS_1.html'
+    }, {
+        'titulo': 'ISS CAM SD',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>ISS CAM SD',
+        'url': 'SeñalISS_SD.html'
+    },{
+        'titulo': 'ISS CAM HD',
+        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>ISS CAM HD',
+        'url': 'SeñalISS_HD.html'
+    },{
         'titulo': 'NASA WALLOPS',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA WALLOPS',
         'url': 'SeñalNASATV_Wallops.html'
-    }, {
-        'titulo': 'NASA VIDEO',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA VIDEO',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UC_aP7p621ATY_yAa8jMqUVA&autoplay=true&mute=1'
     }, {
         'titulo': 'ESA WEB TV 1',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_ESA.svg"></img>ESA WEB TV 1',
@@ -1789,6 +1781,14 @@ let LosCanales = [
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>KENNEDY SPACE CENTER',
         'url': 'SeñalNASATV_KSC.html'
     },{
+        'titulo': 'NASA VIDEO',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA VIDEO',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UC_aP7p621ATY_yAa8jMqUVA&autoplay=true&mute=1'
+    }, {
+        'titulo': 'NASA',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCLA_DiR1FfKNvjuUpBHmylQ&autoplay=true&mute=1'
+    }, {
         'titulo': 'SPACEX',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>SPACEX',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCtI0Hodo5o5dUb67FeUjDeA&autoplay=true&mute=1'
