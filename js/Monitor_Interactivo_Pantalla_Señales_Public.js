@@ -1525,6 +1525,22 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCLir6Xg0TVDGccruOZp8jaQ&autoplay=true&mute=1'
     },{
+        'titulo': 'VIÑA DEL MAR - AVENIDA PERU',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR - AVENIDA PERU',
+        'url': 'SeñalCAMARA_MAREJADA_UV_V_DEL_MAR_AV_PERU.html'
+    },{
+        'titulo': 'VIÑA DEL MAR - PLAYA ACAPULCO',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR - PLAYA ACAPULCO',
+        'url': 'SeñalCAMARA_MAREJADA_UV_V_DEL_MAR_PLAYA_ACAPULCO.html'
+    },{
+        'titulo': 'VIÑA DEL MAR - PLAYA REÑACA',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR - PLAYA REÑACA',
+        'url': 'SeñalCAMARA_MAREJADA_UV_V_DEL_MAR_PLAYA_REÑACA.html'
+    },{
+        'titulo': 'VIÑA DEL MAR',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR<span style="margin-left: 3px; font-size: 12px;">(MAS RECIENTE)</span>',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCMfVFofrKT5qV71nG-sDBRg&autoplay=true&mute=1'
+    },{
         'titulo': 'OSORNO',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>OSORNO',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCbOdujzxdR-D-o1jKLr96CA&autoplay=true&mute=1'
