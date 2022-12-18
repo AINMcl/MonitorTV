@@ -2460,11 +2460,14 @@ background-image: linear-gradient(
   border-radius: 5px;
   font-weight: bold;
   align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s
 }
 
 .BotonCerrarMenuCuadrado:hover{
   color: #000000;
-  background-color: #ff000030;
+  background-color: #b8b8b846;
 }
 
 
