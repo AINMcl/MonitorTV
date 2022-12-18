@@ -492,7 +492,9 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 2',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalCCTVPLUS_2.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CCTV+ 2</div></div></div>'
         },
-        'PANAM_SPORTS_1': {
+        
+        //PANAM_SPORTS
+        /*'PANAM_SPORTS_1': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPANAMSPORTS_S1.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PANAM SPORTS 1</div></div></div>'
         },
@@ -523,7 +525,8 @@ var App = {
         'PANAM_SPORTS_8': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 8',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalPANAMSPORTS_S8.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PANAM SPORTS 8</div></div></div>'
-        },
+        },*/
+
         //SEÑALES PRESIDENCIA
         'PRESIDENCIA_CHILE': {
             'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PRESIDENCIA CHILE',
@@ -546,7 +549,7 @@ var App = {
         
         //CANALES NOTICIAS
         'TN': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>TN',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>TN<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTN.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TN</div></div></div>'
         },
         'CANAL_26_ARG': {

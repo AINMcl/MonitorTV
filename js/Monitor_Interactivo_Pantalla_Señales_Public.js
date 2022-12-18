@@ -490,7 +490,7 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 2',
         'url': 'SeñalCCTVPLUS_2.html'
     },{
-        'titulo': 'PANAM SPORTS 1',
+    /*    'titulo': 'PANAM SPORTS 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 1<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'url': 'SeñalPANAMSPORTS_S1.html'
     },{
@@ -521,7 +521,7 @@ let LosCanales = [
         'titulo': 'PANAM SPORTS 8',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 8<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'url': 'SeñalPANAMSPORTS_S8.html'
-    },{
+    },{*/
         'titulo': 'PRESIDENCIA CHILE',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PRESIDENCIA CHILE',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC_5Sh9VhJlgCspl4mLM2duw&autoplay=true&mute=1'
@@ -539,9 +539,9 @@ let LosCanales = [
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCjjYaSHsZSUNTSwUV8OfOrA&autoplay=true&mute=1'
     }, {
         'titulo': 'TN',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>TN',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>TN<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'url': 'SeñalTN.html'
-    },{
+    }, {
         'titulo': 'CANAL 26',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>CANAL 26',
         'url': 'SeñalCANAL_26_ARG.html'
@@ -1039,7 +1039,7 @@ let LosCanales = [
     }, {
          //ARGENTINA
          'titulo': 'TN',
-         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>TN',
+         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>TN<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>S',
          'url': 'https://www.youtube.com/embed/live_stream?channel=UCj6PcyLvpnIRT_2W_mwa9Aw&autoplay=true&mute=1'
      }, {
          'titulo': 'AMERICA TV',
