@@ -889,14 +889,16 @@ background-image: linear-gradient(
 }
 
 .BotonCambiarSeñalTexto:hover{
-  background-color:#0004ff;
+  backdrop-filter: blur(5px);
+  background-color:rgba(0, 68, 255, 0.8);
   color:rgb(255, 255, 255)
 }
 
+/*
 .BotonCambiarSeñalTexto:active{
   background-color:#ff0000;
   color:rgb(255, 255, 255)
-}
+}*/
 
 /*NUEVO BOTON RECARGAR SEÑAL*/
 .BotonCuadradoRecargarSeñalTexto{
@@ -2468,6 +2470,7 @@ background-image: linear-gradient(
 .BotonCerrarMenuCuadrado:hover{
   color: #000000;
   background-color: #b8b8b846;
+  color: #FF0000;
 }
 
 
@@ -2659,6 +2662,23 @@ background-image: linear-gradient(
   align-items: center;
   font-weight: bold;
   color: #000000;
+  border-radius: 3px;
+}
+
+.Bagde-Rojo{
+  background-color: #FF0000;
+  width: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  color: #FFFFFF;
   border-radius: 3px;
 }
 
