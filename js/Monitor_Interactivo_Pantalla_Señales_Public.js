@@ -40,10 +40,10 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVMAS.svg"></img>',
         'url': 'SeñalTVMAS.html'
     }, {
-        'titulo': 'T13',
-        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
-        'url': 'SeñalT13_ENVIVO_IFRAME.html'
-    }, {
+        'titulo': 'CNN CHILE',
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 5px;" src="imagenes/Logo_CNNCHILE2.svg"></img><span title="USAR ADBLOCK PARA EVITAR ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #2E4053; font-size: 20px" class="material-icons-round">security</span><span style="color: #2E4053; font-size: 12px; margin-left: 5px;">Usar AdBlock</span></span>',
+        'url': 'https://ainmcl.github.io/MonitorTV/Monitores/SeñalEXTERNA.html?id=1049'
+    },{
         'titulo': 'TVN',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>',
         'url': '../Monitores/Senal/WEB/SeñalTVN_IFRAME.html'

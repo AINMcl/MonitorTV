@@ -46,9 +46,9 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVMAS.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTVMAS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TV+</div></div></div>'
         },
-        'T13_WEB_IFRAME': {
-            'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalT13_ENVIVO_IFRAME.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">T13</div></div></div>'
+        'CNN_CHILE_IFRAME': {
+            'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CNNCHILE2.svg"></img><span title="USAR ADBLOCK PARA EVITAR ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #2E4053; font-size: 20px" class="material-icons-round">security</span><span style="color: #2E4053; font-size: 12px; margin-left: 5px;">Usar AdBlock</span></span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTVMAS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CNN CHILE</div></div></div>'
         },
         'TVN_WEB_IFRAME': {
             'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>',
@@ -2052,10 +2052,11 @@ init: function() {
     if (!App.isMobile()) {
         App.add("24HTVN");
         App.add("MEGANOTICIAS");
+        App.add("CHV_WEB_IFRAME");
+        
+        App.add("CHV_NOTICIAS_PlutoTV");
         App.add("TELE13");
 
-        App.add("CHV_WEB_IFRAME");
-        App.add("TVN");
         App.add("CANAL13_WEB_IFRAME");
         
         
