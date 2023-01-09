@@ -64,7 +64,7 @@ var App = {
         },
         'CNN_CHILE_IFRAME': {
             'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CNNCHILE2.svg"></img><span title="USAR ADBLOCK PARA EVITAR ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #2E4053; font-size: 20px" class="material-icons-round">security</span><span style="color: #2E4053; font-size: 12px; margin-left: 5px;">Usar AdBlock</span></span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTVMAS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CNN CHILE</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://ainmcl.github.io/MonitorTV/Monitores/SeñalEXTERNA.html?id=1049" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CNN CHILE</div></div></div>'
         },
         'UCV_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCVTV.svg"></img>',
