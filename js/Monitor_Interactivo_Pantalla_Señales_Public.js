@@ -52,9 +52,13 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Canal13.svg"></img>',
         'url': '../Monitores/Senal/WEB/SeñalCANAL13_IFRAME.html'
     },{
+        'titulo': 'TV CHILE',
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVCHILE.svg"></img>',
+        'url': 'SeñalTVCHILE.html'
+    }, {
         'titulo': 'NTV',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NTV.svg"></img>',
-        'url': 'https://mdstrm.com/live-stream/5aaabe9e2c56420918184c6d?autoplay=true'
+        'url': 'SeñalNTV.html'
     }, {
         'titulo': 'CNN CHILE',
         'nombre': '<span id="CNNCHILE" style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 5px;" src="imagenes/Logo_CNNCHILE2.svg"></img><span title="USAR ADBLOCK PARA EVITAR ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #2E4053; font-size: 20px" class="material-icons-round">security</span><span style="color: #2E4053; font-size: 12px; margin-left: 5px;">Usar AdBlock</span></span>',
