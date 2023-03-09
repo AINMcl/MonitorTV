@@ -93,15 +93,15 @@ let LosCanales = [
         'url': 'SeñalCANAL13_DEPORTES.html'
     }, {
         'titulo': '24 HORAS 1',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL 1',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL 1',
         'url': 'SeñalInterna24H_1.html'
     }, {
         'titulo': '24 HORAS 2',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL 2',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL 2',
         'url': 'SeñalInterna24H_2.html'
     }, {
         'titulo': '24 HORAS 3',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL 3',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL 3',
         'url': 'SeñalInterna24H_3.html'
     },{
         'titulo': '24 HORAS 4',
@@ -119,6 +119,10 @@ let LosCanales = [
         'titulo': 'CHV EVENTOS',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CHV.svg"></img>EVENTOS',
         'url': 'SeñalCHV_EVENTOS.html'
+    },{
+        'titulo': '13 LIVE 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Canal13.svg"></img>SEÑAL 1<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'SeñalInternaCANAL13_1.html'
     },{
         'titulo': 'ZAPPING TV MUSIC',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">music_note</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_ZAPPING_TV_MUSIC.svg"></img>',
@@ -249,10 +253,6 @@ let LosCanales = [
         'titulo': 'REUTERS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>REUTERS',
         'url': 'SeñalREUTERS.html'
-    }, {
-        'titulo': 'REUTERS WEB',
-        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">cell_tower</span>REUTERS WEB',
-        'url': 'https://www.reuters.tv/live?nonav=true'
     }, {
         'titulo': 'TELEMUNDO NOTICIAS',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>TELEMUNDO NOTICIAS',
@@ -466,7 +466,7 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 5',
         'url': 'Señal24H_TVE_OCASIONAL_5.html'
     }, {
-        'titulo': 'RTVE OCASIONAL 1',
+    /*  'titulo': 'RTVE OCASIONAL 1',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>RTVE LIVE OCASIONAL 1',
         'url': 'SeñalRTVEOCASIONAL_1.html'
     }, {
@@ -489,7 +489,7 @@ let LosCanales = [
         'titulo': 'RTVE OCASIONAL 6',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>RTVE LIVE OCASIONAL 6',
         'url': 'SeñalRTVEOCASIONAL_6.html'
-    }, {
+    }, {*/
         'titulo': 'CCTV+ 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 1',
         'url': 'SeñalCCTVPLUS_1.html'
@@ -530,6 +530,10 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 8',
         'url': 'SeñalPANAMSPORTS_S8.html'
     },{*/
+        'titulo': 'THE WHITE HOUSE',
+        'nombre': '<span id="THE_WHITE_HOUSE" style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="CHILE"></img>THE WHITE HOUSE LIVE EVENTS<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'SeñalTHEWHITEHOUSE_LIVE_EVENT.html'
+    },{
         'titulo': 'PRESIDENCIA CHILE',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PRESIDENCIA CHILE',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC_5Sh9VhJlgCspl4mLM2duw&autoplay=true&mute=1'
@@ -1652,6 +1656,10 @@ let LosCanales = [
         'titulo': 'VTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>VALPARAISO | VTV',
         'url': 'Senal/REGIONALES/VALPARAISO_VTV.html'
+    }, {
+        'titulo': 'CANAL 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>VALPARAISO | CANAL 2',
+        'url': 'Senal/REGIONALES/VALPARAISO_CANAL2.html'
     }, {
         'titulo': 'STGO TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>RM | STGO TV',
