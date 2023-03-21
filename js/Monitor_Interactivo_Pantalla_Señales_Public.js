@@ -1,8 +1,8 @@
 let LosCanales = [
     {
         'titulo': '24 PLAY',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24PLAY.svg"></img>',
-        'url': 'Señal24HTVN.html'
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24PLAY.svg"></img>',
+        'url': 'Señal24HTVN_IFRAME.html'
     }, {
         'titulo': 'CANAL 24 HORAS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CANAL24H.svg"></img>',
@@ -13,8 +13,8 @@ let LosCanales = [
         'url': 'SeñalCNNCHILE.html'
     },{
         'titulo': 'MEGANOTICIAS',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_MEGANOTICIAS.svg"></img>',
-        'url': 'SeñalMEGANOTICIAS.html'
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_MEGANOTICIAS.svg"></img>',
+        'url': 'SeñalMEGANOTICIAS_IFRAME.html'
     }, {
         'titulo': 'CHV NOTICIAS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CHV_NOTICIAS.svg"></img>',
@@ -60,14 +60,14 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NTV.svg"></img>',
         'url': 'SeñalNTV.html'
     }, {
-        'titulo': 'CNN CHILE',
+    /*    'titulo': 'CNN CHILE',
         'nombre': '<span id="CNNCHILE" style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 5px;" src="imagenes/Logo_CNNCHILE2.svg"></img><span title="USAR ADBLOCK PARA EVITAR ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #2E4053; font-size: 20px" class="material-icons-round">security</span><span style="color: #2E4053; font-size: 12px; margin-left: 5px;">Usar AdBlock</span></span>',
         'url': 'https://ainmcl.github.io/MonitorTV/Monitores/SeñalEXTERNA.html?id=1049'
     },{
         'titulo': 'TVN',
         'nombre': '<span id="TVN" style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 5px;" src="imagenes/Logo_TVN.svg"></img><span title="USAR ADBLOCK PARA EVITAR ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #2E4053; font-size: 20px" class="material-icons-round">security</span><span style="color: #2E4053; font-size: 12px; margin-left: 5px;">Usar AdBlock</span></span>',
         'url': 'https://ainmcl.github.io/MonitorTV/Monitores/SeñalEXTERNA.html?id=1221'
-    },{
+    },{*/
         'titulo': 'UCV TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCVTV.svg"></img>',
         'url': 'SeñalUCVTV.html'
@@ -93,35 +93,51 @@ let LosCanales = [
         'url': 'SeñalCANAL13_DEPORTES.html'
     }, {
         'titulo': '24 HORAS 1',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL 1',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 1',
         'url': 'SeñalInterna24H_1.html'
     }, {
         'titulo': '24 HORAS 2',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL 2',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 2',
         'url': 'SeñalInterna24H_2.html'
     }, {
         'titulo': '24 HORAS 3',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 3',
         'url': 'SeñalInterna24H_3.html'
     },{
         'titulo': '24 HORAS 4',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL 4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 4',
         'url': 'SeñalInterna24H_4.html'
     }, {
         'titulo': '24 HORAS 5',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL 5',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 5',
         'url': 'SeñalInterna24H_5.html'
     }, {
+        'titulo': 'MEGANOTICIAS 1',
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>SEÑAL OCASIONAL 1',
+        'url': 'SeñalInternaMEGANOTICIAS_IFRAME_1.html'
+    }, {
+        'titulo': 'MEGANOTICIAS 2',
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>SEÑAL OCASIONAL 2',
+        'url': 'SeñalInternaMEGANOTICIAS_IFRAME_2.html'
+    }, {
+        'titulo': 'MEGANOTICIAS 3',
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>SEÑAL OCASIONAL 3',
+        'url': 'SeñalInternaMEGANOTICIAS_IFRAME_3.html'
+    },{
+        'titulo': 'MEGANOTICIAS 4',
+        'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>SEÑAL OCASIONAL 4',
+        'url': 'SeñalInternaMEGANOTICIAS_IFRAME_4.html'
+    },{
         'titulo': 'CNN CHILE 1',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CNNCHILE2.svg"></img>SEÑAL 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CNNCHILE2.svg"></img>SEÑAL OCASIONAL 1',
         'url': 'SeñalInternaCNNCHILE_1.html'
     },{
         'titulo': 'CHV EVENTOS',
-        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CHV.svg"></img>EVENTOS',
+        'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CHV.svg"></img>SEÑAL OCASIONAL 1',
         'url': 'SeñalCHV_EVENTOS.html'
     },{
         'titulo': '13 LIVE 1',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Canal13.svg"></img>SEÑAL 1<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Canal13.svg"></img>SEÑAL OCASIONAL 1',
         'url': 'SeñalInternaCANAL13_1.html'
     },{
         'titulo': 'ZAPPING TV MUSIC',
