@@ -263,7 +263,7 @@ let LosCanales = [
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=true&mute=1'
     }, {
         'titulo': 'PROCESO CONSTITUCIONAL',
-        'nombre': '<span id="PROCESOCONSTITUCIONAL" style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>PROCESO CONSTITUCIONAL<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span id="PROCESOCONSTITUCIONAL" style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>PROCESO CONSTITUCIONAL',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCGrlfx5XmVM33MUKPmXc-oA&autoplay=true&mute=1'
     }, {
         'titulo': 'REUTERS',
@@ -547,7 +547,7 @@ let LosCanales = [
         'url': 'SeñalPANAMSPORTS_S8.html'
     },{*/
         'titulo': 'THE WHITE HOUSE',
-        'nombre': '<span id="THE_WHITE_HOUSE" style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="CHILE"></img>THE WHITE HOUSE LIVE EVENTS<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span id="THE_WHITE_HOUSE" style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="CHILE"></img>THE WHITE HOUSE LIVE EVENTS',
         'url': 'SeñalTHEWHITEHOUSE_LIVE_EVENT.html'
     },{
         'titulo': 'PRESIDENCIA CHILE',
@@ -730,6 +730,10 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>FRANCE24 ENGLISH',
         'url': 'SeñalFRANCE24_ENGLISH.html'
     }, {
+        'titulo': 'BFM TV',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>BFM TV<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'SeñalBFMTV.html'
+    },{
         'titulo': 'RAI NEWS 24',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/it.svg" title="ITALIA"></img>RAI NEWS 24',
         'url': 'SeñalRAI_NEWS24.html'

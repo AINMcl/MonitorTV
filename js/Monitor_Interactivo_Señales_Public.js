@@ -555,7 +555,7 @@ var App = {
         //SEÑALES PRESIDENCIA
         
         'LA_CASA_BLANCA_LIVE': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="CHILE"></img>THE WHITE HOUSE LIVE EVENTS<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="CHILE"></img>THE WHITE HOUSE LIVE EVENTS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalTHEWHITEHOUSE_LIVE_EVENT.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">THE WHITE HOUSE</div></div></div>'
         },
         'PRESIDENCIA_CHILE': {
@@ -741,6 +741,10 @@ var App = {
         'FRANCE24_ENG': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>FRANCE24 ENGLISH',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalFRANCE24_ENGLISH.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">FRANCE24 ENGLISH</div></div></div>'
+        },
+        'BFM_TV_FR': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>BFM TV<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="SeñalBFMTV.html" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">BFM TV</div></div></div>'
         },
         'RAI_NEWS24': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/it.svg" title="FRANCIA"></img>RAI NEWS 24',
