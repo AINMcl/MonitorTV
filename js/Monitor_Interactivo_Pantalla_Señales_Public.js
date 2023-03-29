@@ -514,6 +514,14 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 2',
         'url': 'SeñalCCTVPLUS_2.html'
     },{
+        'titulo': 'CCTV+ 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 3',
+        'url': 'SeñalCCTVPLUS_3.html'
+    },{
+        'titulo': 'CCTV+ 4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 4',
+        'url': 'SeñalCCTVPLUS_4.html'
+    },{
     /*    'titulo': 'PANAM SPORTS 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 1',
         'url': 'SeñalPANAMSPORTS_S1.html'
@@ -731,7 +739,7 @@ let LosCanales = [
         'url': 'SeñalFRANCE24_ENGLISH.html'
     }, {
         'titulo': 'BFM TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>BFM TV<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>BFM TV',
         'url': 'SeñalBFMTV.html'
     },{
         'titulo': 'RAI NEWS 24',
@@ -778,13 +786,33 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT ESPAÑOL',
         'url': 'SeñalRT_ESPANOL.html'
     }, {
-        'titulo': 'RT FRANCE',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT FRANCE',
+        'titulo': 'RT FRANCÉS',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT FRANCÉS',
         'url': 'SeñalRT_FRANCE.html'
     }, {
-        'titulo': 'RT ALEMAN',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT ALEMAN',
+        'titulo': 'RT ALEMÁN',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT ALEMÁN',
         'url': 'SeñalRT_ALEMAN.html'
+    }, {
+        'titulo': 'CGTN ENGLISH',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ENGLISH<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'SeñalCGTN_ENG.html'
+    }, {
+        'titulo': 'CGTN ESPAÑOL',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ESPAÑOL<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'SeñalCGTN_ESP.html'
+    }, {
+        'titulo': 'CGTN FRANCÉS',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN FRANCÉS<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'SeñalCGTN_FR.html'
+    }, {
+        'titulo': 'CGTN RUSO',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN RUSO<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'SeñalCGTN_RUSO.html'
+    }, {
+        'titulo': 'CGTN ARABIC',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ARABIC<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'SeñalCGTN_ARABIC.html'
     }, {
         'titulo': 'NHK WORLD',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>NHK WORLD',
@@ -1183,6 +1211,11 @@ let LosCanales = [
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/va.svg" title="CIUDAD DEL VATICANO"></img>VATICAN NEWS ESPAÑOL',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCnB5vfb9FMMNTnC6-kAT3fQ&autoplay=true&mute=1'
     }, {
+        //SINGAPORE
+        'titulo': 'CNA NEWS',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/sg.svg" title="SINGAPORE"></img><span style="margin-right: 10px;">CNA NEWS<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UC83jt4dlz1Gjl58fzQrrKZg&autoplay=true&mute=1'
+    }, {
         //RUSIA
         'titulo': 'RT',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img><span style="margin-right: 10px;">RT</span><span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #FF0000; font-size: 20px" class="material-icons-round" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
@@ -1204,6 +1237,22 @@ let LosCanales = [
         'titulo': 'CCTV+',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CCTV+',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCmv5DbNpxH8X2eQxJBqEjKQ&autoplay=true&mute=1'
+    },{
+        'titulo': 'CGTN EUROPE',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN EUROPE<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCj0TppyxzQWm9JbMg3CP8Rg&autoplay=true&mute=1'
+    },{
+        'titulo': 'CGTN ESPAÑOL',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ESPAÑOL<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCd94YCD7yp6d-YZSRYWyeFA&autoplay=true&mute=1'
+    },{
+        'titulo': 'CGTN FRANCÉS',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN FRANCÉS<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCcfLuU0NFT0ZRoQy4jk6GdA&autoplay=true&mute=1'
+    },{
+        'titulo': 'CGTN ARABIC',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ARABIC<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCQmJk0ErE_FiorcLBsDKORA&autoplay=true&mute=1'
     },{
         //CATAR
         'titulo': 'AL JAZEERA ENG',
@@ -1856,6 +1905,14 @@ let LosCanales = [
         'titulo': 'NASA TV MEDIA',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA TV MEDIA',
         'url': 'SeñalNASATV_MEDIA_YOUTUBE.html'
+    },{
+        'titulo': 'ISS LIVE HD',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>ISS LIVE HD',
+        'url': 'SeñalNASATV_ISS_HD_YOUTUBE.html'
+    },{
+        'titulo': 'ISS LIVE SD',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>ISS LIVE SD',
+        'url': 'SeñalNASATV_ISS_SD_YOUTUBE.html'
     },{
         'titulo': 'KENNEDY SPACE CENTER',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>KENNEDY SPACE CENTER',
