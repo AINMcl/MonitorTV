@@ -846,6 +846,18 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ir.svg" title="IRÁN"></img>HISPANTV',
         'url': 'SeñalHISPANTV_ESP.html'
     },{
+        'titulo': 'CHANNEL 12',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/il.svg" title="ISRAEL"></img>CHANNEL 12',
+        'url': 'SeñalCHANNEL12_ISRAEL.html'
+    },{
+        'titulo': 'CHANNEL 13',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/il.svg" title="ISRAEL"></img>CHANNEL 13',
+        'url': 'SeñalCHANNEL13_ISRAEL.html'
+    },{
+        'titulo': 'CHANNEL 14',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/il.svg" title="ISRAEL"></img>CHANNEL 14',
+        'url': 'SeñalCHANNEL14_ISRAEL.html'
+    },{
         'titulo': 'TRT WORLD',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/tr.svg" title="TÜRKIYE"></img>TRT WORLD',
         'url': 'SeñalTRTWORLD.html'
@@ -891,7 +903,7 @@ let LosCanales = [
         'url': 'SeñalNBCNEWS.html'
     }, {
         'titulo': 'CBS NEWS',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CBS NEWS LIVE',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CBS NEWS',
         'url': 'SeñalCBSNEWS.html'
     }, {
         'titulo': 'FOX NEWS NOW',
@@ -907,7 +919,7 @@ let LosCanales = [
         'url': 'SeñalCNN.html'
     }, {
         'titulo': 'CNN INTERNTATIONAL',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CNN INTERNATIONAL',
+        'nombre': '<span id="CNNINTERNACIONAL" style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CNN INTERNATIONAL',
         'url': 'SeñalCNNINTERNACIONAL.html'
     }, {
         'titulo': 'CNN INDONESIA',
