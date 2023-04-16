@@ -1974,22 +1974,42 @@ let LosCanales = [
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>SPACEX STORM',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCxjGXSXK3Ss-mkiZ-wYtjtg&autoplay=true&mute=1'
     }, {
-        'titulo': 'NASASpaceflight',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>NASASpaceflight ',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCSUu1lih2RifWkKtDOJdsBA&autoplay=true&mute=1'
-    }, {
-        'titulo': 'EVERYDAY ASTRONAUT',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>EVERYDAY ASTRONAUT ',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UC6uKrU_WqJ1R2HMTY3LIx5Q&autoplay=true&mute=1'
-    },{
         'titulo': 'FRONTERA ESPACIAL',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>FRONTERA ESPACIAL ',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>FRONTERA ESPACIAL',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCurxSOUxQszWp-5juh48wmg&autoplay=true&mute=1'
     }, {
         'titulo': 'CONEXION ESPACIAL',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CONEXION ESPACIAL ',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CONEXION ESPACIAL',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCS6DjxV3L8XdnGa70ZxS_FA&autoplay=true&mute=1'
     }, {
+        'titulo': 'EXPLORACION ESPACIAL',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>EXPLORACION ESPACIAL',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCtcUKKBhYEf7lX5UkF7279Q&autoplay=true&mute=1'
+    }, {
+        'titulo': 'EXPLORANDO EL ESPACIO',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>EXPLORANDO EL ESPACIO',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCGP4eGnUxu7BGaqR4m-55fg&autoplay=true&mute=1'
+    }, {
+        'titulo': 'CONTROL DE MISION',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CONTROL DE MISION',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCch5At0S1Q-qqCM3iilFI5w&autoplay=true&mute=1'
+    }, {
+        'titulo': 'NSF: NASASPACEFLIGHT',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>NSF: NASASPACEFLIGHT',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCSUu1lih2RifWkKtDOJdsBA&autoplay=true&mute=1'
+    }, {
+        'titulo': 'EVERYDAY ASTRONAUT',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>EVERYDAY ASTRONAUT',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UC6uKrU_WqJ1R2HMTY3LIx5Q&autoplay=true&mute=1'
+    },{
+        'titulo': 'LAB PADRE',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>LAB PADRE',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCFwMITSkc1Fms6PoJoh1OUQ&autoplay=true&mute=1'
+    },{
+        'titulo': 'THE LAUNCH PAD',
+        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>THE LAUNCH PAD',
+        'url': 'https://www.youtube.com/embed/live_stream?channel=UCGCndz0n0NHmLHfd64FRjIA&autoplay=true&mute=1'
+    },{
         'titulo': '321LAUNCH CAM',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>321LAUNCH CAM',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCUccOGcvTNrJuihXhYsrp7w&autoplay=true&mute=1'
@@ -2009,29 +2029,5 @@ let LosCanales = [
         'titulo': 'SPACEX MISSIONS',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>SPACEX MISSIONS ',
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCE_z1X3v8ZdBNHn9IFHBfNw&autoplay=true&mute=1'
-    },{
-        'titulo': 'STARBASE: OCEN CAM',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>OCEAN CAM',
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UCF8IYFF60clbbznjvJ7qoTQ&autoplay=true&mute=1'
-    }, {
-        'titulo': 'STARBASE: LAB CAM',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>LAB CAM',
-        'url': 'Senal/LabPadre/LabCam.html'
-    },  {
-        'titulo': 'STARBASE: ROVER CAM',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>ROVER CAM',
-        'url': 'Senal/LabPadre/RoverCam.html'
-    }, {
-        'titulo': 'STARBASE: WERDLE CAM',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>Nerdle Cam 4K',
-        'url': 'Senal/LabPadre/NerdleCam4K.html'
-    },  {
-        'titulo': 'STARBASE: SAPPHIRE CAM',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>SAPPHIRE CAM',
-        'url': 'Senal/LabPadre/SapphireCam.html'
-    },  {
-        'titulo': 'STARBASE: SENTINEL CAM',
-        'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>SENTINEL CAM',
-        'url': 'Senal/LabPadre/SentinelCam.html'
-    }, 
+    },
 ]
