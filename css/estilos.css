@@ -231,6 +231,9 @@ color: #FFFFFF;
   
 }
 
+
+
+
 /*SE USA: NO BORRAR*/
 .TituloSismo{
   background-color: #003ec5;
@@ -448,6 +451,8 @@ color: #FFFFFF;
   border-color:#0303bb;
   box-shadow: 0px 0px 15px #0303bb;
 }
+
+
 
 /*SE USA: BOTON EN HOME - NO BORRAR*/
 .BotonHomeM{
@@ -1086,7 +1091,7 @@ background-image: linear-gradient(
 .TwitterBoton{
   display: inline-block;
   background: #1d9bf0;
-  margin: 0px;
+  margin-top: 10px;
   width: auto;
   height: 20px;
   line-height: 20px;
@@ -1325,7 +1330,7 @@ background-image: linear-gradient(
 }
 
 .TextoBotonAbrirEnOtraPestaña:hover{
-  background:#ff0000;
+  background:#C0C0C0;
   color:rgb(255, 255, 255)
 }
 
@@ -1354,6 +1359,32 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 10px #ff0000;
 }
 
+.BotonConIcono{
+  display: inline-flex;
+  color: #FFFFFF;
+  background-color: #FF0000;
+  border: solid 2px #FF0000;
+  margin-top: 0px;
+  padding-left: 10px;
+  padding-right: 12px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  justify-content: left;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonConIcono:hover{
+  color: #FF0000;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: solid 2px #FF0000;
+}
 
 .BotonCardHome{
   display:inline-table;
@@ -2590,6 +2621,30 @@ background-image: linear-gradient(
   color: #FFFFFF;
 }
 
+.BotonMenuSuperior2{
+  height: 35px;
+  line-height: 35px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #000000;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonMenuSuperior2:hover {
+  background-color: #0048ff;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
 .BotonIrTabla{
   height: 25px;
   line-height: 25px;
@@ -2692,6 +2747,7 @@ background-image: linear-gradient(
   color: #000000;
   border-radius: 3px;
 }
+
 
 .Bagde-Gris{
   background-color: #5c7086;
@@ -2868,6 +2924,8 @@ background-image: linear-gradient(
   background-color: #F2F2F2;
 }
 
+
+
 .BarraTituloRojoConIcono{
   display: flex;
   color: #000000;
@@ -3016,4 +3074,86 @@ background-image: linear-gradient(
 [data-title] {
   position: relative;
 }
+
+.CardSeñal{
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-border-width: 1px;
+  /*--bs-card-border-color: var(--bs-border-color-translucent);*/
+  --bs-card-border-radius: 0.375rem;
+  --bs-card-box-shadow: ;
+  --bs-card-inner-border-radius: calc(0.375rem - 1px);
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+  --bs-card-cap-color: ;
+  --bs-card-height: ;
+  --bs-card-color: ;
+  --bs-card-bg: #fff;
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border: solid 1px #C0C0C0;
+  /*border: var(--bs-card-border-width) solid var(--bs-card-border-color);*/
+  border-radius: var(--bs-card-border-radius);
+  cursor:
+  pointer;
+  transition:all .3s
+}
+
+.CardSeñal:hover{
+  border: solid 1px #2E4053;
+  box-shadow: 0px 0px 15px #2e4053bb;
+}
+
+.CardSeñalNoDisponible{
+  border: solid 1px #FF0000;
+}
+
+.CardLista{
+  color: #FF0000;
+  border: solid 1px #FF0000;
+  cursor:
+  pointer;
+  transition:all .3s
+}
+
+.CardLista:hover{
+  border: solid 1px #C0C0C0;
+  box-shadow: 0px 0px 15px #2e4053bb;
+}
+
+.ImagenLista{
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  height: 100px;
+}
+
+.FooterHome{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7eceec5;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.TextoTituloFooter{
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
 
