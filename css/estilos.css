@@ -2198,6 +2198,32 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 15px #2E4053;
 }
 
+.BotonEnlaceExternoInformaciones{
+  background-color: #cfcfcf;
+  width: auto;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  color: #000000;
+  border-radius: 3px;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonEnlaceExternoInformaciones:hover{
+  color: #ffffff;
+  background-color: #0048ff;
+}
+
 .BotonMenuDesplegableRojoPequeño{
   display: flex;
   background-color: #FF0000;
@@ -2748,7 +2774,6 @@ background-image: linear-gradient(
   border-radius: 3px;
 }
 
-
 .Bagde-Gris{
   background-color: #5c7086;
   width: auto;
@@ -3140,6 +3165,17 @@ background-image: linear-gradient(
   height: 100px;
 }
 
+.FooterMenuFlotante{
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  bottom: 15px;
+}
+
 .FooterHome{
   text-align: center;
   align-items: center;
@@ -3155,5 +3191,48 @@ background-image: linear-gradient(
   font-weight: bold;
   text-align: center;
 }
+
+.NavbarTest{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #e7eceec5;
+  backdrop-filter: blur(5px);
+}
+
+.CajaTitulosContador{
+  background: rgb(0, 0, 0, 0.0);
+  margin: 0 auto;
+  width: 100%;
+  height: 26%;
+  position: absolute;
+  top: 10px;
+  text-align: center;
+}
+
+.TextoTitulosContador{
+  height: 100%;
+  width: 100%;
+  background-color: #1c1917;
+
+  /*background: rgba(0, 0, 0, 0.55);*/
+  backdrop-filter: blur(3px);
+  padding-left: 10px;
+  padding-right: 10px;
+  /*width: auto;
+  height: auto;*/
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  display:inline-table;
+}
+
+
 
 
