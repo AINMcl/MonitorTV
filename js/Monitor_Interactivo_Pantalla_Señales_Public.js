@@ -2,43 +2,43 @@ let LosCanales = [
     {
         'titulo': '24 PLAY',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24PLAY.svg"></img>',
-        'url': 'Señal24HTVN_IFRAME.html'
+        'url': '../Monitores/Senal/24HTVN_IFRAME.html'
     }, {
         'titulo': 'CANAL 24 HORAS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CANAL24H.svg"></img>',
-        'url': 'SeñalCanal24HTVN.html'
+        'url': '../Monitores/Senal/Canal24HTVN.html'
     },{
         'titulo': 'CNN CHILE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CNNCHILE2.svg"></img>',
-        'url': 'SeñalCNNCHILE.html'
+        'url': '../Monitores/Senal/CNNCHILE.html'
     },{
         'titulo': 'MEGANOTICIAS',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_MEGANOTICIAS.svg"></img>',
-        'url': 'SeñalMEGANOTICIAS_IFRAME.html'
+        'url': '../Monitores/Senal/MEGANOTICIAS_IFRAME.html'
     }, {
         'titulo': 'CHV NOTICIAS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CHV_NOTICIAS.svg"></img>',
-        'url': 'SeñalCHVNOTICIAS_PLUTOTV.html'
+        'url': '../Monitores/Senal/CHVNOTICIAS_PLUTOTV.html'
     }, {
         'titulo': 'T13',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_T13_ENVIVO.svg"></img>',
-        'url': 'SeñalT13_ENVIVO.html'
+        'url': '../Monitores/Senal/T13_ENVIVO.html'
     }, {
         'titulo': 'MEGA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_MEGA.svg"></img>',
-        'url': 'SeñalMEGA.html'
+        'url': '../Monitores/Senal/MEGA.html'
     }, {
         'titulo': 'CANAL 13',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Canal13.svg"></img>',
-        'url': 'SeñalCANAL13.html'
+        'url': '../Monitores/Senal/CANAL13.html'
     },{
         'titulo': 'LA RED',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_LA_RED.svg"></img>',
-        'url': 'SeñalLARED.html'
+        'url': '../Monitores/Senal/LARED.html'
     },{
         'titulo': 'TV+',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVMAS.svg"></img>',
-        'url': 'SeñalTVMAS.html'
+        'url': '../Monitores/Senal/TVMAS.html'
     }, {
         'titulo': 'TVN',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVN.svg"></img>',
@@ -54,11 +54,11 @@ let LosCanales = [
     },{
         'titulo': 'TV CHILE',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVCHILE.svg"></img>',
-        'url': 'SeñalTVCHILE.html'
+        'url': '../Monitores/Senal/TVCHILE.html'
     }, {
         'titulo': 'NTV',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NTV.svg"></img>',
-        'url': 'SeñalNTV.html'
+        'url': '../Monitores/Senal/NTV.html'
     }, {
     /*    'titulo': 'CNN CHILE',
         'nombre': '<span id="CNNCHILE" style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 5px;" src="imagenes/Logo_CNNCHILE2.svg"></img><span title="USAR ADBLOCK PARA EVITAR ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #2E4053; font-size: 20px" class="material-icons-round">security</span><span style="color: #2E4053; font-size: 12px; margin-left: 5px;">Usar AdBlock</span></span>',
@@ -70,189 +70,189 @@ let LosCanales = [
     },{*/
         'titulo': 'UCV TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCVTV.svg"></img>',
-        'url': 'SeñalUCVTV.html'
+        'url': '../Monitores/Senal/UCVTV.html'
     }, {
         'titulo': 'UCV TV 2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCVTV.svg"></img> SEÑAL 2',
-        'url': 'SeñalUCVTV2.html'
+        'url': '../Monitores/Senal/UCVTV2.html'
     }, {
         'titulo': 'WAPP TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/LogoTV_WappTV.svg"></img>',
-        'url': 'SeñalWAPPTV.html'
+        'url': '../Monitores/Senal/WAPPTV.html'
     },{
         'titulo': 'U CHILE TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_UCHILETV_2.svg"></img>',
-        'url': 'SeñalUCHILETV.html'
+        'url': '../Monitores/Senal/UCHILETV.html'
     }, {
         'titulo': 'CHV CONTIGO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>CHV CONTIGO',
-        'url': 'SeñalCHVCONTIGO_PLUTOTV.html'
+        'url': '../Monitores/Senal/CHVCONTIGO_PLUTOTV.html'
     }, {
         'titulo': 'DEPORTES 13',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>DEPORTES 13',
-        'url': 'SeñalCANAL13_DEPORTES.html'
+        'url': '../Monitores/Senal/CANAL13_DEPORTES.html'
     }, {
         'titulo': '24 HORAS 1',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 1',
-        'url': 'SeñalInterna24H_1.html'
+        'url': '../Monitores/Senal/Interna24H_1.html'
     }, {
         'titulo': '24 HORAS 2',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 2',
-        'url': 'SeñalInterna24H_2.html'
+        'url': '../Monitores/Senal/Interna24H_2.html'
     }, {
         'titulo': '24 HORAS 3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 3',
-        'url': 'SeñalInterna24H_3.html'
+        'url': '../Monitores/Senal/Interna24H_3.html'
     },{
         'titulo': '24 HORAS 4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 4',
-        'url': 'SeñalInterna24H_4.html'
+        'url': '../Monitores/Senal/Interna24H_4.html'
     }, {
         'titulo': '24 HORAS 5',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 5',
-        'url': 'SeñalInterna24H_5.html'
+        'url': '../Monitores/Senal/Interna24H_5.html'
     }, {
         'titulo': 'MEGANOTICIAS 1',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>SEÑAL OCASIONAL 1',
-        'url': 'SeñalInternaMEGANOTICIAS_IFRAME_1.html'
+        'url': '../Monitores/Senal/InternaMEGANOTICIAS_IFRAME_1.html'
     }, {
         'titulo': 'MEGANOTICIAS 2',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>SEÑAL OCASIONAL 2',
-        'url': 'SeñalInternaMEGANOTICIAS_IFRAME_2.html'
+        'url': '../Monitores/Senal/InternaMEGANOTICIAS_IFRAME_2.html'
     }, {
         'titulo': 'MEGANOTICIAS 3',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>SEÑAL OCASIONAL 3',
-        'url': 'SeñalInternaMEGANOTICIAS_IFRAME_3.html'
+        'url': '../Monitores/Senal/InternaMEGANOTICIAS_IFRAME_3.html'
     },{
         'titulo': 'MEGANOTICIAS 4',
         'nombre': '<span style="margin-right: 10px; color: #0035FF" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_MEGANOTICIAS2.svg"></img>SEÑAL OCASIONAL 4',
-        'url': 'SeñalInternaMEGANOTICIAS_IFRAME_4.html'
+        'url': '../Monitores/Senal/InternaMEGANOTICIAS_IFRAME_4.html'
     },{
         'titulo': 'CNN CHILE 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CNNCHILE2.svg"></img>SEÑAL OCASIONAL 1',
-        'url': 'SeñalInternaCNNCHILE_1.html'
+        'url': '../Monitores/Senal/InternaCNNCHILE_1.html'
     },{
         'titulo': 'CHV EVENTOS',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CHV.svg"></img>SEÑAL OCASIONAL 1',
-        'url': 'SeñalCHV_EVENTOS.html'
+        'url': '../Monitores/Senal/CHV_EVENTOS.html'
     },{
         'titulo': '13 LIVE 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Canal13.svg"></img>SEÑAL OCASIONAL 1',
-        'url': 'SeñalInternaCANAL13_1.html'
+        'url': '../Monitores/Senal/InternaCANAL13_1.html'
     },{
         'titulo': 'ZAPPING TV MUSIC',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">music_note</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_ZAPPING_TV_MUSIC.svg"></img>',
-        'url': 'SeñalZAPPINGTV_MUSIC.html'
+        'url': '../Monitores/Senal/ZAPPINGTV_MUSIC.html'
     },{
         'titulo': 'REWIND TV RADIO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">music_note</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_REWIND_TV.svg"></img>',
-        'url': 'SeñalREWINDTV.html'
+        'url': '../Monitores/Senal/REWINDTV.html'
     },
     
     
     {
         'titulo': 'ADN RADIO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_ADNRADIO.svg"></img>',
-        'url': 'SeñalRADIO_ADN.html'
+        'url': '../Monitores/Senal/RADIO_ADN.html'
     }, {
         'titulo': 'RADIO COOPERATIVA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Radio_Cooperativa.svg"></img>',
-        'url': 'SeñalRADIO_COOPERATIVA.html'
+        'url': '../Monitores/Senal/RADIO_COOPERATIVA.html'
     }, {
         'titulo': 'RADIO BIOBIO TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_BIOBIOCHILE.svg"></img>BIOBIO TV',
-        'url': 'SeñalRADIO_BIOBIOTV.html'
+        'url': '../Monitores/Senal/RADIO_BIOBIOTV.html'
     }, {
         'titulo': 'T13 RADIO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Tele13RADIO.svg"></img>',
-        'url': 'SeñalRADIO_T13_2.html'
+        'url': '../Monitores/Senal/RADIO_T13_2.html'
     }, {
         'titulo': 'RADIO INFINITA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_Radio_Infinita.svg"></img>',
-        'url': 'SeñalRADIO_INFINITA.html'
+        'url': '../Monitores/Senal/RADIO_INFINITA.html'
     },{
         'titulo': 'RADIO LA CLAVE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_RadioLaClave.svg"></img>',
-        'url': 'SeñalRADIO_LACLAVE.html'
+        'url': '../Monitores/Senal/RADIO_LACLAVE.html'
     }, {
         'titulo': 'CNN CHILE AUDIO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_CNN.svg"></img>CHILE (AUDIO)',
-        'url': 'SeñalCNNCHILE_Audio.html'
+        'url': '../Monitores/Senal/CNNCHILE_Audio.html'
     }, {
         'titulo': 'SUBELA RADIO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>SUBELA RADIO',
-        'url': 'SeñalRADIO_SUBELA.html'
+        'url': '../Monitores/Senal/RADIO_SUBELA.html'
     }, {
         'titulo': 'RADIO TIEMPO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO TIEMPO',
-        'url': 'SeñalRADIO_TIEMPO.html'
+        'url': '../Monitores/Senal/RADIO_TIEMPO.html'
     }, {
         'titulo': 'RADIO PAUTA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO PAUTA',
-        'url': 'SeñalRADIO_PAUTA.html'
+        'url': '../Monitores/Senal/RADIO_PAUTA.html'
     }, {
         'titulo': 'RADIO PAUTA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO PAUTA 2',
-        'url': 'SeñalRADIO_PAUTA_2.html'
+        'url': '../Monitores/Senal/RADIO_PAUTA_2.html'
     }, {
         'titulo': 'RADIO PUDAHUEL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO PUDAHUEL',
-        'url': 'SeñalRADIO_PUDAHUEL.html'
+        'url': '../Monitores/Senal/RADIO_PUDAHUEL.html'
     }, {
         'titulo': 'RADIO DUNA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO DUNA',
-        'url': 'SeñalRADIO_DUNA.html'
+        'url': '../Monitores/Senal/RADIO_DUNA.html'
     }, {
         'titulo': 'RADIO ROMANTICA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO ROMANTICA',
-        'url': 'SeñalRADIO_ROMANTICA.html'
+        'url': '../Monitores/Senal/RADIO_ROMANTICA.html'
     }, {
         'titulo': 'RADIO INICIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO INICIA',
-        'url': 'SeñalRADIO_INICIA.html'
+        'url': '../Monitores/Senal/RADIO_INICIA.html'
     }, {
         'titulo': 'RADIO LAS NIEVES',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | RADIO LAS NIEVES',        
-        'url': 'SeñalRADIOLASNIEVES.html'
+        'url': '../Monitores/Senal/RADIOLASNIEVES.html'
     }, {
         'titulo': 'RADIO PANORAMICA INFORMATIVA',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">mic</span>AYSEN | RADIO PANORAMICA INFORMATIVA',
-        'url': 'SeñalRADIO_PANORAMICAINFORMATIVA.html'
+        'url': '../Monitores/Senal/RADIO_PANORAMICAINFORMATIVA.html'
     },{
         'titulo': 'RADIO GENIAL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | RADIO GENIAL',
-        'url': 'SeñalRADIO_GENIAL.html'
+        'url': '../Monitores/Senal/RADIO_GENIAL.html'
     }, {
         'titulo': 'RADIO CANAL SUR PATAGONIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | CANAL SUR PATAGONIA',
-        'url': 'SeñalRADIO_CANALSURPATAGONIA.html'
+        'url': '../Monitores/Senal/RADIO_CANALSURPATAGONIA.html'
     }, {
         'titulo': 'PATAGONIA RADIO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>LOS LAGOS | PATAGONIA RADIO',
-        'url': 'SeñalRADIO_PATAGONIA_RADIO.html'
+        'url': '../Monitores/Senal/RADIO_PATAGONIA_RADIO.html'
     }, {
         'titulo': 'RADIO POLAR',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>MAGALLANES | RADIO POLAR',
-        'url': 'SeñalRADIO_POLAR.html'
+        'url': '../Monitores/Senal/RADIO_POLAR.html'
     },
     
     //SEÑALES GOBIERNO
     {
         'titulo': 'PRESIDENCIA CHILE',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_GOB.svg"></img>PRESIDENCIA',
-        'url': 'SeñalPRESIDENCIA.html'
+        'url': '../Monitores/Senal/PRESIDENCIA.html'
     }, {
         'titulo': 'PRESIDENCIA CHILE',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_GOB.svg"></img>GOBIERNO DE CHILE',
-        'url': 'SeñalPRESIDENCIA_3.html'
+        'url': '../Monitores/Senal/PRESIDENCIA_3.html'
     }, {
         'titulo': 'TV SENADO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>TV SENADO',
-        'url': 'SeñalSENADO_TV.html'
+        'url': '../Monitores/Senal/SENADO_TV.html'
     }, {
         'titulo': 'TV DIPUTADOS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>TV DIPUTADOS',
-        'url': 'SeñalCDTV.html'
+        'url': '../Monitores/Senal/CDTV.html'
     },{
         'titulo': 'TV SENADO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img>TV SENADO',
@@ -268,295 +268,295 @@ let LosCanales = [
     }, {
         'titulo': 'REUTERS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>REUTERS',
-        'url': 'SeñalREUTERS.html'
+        'url': '../Monitores/Senal/REUTERS.html'
     }, {
         'titulo': 'TELEMUNDO NOTICIAS',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>TELEMUNDO NOTICIAS',
-        'url': 'SeñalTELEMUNDONOTICIAS.html'
+        'url': '../Monitores/Senal/TELEMUNDONOTICIAS.html'
     }, {
         'titulo': 'VOA TV LIVE 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 1',
-        'url': 'SeñalVOA_LIVE_01.html'
+        'url': '../Monitores/Senal/VOA_LIVE_01.html'
     }, {
         'titulo': 'VOA TV LIVE 2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 2',
-        'url': 'SeñalVOA_LIVE_02.html'
+        'url': '../Monitores/Senal/VOA_LIVE_02.html'
     }, {
         'titulo': 'VOA TV LIVE 3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 3',
-        'url': 'SeñalVOA_LIVE_03.html'
+        'url': '../Monitores/Senal/VOA_LIVE_03.html'
     }, {
         'titulo': 'VOA TV LIVE 4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 4',
-        'url': 'SeñalVOA_LIVE_04.html'
+        'url': '../Monitores/Senal/VOA_LIVE_04.html'
     }, {
         'titulo': 'VOA TV LIVE 5',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 5',
-        'url': 'SeñalVOA_LIVE_05.html'
+        'url': '../Monitores/Senal/VOA_LIVE_05.html'
     }, {
         'titulo': 'VOA TV LIVE 6',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 6',
-        'url': 'SeñalVOA_LIVE_06.html'
+        'url': '../Monitores/Senal/VOA_LIVE_06.html'
     }, {
         'titulo': 'VOA TV LIVE 7',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 7',
-        'url': 'SeñalVOA_LIVE_07.html'
+        'url': '../Monitores/Senal/VOA_LIVE_07.html'
     }, {
         'titulo': 'VOA TV LIVE 8',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 8',
-        'url': 'SeñalVOA_LIVE_08.html'
+        'url': '../Monitores/Senal/VOA_LIVE_08.html'
     }, {
         'titulo': 'VOA TV LIVE 9',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 9',
-        'url': 'SeñalVOA_LIVE_09.html'
+        'url': '../Monitores/Senal/VOA_LIVE_09.html'
     }, {
         'titulo': 'VOA TV LIVE 10',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 10',
-        'url': 'SeñalVOA_LIVE_10.html'
+        'url': '../Monitores/Senal/VOA_LIVE_10.html'
     }, {
         'titulo': 'VOA TV LIVE 11',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 11',
-        'url': 'SeñalVOA_LIVE_11.html'
+        'url': '../Monitores/Senal/VOA_LIVE_11.html'
     }, {
         'titulo': 'VOA TV LIVE 12',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 12',
-        'url': 'SeñalVOA_LIVE_12.html'
+        'url': '../Monitores/Senal/VOA_LIVE_12.html'
     }, {
         'titulo': 'VOA TV LIVE 13',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 13',
-        'url': 'SeñalVOA_LIVE_13.html'
+        'url': '../Monitores/Senal/VOA_LIVE_13.html'
     }, {
         'titulo': 'SKY NEWS EXTRA 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>SKY NEWS EXTRA 1',
-        'url': 'SeñalSKY_NEWS_EXTRA_1.html'
+        'url': '../Monitores/Senal/SKY_NEWS_EXTRA_1.html'
     }, {
         'titulo': 'SKY NEWS EXTRA 2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>SKY NEWS EXTRA 2',
-        'url': 'SeñalSKY_NEWS_EXTRA_2.html'
+        'url': '../Monitores/Senal/SKY_NEWS_EXTRA_2.html'
     },{
         'titulo': 'SKY NEWS EXTRA 3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>SKY NEWS EXTRA 3',
-        'url': 'SeñalSKY_NEWS_EXTRA_3.html'
+        'url': '../Monitores/Senal/SKY_NEWS_EXTRA_3.html'
     }, {
         'titulo': 'NBC NOW LIVE 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>NBC NEWS NOW LIVE 1',
-        'url': 'SeñalNBC_LIVE_1.html'
+        'url': '../Monitores/Senal/NBC_LIVE_1.html'
     }, {
         'titulo': 'NBC NOW LIVE 2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>NBC NEWS NOW LIVE 2',
-        'url': 'SeñalNBC_LIVE_2.html'
+        'url': '../Monitores/Senal/NBC_LIVE_2.html'
     }, {
         'titulo': 'NBC NOW LIVE 3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>NBC NEWS NOW LIVE 3',
-        'url': 'SeñalNBC_LIVE_3.html'
+        'url': '../Monitores/Senal/NBC_LIVE_3.html'
     }, {
         'titulo': 'NBC NOW LIVE 4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>NBC NEWS NOW LIVE 4',
-        'url': 'SeñalNBC_LIVE_4.html'
+        'url': '../Monitores/Senal/NBC_LIVE_4.html'
     }, {
         'titulo': 'CBS NEWS LIVE 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CBS NEWS LIVE 1',
-        'url': 'SeñalCBSNEWS_LIVE_1.html'
+        'url': '../Monitores/Senal/CBSNEWS_LIVE_1.html'
     }, {
         'titulo': 'CBS NEWS LIVE 2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CBS NEWS LIVE 2',
-        'url': 'SeñalCBSNEWS_LIVE_2.html'
+        'url': '../Monitores/Senal/CBSNEWS_LIVE_2.html'
     }, {
         'titulo': 'CBS NEWS LIVE 3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CBS NEWS LIVE 3',
-        'url': 'SeñalCBSNEWS_LIVE_3.html'
+        'url': '../Monitores/Senal/CBSNEWS_LIVE_3.html'
     }, {
         'titulo': 'ABC NEWS LIVE 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 1',
-        'url': 'SeñalABCNEWS_LIVE_1.html'
+        'url': '../Monitores/Senal/ABCNEWS_LIVE_1.html'
     }, {
         'titulo': 'ABC NEWS LIVE 2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 2',
-        'url': 'SeñalABCNEWS_LIVE_2.html'
+        'url': '../Monitores/Senal/ABCNEWS_LIVE_2.html'
     }, {
         'titulo': 'ABC NEWS LIVE 3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 3',
-        'url': 'SeñalABCNEWS_LIVE_3.html'
+        'url': '../Monitores/Senal/ABCNEWS_LIVE_3.html'
     }, {
         'titulo': 'ABC NEWS LIVE 4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 4',
-        'url': 'SeñalABCNEWS_LIVE_4.html'
+        'url': '../Monitores/Senal/ABCNEWS_LIVE_4.html'
     }, {
         'titulo': 'ABC NEWS LIVE 5',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 5',
-        'url': 'SeñalABCNEWS_LIVE_5.html'
+        'url': '../Monitores/Senal/ABCNEWS_LIVE_5.html'
     }, {
         'titulo': 'ABC NEWS LIVE 6',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 6',
-        'url': 'SeñalABCNEWS_LIVE_6.html'
+        'url': '../Monitores/Senal/ABCNEWS_LIVE_6.html'
     }, {
         'titulo': 'ABC NEWS LIVE 7',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 7',
-        'url': 'SeñalABCNEWS_LIVE_7.html'
+        'url': '../Monitores/Senal/ABCNEWS_LIVE_7.html'
     }, {
         'titulo': 'ABC NEWS LIVE 8',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 8',
-        'url': 'SeñalABCNEWS_LIVE_8.html'
+        'url': '../Monitores/Senal/ABCNEWS_LIVE_8.html'
     }, {
         'titulo': 'ABC NEWS LIVE 9',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 9',
-        'url': 'SeñalABCNEWS_LIVE_9.html'
+        'url': '../Monitores/Senal/ABCNEWS_LIVE_9.html'
     }, {
         'titulo': 'ABC NEWS LIVE 10',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 10',
-        'url': 'SeñalABCNEWS_LIVE_10.html'
+        'url': '../Monitores/Senal/ABCNEWS_LIVE_10.html'
     }, {
         'titulo': 'BBC NEWS LIVE 1',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 1',
-        'url': 'SeñalBBCNEWS_LIVE_1.html'
+        'url': '../Monitores/Senal/BBCNEWS_LIVE_1.html'
     }, {
         'titulo': 'BBC NEWS LIVE 2',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 2',
-        'url': 'SeñalBBCNEWS_LIVE_2.html'
+        'url': '../Monitores/Senal/BBCNEWS_LIVE_2.html'
     }, {
         'titulo': 'BBC NEWS LIVE 3',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 3',
-        'url': 'SeñalBBCNEWS_LIVE_3.html'
+        'url': '../Monitores/Senal/BBCNEWS_LIVE_3.html'
     }, {
         'titulo': 'BBC NEWS LIVE 4',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 4',
-        'url': 'SeñalBBCNEWS_LIVE_4.html'
+        'url': '../Monitores/Senal/BBCNEWS_LIVE_4.html'
     }, {
         'titulo': 'BBC NEWS LIVE 5',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 5',
-        'url': 'SeñalBBCNEWS_LIVE_5.html'
+        'url': '../Monitores/Senal/BBCNEWS_LIVE_5.html'
     }, {
         'titulo': 'BBC NEWS LIVE 6',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 6',
-        'url': 'SeñalBBCNEWS_LIVE_6.html'
+        'url': '../Monitores/Senal/BBCNEWS_LIVE_6.html'
     }, {
         'titulo': 'BBC NEWS LIVE 7',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 7',
-        'url': 'SeñalBBCNEWS_LIVE_7.html'
+        'url': '../Monitores/Senal/BBCNEWS_LIVE_7.html'
     }, {
         'titulo': 'BBC NEWS LIVE 8',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 8',
-        'url': 'SeñalBBCNEWS_LIVE_8.html'
+        'url': '../Monitores/Senal/BBCNEWS_LIVE_8.html'
     }, {
         'titulo': 'BBC NEWS LIVE 9',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>BBC NEWS LIVE 9',
-        'url': 'SeñalBBCNEWS_LIVE_9.html'
+        'url': '../Monitores/Senal/BBCNEWS_LIVE_9.html'
     }, {
         'titulo': 'CNN LIVE EVENT 1',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>CNN LIVE EVENT 1',
-        'url': 'SeñalCNN_LIVE_EVENT_1.html'
+        'url': '../Monitores/Senal/CNN_LIVE_EVENT_1.html'
     }, {
         'titulo': 'CNN LIVE EVENT 2',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>CNN LIVE EVENT 2',
-        'url': 'SeñalCNN_LIVE_EVENT_2.html'
+        'url': '../Monitores/Senal/CNN_LIVE_EVENT_2.html'
     }, {
         'titulo': 'CNN LIVE EVENT 3',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>CNN LIVE EVENT 3',
-        'url': 'SeñalCNN_LIVE_EVENT_3.html'
+        'url': '../Monitores/Senal/CNN_LIVE_EVENT_3.html'
     }, {
         'titulo': 'CNN LIVE EVENT 4',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>CNN LIVE EVENT 4',
-        'url': 'SeñalCNN_LIVE_EVENT_4.html'
+        'url': '../Monitores/Senal/CNN_LIVE_EVENT_4.html'
     }, {
         'titulo': 'CNN LIVE EVENT 5',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>CNN LIVE EVENT 5',
-        'url': 'SeñalCNN_LIVE_EVENT_5.html'
+        'url': '../Monitores/Senal/CNN_LIVE_EVENT_5.html'
     }, {
         'titulo': '+24 RTVE SEÑAL 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 1',
-        'url': 'Señal24H_TVE_OCASIONAL_1.html'
+        'url': '../Monitores/Senal/24H_TVE_OCASIONAL_1.html'
     }, {
         'titulo': '+24 RTVE SEÑAL 2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 2',
-        'url': 'Señal24H_TVE_OCASIONAL_2.html'
+        'url': '../Monitores/Senal/24H_TVE_OCASIONAL_2.html'
     }, {
         'titulo': '+24 RTVE SEÑAL 3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 3',
-        'url': 'Señal24H_TVE_OCASIONAL_3.html'
+        'url': '../Monitores/Senal/24H_TVE_OCASIONAL_3.html'
     }, {
         'titulo': '+24 RTVE SEÑAL 4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 4',
-        'url': 'Señal24H_TVE_OCASIONAL_4.html'
+        'url': '../Monitores/Senal/24H_TVE_OCASIONAL_4.html'
     }, {
         'titulo': '+24 RTVE SEÑAL 5',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 5',
-        'url': 'Señal24H_TVE_OCASIONAL_5.html'
+        'url': '../Monitores/Senal/24H_TVE_OCASIONAL_5.html'
     }, {
     /*  'titulo': 'RTVE OCASIONAL 1',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>RTVE LIVE OCASIONAL 1',
-        'url': 'SeñalRTVEOCASIONAL_1.html'
+        'url': '../Monitores/Senal/RTVEOCASIONAL_1.html'
     }, {
         'titulo': 'RTVE OCASIONAL 2',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>RTVE LIVE OCASIONAL 2',
-        'url': 'SeñalRTVEOCASIONAL_2.html'
+        'url': '../Monitores/Senal/RTVEOCASIONAL_2.html'
     }, {
         'titulo': 'RTVE OCASIONAL 3',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>RTVE LIVE OCASIONAL 3',
-        'url': 'SeñalRTVEOCASIONAL_3.html'
+        'url': '../Monitores/Senal/RTVEOCASIONAL_3.html'
     }, {
         'titulo': 'RTVE OCASIONAL 4',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>RTVE LIVE OCASIONAL 4',
-        'url': 'SeñalRTVEOCASIONAL_4.html'
+        'url': '../Monitores/Senal/RTVEOCASIONAL_4.html'
     }, {
         'titulo': 'RTVE OCASIONAL 5',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>RTVE LIVE OCASIONAL 5',
-        'url': 'SeñalRTVEOCASIONAL_5.html'
+        'url': '../Monitores/Senal/RTVEOCASIONAL_5.html'
     }, {
         'titulo': 'RTVE OCASIONAL 6',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span>RTVE LIVE OCASIONAL 6',
-        'url': 'SeñalRTVEOCASIONAL_6.html'
+        'url': '../Monitores/Senal/RTVEOCASIONAL_6.html'
     }, {*/
         'titulo': 'CCTV+ 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 1',
-        'url': 'SeñalCCTVPLUS_1.html'
+        'url': '../Monitores/Senal/CCTVPLUS_1.html'
     }, {
         'titulo': 'CCTV+ 2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 2',
-        'url': 'SeñalCCTVPLUS_2.html'
+        'url': '../Monitores/Senal/CCTVPLUS_2.html'
     },{
         'titulo': 'CCTV+ 3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 3',
-        'url': 'SeñalCCTVPLUS_3.html'
+        'url': '../Monitores/Senal/CCTVPLUS_3.html'
     },{
         'titulo': 'CCTV+ 4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 4',
-        'url': 'SeñalCCTVPLUS_4.html'
+        'url': '../Monitores/Senal/CCTVPLUS_4.html'
     },{
     /*    'titulo': 'PANAM SPORTS 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 1',
-        'url': 'SeñalPANAMSPORTS_S1.html'
+        'url': '../Monitores/Senal/PANAMSPORTS_S1.html'
     },{
         'titulo': 'PANAM SPORTS 2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 2',
-        'url': 'SeñalPANAMSPORTS_S2.html'
+        'url': '../Monitores/Senal/PANAMSPORTS_S2.html'
     },{
         'titulo': 'PANAM SPORTS 3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 3',
-        'url': 'SeñalPANAMSPORTS_S3.html'
+        'url': '../Monitores/Senal/PANAMSPORTS_S3.html'
     },{
         'titulo': 'PANAM SPORTS 4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 4',
-        'url': 'SeñalPANAMSPORTS_S4.html'
+        'url': '../Monitores/Senal/PANAMSPORTS_S4.html'
     },{
         'titulo': 'PANAM SPORTS 5',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 5',
-        'url': 'SeñalPANAMSPORTS_S5.html'
+        'url': '../Monitores/Senal/PANAMSPORTS_S5.html'
     },{
         'titulo': 'PANAM SPORTS 6',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 6',
-        'url': 'SeñalPANAMSPORTS_S6.html'
+        'url': '../Monitores/Senal/PANAMSPORTS_S6.html'
     },{
         'titulo': 'PANAM SPORTS 7',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 7',
-        'url': 'SeñalPANAMSPORTS_S7.html'
+        'url': '../Monitores/Senal/PANAMSPORTS_S7.html'
     },{
         'titulo': 'PANAM SPORTS 8',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 8',
-        'url': 'SeñalPANAMSPORTS_S8.html'
+        'url': '../Monitores/Senal/PANAMSPORTS_S8.html'
     },{*/
         'titulo': 'THE WHITE HOUSE',
         'nombre': '<span id="THE_WHITE_HOUSE" style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="CHILE"></img>THE WHITE HOUSE LIVE EVENTS',
-        'url': 'SeñalTHEWHITEHOUSE_LIVE_EVENT.html'
+        'url': '../Monitores/Senal/THEWHITEHOUSE_LIVE_EVENT.html'
     },{
         'titulo': 'PRESIDENCIA CHILE',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PRESIDENCIA CHILE',
@@ -576,319 +576,319 @@ let LosCanales = [
     }, {
         'titulo': 'CANAL 26',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>CANAL 26',
-        'url': 'SeñalCANAL_26_ARG.html'
+        'url': '../Monitores/Senal/CANAL_26_ARG.html'
     }, {
         'titulo': 'ABC TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/py.svg" title="PARAGUAY"></img>ABC TV',
-        'url': 'SeñalABCTV.html'
+        'url': '../Monitores/Senal/ABCTV.html'
     }, {
         'titulo': 'TRECE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/py.svg" title="PARAGUAY"></img>TRECE',
-        'url': 'SeñalPY_TRECE.html'
+        'url': '../Monitores/Senal/PY_TRECE.html'
     }, {
         'titulo': 'C9N',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/py.svg" title="PARAGUAY"></img>C9N',
-        'url': 'SeñalPY_C9N.html'
+        'url': '../Monitores/Senal/PY_C9N.html'
     }, {
         'titulo': 'ATV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>ATV',
-        'url': 'SeñalATV.html'
+        'url': '../Monitores/Senal/ATV.html'
     }, {
         'titulo': 'ATV PLUS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>ATV PLUS',
-        'url': 'SeñalATVPLUS.html'
+        'url': '../Monitores/Senal/ATVPLUS.html'
     }, {
         'titulo': 'TVPERU INTERNACIONAL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>TV PERU INTERNACIONAL',
-        'url': 'SeñalTVPERU_INTERNACIONAL.html'
+        'url': '../Monitores/Senal/TVPERU_INTERNACIONAL.html'
     }, {
         'titulo': 'PANAMERICANA TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>PANAMERICANA TV',
-        'url': 'SeñalPANAMERICANATV.html'
+        'url': '../Monitores/Senal/PANAMERICANATV.html'
     }, {
         'titulo': 'WILLAX TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>WILLAX TV',
-        'url': 'SeñalWILLAXTV.html'
+        'url': '../Monitores/Senal/WILLAXTV.html'
     }, {
         'titulo': 'ONDA DIGITAL TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>ONDA DIGITAL TV',
-        'url': 'SeñalONDADIGITALTV_1.html'
+        'url': '../Monitores/Senal/ONDADIGITALTV_1.html'
     }, {
         'titulo': 'BOLIVIA TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>BOLIVIA TV',
-        'url': 'SeñalBOLIVIA_TV_72.html'
+        'url': '../Monitores/Senal/BOLIVIA_TV_72.html'
     }, {
         'titulo': 'CADENA A',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>CADENA A',
-        'url': 'SeñalCADENA_A.html'
+        'url': '../Monitores/Senal/CADENA_A.html'
     }, {
         'titulo': 'RTP',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>RTP',
-        'url': 'SeñalRTP.html'
+        'url': '../Monitores/Senal/RTP.html'
     }, {
         'titulo': 'PAT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>PAT',
-        'url': 'SeñalPAT_BOLIVIA.html'
+        'url': '../Monitores/Senal/PAT_BOLIVIA.html'
     }, {
         'titulo': 'CANAL 13',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CANAL 13',
-        'url': 'SeñalCANAL13_COLOMBIA.html'
+        'url': '../Monitores/Senal/CANAL13_COLOMBIA.html'
     }, {
         'titulo': 'ATN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>ATN',
-        'url': 'SeñalATN_TV_COLOMBIA.html'
+        'url': '../Monitores/Senal/ATN_TV_COLOMBIA.html'
     }, {
         'titulo': 'TELEPACIFICO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>TELEPACIFICO',
-        'url': 'SeñalTELEPACIFICO_COLOMBIA.html'
+        'url': '../Monitores/Senal/TELEPACIFICO_COLOMBIA.html'
     }, {
         'titulo': 'CABLENOTICIAS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CABLENOTICIAS',
-        'url': 'SeñalCABLENOTICIAS_COLOMBIA.html'
+        'url': '../Monitores/Senal/CABLENOTICIAS_COLOMBIA.html'
     }, {
         'titulo': 'RED+ NOTICIAS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>RED+ NOTICIAS',
-        'url': 'SeñalRED+NOTICIAS_COLOMBIA.html'
+        'url': '../Monitores/Senal/RED+NOTICIAS_COLOMBIA.html'
     }, {
         'titulo': 'ECUADOR TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>ECUADOR TV',
-        'url': 'SeñalECUADOR_TV.html'
+        'url': '../Monitores/Senal/ECUADOR_TV.html'
     }, {
         'titulo': 'RTU TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>RTU TV',
-        'url': 'SeñalRTU_TV_ECUADOR.html'
+        'url': '../Monitores/Senal/RTU_TV_ECUADOR.html'
     }, {
         'titulo': 'UCSG TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>UCSG TV',
-        'url': 'SeñalUCSG_ECUADOR.html'
+        'url': '../Monitores/Senal/UCSG_ECUADOR.html'
     }, {
         'titulo': 'TELESUR',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ve.svg" title="VENEZUELA"></img>TELESUR',
-        'url': 'SeñalTELESUR.html'
+        'url': '../Monitores/Senal/TELESUR.html'
     }, {
         'titulo': 'TELESUR ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ve.svg" title="VENEZUELA"></img>TELESUR ENGLISH',
-        'url': 'SeñalTELESUR_ENG.html'
+        'url': '../Monitores/Senal/TELESUR_ENG.html'
     }, {
         'titulo': 'VTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ve.svg" title="VENEZUELA"></img>VTV',
-        'url': 'SeñalVTV.html'
+        'url': '../Monitores/Senal/VTV.html'
     }, {
         'titulo': 'TVes',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ve.svg" title="VENEZUELA"></img>TVes',
-        'url': 'SeñalTVes.html'
+        'url': '../Monitores/Senal/TVes.html'
     }, {
         'titulo': 'N+',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>N+',
-        'url': 'SeñalNMAS_MEXICO.html'
+        'url': '../Monitores/Senal/NMAS_MEXICO.html'
     }, {
         'titulo': 'N+ MEDIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>N+ MEDIA',
-        'url': 'SeñalNMAS_MEDIA_MEXICO.html'
+        'url': '../Monitores/Senal/NMAS_MEDIA_MEXICO.html'
     }, {
         'titulo': 'FORO TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>FORO TV',
-        'url': 'SeñalFOROTV_MEXICO.html'
+        'url': '../Monitores/Senal/FOROTV_MEXICO.html'
     }, {
         'titulo': 'MILENO TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>MILENO TV',
-        'url': 'SeñalMILENIO_TV.html'
+        'url': '../Monitores/Senal/MILENIO_TV.html'
     }, {
         'titulo': 'ADN 40',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>ADN 40',
-        'url': 'SeñalADN40.html'
+        'url': '../Monitores/Senal/ADN40.html'
     }, {
         'titulo': 'EURONEWS ESPAÑOL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ESPAÑOL',
-        'url': 'SeñalEURONEWS_ESPANOL.html'
+        'url': '../Monitores/Senal/EURONEWS_ESPANOL.html'
     },{
         'titulo': 'EURONEWS ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ENGLISH',
-        'url': 'SeñalEURONEWS_ENGLISH.html'
+        'url': '../Monitores/Senal/EURONEWS_ENGLISH.html'
     },{
         'titulo': 'EURONEWS FRANCES',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS FRANCES',
-        'url': 'SeñalEURONEWS_FRANCIA.html'
+        'url': '../Monitores/Senal/EURONEWS_FRANCIA.html'
     },{
         'titulo': 'EURONEWS RUSO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS RUSO',
-        'url': 'SeñalEURONEWS_RUSO.html'
+        'url': '../Monitores/Senal/EURONEWS_RUSO.html'
     },{
         'titulo': 'EURONEWS PORTUGUÉS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS PORTUGUÉS',
-        'url': 'SeñalEURONEWS_PORTUGUES.html'
+        'url': '../Monitores/Senal/EURONEWS_PORTUGUES.html'
     },{
         'titulo': 'EURONEWS ALBANIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ALBANIA',
-        'url': 'SeñalEURONEWS_ALBANIA.html'
+        'url': '../Monitores/Senal/EURONEWS_ALBANIA.html'
     },{
         'titulo': 'EURONEWS ITALIANO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ITALIANO',
-        'url': 'SeñalEURONEWS_ITALIANO.html'
+        'url': '../Monitores/Senal/EURONEWS_ITALIANO.html'
     },{
         'titulo': 'FRANCE24',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>FRANCE24',
-        'url': 'SeñalFRANCE24.html'
+        'url': '../Monitores/Senal/FRANCE24.html'
     }, {
         'titulo': 'FRANCE24 ESPAÑOL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>FRANCE24 ESPAÑOL',
-        'url': 'SeñalFRANCE24_ESPANOL.html'
+        'url': '../Monitores/Senal/FRANCE24_ESPANOL.html'
     }, {
         'titulo': 'FRANCE24 ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>FRANCE24 ENGLISH',
-        'url': 'SeñalFRANCE24_ENGLISH.html'
+        'url': '../Monitores/Senal/FRANCE24_ENGLISH.html'
     }, {
         'titulo': 'BFM TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>BFM TV',
-        'url': 'SeñalBFMTV.html'
+        'url': '../Monitores/Senal/BFMTV.html'
     },{
         'titulo': 'RAI NEWS 24',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/it.svg" title="ITALIA"></img>RAI NEWS 24',
-        'url': 'SeñalRAI_NEWS24.html'
+        'url': '../Monitores/Senal/RAI_NEWS24.html'
     }, {
         'titulo': '24H TVE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>CANAL 24 HORAS TVE',
-        'url': 'Señal24HORASTVE.html'
+        'url': '../Monitores/Senal/24HORASTVE.html'
     }, {
         'titulo': 'LA 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>LA 1',
-        'url': 'SeñalTVE_LA1.html'
+        'url': '../Monitores/Senal/TVE_LA1.html'
     }, {
         'titulo': 'LA 2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>LA 2',
-        'url': 'SeñalTVE_LA2.html'
+        'url': '../Monitores/Senal/TVE_LA2.html'
     }, {
         'titulo': 'DW',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW',
-        'url': 'SeñalDW_DEUTSCH.html'
+        'url': '../Monitores/Senal/DW_DEUTSCH.html'
     }, {
         'titulo': 'DW+',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW+',
-        'url': 'SeñalDW_DEUTSCH_PLUS.html'
+        'url': '../Monitores/Senal/DW_DEUTSCH_PLUS.html'
     }, {
         'titulo': 'DW ARABIC',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW ARABIC',
-        'url': 'SeñalDW_ARABIC.html'
+        'url': '../Monitores/Senal/DW_ARABIC.html'
     }, {
         'titulo': 'DW ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW ENGLISH',
-        'url': 'SeñalDW_ENGLISH.html'
+        'url': '../Monitores/Senal/DW_ENGLISH.html'
     }, {
         'titulo': 'DW ESPAÑOL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW ESPAÑOL',
-        'url': 'SeñalDW_ESPAÑOL.html'
+        'url': '../Monitores/Senal/DW_ESPAÑOL.html'
     }, {
         'titulo': 'RT ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT ENGLISH',
-        'url': 'SeñalRT_ENGLISH.html'
+        'url': '../Monitores/Senal/RT_ENGLISH.html'
     }, {
         'titulo': 'RT ESPAÑOL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT ESPAÑOL',
-        'url': 'SeñalRT_ESPANOL.html'
+        'url': '../Monitores/Senal/RT_ESPANOL.html'
     }, {
         'titulo': 'RT FRANCÉS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT FRANCÉS',
-        'url': 'SeñalRT_FRANCE.html'
+        'url': '../Monitores/Senal/RT_FRANCE.html'
     }, {
         'titulo': 'RT ALEMÁN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT ALEMÁN',
-        'url': 'SeñalRT_ALEMAN.html'
+        'url': '../Monitores/Senal/RT_ALEMAN.html'
     }, {
         'titulo': 'CGTN ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ENGLISH<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
-        'url': 'SeñalCGTN_ENG.html'
+        'url': '../Monitores/Senal/CGTN_ENG.html'
     }, {
         'titulo': 'CGTN ESPAÑOL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ESPAÑOL<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
-        'url': 'SeñalCGTN_ESP.html'
+        'url': '../Monitores/Senal/CGTN_ESP.html'
     }, {
         'titulo': 'CGTN FRANCÉS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN FRANCÉS<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
-        'url': 'SeñalCGTN_FR.html'
+        'url': '../Monitores/Senal/CGTN_FR.html'
     }, {
         'titulo': 'CGTN RUSO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN RUSO<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
-        'url': 'SeñalCGTN_RUSO.html'
+        'url': '../Monitores/Senal/CGTN_RUSO.html'
     }, {
         'titulo': 'CGTN ARABIC',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ARABIC<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
-        'url': 'SeñalCGTN_ARABIC.html'
+        'url': '../Monitores/Senal/CGTN_ARABIC.html'
     }, {
         'titulo': 'NHK WORLD',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>NHK WORLD',
-        'url': 'SeñalNHK.html'
+        'url': '../Monitores/Senal/NHK.html'
     },{
         'titulo': 'NHK GENERAL TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>NHK GENERAL TV',
-        'url': 'SeñalNHK_GENERAL_TV.html'
+        'url': '../Monitores/Senal/NHK_GENERAL_TV.html'
     },{
         'titulo': 'NHK EDUCATIONAL TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>NHK EDUCATIONAL TV',
-        'url': 'SeñalNHK_EDUCATIONAL_TV.html'
+        'url': '../Monitores/Senal/NHK_EDUCATIONAL_TV.html'
     },{
         'titulo': 'NIPPON TV NEWS24',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>NIPPON TV NEWS24',
-        'url': 'SeñalNIPPONTV_NEWS_24.html'
+        'url': '../Monitores/Senal/NIPPONTV_NEWS_24.html'
     },{
         'titulo': 'KOREAN CENTRAL TV',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kp.svg" title="KOREA DEL NORTE"></img>KOREAN CENTRAL TV',
-        'url': 'SeñalKOREAN_CENTRAL_TV.html'
+        'url': '../Monitores/Senal/KOREAN_CENTRAL_TV.html'
     },{
         'titulo': 'IRAN INTERNATIONAL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ir.svg" title="IRÁN"></img>IRAN INTERNATIONAL',
-        'url': 'SeñalIRAN_INTERNACIONAL.html'
+        'url': '../Monitores/Senal/IRAN_INTERNACIONAL.html'
     },{
         'titulo': 'PRESS TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ir.svg" title="IRÁN"></img>PRESS TV',
-        'url': 'SeñalPRESSTV.html'
+        'url': '../Monitores/Senal/PRESSTV.html'
     },{
         'titulo': 'HISPANTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ir.svg" title="IRÁN"></img>HISPANTV',
-        'url': 'SeñalHISPANTV_ESP.html'
+        'url': '../Monitores/Senal/HISPANTV_ESP.html'
     },{
         'titulo': 'CHANNEL 12',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/il.svg" title="ISRAEL"></img>CHANNEL 12',
-        'url': 'SeñalCHANNEL12_ISRAEL.html'
+        'url': '../Monitores/Senal/CHANNEL12_ISRAEL.html'
     },{
         'titulo': 'CHANNEL 13',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/il.svg" title="ISRAEL"></img>CHANNEL 13',
-        'url': 'SeñalCHANNEL13_ISRAEL.html'
+        'url': '../Monitores/Senal/CHANNEL13_ISRAEL.html'
     },{
         'titulo': 'CHANNEL 14',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/il.svg" title="ISRAEL"></img>CHANNEL 14',
-        'url': 'SeñalCHANNEL14_ISRAEL.html'
+        'url': '../Monitores/Senal/CHANNEL14_ISRAEL.html'
     },{
         'titulo': 'TRT WORLD',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/tr.svg" title="TÜRKIYE"></img>TRT WORLD',
-        'url': 'SeñalTRTWORLD.html'
+        'url': '../Monitores/Senal/TRTWORLD.html'
     },{
         'titulo': 'AL JAZEERA ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg" title="CATAR"></img>AL JAZEERA ENGLISH',
-        'url': 'SeñalAL_JAZEERA_EN.html'
+        'url': '../Monitores/Senal/AL_JAZEERA_EN.html'
     }, {
         'titulo': 'AL JAZEERA ARABIC',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg" title="CATAR"></img>AL JAZEERA ARABIC',
-        'url': 'SeñalAL_JAZEERA_ARABIC.html'
+        'url': '../Monitores/Senal/AL_JAZEERA_ARABIC.html'
     }, {
         'titulo': 'AL JAZEERA MUBASHER',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg" title="CATAR"></img>AL JAZEERA MUBASHER',
-        'url': 'SeñalAL_JAZEERA_MUBASHER.html'
+        'url': '../Monitores/Senal/AL_JAZEERA_MUBASHER.html'
     }, {
         'titulo': 'SKY NEWS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>SKY NEWS',
-        'url': 'SeñalSKY_NEWS.html'
+        'url': '../Monitores/Senal/SKY_NEWS.html'
     }, {
         'titulo': 'BBC NEWS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>BBC NEWS',
-        'url': 'SeñalBBCNEWS.html'
+        'url': '../Monitores/Senal/BBCNEWS.html'
     }, {
         'titulo': 'BBC NEWS ARABIC',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>BBC NEWS ARABIC',
-        'url': 'SeñalBBCNEWS_ARABIC.html'
+        'url': '../Monitores/Senal/BBCNEWS_ARABIC.html'
     }, {
         'titulo': 'ABC NEWS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/au.svg" title="AUSTRALIA"></img>ABC NEWS',
-        'url': 'SeñalABC_NEWS_AU.html'
+        'url': '../Monitores/Senal/ABC_NEWS_AU.html'
     }, {
         'titulo': 'CSPAN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CSPAN',
@@ -896,39 +896,39 @@ let LosCanales = [
     }, {
         'titulo': 'ABC NEWS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>ABC NEWS',
-        'url': 'SeñalABC_NEWS.html'
+        'url': '../Monitores/Senal/ABC_NEWS.html'
     }, {
         'titulo': 'NBC NEWS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>NBC NEWS',
-        'url': 'SeñalNBCNEWS.html'
+        'url': '../Monitores/Senal/NBCNEWS.html'
     }, {
         'titulo': 'CBS NEWS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CBS NEWS',
-        'url': 'SeñalCBSNEWS.html'
+        'url': '../Monitores/Senal/CBSNEWS.html'
     }, {
         'titulo': 'FOX NEWS NOW',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>FOX NEWS NOW',
-        'url': 'SeñalFOX_NEWS_NOW.html'
+        'url': '../Monitores/Senal/FOX_NEWS_NOW.html'
     }, {
         'titulo': 'FOX WEATHER',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>FOX WEATHER',
-        'url': 'SeñalFOX_WEATHER.html'
+        'url': '../Monitores/Senal/FOX_WEATHER.html'
     }, {
         'titulo': 'CNN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CNN',
-        'url': 'SeñalCNN.html'
+        'url': '../Monitores/Senal/CNN.html'
     }, {
         'titulo': 'CNN INTERNTATIONAL',
         'nombre': '<span id="CNNINTERNACIONAL" style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CNN INTERNATIONAL',
-        'url': 'SeñalCNNINTERNACIONAL.html'
+        'url': '../Monitores/Senal/CNNINTERNACIONAL.html'
     }, {
         'titulo': 'CNN INDONESIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/id.svg" title="INDONESIA"></img>CNN INDONESIA',
-        'url': 'SeñalCNNINDONESIA.html'
+        'url': '../Monitores/Senal/CNNINDONESIA.html'
     }, {
         'titulo': 'CNN PHILIPPINES',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ph.svg" title="FILIPINAS"></img>CNN PHILIPPINES',
-        'url': 'SeñalCNN_PHILIPPINES.html'
+        'url': '../Monitores/Senal/CNN_PHILIPPINES.html'
     }, {
         //NOTICIAS YOUTUBE
         //LATINOAMERICA
@@ -1443,27 +1443,27 @@ let LosCanales = [
     }, {
         'titulo': 'TV SENADO SEÑAL 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 1',
-        'url': 'SeñalTVSENADO_1.html'
+        'url': '../Monitores/Senal/TVSENADO_1.html'
     },{
         'titulo': 'TV SENADO SEÑAL 2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 2',
-        'url': 'SeñalTVSENADO_2.html'
+        'url': '../Monitores/Senal/TVSENADO_2.html'
     }, {
         'titulo': 'TV SENADO SEÑAL 3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 3',
-        'url': 'SeñalTVSENADO_3.html'
+        'url': '../Monitores/Senal/TVSENADO_3.html'
     }, {
         'titulo': 'TV SENADO SEÑAL 4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 4',
-        'url': 'SeñalTVSENADO_4.html'
+        'url': '../Monitores/Senal/TVSENADO_4.html'
     }, {
         'titulo': 'TV SENADO SEÑAL 5',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 5',
-        'url': 'SeñalTVSENADO_5.html'
+        'url': '../Monitores/Senal/TVSENADO_5.html'
     },{
         'titulo': 'TV SENADO SEÑAL 6',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_TVSENADO_2.svg">SEÑAL 6',
-        'url': 'SeñalTVSENADO_6.html'
+        'url': '../Monitores/Senal/TVSENADO_6.html'
     }, {
         'titulo': 'CAMARA DIPUTADOS SEÑAL 1',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 1',
@@ -1541,49 +1541,49 @@ let LosCanales = [
         
         'titulo': 'PODER JUDICIAL TV 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 1',
-        'url': 'SeñalPoderJudicial_1.html'
+        'url': '../Monitores/Senal/PoderJudicial_1.html'
     },{
         'titulo': 'PODER JUDICIAL TV 2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 2',
-        'url': 'SeñalPoderJudicial_2.html'
+        'url': '../Monitores/Senal/PoderJudicial_2.html'
     },{
         'titulo': 'PODER JUDICIAL TV 3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 3',
-        'url': 'SeñalPoderJudicial_3.html'
+        'url': '../Monitores/Senal/PoderJudicial_3.html'
     },{
         'titulo': 'PODER JUDICIAL TV 4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 4',
-        'url': 'SeñalPoderJudicial_4.html'
+        'url': '../Monitores/Senal/PoderJudicial_4.html'
     },{
         'titulo': 'PODER JUDICIAL TV 5',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 5',
-        'url': 'SeñalPoderJudicial_5.html'
+        'url': '../Monitores/Senal/PoderJudicial_5.html'
     },{
         'titulo': 'PODER JUDICIAL TV 6',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 6',
-        'url': 'SeñalPoderJudicial_6.html'
+        'url': '../Monitores/Senal/PoderJudicial_6.html'
     },{
         'titulo': 'PODER JUDICIAL TV 7',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 7',
-        'url': 'SeñalPoderJudicial_7.html'
+        'url': '../Monitores/Senal/PoderJudicial_7.html'
     },{
         'titulo': 'PODER JUDICIAL TV 8',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 8',
-        'url': 'SeñalPoderJudicial_8.html'
+        'url': '../Monitores/Senal/PoderJudicial_8.html'
     },{
 
     //CAMARAS
         'titulo': 'STGO. PARQUEMET CUMBRE',
         'nombre': '<span id="STGO_PARQUEMETCUMBRE" style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. PARQUEMET CUMBRE',
-        'url': 'SeñalCAMPARQUEMET_CUMBRE_2.html'
+        'url': '../Monitores/Senal/CAMPARQUEMET_CUMBRE_2.html'
     },{
         'titulo': 'STGO. PARQUEMET TERRAZA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. PARQUEMET TERRAZA',
-        'url': 'SeñalCAMPARQUEMET_TERRAZA_2.html'
+        'url': '../Monitores/Senal/CAMPARQUEMET_TERRAZA_2.html'
     },{
         'titulo': 'STGO. PLAZA ITALIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. PLAZA ITALIA<span style="margin-left: 3px; font-size: 12px;">(GALERIA CIMA)</span>',
-        'url': 'SeñalCAMARA_PLAZA_ITALIA_CIMA.html'
+        'url': '../Monitores/Senal/CAMARA_PLAZA_ITALIA_CIMA.html'
     },{
         'titulo': 'STGO. SUR ORIENTE',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. SUR ORIENTE',
@@ -1591,31 +1591,31 @@ let LosCanales = [
     //},{
         //'titulo': 'CERRILLOS',
         //'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>CERRILLOS<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
-        //'url': 'SeñalCAMARA_LEDRIUM_CERRILLOS.html'
+        //'url': '../Monitores/Senal/CAMARA_LEDRIUM_CERRILLOS.html'
     },{
         'titulo': 'PEÑALOLEN NORTE',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PEÑALOLEN NORTE<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
-        'url': 'SeñalCAMARA_LEDRIUM_PENALOLEN_NORTE.html'
+        'url': '../Monitores/Senal/CAMARA_LEDRIUM_PENALOLEN_NORTE.html'
     },{
         'titulo': 'PEÑALOLEN SUR',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PEÑALOLEN SUR<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
-        'url': 'SeñalCAMARA_LEDRIUM_PENALOLEN_SUR.html'
+        'url': '../Monitores/Senal/CAMARA_LEDRIUM_PENALOLEN_SUR.html'
     },{
         'titulo': 'COSTANERA CENTER',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>COSTANERA CENTER<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
-        'url': 'SeñalCAMARA_LEDRIUM_COSTANERA_CENTER.html'
+        'url': '../Monitores/Senal/CAMARA_LEDRIUM_COSTANERA_CENTER.html'
     },{
         'titulo': 'FARELLONES',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>FARELLONES<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
-        'url': 'SeñalCAMARA_LEDRIUM_FARELLONES.html'
+        'url': '../Monitores/Senal/CAMARA_LEDRIUM_FARELLONES.html'
     },{
         'titulo': 'PROVIDENCIA',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PROVIDENCIA<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
-        'url': 'SeñalCAMARA_LEDRIUM_PROVIDENCIA.html'
+        'url': '../Monitores/Senal/CAMARA_LEDRIUM_PROVIDENCIA.html'
     },{
         'titulo': 'TOBALABA',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>TOBALABA<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
-        'url': 'SeñalCAMARA_LEDRIUM_TOBALABA.html'
+        'url': '../Monitores/Senal/CAMARA_LEDRIUM_TOBALABA.html'
     },{
         'titulo': 'LEDRIUM YOUTUBE MAS RECIENTE',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. LEDRIUM<span style="margin-left: 3px; font-size: 12px;">(MAS RECIENTE)</span>',
@@ -1623,7 +1623,7 @@ let LosCanales = [
     },{
         'titulo': 'VALPARAISO BAHIA',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VALPARAISO BAHIA',
-        'url': 'SeñalCAMARA_VALPARAISO.html'
+        'url': '../Monitores/Senal/CAMARA_VALPARAISO.html'
     },{
         'titulo': 'VALPARAISO CIUDAD',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VALPARAISO CIUDAD',
@@ -1635,15 +1635,15 @@ let LosCanales = [
     },{
         'titulo': 'VIÑA DEL MAR - AVENIDA PERU',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR - AVENIDA PERU',
-        'url': 'SeñalCAMARA_MAREJADA_UV_V_DEL_MAR_AV_PERU.html'
+        'url': '../Monitores/Senal/CAMARA_MAREJADA_UV_V_DEL_MAR_AV_PERU.html'
     },{
         'titulo': 'VIÑA DEL MAR - PLAYA ACAPULCO',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR - PLAYA ACAPULCO',
-        'url': 'SeñalCAMARA_MAREJADA_UV_V_DEL_MAR_PLAYA_ACAPULCO.html'
+        'url': '../Monitores/Senal/CAMARA_MAREJADA_UV_V_DEL_MAR_PLAYA_ACAPULCO.html'
     },{
         'titulo': 'VIÑA DEL MAR - PLAYA REÑACA',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR - PLAYA REÑACA',
-        'url': 'SeñalCAMARA_MAREJADA_UV_V_DEL_MAR_PLAYA_REÑACA.html'
+        'url': '../Monitores/Senal/CAMARA_MAREJADA_UV_V_DEL_MAR_PLAYA_REÑACA.html'
     },{
         'titulo': 'VIÑA DEL MAR',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR<span style="margin-left: 3px; font-size: 12px;">(MAS RECIENTE)</span>',
@@ -1655,7 +1655,7 @@ let LosCanales = [
     },{
         'titulo': 'COYHAIQUE',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>COYHAIQUE',
-        'url': 'SeñalRADIO_CANALSURPATAGONIA.html'
+        'url': '../Monitores/Senal/RADIO_CANALSURPATAGONIA.html'
     },{
         'titulo': 'PUNTA ARENAS',
         'nombre': '<span style="margin-right: 10px; color: #FF4900" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PUNTA ARENAS',
@@ -1663,7 +1663,7 @@ let LosCanales = [
     },{
         'titulo': 'CAPITOLIO EEUU',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CAPITOLIO EEUU',
-        'url': 'SeñalCAMARA_CAPITOLIO_EEUU.html'
+        'url': '../Monitores/Senal/CAMARA_CAPITOLIO_EEUU.html'
     },{
         'titulo': 'NYC Brooklyn Bridge',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>NYC BROOKLYN BRIDGE',
@@ -1695,7 +1695,7 @@ let LosCanales = [
     },{
         'titulo': 'USHUAIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>USHUAIA',
-        'url': 'SeñalCAMARA_USHUAIA.html'
+        'url': '../Monitores/Senal/CAMARA_USHUAIA.html'
     },{
         'titulo': 'TOKIO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>TOKYO',
@@ -1887,35 +1887,35 @@ let LosCanales = [
     }, {
         'titulo': 'NASA TV UHD',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA TV UHD (1080P)',
-        'url': 'SeñalNASATV_UHD_4K_1080P.html'
+        'url': '../Monitores/Senal/NASATV_UHD_4K_1080P.html'
     }, {
         'titulo': 'NASA TV PUBLIC',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA TV PUBLIC',
-        'url': 'SeñalNASATVPUBLIC.html'
+        'url': '../Monitores/Senal/NASATVPUBLIC.html'
     }, {
         'titulo': 'NASA TV MEDIA',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA TV MEDIA',
-        'url': 'SeñalNASATVMEDIA.html'
+        'url': '../Monitores/Senal/NASATVMEDIA.html'
     }, {
         'titulo': 'ARTEMIS I',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>ARTEMIS I CAM',
-        'url': 'SeñalNASA_ARTEMIS_1.html'
+        'url': '../Monitores/Senal/NASA_ARTEMIS_1.html'
     }, {
         'titulo': 'ISS CAM SD',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>ISS CAM SD',
-        'url': 'SeñalISS_SD.html'
+        'url': '../Monitores/Senal/ISS_SD.html'
     },{
         'titulo': 'ISS CAM HD',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>ISS CAM HD',
-        'url': 'SeñalISS_HD.html'
+        'url': '../Monitores/Senal/ISS_HD.html'
     },{
         'titulo': 'NASA WALLOPS',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA WALLOPS',
-        'url': 'SeñalNASATV_Wallops.html'
+        'url': '../Monitores/Senal/NASATV_Wallops.html'
     }, {
         'titulo': 'ESA WEB TV 1',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_ESA.svg"></img>ESA WEB TV 1',
-        'url': 'SeñalESATV_1.html'
+        'url': '../Monitores/Senal/ESATV_1.html'
     }, {
         'titulo': 'ROSCOSMOS',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_ROSCOSMOS.svg"></img>ROSCOSMOS',
@@ -1923,23 +1923,23 @@ let LosCanales = [
     }, {
         'titulo': 'NASA TV PUBLIC',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA TV PUBLIC',
-        'url': 'SeñalNASATV_PUBLIC_YOUTUBE.html'
+        'url': '../Monitores/Senal/NASATV_PUBLIC_YOUTUBE.html'
     }, {
         'titulo': 'NASA TV MEDIA',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA TV MEDIA',
-        'url': 'SeñalNASATV_MEDIA_YOUTUBE.html'
+        'url': '../Monitores/Senal/NASATV_MEDIA_YOUTUBE.html'
     },{
         'titulo': 'ISS LIVE HD',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>ISS LIVE HD',
-        'url': 'SeñalNASATV_ISS_HD_YOUTUBE.html'
+        'url': '../Monitores/Senal/NASATV_ISS_HD_YOUTUBE.html'
     },{
         'titulo': 'ISS LIVE SD',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>ISS LIVE SD',
-        'url': 'SeñalNASATV_ISS_SD_YOUTUBE.html'
+        'url': '../Monitores/Senal/NASATV_ISS_SD_YOUTUBE.html'
     },{
         'titulo': 'KENNEDY SPACE CENTER',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>KENNEDY SPACE CENTER',
-        'url': 'SeñalNASATV_KSC.html'
+        'url': '../Monitores/Senal/NASATV_KSC.html'
     },{
         'titulo': 'NASA VIDEO',
         'nombre': '<img style="height: 15px; width: auto; margin-right: 10px;" src="imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="imagenes/Logo_NASA.svg"></img>NASA VIDEO',
