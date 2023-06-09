@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>MonitorTV - Monitor 2</title>
 
-    <link rel="icon" href='imagenes/Icon.png' type="image/png"/>
+    <link rel="icon" href="../Imagenes/Icon.png" type="image/png"/>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -14,6 +14,10 @@
     <link href="../css/estilos2.css" rel="stylesheet" type="text/css">
 
     <script src="../js/Efecto.js"></script>
+
+    <script src="../js/DarkMode.js"></script>
+    <script src="../js/MostrarOcultarTitulos.js"></script>
+    <script src="../js/AumentarDisminuirTexto.js"></script>
 
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -113,28 +117,62 @@
 	</div>
 
 
-  <!-- BOTON MENU  -->
-  <div class="ContenedorBotonMenuDesplegable">
-    <div class="BotonMenuDesplegable waves-effect waves-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span style="font-size: 20px;" class="material-icons">settings</span></div>
-  </div>
-  
-  <!-- MENU DEPEGLABLE -->
-  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-  <div style="padding-left: 20px; padding-right: 20px;" class="offcanvas-header">
-    <span class="CuerpoTituloMenuAjustes"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">video_settings</span>AJUSTES - MONITOR 2</span>
+<!-- BOTON MENU  -->
+<div class="ContenedorBotonMenuDesplegable">
+  <div class="BotonMenuDesplegable waves-effect waves-light" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="font-size: 20px;" class="material-icons">settings</span></div>
+</div>
+
+<!-- MENU -->
+<div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" tabindex="-1" id="MenuDespeglableAjustes" aria-labelledby="MenuDespeglableAjustesLabel">
+  <div style="padding-left: 20px; padding-right: 20px; padding-bottom: 0px;" class="offcanvas-header">
+    <span class="CuerpoTituloMenuAjustes"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">tune</span>AJUSTES - MONITOR NACIONALES</span>
     <!--<h5 class="offcanvas-title" id="MenuDespeglableAjustesLabel"><b>MENU</b></h5>-->
     <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
   </div>
   <div class="offcanvas-body">
-      <div class="CuerpoMenuDesplegable">
-          <a style="text-decoration: none;" href="Home.html" ><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons">home</span>IR AL HOME</span></a>
-      
-          <br>
-          <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
-          <a style="text-decoration: none;" href="javascript:location.reload()"><span class="BotonMenuDesplegableAzul waves-effect waves-grisoscuro"><span style="margin-right: 5px;" class="material-icons">replay</span>RECARGAR PAGINA</span></a>
-          <br>
+    <div class="CuerpoMenuDesplegable">
+      <a style="text-decoration: none;" href="Home.html" ><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons">home</span>IR AL HOME</span></a>
+      <br>
+      <div class="BotonMenuDesplegableGris Boton_ON_OFF_Titulos waves-effect waves-grisoscuro" onclick="alternarElementos()" id="botonMostrarOcultar">
+        <span style="margin-right: 5px;" class="material-icons">visibility_off</span>
+        <span id="TextoBotonMostrarOcultar">OCULTAR TITULOS</span>
       </div>
+      <br>
+      <!--Botones: Pantalla Completa, Recargar Pagina, Modo Oscuro-->
+      <a style="text-decoration: none;" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustesAccesibilidad" role="button" aria-controls="MenuDespeglableAjustesAccesibilidad"><span class="BotonMenuDesplegableAzul waves-effect waves-azul"><span style="margin-right: 5px;" class="material-icons">settings_accessibility</span>AJUSTES DE ACCESIBILIDAD</span></a>
+      <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
+        <a class="BotonMenuDesplegableAzul waves-effect waves-azul" style="text-decoration: none;" href="javascript:location.reload()">
+          <span style="margin-right: 5px;" class="material-icons">replay</span>
+          RECARGAR PAGINA
+        </a>
+      <br>
+    </div> 
   </div>
+</div>
+
+  <!-- MENU ACCESIBILIDAD -->
+  <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" tabindex="-1" id="MenuDespeglableAjustesAccesibilidad" aria-labelledby="MenuDespeglableAjustesAccesibilidad">
+    <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable">
+        <!--Boton Volver, Titulo Menu, Boton Cerrar-->
+        <div style="width: 100%; height: auto; display: inline-flex; padding-bottom: 15px;">
+          <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="font-size: 30px;" class="material-icons-round">arrow_back</span></span>
+          <span class="CuerpoTituloMenuAjustesCentrado"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">settings_accessibility</span>AJUSTES DE ACCESIBILIDAD</span>          
+          <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
+        </div>
+        <!--Boton Modo Oscuro-->
+        <div class="BotonMenuDesplegableAzul Boton_ON_OFF_Titulos waves-effect waves-grisoscuro" id="botonMostrarOcultarModoOscuro">
+          <span style="margin-right: 5px;" class="material-icons">dark_mode</span>
+          <span id="TextoBotonMostrarOcultarModoOscuro">MODO OSCURO</span>
+        </div>
+        <!--Boton Aumentar Texto, Boton Disminuir Texto-->
+        <div style="width: 100%; height: auto; display: inline-flex;">
+          <div class="BotonMenuDesplegableAzulPequeño waves-effect waves-grisoscuro" onclick="aumentarTexto()"><span style="margin-right: 5px;" class="material-icons">text_increase</span><text>AUMENTAR TEXTO</text></div>
+          <span style="margin-left: 2%;"></span>
+        <div class="BotonMenuDesplegableAzulPequeño waves-effect waves-grisoscuro" onclick="disminuirTexto()"><span style="margin-right: 5px;" class="material-icons">text_decrease</span><text>DISMINUIR TEXTO</text></div>
+        </div>
+      </div>
+    </div>
   </div>
   
   <!-- Contenido de off canvas, end.  -->

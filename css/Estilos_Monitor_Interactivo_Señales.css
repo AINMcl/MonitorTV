@@ -233,6 +233,8 @@ td {
     
 }
 
+
+
 .BotonTV_Señales{
     background-color: #ffffff;
     display: flex;
@@ -263,6 +265,21 @@ td {
     box-shadow: 0px 2px 10px #586777;
 }
 
+.dark-mode .BotonTV_Señales {
+    background-color: #2a3044;
+    border: solid 2px #5f6368;
+    color: #FFFFFF !important;
+}
+
+.dark-mode .BotonTV_Señales:hover{
+    background-color: #313A49;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    font-weight: bold;
+    color:#FFFFFF;
+    box-shadow: 0px 0px 0px #00000000;
+}
+
 .BotonTV_SeñalSeleccionada{
     background-color: #ffffff;
     display: flex;
@@ -291,6 +308,14 @@ td {
     border-width: 2px;
     font-weight: bold;
     box-shadow: 0px 2px 10px #ff0000;
+}
+
+.dark-mode .BotonTV_SeñalSeleccionada{
+    background-color: #313A49;
+    border: solid 2px #FFFFFF;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 0px #00000000;
+    border-radius: 5px;
 }
 
 

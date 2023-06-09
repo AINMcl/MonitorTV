@@ -13,7 +13,11 @@
 
 <script src="../js/Efecto.js"></script>
 
-<link rel="icon" href="../imagenes/Icon.png" type="image/png"/>
+<script src="../js/DarkMode.js"></script>
+<script src="../js/MostrarOcultarTitulos.js"></script>
+<script src="../js/AumentarDisminuirTexto.js"></script>
+
+<link rel="icon" href="../Imagenes/Icon.png" type="image/png"/>
 
 <!--GOOGLE FONTS-->
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,7 +27,7 @@
 
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics - ainmcl.github.io -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -47,7 +51,7 @@
     <!--PANTALLA 1-->
     <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
       <div style="background-color: black;" id="video-container-P1" class="video-container">
-        <img style="height: auto; width: 100%;" src="imagenes/Fondo_Con_Borde_Blanco.svg"></img>
+        <img style="height: auto; width: 100%;" src="Imagenes/Fondo_Con_Borde_Blanco.svg"></img>
         <iframe class="embed-responsive-item" id="playerP1" src="" frameborder="0" allowfullscreen></iframe>
         <div class="FondoTitulosMonitor1">
             <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P1"></div>
@@ -61,7 +65,7 @@
     <!--PANTALLA 2-->
     <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
       <div style="background-color: black;" id="video-container-P2" class="video-container">
-        <img style="height: auto; width: 100%;" src="imagenes/Fondo_Con_Borde_Blanco.svg"></img>
+        <img style="height: auto; width: 100%;" src="Imagenes/Fondo_Con_Borde_Blanco.svg"></img>
         <iframe class="embed-responsive-item" id="playerP2" src="" frameborder="0" allowfullscreen></iframe>
         <div class="FondoTitulosMonitor1">
             <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P2"></div>
@@ -75,7 +79,7 @@
     <!--PANTALLA 3-->
     <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
       <div style="background-color: black;" id="video-container-P3" class="video-container">
-        <img style="height: auto; width: 100%;" src="imagenes/Fondo_Con_Borde_Blanco.svg"></img>
+        <img style="height: auto; width: 100%;" src="Imagenes/Fondo_Con_Borde_Blanco.svg"></img>
         <iframe class="embed-responsive-item" id="playerP3" src="" frameborder="0" allowfullscreen></iframe>
         <div class="FondoTitulosMonitor1">
             <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P3"></div>
@@ -89,7 +93,7 @@
     <!--PANTALLA 4-->
     <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
       <div style="background-color: black;" id="video-container-P4" class="video-container">
-        <img style="height: auto; width: 100%;" src="imagenes/Fondo_Con_Borde_Blanco.svg"></img>
+        <img style="height: auto; width: 100%;" src="Imagenes/Fondo_Con_Borde_Blanco.svg"></img>
         <iframe class="embed-responsive-item" id="playerP4" src="" frameborder="0" allowfullscreen></iframe>
         <div class="FondoTitulosMonitor1">
             <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P4"></div>
@@ -110,10 +114,10 @@
   </div>
 
 
-  <!-- MENU DEPEGLABLE AJUSTES -->
+  <!-- MENU DESPLEGABLE AJUSTES -->
   <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" id="MenuDespeglableAjustes" aria-labelledby="MenuDespeglableAjustesLabel">
-      <div style="padding-left: 20px; padding-right: 20px;" class="offcanvas-header">
-        <span class="CuerpoTituloMenuAjustes"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">video_settings</span>AJUSTES - MONITOR 5</span>
+      <div style="padding-left: 20px; padding-right: 20px; padding-bottom: 0px;" class="offcanvas-header">
+        <span class="CuerpoTituloMenuAjustes"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">tune</span>AJUSTES - MONITOR 5</span>
         <!--<h5 class="offcanvas-title" id="MenuDespeglableAjustesLabel"><b>MENU</b></h5>-->
         <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
       </div>
@@ -136,7 +140,12 @@
               </div>
               <br>
               <br>
-
+              <div class="BotonMenuDesplegableGris Boton_ON_OFF_Titulos waves-effect waves-grisoscuro" onclick="alternarElementos()" id="botonMostrarOcultar">
+                <span style="margin-right: 5px;" class="material-icons">visibility_off</span>
+                <span id="TextoBotonMostrarOcultar">OCULTAR TITULOS</span>
+              </div>
+              <br>
+              <a style="text-decoration: none;" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustesAccesibilidad" role="button" aria-controls="MenuDespeglableAjustesAccesibilidad"><span class="BotonMenuDesplegableAzul waves-effect waves-azul"><span style="margin-right: 5px;" class="material-icons">settings_accessibility</span>AJUSTES DE ACCESIBILIDAD</span></a>
               <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
               <a style="text-decoration: none;" href="javascript:location.reload()"><span class="BotonMenuDesplegableAzul waves-effect waves-azul"><span style="margin-right: 5px;" class="material-icons">replay</span>RECARGAR PAGINA</span></a>
               <br>
@@ -144,8 +153,32 @@
       </div>
   </div>
 
+    <!-- MENU ACCESIBILIDAD -->
+    <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" tabindex="-1" id="MenuDespeglableAjustesAccesibilidad" aria-labelledby="MenuDespeglableAjustesAccesibilidad">
+        <div class="offcanvas-body">
+          <div class="CuerpoMenuDesplegable">
+            <!--Boton Volver, Titulo Menu, Boton Cerrar-->
+            <div style="width: 100%; height: auto; display: inline-flex; padding-bottom: 15px;">
+              <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="font-size: 30px;" class="material-icons-round">arrow_back</span></span>
+              <span class="CuerpoTituloMenuAjustesCentrado"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">settings_accessibility</span>AJUSTES DE ACCESIBILIDAD</span>          
+              <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
+            </div>
+            <!--Boton Modo Oscuro-->
+            <div class="BotonMenuDesplegableAzul Boton_ON_OFF_Titulos waves-effect waves-grisoscuro" id="botonMostrarOcultarModoOscuro">
+              <span style="margin-right: 5px;" class="material-icons">dark_mode</span>
+              <span id="TextoBotonMostrarOcultarModoOscuro">MODO OSCURO</span>
+            </div>
+            <!--Boton Aumentar Texto, Boton Disminuir Texto-->
+            <div style="width: 100%; height: auto; display: inline-flex;">
+              <div class="BotonMenuDesplegableAzulPequeño waves-effect waves-grisoscuro" onclick="aumentarTexto()"><span style="margin-right: 5px;" class="material-icons">text_increase</span><text>AUMENTAR TEXTO</text></div>
+              <span style="margin-left: 2%;"></span>
+            <div class="BotonMenuDesplegableAzulPequeño waves-effect waves-grisoscuro" onclick="disminuirTexto()"><span style="margin-right: 5px;" class="material-icons">text_decrease</span><text>DISMINUIR TEXTO</text></div>
+            </div>
+          </div>
+        </div>
+    </div>
 
-  <!-- MENU DEPEGLABLE SEÑALES PANTALLA 1 -->
+  <!-- MENU DESPLEGABLE SEÑALES PANTALLA 1 -->
   <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" id="MenuDespeglableSeñalesP1">
     <div class="offcanvas-body">
         <div class="CuerpoMenuDesplegable2">
@@ -160,7 +193,7 @@
     </div>
   </div>
 
-  <!-- MENU DEPEGLABLE SEÑALES PANTALLA 2 -->
+  <!-- MENU DESPLEGABLE SEÑALES PANTALLA 2 -->
   <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" id="MenuDespeglableSeñalesP2">
     <div class="offcanvas-body">
         <div class="CuerpoMenuDesplegable2">
@@ -175,7 +208,7 @@
     </div>
   </div>
 
-  <!-- MENU DEPEGLABLE SEÑALES PANTALLA 3 -->
+  <!-- MENU DESPLEGABLE SEÑALES PANTALLA 3 -->
   <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" id="MenuDespeglableSeñalesP3">
     <div class="offcanvas-body">
         <div class="CuerpoMenuDesplegable2">
@@ -190,7 +223,7 @@
     </div>
   </div>
 
-  <!-- MENU DEPEGLABLE SEÑALES PANTALLA 4 -->
+  <!-- MENU DESPLEGABLE SEÑALES PANTALLA 4 -->
   <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" id="MenuDespeglableSeñalesP4">
     <div class="offcanvas-body">
         <div class="CuerpoMenuDesplegable2">
@@ -440,6 +473,30 @@
         });
     </script>
    
+   <script>
+    var elementosVisibles = true;
+
+    function alternarElementos() {
+        var elementos = document.getElementsByClassName("FondoTitulosMonitor1");
+
+        for (var i = 0; i < elementos.length; i++) {
+            if (elementosVisibles) {
+                elementos[i].style.display = "none";
+            } else {
+                elementos[i].style.display = "block";
+            }
+        }
+
+        elementosVisibles = !elementosVisibles;
+
+        var textoBoton = document.getElementById("TextoBotonMostrarOcultar");
+        if (elementosVisibles) {
+            textoBoton.textContent = "OCULTAR TITULOS";
+        } else {
+            textoBoton.textContent = "MOSTRAR TITULOS";
+        }
+    }
+  </script>
 </body>
 
 

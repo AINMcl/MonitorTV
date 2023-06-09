@@ -1,7 +1,10 @@
 body{
-background-color: #ffffff;
 text-align: justify;
 font-family: 'Assistant', sans-serif;
+}
+
+.dark-mode body {
+  color: #181D2D;
 }
 
 .h1{
@@ -11,7 +14,6 @@ background-color: #0066F9;
 text-align: center;
 color: #FFFFFF;
 }
-
 
 .TextoInfo{
   margin: 10px;
@@ -359,6 +361,11 @@ color: #FFFFFF;
 .waves-effect.waves-light .waves-ripple {
   background-color: rgba(255, 255, 255, 0.45);
 }
+
+.waves-effect.waves-white .waves-ripple {
+  background-color: rgba(255, 255, 255, 0.658);
+}
+
 .waves-effect.waves-red .waves-ripple {
   background-color: rgba(244, 67, 54, 0.5);
 }
@@ -413,6 +420,10 @@ color: #FFFFFF;
 
 .waves-effect.waves-grisoscuro .waves-ripple {
   background-color: #2e4053b4;
+}
+
+.waves-effect.waves-modooscuro .waves-ripple {
+  background-color: #1e3853bb;
 }
 
 .waves-effect.waves-grisclaro .waves-ripple {
@@ -685,7 +696,7 @@ color: #FFFFFF;
   box-shadow: 0px 0px 15px #444444;
 }
 
-
+/*
 .BotonTV_Señales{
   background-color: #ffffff;
   font-family: 'Assistant', sans-serif;
@@ -737,7 +748,7 @@ color: #FFFFFF;
   backdrop-filter: blur(8px);
   border-width: 2px;
   border-color:#ff0000
-}
+}*/
 
 .FondoTitulo{
   background-color: rgba(46, 45, 45, 0.9);
@@ -871,9 +882,17 @@ background-image: linear-gradient(
   color:rgb(0, 0, 0)
 }
 
+.cuadradoTest {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-right: 10px;
+}
+
 /*BOTON AZUL LAPIZ*/
 .BotonCambiarSeñal{
   position: absolute;
+  display: inline-flex;
   top: 1%;
   left: 1%;
   width: auto;
@@ -882,14 +901,14 @@ background-image: linear-gradient(
 
 .BotonCambiarSeñalTexto{
   display: flex;
-  position: absolute;
+  /*position: absolute;*/
   background-color: #0004ff00;
   color: #ffffff00;
   align-items: center;
   justify-content: center;
+  margin-right: 5%;
   width: 40px;
   height: 40px;
-  margin: 0;
   border-radius: 5px;
   cursor:
   pointer;
@@ -1773,19 +1792,24 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 10px #ff6600;
 }
 
-.canales-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 10px;
 }
 
-.canales-body::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0);
+::-webkit-scrollbar-track {
+  background: #002fff00;        /* color of the tracking area */
 }
 
-.canales-body::-webkit-scrollbar-thumb {
-  height: 60px;
-  background-color: #424242;    /* color of the scroll thumb */
+::-webkit-scrollbar-thumb {
+  height: 40px;
+  background-color: rgb(124, 124, 124);    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 1px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
+  border: 1px solid rgb(48, 48, 48);  /* creates padding around scroll thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(97, 97, 97);    /* color of the scroll thumb */
+  
 }
 
 .ColorTitulo:hover{
@@ -2005,6 +2029,68 @@ background-image: linear-gradient(
 }
 
 
+
+/*Boton Gris - Modo Claro*/
+.BotonMenuDesplegableGris{
+  display: flex;
+  background-color: #2E4053;
+  border: solid 2px #2E4053;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 5px #9B9B9B;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonMenuDesplegableGris:hover{
+  color: #2E4053;
+  background-color: #FFFFFF;
+  border: solid 2px #2E4053;
+  box-shadow: 0px 0px 15px #2E4053;
+}
+
+
+
+/*Boton Rojo*/
+.BotonMenuDesplegableRojo{
+  display: flex;
+  background-color: #FF0000;
+  border: solid 2px #FF0000;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 5px #9B9B9B;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonMenuDesplegableRojo:hover{
+  color: #FF0000;
+  background-color: #FFFFFF;
+  border: solid 2px #FF0000;
+  box-shadow: 0px 0px 15px #FF0000;
+}
+
+/*Boton Azul*/
 .BotonMenuDesplegableAzul{
   display: flex;
   background-color: #041DAD;
@@ -2033,6 +2119,7 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 15px #041DAD;
 }
 
+/*Boton Verde*/
 .BotonMenuDesplegableVerde{
   display: flex;
   background-color: #139F04;
@@ -2061,6 +2148,7 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 15px #139F04;
 }
 
+/*Boton Naranja*/
 .BotonMenuDesplegableNaranja{
   display: flex;
   background-color: #FF6600;
@@ -2118,34 +2206,7 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 15px #FF6600;
 }
 
-.BotonMenuDesplegableRojo{
-  display: flex;
-  background-color: #FF0000;
-  border: solid 2px #FF0000;
-  color: #FFFFFF;
-  box-shadow: 0px 2px 5px #9B9B9B;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  padding-left: 10px;
-  width: 100%;
-  height: 45px;
-  line-height: 45px;
-  font-size: 17px;
-  border-radius: 5px;
-  font-weight: bold;
-  align-items: center;
-  cursor:
-  pointer;
-  transition:all .3s;
-}
-
-.BotonMenuDesplegableRojo:hover{
-  color: #FF0000;
-  background-color: #FFFFFF;
-  border: solid 2px #FF0000;
-  box-shadow: 0px 0px 15px #FF0000;
-}
-
+/*Boton Gris Pequeño*/
 .BotonMenuDesplegableGrisPequeño{
   display: flex;
   background-color: #2E4053;
@@ -2172,6 +2233,107 @@ background-image: linear-gradient(
   background-color: #FFFFFF;
   border: solid 2px #2E4053;
   box-shadow: 0px 0px 15px #2E4053;
+}
+
+/*Boton Rojo Pequeño*/
+.BotonMenuDesplegableRojoPequeño{
+  display: flex;
+  background-color: #FF0000;
+  border: solid 2px #FF0000;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 5px #9B9B9B;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
+  width: 50%;
+  height: 45px;
+  line-height: 45px;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonMenuDesplegableRojoPequeño:hover{
+  color: #FF0000;
+  background-color: #FFFFFF;
+  border: solid 2px #FF0000;
+  box-shadow: 0px 0px 15px #FF0000;
+}
+
+/*Boton Azul Pequeño*/
+.BotonMenuDesplegableAzulPequeño{
+  display: flex;
+  background-color: #041DAD;
+  border: solid 2px #041DAD;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 5px #9B9B9B;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
+  width: 50%;
+  height: 45px;
+  line-height: 45px;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonMenuDesplegableAzulPequeño:hover{
+  color: #041DAD;
+  background-color: #FFFFFF;
+  border: solid 2px #041DAD;
+  box-shadow: 0px 0px 15px #041DAD;
+}
+
+/*Botones Modo Oscuro*/
+.dark-mode 
+.BotonMenuDesplegableGris,
+.dark-mode 
+.BotonMenuDesplegableGrisPequeño,
+.dark-mode 
+.BotonMenuDesplegableAzul,
+.dark-mode 
+.BotonMenuDesplegableVerde,
+.dark-mode 
+.BotonMenuDesplegableAzulPequeño,
+.dark-mode 
+.BotonMenuDesplegableRojo,
+.dark-mode 
+.BotonMenuDesplegableRojoPequeño{
+  /*background-color: #1d253f;
+  border: solid 2px #1d253f;*/
+  background-color: #244263;
+  border: solid 2px #244263;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 0px #00000000;
+}
+
+.dark-mode 
+.BotonMenuDesplegableGris:hover,
+.dark-mode 
+.BotonMenuDesplegableGrisPequeño:hover,
+.dark-mode 
+.BotonMenuDesplegableAzul:hover,
+.dark-mode 
+.BotonMenuDesplegableVerde:hover,
+.dark-mode 
+.BotonMenuDesplegableAzulPequeño:hover,
+.dark-mode 
+.BotonMenuDesplegableRojo:hover,
+.dark-mode 
+.BotonMenuDesplegableRojoPequeño:hover{
+  color: #495870;
+  background-color: #FFFFFF;
+  border: solid 2px #FFFFFF;
+  box-shadow: 0px 0px 0px #00000000;
 }
 
 .BotonTEST_1_LISTA_CANALES{
@@ -2223,92 +2385,6 @@ background-image: linear-gradient(
   color: #ffffff;
   background-color: #0048ff;
 }
-
-.BotonMenuDesplegableRojoPequeño{
-  display: flex;
-  background-color: #FF0000;
-  border: solid 2px #FF0000;
-  color: #FFFFFF;
-  box-shadow: 0px 2px 5px #9B9B9B;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  padding-left: 10px;
-  width: 50%;
-  height: 45px;
-  line-height: 45px;
-  font-size: 17px;
-  border-radius: 5px;
-  font-weight: bold;
-  align-items: center;
-  cursor:
-  pointer;
-  transition:all .3s;
-}
-
-.BotonMenuDesplegableRojoPequeño:hover{
-  color: #FF0000;
-  background-color: #FFFFFF;
-  border: solid 2px #FF0000;
-  box-shadow: 0px 0px 15px #FF0000;
-}
-
-.BotonMenuDesplegableAzulPequeño{
-  display: flex;
-  background-color: #041DAD;
-  border: solid 2px #041DAD;
-  color: #FFFFFF;
-  box-shadow: 0px 2px 5px #9B9B9B;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  padding-left: 10px;
-  width: 50%;
-  height: 45px;
-  line-height: 45px;
-  font-size: 17px;
-  border-radius: 5px;
-  font-weight: bold;
-  align-items: center;
-  cursor:
-  pointer;
-  transition:all .3s;
-}
-
-.BotonMenuDesplegableAzulPequeño:hover{
-  color: #041DAD;
-  background-color: #FFFFFF;
-  border: solid 2px #041DAD;
-  box-shadow: 0px 0px 15px #041DAD;
-}
-
-.BotonMenuDesplegableGris{
-  display: flex;
-  background-color: #2E4053;
-  border: solid 2px #2E4053;
-  color: #FFFFFF;
-  box-shadow: 0px 2px 5px #9B9B9B;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  padding-left: 10px;
-  width: 100%;
-  height: 45px;
-  line-height: 45px;
-  font-size: 17px;
-  border-radius: 5px;
-  font-weight: bold;
-  align-items: center;
-  cursor:
-  pointer;
-  transition:all .3s;
-}
-
-.BotonMenuDesplegableGris:hover{
-  color: #2E4053;
-  background-color: #FFFFFF;
-  border: solid 2px #2E4053;
-  box-shadow: 0px 0px 15px #2E4053;
-}
-
-
 
 .BotonModalFlotanteRojoPequeño{
   display: flex;
@@ -2376,7 +2452,6 @@ background-image: linear-gradient(
   float: left;
   position: absolute;
   left: 0%;
-
   border-radius: 10px;
 }
 
@@ -2391,8 +2466,11 @@ background-image: linear-gradient(
   float: left;
   position: absolute;
   left: 0%;
-
   border-radius: 10px;
+}
+
+.dark-mode .CuerpoMenuDesplegable2{
+  background-color: #2a3044;
 }
 
 .CuerpoSeñalesMenuDesplegable{
@@ -2496,6 +2574,29 @@ background-image: linear-gradient(
   align-items: center;
 }
 
+.CuerpoTituloMenuAjustesCentrado{
+  display: flex;
+  /*background-color: #FFFFFF;*/
+  /*border: solid 2px #FFFFFF;*/
+  color: #000000;
+  margin-left: 0px;
+  padding-left: 5px;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center; /* Agregado */
+}
+
+/*MODO OSCURO*/
+.dark-mode .CuerpoTituloMenuAjustes,
+.dark-mode .CuerpoTituloMenuAjustesCentrado{
+  color: #ffffff;
+}
+
 .CuerpoTituloPequeñoMenuAjustes{
   display: flex;
   background-color: #FFFFFF;
@@ -2534,9 +2635,24 @@ background-image: linear-gradient(
   background-color: #ECECEC;
 }
 
+.BotonCuadradoVacio{
+  display: flex;
+  background-color: #ffffff00;
+  color: #000000;
+  margin-left: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+}
+
 .BotonCerrarMenuCuadrado{
   display: flex;
-  background-color: #FFFFFF;
+  background-color: #ffffff00;
   color: #000000;
   margin-left: 0px;
   padding-left: 5px;
@@ -2558,6 +2674,10 @@ background-image: linear-gradient(
   color: #FF0000;
 }
 
+.dark-mode .BotonCerrarMenuCuadrado{
+  background-color: #00000000; /*Transparente*/
+  color: #ffffff;
+}
 
 .MenuDesplegableRedondeado{
   border-radius: 10px;
@@ -3037,6 +3157,12 @@ background-image: linear-gradient(
   /*margin-right: 33%;*/
 }
 
+.dark-mode .MenuFlotanteRedondeadoCentro{
+  /*background-color: #202125;*/
+  background-color: #2a3044;
+  
+}
+
 .MenuFlotanteRedondeadoCentro2{
   margin-left: 33%;
   margin-right: 33%;
@@ -3054,7 +3180,7 @@ background-image: linear-gradient(
 
 .BotonAvisoListaSeñales{
   display: flex;
-  color: #ff0000;
+  color: #2E4053;
   background:rgba(255, 255, 255, 0.3);
   align-items: center;
   justify-content: center;
@@ -3071,7 +3197,15 @@ background-image: linear-gradient(
 
 .BotonAvisoListaSeñales:hover{
   background-color:#dadada7e;
-  color:rgb(255, 255, 255)
+}
+
+.dark-mode .BotonAvisoListaSeñales{
+  background-color:#00000000;
+  color: #ffffff;
+}
+
+.dark-mode .BotonAvisoListaSeñales:hover{
+  background-color:#42566b;
 }
 
 [data-title]:hover:after {
@@ -3186,10 +3320,26 @@ background-image: linear-gradient(
   padding-bottom: 20px;
 }
 
+.FooterHomeIA {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #e7eceec5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 9999; /* Ajusta el valor del z-index según sea necesario */
+}
+
 .TextoTituloFooter{
   margin-bottom: 20px;
   font-weight: bold;
   text-align: center;
+}
+
+.dark-mode .TextoTituloFooter{
+  color: #FFFFFF;
 }
 
 .NavbarTest{
@@ -3231,6 +3381,63 @@ background-image: linear-gradient(
   text-align: center;
   color: white;
   display:inline-table;
+}
+
+.DivPantallaSeñalGrande{
+  width: 66.6%;
+  float: left;
+}
+
+.DivPantallaSeñalMedia{
+  width: 50%;
+  float: left;
+}
+
+.DivPantallaSeñalPequeno{
+  width: 33.3333333333%; 
+  float: left;
+}
+
+.TextoIconoAzul{
+  color: #0035FF
+}
+
+.dark-mode .TextoIconoAzul{
+  /*color: #FFFFFF*/
+  color: #2c70e6
+}
+
+.TextoIconoNaranja{
+  color: #FF4900
+}
+
+.dark-mode .TextoIconoNaranja{
+  /*color: #FFFFFF*/
+  color: #ff9000
+}
+
+.TextoIconoRojo{
+  color: #FF0000
+}
+
+.dark-mode .TextoIconoRojo{
+  /*color: #FFFFFF*/
+  color: #ff544b
+}
+
+.TextoIconoVerdeClaro{
+  color: #39AA1A
+}
+
+.dark-mode .TextoIconoVerdeClaro{
+  color: #41bb53
+}
+
+.dark-mode #Logo {
+  filter: 
+  grayscale(100%) 
+  invert(100%) 
+  brightness(200%);
 }
 
 

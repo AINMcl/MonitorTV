@@ -1,35 +1,38 @@
+
 <!DOCTYPE html PUBLIC>
 <html lang="es">
 <head>
+  <title> MonitorTV - Movil AINM </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 
-    <title> Monitor TV Movil </title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+  <link href="../css/estilos.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../css/EstilosMonitorTV_Version_Movil.css">
 
-    <link href="../css/estilos.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/EstilosMonitorTV_Version_Movil.css">
+  <script src="../js/Monitor_Interactivo_Pantalla_Señales_Public.js"></script>
 
-    <script src="../js/Monitor_Interactivo_Pantalla_Señales_Public.js"></script>
+  <script src="../js/Efecto.js"></script>
+  <script src="../js/DarkMode.js"></script>
+  <script src="../js/MostrarOcultarTitulos.js"></script>
+  <script src="../js/AumentarDisminuirTexto.js"></script>
 
-    <script src="../js/Efecto.js"></script>
+  <link rel="icon" href="../Imagenes/Icon.png" type="image/png"/>
 
-    <link rel="icon" href="../imagenes/Icon.png" type="image/png"/>
+  <!-- TIPOGRAFIA GOOGLE-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
+  <!-- TIPOGRAFIA ICONOS GOOGLE-->
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics - ainmcl.vercel.app -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G05WCH7DQC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    <!-- TIPOGRAFIA GOOGLE-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
-    <!-- TIPOGRAFIA ICONOS GOOGLE-->
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-RT53GZ16EW');
-    </script>
+    gtag('config', 'G-G05WCH7DQC');
+  </script>
 
     <!--bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -53,20 +56,10 @@
     <!-- Contenido de off canvas, end.  -->
 	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <script>
-      $(document).ready(function(){
-         $(".Boton_ON_OFF_Titulos").click(function(){
-              $(".CuerpoTituloMenuAjustes").toggle();
-        });
-      });
-    </script>
 </head>
 
-<body style="background-color: #d6d6d6;font-family: 'Assistant', sans-serif; overflow: hidden;">
-
+<body style="background-color: d6d6d6; font-family: 'Assistant', sans-serif; overflow: hidden;">
   <div style="position: absolute; display: inline-block; width: 100%; height:100%" >
-      
-  
     <div class="CuerpoFondoVideoMonitorTVMovil">
       <div class="CuerpoVideoMonitorTVMovil">
         <div style="background-color: black; border-radius: 10px;" id="video-container" class="video-container">
@@ -78,47 +71,65 @@
         </div>
       </div>
     </div>
-
     <div class="CuerpoFondoBarraInferiorMonitorTVMovil">
       <div class="CuerpoBarraInferiorMonitorTVMovil">
         <div class="CuerpoListadoBotonesSeñalesMonitorTVMovil">
-            <section id="channel-list" class="channel-list">
-            </section>
+          <section id="channel-list" class="channel-list">
+          </section>
         </div>
-        
         <!-- BOTON ABRIR MENU DESPLEGABLE -->
         <a style="text-decoration: none;" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span class="BotonMenuDesplegableGris waves-effect waves-grisoscuro"><span style="margin-right: 5px;" class="material-icons">settings</span>MENU</span></a>
       </div>
     </div>
-    
   </div>
 
-	<!-- MENU DEPEGLABLE -->
+	<!-- MENU DESPLEGABLE -->
   <div style="height: 90%;" class="MenuFlotanteRedondeadoCentroMovil offcanvas offcanvas-top" tabindex="-1" id="MenuDespeglableAjustes" aria-labelledby="MenuDespeglableAjustesLabel">
-    <div style="padding-left: 20px; padding-right: 20px;" class="offcanvas-header">
-      <span class="CuerpoTituloMenuAjustes"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">video_settings</span>AJUSTES - MONITOR TV AINM</span>
+    <div style="padding-left: 20px; padding-right: 20px; padding-bottom: 0px;" class="offcanvas-header">
+      <span class="CuerpoTituloMenuAjustes"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">tune</span>AJUSTES</span>
       <!--<h5 class="offcanvas-title" id="MenuDespeglableAjustesLabel"><b>MENU</b></h5>-->
       <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
     </div>
     <div class="offcanvas-body">
       <div class="CuerpoMenuDesplegable">
-
-        <a style="text-decoration: none;" href="Home.html" ><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons">home</span>IR AL HOME</span></a>
-        
+        <a style="text-decoration: none;" href="HomePrivado.html" ><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons">home</span>IR AL HOME</span></a>
         <br>
-
         <!--<div class="BotonMenuDesplegableGris Boton_ON_OFF_Titulos waves-effect waves-grisoscuro" id="OcultarBotones"><span style="margin-right: 5px;" class="material-icons">visibility_off</span><text>TITULOS</text></div>-->
-
-
-        <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
-
+        <a style="text-decoration: none;" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustesAccesibilidad" role="button" aria-controls="MenuDespeglableAjustesAccesibilidad"><span class="BotonMenuDesplegableAzul waves-effect waves-azul"><span style="margin-right: 5px;" class="material-icons">settings_accessibility</span>AJUSTES DE ACCESIBILIDAD</span></a>
+        <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR P. COMPLETA</text></div>
         <a style="text-decoration: none;" href="javascript:location.reload()"><span class="BotonMenuDesplegableAzul waves-effect waves-azul"><span style="margin-right: 5px;" class="material-icons">replay</span>RECARGAR PAGINA</span></a>
-
         <br>
-
       </div> 
     </div>
+    <footer class="FooterMenuFlotante">
+      <span class="TextoTituloFooter">Hosting by</span>
+      <br>
+      <span>
+        <img id="Logo" style="height: 15px; padding-right: 10px;" src="Imagenes/Icon_Github.svg"></a>
+        <img id="Logo" style="height: 15px" src="Imagenes/Icon_Vercel.svg"></a>
+      </span>
+    </footer>
   </div>
+
+    <!-- MENU DESPLEGABLE ACCESIBILIDAD -->
+    <div style="height: 90%;" class="MenuFlotanteRedondeadoCentroMovil offcanvas offcanvas-top" tabindex="-1" id="MenuDespeglableAjustesAccesibilidad" aria-labelledby="MenuDespeglableAjustesAccesibilidad">
+      <div class="offcanvas-body">
+        <div class="CuerpoMenuDesplegable">
+          <div style="width: 100%; height: auto; display: inline-flex; padding-bottom: 15px;">
+            <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="font-size: 30px;" class="material-icons-round">arrow_back</span></span>
+            <span class="CuerpoTituloMenuAjustesCentrado"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">settings_accessibility</span>ACCESIBILIDAD</span>          
+            <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
+          </div>
+          <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="botonMostrarOcultarModoOscuro">
+            <span style="margin-right: 5px;" class="material-icons">dark_mode</span>
+            <span id="TextoBotonMostrarOcultarModoOscuro">MODO OSCURO</span>
+          </div>
+          <div class="BotonMenuDesplegableAzul waves-effect waves-azul" onclick="aumentarTexto()"><span style="margin-right: 5px;" class="material-icons">text_increase</span><text>AUMENTAR TEXTO</text></div>
+          <div class="BotonMenuDesplegableAzul waves-effect waves-azul" onclick="disminuirTexto()"><span style="margin-right: 5px;" class="material-icons">text_decrease</span><text>DISMINUIR TEXTO</text></div>
+          
+        </div>
+      </div>
+    </div>
 
 
     
@@ -137,11 +148,11 @@
       function toggleFullscreen() {
         if(getFullscreenElement()) {
           document.exitFullscreen();
-          btnFullscreenSpanIcon.innerHTML = 'ENTRAR A PANTALLA COMPLETA';
+          btnFullscreenSpanIcon.innerHTML = 'ENTRAR P. COMPLETA';
           btnFullscreenSpan.innerHTML = 'open_in_full';
         }else {
           document.documentElement.requestFullscreen().catch(console.log);
-          btnFullscreenSpanIcon.innerHTML = 'SALIR DE PANTALLA COMPLETA';
+          btnFullscreenSpanIcon.innerHTML = 'SALIR P. COMPLETA';
           btnFullscreenSpan.innerHTML = 'close_fullscreen';
         }
       }

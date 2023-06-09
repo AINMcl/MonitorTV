@@ -9,13 +9,17 @@
     padding-bottom: 20px;
 }
 
-
 .MenuFlotanteRedondeadoCentroMovil{
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 2%;
     margin-right: 2%;
     border-radius: 10px;
+}
+
+/*Modo Oscuro*/
+.dark-mode .MenuFlotanteRedondeadoCentroMovil {
+    background-color: #2a3044;
 }
 
 .CuerpoBarraLateralMonitorTV{
@@ -32,6 +36,7 @@
     left: 0%;
 }
 
+
 .CuerpoVideoMonitorTV{
     background-color: #d6d6d6;
     width: 75%;
@@ -42,6 +47,7 @@
     padding-right: 20px;
     padding-left: 20px;
 }
+
 
 
 /*NUEVO DISEÑO*/
@@ -65,6 +71,11 @@
     left: 0%;
 }
 
+.dark-mode .CuerpoBarraInferiorMonitorTVMovil{
+    background-color: #2a3044;
+    color: #fff;
+}
+
 .CuerpoFondoBarraInferiorMonitorTVMovil{
     background-color: #d6d6d6;
     padding-top: 10px;
@@ -74,17 +85,28 @@
     height: 65%;
 }
 
+.dark-mode .CuerpoFondoBarraInferiorMonitorTVMovil{
+    background-color: #1a1e2a;
+    color: #fff;
+}
+
 .CuerpoFondoVideoMonitorTVMovil{
     background-color: #d6d6d6;
     width: 100%;
 }
 
 .CuerpoVideoMonitorTVMovil{
+    background-color: #d6d6d6;
     width: 100%;
     right: 0%;
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.dark-mode .CuerpoVideoMonitorTVMovil {
+    background-color: #1a1e2a;
+    color: #fff;
 }
 
 /*CIERRE NUEVO DISEÑO*/
@@ -272,7 +294,20 @@
     box-shadow: 0px 2px 10px #586777;
 }
 
+.dark-mode .channel {
+    background-color: #2a3044;
+    border: solid 2px #5f6368;
+    color: #FFFFFF;
+}
 
+.dark-mode .channel:hover{
+    background-color: #222941;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    font-weight: bold;
+    color:#FFFFFF;
+    box-shadow: 0px 0px 0px #00000000;
+}
 
 .SeñalSeleccionada{
     background-color: #ffffff;
@@ -294,6 +329,13 @@
     cursor:
     pointer;
     transition:all .2s
+}
+
+.dark-mode .SeñalSeleccionada{
+    background-color: #394456;
+    border: solid 2px #FFFFFF;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 0px #00000000;
 }
 
 /* Video */
@@ -353,11 +395,6 @@
     background-color: #ffffff;
     width: 100%;
     height: 65%;
-}
-
-.CuerpoVideoMonitorTVMOVIL{
-    background-color: #ffffff;
-    width: 100%;
 }
 
 .ConjuntoMovil{
