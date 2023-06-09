@@ -1594,7 +1594,7 @@ function play(DivId, p) {
                     } else {
                         q.rtsp = "rtsp://wow.tvn.cl:1935/mediacache/_definst_/mp4:/elemental/" + nombre + "/" + nombre.substr(0, nombre.length - 5) + "_240.mp4";
                     }
-                    q.thumbs = "//www.tvn.cl/archivos/" + folder + "/" + nombre + "/imagenes/" + nombre + ".[index].jpg";
+                    q.thumbs = "//www.tvn.cl/archivos/" + folder + "/" + nombre + "/Imagenes/" + nombre + ".[index].jpg";
                 }
 
                 if (q.promo == 1) {
