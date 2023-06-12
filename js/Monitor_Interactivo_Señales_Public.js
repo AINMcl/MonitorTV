@@ -469,24 +469,20 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/CNN_LIVE_EVENT_5.html" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CNN LIVE EVENT 5</div></div></div>'
         },
         'MAS_24_RTVE_SEÑAL_1': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/24H_TVE_OCASIONAL_1.html" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">+24 RTVE SEÑAL 1</div></div></div>'
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RTVE PLAY OCASIONAL 1',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RTVE_PLAY_OCASIONAL_1.html" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RTVE PLAY OCASIONAL 1</div></div></div>'
         },
         'MAS_24_RTVE_SEÑAL_2': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/24H_TVE_OCASIONAL_2.html" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">+24 RTVE SEÑAL 2</div></div></div>'
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RTVE PLAY OCASIONAL 2',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RTVE_PLAY_OCASIONAL_2.html" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RTVE PLAY OCASIONAL 2</div></div></div>'
         },
         'MAS_24_RTVE_SEÑAL_3': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 3',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/24H_TVE_OCASIONAL_3.html" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">+24 RTVE SEÑAL 3</div></div></div>'
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RTVE PLAY OCASIONAL 3',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RTVE_PLAY_OCASIONAL_3.html" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RTVE PLAY OCASIONAL 3</div></div></div>'
         },
         'MAS_24_RTVE_SEÑAL_4': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 4',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/24H_TVE_OCASIONAL_4.html" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">+24 RTVE SEÑAL 4</div></div></div>'
-        },
-        'MAS_24_RTVE_SEÑAL_5': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 5',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/24H_TVE_OCASIONAL_5.html" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">+24 RTVE SEÑAL 5</div></div></div>'
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RTVE PLAY OCASIONAL 4',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RTVE_PLAY_OCASIONAL_4.html" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RTVE PLAY OCASIONAL 4</div></div></div>'
         },
         /*
         'RTVE_LIVE_OCASIONAL_1': {

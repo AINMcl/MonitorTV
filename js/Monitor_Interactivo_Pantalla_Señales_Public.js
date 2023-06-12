@@ -466,25 +466,21 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>CNN LIVE EVENT 5',
         'url': '../Monitores/Senal/CNN_LIVE_EVENT_5.html'
     }, {
-        'titulo': '+24 RTVE SEÑAL 1',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 1',
-        'url': '../Monitores/Senal/24H_TVE_OCASIONAL_1.html'
+        'titulo': 'RTVE PLAY OCASIONAL 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RTVE PLAY OCASIONAL 1',
+        'url': '../Monitores/Senal/RTVE_PLAY_OCASIONAL_1.html'
     }, {
-        'titulo': '+24 RTVE SEÑAL 2',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 2',
-        'url': '../Monitores/Senal/24H_TVE_OCASIONAL_2.html'
+        'titulo': 'RTVE PLAY OCASIONAL 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RTVE PLAY OCASIONAL 2',
+        'url': '../Monitores/Senal/RTVE_PLAY_OCASIONAL_2.html'
     }, {
-        'titulo': '+24 RTVE SEÑAL 3',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 3',
-        'url': '../Monitores/Senal/24H_TVE_OCASIONAL_3.html'
+        'titulo': 'RTVE PLAY OCASIONAL 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RTVE PLAY OCASIONAL 3',
+        'url': '../Monitores/Senal/RTVE_PLAY_OCASIONAL_3.html'
     }, {
-        'titulo': '+24 RTVE SEÑAL 4',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 4',
-        'url': '../Monitores/Senal/24H_TVE_OCASIONAL_4.html'
-    }, {
-        'titulo': '+24 RTVE SEÑAL 5',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>+24 RTVE SEÑAL 5',
-        'url': '../Monitores/Senal/24H_TVE_OCASIONAL_5.html'
+        'titulo': 'RTVE PLAY OCASIONAL 4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RTVE PLAY OCASIONAL 4',
+        'url': '../Monitores/Senal/RTVE_PLAY_OCASIONAL_4.html'
     }, {
     /*  'titulo': 'RTVE OCASIONAL 1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>RTVE LIVE OCASIONAL 1',
