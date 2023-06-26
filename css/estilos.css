@@ -17,10 +17,10 @@ color: #FFFFFF;
 
 .TextoInfo{
   margin: 10px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
-  color: #000000;
+  color: #ffffff;
   font-family: 'Assistant', sans-serif;
   }
 
@@ -423,7 +423,7 @@ color: #FFFFFF;
 }
 
 .waves-effect.waves-modooscuro .waves-ripple {
-  background-color: #1e3853bb;
+  background-color: #333036bb;
 }
 
 .waves-effect.waves-grisclaro .waves-ripple {
@@ -893,8 +893,8 @@ background-image: linear-gradient(
 .BotonCambiarSeñal{
   position: absolute;
   display: inline-flex;
-  top: 1%;
-  left: 1%;
+  top: 5px;
+  left: 5px;
   width: auto;
   height: auto;
 }
@@ -906,7 +906,8 @@ background-image: linear-gradient(
   color: #ffffff00;
   align-items: center;
   justify-content: center;
-  margin-right: 5%;
+  /*margin-right: 5%;*/
+  margin-right: 6px;
   width: 40px;
   height: 40px;
   border-radius: 5px;
@@ -918,6 +919,29 @@ background-image: linear-gradient(
 .BotonCambiarSeñalTexto:hover{
   backdrop-filter: blur(5px);
   background-color:rgba(0, 68, 255, 0.8);
+  color:rgb(255, 255, 255)
+}
+
+.BotonCambiarSeñalTextoRojo{
+  display: flex;
+  /*position: absolute;*/
+  background-color: #0004ff00;
+  color: #ffffff00;
+  align-items: center;
+  justify-content: center;
+  /*margin-right: 5%;*/
+  margin-right: 6px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  cursor:
+  pointer;
+  transition:all .3s
+}
+
+.BotonCambiarSeñalTextoRojo:hover{
+  backdrop-filter: blur(5px);
+  background-color: #ff00007e;
   color:rgb(255, 255, 255)
 }
 
@@ -1431,6 +1455,23 @@ background-image: linear-gradient(
   height: 30px;
   background-color: #ffffff;
   border: solid 2px #ff0000;
+}
+
+@media (max-width: 768px) {
+  .BotonCardHome{
+
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
 }
 
 .BotonCardHomeAzul{
@@ -2308,10 +2349,8 @@ background-image: linear-gradient(
 .BotonMenuDesplegableRojo,
 .dark-mode 
 .BotonMenuDesplegableRojoPequeño{
-  /*background-color: #1d253f;
-  border: solid 2px #1d253f;*/
-  background-color: #244263;
-  border: solid 2px #244263;
+  background-color: #333036;
+  border: solid 2px #333036;
   color: #FFFFFF;
   box-shadow: 0px 0px 0px #00000000;
 }
@@ -2330,7 +2369,7 @@ background-image: linear-gradient(
 .BotonMenuDesplegableRojo:hover,
 .dark-mode 
 .BotonMenuDesplegableRojoPequeño:hover{
-  color: #495870;
+  color: #333036;
   background-color: #FFFFFF;
   border: solid 2px #FFFFFF;
   box-shadow: 0px 0px 0px #00000000;
@@ -2360,7 +2399,7 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 15px #2E4053;
 }
 
-.BotonEnlaceExternoInformaciones{
+.BotonEnlaceExternoInformacionesAnterior{
   background-color: #cfcfcf;
   width: auto;
   margin-left: 3px;
@@ -2381,9 +2420,37 @@ background-image: linear-gradient(
   transition:all .3s;
 }
 
-.BotonEnlaceExternoInformaciones:hover{
+.BotonEnlaceExternoInformacionesAnterior:hover{
   color: #ffffff;
   background-color: #0048ff;
+}
+
+.BotonEnlaceExternoInformaciones{
+  height: 35px;
+  line-height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 8px;
+  margin-top: 10px;
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #ffffff;
+  border: solid 1px #171719;
+  background-color: #171719;
+  border-radius: 25px;
+  font-size: 15px;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonEnlaceExternoInformaciones:hover {
+  background-color: #171719;
+  font-weight: bold;
+  color: #FFFFFF;
+  border: solid 1px #7e7e7e;
 }
 
 .BotonModalFlotanteRojoPequeño{
@@ -2470,7 +2537,7 @@ background-image: linear-gradient(
 }
 
 .dark-mode .CuerpoMenuDesplegable2{
-  background-color: #2a3044;
+  background-color: #1d1c20;
 }
 
 .CuerpoSeñalesMenuDesplegable{
@@ -2684,6 +2751,8 @@ background-image: linear-gradient(
   margin: 15px;
 }
 
+
+
 .ListaSeñales_Señal{
   background-color: #ffffff;
   align-items: center;
@@ -2720,17 +2789,17 @@ background-image: linear-gradient(
 }
 
 .BotonMenuSuperior{
-  height: 25px;
-  line-height: 25px;
-  padding-left: 7px;
-  padding-right: 7px;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-right: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  color: #000000;
-  border-radius: 5px;
+  color: #ffffff;
+  border-radius: 25px;
   font-size: 15px;
   cursor:
   pointer;
@@ -2738,57 +2807,43 @@ background-image: linear-gradient(
 }
 
 .BotonMenuSuperior:hover {
-  background-color: #0048ff;
+  background-color: #171719;
   font-weight: bold;
   color: #FFFFFF;
 }
 
-.BotonMenuSuperiorRojo{
-  height: 25px;
-  line-height: 25px;
-  padding-left: 7px;
-  padding-right: 7px;
-  margin-right: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  color: #000000;
-  border-radius: 5px;
-  font-size: 15px;
-  cursor:
-  pointer;
-  transition:all .5s
-}
 
-.BotonMenuSuperiorRojo:hover {
-  background-color: #ff2929;
-  font-weight: bold;
-  color: #FFFFFF;
-}
-
-.BotonMenuSuperior2{
+.BotonMenuSuperiorSeleccionado{
+  background-color: #171719;
   height: 35px;
   line-height: 35px;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-right: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  color: #000000;
-  border-radius: 5px;
+  color: #ffffff;
+  border-radius: 25px;
   font-size: 15px;
   cursor:
   pointer;
   transition:all .5s
 }
 
-.BotonMenuSuperior2:hover {
-  background-color: #0048ff;
+.BotonMenuSuperiorSeleccionado:hover {
+  background-color: #171719;
   font-weight: bold;
   color: #FFFFFF;
+}
+
+
+@media (max-width: 768px) {
+  .BotonMenuSuperior,
+  .BotonMenuSuperiorSeleccionado {
+    font-size: 13px;
+  }
 }
 
 .BotonIrTabla{
@@ -3029,6 +3084,25 @@ background-image: linear-gradient(
 
 .BarraTituloConIcono{
   display: flex;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  width: 100%;
+  height: 50px;
+  line-height: 45px;
+  font-size: 17px;
+  border-radius: 35px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BarraTituloConIconoA{
+  display: flex;
   color: #000000;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -3157,9 +3231,16 @@ background-image: linear-gradient(
   /*margin-right: 33%;*/
 }
 
+@media (max-width: 768px) {
+  .MenuFlotanteRedondeadoCentro {
+    width: 95vw;
+  }
+}
+
 .dark-mode .MenuFlotanteRedondeadoCentro{
   /*background-color: #202125;*/
-  background-color: #2a3044;
+  /*background-color: #2a3044;*/
+  background-color: #1d1c20;
   
 }
 
@@ -3237,7 +3318,6 @@ background-image: linear-gradient(
 .CardSeñal{
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
-  --bs-card-title-spacer-y: 0.5rem;
   --bs-card-border-width: 1px;
   /*--bs-card-border-color: var(--bs-border-color-translucent);*/
   --bs-card-border-radius: 0.375rem;
@@ -3314,10 +3394,12 @@ background-image: linear-gradient(
   text-align: center;
   align-items: center;
   justify-content: center;
-  background-color: #e7eceec5;
+  background-color: #1d1c20;
+  color: #FFFFFF;
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-right: 20px;
 }
 
 .FooterHomeIA {
@@ -3326,7 +3408,7 @@ background-image: linear-gradient(
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: #e7eceec5;
+  background-color: #1d1c20;
   padding-top: 20px;
   padding-bottom: 20px;
   z-index: 9999; /* Ajusta el valor del z-index según sea necesario */
@@ -3369,7 +3451,6 @@ background-image: linear-gradient(
   height: 100%;
   width: 100%;
   background-color: #1c1917;
-
   /*background: rgba(0, 0, 0, 0.55);*/
   backdrop-filter: blur(3px);
   padding-left: 10px;
@@ -3403,7 +3484,6 @@ background-image: linear-gradient(
 }
 
 .dark-mode .TextoIconoAzul{
-  /*color: #FFFFFF*/
   color: #2c70e6
 }
 
@@ -3412,8 +3492,7 @@ background-image: linear-gradient(
 }
 
 .dark-mode .TextoIconoNaranja{
-  /*color: #FFFFFF*/
-  color: #ff9000
+  color: #e18610
 }
 
 .TextoIconoRojo{
@@ -3421,7 +3500,6 @@ background-image: linear-gradient(
 }
 
 .dark-mode .TextoIconoRojo{
-  /*color: #FFFFFF*/
   color: #ff544b
 }
 
@@ -3440,6 +3518,327 @@ background-image: linear-gradient(
   brightness(200%);
 }
 
+.BordeContenedorSeñal{
+  border: 1px solid #FFFFFF;
+}
+
+.tooltip-container {
+  position: relative;
+}
+
+.tooltip {
+  display: inline-block;
+  position: relative;
+}
+
+.tooltip-text {
+  cursor: pointer;
+}
+
+.tooltip-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 4px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s;
+}
+
+.tooltip:hover .tooltip-content {
+  visibility: visible;
+  opacity: 1;
+}
+
+.navbar{
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.left-text {
+  position: relative;
+  top: 30px;
+  left: 25px;
+  color: #fff;
+  width: max-content;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .left-text {
+    text-align: center;
+    width: 100%;
+    left: 0px;
+    font-size: 20px;
+  }
+}
 
 
+.right-text {
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  color: #fff;
+  font-size: 16px;
+}
 
+@media (max-width: 768px) {
+  .right-text {
+    display: none;
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*margin-top: 7%;*/
+}
+
+
+/*card propia*/
+.custom-card {
+  width: 30%;
+  background-color: #1d1c20;
+  color: #FFFFFF;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .custom-card {
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .OcultoEnMovil {
+    visibility: hidden;
+  }
+}
+
+.custom-card-title {
+  margin-bottom: 5px;
+}
+
+.custom-card img {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.custom-card .card-content {
+  padding: 1rem;
+}
+
+.custom-card h3 {
+  font-size: 20px;
+  color: #333333;
+  margin: 0;
+}
+
+.custom-card p {
+  color: #666666;
+}
+
+.custom-card a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.BotonCompartirHome{
+  height: 35px;
+  line-height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-flex;
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #ffffff;
+  border: solid 1px #00000000;
+  border-radius: 25px;
+  font-size: 15px;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.BotonCompartirHome:hover {
+  background-color: #171719;
+  font-weight: bold;
+  color: #FFFFFF;
+  border: solid 1px #7e7e7e;
+}
+
+.ContenedorAnunciosHome{
+  margin-top: 12vh;
+  margin-bottom: 10px;
+  display: flex;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 7%;
+  padding-right: 7%;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #38323200;
+  border: solid 1px #00000000;
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .ContenedorAnunciosHome {
+    margin-top: 18vh;
+  }
+}
+
+.ContenedorAnunciosSecundarios{
+  margin-top: 1vh;
+  margin-bottom: 10px;
+  display: flex;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 7%;
+  padding-right: 7%;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #38323200;
+  border: solid 1px #00000000;
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .ContenedorAnunciosSecundarios {
+    margin-top: 1vh;
+  }
+}
+
+.AnunciosHome{
+  display: flex;
+  color: #ffffff;
+  border: solid 1px #ffffff00;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 17px;
+  border-radius: 35px;
+  width: max-content;
+  font-weight: bold;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.AnunciosHome:hover{
+  background-color: #171719;
+  font-weight: bold;
+  color: #FFFFFF;
+  border: solid 1px #7e7e7e;
+}
+
+@media (max-width: 1000px) {
+  .AnunciosHome.MovilOculto,
+  #carouselExampleControls {
+    display: none;
+  }
+}
+
+.TitulosPrincipalesPagina{
+  display: flex;
+  color: #ffffff;
+  border: solid 1px #ffffff00;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  border-radius: 35px;
+  width: max-content;
+  font-weight: bold;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.TitulosPrincipalesPagina:hover{
+  background-color: #171719;
+  font-weight: bold;
+  color: #FFFFFF;
+  border: solid 1px #7e7e7e;
+}
+
+@media (max-width: 768px) {
+  .TitulosPrincipalesPagina {
+    font-size: 15px;
+  }
+}
+
+
+.ImagenWhite{
+  filter: 
+  grayscale(100%) 
+  invert(100%) 
+  brightness(200%);
+}
+
+.volver-arriba {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+
+.VolverArriba {
+  display: inline-flex;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  background-color: #333036;
+  border: solid 1px #333036;
+  border-radius: 35px;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 15px;
+  line-height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  font-size: 15px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.VolverArriba:hover {
+  background-color: #171719;
+  font-weight: bold;
+  color: #ffffff;
+  border: solid 1px #333036;
+}

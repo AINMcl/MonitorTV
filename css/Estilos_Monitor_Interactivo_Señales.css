@@ -266,13 +266,13 @@ td {
 }
 
 .dark-mode .BotonTV_Señales {
-    background-color: #2a3044;
+    background-color: #1d1c20;
     border: solid 2px #5f6368;
     color: #FFFFFF !important;
 }
 
 .dark-mode .BotonTV_Señales:hover{
-    background-color: #313A49;
+    background-color: #323238;
     border-color: #FFFFFF;
     border-width: 2px;
     font-weight: bold;
@@ -311,7 +311,7 @@ td {
 }
 
 .dark-mode .BotonTV_SeñalSeleccionada{
-    background-color: #313A49;
+    background-color: #323238;
     border: solid 2px #FFFFFF;
     color: #FFFFFF;
     box-shadow: 0px 0px 0px #00000000;

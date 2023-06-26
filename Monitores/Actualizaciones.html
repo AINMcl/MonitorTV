@@ -19,6 +19,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
+<link href="../css/estilos_Movil.css" rel="stylesheet" type="text/css">
+
 <!-- Global site tag (gtag.js) - Google Analytics - ainmcl.github.io -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
 <script>
@@ -30,54 +32,36 @@
 </script>
 
 <script src="../js/Efecto.js"></script>
+<script src="../js/VolverArriba.js"></script>
+
 </head>
-<body style="background-color: #ffffff; font-family: assistant;">
+<body style="background-color: #141417; font-family: 'Assistant', sans-serif; overflow-x: hidden;">
+  <div class="left-text">
+    <img src="../Imagenes/Logo_IconSolo.svg" width="30" height="30" >
+    <span style="font-weight: bold;">MonitorTV</span> by AINMcl
+  </div>
 
-
-  <nav class="navbar navbar-expand-lg fixed-top" style="padding-left: 4%; padding-right: 4%; background-color: #e7eceec5; backdrop-filter: blur(5px);">
-    <div class="container-fluid" style="padding-left: 0px;">
-      <a class="navbar-brand" href="#">
-        <img src="../Imagenes/Logo_IconSolo.svg" width="30" height="30" class="d-inline-block align-text-top">
-        AINMcl
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <a style="text-decoration: none;" href="Home.html"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Home</span></a>
-        <a style="text-decoration: none;" href="Info.html"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Informaciones</span></a>
-        <a style="text-decoration: none;" href="#"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Registro Actualizaciones</span></a>
-        <!--
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown link
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>-->
-      </div>
+  <nav class="navbar navbar-expand fixed-top" style="padding-left: 2%; padding-right: 2%; margin-top: 20px; background-color: #FFFFFF14; color: #FFFFFF; backdrop-filter: blur(10px);">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <a style="text-decoration: none;" href="Home.html"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Home</span></a>
+      <a style="text-decoration: none;" href="Info.html"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Informaciones</span></a>
+      <a style="text-decoration: none;" href="Actualizaciones.html"><span type="button" class="BotonMenuSuperiorSeleccionado waves-effect waves-light">Actualizaciones</span></a>
     </div>
   </nav>
-  
-  <div class="DivBotonesHome" style="padding-left: 4%; padding-right: 4%; padding-top: 65px;">
-    <div style="text-decoration: none; font-size: 20px;" class="BarraTituloConIcono waves-effect waves-azulclaro"><span style="margin-right: 10px; color: #0048ff;" class="material-icons-round">history</span><text>REGISTRO DE ACTUALIZACIONES</text>
+
+  <div class="right-text">
+    <a style="text-decoration: none;" target="_blank" href="https://twitter.com/intent/tweet?url=https://ainmcl.github.io/MonitorTV/Monitores/Home.html&text=¡Descubre MonitorTV!🌎📺 Una plataforma innovadora para mantenerte al día con la actualidad de Chile y el mundo. Señales en vivo de TV, radios y medios internacionales en una sola pantalla. Compara coberturas y enfoques. No te pierdas ningún detalle."><span type="button" class="BotonCompartirHome waves-effect waves-light"><img style="height: 10px; width:auto; margin-right: 5px;" src="Imagenes/Icono_Twitter_2.svg"></img>Compartir</span></a>
   </div>
-    <!--<h2 class="TextoInfo">REGISTRO DE ACTUALIZACIONES</h2>-->
-    <table class="table" style="text-align: left;">
+  
+  <div class="ContenedorAnunciosHome">
+    <div style="text-decoration: none;" class="TitulosPrincipalesPagina waves-effect waves-white">
+      <span style="margin-right: 10px;" class="material-icons-outlined">history</span>
+      <text>REGISTRO DE ACTUALIZACIONES</text>
+    </div>
+  </div>
+
+  <div class="DivBotonesHome" style="padding-left: 4%; padding-right: 4%;">
+    <table class="table" style="text-align: left; color: #FFFFFF; ">
         <tbody>
           <thead>
             <tr>
@@ -107,13 +91,13 @@
               <br>
               • <b>SE AGREGAN NUEVAS SEÑALES:</b>
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>ﾠINFOBAE
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>ﾠINFOBAE
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>ﾠRT
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>ﾠRT
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>ﾠRT ESPAÑOL
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>ﾠRT ESPAÑOL
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>ﾠRTVE
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>ﾠRTVE
               <br>
             </td>
           </tr>
@@ -285,11 +269,11 @@
               <br>
               ▸ <img style="height: 15px; width: 23px" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>ﾠEURONEWS ITALIANO
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>ﾠFRANCE24 ENGLISH
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>ﾠFRANCE24 ENGLISH
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/ua.svg" title="UCRANIA"></img>ﾠUCRANIA24
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/ua.svg" title="UCRANIA"></img>ﾠUCRANIA24
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>ﾠUNIVISION NOTICIAS
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>ﾠUNIVISION NOTICIAS
               <br>
               <br>
               • <b>NUEVO ORDEN SEÑALES NOTICIAS</b>
@@ -322,7 +306,7 @@
               <br>
               ▸ <img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠPRESIDENCIA CHILE (OPCION 2)
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠGOBIERNO DE CHILE
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠGOBIERNO DE CHILE
               <br>
               <br>
               • <b>SE CORRIGEN SEÑALES:</b>
@@ -346,7 +330,7 @@
             <td>
               • <b>SE AGREGAN NUEVAS SEÑALES:</b>
               <br>
-              ▸  <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠPDTE. BORIC
+              ▸  <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠPDTE. BORIC
               <br>
             </td>
           </tr>
@@ -478,11 +462,11 @@
               ▸ <img style="height: 15px; width: 23px" src="https://flagcdn.com/pe.svg" title="PERU"></img>ﾠWILLAX TV
               <br>
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/pe.svg" title="PERU"></img>ﾠATV NOTICIAS
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/pe.svg" title="PERU"></img>ﾠATV NOTICIAS
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/pe.svg" title="PERU"></img>ﾠRADIO EXITOSA
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/pe.svg" title="PERU"></img>ﾠRADIO EXITOSA
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/pe.svg" title="PERU"></img>ﾠLATINA NOTICIAS
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/pe.svg" title="PERU"></img>ﾠLATINA NOTICIAS
               <br>
               <br>
               • <b>SE ACTUALIZA ESTA PAGINA Y SE AGREGAN ICONOS DE TIPO SE SEÑAL, FUENTE YOUTUBE Y BANDERA</b>
@@ -546,21 +530,21 @@
             <td>
               • <b>SE AGREGAN NUEVAS SEÑALES:</b>
               <br>
-              ▸ <img style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED ANTOFAGASTA
+              ▸ <img class="ImagenWhite" style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED ANTOFAGASTA
               <br>
-              ▸ <img style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED COQUIMBO
+              ▸ <img class="ImagenWhite" style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED COQUIMBO
               <br>
-              ▸ <img style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED VALPARAISO
+              ▸ <img class="ImagenWhite" style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED VALPARAISO
               <br>
-              ▸ <img style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED O'HIGGINS
+              ▸ <img class="ImagenWhite" style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED O'HIGGINS
               <br>
-              ▸ <img style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED MAULE
+              ▸ <img class="ImagenWhite" style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED MAULE
               <br>
-              ▸ <img style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED BIO-BIO
+              ▸ <img class="ImagenWhite" style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED BIO-BIO
               <br>
-              ▸ <img style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED ARAUCANIA
+              ▸ <img class="ImagenWhite" style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED ARAUCANIA
               <br>
-              ▸ <img style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED AUSTRAL
+              ▸ <img class="ImagenWhite" style="height: 20px; width:auto" src="Imagenes/Icono_Facebook.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠTVN RED AUSTRAL
               <br>
             </td>
           </tr>
@@ -664,15 +648,15 @@
               <br>
               • <b>SE AGREGAN NUEVAS SEÑALES YOUTUBE</b>
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>ﾠMILENIO NOTICIAS
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>ﾠMILENIO NOTICIAS
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>ﾠADN40
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>ﾠADN40
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/qa.svg" title="CATAR"></img>ﾠAL JAZEERA ENGLISH
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/qa.svg" title="CATAR"></img>ﾠAL JAZEERA ENGLISH
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/qa.svg" title="CATAR"></img>ﾠAL JAZEERA ARABIC
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/qa.svg" title="CATAR"></img>ﾠAL JAZEERA ARABIC
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/qa.svg" title="CATAR"></img>ﾠAL JAZEERA MUBASHER
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/qa.svg" title="CATAR"></img>ﾠAL JAZEERA MUBASHER
               <br>
               <br>
 
@@ -718,11 +702,11 @@
             <td>
               • <b>SE AGREGAN NUEVAS SEÑALES</b>
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>ﾠAGENCIA EFE
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>ﾠAGENCIA EFE
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>ﾠEUROPA PRESS
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>ﾠEUROPA PRESS
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARAS LEDRIUM
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARAS LEDRIUM
             </td>
           </tr>
 
@@ -794,23 +778,23 @@
               ▸ <img style="height: 15px; width: 23px" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>ﾠECUADOR TV
               <br>
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 2
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 2
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 9
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 9
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 10
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 10
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 14
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 14
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 15
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 15
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 16
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 16
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 17
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 17
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 18
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 18
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 20
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠCAMARA DIPUTADOS - SEÑAL 20
             </td>
           </tr>
 
@@ -872,15 +856,15 @@
             <td>
               • <b>SE AGREGAN NUEVAS SEÑALES:</b>
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠPRESIDENCIA DE CHILE
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cl.svg" title="CHILE"></img>ﾠPRESIDENCIA DE CHILE
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/ar.svg" title="CHILE"></img>ﾠPRESIDENCIA DE ARGENTINA
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/ar.svg" title="CHILE"></img>ﾠPRESIDENCIA DE ARGENTINA
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/ec.svg" title="CHILE"></img>ﾠPRESIDENCIA DE ECUADOR
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/ec.svg" title="CHILE"></img>ﾠPRESIDENCIA DE ECUADOR
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/br.svg" title="CHILE"></img>ﾠPRESIDENCIA DE BRASIL
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/br.svg" title="CHILE"></img>ﾠPRESIDENCIA DE BRASIL
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cn.svg" title="CHILE"></img>ﾠCCTV+
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/cn.svg" title="CHILE"></img>ﾠCCTV+
               <br>
               <br>
               ▸ <img style="height: 15px; width: 23px" src="https://flagcdn.com/py.svg" title="PARAGUAY"></img>ﾠTRECE
@@ -1036,9 +1020,9 @@
             <td>
               • <b>SE AGREGAN NUEVAS SEÑALES:</b>
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/br.svg" title="CHILE"></img>ﾠRECORD NEWS
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/br.svg" title="CHILE"></img>ﾠRECORD NEWS
               <br>
-              ▸ <img style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/br.svg" title="CHILE"></img>ﾠSTB NEWS
+              ▸ <img class="ImagenWhite" style="height: 15px; width:auto" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 15px; width: 23px" src="https://flagcdn.com/br.svg" title="CHILE"></img>ﾠSTB NEWS
 
             </td>
           </tr>
@@ -1182,11 +1166,23 @@
             <td>
               • <b>SE AGREGAN EL MENU DE ACCESIBILIDAD CON LAS OPCIONES:</b>
               <br>
-              ▸ﾠCAMBIO DE MODO OSCURO Y CLARO
+              ▸ﾠMODO OSCURO
               <br>
-              ▸ﾠCAMBIAR TAMAÑO DE TEXTO
+              ▸ﾠCAMBIAR TAMAÑO DEL TEXTO
               <br>
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row" id="24Junio2023">
+              26 JUNIO 2023
+            </th>
+            <td>
+              • NUEVO DISEÑO
               <br>
+              • NUEVO MODO OSCURO
+              <br>
+              • MONITOR TV AHORA DISPONIBLE EN DISEÑO RESPONSIVE
             </td>
           </tr>
 
@@ -1203,16 +1199,11 @@
 
         </tbody>
       </table>
-    <br>
-
-    <div id="FinalPagina" class="DivBotonesHome">
-
-      <!--<a href="../Monitores/Monitor1.html"><span class="BotonActualizaciones waves-effect waves-red ">ㅤIR AL MONITOR PRINCIPALㅤ</span></a>-->
-      <a  class="BotonActualizacionesGrande waves-effect waves-light" style="text-decoration: none;" href="../Monitores/Monitor1.html"><span>IR AL MONITOR PRINCIPAL</span></a>
-
   </div>
-  <br>
-</div>
+
+  <a style="text-decoration: none;" class="VolverArriba waves-effect waves-white" id="volver-arriba" onclick="volverArriba()">
+    <span class="material-icons-round">arrow_upward</span>
+  </a>
 	  
 </body>
 </html>

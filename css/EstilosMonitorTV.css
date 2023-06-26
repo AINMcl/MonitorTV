@@ -59,10 +59,22 @@ body {
     position: absolute;
 }
 
+@media (max-width: 768px) {
+    .CuerpoFondoBarraLateral {
+        background-color: #d6d6d6;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        width: 100%;
+        height: -webkit-fill-available;
+    }
+  }
+
 /*MODO OSCURO*/
 .dark-mode .CuerpoFondoBarraLateral {
   /*background-color: #202125;*/
-  background-color: #1a1e2a;
+  /*background-color: #1a1e2a;*/
+  background-color: #141417;
   color: #fff;
 }
 
@@ -79,6 +91,14 @@ body {
     padding-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+    .CuerpoListadoBotonesSeñalesMonitorTV {
+        width: 100%;
+        height: 85%;
+        padding-bottom: 10px;
+    }
+  }
+
 /*DIV LISTADO Y BOTON MENU*/
 .CuerpoBarraLateralMonitorTV{
     margin-left: 20px;
@@ -94,9 +114,26 @@ body {
     left: 0%;
 }
 
+@media (max-width: 768px) {
+    .CuerpoBarraLateralMonitorTV {
+        margin-left: 10px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: 'Assistant', sans-serif;
+        background-color: #ffffff;
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        float: left;
+        left: 0%;
+    }
+  }
+
 .dark-mode .CuerpoBarraLateralMonitorTV {
-    /*background-color: #212936;*/
-    background-color: #2a3044;
+    /*background-color: #212936;
+    background-color: #2a3044;*/
+    background-color: #1d1c20;
     color: #fff;
 }
 
@@ -112,9 +149,23 @@ body {
     padding-left: 20px;
 }
 
+@media (max-width: 768px) {
+    .CuerpoVideoMonitorTV {
+        background-color: #d6d6d6;
+        position: initial;
+        width: 100%;
+        height: auto;
+        right: 0%;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+  }
+
 .dark-mode .CuerpoVideoMonitorTV {
     /*background-color: #202125; */
-    background-color: #1a1e2a; 
+    /*background-color: #1a1e2a; */
+    background-color: #141417;
     color: #fff;
 }
 
@@ -181,7 +232,8 @@ body {
 
 .dark-mode .channel {
     /*background-color: #181D2D;*/
-    background-color: #2a3044;
+    /*background-color: #2a3044;*/
+    background-color: #1d1c20;
     border: solid 2px #5f6368;
     color: #FFFFFF;
 }
@@ -197,7 +249,7 @@ body {
 
 .dark-mode .channel:hover{
     /*background-color: #222941;*/
-    background-color: #313A49;
+    background-color: #323238;
     border-color: #FFFFFF;
     border-width: 2px;
     font-weight: bold;
@@ -228,7 +280,7 @@ body {
 }
 
 .dark-mode .SeñalSeleccionada{
-    background-color: #313A49;
+    background-color: #323238;
     display: flex;
     align-items: center;
     justify-content: left;

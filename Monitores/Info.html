@@ -22,6 +22,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
+<link href="../css/estilos_Movil.css" rel="stylesheet" type="text/css">
+
 <!-- Global site tag (gtag.js) - Google Analytics - ainmcl.github.io -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
 <script>
@@ -33,63 +35,48 @@
 </script>
 
 <script src="../js/Efecto.js"></script>
-</head>
-<body style="background-color: #ffffff; font-family: assistant;">
+<script src="../js/VolverArriba.js"></script>
 
-  <nav class="navbar navbar-expand-lg fixed-top" style="padding-left: 4%; padding-right: 4%; background-color: #e7eceec5; backdrop-filter: blur(5px);">
-    <div class="container-fluid" style="padding-left: 0px;">
-      <a class="navbar-brand" href="#">
-        <img src="../Imagenes/Logo_IconSolo.svg" width="30" height="30" class="d-inline-block align-text-top">
-        AINMcl
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <a style="text-decoration: none;" href="Home.html"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Home</span></a>
-        <a style="text-decoration: none;" href="#"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Informaciones</span></a>
-        <a style="text-decoration: none;" href="Actualizaciones.html"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Registro Actualizaciones</span></a>
-        <!--
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown link
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>-->
-      </div>
+</head>
+<body style="background-color: #141417; color: #FFFFFF; font-family: 'Assistant', sans-serif; overflow-x: hidden;">
+  <div class="left-text">
+    <img src="../Imagenes/Logo_IconSolo.svg" width="30" height="30" >
+    <span style="font-weight: bold;">MonitorTV</span> by AINMcl
+  </div>
+
+  <nav class="navbar navbar-expand fixed-top" style="padding-left: 2%; padding-right: 2%; margin-top: 20px; background-color: #FFFFFF14; color: #FFFFFF; backdrop-filter: blur(10px);">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <a style="text-decoration: none;" href="Home.html"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Home</span></a>
+      <a style="text-decoration: none;" href="Info.html"><span type="button" class="BotonMenuSuperiorSeleccionado waves-effect waves-light">Informaciones</span></a>
+      <a style="text-decoration: none;" href="Actualizaciones.html"><span type="button" class="BotonMenuSuperior waves-effect waves-light">Actualizaciones</span></a>
     </div>
   </nav>
-  <div class="DivBotonesHome" style="padding-left: 4%; padding-right: 4%; padding-top: 65px;">
-    <div style="text-decoration: none; font-size: 20px;" class="BarraTituloConIcono waves-effect waves-azulclaro"><span style="margin-right: 10px; color: #0048ff;" class="material-icons-outlined">info</span><text>INFORMACIONES</text>
+
+  <div class="right-text">
+    <a style="text-decoration: none;" target="_blank" href="https://twitter.com/intent/tweet?url=https://ainmcl.github.io/MonitorTV/Monitores/Home.html&text=¡Descubre MonitorTV!🌎📺 Una plataforma innovadora para mantenerte al día con la actualidad de Chile y el mundo. Señales en vivo de TV, radios y medios internacionales en una sola pantalla. Compara coberturas y enfoques. No te pierdas ningún detalle."><span type="button" class="BotonCompartirHome waves-effect waves-light"><img style="height: 10px; width:auto; margin-right: 5px;" src="Imagenes/Icono_Twitter_2.svg"></img>Compartir</span></a>
   </div>
-    <!--<h2 class="TextoInfo">SIGNIFICADO DE ICONOS E IMAGENES EN SEÑALES</h2>-->
+
+  <div class="ContenedorAnunciosHome">
+    <div style="text-decoration: none;" class="TitulosPrincipalesPagina waves-effect waves-white">
+      <span style="margin-right: 10px;" class="material-icons-outlined">info</span>
+      <text>INFORMACIONES</text>
+    </div>
+  </div>
+
+  <div class="DivBotonesHome" style="padding-left: 4%; padding-right: 4%;">
+
+    
     <br>
-    <h2 style="font-size: 20px;" class="TextoInfo">SIGNIFICADO ICONOS</h2>
-    <table class="table" style="text-align: left;">
+    <table class="table" style="text-align: left; color: #FFFFFF;">
         <tbody>
           <thead>
             <tr>
-              <th style="width: 10%;" scope="col">ICONO</th>
+              <th style="width: 10%;" scope="col">ICONO / IMAGEN</th>
               <th scope="col">SIGNIFICADO</th>
             </tr>
           </thead>
           <tr>
-            <th scope="row"><img style="height: 25px; width:auto" src="Imagenes/Logo_GOB.svg"></img></th>
+            <th scope="row"><img style="height: 25px; width:auto" src="Imagenes/Logo_GobiernoDeChile.svg"></img></th>
             <td>Gobierno de Chile</td>
           </tr>
           <tr>
@@ -113,73 +100,46 @@
             <td>Reloj</td>
           </tr>
           <tr>
-            <th scope="row"><span style="color: #39AA1A; margin-right: 3px;" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #39AA1A;">NUEVO</span></th>
+            <th scope="row"><span style="color: #41bb53; margin-right: 3px;" class="material-icons-round" title="AGREGADO RECIENTEMENTE">auto_awesome</span><span style="color: #41bb53;">NUEVO</span></th>
             <td>Indica que la Señal se agrego recientemente a la pagina</td>
           </tr>
           <tr>
-            <th scope="row"><span style="margin-right: 10px; color: #FF4900" class="material-icons">tv</span><span style="margin-right: 10px; color: #FF4900" class="material-icons">cell_tower</span></th>
+            <th scope="row"><span style="margin-right: 10px; color: #e18610" class="material-icons">tv</span><span style="margin-right: 10px; color: #e18610" class="material-icons">cell_tower</span></th>
             <td>(Icono Color Naranja) Señal que solo transmite ocasionalmente</td>
           </tr>
           <tr>
-            <th scope="row"><span style="margin-right: 10px; color: #0035FF" class="material-icons">tv</span><span style="margin-right: 10px; color: #0035FF" class="material-icons">cell_tower</span></th>
+            <th scope="row"><span style="margin-right: 10px; color: #2c70e6" class="material-icons">tv</span><span style="margin-right: 10px; color: #2c70e6" class="material-icons">cell_tower</span></th>
             <td>(Icono Color Azul) Pagina web externa (Solo se utiliza en Señales Nacionales)</td>
           </tr>
           <tr>
-            <th scope="row"><span style="margin-right: 10px; color: #FF0000" class="material-icons-round">error_outline</span></th>
+            <th scope="row"><span style="margin-right: 10px; color: #ff544b" class="material-icons-round">error_outline</span></th>
             <td>Problemas de reproduccion</td>
           </tr>
-      </table>
-    <br>
-    
-    <h2 style="font-size: 20px;" class="TextoInfo">SIGNIFICADO OTRAS IMAGENES</h2>
-    <table class="table" style="text-align: left;">
-        <tbody>
-          <thead>
-            <tr>
-              <th style="width: 10%;" scope="col">IMAGEN</th>
-              <th scope="col">SIGNIFICADO</th>
-            </tr>
-          </thead>
           <tr>
-            <th scope="row"><img style="height: 25px; width:auto" src="Imagenes/Logo_NASA.svg"></img></th>
-            <td>Señal de la Administración Nacional de Aeronáutica y el Espacio de EEUU (NASA) </td>
-          </tr>
-          <tr>
-            <th scope="row"><img style="height: 25px; width:auto" src="Imagenes/Logo_ROSCOSMOS.svg"></img></th>
-            <td>Señal de La Agencia Espacial Federal de Rusia (ROSCOSMOS)</td>
-          </tr>
-          <tr>
-            <th scope="row"><img style="height: 25px; width:auto" src="Imagenes/Logo_ESA.svg"></img></th>
-            <td>Señal de La Agencia Espacial Europea (ESA)</td>
-          </tr>
-          <tr>
-            <th scope="row"><img style="height: 25px; width:auto" src="Imagenes/Icono_Ubicacion.svg"></img></th>
+            <th scope="row"><img class="ImagenWhite" style="height: 25px; width:auto" src="Imagenes/Icono_Ubicacion.svg"></img></th>
             <td>Muestra informacion de Ubicacion</td>
           </tr>
           <tr>
-            <th scope="row"><img style="height: 25px; width:auto" src="Imagenes/Icono_Facebook.svg"></img></th>
+            <th scope="row"><img class="ImagenWhite" style="height: 25px; width:auto" src="Imagenes/Icono_Facebook.svg"></img></th>
             <td>Señal en Vivo de Facebook</td>
           </tr>
           <tr>
-            <th scope="row"><img style="height: 25px; width:auto" src="Imagenes/Logo_YT.svg"></img></th>
+            <th scope="row"><img class="ImagenWhite" style="height: 20px; width:auto" src="Imagenes/Logo_YT.svg"></img></th>
             <td>Señal en Vivo de YouTube</td>
           </tr>
           <tr>
-            <th scope="row"><img style="height: 25px; width:auto" src="Imagenes/Icono_Twitch_Video_1.svg"></img></th>
-            <td>Señal de Video en Vivo de Twitch</td>
-          </tr>
-          <tr>
-            <th scope="row"><img style="height: 25px; width:auto" src="Imagenes/Icono_Twitch_Chat_1.svg"></img></th>
-            <td>Chat en Vivo de Twitch</td>
-          </tr>
-          <tr>
-            <th scope="row"><img style="height: 25px; width:auto" src="Imagenes/Logo_ALOMAX.svg"></img></th>
+            <th scope="row"><img class="ImagenWhite" style="height: 25px; width:auto" src="Imagenes/Logo_ALOMAX.svg"></img></th>
             <td>Muestra el Proyecto de Deteccion de Sismos 'Early-Est' creado por el Profesor Anthony Lomax</td>
           </tr>
       </table>
     <br>
-    <h2 style="font-size: 20px;" class="TextoInfo">FUENTES</h2>
-    <table class="table" style="text-align: left;">
+    <div class="ContenedorAnunciosSecundarios">
+      <div style="text-decoration: none;" class="TitulosPrincipalesPagina waves-effect waves-white">
+        <span style="margin-right: 10px;" class="material-icons-round">copyright</span>
+        <text>FUENTES</text>
+      </div>
+    </div>
+    <table class="table" style="text-align: left; color: #FFFFFF;">
         <tbody>
           <thead>
             <tr>
@@ -211,8 +171,13 @@
         </tbody>
       </table>
       <br>
-      <h2 style="font-size: 20px;" class="TextoInfo">OTROS PROYECTOS DE PAGINAS WEB</h2>
-      <table class="table" style="text-align: left;">
+      <div class="ContenedorAnunciosSecundarios">
+        <div style="text-decoration: none;" class="TitulosPrincipalesPagina waves-effect waves-white">
+          <span style="margin-right: 10px;" class="material-icons-round">bookmark_add</span>
+          <text>OTROS PROYECTOS ALTERNATIVOS</text>
+        </div>
+      </div>
+      <table class="table" style="text-align: left; color: #FFFFFF;">
           <tbody>
             <thead>
               <tr>
@@ -240,31 +205,34 @@
       • Algunos Iconos Sufrieron Modificaciones
       <br>
     </div>
+  </div>
   
-</div>
+  <a style="text-decoration: none;" class="VolverArriba waves-effect waves-white" id="volver-arriba" onclick="volverArriba()">
+    <span class="material-icons-round">arrow_upward</span>
+  </a>
 
-<footer class="FooterHome">
-  Esta Pagina esta basada en:
-  <br>
-  <a href="https://alplox.github.io/teles/"><span type="button" class="BotonEnlaceExternoInformaciones waves-effect waves-light">alplox.github.io/teles</span></a><a href="https://www.viendotele.cl"><span type="button" class="BotonEnlaceExternoInformaciones waves-effect waves-light">viendotele.cl</span></a> 
-  <br>
-  <br>
-  Este sitio web es sin fines de lucro y no genero ingresos a través de él. Gracias por su visita.
-  <br>
-  <br>
-  Creado por AINMcl
-  <br>
-  <span style="margin-right: 10px; color: #0048ff;" class="material-icons-round">favorite</span>
-  <br>
-  <a href="https://twitter.com/AINMcl"><span type="button" class="TwitterBoton waves-effect waves-light">ﾠ<img style="height: 10px; width:auto;" src="Imagenes/Icono_Twitter_2.svg"></img>ﾠ@AINMclㅤ</span></a>
-  <br>
-  <br>
-  <span class="TextoTituloFooter">Hosted by</span>
-  <br>
-  <span>
-    <img style="height: 15px; margin-top: 5px;" src="Imagenes/Icon_Github.svg"></a>
-  </span>
-</footer>
+  <footer class="FooterHome">
+    Esta Pagina esta basada en:
+    <br>
+    <a href="https://alplox.github.io/teles/"><span type="button" class="BotonEnlaceExternoInformaciones waves-effect waves-light">alplox.github.io/teles</span></a><a href="https://www.viendotele.cl"><span type="button" class="BotonEnlaceExternoInformaciones waves-effect waves-light">viendotele.cl</span></a> 
+    <br>
+    <br>
+    Este sitio web es sin fines de lucro y no genero ingresos a través de él. Gracias por su visita.
+    <br>
+    <br>
+    Creado por:
+    <br>
+    <a style="text-decoration: none;" target="_blank" href="https://twitter.com/AINMcl"><span type="button" style="margin-top: 5px;" class="BotonCompartirHome waves-effect waves-light"><img style="height: 10px; width:auto; margin-right: 5px;" src="Imagenes/Icono_Twitter_2.svg"></img>AINMcl</span></a>
+    <br>
+    <span style="margin-right: 10px; color: #0048ff;" class="material-icons-round">favorite</span>
+    <br>
+    <br>
+    <span class="TextoTituloFooter">Hosted by</span>
+    <br>
+    <span>
+      <img class="ImagenWhite" style="height: 15px; margin-top: 5px;" src="Imagenes/Icon_Github.svg"></a>
+    </span>
+  </footer>
 	  
 </body>
 </html>

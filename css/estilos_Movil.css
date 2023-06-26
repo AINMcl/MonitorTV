@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .navbar{
+    position: absolute;
+    text-align: left;
+    right: 0;
+    width: 100%;
+    font-size: 20px;
+    top: 70px;
+  }
+}

@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     cambiarClaseWaves('waves-verde', 'waves-modooscuro');
     cambiarClaseWaves('waves-grisoscuro', 'waves-modooscuro');
     cambiarClaseWaves('waves-grisclaro', 'waves-white');
+    localStorage.setItem('modo', 'oscuro');
   }
 
   // Función para desactivar el modo oscuro
@@ -20,6 +21,12 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.classList.remove('dark-mode');
     document.getElementById('TextoBotonMostrarOcultarModoOscuro').textContent = 'MODO OSCURO';
     iconSpan.textContent = 'dark_mode';
+    cambiarClaseWaves('waves-modooscuro', 'waves-azul');
+    cambiarClaseWaves('waves-modooscuro', 'waves-red');
+    cambiarClaseWaves('waves-modooscuro', 'waves-verde');
+    cambiarClaseWaves('waves-modooscuro', 'waves-grisoscuro');
+    cambiarClaseWaves('waves-white', 'waves-grisclaro');
+    localStorage.setItem('modo', 'claro');
   }
 
   // Función para cambiar la clase waves en todos los elementos relevantes
@@ -31,13 +38,20 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Función para verificar el parámetro en la URL y activar el modo oscuro si es necesario
-  function verificarModoDesdeURL() {
+  // Función para verificar el modo desde el localStorage y activar el modo oscuro si es necesario
+  function verificarModoDesdeLocalStorage() {
+    const modo = localStorage.getItem('modo');
     const urlParams = new URLSearchParams(window.location.search);
-    const modo = urlParams.get('modo');
+    const modoURL = urlParams.get('modo');
 
-    if (modo === 'oscuro') {
+    if (modoURL === 'oscuro') {
       activarModoOscuro();
+    } else if (modoURL === 'claro') {
+      desactivarModoOscuro();
+    } else if (modo === 'oscuro') {
+      activarModoOscuro();
+    } else {
+      desactivarModoOscuro();
     }
   }
 
@@ -50,6 +64,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  // Verificar el modo desde la URL cuando se carga la página
-  verificarModoDesdeURL();
+  // Verificar el modo desde el localStorage y la URL cuando se carga la página
+  verificarModoDesdeLocalStorage();
 });
