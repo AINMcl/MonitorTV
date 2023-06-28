@@ -182,13 +182,13 @@ background: linear-gradient(180deg, rgba(9,94,121,1) 15%, rgba(34,0,255,1) 92%);
 }
 
 .dark-mode .channel {
-    background-color: #2a3044;
+    background-color: #1d1c20;
     border: solid 2px #5f6368;
     color: #FFFFFF ;
 }
 
 .dark-mode .channel:hover{
-    background-color: #313A49;
+    background-color: #323238;
     border-color: #FFFFFF;
     color:#FFFFFF;
     box-shadow: 0px 0px 0px #00000000;
@@ -236,7 +236,7 @@ background: linear-gradient(180deg, rgba(9,94,121,1) 15%, rgba(34,0,255,1) 92%);
 .SeñalSeleccionadaP6,
 .dark-mode
 .SeñalSeleccionadaP7{
-    background-color: #313A49;
+    background-color: #323238;
     border: solid 2px #FFFFFF;
     color: #FFFFFF;
     box-shadow: 0px 0px 0px #00000000;
