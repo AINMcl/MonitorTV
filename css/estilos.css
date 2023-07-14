@@ -3579,6 +3579,15 @@ background-image: linear-gradient(
   }
 }
 
+.center-text{
+  position: relative;
+  text-align: center;
+  color: #FFFFFF;
+  top: 30px;
+  width: 100%;
+  left: 0px;
+  font-size: 20px;
+}
 
 .right-text {
   position: absolute;
@@ -3617,13 +3626,6 @@ background-image: linear-gradient(
   }
 }
 
-
-@media (max-width: 768px) {
-  .OcultoEnMovil {
-    visibility: hidden;
-  }
-}
-
 .custom-card-title {
   margin-bottom: 5px;
 }
@@ -3651,6 +3653,69 @@ background-image: linear-gradient(
 .custom-card a {
   color: #ff0000;
   text-decoration: none;
+}
+
+/*Card Señales*/
+.CardListaSeñal {
+  width: 20%;
+  background-color: #1d1c20;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 10px;
+  border: solid 1px #363636;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .CardListaSeñal {
+    width: 40%;
+  }
+}
+
+.CardListaSeñal-title {
+  margin-bottom: 5px;
+}
+
+.CardListaSeñal img {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.CardListaSeñal img {
+  padding: 20px;
+  width: 170px; /* El ancho deseado para las imágenes */
+  height: 140px; /* La altura deseada para las imágenes */
+  object-fit: contain; /* Para asegurarte de que la imagen se ajuste dentro del tamaño especificado */
+}
+
+.CardListaSeñal .card-content {
+  padding: 1rem;
+}
+
+.CardListaSeñal h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.CardListaSeñal p {
+  color: #ffffff;
+}
+
+.CardListaSeñal a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.CardListaSeñalNoDisponible{
+  background-color: #f7000013;
+  border: solid 1px #ff000073;
+}
+
+.CardListaSeñalNueva{
+  background-color: #15f70013;
+  border: solid 1px #09ff0041;
 }
 
 .BotonCompartirHome{
