@@ -3286,7 +3286,7 @@ background-image: linear-gradient(
 }
 
 .dark-mode .BotonAvisoListaSeñales:hover{
-  background-color:#42566b;
+  background-color:#46464c;
 }
 
 [data-title]:hover:after {
@@ -3824,6 +3824,56 @@ background-image: linear-gradient(
   .AnunciosHome.MovilOculto,
   #carouselExampleControls {
     display: none;
+  }
+}
+
+.AnunciosHomeSoloTexto{
+  display: flex;
+  color: #ffffff;
+  border: solid 1px #ffffff00;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 17px;
+  border-radius: 35px;
+  width: max-content;
+  font-weight: bold;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .AnunciosHomeSoloTexto,
+  #carouselExampleControls {
+    display: none;
+  }
+}
+
+.ContenedorCentrado{
+  margin-top: 12vh;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  line-height: 40px;
+  padding-left: 7%;
+  padding-right: 7%;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #38323200;
+  border: solid 1px #00000000;
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .ContenedorCentrado {
+    margin-top: 18vh;
   }
 }
 

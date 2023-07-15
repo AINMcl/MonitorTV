@@ -1701,18 +1701,22 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>TOKYO',
         'url': 'https://www.youtube.com/embed/QOjmvL3e7Lc?autoplay=true&mute=1'
     },{
+        //CANALES REGIONALES Y RADIOS
+        //ARICA
         'titulo': 'ARICA TV',
-        'nombre': '<span id="ARICATV" style="margin-right: 10px;" class="material-icons">tv</span>ARICA | ARICA TV',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARICA | ARICA TV',
         'url': 'Senal/REGIONALES/ARICA_ARICA_TV.html'
     }, {
         'titulo': 'CAPPISSIMA TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARICA | CAPPISSIMA TV',
         'url': 'Senal/REGIONALES/ARICA_CAPPISSIMA_TV.html'
     }, {
+        //TARAPACA
         'titulo': 'IQUIQUE T',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>TARAPACA | IQUIQUE TV',
         'url': 'Senal/REGIONALES/TARAPACA_IQUIQUE_TV.html'
     }, {
+        //ANTOFAGASTA
         'titulo': 'ANTOFAGASTA TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ANTOFAGASTA | ANTOFAGASTA TV',
         'url': 'Senal/REGIONALES/ANTOFAGASTA_ANTOFAGASTA_TV.html'
@@ -1725,10 +1729,7 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ANTOFAGASTA | AM CANAL',
         'url': 'Senal/REGIONALES/ANTOFAGASTA_AM_CANAL.html'
     }, {
-        'titulo': 'TALTAL TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ANTOFAGASTA | TALTAL TV',
-        'url': 'Senal/REGIONALES/ANTOFAGASTA_TALTAL_TV.html'
-    },{
+        //ATACAMA
         'titulo': 'ATACAMA TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ATACAMA | ATACAMA TV',
         'url': 'Senal/REGIONALES/ATACAMA_ATACAMA_TV.html'
@@ -1737,30 +1738,43 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ATACAMA | HOLVOET TV',
         'url': 'Senal/REGIONALES/ATACAMA_HOLVOET_TV.html'
     },{
+        //COQUIMBO
         'titulo': 'MIRADIO TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>COQUIMBO | MI RADIO TV',
         'url': 'Senal/REGIONALES/COQUIMBO_MIRADIO_TV.html'
     },{
-        'titulo': 'QUINTA TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>VALPARAISO | QUINTA TV',
-        'url': 'Senal/REGIONALES/VALPARAISO_QUINTA_TV.html'
+        //VALPARAISO
+        'titulo': 'CANAL 2 SAN ANTONIO',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>VALPARAISO | CANAL 2 SAN ANTONIO',
+        'url': 'Senal/REGIONALES/VALPARAISO_CANAL2.html'
     }, {
         'titulo': 'VTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>VALPARAISO | VTV',
         'url': 'Senal/REGIONALES/VALPARAISO_VTV.html'
     }, {
-        'titulo': 'CANAL 2',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>VALPARAISO | CANAL 2',
-        'url': 'Senal/REGIONALES/VALPARAISO_CANAL2.html'
+        'titulo': 'GIROVISUAL',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>VALPARAISO | GIROVISUAL<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'Senal/REGIONALES/VALPARAISO_GIROVISUAL.html'
     }, {
+        //METROPOLITANA
         'titulo': 'STGO TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>RM | STGO TV',
         'url': 'Senal/REGIONALES/METROPOLITANA_STGO_TV.html'
     },{
+        'titulo': 'TVR',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>RM | TVR<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'Senal/REGIONALES/METROPOLITANA_TVR.html'
+    }, {
+        'titulo': 'PURANOTICIA',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>RM | PURANOTICIA',
+        'url': '../MonitorTV/Senal/PURANOTICIA_CL.html'
+    },{
+        //OHIGGINS
         'titulo': 'STGO TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>OHIGGINS | TELECANAL SANTA CRUZ',
         'url': 'Senal/REGIONALES/OHIGGINS_TELECANAL.html'
     },{
+        //MAULE
         'titulo': 'CAMPUS TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAULE | CAMPUS UTALCA TV',
         'url': 'Senal/REGIONALES/MAULE_CAMPUS_TV.html'
@@ -1777,14 +1791,11 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAULE | TV5 LINARES',
         'url': 'Senal/REGIONALES/MAULE_TV5LINARES.html'
     },{
-        'titulo': 'TV MAULESUR',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAULE | TV MAULE SUR',
-        'url': 'Senal/REGIONALES/MAULE_TVMAULESUR.html'
-    }, {
         'titulo': 'UTV SANCLEMENTE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAULE | UTV SANCLEMENTE',
         'url': 'Senal/REGIONALES/MAULE_UTVSANCLEMENTE.html'
     }, {
+        //BIOBIO
         'titulo': 'CANAL9 BIOBIO TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>BIOBIO | CANAL 9 BIOBIO TV',
         'url': 'Senal/REGIONALES/BIOBIO_CANAL9BIOBIOTV.html'
@@ -1801,6 +1812,11 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>BIOBIO | ENERGIA TV',
         'url': 'Senal/REGIONALES/BIOBIO_ENERGIATV.html'
     }, {
+        'titulo': 'EL 3 DE CONCE',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>BIOBIO | EL 3 DE CONCE<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'Senal/REGIONALES/BIOBIO_EL3DECONCE.html'
+    }, {
+        //ARAUCANIA
         'titulo': 'TEMUCO TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARAUCANIA | TEMUCO TV',
         'url': 'Senal/REGIONALES/ARAUCANIA_TEMUCO_TV.html'
@@ -1814,9 +1830,14 @@ let LosCanales = [
         'url': 'Senal/REGIONALES/ARAUCANIA_PUCONTV.html'
     }, {
         'titulo': 'TELEANGOL',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARAUCANIA | TELE ANGOL',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARAUCANIA | TELEANGOL',
         'url': 'Senal/REGIONALES/ARAUCANIA_TELEANGOL.html'
     }, {
+        'titulo': 'RADIO EDELWEISS',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARAUCANIA | RADIO EDELWEISS<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'Senal/REGIONALES/ARAUCANIA_RADIO_EDELWEISS.html'
+    }, {
+        //LOS LAGOS
         'titulo': 'OSORNO TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | OSORNO TV',
         'url': 'Senal/REGIONALES/LOS_LAGOS_OSORNO_TV.html'
@@ -1837,29 +1858,63 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | CANAL 2 QUELLON',
         'url': 'Senal/REGIONALES/LOS_LAGOS_CANAL2_QUELLON.html'
     }, {
-        'titulo': 'ROCCO TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | ROCCO TV COYHAIQUE',
-        'url': 'Senal/REGIONALES/AYSEN_ROCCOTV.html'
+        'titulo': 'CASTRO MUNICIPIO TV',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | CASTRO MUNICIPIO TV CASTRO<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'Senal/REGIONALES/LOS_LAGOS_CASTROMUNICIPIO.html'
     }, {
-        'titulo': 'SANTAMARIA TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | SANTA MARIA TV COYHAIQUE',
-        'url': 'Senal/REGIONALES/AYSEN_SANTAMARIA_TV.html'
-    },{
-        'titulo': 'CANAL11 AYSEN',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | CANAL 11 PUERTO AYSEN',
-        'url': 'Senal/REGIONALES/AYSEN_CANAL11.html'
+        'titulo': 'PATAGONIA RADIO TV',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | PATAGONIA RADIO TV<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'Senal/REGIONALES/LOS_LAGOS_PATAGONIARADIOTV.html'
     }, {
+        //AYSEN
         'titulo': 'AYSEN TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | AYSEN TV',
         'url': 'Senal/REGIONALES/AYSEN_AYSENTV.html'
     }, {
-        'titulo': 'ITV',
+        'titulo': 'CANAL11 AYSEN',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | CANAL 11 AYSEN',
+        'url': 'Senal/REGIONALES/AYSEN_CANAL11.html'
+    }, {
+        'titulo': 'RADIO LAS NIEVES',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | RADIO LAS NIEVES',        
+        'url': '../MonitorTV/Senal/RADIOLASNIEVES.html'
+    }, {
+        'titulo': 'RADIO PANORAMICA INFORMATIVA',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">tv</span>AYSEN | RADIO PANORAMICA INFORMATIVA',
+        'url': '../MonitorTV/Senal/RADIO_PANORAMICAINFORMATIVA.html'
+    },{
+        'titulo': 'RADIO GENIAL',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | RADIO GENIAL',
+        'url': '../MonitorTV/Senal/RADIO_GENIAL.html'
+    }, {
+        'titulo': 'RADIO CANAL SUR PATAGONIA',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | CANAL SUR PATAGONIA',
+        'url': '../MonitorTV/Senal/RADIO_CANALSURPATAGONIA.html'
+    }, {
+        'titulo': 'ROCCO TV',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | ROCCO TV',
+        'url': 'Senal/REGIONALES/AYSEN_ROCCOTV.html'
+    }, {
+        'titulo': 'SANTA MARIA TV',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | SANTA MARIA TV',
+        'url': 'Senal/REGIONALES/AYSEN_SANTAMARIA_TV.html'
+    },{
+        'titulo': 'LA MELINKANA TV',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | LA MELINKANA TV<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': 'Senal/REGIONALES/AYSEN_LAMELINKANATV.html'
+    }, {
+        //MAGALLANES
+        'titulo': 'ITV PATAGONIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAGALLANES | ITV PATAGONIA',
         'url': 'Senal/REGIONALES/MAGALLANES_ITV.html'
     }, {
         'titulo': 'PINGUINO TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAGALLANES | PINGUINO TV',
         'url': 'Senal/REGIONALES/MAGALLANES_PINGUINO_TV.html'
+    }, {
+        'titulo': 'RADIO POLAR',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAGALLANES | RADIO POLAR',
+        'url': '../MonitorTV/Senal/RADIO_POLAR.html'
     }, {
         'titulo': 'DETECTOR SISMOS',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_ALOMAX.svg"></img>DETECTOR SISMOS',
