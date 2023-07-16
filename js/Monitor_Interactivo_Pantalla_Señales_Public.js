@@ -18,7 +18,7 @@ let LosCanales = [
     }, {
         'titulo': 'CHV NOTICIAS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV_NOTICIAS.svg"></img>',
-        'url': '../Monitores/Senal/CHVNOTICIAS_PLUTOTV.html'
+        'url': '../Monitores/Senal/CHVNOTICIAS.html'
     }, {
         'titulo': 'T13',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_T13_ENVIVO.svg"></img>',
@@ -1859,7 +1859,7 @@ let LosCanales = [
         'url': 'Senal/REGIONALES/LOS_LAGOS_CANAL2_QUELLON.html'
     }, {
         'titulo': 'CASTRO MUNICIPIO TV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | CASTRO MUNICIPIO TV CASTRO<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | CASTRO MUNICIPIO TV<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'url': 'Senal/REGIONALES/LOS_LAGOS_CASTROMUNICIPIO.html'
     }, {
         'titulo': 'PATAGONIA RADIO TV',
