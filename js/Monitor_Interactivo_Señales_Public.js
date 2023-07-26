@@ -46,7 +46,11 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVMAS.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/TVMAS.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV+</div></div></div>'
         },
-        'TVN_WEB_IFRAME': {
+        'CNN_CHILE_IFRAME': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CNNCHILE2.svg"></img><span title="RECOMENDADO USAR BLOQUEADOR DE ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="font-size: 20px" class="material-icons-round">security</span><span style="font-size: 12px; margin-left: 5px;">USAR BLOQ. ANUNCIOS</span></span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://ainmcl.github.io/MonitorTV/Monitores/SeñalEXTERNA.html?id=1049" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CNN CHILE</div></div></div>'
+        },
+        'TELE13_WEB': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_T13_ENVIVO.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../MonitorTV/Senal/T13_ENVIVO_IFRAME.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">T13</div></div></div>'
         },
@@ -70,12 +74,12 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NTV.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/NTV.html" frameborder="0" allowfullscreen referrerpolicy="no-referrer"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">NTV</div></div></div>'
         },
-        /*'CNN_CHILE_IFRAME': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CNNCHILE2.svg"></img><span title="USAR ADBLOCK PARA EVITAR ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #2E4053; font-size: 20px" class="material-icons-round">security</span><span style="color: #2E4053; font-size: 12px; margin-left: 5px;">Usar AdBlock</span></span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://ainmcl.github.io/MonitorTV/Monitores/SeñalEXTERNA.html?id=1049" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CNN CHILE</div></div></div>'
+        'TVN3': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN3.svg"></img><span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/TVN3.html" frameborder="0" allowfullscreen referrerpolicy="no-referrer"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TVN3</div></div></div>'
         },
-        'TVN_IFRAME': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img><span title="USAR ADBLOCK PARA EVITAR ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #2E4053; font-size: 20px" class="material-icons-round">security</span><span style="color: #2E4053; font-size: 12px; margin-left: 5px;">Usar AdBlock</span></span>',
+        /*'TVN_IFRAME': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img><span title="RECOMENDADO USAR BLOQUEADOR DE ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="font-size: 20px" class="material-icons-round">security</span><span style="font-size: 12px; margin-left: 5px;">USAR BLOQ. ANUNCIOS</span></span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://ainmcl.github.io/MonitorTV/Monitores/SeñalEXTERNA.html?id=1221" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TVN</div></div></div>'
         },*/
         'UCV_TV': {
@@ -93,6 +97,14 @@ var App = {
         'U_CHILE_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_UCHILETV_2.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/UCHILETV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">U CHILE TV</div></div></div>'
+        },
+        'EmolTV_1': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>EMOL TV<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/EMOLTV_1.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EMOL TV</div></div></div>'
+        },
+        'EmolTV_2': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>EMOL TV 2<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/EMOLTV_2.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EMOL TV 2</div></div></div>'
         },
         'CHV_CONTIGO_PlutoTV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>CHV CONTIGO',

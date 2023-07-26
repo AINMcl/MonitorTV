@@ -40,6 +40,10 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVMAS.svg"></img>',
         'url': '../Monitores/Senal/TVMAS.html'
     }, {
+        'titulo': 'CNN CHILE',
+        'nombre': '<span id="CNNCHILE" style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 5px;" src="Imagenes/Logo_CNNCHILE2.svg"></img><span title="RECOMENDADO USAR BLOQUEADOR DE ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="font-size: 20px" class="material-icons-round">security</span><span style="font-size: 12px; margin-left: 5px;">USAR BLOQ. ANUNCIOS</span></span>',
+        'url': 'https://ainmcl.github.io/MonitorTV/Monitores/SeñalEXTERNA.html?id=1049'
+    },{
         'titulo': 'T13',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_T13_ENVIVO.svg"></img>',
         'url': '../Monitores/Senal/T13_ENVIVO_IFRAME.html'
@@ -64,12 +68,12 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NTV.svg"></img>',
         'url': '../Monitores/Senal/NTV.html'
     }, {
-    /*    'titulo': 'CNN CHILE',
-        'nombre': '<span id="CNNCHILE" style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 5px;" src="Imagenes/Logo_CNNCHILE2.svg"></img><span title="USAR ADBLOCK PARA EVITAR ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #2E4053; font-size: 20px" class="material-icons-round">security</span><span style="color: #2E4053; font-size: 12px; margin-left: 5px;">Usar AdBlock</span></span>',
-        'url': 'https://ainmcl.github.io/MonitorTV/Monitores/SeñalEXTERNA.html?id=1049'
-    },{
-        'titulo': 'TVN',
-        'nombre': '<span id="TVN" style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 5px;" src="Imagenes/Logo_TVN.svg"></img><span title="USAR ADBLOCK PARA EVITAR ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #2E4053; font-size: 20px" class="material-icons-round">security</span><span style="color: #2E4053; font-size: 12px; margin-left: 5px;">Usar AdBlock</span></span>',
+        'titulo': 'TVN 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN3.svg"></img><span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': '../Monitores/Senal/TVN3.html'
+    }, {
+    /*  'titulo': 'TVN',
+        'nombre': '<span id="TVN" style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 5px;" src="Imagenes/Logo_TVN.svg"></img><span title="RECOMENDADO USAR BLOQUEADOR DE ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="font-size: 20px" class="material-icons-round">security</span><span style="font-size: 12px; margin-left: 5px;">USAR BLOQ. ANUNCIOS</span></span>',
         'url': 'https://ainmcl.github.io/MonitorTV/Monitores/SeñalEXTERNA.html?id=1221'
     },{*/
         'titulo': 'UCV TV',
@@ -88,6 +92,14 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_UCHILETV_2.svg"></img>',
         'url': '../Monitores/Senal/UCHILETV.html'
     }, {
+        'titulo': 'EMOL TV',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>EMOL TV<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': '../Monitores/Senal/EMOLTV_1.html'
+    },{
+        'titulo': 'EMOL TV 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>EMOL TV 2<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'url': '../Monitores/Senal/EMOLTV_2.html'
+    },{
         'titulo': 'CHV CONTIGO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>CHV CONTIGO',
         'url': '../Monitores/Senal/CHVCONTIGO_PLUTOTV.html'
