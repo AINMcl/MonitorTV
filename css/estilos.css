@@ -1532,6 +1532,35 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 10px #1ea88b;
 }
 
+.BotonCardHomeLargo{
+  display:inline-table;
+  background-color: #FF0000;
+  border: solid 2px #FF0000;
+  margin-left: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonCardHomeLargo:hover{
+  color: #FF0000;
+  height: 30px;
+  background-color: #ffffff;
+  border: solid 2px #FF0000;
+}
+
 .BotonCardHomeMovil{
   display:inline-table;
   background-color: #FF0000;
@@ -1560,6 +1589,24 @@ background-image: linear-gradient(
   background-color: #ffffff;
   border: solid 2px #FF0000;
   box-shadow: 0px 0px 10px #FF0000;
+}
+
+.BotonActualizacionesIrcOPIA{
+  background-color: #0048ff;
+  border: solid 2px #0048ff;
+  margin: 0px;
+  width: auto;
+  height: auto;
+  font-size: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+  color: #ffffff;
+  cursor:
+  pointer;
+  transition:all .3s
 }
 
 .BotonActualizacionesIr{
@@ -3398,8 +3445,9 @@ background-image: linear-gradient(
   color: #FFFFFF;
   margin-top: 30px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   padding-right: 20px;
+  padding-left: 20px;
 }
 
 .FooterHomeIA {
@@ -3651,7 +3699,52 @@ background-image: linear-gradient(
 }
 
 .custom-card a {
-  color: #ff0000;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/*Card Pequeña*/
+.CardPequeña {
+  width: 20%;
+  background-color: #1d1c20;
+  color: #FFFFFF;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .CardPequeña {
+    width: 90%;
+  }
+}
+
+.CardPequeña-title {
+  margin-bottom: 5px;
+}
+
+.CardPequeña img {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.CardPequeña .card-content {
+  padding: 1rem;
+}
+
+.CardPequeña h3 {
+  font-size: 20px;
+  color: #333333;
+  margin: 0;
+}
+
+.CardPequeña p {
+  color: #666666;
+}
+
+.CardPequeña a {
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -3910,7 +4003,6 @@ background-image: linear-gradient(
   }
 }
 
-
 .ImagenWhite{
   filter: 
   grayscale(100%) 
@@ -3925,7 +4017,6 @@ background-image: linear-gradient(
   right: 20px;
   z-index: 9999;
 }
-
 
 .VolverArriba {
   display: inline-flex;
@@ -3945,7 +4036,6 @@ background-image: linear-gradient(
   line-height: 35px;
   padding-left: 10px;
   padding-right: 10px;
-
   font-size: 15px;
   cursor: pointer;
   transition: all .3s;
@@ -3956,4 +4046,80 @@ background-image: linear-gradient(
   font-weight: bold;
   color: #ffffff;
   border: solid 1px #333036;
+}
+
+.BuscadorPequeño{
+  height: 45px;
+  width: 50%;
+  border: solid 2px #2E4053;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.dark-mode
+.BuscadorPequeño,
+.dark-mode
+.BuscadorGrande{
+  border: solid 2px #5f6368;
+}
+
+.BuscadorGrande{
+  height: 45px;
+  width: 100%;
+  border: solid 2px #2E4053;
+  color: #333;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.0);
+}
+
+.BuscadorPequeño:focus,
+.BuscadorGrande:focus{
+  outline: none;
+  /*border: solid 2px #2c70e6;*/
+}
+
+.botonestiloscopiar{
+  display: flex;
+  background-color: #2E4053;
+  border: solid 2px #2E4053;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 5px #9B9B9B;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
+  width: 50%;
+  height: 45px;
+  line-height: 45px;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.botonestiloscopiar:hover{
+  color: #2E4053;
+  background-color: #FFFFFF;
+  border: solid 2px #2E4053;
+  box-shadow: 0px 0px 15px #2E4053;
+
+  /*MODO OSCURO*/
+  background-color: #333036;
+  border: solid 2px #333036;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 0px #00000000;
 }
