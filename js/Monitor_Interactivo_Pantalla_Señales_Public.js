@@ -226,30 +226,6 @@ let LosCanales = [
         'titulo': 'RADIO INICIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO INICIA',
         'url': '../Monitores/Senal/RADIO_INICIA.html'
-    }, {
-        'titulo': 'RADIO LAS NIEVES',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | RADIO LAS NIEVES',        
-        'url': '../Monitores/Senal/RADIOLASNIEVES.html'
-    }, {
-        'titulo': 'RADIO PANORAMICA INFORMATIVA',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">mic</span>AYSEN | RADIO PANORAMICA INFORMATIVA',
-        'url': '../Monitores/Senal/RADIO_PANORAMICAINFORMATIVA.html'
-    },{
-        'titulo': 'RADIO GENIAL',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | RADIO GENIAL',
-        'url': '../Monitores/Senal/RADIO_GENIAL.html'
-    }, {
-        'titulo': 'RADIO CANAL SUR PATAGONIA',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | CANAL SUR PATAGONIA',
-        'url': '../Monitores/Senal/RADIO_CANALSURPATAGONIA.html'
-    }, {
-        'titulo': 'PATAGONIA RADIO',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>LOS LAGOS | PATAGONIA RADIO',
-        'url': '../Monitores/Senal/RADIO_PATAGONIA_RADIO.html'
-    }, {
-        'titulo': 'RADIO POLAR',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>MAGALLANES | RADIO POLAR',
-        'url': '../Monitores/Senal/RADIO_POLAR.html'
     },
     
     //SEÑALES GOBIERNO
@@ -1779,7 +1755,7 @@ let LosCanales = [
     }, {
         'titulo': 'PURANOTICIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>RM | PURANOTICIA',
-        'url': '../MonitorTV/Senal/PURANOTICIA_CL.html'
+        'url': '../Monitores/Senal/PURANOTICIA_CL.html'
     },{
         //OHIGGINS
         'titulo': 'STGO TV',
@@ -1889,19 +1865,19 @@ let LosCanales = [
     }, {
         'titulo': 'RADIO LAS NIEVES',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | RADIO LAS NIEVES',        
-        'url': '../MonitorTV/Senal/RADIOLASNIEVES.html'
+        'url': '../Monitores/Senal/RADIOLASNIEVES.html'
     }, {
         'titulo': 'RADIO PANORAMICA INFORMATIVA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">tv</span>AYSEN | RADIO PANORAMICA INFORMATIVA',
-        'url': '../MonitorTV/Senal/RADIO_PANORAMICAINFORMATIVA.html'
+        'url': '../Monitores/Senal/RADIO_PANORAMICAINFORMATIVA.html'
     },{
         'titulo': 'RADIO GENIAL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | RADIO GENIAL',
-        'url': '../MonitorTV/Senal/RADIO_GENIAL.html'
+        'url': '../Monitores/Senal/RADIO_GENIAL.html'
     }, {
         'titulo': 'RADIO CANAL SUR PATAGONIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | CANAL SUR PATAGONIA',
-        'url': '../MonitorTV/Senal/RADIO_CANALSURPATAGONIA.html'
+        'url': '../Monitores/Senal/RADIO_CANALSURPATAGONIA.html'
     }, {
         'titulo': 'ROCCO TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | ROCCO TV',
@@ -1926,7 +1902,7 @@ let LosCanales = [
     }, {
         'titulo': 'RADIO POLAR',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAGALLANES | RADIO POLAR',
-        'url': '../MonitorTV/Senal/RADIO_POLAR.html'
+        'url': '../Monitores/Senal/RADIO_POLAR.html'
     }, {
         'titulo': 'DETECTOR SISMOS',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_ALOMAX.svg"></img>DETECTOR SISMOS',

@@ -52,7 +52,7 @@ var App = {
         },
         'TELE13_WEB': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_T13_ENVIVO.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../MonitorTV/Senal/T13_ENVIVO_IFRAME.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">T13</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/T13_ENVIVO_IFRAME.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">T13</div></div></div>'
         },
         'TVN_WEB_IFRAME': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>',
@@ -232,33 +232,6 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO INICIA',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_INICIA.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RADIO INICIA</div></div></div>'
         },
-
-
-        'RLN': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | RADIO LAS NIEVES',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIOLASNIEVES.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RADIO LAS NIEVES</div></div></div>'
-        },
-        'PANORAMICA_INFORMATIVA': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">mic</span>AYSEN | RADIO PANORAMICA INFORMATIVA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_PANORAMICAINFORMATIVA.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RADIO PANORAMICA INFORMATIVA</div></div></div>'
-        },
-        'GENIAL': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | RADIO GENIAL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_GENIAL.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RADIO GENIAL</div></div></div>'
-        },
-        'CANAL_SUR_PATAGONIA': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>AYSEN | CANAL SUR PATAGONIA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_CANALSURPATAGONIA.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RADIO CANAL SUR PATAGONIA</div></div></div>'
-        },
-        'PATAGONIA_RADIO': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>LOS LAGOS | PATAGONIA RADIO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_PATAGONIA_RADIO.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PATAGONIA RADIO</div></div></div>'
-        },
-        'RADIO_POLAR': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>MAGALLANES | RADIO POLAR',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_POLAR.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RADIO POLAR</div></div></div>'
-        },
-
 
         'PRESIDENCIA': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_GOB.svg"></img>PRESIDENCIA',
@@ -1807,7 +1780,7 @@ var App = {
         },
         'METROPOLITANA_PURANOTICIA': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>RM | PURANOTICIA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../MonitorTV/Senal/PURANOTICIA_CL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PURANOTICIA</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/PURANOTICIA_CL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PURANOTICIA</div></div></div>'
         },
         //OHIGGINS
         'OHIGGINS_TELECANAL': {
@@ -1917,19 +1890,19 @@ var App = {
         },
         'RLN': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | RADIO LAS NIEVES',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../MonitorTV/Senal/RADIOLASNIEVES.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO LAS NIEVES</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIOLASNIEVES.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO LAS NIEVES</div></div></div>'
         },
         'PANORAMICA_INFORMATIVA': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">tv</span>AYSEN | RADIO PANORAMICA INFORMATIVA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../MonitorTV/Senal/RADIO_PANORAMICAINFORMATIVA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO PANORAMICA INFORMATIVA</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_PANORAMICAINFORMATIVA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO PANORAMICA INFORMATIVA</div></div></div>'
         },
         'GENIAL': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | RADIO GENIAL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../MonitorTV/Senal/RADIO_GENIAL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO GENIAL</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_GENIAL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO GENIAL</div></div></div>'
         },
         'CANAL_SUR_PATAGONIA': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | CANAL SUR PATAGONIA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../MonitorTV/Senal/RADIO_CANALSURPATAGONIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO CANAL SUR PATAGONIA</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_CANALSURPATAGONIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO CANAL SUR PATAGONIA</div></div></div>'
         },
         'AYSEN_ROCCO_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | ROCCO TV',
@@ -1954,7 +1927,7 @@ var App = {
         },
         'RADIO_POLAR': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAGALLANES | RADIO POLAR',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../MonitorTV/Senal/RADIO_POLAR.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO POLAR</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_POLAR.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO POLAR</div></div></div>'
         },
 
 
