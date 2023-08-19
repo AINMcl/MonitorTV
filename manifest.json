@@ -1,0 +1,16 @@
+{
+  "name": "MonitorTV",
+  "short_name": "MonitorTV",
+  "description": "Señales en vivo de TV, radios y medios internacionales en una sola pantalla.",
+  "start_url": "Monitores/Home.html",
+  "display": "standalone",
+  "theme_color": "#141417",
+  "background_color": "#141417",
+  "icons": [
+    {
+      "src": "Imagenes/Icon_PWA.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
