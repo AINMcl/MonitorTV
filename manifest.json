@@ -11,6 +11,12 @@
       "src": "Imagenes/Icon_PWA.png",
       "sizes": "192x192",
       "type": "image/png"
+    },
+    {
+        "src": "Imagenes/Icon_PWA_Maskable.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
     }
   ]
 }

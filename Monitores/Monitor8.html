@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC>
+<html lang="es">
+<head>
+  <title> MonitorTV - Monitor 8 </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+  <link rel="icon" href="../Imagenes/Icon.png" type="image/png"/>
+
+  <link href="../css/estilos.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../css/Estilos_Monitor_Pantalla_Señales.css">
+
+  <script src="../js/Monitor_Interactivo_Pantalla_Señales_Public.js"></script>
+
+  <!--Scripts Funciones-->
+  <script src="../js/Efecto.js"></script>
+  <script src="../js/DarkMode.js"></script>
+  <script src="../js/MostrarOcultarTitulos.js"></script>
+  <script src="../js/MostrarOcultarBordes.js"></script>
+  <script src="../js/EliminarSeñal.js"></script>
+  <script src="../js/AumentarDisminuirTexto.js"></script>
+  <script src="../js/IntercambioSeñales.js"></script>
+
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
+  <!--GOOGLE ICONS-->
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics - ainmcl.github.io -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RT53GZ16EW');
+  </script>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Contenido de off canvas, end.  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: #000000; font-family: 'Assistant', sans-serif; overflow: hidden;">
+  <div style="position: absolute; display: inline-block; width: 100%; height:100%">
+    <!--PANTALLA 1 (Principal)-->
+    <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: #000000;" id="video-container-P1" class="video-container">
+        <img style="height: auto; width: 100%;" src="Imagenes/Fondo_Con_Borde_Blanco.svg"></img>
+        <iframe class="embed-responsive-item" id="playerP1" src="about:blank" frameborder="0" allowfullscreen></iframe>
+        <div class="FondoTitulosMonitor1">
+            <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P1"></div>
+        </div>
+        <div class="BotonCambiarSeñal">
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="toggleChannelList('P1', false)" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales" title="Cambiar Señal"><span class="material-icons">mode_edit</span></div>
+          <div class="BotonCambiarSeñalTextoRojo waves-effect waves-light" data-target="P1" onclick="handleEliminarClick(this)" title="Borrar Señal"><span class="material-icons">delete</span></div>
+        </div>
+      </div>
+    </div>
+    
+    <!--PANTALLA 2-->
+    <div style="width: 50%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: #000000;" id="video-container-P2" class="video-container">
+        <img style="height: auto; width: 100%;" src="Imagenes/Fondo_Con_Borde_Blanco.svg"></img>
+        <iframe class="embed-responsive-item" id="playerP2" src="about:blank" frameborder="0" allowfullscreen></iframe>
+        <div class="FondoTitulosMonitor1">
+          <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P2"></div>
+        </div>
+        <div class="BotonCambiarSeñal">
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="toggleChannelList('P2', false)" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales" title="Cambiar Señal"><span class="material-icons">mode_edit</span></div>
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="swapIframeAndTitle('P2')"><span class="material-icons">swap_vert</span></div>
+          <div class="BotonCambiarSeñalTextoRojo waves-effect waves-light" data-target="P2" onclick="handleEliminarClick(this)" title="Borrar Señal"><span class="material-icons">delete</span></div>
+        </div>
+      </div>
+    </div>
+      
+    <!--PANTALLA 3-->
+    <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: #000000;" id="video-container-P3" class="video-container">
+        <img style="height: auto; width: 100%;" src="Imagenes/Fondo_Con_Borde_Blanco.svg"></img>
+        <iframe class="embed-responsive-item" id="playerP3" src="about:blank" frameborder="0" allowfullscreen></iframe>
+        <div class="FondoTitulosMonitor1">
+          <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P3"></div>
+        </div>
+        <div class="BotonCambiarSeñal">
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="toggleChannelList('P3', false)" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales" title="Cambiar Señal"><span class="material-icons">mode_edit</span></div>
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="swapIframeAndTitle('P3')"><span class="material-icons">swap_vert</span></div>
+          <div class="BotonCambiarSeñalTextoRojo waves-effect waves-light" data-target="P3" onclick="handleEliminarClick(this)" title="Borrar Señal"><span class="material-icons">delete</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!--PANTALLA 4-->
+    <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: #000000;" id="video-container-P4" class="video-container">
+        <img style="height: auto; width: 100%;" src="Imagenes/Fondo_Con_Borde_Blanco.svg"></img>
+        <iframe class="embed-responsive-item" id="playerP4" src="about:blank" frameborder="0" allowfullscreen></iframe>
+        <div class="FondoTitulosMonitor1">
+          <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P4"></div>
+        </div>
+        <div class="BotonCambiarSeñal">
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="toggleChannelList('P4', false)" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales" title="Cambiar Señal"><span class="material-icons">mode_edit</span></div>
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="swapIframeAndTitle('P4')"><span class="material-icons">swap_vert</span></div>
+          <div class="BotonCambiarSeñalTextoRojo waves-effect waves-light" data-target="P4" onclick="handleEliminarClick(this)" title="Borrar Señal"><span class="material-icons">delete</span></div>
+        </div>
+      </div>
+    </div>  
+
+    <!--PANTALLA 5-->
+    <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: #000000;" id="video-container-P5" class="video-container">
+        <img style="height: auto; width: 100%;" src="Imagenes/Fondo_Con_Borde_Blanco.svg"></img>
+        <iframe class="embed-responsive-item" id="playerP5" src="about:blank" frameborder="0" allowfullscreen></iframe>
+        <div class="FondoTitulosMonitor1">
+          <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P5"></div>
+        </div>
+        <div class="BotonCambiarSeñal">
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="toggleChannelList('P5', false)" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales" title="Cambiar Señal"><span class="material-icons">mode_edit</span></div>
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="swapIframeAndTitle('P5')"><span class="material-icons">swap_vert</span></div>
+          <div class="BotonCambiarSeñalTextoRojo waves-effect waves-light" data-target="P5" onclick="handleEliminarClick(this)" title="Borrar Señal"><span class="material-icons">delete</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!--PANTALLA 6-->
+    <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: #000000;" id="video-container-P6" class="video-container">
+        <img style="height: auto; width: 100%;" src="Imagenes/Fondo_Con_Borde_Blanco.svg"></img>
+        <iframe class="embed-responsive-item" id="playerP6" src="about:blank" frameborder="0" allowfullscreen></iframe>
+        <div class="FondoTitulosMonitor1">
+          <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P6"></div>
+        </div>
+        <div class="BotonCambiarSeñal">
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="toggleChannelList('P6', false)" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales" title="Cambiar Señal"><span class="material-icons">mode_edit</span></div>
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="swapIframeAndTitle('P6')"><span class="material-icons">swap_vert</span></div>
+          <div class="BotonCambiarSeñalTextoRojo waves-effect waves-light" data-target="P6" onclick="handleEliminarClick(this)" title="Borrar Señal"><span class="material-icons">delete</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!--PANTALLA 7-->
+    <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: #000000;" id="video-container-P7" class="video-container">
+        <img style="height: auto; width: 100%;" src="Imagenes/Fondo_Con_Borde_Blanco.svg"></img>
+        <iframe class="embed-responsive-item" id="playerP7" src="about:blank" frameborder="0" allowfullscreen></iframe>
+        <div class="FondoTitulosMonitor1">
+          <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P7"></div>
+        </div>
+        <div class="BotonCambiarSeñal">
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="toggleChannelList('P7', false)" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales" title="Cambiar Señal"><span class="material-icons">mode_edit</span></div>
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="swapIframeAndTitle('P7')"><span class="material-icons">swap_vert</span></div>
+          <div class="BotonCambiarSeñalTextoRojo waves-effect waves-light" data-target="P7" onclick="handleEliminarClick(this)" title="Borrar Señal"><span class="material-icons">delete</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!--PANTALLA 8-->
+    <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: #000000;" id="video-container-P8" class="video-container">
+        <img style="height: auto; width: 100%;" src="Imagenes/Fondo_Con_Borde_Blanco.svg"></img>
+        <iframe class="embed-responsive-item" id="playerP8" src="about:blank" frameborder="0" allowfullscreen></iframe>
+        <div class="FondoTitulosMonitor1">
+          <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P8"></div>
+        </div>
+        <div class="BotonCambiarSeñal">
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="toggleChannelList('P8', false)" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales" title="Cambiar Señal"><span class="material-icons">mode_edit</span></div>
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="swapIframeAndTitle('P8')"><span class="material-icons">swap_vert</span></div>
+          <div class="BotonCambiarSeñalTextoRojo waves-effect waves-light" data-target="P8" onclick="handleEliminarClick(this)" title="Borrar Señal"><span class="material-icons">delete</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!--PANTALLA 9-->
+    <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: #000000;" id="video-container-P9" class="video-container">
+        <img style="height: auto; width: 100%;" src="Imagenes/Fondo_Con_Borde_Blanco.svg"></img>
+        <iframe class="embed-responsive-item" id="playerP9" src="about:blank" frameborder="0" allowfullscreen></iframe>
+        <div class="FondoTitulosMonitor1">
+          <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P9"></div>
+        </div>
+        <div class="BotonCambiarSeñal">
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="toggleChannelList('P9', false)" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales" title="Cambiar Señal"><span class="material-icons">mode_edit</span></div>
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="swapIframeAndTitle('P9')"><span class="material-icons">swap_vert</span></div>
+          <div class="BotonCambiarSeñalTextoRojo waves-effect waves-light" data-target="P9" onclick="handleEliminarClick(this)" title="Borrar Señal"><span class="material-icons">delete</span></div>
+        </div>
+      </div>
+    </div>
+
+      
+    <!--PANTALLA 10-->
+    <div style="width: 25%; float: left;" class="embed-responsive embed-responsive-16by9">
+      <div style="background-color: #000000;" id="video-container-P10" class="video-container">
+        <img style="height: auto; width: 100%;" src="Imagenes/Fondo_Con_Borde_Blanco.svg"></img>
+        <iframe class="embed-responsive-item" id="playerP10" src="about:blank" frameborder="0" allowfullscreen></iframe>
+        <div class="FondoTitulosMonitor1">
+          <div class="TextoTitulosMonitor1 waves-effect waves-gris" id="nombre-barra-P10"></div>
+        </div>
+        <div class="BotonCambiarSeñal">
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="toggleChannelList('P10', false)" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales" title="Cambiar Señal"><span class="material-icons">mode_edit</span></div>
+          <div class="BotonCambiarSeñalTexto waves-effect waves-light" onclick="swapIframeAndTitle('P10')"><span class="material-icons">swap_vert</span></div>
+          <div class="BotonCambiarSeñalTextoRojo waves-effect waves-light" data-target="P10" onclick="handleEliminarClick(this)" title="Borrar Señal"><span class="material-icons">delete</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <!-- BOTON MENU  -->
+  <div class="ContenedorBotonMenuDesplegable">
+    <div class="BotonMenuDesplegable waves-effect waves-light" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="font-size: 20px;" class="material-icons">settings</span></div>
+  </div>
+
+  <!-- MENU DESPLEGABLE AJUSTES -->
+  <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" tabindex="-1" id="MenuDespeglableAjustes" aria-labelledby="MenuDespeglableAjustesLabel">
+    <div style="padding-left: 20px; padding-right: 20px; padding-bottom: 0px;" class="offcanvas-header">
+      <span class="CuerpoTituloMenuAjustes"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">tune</span>AJUSTES - MONITOR 8</span>
+      <!--<h5 class="offcanvas-title" id="MenuDespeglableAjustesLabel"><b>MENU</b></h5>-->
+      <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
+    </div>
+    <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable">
+        <a style="text-decoration: none;" href="Home.html"><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons">home</span>IR AL HOME</span></a>
+        <br>
+        <div style="width: 100%; height: auto; display: inline-flex;">
+          <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" onclick="toggleChannelList('P1')" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales"><span style="margin-right: 5px;" class="material-icons">tv</span><text>PANTALLA 1</text></div>
+          <span style="margin-left: 2%;"></span>
+          <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" onclick="toggleChannelList('P2')" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales"><span style="margin-right: 5px;" class="material-icons">tv</span><text>PANTALLA 2</text></div>
+        </div>
+        <br>
+        <div style="width: 100%; height: auto; display: inline-flex;">
+          <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" onclick="toggleChannelList('P3')" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P3</text></div>
+          <span style="margin-left: 2%;"></span>
+          <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" onclick="toggleChannelList('P4')" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P4</text></div>
+          <span style="margin-left: 2%;"></span>
+          <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" onclick="toggleChannelList('P5')" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P5</text></div>
+          <span style="margin-left: 2%;"></span>
+          <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" onclick="toggleChannelList('P6')" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P6</text></div>
+        </div>
+        <br>
+        <div style="width: 100%; height: auto; display: inline-flex;">
+          <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" onclick="toggleChannelList('P7')" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P7</text></div>
+          <span style="margin-left: 2%;"></span>
+          <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" onclick="toggleChannelList('P8')" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P8</text></div>
+          <span style="margin-left: 2%;"></span>
+          <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" onclick="toggleChannelList('P9')" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P9</text></div>
+          <span style="margin-left: 2%;"></span>
+          <div class="BotonMenuDesplegableGris waves-effect waves-grisoscuro" onclick="toggleChannelList('P10')" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales"><span style="margin-right: 5px;" class="material-icons">tv</span><text>P10</text></div>
+        </div>
+        <br>
+        <br>
+        <div style="width: 100%; height: auto; display: inline-flex;">
+          <div class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustesAccesibilidad" role="button" aria-controls="MenuDespeglableAjustesAccesibilidad"><span style="margin-right: 5px;" class="material-icons">settings_accessibility</span>ACCESIBILIDAD</div>
+          <span style="margin-left: 2%;"></span>
+          <div class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustesSenal" role="button" aria-controls="MenuDespeglableAjustesSenal"><span style="margin-right: 5px;" class="material-icons">tune</span>OTROS AJUSTES</div>
+        </div>
+        <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
+        <a style="text-decoration: none;" href="javascript:location.reload()"><span class="BotonMenuDesplegableAzul waves-effect waves-azul"><span style="margin-right: 5px;" class="material-icons">replay</span>RECARGAR PAGINA</span></a>
+        <br>
+      </div>
+    </div>
+  </div>
+
+  <!-- MENU DESPLEGABLE ACCESIBILIDAD -->
+  <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" tabindex="-1" id="MenuDespeglableAjustesAccesibilidad" aria-labelledby="MenuDespeglableAjustesAccesibilidad">
+    <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable">
+        <div style="width: 100%; height: auto; display: inline-flex; padding-bottom: 15px;">
+          <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="font-size: 30px;" class="material-icons-round">arrow_back</span></span>
+          <span class="CuerpoTituloMenuAjustesCentrado"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">settings_accessibility</span>AJUSTES DE ACCESIBILIDAD</span>          
+          <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
+        </div>
+        <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="botonMostrarOcultarModoOscuro">
+          <span style="margin-right: 5px;" class="material-icons">dark_mode</span>
+          <span id="TextoBotonMostrarOcultarModoOscuro">MODO OSCURO</span>
+        </div>
+        <div style="width: 100%; height: auto; display: inline-flex;">
+          <div class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul" onclick="aumentarTexto()"><span style="margin-right: 5px;" class="material-icons">text_increase</span><text>AUMENTAR TEXTO</text></div>
+          <span style="margin-left: 2%;"></span>
+          <div class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul" onclick="disminuirTexto()"><span style="margin-right: 5px;" class="material-icons">text_decrease</span><text>DISMINUIR TEXTO</text></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MENU AJUSTES EXTRAS -->
+  <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" tabindex="-1" id="MenuDespeglableAjustesSenal" aria-labelledby="MenuDespeglableAjustesSenal">
+    <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable">
+        <div style="width: 100%; height: auto; display: inline-flex; padding-bottom: 15px;">
+          <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="font-size: 30px;" class="material-icons-round">arrow_back</span></span>
+          <span class="CuerpoTituloMenuAjustesCentrado"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">tune</span>OTROS AJUSTES</span>        
+          <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
+        </div>
+        <div style="width: 100%; height: auto; display: inline-flex;">
+          <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" onclick="alternarElementos()" id="botonMostrarOcultar">
+            <span id="IconoVisibilidadTitulos" style="margin-right: 5px; font-size: 35px;" class="material-icons">toggle_off</span>
+            <span id="TextoBotonMostrarOcultar">OCULTAR TITULOS</span>
+          </div>
+          <span style="margin-left: 2%;"></span>
+          <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" onclick="alternarBordes()" id="botonOcultarBordes">
+            <span id="iconoVisibilidadBordes" style="margin-right: 5px; font-size: 35px;" class="material-icons">toggle_off</span>
+            <span id="TextoBotonOcultarBordes">OCULTAR BORDES</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MENÚ SELECCIONAR SEÑAL -->
+  <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" tabindex="-1" id="MenuDespeglableSeñales" aria-labelledby="MenuDespeglableSeñalesLabel">
+    <div class="offcanvas-body">
+        <div class="CuerpoMenuDesplegable2">
+            <div style="width: 100%; height: auto; display: inline-flex; padding-bottom: 15px;">
+                <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="font-size: 30px;" class="material-icons-round">arrow_back</span></span>
+                <span class="CuerpoTituloMenuAjustesCentrado"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">tv</span>SELECCIONAR SEÑAL</span>
+                <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
+            </div>
+            <section id="channel-list" class="channel-list">
+            </section>
+        </div>
+    </div>
+  </div>
+
+  <script src="../js/Monitor_Interactivo_Pantalla_Script_Titulo_Senal_ON_Multiple.js"></script>
+  <script src="../js/PantallaCompleta.js"></script>
+</body>
+</html>

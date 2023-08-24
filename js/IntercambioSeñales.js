@@ -66,4 +66,4 @@ function swapIframeAndTitle(targetDivId) {
       mainTitle.innerHTML = targetTitle.innerHTML;
       targetTitle.innerHTML = tempTitleContent;
     }
-  }
+}

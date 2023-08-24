@@ -3,14 +3,9 @@ text-align: justify;
 font-family: 'Assistant', sans-serif;
 }
 
-.dark-mode body {
-  color: #181D2D;
-}
-
 .h1{
 margin: 10px;
 background-color: #0066F9;
-
 text-align: center;
 color: #FFFFFF;
 }
@@ -902,7 +897,7 @@ background-image: linear-gradient(
 .BotonCambiarSeñalTexto{
   display: flex;
   /*position: absolute;*/
-  background-color: #0004ff00;
+  background-color: #00000000;
   color: #ffffff00;
   align-items: center;
   justify-content: center;
@@ -917,9 +912,16 @@ background-image: linear-gradient(
 }
 
 .BotonCambiarSeñalTexto:hover{
-  backdrop-filter: blur(5px);
   background-color:rgba(0, 68, 255, 0.8);
-  color:rgb(255, 255, 255)
+  backdrop-filter: blur(5px);
+  color:#FFFFFF
+} 
+
+.dark-mode 
+.BotonCambiarSeñalTexto:hover{
+  backdrop-filter: blur(5px);
+  background-color: #333036b4;
+  color:#FFFFFF
 }
 
 .BotonCambiarSeñalTextoRojo{
@@ -2044,7 +2046,8 @@ background-image: linear-gradient(
 }
 
 .BotonMenuDesplegable:hover{
-  background-color:#ff00007e;
+  /*background-color:#ff00007e;*/
+  background-color:rgba(51, 48, 54, 0.7);
   color:rgb(255, 255, 255)
 }
 
@@ -2323,6 +2326,37 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 15px #2E4053;
 }
 
+/*Boton Gris Mas Pequeño Cuadrado*/
+.BotonMenuDesplegableGrisPequeñoCuadrado{
+  display: flex;
+  background-color: #2E4053;
+  border: solid 2px #2E4053;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 5px #9B9B9B;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 60px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  cursor:
+  pointer;
+  transition:all .3s;
+}
+
+.BotonMenuDesplegableGrisPequeño:hover{
+  color: #2E4053;
+  background-color: #FFFFFF;
+  border: solid 2px #2E4053;
+  box-shadow: 0px 0px 15px #2E4053;
+}
+
 /*Boton Rojo Pequeño*/
 .BotonMenuDesplegableRojoPequeño{
   display: flex;
@@ -2387,6 +2421,8 @@ background-image: linear-gradient(
 .dark-mode 
 .BotonMenuDesplegableGrisPequeño,
 .dark-mode 
+.BotonMenuDesplegableGrisPequeñoCuadrado,
+.dark-mode 
 .BotonMenuDesplegableAzul,
 .dark-mode 
 .BotonMenuDesplegableVerde,
@@ -2406,6 +2442,8 @@ background-image: linear-gradient(
 .BotonMenuDesplegableGris:hover,
 .dark-mode 
 .BotonMenuDesplegableGrisPequeño:hover,
+.dark-mode 
+.BotonMenuDesplegableGrisPequeñoCuadrado:hover,
 .dark-mode 
 .BotonMenuDesplegableAzul:hover,
 .dark-mode 
@@ -2570,6 +2608,8 @@ background-image: linear-gradient(
 }
 
 .CuerpoMenuDesplegable2{
+  display: flex;
+  flex-direction: column;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -3658,7 +3698,6 @@ background-image: linear-gradient(
   /*margin-top: 7%;*/
 }
 
-
 /*card propia*/
 .custom-card {
   width: 30%;
@@ -3701,6 +3740,7 @@ background-image: linear-gradient(
 .custom-card a {
   color: #FFFFFF;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 /*Card Pequeña*/
@@ -3811,21 +3851,6 @@ background-image: linear-gradient(
   border: solid 1px #09ff0041;
 }
 
-.CardListaAvisosAviso{
-  background-color: #1d1c20;
-  border: solid 1px #ffd900;
-}
-
-.CardListaAvisosAlerta{
-  background-color: #1d1c20;
-  border: solid 1px #ff6600;
-}
-
-.CardListaAvisosAlarma{
-  background-color: #1d1c20;
-  border: solid 1px #ff0000;
-}
-
 /*CardActualizaciones*/
 .CardActualizaciones {
   width: 90%;
@@ -3932,6 +3957,66 @@ background-image: linear-gradient(
 .CardInformaciones a {
   color: #FFFFFF;
   text-decoration: none;
+}
+
+
+/*Cards Avisos*/
+.CardAvisos {
+  width: 30%;
+  background-color: #1d1c20;
+  color: #FFFFFF;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .CardAvisos {
+    width: 90%;
+  }
+}
+
+.CardAvisos-title {
+  margin-bottom: 5px;
+}
+
+.CardAvisos img {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.CardAvisos .card-content {
+  padding: 1rem;
+}
+
+.CardAvisos h3 {
+  font-size: 20px;
+  color: #333333;
+  margin: 0;
+}
+
+.CardAvisos p {
+  color: #FFFFFF;
+}
+
+.CardAvisos a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.CardListaAvisosAviso{
+  background-color: #ffd90021;
+  border: solid 2px #ffd900;
+}
+
+.CardListaAvisosAlerta{
+  background-color: #ff660023;
+  border: solid 2px #ff6600;
+}
+
+.CardListaAvisosAlarma{
+  background-color: #f700002d;
+  border: solid 2px #ff0000;
 }
 
 .BotonCompartirHome{
@@ -4189,7 +4274,7 @@ background-image: linear-gradient(
 .BuscadorPequeño,
 .dark-mode
 .BuscadorGrande{
-  border: solid 2px #5f6368;
+  border: solid 2px #333036;
 }
 
 .BuscadorGrande{
@@ -4256,3 +4341,22 @@ background-image: linear-gradient(
   width: 100%;
   height: 30%;
 }
+
+.BotonesAjustesBuscadorMonitorTV{
+  display: block;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  bottom: 0px;
+}
+
+.EstiloFondo{
+  font-family: 'Assistant', sans-serif;
+  background-color: #FFFFFF;
+}
+
+.dark-mode .EstiloFondo{
+  background-color: #141417;
+}
+
