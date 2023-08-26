@@ -1928,33 +1928,13 @@ let LosCanales = [
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Ubicacion.svg"></img>ISS TRACKER MAP 4',
         'url': 'ESPACIO_RASTREO_ISS_3.html'
     }, {
-        'titulo': 'NASA TV UHD',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>NASA TV UHD (1080P)',
-        'url': '../Monitores/Senal/NASATV_UHD_4K_1080P.html'
-    }, {
         'titulo': 'NASA TV PUBLIC',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>NASA TV PUBLIC',
-        'url': '../Monitores/Senal/NASATVPUBLIC.html'
+        'url': '../Monitores/Senal/NASATV_PUBLIC.html'
     }, {
         'titulo': 'NASA TV MEDIA',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>NASA TV MEDIA',
-        'url': '../Monitores/Senal/NASATVMEDIA.html'
-    }, {
-        'titulo': 'ARTEMIS I',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>ARTEMIS I CAM',
-        'url': '../Monitores/Senal/NASA_ARTEMIS_1.html'
-    }, {
-        'titulo': 'ISS CAM SD',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>ISS CAM SD',
-        'url': '../Monitores/Senal/ISS_SD.html'
-    },{
-        'titulo': 'ISS CAM HD',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>ISS CAM HD',
-        'url': '../Monitores/Senal/ISS_HD.html'
-    },{
-        'titulo': 'NASA WALLOPS',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>NASA WALLOPS',
-        'url': '../Monitores/Senal/NASATV_Wallops.html'
+        'url': '../Monitores/Senal/NASATV_MEDIA.html'
     }, {
         'titulo': 'ESA WEB TV 1',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_ESA.svg"></img>ESA WEB TV 1',
