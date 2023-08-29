@@ -2465,19 +2465,19 @@ let LosCanales = [
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. PARQUEMET CUMBRE',
         'tags' : ['Chile', 'Santiago'],
-        'url': '../MonitorTV/Senal/CAMPARQUEMET_CUMBRE_2.html'
+        'url': '../Monitores/Senal/CAMPARQUEMET_CUMBRE_2.html'
     },{
         'titulo': 'STGO. PARQUEMET TERRAZA',
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. PARQUEMET TERRAZA',
         'tags' : ['Chile', 'Santiago'],
-        'url': '../MonitorTV/Senal/CAMPARQUEMET_TERRAZA_2.html'
+        'url': '../Monitores/Senal/CAMPARQUEMET_TERRAZA_2.html'
     },{
         'titulo': 'STGO. PLAZA ITALIA',
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. PLAZA ITALIA<span style="margin-left: 3px; font-size: 12px;">(GALERIA CIMA)</span>',
         'tags' : ['Chile', 'Santiago'],
-        'url': '../MonitorTV/Senal/CAMARA_PLAZA_ITALIA_CIMA.html'
+        'url': '../Monitores/Senal/CAMARA_PLAZA_ITALIA_CIMA.html'
     },{
         'titulo': 'STGO. SUR ORIENTE',
         'id': 'ID',
@@ -2489,43 +2489,43 @@ let LosCanales = [
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PEÑALOLEN NORTE<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'tags' : ['Chile', 'Santiago'],
-        'url': '../MonitorTV/Senal/CAMARA_LEDRIUM_PENALOLEN_NORTE.html'
+        'url': '../Monitores/Senal/CAMARA_LEDRIUM_PENALOLEN_NORTE.html'
     },{
         'titulo': 'PEÑALOLEN SUR',
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PEÑALOLEN SUR<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'tags' : ['Chile', 'Santiago'],
-        'url': '../MonitorTV/Senal/CAMARA_LEDRIUM_PENALOLEN_SUR.html'
+        'url': '../Monitores/Senal/CAMARA_LEDRIUM_PENALOLEN_SUR.html'
     },{
         'titulo': 'CERRILLOS',
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>CERRILLOS<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'tags' : ['Chile', 'Santiago'],
-        'url': '../MonitorTV/Senal/CAMARA_LEDRIUM_CERRILLOS.html'
+        'url': '../Monitores/Senal/CAMARA_LEDRIUM_CERRILLOS.html'
     },{
         'titulo': 'COSTANERA CENTER',
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>COSTANERA CENTER<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'tags' : ['Chile', 'Santiago'],
-        'url': '../MonitorTV/Senal/CAMARA_LEDRIUM_COSTANERA_CENTER.html'
+        'url': '../Monitores/Senal/CAMARA_LEDRIUM_COSTANERA_CENTER.html'
     },{
         'titulo': 'FARELLONES',
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>FARELLONES<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'tags' : ['Chile', 'Santiago'],
-        'url': '../MonitorTV/Senal/CAMARA_LEDRIUM_FARELLONES.html'
+        'url': '../Monitores/Senal/CAMARA_LEDRIUM_FARELLONES.html'
     },{
         'titulo': 'PROVIDENCIA',
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PROVIDENCIA<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'tags' : ['Chile', 'Santiago'],
-        'url': '../MonitorTV/Senal/CAMARA_LEDRIUM_PROVIDENCIA.html'
+        'url': '../Monitores/Senal/CAMARA_LEDRIUM_PROVIDENCIA.html'
     },{
         'titulo': 'TOBALABA',
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>TOBALABA<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'tags' : ['Chile', 'Santiago'],
-        'url': '../MonitorTV/Senal/CAMARA_LEDRIUM_TOBALABA.html'
+        'url': '../Monitores/Senal/CAMARA_LEDRIUM_TOBALABA.html'
     },{
         'titulo': 'LEDRIUM YOUTUBE MAS RECIENTE',
         'id': 'ID',
@@ -2537,7 +2537,7 @@ let LosCanales = [
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VALPARAISO BAHIA',
         'tags' : ['Chile', 'Valparaiso'],
-        'url': '../MonitorTV/Senal/CAMARA_VALPARAISO.html'
+        'url': '../Monitores/Senal/CAMARA_VALPARAISO.html'
     },{
         'titulo': 'VALPARAISO CIUDAD',
         'id': 'ID',
@@ -2555,19 +2555,19 @@ let LosCanales = [
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR - AVENIDA PERU',
         'tags' : ['Chile', 'Valparaiso'],
-        'url': '../MonitorTV/Senal/CAMARA_MAREJADA_UV_V_DEL_MAR_AV_PERU.html'
+        'url': '../Monitores/Senal/CAMARA_MAREJADA_UV_V_DEL_MAR_AV_PERU.html'
     },{
         'titulo': 'VIÑA DEL MAR - PLAYA ACAPULCO',
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR - PLAYA ACAPULCO',
         'tags' : ['Chile', 'Valparaiso'],
-        'url': '../MonitorTV/Senal/CAMARA_MAREJADA_UV_V_DEL_MAR_PLAYA_ACAPULCO.html'
+        'url': '../Monitores/Senal/CAMARA_MAREJADA_UV_V_DEL_MAR_PLAYA_ACAPULCO.html'
     },{
         'titulo': 'VIÑA DEL MAR - PLAYA REÑACA',
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR - PLAYA REÑACA',
         'tags' : ['Chile', 'Valparaiso'],
-        'url': '../MonitorTV/Senal/CAMARA_MAREJADA_UV_V_DEL_MAR_PLAYA_REÑACA.html'
+        'url': '../Monitores/Senal/CAMARA_MAREJADA_UV_V_DEL_MAR_PLAYA_REÑACA.html'
     },{
         'titulo': 'VIÑA DEL MAR',
         'id': 'ID',
@@ -2585,7 +2585,7 @@ let LosCanales = [
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>COYHAIQUE',
         'tags' : ['Chile', 'Aysen'],
-        'url': '../MonitorTV/Senal/RADIO_CANALSURPATAGONIA.html'
+        'url': '../Monitores/Senal/RADIO_CANALSURPATAGONIA.html'
     },{
         'titulo': 'PUNTA ARENAS',
         'id': 'ID',
@@ -2603,7 +2603,7 @@ let LosCanales = [
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CAPITOLIO EEUU',
         'tags' : ['Estados Unidos'],
-        'url': '../MonitorTV/Senal/CAMARA_CAPITOLIO_EEUU.html'
+        'url': '../Monitores/Senal/CAMARA_CAPITOLIO_EEUU.html'
     },{
         'titulo': 'EARTHCAM LIVE',
         'id': 'ID',
@@ -2743,7 +2743,7 @@ let LosCanales = [
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>RM | PURANOTICIA',
         'tags' : ['Chile', 'Santiago'],
-        'url': '../MonitorTV/Senal/PURANOTICIA_CL.html'
+        'url': '../Monitores/Senal/PURANOTICIA_CL.html'
     },{
         //OHIGGINS
         'titulo': 'STGO TV',
@@ -2905,25 +2905,25 @@ let LosCanales = [
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | RADIO LAS NIEVES',        
         'tags' : ['Chile', 'Aysen'],
-        'url': '../MonitorTV/Senal/RADIOLASNIEVES.html'
+        'url': '../Monitores/Senal/RADIOLASNIEVES.html'
     },{
         'titulo': 'RADIO PANORAMICA INFORMATIVA',
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | RADIO PANORAMICA INFORMATIVA',
         'tags' : ['Chile', 'Aysen'],
-        'url': '../MonitorTV/Senal/RADIO_PANORAMICAINFORMATIVA.html'
+        'url': '../Monitores/Senal/RADIO_PANORAMICAINFORMATIVA.html'
     },{
         'titulo': 'RADIO GENIAL',
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | RADIO GENIAL',
         'tags' : ['Chile', 'Aysen'],
-        'url': '../MonitorTV/Senal/RADIO_GENIAL.html'
+        'url': '../Monitores/Senal/RADIO_GENIAL.html'
     },{
         'titulo': 'RADIO ARCOIRIS',
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | RADIO ARCOIRIS',
         'tags' : ['Chile', 'Aysen'],
-        'url': '../MonitorTV/Senal/RADIO_ARCOIRIS.html'
+        'url': '../Monitores/Senal/RADIO_ARCOIRIS.html'
     },{
         'titulo': 'ROCCO TV',
         'id': 'ID',
@@ -2960,7 +2960,7 @@ let LosCanales = [
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAGALLANES | RADIO POLAR',
         'tags' : ['Chile', 'Magallanes'],
-        'url': '../MonitorTV/Senal/RADIO_POLAR.html'
+        'url': '../Monitores/Senal/RADIO_POLAR.html'
     },{
 
         //Otros
