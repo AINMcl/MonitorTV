@@ -1,0 +1,70 @@
+
+<!DOCTYPE html PUBLIC>
+<html lang="es">
+<head>
+
+<title> El Trece </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+
+<link href="../../css/estilos.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="../../Imagenes/Icon.png" type="image/png"/>
+
+<style> html,body{width:100%;height:100%} </style>
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
+<!--GOOGLE ICONS-->
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-RT53GZ16EW');
+</script>
+<!--bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+
+<script src="../../js/Reproductor.js" type="text/javascript"></script>
+
+<script>
+	var player = new Playerjs({
+		id:"Reproductor",
+		file:"https://2a1773fcc0c94a639b422d1cf7ba14b7.mediatailor.us-east-1.amazonaws.com/v1/master/4c8323052bc3dbd9aa2eba0b638d8495561e8377/JW-Octubre-Channel09/live/channel09/live.isml/.m3u8?DVR",
+		autoplay:1
+		});
+</script>
+</head>
+
+<body>
+
+	<div style="position: absolute; width: 100%; height:100%" >
+		<div style="width: 100%; height:100%" id="Reproductor">
+		</div>
+	</div>
+	
+	<a style="text-decoration: none;" href="javascript:location.reload()" class="BotonCuadradoRecargarSeñalTexto waves-effect waves-white" role="button" >
+		<span class="material-icons">loop</span>
+	</a>
+	
+</body>
+</html>

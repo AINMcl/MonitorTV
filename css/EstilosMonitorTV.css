@@ -86,23 +86,27 @@ body {
 
 /*LISTA DE SEÑALES*/
 .CuerpoListadoBotonesSeñalesMonitorTV{
+    flex: 1;
     width: 100%;
-    height: 90%;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
+    margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
     .CuerpoListadoBotonesSeñalesMonitorTV {
         width: 100%;
-        height: 85%;
-        padding-bottom: 10px;
+        /*padding-bottom: 10px;*/
     }
   }
 
 /*DIV LISTADO Y BOTON MENU*/
 .CuerpoBarraLateralMonitorTV{
+    display: flex;
+    position: relative;
+    flex-direction: column;
     margin-left: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Assistant', sans-serif;
@@ -136,6 +140,12 @@ body {
     background-color: #1d1c20;
     color: #fff;
 }
+
+.BottomDivWrapper {
+    display: flex;
+    justify-content: space-between;
+    /* Los demás estilos... */
+  }
 
 /*DIV FONDO VIDEO*/
 .CuerpoVideoMonitorTV{
@@ -181,7 +191,8 @@ body {
 .channel-list {
     display: inline-block;
     grid-template-columns: 100%; 
-    height: 100%;  
+    height: 100%;
+    margin-bottom: 15px;
     width: 100%;
     gap: 10px;
     overflow-x: hidden;

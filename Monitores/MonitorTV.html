@@ -1,66 +1,72 @@
+
 <!DOCTYPE html PUBLIC>
 <html lang="es">
 <head>
+  <title>MonitorTV</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title> Monitor TV </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+  <link href="../css/estilos.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../css/EstilosMonitorTV.css">
 
-    <link href="../css/estilos.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/EstilosMonitorTV.css">
+  <script src="../js/Monitor_Interactivo_Pantalla_Señales_Public.js"></script>
 
-    <script src="../js/Monitor_Interactivo_Pantalla_Señales_Public.js"></script>
+  <!--Scripts Funciones-->
+  <script src="../js/Efecto.js"></script>
+  <script src="../js/DarkMode.js"></script>
+  <script src="../js/MostrarOcultarTitulos.js"></script>
+  <script src="../js/MostrarOcultarBordes.js"></script>
+  <script src="../js/EliminarSeñal.js"></script>
+  <script src="../js/AumentarDisminuirTexto.js"></script>
+  <script src="../js/IntercambioSeñales.js"></script>
 
-    <script src="../js/Efecto.js"></script>
+  <link rel="icon" href="../Imagenes/Icon.png" type="image/png"/>
 
-    <script src="../js/DarkMode.js"></script>
-    <script src="../js/AumentarDisminuirTexto.js"></script>
+  <!-- TIPOGRAFIA GOOGLE-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
+  <!-- TIPOGRAFIA ICONOS GOOGLE-->
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics - ainmcl.github.io -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-RT53GZ16EW');
+  </script>
 
-    <link rel="icon" href="../Imagenes/Icon.png" type="image/png"/>
+  <!--bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- TIPOGRAFIA GOOGLE-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
-    <!-- TIPOGRAFIA ICONOS GOOGLE-->
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
 
-      gtag('config', 'G-RT53GZ16EW');
-    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
 
-    <!--bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <!-- Contenido de off canvas, end.  -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-    <!-- Contenido de off canvas, end.  -->
-	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+  
+  <link href="../css/estilos_Movil.css" rel="stylesheet" type="text/css">
+  
 </head>
 
-<body style="background-color: #f2f2f2;font-family: 'Assistant', sans-serif;">
-
-  <div style="position: absolute; display: inline-block; width: 100%; height:100%" >
+<body class="EstiloFondo">
+  <div style="position: absolute; display: inline-block; width: 100%; height:100%">
     <div class="CuerpoVideoMonitorTV">
       <div style="background-color: black; border-radius: 10px;" id="video-container" class="video-container">
           <iframe id="player" src="" frameborder="0" allowfullscreen referrerpolicy="no-referrer"></iframe>
@@ -71,16 +77,85 @@
     </div>
     <div class="CuerpoFondoBarraLateral">
       <div class="CuerpoBarraLateralMonitorTV">
-        <div class="CuerpoListadoBotonesSeñalesMonitorTV">
-            <section id="channel-list" class="channel-list">
-            </section>
-        </div>
-        <div style="width: 100%; height: auto; display: inline-flex;">
-          <!-- BUSCADOR -->
-          <input type="text" class="BuscadorPequeño" id="buscador" placeholder="Buscar Señal">
-          <span style="margin-left: 2%;"></span>
-          <!-- BOTON MENU AJUSTES -->
-          <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="margin-right: 5px;" class="material-icons">settings</span><text>MENU</text></div>
+        <section id="channel-list" class="channel-list">
+        </section>
+        <div class="BotonesAjustesBuscadorMonitorTV">
+          
+          <div style="display: flex;">
+            <!-- BUSCADOR -->
+            <input type="text" class="BuscadorGrande" id="buscador" placeholder="Buscar">
+            <span style="margin-left: 2%;"></span>
+            <div class="BotonMenuDesplegableGrisPequeñoCuadrado waves-effect waves-grisoscuro" onclick="borrarTexto()"><span class="material-icons">backspace</span></div>
+          </div>
+          <!--<label for="tag-select">Categorias:</label>-->
+          <select class="BotonMenuDesplegableGris" id="tag-select">
+            <option value="">Todos</option>
+            <optgroup label="Temas">
+              <option value="Noticias">Noticias</option>
+              <option value="Deportes">Deportes</option>
+              <option value="Video News">Video News</option>
+              <option value="Tiempo">Tiempo</option>
+              <option value="Ocasional">Ocasionales</option>
+              <option value="Europa">Europa</option>
+              <option value="Latino America">Latino America</option>
+            </optgroup>
+            <optgroup label="Paises">
+              <option value="Argentina">Argentina</option>
+              <option value="Alemania">Alemania</option>
+              <option value="Brasil">Brasil</option>
+              <option value="Bolivia">Bolivia</option>
+              <option value="Catar">Catar</option>
+              <option value="Chile">Chile</option>
+              <option value="China">China</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Corea del Norte">Corea del Norte</option>
+              <option value="Corea del Sur">Corea del Sur</option>
+              <option value="Ecuador">Ecuador</option>
+              <option value="España">España</option>
+              <option value="Estados Unidos">Estados Unidos</option>
+              <option value="Francia">Francia</option>
+              <option value="Filipinas">Filipinas</option>
+              <option value="Japon">Japon</option>
+              <option value="Italia">Italia</option>
+              <option value="Israel">Israel</option>
+              <option value="Iran">Iran</option>
+              <option value="Indonesia">Indonesia</option>
+              <option value="Mexico">Mexico</option>
+              <option value="Noticiasx">Noticias</option>
+              <option value="Peru">Peru</option>
+              <option value="Paraguay">Paraguay</option>
+              <option value="Reino Unido">Reino Unido</option>
+              <option value="Rusia">Rusia</option>
+              <option value="Singapore">Singapore</option>
+              <option value="Türkiye">Türkiye</option>
+              <option value="Ucrania">Ucrania</option>
+              <option value="Vaticano">Vaticano</option>
+              <option value="Venezuela">Venezuela</option>
+            </optgroup>
+            <optgroup label="Regiones Chile">
+              <option value="Arica">Arica</option>
+              <option value="Tarapaca">Tarapaca</option>
+              <option value="Antofagasta">Antofagasta</option>
+              <option value="Atacama">Atacama</option>
+              <option value="Coquimbo">Coquimbo</option>
+              <option value="Valparaiso">Valparaiso</option>
+              <option value="Santiago">Santiago</option>
+              <option value="Ohiggins">Ohiggins</option>
+              <option value="Maule">Maule</option>
+              <option value="Bio Bio">Bio Bio</option>
+              <option value="Araucania">Araucania</option>
+              <option value="Los Lagos">Los Lagos</option>
+              <option value="Aysen">Aysen</option>
+              <option value="Magallanes">Magallanes</option>
+            </optgroup>
+          </select>
+          <div style="display: flex;">
+            <!-- BOTON LIMPIAR SEÑALES -->
+            <div style="margin-bottom: 0px;" class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" id="BorrarLaSeñal"><span style="margin-right: 5px;" class="material-icons">delete</span><text>LIMPIAR</text></div>
+            <span style="margin-left: 2%;"></span>
+            <!-- BOTON MENU AJUSTES -->
+            <div style="margin-bottom: 0px;" class="BotonMenuDesplegableGrisPequeño waves-effect waves-grisoscuro" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="margin-right: 5px;" class="material-icons">settings</span><text>MENU</text></div>
+          </div>
         </div>
       </div>
     </div>
@@ -103,10 +178,27 @@
         <br>
         <a style="text-decoration: none;" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustesAccesibilidad" role="button" aria-controls="MenuDespeglableAjustesAccesibilidad"><span class="BotonMenuDesplegableAzul waves-effect waves-azul"><span style="margin-right: 5px;" class="material-icons">settings_accessibility</span>AJUSTES DE ACCESIBILIDAD</span></a>
         <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
-        <a style="text-decoration: none;" href="javascript:location.reload()"><span class="BotonMenuDesplegableAzul waves-effect waves-azul"><span style="margin-right: 5px;" class="material-icons">replay</span>RECARGAR PAGINA</span></a>
-        <br>
+        <div style="width: 100%; height: auto; display: inline-flex;">
+          <div onclick="window.open('MonitorTV_AINM1.html','popup','width=1280,height=720'); return false;" class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul">
+            <span style="margin-right: 5px;" class="material-icons">open_in_browser</span>
+            <text>MODO EMERGENTE</text>
+          </div>
+          <span style="margin-left: 2%;"></span>
+          <a class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul" style="text-decoration: none;" href="javascript:location.reload()">
+            <span style="margin-right: 5px;" class="material-icons">replay</span>
+            RECARGAR PAGINA
+          </a>
+        </div>
       </div> 
     </div>
+    <footer class="FooterMenuFlotante">
+      <span class="TextoTituloFooter">Hosted by</span>
+      <br>
+      <span>
+        <img id="Logo" style="height: 15px; padding-right: 10px;" src="Imagenes/Icon_Github.svg"></a>
+        <img id="Logo" style="height: 15px" src="Imagenes/Icon_Vercel.svg"></a>
+      </span>
+    </footer>
   </div>
 
   <!-- MENU DESPLEGABLE ACCESIBILIDAD -->
@@ -130,37 +222,8 @@
       </div>
     </div>
   </div>
-
-  <!--PANTALLA COMPLETA-->
-  <script>
-      // https://javascript.plainenglish.io/enter-full-screen-mode-with-javascript-a8a782d96dc
-      const btnFullscreen = document.querySelector('#fullscreen'),
-            btnFullscreenSpanIcon = btnFullscreen.querySelector('text'),
-            btnFullscreenSpan = btnFullscreen.querySelector('span');
-      function getFullscreenElement() {
-        return document.fullscreenElement   //standard property
-        || document.webkitFullscreenElement //safari/opera support
-        || document.mozFullscreenElement    //firefox support
-        || document.msFullscreenElement;    //ie/edge support
-      }
-      function toggleFullscreen() {
-        if(getFullscreenElement()) {
-          document.exitFullscreen();
-          btnFullscreenSpanIcon.innerHTML = 'ENTRAR A PANTALLA COMPLETA';
-          btnFullscreenSpan.innerHTML = 'open_in_full';
-        }else {
-          document.documentElement.requestFullscreen().catch(console.log);
-          btnFullscreenSpanIcon.innerHTML = 'SALIR DE PANTALLA COMPLETA';
-          btnFullscreenSpan.innerHTML = 'close_fullscreen';
-        }
-      }
-      btnFullscreen.addEventListener('click', () => {
-        toggleFullscreen();
-      });
-  </script>
-
+  
+  <script src="../js/Monitor_Interactivo_Pantalla_Script_Titulo_Senal_OFF_URL.js"></script>
+  <script src="../js/PantallaCompleta.js"></script>
 </body>
-<script src="../js/Monitor_Interactivo_Pantalla_Script_Titulo_Senal_OFF.js"></script>
-
-
 </html>
