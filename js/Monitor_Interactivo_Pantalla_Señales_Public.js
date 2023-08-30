@@ -474,60 +474,6 @@ let LosCanales = [
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/VOA_LIVE_13.html'
     }, {
-        'titulo': 'RUPTLY LIVE 1',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RUPTLY LIVE 1',
-        'tags' : ['Rusia','Video News'],
-        'url': '../Monitores/Senal/RUPTLY_LIVE_1.html'
-    },{
-        'titulo': 'RUPTLY LIVE 2',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RUPTLY LIVE 2',
-        'tags' : ['Rusia','Video News'],
-        'url': '../Monitores/Senal/RUPTLY_LIVE_2.html'
-    },{
-        'titulo': 'RUPTLY LIVE 3',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RUPTLY LIVE 3',
-        'tags' : ['Rusia','Video News'],
-        'url': '../Monitores/Senal/RUPTLY_LIVE_3.html'
-    },{
-        'titulo': 'RUPTLY LIVE 4',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RUPTLY LIVE 4',
-        'tags' : ['Rusia','Video News'],
-        'url': '../Monitores/Senal/RUPTLY_LIVE_4.html'
-    },{
-        'titulo': 'RUPTLY LIVE 5',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RUPTLY LIVE 5',
-        'tags' : ['Rusia','Video News'],
-        'url': '../Monitores/Senal/RUPTLY_LIVE_5.html'
-    },{
-        'titulo': 'RUPTLY LIVE 6',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RUPTLY LIVE 6',
-        'tags' : ['Rusia','Video News'],
-        'url': '../Monitores/Senal/RUPTLY_LIVE_6.html'
-    },{
-        'titulo': 'RUPTLY LIVE 7',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RUPTLY LIVE 7',
-        'tags' : ['Rusia','Video News'],
-        'url': '../Monitores/Senal/RUPTLY_LIVE_7.html'
-    },{
-        'titulo': 'RUPTLY LIVE 8',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RUPTLY LIVE 8',
-        'tags' : ['Rusia','Video News'],
-        'url': '../Monitores/Senal/RUPTLY_LIVE_8.html'
-    },{
-        'titulo': 'RUPTLY LIVE 9',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RUPTLY LIVE 9',
-        'tags' : ['Rusia','Video News'],
-        'url': '../Monitores/Senal/RUPTLY_LIVE_9.html'
-    },{
         'titulo': 'SKY NEWS EXTRA 1',
         'id': 'ID',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>SKY NEWS EXTRA 1',
