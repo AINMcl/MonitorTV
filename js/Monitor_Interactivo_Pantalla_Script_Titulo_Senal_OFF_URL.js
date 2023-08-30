@@ -129,14 +129,21 @@ function crearBotonCanal(canal) {
   BtnCanal.innerHTML = canal.nombre;
 
   BtnCanal.onclick = () => {
+    // Eliminar la clase SeñalSeleccionada de todos los botones de canal
+    const botonesCanales = document.querySelectorAll('.channel');
+    botonesCanales.forEach(boton => boton.classList.remove('SeñalSeleccionada'));
+
+    // Agregar la clase SeñalSeleccionada al botón actual
+    BtnCanal.classList.add('SeñalSeleccionada');
+
     player.setAttribute('src', canal.url);
     document.getElementById('video-container').appendChild(nombreBarra);
     ancla.innerText = canal.nombre;
-    BtnCanal.classList.add('SeñalSeleccionada');
   };
 
   return BtnCanal;
 }
+
 
 //CierreBuscador
 
