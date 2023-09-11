@@ -2,13 +2,13 @@ let LosCanales = [
     {
         'titulo': '24 PLAY',
         'id': '24PLAY',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24PLAY.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24PLAY.svg"></img>',
         'tags' : ['tags'],
         'url': '../Monitores/Senal/24HTVN_IFRAME.html'
     }, {
         'titulo': 'CANAL 24 HORAS',
         'id': 'CANAL24HTVN',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CANAL24H.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CANAL24H.svg"></img>',
         'tags' : ['Chile','Noticias'],
         'url': '../Monitores/Senal/Canal24HTVN.html'
     },{
@@ -164,31 +164,31 @@ let LosCanales = [
     }, {
         'titulo': '24 HORAS 1',
         'id': '24H_OCASIONAL_1',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 1',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/Interna24H_1.html'
     }, {
         'titulo': '24 HORAS 2',
         'id': '24H_OCASIONAL_2',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 2',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/Interna24H_2.html'
     }, {
         'titulo': '24 HORAS 3',
         'id': '24H_OCASIONAL_3',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 3',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/Interna24H_3.html'
     },{
         'titulo': '24 HORAS 4',
         'id': '24H_OCASIONAL_4',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 4',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/Interna24H_4.html'
     }, {
         'titulo': '24 HORAS 5',
         'id': '24H_OCASIONAL_5',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24HTVN.svg"></img>SEÑAL OCASIONAL 5',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 5',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/Interna24H_5.html'
     }, {
