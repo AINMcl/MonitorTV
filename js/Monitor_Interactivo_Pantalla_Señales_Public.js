@@ -262,79 +262,79 @@ let LosCanales = [
         'url': '../Monitores/Senal/RADIO_COOPERATIVA.html'
     }, {
         'titulo': 'RADIO BIOBIO TV',
-        'id': 'ID',
+        'id': 'BIOBIO_TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO BIOBIO TV',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/RADIO_BIOBIOTV.html'
     }, {
         'titulo': 'T13 RADIO',
-        'id': 'ID',
+        'id': 'T13_RADIO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>TELE13 RADIO',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/RADIO_T13_2.html'
     }, {
         'titulo': 'RADIO INFINITA',
-        'id': 'ID',
+        'id': 'RADIO_INFITINA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO INFINITA',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/RADIO_INFINITA.html'
     },{
         'titulo': 'RADIO LA CLAVE',
-        'id': 'ID',
+        'id': 'RADIO_LACLAVE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO LA CLAVE',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/RADIO_LACLAVE.html'
     }, {
         'titulo': 'CNN CHILE AUDIO',
-        'id': 'ID',
+        'id': 'CNNCHILE_AUDIO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>CNN CHILE (AUDIO)',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/CNNCHILE_Audio.html'
     }, {
         'titulo': 'SUBELA RADIO',
-        'id': 'ID',
+        'id': 'RADIO_SUBELA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>SUBELA RADIO',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/RADIO_SUBELA.html'
     }, {
         'titulo': 'RADIO TIEMPO',
-        'id': 'ID',
+        'id': 'RADIO_TIEMPO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO TIEMPO',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/RADIO_TIEMPO.html'
     }, {
         'titulo': 'RADIO PAUTA',
-        'id': 'ID',
+        'id': 'RADIO_PAUTA_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO PAUTA',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/RADIO_PAUTA.html'
     }, {
         'titulo': 'RADIO PAUTA',
-        'id': 'ID',
+        'id': 'RADIO_PAUTA_2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO PAUTA 2',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/RADIO_PAUTA_2.html'
     }, {
         'titulo': 'RADIO PUDAHUEL',
-        'id': 'ID',
+        'id': 'RADIO_PUDAHUEL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO PUDAHUEL',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/RADIO_PUDAHUEL.html'
     }, {
         'titulo': 'RADIO DUNA',
-        'id': 'ID',
+        'id': 'RADIO_DUNA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO DUNA',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/RADIO_DUNA.html'
     }, {
         'titulo': 'RADIO ROMANTICA',
-        'id': 'ID',
+        'id': 'RADIO_ROMANTICA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO ROMANTICA',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/RADIO_ROMANTICA.html'
     }, {
         'titulo': 'RADIO INICIA',
-        'id': 'ID',
+        'id': 'RADIO_INICIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">mic</span>RADIO INICIA',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/RADIO_INICIA.html'
@@ -343,43 +343,37 @@ let LosCanales = [
     //SEÑALES GOBIERNO
     {
         'titulo': 'PRESIDENCIA CHILE',
-        'id': 'ID',
+        'id': 'PRESIDENCIA_CHILE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_GOB.svg"></img>PRESIDENCIA',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/PRESIDENCIA.html'
     }, {
-        'titulo': 'PRESIDENCIA CHILE',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_GOB.svg"></img>GOBIERNO DE CHILE',
-        'tags' : ['Chile'],
-        'url': '../Monitores/Senal/PRESIDENCIA_3.html'
-    }, {
         'titulo': 'TV SENADO',
-        'id': 'ID',
+        'id': 'TV_SENADO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>TV SENADO',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/SENADO_TV.html'
     }, {
         'titulo': 'TV DIPUTADOS',
-        'id': 'ID',
+        'id': 'TV_DIPUTADOS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>TV DIPUTADOS',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/CDTV.html'
     },{
         'titulo': 'TV SENADO',
-        'id': 'ID',
+        'id': 'TV_SENADO_YT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoRojo">smart_display</span>TV SENADO',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=true&mute=1'
     }, {
         'titulo': 'TV DIPUTADOS',
-        'id': 'ID',
+        'id': 'TV_DIPUTADOS_YT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoRojo">smart_display</span>TV DIPUTADOS',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=true&mute=1'
     }, {
         'titulo': 'PROCESO CONSTITUCIONAL',
-        'id': 'ID',
+        'id': 'PROCESO_CONSTITUCIONAL_YT',
         'nombre': '<span id="PROCESOCONSTITUCIONAL" style="margin-right: 10px;" class="material-icons-round TextoIconoRojo">smart_display</span>PROCESO CONSTITUCIONAL',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCGrlfx5XmVM33MUKPmXc-oA&autoplay=true&mute=1'
@@ -390,314 +384,308 @@ let LosCanales = [
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/REUTERS.html'
     }, {
-        'titulo': 'TELEMUNDO NOTICIAS',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>TELEMUNDO NOTICIAS',
-        'tags' : ['Estados Unidos','Video News'],
-        'url': '../Monitores/Senal/TELEMUNDONOTICIAS.html'
-    }, {
         'titulo': 'VOA TV LIVE 1',
-        'id': 'ID',
+        'id': 'VOA_TV_LIVE_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 1',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/VOA_LIVE_01.html'
     }, {
         'titulo': 'VOA TV LIVE 2',
-        'id': 'ID',
+        'id': 'VOA_TV_LIVE_2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 2',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/VOA_LIVE_02.html'
     }, {
         'titulo': 'VOA TV LIVE 3',
-        'id': 'ID',
+        'id': 'VOA_TV_LIVE_3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 3',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/VOA_LIVE_03.html'
     }, {
         'titulo': 'VOA TV LIVE 4',
-        'id': 'ID',
+        'id': 'VOA_TV_LIVE_4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 4',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/VOA_LIVE_04.html'
     }, {
         'titulo': 'VOA TV LIVE 5',
-        'id': 'ID',
+        'id': 'VOA_TV_LIVE_5',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 5',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/VOA_LIVE_05.html'
     }, {
         'titulo': 'VOA TV LIVE 6',
-        'id': 'ID',
+        'id': 'VOA_TV_LIVE_6',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 6',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/VOA_LIVE_06.html'
     }, {
         'titulo': 'VOA TV LIVE 7',
-        'id': 'ID',
+        'id': 'VOA_TV_LIVE_7',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 7',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/VOA_LIVE_07.html'
     }, {
         'titulo': 'VOA TV LIVE 8',
-        'id': 'ID',
+        'id': 'VOA_TV_LIVE_8',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 8',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/VOA_LIVE_08.html'
     }, {
         'titulo': 'VOA TV LIVE 9',
-        'id': 'ID',
+        'id': 'VOA_TV_LIVE_9',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 9',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/VOA_LIVE_09.html'
     }, {
         'titulo': 'VOA TV LIVE 10',
-        'id': 'ID',
+        'id': 'VOA_TV_LIVE_10',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 10',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/VOA_LIVE_10.html'
     }, {
         'titulo': 'VOA TV LIVE 11',
-        'id': 'ID',
+        'id': 'VOA_TV_LIVE_11',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 11',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/VOA_LIVE_11.html'
     }, {
         'titulo': 'VOA TV LIVE 12',
-        'id': 'ID',
+        'id': 'VOA_TV_LIVE_12',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 12',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/VOA_LIVE_12.html'
     }, {
         'titulo': 'VOA TV LIVE 13',
-        'id': 'ID',
+        'id': 'VOA_TV_LIVE_13',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOA TV LIVE 13',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/VOA_LIVE_13.html'
     }, {
         'titulo': 'SKY NEWS EXTRA 1',
-        'id': 'ID',
+        'id': 'SKY_NEWS_EXTRA_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>SKY NEWS EXTRA 1',
         'tags' : ['Reino Unido','Video News'],
         'url': '../Monitores/Senal/SKY_NEWS_EXTRA_1.html'
     }, {
         'titulo': 'SKY NEWS EXTRA 2',
-        'id': 'ID',
+        'id': 'SKY_NEWS_EXTRA_2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>SKY NEWS EXTRA 2',
         'tags' : ['Reino Unido','Video News'],
         'url': '../Monitores/Senal/SKY_NEWS_EXTRA_2.html'
     },{
         'titulo': 'SKY NEWS EXTRA 3',
-        'id': 'ID',
+        'id': 'SKY_NEWS_EXTRA_3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>SKY NEWS EXTRA 3',
         'tags' : ['Reino Unido','Video News'],
         'url': '../Monitores/Senal/SKY_NEWS_EXTRA_3.html'
     }, {
         'titulo': 'NBC NOW LIVE 1',
-        'id': 'ID',
+        'id': 'NBC_LIVE_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>NBC NEWS NOW LIVE 1',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/NBC_LIVE_1.html'
     }, {
         'titulo': 'NBC NOW LIVE 2',
-        'id': 'ID',
+        'id': 'NBC_LIVE_2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>NBC NEWS NOW LIVE 2',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/NBC_LIVE_2.html'
     }, {
         'titulo': 'NBC NOW LIVE 3',
-        'id': 'ID',
+        'id': 'NBC_LIVE_3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>NBC NEWS NOW LIVE 3',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/NBC_LIVE_3.html'
     }, {
         'titulo': 'NBC NOW LIVE 4',
-        'id': 'ID',
+        'id': 'NBC_LIVE_4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>NBC NEWS NOW LIVE 4',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/NBC_LIVE_4.html'
     }, {
         'titulo': 'CBS NEWS LIVE 1',
-        'id': 'ID',
+        'id': 'CBS_NEWS_LIVE_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CBS NEWS LIVE 1',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/CBSNEWS_LIVE_1.html'
     }, {
         'titulo': 'CBS NEWS LIVE 2',
-        'id': 'ID',
+        'id': 'CBS_NEWS_LIVE_2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CBS NEWS LIVE 2',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/CBSNEWS_LIVE_2.html'
     }, {
         'titulo': 'CBS NEWS LIVE 3',
-        'id': 'ID',
+        'id': 'CBS_NEWS_LIVE_3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CBS NEWS LIVE 3',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/CBSNEWS_LIVE_3.html'
     }, {
         'titulo': 'ABC NEWS LIVE 1',
-        'id': 'ID',
+        'id': 'ABC_NEWS_LIVE_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 1',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/ABCNEWS_LIVE_1.html'
     }, {
         'titulo': 'ABC NEWS LIVE 2',
-        'id': 'ID',
+        'id': 'ABC_NEWS_LIVE_2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 2',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/ABCNEWS_LIVE_2.html'
     }, {
         'titulo': 'ABC NEWS LIVE 3',
-        'id': 'ID',
+        'id': 'ABC_NEWS_LIVE_3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 3',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/ABCNEWS_LIVE_3.html'
     }, {
         'titulo': 'ABC NEWS LIVE 4',
-        'id': 'ID',
+        'id': 'ABC_NEWS_LIVE_4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 4',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/ABCNEWS_LIVE_4.html'
     }, {
         'titulo': 'ABC NEWS LIVE 5',
-        'id': 'ID',
+        'id': 'ABC_NEWS_LIVE_5',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 5',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/ABCNEWS_LIVE_5.html'
     }, {
         'titulo': 'ABC NEWS LIVE 6',
-        'id': 'ID',
+        'id': 'ABC_NEWS_LIVE_6',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 6',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/ABCNEWS_LIVE_6.html'
     }, {
         'titulo': 'ABC NEWS LIVE 7',
-        'id': 'ID',
+        'id': 'ABC_NEWS_LIVE_7',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 7',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/ABCNEWS_LIVE_7.html'
     }, {
         'titulo': 'ABC NEWS LIVE 8',
-        'id': 'ID',
+        'id': 'ABC_NEWS_LIVE_8',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 8',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/ABCNEWS_LIVE_8.html'
     }, {
         'titulo': 'ABC NEWS LIVE 9',
-        'id': 'ID',
+        'id': 'ABC_NEWS_LIVE_9',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 9',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/ABCNEWS_LIVE_9.html'
     }, {
         'titulo': 'ABC NEWS LIVE 10',
-        'id': 'ID',
+        'id': 'ABC_NEWS_LIVE_10',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>ABC NEWS LIVE 10',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/ABCNEWS_LIVE_10.html'
     }, {
         'titulo': 'BBC NEWS LIVE 1',
-        'id': 'ID',
+        'id': 'BBC_NEWS_LIVE_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>BBC NEWS LIVE 1',
         'tags' : ['Reino Unido','Video News'],
         'url': '../Monitores/Senal/BBCNEWS_LIVE_1.html'
     }, {
         'titulo': 'BBC NEWS LIVE 2',
-        'id': 'ID',
+        'id': 'BBC_NEWS_LIVE_2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>BBC NEWS LIVE 2',
         'tags' : ['Reino Unido','Video News'],
         'url': '../Monitores/Senal/BBCNEWS_LIVE_2.html'
     }, {
         'titulo': 'BBC NEWS LIVE 3',
-        'id': 'ID',
+        'id': 'BBC_NEWS_LIVE_3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>BBC NEWS LIVE 3',
         'tags' : ['Reino Unido','Video News'],
         'url': '../Monitores/Senal/BBCNEWS_LIVE_3.html'
     }, {
         'titulo': 'BBC NEWS LIVE 4',
-        'id': 'ID',
+        'id': 'BBC_NEWS_LIVE_4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>BBC NEWS LIVE 4',
         'tags' : ['Reino Unido','Video News'],
         'url': '../Monitores/Senal/BBCNEWS_LIVE_4.html'
     }, {
         'titulo': 'BBC NEWS LIVE 5',
-        'id': 'ID',
+        'id': 'BBC_NEWS_LIVE_5',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>BBC NEWS LIVE 5',
         'tags' : ['Reino Unido','Video News'],
         'url': '../Monitores/Senal/BBCNEWS_LIVE_5.html'
     }, {
         'titulo': 'BBC NEWS LIVE 6',
-        'id': 'ID',
+        'id': 'BBC_NEWS_LIVE_6',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>BBC NEWS LIVE 6',
         'tags' : ['Reino Unido','Video News'],
         'url': '../Monitores/Senal/BBCNEWS_LIVE_6.html'
     }, {
         'titulo': 'BBC NEWS LIVE 7',
-        'id': 'ID',
+        'id': 'BBC_NEWS_LIVE_7',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>BBC NEWS LIVE 7',
         'tags' : ['Reino Unido','Video News'],
         'url': '../Monitores/Senal/BBCNEWS_LIVE_7.html'
     }, {
         'titulo': 'BBC NEWS LIVE 8',
-        'id': 'ID',
+        'id': 'BBC_NEWS_LIVE_8',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>BBC NEWS LIVE 8',
         'tags' : ['Reino Unido','Video News'],
         'url': '../Monitores/Senal/BBCNEWS_LIVE_8.html'
     }, {
         'titulo': 'BBC NEWS LIVE 9',
-        'id': 'ID',
+        'id': 'BBC_NEWS_LIVE_9',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>BBC NEWS LIVE 9',
         'tags' : ['Reino Unido','Video News'],
         'url': '../Monitores/Senal/BBCNEWS_LIVE_9.html'
     }, {
         'titulo': 'CNN LIVE EVENT 1',
-        'id': 'ID',
+        'id': 'CNN_LIVE_EVENT_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>CNN LIVE EVENT 1',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/CNN_LIVE_EVENT_1.html'
     }, {
         'titulo': 'CNN LIVE EVENT 2',
-        'id': 'ID',
+        'id': 'CNN_LIVE_EVENT_2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>CNN LIVE EVENT 2',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/CNN_LIVE_EVENT_2.html'
     }, {
         'titulo': 'CNN LIVE EVENT 3',
-        'id': 'ID',
+        'id': 'CNN_LIVE_EVENT_3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>CNN LIVE EVENT 3',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/CNN_LIVE_EVENT_3.html'
     }, {
         'titulo': 'CNN LIVE EVENT 4',
-        'id': 'ID',
+        'id': 'CNN_LIVE_EVENT_4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>CNN LIVE EVENT 4',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/CNN_LIVE_EVENT_4.html'
     }, {
         'titulo': 'CNN LIVE EVENT 5',
-        'id': 'ID',
+        'id': 'CNN_LIVE_EVENT_5',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>CNN LIVE EVENT 5',
         'tags' : ['Estados Unidos','Video News'],
         'url': '../Monitores/Senal/CNN_LIVE_EVENT_5.html'
     }, {
         'titulo': 'RTVE PLAY OCASIONAL 1',
-        'id': 'ID',
+        'id': 'RTVE_PLAY_OCASIONAL_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RTVE PLAY OCASIONAL 1',
         'tags' : ['España','Video News'],
         'url': '../Monitores/Senal/RTVE_PLAY_OCASIONAL_1.html'
     }, {
         'titulo': 'RTVE PLAY OCASIONAL 2',
-        'id': 'ID',
+        'id': 'RTVE_PLAY_OCASIONAL_2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RTVE PLAY OCASIONAL 2',
         'tags' : ['España','Video News'],
         'url': '../Monitores/Senal/RTVE_PLAY_OCASIONAL_2.html'
     }, {
         'titulo': 'RTVE PLAY OCASIONAL 3',
-        'id': 'ID',
+        'id': 'RTVE_PLAY_OCASIONAL_3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RTVE PLAY OCASIONAL 3',
         'tags' : ['España','Video News'],
         'url': '../Monitores/Senal/RTVE_PLAY_OCASIONAL_3.html'
     }, {
         'titulo': 'RTVE PLAY OCASIONAL 4',
-        'id': 'ID',
+        'id': 'RTVE_PLAY_OCASIONAL_4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>RTVE PLAY OCASIONAL 4',
         'tags' : ['España','Video News'],
         'url': '../Monitores/Senal/RTVE_PLAY_OCASIONAL_4.html'
@@ -739,49 +727,49 @@ let LosCanales = [
         'url': '../Monitores/Senal/RTVEOCASIONAL_6.html'
     }, {*/
         'titulo': 'CCTV+ 1',
-        'id': 'ID',
+        'id': 'CCTV_PLUS_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 1',
         'tags' : ['China','Video News'],
         'url': '../Monitores/Senal/CCTVPLUS_1.html'
     }, {
         'titulo': 'CCTV+ 2',
-        'id': 'ID',
+        'id': 'CCTV_PLUS_2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 2',
         'tags' : ['China','Video News'],
         'url': '../Monitores/Senal/CCTVPLUS_2.html'
     },{
         'titulo': 'CCTV+ 3',
-        'id': 'ID',
+        'id': 'CCTV_PLUS_3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 3',
         'tags' : ['China','Video News'],
         'url': '../Monitores/Senal/CCTVPLUS_3.html'
     },{
         'titulo': 'CCTV+ 4',
-        'id': 'ID',
+        'id': 'CCTV_PLUS_4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 4',
         'tags' : ['China','Video News'],
         'url': '../Monitores/Senal/CCTVPLUS_4.html'
     },{
         'titulo': 'EBS',
-        'id': 'ID',
+        'id': 'EBS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/eu.svg" title="UNION EUROPEA"></img>EBS',
         'tags' : ['Union Europea'],
         'url': '../Monitores/Senal/EUROPE_BY_SATELLITE_EBS.html'
     },{
         'titulo': 'EBS+',
-        'id': 'ID',
+        'id': 'EBS_PLUS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/eu.svg" title="UNION EUROPEA"></img>EBS+',
         'tags' : ['Union Europea'],
         'url': '../Monitores/Senal/EUROPE_BY_SATELLITE_EBS_PLUS.html'
     },{
         'titulo': 'OTAN LIVE',
-        'id': 'ID',
+        'id': 'OTAN_LIVE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/eu.svg" title="UNION EUROPEA"></img>OTAN LIVE',
         'tags' : ['Estados Unidos'],
         'url': '../Monitores/Senal/OTAN_LIVE.html'
     },{
         'titulo': 'THE PENTAGON LIVE',
-        'id': 'ID',
+        'id': 'THE_PENTAGON_LIVE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>THE PENTAGON LIVE',
         'tags' : ['Estados Unidos'],
         'url': '../Monitores/Senal/THE_PENTAGON_LIVE.html'
@@ -835,577 +823,577 @@ let LosCanales = [
         'url': '../Monitores/Senal/PANAMSPORTS_S8.html'
     },{*/
         'titulo': 'THE WHITE HOUSE',
-        'id': 'ID',
+        'id': 'THE_WHITE_HOUSE_LIVE',
         'nombre': '<span id="THE_WHITE_HOUSE" style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="CHILE"></img>THE WHITE HOUSE LIVE EVENTS',
         'tags' : ['Estados Unidos'],
         'url': '../Monitores/Senal/THEWHITEHOUSE_LIVE_EVENT.html'
     },{
         'titulo': 'PRESIDENCIA CHILE',
-        'id': 'ID',
+        'id': 'PRESIDENCIA_CHILE_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PRESIDENCIA CHILE',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC_5Sh9VhJlgCspl4mLM2duw&autoplay=true&mute=1'
     }, {
         'titulo': 'PRESIDENCIA ARGENTINA',
-        'id': 'ID',
+        'id': 'PRESIDENCIA_ARGENTINA_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>PRESIDENCIA ARGENTINA',
         'tags' : ['Argentina'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCXOIosipLXV0p_35MjTu0Aw&autoplay=true&mute=1'
     }, {
         'titulo': 'PRESIDENCIA ECUADOR',
-        'id': 'ID',
+        'id': 'PRESIDENCIA_ECUADOR_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>PRESIDENCIA ECUADOR',
         'tags' : ['Ecuador'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCn2XiuAROvRcqscSI2Ni-6A&autoplay=true&mute=1'
     }, {
         'titulo': 'PRESIDENCIA BRASIL',
-        'id': 'ID',
+        'id': 'PRESIDENCIA_BRASIL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>PRESIDENCIA BRASIL',
         'tags' : ['Brasil'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCjjYaSHsZSUNTSwUV8OfOrA&autoplay=true&mute=1'
     }, {
         'titulo': 'TN',
-        'id': 'ID',
+        'id': 'TN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>TN',
         'tags' : ['Argentina'],
         'url': '../Monitores/Senal/TN.html'
     },{
         'titulo': 'CANAL 26',
-        'id': 'ID',
+        'id': 'CANAL26',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>CANAL 26',
         'tags' : ['Argentina'],
         'url': '../Monitores/Senal/CANAL_26_ARG.html'
     },{
         'titulo': 'EL TRECE',
-        'id': 'ID',
+        'id': 'ELTRECE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>EL TRECE',
         'tags' : ['Argentina'],
         'url': '../Monitores/Senal/EL_TRECE.html'
     },{
         'titulo': 'EL NUEVE',
-        'id': 'ID',
+        'id': 'ELNUEVE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>EL NUEVE',
         'tags' : ['Argentina'],
         'url': '../Monitores/Senal/EL_NUEVE.html'
     },{
         'titulo': 'ABC TV',
-        'id': 'ID',
+        'id': 'ABC_TV_PAR',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/py.svg" title="PARAGUAY"></img>ABC TV',
         'tags' : ['Paraguay'],
         'url': '../Monitores/Senal/ABCTV.html'
     }, {
         'titulo': 'TRECE',
-        'id': 'ID',
+        'id': 'TRECE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/py.svg" title="PARAGUAY"></img>TRECE',
         'tags' : ['Paraguay'],
         'url': '../Monitores/Senal/PY_TRECE.html'
     }, {
         'titulo': 'C9N',
-        'id': 'ID',
+        'id': 'C9N',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/py.svg" title="PARAGUAY"></img>C9N',
         'tags' : ['Paraguay'],
         'url': '../Monitores/Senal/PY_C9N.html'
     }, {
         'titulo': 'ATV',
-        'id': 'ID',
+        'id': 'ATV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>ATV',
         'tags' : ['Peru'],
         'url': '../Monitores/Senal/ATV.html'
     }, {
         'titulo': 'ATV PLUS',
-        'id': 'ID',
+        'id': 'ATV_PLUS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>ATV PLUS',
         'tags' : ['Peru'],
         'url': '../Monitores/Senal/ATVPLUS.html'
     }, {
         'titulo': 'TVPERU INTERNACIONAL',
-        'id': 'ID',
+        'id': 'TVPERU_INTERNACIONAL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>TV PERU INTERNACIONAL',
         'tags' : ['Peru'],
         'url': '../Monitores/Senal/TVPERU_INTERNACIONAL.html'
     }, {
         'titulo': 'PANAMERICANA TV',
-        'id': 'ID',
+        'id': 'PANAMERICANA_TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>PANAMERICANA TV',
         'tags' : ['Peru'],
         'url': '../Monitores/Senal/PANAMERICANATV.html'
     }, {
         'titulo': 'WILLAX TV',
-        'id': 'ID',
+        'id': 'WILLAX_TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>WILLAX TV',
         'tags' : ['Peru'],
         'url': '../Monitores/Senal/WILLAXTV.html'
     }, {
         'titulo': 'ONDA DIGITAL TV',
-        'id': 'ID',
+        'id': 'ONDA_DIGITAL_TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>ONDA DIGITAL TV',
         'tags' : ['Peru'],
         'url': '../Monitores/Senal/ONDADIGITALTV_1.html'
     }, {
         'titulo': 'BOLIVIA TV',
-        'id': 'ID',
+        'id': 'BOLIVIA_TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>BOLIVIA TV',
         'tags' : ['Bolivia'],
         'url': '../Monitores/Senal/BOLIVIA_TV_72.html'
     }, {
         'titulo': 'CADENA A',
-        'id': 'ID',
+        'id': 'CADENA_A',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>CADENA A',
         'tags' : ['Bolivia'],
         'url': '../Monitores/Senal/CADENA_A.html'
     }, {
         'titulo': 'RTP',
-        'id': 'ID',
+        'id': 'RTP',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>RTP',
         'tags' : ['Bolivia'],
         'url': '../Monitores/Senal/RTP.html'
     }, {
         'titulo': 'PAT',
-        'id': 'ID',
+        'id': 'PAT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/bo.svg" title="BOLIVIA"></img>PAT',
         'tags' : ['Bolivia'],
         'url': '../Monitores/Senal/PAT_BOLIVIA.html'
     }, {
         'titulo': 'CANAL 13',
-        'id': 'ID',
+        'id': 'CANAL_13_COL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CANAL 13',
         'tags' : ['Colombia'],
         'url': '../Monitores/Senal/CANAL13_COLOMBIA.html'
     }, {
         'titulo': 'ATN',
-        'id': 'ID',
+        'id': 'ATN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>ATN',
         'tags' : ['Colombia'],
         'url': '../Monitores/Senal/ATN_TV_COLOMBIA.html'
     }, {
         'titulo': 'TELEPACIFICO',
-        'id': 'ID',
+        'id': 'TELEPACIFICO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>TELEPACIFICO',
         'tags' : ['Colombia'],
         'url': '../Monitores/Senal/TELEPACIFICO_COLOMBIA.html'
     }, {
         'titulo': 'CABLENOTICIAS',
-        'id': 'ID',
+        'id': 'CABLENOTICIAS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>CABLENOTICIAS',
         'tags' : ['Colombia'],
         'url': '../Monitores/Senal/CABLENOTICIAS_COLOMBIA.html'
     }, {
         'titulo': 'RED+ NOTICIAS',
-        'id': 'ID',
+        'id': 'RED_PLUS_NOTICIAS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>RED+ NOTICIAS',
         'tags' : ['Colombia'],
         'url': '../Monitores/Senal/RED+NOTICIAS_COLOMBIA.html'
     }, {
         'titulo': 'ECUADOR TV',
-        'id': 'ID',
+        'id': 'ECUADOR_TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>ECUADOR TV',
         'tags' : ['Ecuador'],
         'url': '../Monitores/Senal/ECUADOR_TV.html'
     }, {
         'titulo': 'ECUAVISA',
-        'id': 'ID',
+        'id': 'ECUAVISA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>ECUAVISA',
         'tags' : ['Ecuador'],
         'url': '../Monitores/Senal/ECUAVISA.html'
     },{
         'titulo': 'TELESUR',
-        'id': 'ID',
+        'id': 'TELESUR_ESPAÑOL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ve.svg" title="VENEZUELA"></img>TELESUR',
         'tags' : ['Venezuela'],
         'url': '../Monitores/Senal/TELESUR.html'
     }, {
         'titulo': 'TELESUR ENGLISH',
-        'id': 'ID',
+        'id': 'TELESUR_ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ve.svg" title="VENEZUELA"></img>TELESUR ENGLISH',
         'tags' : ['Venezuela'],
         'url': '../Monitores/Senal/TELESUR_ENG.html'
     }, {
         'titulo': 'VTV',
-        'id': 'ID',
+        'id': 'VTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ve.svg" title="VENEZUELA"></img>VTV',
         'tags' : ['Venezuela'],
         'url': '../Monitores/Senal/VTV.html'
     }, {
         'titulo': 'TVes',
-        'id': 'ID',
+        'id': 'TV_ES',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ve.svg" title="VENEZUELA"></img>TVes',
         'tags' : ['Venezuela'],
         'url': '../Monitores/Senal/TVes.html'
     }, {
         'titulo': 'N+',
-        'id': 'ID',
+        'id': 'N_PLUS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>N+',
         'tags' : ['Mexico'],
         'url': '../Monitores/Senal/NMAS_MEXICO.html'
     }, {
         'titulo': 'N+ MEDIA',
-        'id': 'ID',
+        'id': 'N_PLUS_EXTRA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>N+ MEDIA',
         'tags' : ['Mexico'],
         'url': '../Monitores/Senal/NMAS_MEDIA_MEXICO.html'
     }, {
         'titulo': 'FORO TV',
-        'id': 'ID',
+        'id': 'FOROTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>FORO TV',
         'tags' : ['Mexico'],
         'url': '../Monitores/Senal/FOROTV_MEXICO.html'
     }, {
         'titulo': 'MILENO TV',
-        'id': 'ID',
+        'id': 'MILENIO_TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>MILENO TV',
         'tags' : ['Mexico'],
         'url': '../Monitores/Senal/MILENIO_TV.html'
     }, {
         'titulo': 'ADN 40',
-        'id': 'ID',
+        'id': 'ADN40',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>ADN 40',
         'tags' : ['Mexico'],
         'url': '../Monitores/Senal/ADN40.html'
     }, {
         'titulo': 'EURONEWS ESPAÑOL',
-        'id': 'ID',
+        'id': 'EURONEWS_ESPAÑOL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ESPAÑOL',
         'tags' : ['Francia'],
         'url': '../Monitores/Senal/EURONEWS_ESPANOL.html'
     },{
         'titulo': 'EURONEWS ENGLISH',
-        'id': 'ID',
+        'id': 'EURONEWS_ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ENGLISH',
         'tags' : ['Francia'],
         'url': '../Monitores/Senal/EURONEWS_ENGLISH.html'
     },{
         'titulo': 'EURONEWS FRANCES',
-        'id': 'ID',
+        'id': 'EURONEWS_FRANCES',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS FRANCES',
         'tags' : ['Francia'],
         'url': '../Monitores/Senal/EURONEWS_FRANCIA.html'
     },{
         'titulo': 'EURONEWS RUSO',
-        'id': 'ID',
+        'id': 'EURONEWS_RUSO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS RUSO',
         'tags' : ['Francia'],
         'url': '../Monitores/Senal/EURONEWS_RUSO.html'
     },{
         'titulo': 'EURONEWS PORTUGUÉS',
-        'id': 'ID',
+        'id': 'EURONES_PORTUGUES',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS PORTUGUÉS',
         'tags' : ['Francia'],
         'url': '../Monitores/Senal/EURONEWS_PORTUGUES.html'
     },{
         'titulo': 'EURONEWS ALBANIA',
-        'id': 'ID',
+        'id': 'EURONEWS_ALBANIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ALBANIA',
         'tags' : ['Francia'],
         'url': '../Monitores/Senal/EURONEWS_ALBANIA.html'
     },{
         'titulo': 'EURONEWS ITALIANO',
-        'id': 'ID',
+        'id': 'EURONEWS_ITALIANO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ITALIANO',
         'tags' : ['Francia'],
         'url': '../Monitores/Senal/EURONEWS_ITALIANO.html'
     },{
         'titulo': 'FRANCE24',
-        'id': 'ID',
+        'id': 'FRANCE_24',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>FRANCE24',
         'tags' : ['Francia'],
         'url': '../Monitores/Senal/FRANCE24.html'
     }, {
         'titulo': 'FRANCE24 ESPAÑOL',
-        'id': 'ID',
+        'id': 'FRANCE_24_ESPAÑOL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>FRANCE24 ESPAÑOL',
         'tags' : ['Francia'],
         'url': '../Monitores/Senal/FRANCE24_ESPANOL.html'
     }, {
         'titulo': 'FRANCE24 ENGLISH',
-        'id': 'ID',
+        'id': 'FRANCE_24_ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>FRANCE24 ENGLISH',
         'tags' : ['Francia'],
         'url': '../Monitores/Senal/FRANCE24_ENGLISH.html'
     }, {
         'titulo': 'BFM TV',
-        'id': 'ID',
+        'id': 'BFM_TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>BFM TV',
         'tags' : ['Francia'],
         'url': '../Monitores/Senal/BFMTV.html'
     },{
         'titulo': 'RAI NEWS 24',
-        'id': 'ID',
+        'id': 'RAI_NEWS_24',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/it.svg" title="ITALIA"></img>RAI NEWS 24',
         'tags' : ['Italia'],
         'url': '../Monitores/Senal/RAI_NEWS24.html'
     }, {
-        'titulo': '24H TVE',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>CANAL 24 HORAS TVE',
+        'titulo': '24H RTVE',
+        'id': '24HRTVE',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>CANAL 24 HORAS RTVE',
         'tags' : ['España'],
         'url': '../Monitores/Senal/24HORASTVE.html'
     }, {
         'titulo': 'LA 1',
-        'id': 'ID',
+        'id': 'LA_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>LA 1',
         'tags' : ['España'],
         'url': '../Monitores/Senal/TVE_LA1.html'
     }, {
         'titulo': 'LA 2',
-        'id': 'ID',
+        'id': 'LA_2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>LA 2',
         'tags' : ['España'],
         'url': '../Monitores/Senal/TVE_LA2.html'
     }, {
         'titulo': 'DW',
-        'id': 'ID',
+        'id': 'DW',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW',
         'tags' : ['Alemania'],
         'url': '../Monitores/Senal/DW_DEUTSCH.html'
     }, {
         'titulo': 'DW+',
-        'id': 'ID',
+        'id': 'DW_PLUS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW+',
         'tags' : ['Alemania'],
         'url': '../Monitores/Senal/DW_DEUTSCH_PLUS.html'
     }, {
         'titulo': 'DW ARABIC',
-        'id': 'ID',
+        'id': 'DW_ARABIC',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW ARABIC',
         'tags' : ['Alemania'],
         'url': '../Monitores/Senal/DW_ARABIC.html'
     }, {
         'titulo': 'DW ENGLISH',
-        'id': 'ID',
+        'id': 'DW_ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW ENGLISH',
         'tags' : ['Alemania'],
         'url': '../Monitores/Senal/DW_ENGLISH.html'
     }, {
         'titulo': 'DW ESPAÑOL',
-        'id': 'ID',
+        'id': 'DW_ESPAÑOL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW ESPAÑOL',
         'tags' : ['Alemania'],
         'url': '../Monitores/Senal/DW_ESPAÑOL.html'
     }, {
         'titulo': 'RT ENGLISH',
-        'id': 'ID',
+        'id': 'RT_ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT ENGLISH',
         'tags' : ['Rusia'],
         'url': '../Monitores/Senal/RT_ENGLISH.html'
     }, {
         'titulo': 'RT ESPAÑOL',
-        'id': 'ID',
+        'id': 'RT_ESPAÑOL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT ESPAÑOL',
         'tags' : ['Rusia'],
         'url': '../Monitores/Senal/RT_ESPANOL.html'
     }, {
         'titulo': 'RT FRANCÉS',
-        'id': 'ID',
+        'id': 'RT_FRANCES',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT FRANCÉS',
         'tags' : ['Rusia'],
         'url': '../Monitores/Senal/RT_FRANCE.html'
     }, {
         'titulo': 'RT ALEMÁN',
-        'id': 'ID',
+        'id': 'RT_ALEMAN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT ALEMÁN',
         'tags' : ['Rusia'],
         'url': '../Monitores/Senal/RT_ALEMAN.html'
     }, {
         'titulo': 'CGTN ENGLISH',
-        'id': 'ID',
+        'id': 'CGTN_ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ENGLISH',
         'tags' : ['China'],
         'url': '../Monitores/Senal/CGTN_ENG.html'
     }, {
         'titulo': 'CGTN ESPAÑOL',
-        'id': 'ID',
+        'id': 'CGTN_ESPAÑOL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ESPAÑOL',
         'tags' : ['China'],
         'url': '../Monitores/Senal/CGTN_ESP.html'
     }, {
         'titulo': 'CGTN FRANCÉS',
-        'id': 'ID',
+        'id': 'CGTN_FRANCES',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN FRANCÉS',
         'tags' : ['China'],
         'url': '../Monitores/Senal/CGTN_FR.html'
     }, {
         'titulo': 'CGTN RUSO',
-        'id': 'ID',
+        'id': 'CGTN_RUSO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN RUSO',
         'tags' : ['China'],
         'url': '../Monitores/Senal/CGTN_RUSO.html'
     }, {
         'titulo': 'CGTN ARABIC',
-        'id': 'ID',
+        'id': 'CGTN_ARABIC',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ARABIC',
         'tags' : ['China'],
         'url': '../Monitores/Senal/CGTN_ARABIC.html'
     }, {
         'titulo': 'NHK WORLD',
-        'id': 'ID',
+        'id': 'NHK_WORLD',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>NHK WORLD',
         'tags' : ['Japon'],
         'url': '../Monitores/Senal/NHK.html'
     },{
         'titulo': 'NHK GENERAL TV',
-        'id': 'ID',
+        'id': 'NHK_GENERAL_TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>NHK GENERAL TV',
         'tags' : ['Japon'],
         'url': '../Monitores/Senal/NHK_GENERAL_TV.html'
     },{
         'titulo': 'NHK EDUCATIONAL TV',
-        'id': 'ID',
+        'id': 'NHK_EDUCATIONAL_TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>NHK EDUCATIONAL TV',
         'tags' : ['Japon'],
         'url': '../Monitores/Senal/NHK_EDUCATIONAL_TV.html'
     },{
         'titulo': 'NIPPON TV NEWS24',
-        'id': 'ID',
+        'id': 'NIPPONTV_NEWS24',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/jp.svg" title="JAPON"></img>NIPPON TV NEWS24',
         'tags' : ['Japon'],
         'url': '../Monitores/Senal/NIPPONTV_NEWS_24.html'
     },{
         'titulo': 'KOREAN CENTRAL TV',
-        'id': 'ID',
+        'id': 'KOREAN_CENTRAL_TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kp.svg" title="KOREA DEL NORTE"></img>KOREAN CENTRAL TV',
         'tags' : ['Corea Del Norte'],
         'url': '../Monitores/Senal/KOREAN_CENTRAL_TV.html'
     },{
         'titulo': 'IRAN INTERNATIONAL',
-        'id': 'ID',
+        'id': 'IRAN_INTERNACIONAL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ir.svg" title="IRÁN"></img>IRAN INTERNATIONAL',
         'tags' : ['Iran'],
         'url': '../Monitores/Senal/IRAN_INTERNACIONAL.html'
     },{
         'titulo': 'PRESS TV',
-        'id': 'ID',
+        'id': 'PRESS_TV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ir.svg" title="IRÁN"></img>PRESS TV',
         'tags' : ['Iran'],
         'url': '../Monitores/Senal/PRESSTV.html'
     },{
         'titulo': 'HISPANTV',
-        'id': 'ID',
+        'id': 'HISPANTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ir.svg" title="IRÁN"></img>HISPANTV',
         'tags' : ['Iran'],
         'url': '../Monitores/Senal/HISPANTV_ESP.html'
     },{
         'titulo': 'CHANNEL 12',
-        'id': 'ID',
+        'id': 'CHANNEL_12',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/il.svg" title="ISRAEL"></img>CHANNEL 12',
         'tags' : ['Israel'],
         'url': '../Monitores/Senal/CHANNEL12_ISRAEL.html'
     },{
         'titulo': 'CHANNEL 13',
-        'id': 'ID',
+        'id': 'CHANNEL_13',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/il.svg" title="ISRAEL"></img>CHANNEL 13',
         'tags' : ['Israel'],
         'url': '../Monitores/Senal/CHANNEL13_ISRAEL.html'
     },{
         'titulo': 'CHANNEL 14',
-        'id': 'ID',
+        'id': 'CHANNEL_14',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/il.svg" title="ISRAEL"></img>CHANNEL 14',
         'tags' : ['Israel'],
         'url': '../Monitores/Senal/CHANNEL14_ISRAEL.html'
     },{
         'titulo': 'TRT WORLD',
-        'id': 'ID',
+        'id': 'TRT_WORLD',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/tr.svg" title="TÜRKIYE"></img>TRT WORLD',
         'tags' : ['Türkiye'],
         'url': '../Monitores/Senal/TRTWORLD.html'
     },{
         'titulo': 'AL JAZEERA ENGLISH',
-        'id': 'ID',
+        'id': 'AL_JAZEERA_ENGLISH',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg" title="CATAR"></img>AL JAZEERA ENGLISH',
         'tags' : ['Catar'],
         'url': '../Monitores/Senal/AL_JAZEERA_EN.html'
     }, {
         'titulo': 'AL JAZEERA ARABIC',
-        'id': 'ID',
+        'id': 'AL_JAZEERA_ARABIC',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg" title="CATAR"></img>AL JAZEERA ARABIC',
         'tags' : ['Catar'],
         'url': '../Monitores/Senal/AL_JAZEERA_ARABIC.html'
     }, {
         'titulo': 'AL JAZEERA MUBASHER',
-        'id': 'ID',
+        'id': 'AL_JAZEERA_MUBASHER',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg" title="CATAR"></img>AL JAZEERA MUBASHER',
         'tags' : ['Catar'],
         'url': '../Monitores/Senal/AL_JAZEERA_MUBASHER.html'
     }, {
         'titulo': 'SKY NEWS',
-        'id': 'ID',
+        'id': 'SKY_NEWS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>SKY NEWS',
         'tags' : ['Reino Unido'],
         'url': '../Monitores/Senal/SKY_NEWS.html'
     }, {
         'titulo': 'BBC NEWS',
-        'id': 'ID',
+        'id': 'BBC_NEWS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>BBC NEWS',
         'tags' : ['Reino Unido'],
         'url': '../Monitores/Senal/BBCNEWS.html'
     }, {
         'titulo': 'BBC NEWS ARABIC',
-        'id': 'ID',
+        'id': 'BBC_NEWS_ARABIC',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>BBC NEWS ARABIC',
         'tags' : ['Reino Unido'],
         'url': '../Monitores/Senal/BBCNEWS_ARABIC.html'
     }, {
         'titulo': 'ABC NEWS',
-        'id': 'ID',
+        'id': 'ABC_NEWS_AU',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/au.svg" title="AUSTRALIA"></img>ABC NEWS',
         'tags' : ['Australia'],
         'url': '../Monitores/Senal/ABC_NEWS_AU.html'
     }, {
         'titulo': 'CSPAN',
-        'id': 'ID',
+        'id': 'CSPAN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CSPAN',
         'tags' : ['Estados Unidos'],
         'url': 'SeñaCSPAN.html'
     }, {
         'titulo': 'ABC NEWS',
-        'id': 'ID',
+        'id': 'ABC_NEWS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>ABC NEWS',
         'tags' : ['Estados Unidos'],
         'url': '../Monitores/Senal/ABC_NEWS.html'
     }, {
         'titulo': 'NBC NEWS',
-        'id': 'ID',
+        'id': 'NBC_NEWS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>NBC NEWS',
         'tags' : ['Estados Unidos'],
         'url': '../Monitores/Senal/NBCNEWS.html'
     }, {
         'titulo': 'CBS NEWS',
-        'id': 'ID',
+        'id': 'CBS_NEWS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CBS NEWS',
         'tags' : ['Estados Unidos'],
         'url': '../Monitores/Senal/CBSNEWS.html'
     }, {
         'titulo': 'FOX NEWS NOW',
-        'id': 'ID',
+        'id': 'FOX_NEWS_NOW',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>FOX NEWS NOW',
         'tags' : ['Estados Unidos'],
         'url': '../Monitores/Senal/FOX_NEWS_NOW.html'
     }, {
         'titulo': 'FOX WEATHER',
-        'id': 'ID',
+        'id': 'FOX_WEATHER',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>FOX WEATHER',
         'tags' : ['Estados Unidos'],
         'url': '../Monitores/Senal/FOX_WEATHER.html'
     }, {
         'titulo': 'CNN',
-        'id': 'ID',
+        'id': 'CNN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CNN',
         'tags' : ['Estados Unidos'],
         'url': '../Monitores/Senal/CNN.html'
     }, {
         'titulo': 'CNN INTERNTATIONAL',
-        'id': 'ID',
+        'id': 'CNN_INTERNATIONAL',
         'nombre': '<span id="CNNINTERNACIONAL" style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CNN INTERNATIONAL',
         'tags' : ['Estados Unidos'],
         'url': '../Monitores/Senal/CNNINTERNACIONAL.html'
     }, {
         'titulo': 'CNN INDONESIA',
-        'id': 'ID',
+        'id': 'CNN_INDONESIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/id.svg" title="INDONESIA"></img>CNN INDONESIA',
         'tags' : ['Estados Unidos'],
         'url': '../Monitores/Senal/CNNINDONESIA.html'
     }, {
         'titulo': 'CNN PHILIPPINES',
-        'id': 'ID',
+        'id': 'CNN_PHILIPPINES',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ph.svg" title="FILIPINAS"></img>CNN PHILIPPINES',
         'tags' : ['Filipinas'],
         'url': '../Monitores/Senal/CNN_PHILIPPINES.html'
@@ -1413,945 +1401,910 @@ let LosCanales = [
         //NOTICIAS YOUTUBE
         //LATINOAMERICA
         'titulo': 'DNEWS',
-        'id': 'ID',
+        'id': 'DNEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><span style="margin-right: 10px;" class="material-icons-round">language</span>DNEWS',
         'tags' : ['Latino America'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC4dWvSKVWJ36tJyhjDQCCaQ&autoplay=true&mute=1'
     }, {
-         //BRASIL
-         'titulo': 'CNN BRASIL',
-         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>CNN BRASIL',
-         'tags' : ['Brasil'],
+        //BRASIL
+        'titulo': 'CNN BRASIL',
+        'id': 'CNN_BRASIL_YT',
+        'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>CNN BRASIL',
+        'tags' : ['Brasil'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCvdwhh_fDyWccR42-rReZLw&autoplay=true&mute=1'
      }, {
-         'titulo': 'TV BRASIL',
-         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>TV BRASIL',
-         'tags' : ['Brasil'],
+        'titulo': 'TV BRASIL',
+        'id': 'TV_BRASIL_YT',
+        'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>TV BRASIL',
+        'tags' : ['Brasil'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCSv9d0kQegylHWpP83jWSQg&autoplay=true&mute=1'
      }, {
         'titulo': 'RECORD NEWS',
-        'id': 'ID',
+        'id': 'RECORD_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>RECORD NEWS',
         'tags' : ['Brasil'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCuiLR4p6wQ3xLEm15pEn1Xw&autoplay=true&mute=1'
     }, {
         'titulo': 'STB NEWS',
-        'id': 'ID',
+        'id': 'STB_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>STB NEWS',
         'tags' : ['Brasil'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC376n347Ob5Lwzq2WGzF1AA&autoplay=true&mute=1'
     }, {
-         'titulo': 'BAND JORNALISMO',
-         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>BAND JORNALISMO',
-         'tags' : ['Brasil'],
+        'titulo': 'BAND JORNALISMO',
+        'id': 'BAND_JORNALISMO_YT',
+        'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>BAND JORNALISMO',
+        'tags' : ['Brasil'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCoa-D_VfMkFrCYodrOC9-mA&autoplay=true&mute=1'
      }, {
-         'titulo': 'JOVEM PAN NEWS',
-         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>JOVEM PAN NEWS',
-         'tags' : ['Brasil'],
+        'titulo': 'JOVEM PAN NEWS',
+        'id': 'JOVEN_PAN_NEWS_YT',
+        'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>JOVEM PAN NEWS',
+        'tags' : ['Brasil'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCP391YRAjSOdM_bwievgaZA&autoplay=true&mute=1'
      }, {
         //AUSTRALIA
         'titulo': 'ABC NEWS',
-        'id': 'ID',
+        'id': 'ABC_NEWS_AU_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/au.svg" title="AUSTRALIA"></img>ABC NEWS',
         'tags' : ['Australia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCVgO39Bk5sMo66-6o6Spn6Q&autoplay=true&mute=1'
     }, {
         //ESTADOS UNIDOS
         'titulo': 'ABC NEWS',
-        'id': 'ID',
+        'id': 'ABC_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>ABC NEWS',
         'tags' : ['Estados Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCBi2mrWuNuyYy4gbM6fU18Q&autoplay=true&mute=1'
     }, {
         'titulo': 'NBC NEWS',
-        'id': 'ID',
+        'id': 'NBC_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>NBC NEWS',
         'tags' : ['Estados Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCeY0bbntWzzVIaj2z3QigXg&autoplay=true&mute=1'
     }, {
         'titulo': 'PBS NEWSHOUR',
-        'id': 'ID',
+        'id': 'PBS_NEWSHOUR_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>PBS NEWSHOUR',
         'tags' : ['Estados Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC6ZFN9Tx6xh-skXCuRHCDpQ&autoplay=true&mute=1'
     }, {
         'titulo': 'UNIVISION NOTICIAS',
-        'id': 'ID',
+        'id': 'UNIVISION_NOTICIAS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>UNIVISION NOTICIAS',
         'tags' : ['Estados Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC32TdiIsh_5X8tKr_9rKQyA&autoplay=true&mute=1'
     }, {
         'titulo': 'TELEMUNDO NOTICIAS',
-        'id': 'ID',
+        'id': 'TELEMUNDO_NOTICIAS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>TELEMUNDO NOTICIAS',
         'tags' : ['Estados Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCRwA1NUcUnwsly35ikGhp0A&autoplay=true&mute=1'
     }, {
         'titulo': 'AL ROJO VIVO (TELEMUNDO)',
-        'id': 'ID',
+        'id': 'AL_ROJO_VIVO_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>AL ROJO VIVO (TELEMUNDO)',
         'tags' : ['Estados Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCDUxOvbwu1bnyD7AucP0ESw&autoplay=true&mute=1'
     }, {
         'titulo': 'VOA TV ESPAÑOL',
-        'id': 'ID',
+        'id': 'VOA_TV_ESPAÑOL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>VOA TV ESP',
         'tags' : ['Estados Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCJ46VgZgCMLFUvOT671AOJw&autoplay=true&mute=1'
     }, {
         'titulo': 'REUTERS',
-        'id': 'ID',
+        'id': 'REUTERS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>REUTERS',
         'tags' : ['Estados Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UChqUTb7kYRX8-EiaN3XFrSQ&autoplay=true&mute=1'
     }, {
         //REINO UNIDO
         'titulo': 'SKY NEWS',
-        'id': 'ID',
+        'id': 'SKY_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>SKY NEWS',
         'tags' : ['Reino Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCoMdktPbSTixAyNGwb-UYkQ&autoplay=true&mute=1'
     }, {
         'titulo': 'ITV NEWS',
-        'id': 'ID',
+        'id': 'ITV_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>ITV NEWS',
         'tags' : ['Reino Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCFQgi22Ht00CpaOQLtvZx2A&autoplay=true&mute=1'
     }, {
         'titulo': 'BBC NEWS',
-        'id': 'ID',
+        'id': 'BBC_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>BBC NEWS',
         'tags' : ['Reino Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC16niRr50-MSBwiO3YDb3RA&autoplay=true&mute=1'
     }, {
         'titulo': 'BBC NEWS ARABIC',
-        'id': 'ID',
+        'id': 'BBC_NEWS_ARABIC_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>BBC NEWS ARABIC',
         'tags' : ['Reino Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCelk6aHijZq-GJBBB9YpReA&autoplay=true&mute=1'
     }, {
         'titulo': 'BBC',
-        'id': 'ID',
+        'id': 'BBC_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>BBC',
         'tags' : ['Reino Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCCj956IF62FbT7Gouszaj9w&autoplay=true&mute=1'
     }, {
         'titulo': 'THE SUN',
-        'id': 'ID',
+        'id': 'THE_SUN_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>THE SUN',
         'tags' : ['Reino Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCIzXayRP7-P0ANpq-nD-h5g&autoplay=true&mute=1'
     }, {
         'titulo': 'DAILY MAIL',
-        'id': 'ID',
+        'id': 'DAILY_MAIL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>DAILY MAIL',
         'tags' : ['Reino Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCw3fku0sH3qA3c3pZeJwdAw&autoplay=true&mute=1'
     }, {
         'titulo': 'ROYAL CHANNEL',
-        'id': 'ID',
+        'id': 'ROYAL_CHANNEL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>THE ROYAL FAMILY CHANNEL',
         'tags' : ['Reino Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCCvgLV2Ixb8KCemj-UtXZ-g&autoplay=true&mute=1'
     }, {
         //ALEMANIA
         'titulo': 'DW',
-        'id': 'ID',
+        'id': 'DW_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW',
         'tags' : ['Alemania'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCMIgOXM2JEQ2Pv2d0_PVfcg&autoplay=true&mute=1'
     }, {
         'titulo': 'DW ENGLISH',
-        'id': 'ID',
+        'id': 'DW_ENGLISH_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW ENGLISH',
         'tags' : ['Alemania'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCknLrEdhRCp1aegoMqRaCZg&autoplay=true&mute=1'
     }, {
         'titulo': 'DW ESPAÑOL',
-        'id': 'ID',
+        'id': 'DW_ESPAÑOL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW ESPAÑOL',
         'tags' : ['Alemania'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCT4Jg8h03dD0iN3Pb5L0PMA&autoplay=true&mute=1'
     },{
         //FRANCIA
         'titulo': 'EURONEWS ESPAÑOL',
-        'id': 'ID',
+        'id': 'EURONEWS_ESPAÑOL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ESPAÑOL',
         'tags' : ['Francia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCyoGb3SMlTlB8CLGVH4c8Rw&autoplay=true&mute=1'
     }, {
         'titulo': 'EURONEWS FRANCIA',
-        'id': 'ID',
+        'id': 'EURONES_FRANCIA_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS FRANCIA',
         'tags' : ['Francia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCW2QcKZiU8aUGg4yxCIditg&autoplay=true&mute=1'
     }, {
         'titulo': 'EURONEWS ENGLISH',
-        'id': 'ID',
+        'id': 'EURONEWS_ENGLISH_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWSGLISH',
         'tags' : ['Francia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCSrZ3UV4jOidv8ppoVuvW9Q&autoplay=true&mute=1'
     },{
         'titulo': 'EURONEWS RUSO',
-        'id': 'ID',
+        'id': 'EURONEWS_RUSO_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS RUSO',
         'tags' : ['Francia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCFzJjgVicCtFxJ5B0P_ei8A&autoplay=true&mute=1'
     },{
         'titulo': 'EURONEWS PORTUGUÉS',
-        'id': 'ID',
+        'id': 'EURONEWS_PORTUGUES_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS PORTUGUÉS',
         'tags' : ['Francia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCUmEPYxmnyQDeRUcFkslmQw&autoplay=true&mute=1'
     },{
         'titulo': 'EURONEWS ALBANIA',
-        'id': 'ID',
+        'id': 'EURONEWS_ALBANIA_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ALBANIA',
         'tags' : ['Francia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UChR-A__NS_C5kHDWj3PeAhw&autoplay=true&mute=1'
     },{
         'titulo': 'EURONEWS ITALIANO',
-        'id': 'ID',
+        'id': 'EURONEWS_ITALIANO',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ITALIANO',
         'tags' : ['Francia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC1mX9vuLOYf8fhaXS_KcDRg&autoplay=true&mute=1'
     },{
         'titulo': 'FRANCE24',
-        'id': 'ID',
+        'id': 'FRANCE24_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>FRANCE24',
         'tags' : ['Francia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCCCPCZNChQdGa9EkATeye4g&autoplay=true&mute=1'
     }, {
         'titulo': 'FRANCE24 ESPAÑOL',
-        'id': 'ID',
+        'id': 'FRANCE24_ESPAÑOL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>FRANCE24 ESPAÑOL',
         'tags' : ['Francia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCUdOoVWuWmgo1wByzcsyKDQ&autoplay=true&mute=1'
     }, {
         'titulo': 'FRANCE24 ENGLISH',
-        'id': 'ID',
+        'id': 'FRANCE24_ENGLISH',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>FRANCE24 ENGLISH',
         'tags' : ['Francia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCQfwfsi5VrQ8yKZ-UWmAEFg&autoplay=true&mute=1'
     }, {
         //ITALIA
         'titulo': 'SKY TG24',
-        'id': 'ID',
+        'id': 'SKY_NEWS_TG24_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/it.svg" title="ITALIA"></img>SKY TG24',
         'tags' : ['Italia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCz6E3lF72mb6uoJ-mOlNo2A&autoplay=true&mute=1'
     }, {
         //ESPAÑA
         'titulo': '24 HORAS TVE',
-        'id': 'ID',
+        'id': '24HRTVE__YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>24 HORAS TVE',
         'tags' : ['España'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC7QZIf0dta-XPXsp9Hv4dTw&autoplay=true&mute=1'
     }, {
         'titulo': 'AGENCIA EFE',
-        'id': 'ID',
+        'id': 'AGENCIA_EFE_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>AGENCIA EFE',
         'tags' : ['España'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCvJS-YNyaWyOucx8bGrHVvw&autoplay=true&mute=1'
     }, {
         'titulo': 'EUROPA PRESS',
-        'id': 'ID',
+        'id': 'EUROPA_PRESS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>EUROPA PRESS',
         'tags' : ['España'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCh_chnQ7OJPQ8mZ7vbXFpIQ&autoplay=true&mute=1'
     }, {
         'titulo': 'EL PAIS',
-        'id': 'ID',
+        'id': 'EL_PAIS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>EL PAIS',
         'tags' : ['España'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCnsvJeZO4RigQ898WdDNoBw&autoplay=true&mute=1'
     }, {
         'titulo': 'MARCA',
-        'id': 'ID',
+        'id': 'MARCA__YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>MARCA',
         'tags' : ['España'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCop57Z1sYHrtCyxCpE2z2Bg&autoplay=true&mute=1'
     }, {
         'titulo': 'LA VANGUARDIA',
-        'id': 'ID',
+        'id': 'LA_VANGUARDIA_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>LA VANGUARDIA',
         'tags' : ['España'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UClLLRs_mFTsNT5U-DqTYAGg&autoplay=true&mute=1'
     }, {
         //COREA DEL SUR
         'titulo': 'KBS WORLD',
-        'id': 'ID',
+        'id': 'KBS_WORLD_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kr.svg" title="COREA DEL SUR"></img>KBS WORLD',
         'tags' : ['Corea del Sur'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC5BMQOsAB8hKUyHu9KI6yig&autoplay=true&mute=1'
     },{
         'titulo': 'KBS NEWS',
-        'id': 'ID',
+        'id': 'KBS_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kr.svg" title="COREA DEL SUR"></img>KBS NEWS',
         'tags' : ['Corea del Sur'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCcQTRi69dsVYHN3exePtZ1A&autoplay=true&mute=1'
     },{
         'titulo': 'YONHAP TV NEWS (YTN)',
-        'id': 'ID',
+        'id': 'YONHAP_TV_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kr.svg" title="COREA DEL SUR"></img>YONHAP TV NEWS (YTN)',
         'tags' : ['Corea del Sur'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UChlgI3UHCOnwUGzWzbJ3H5w&autoplay=true&mute=1'
     },{
         'titulo': 'JTBC NEWS',
-        'id': 'ID',
+        'id': 'JTBC_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kr.svg" title="COREA DEL SUR"></img>JTBC NEWS',
         'tags' : ['Corea del Sur'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCsU-I-vHLiaMfV_ceaYz5rQ&autoplay=true&mute=1'
     },{
         'titulo': 'SBS NEWS',
-        'id': 'ID',
+        'id': 'SBS_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kr.svg" title="COREA DEL SUR"></img>SBS NEWS',
         'tags' : ['Corea del Sur'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCkinYTS9IHqOEwR1Sze2JTw&autoplay=true&mute=1'
     },{
         'titulo': 'MBC NEWS',
-        'id': 'ID',
+        'id': 'MBC_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kr.svg" title="COREA DEL SUR"></img>MBC NEWS',
         'tags' : ['Corea del Sur'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCF4Wxdo3inmxP-Y59wXDsFw&autoplay=true&mute=1'
     },{
         //ARGENTINA
         'titulo': 'TN',
-        'id': 'ID',
+        'id': 'TN_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>TN',
         'tags' : ['Argentina'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCj6PcyLvpnIRT_2W_mwa9Aw&autoplay=true&mute=1'
     },{
         'titulo': 'AMERICA TV',
-        'id': 'ID',
+        'id': 'AMERICA_TV_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>AMERICA TV',
         'tags' : ['Argentina'],
         'url': '../Monitores/Senal/AMERICA_TV.html'
     },{
         'titulo': 'A24',
-        'id': 'ID',
+        'id': 'A24_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>A24',
         'tags' : ['Argentina'],
         'url': '../Monitores/Senal/A24.html'
     },{
         'titulo': 'IP NOTICIAS',
-        'id': 'ID',
+        'id': 'IP_NOTICIAS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>IP NOTICIAS',
         'tags' : ['Argentina'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC1bBjOZieJWHbsFA0LwjjJA&autoplay=true&mute=1'
     },{
         'titulo': 'TV PUBLICA',
-        'id': 'ID',
+        'id': 'TV_PUBLICA_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>TV PUBLICA',
         'tags' : ['Argentina'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCs231K71Bnu5295_x0MB5Pg&autoplay=true&mute=1'
     },{
         'titulo': 'C5N',
-        'id': 'ID',
+        'id': 'C5N_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>C5N',
         'tags' : ['Argentina'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCFgk2Q2mVO1BklRQhSv6p0w&autoplay=true&mute=1'
     },{
         'titulo': 'CANAL 26',
-        'id': 'ID',
+        'id': 'CANAL26_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>CANAL 26',
         'tags' : ['Argentina'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&autoplay=true&mute=1'
     },{
         'titulo': 'CRONICA TV',
-        'id': 'ID',
+        'id': 'CRONICA_TV_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>CRONICA TV',
         'tags' : ['Argentina'],
         'url': '../Monitores/Senal/CRONICA_TV.html'
     },{
         'titulo': 'LA NACION',
-        'id': 'ID',
+        'id': 'LANACION_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>LA NACION',
         'tags' : ['Argentina'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCba3hpU7EFBSk817y9qZkiA&autoplay=true&mute=1'
     },{
         'titulo': 'INFOBAE',
-        'id': 'ID',
+        'id': 'INFOBAE_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>INFOBAE',
         'tags' : ['Argentina'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCvsU0EGXN7Su7MfNqcTGNHg&autoplay=true&mute=1'
     },{
         'titulo': 'CLARIN',
-        'id': 'ID',
+        'id': 'CLARIN_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>CLARIN',
         'tags' : ['Argentina'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCjMGMWnToRcQRqmyVB4R2xQ&autoplay=true&mute=1'
     },{
         'titulo': 'PAGINA 12',
-        'id': 'ID',
+        'id': 'PAGINA12_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>PAGINA 12',
         'tags' : ['Argentina'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCJNDedOnljCssaiRZqg8-Dg&autoplay=true&mute=1'
     },{
         //PERU
         'titulo': 'TVPERU NOTICIAS',
-        'id': 'ID',
+        'id': 'TVPERU_NOTICIAS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>TVPERU NOTICIAS',
         'tags' : ['Peru'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCkZCoc42IipR1ucqJmIehsA&autoplay=true&mute=1'
     },{
         'titulo': 'ATV NOTICIAS',
-        'id': 'ID',
+        'id': 'ATV_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>ATV NOTICIAS',
         'tags' : ['Peru'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCYG5uXS3xdsoaXIxum1pAEw&autoplay=true&mute=1'
     },{
         'titulo': 'RPP NOTICIAS',
-        'id': 'ID',
+        'id': 'RPP_NOTICIAS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>RPP NOTICIAS',
         'tags' : ['Peru'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC5j8-2FT0ZMMBkmK72R4aeA&autoplay=true&mute=1'
     },{
         'titulo': 'LATINA NOTICIAS',
-        'id': 'ID',
+        'id': 'LATINA_NOTICIAS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>LATINA NOTICIAS',
         'tags' : ['Peru'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCpSJ5fGhmAME9Kx2D3ZvN3Q&autoplay=true&mute=1'
     },{
         'titulo': 'RADIO EXITOSA',
-        'id': 'ID',
+        'id': 'RADIO_EXITOSA_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>RADIO EXITOSA',
         'tags' : ['Peru'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCbyblOHU12USUbbPL_M7BNg&autoplay=true&mute=1'
     },{
         //COLOMBIA
         'titulo': 'NOTICIAS RCN',
-        'id': 'ID',
+        'id': 'NOTICIAS_RCN_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>NOTICIAS RCN',
         'tags' : ['Colombia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCnr6pbeXJmkNQJ9PSYle7QQ&autoplay=true&mute=1'
     },{
         'titulo': 'NOTICIAS CARACOL',
-        'id': 'ID',
+        'id': 'NOTICIAS_CARACOL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>NOTICIAS CARACOL',
         'tags' : ['Colombia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC2Xq2PK-got3Rtz9ZJ32hLQ&autoplay=true&mute=1'
     },{
         //ECUADOR
         'titulo': 'ECUADOR TV',
-        'id': 'ID',
+        'id': 'ECUADOR_TV_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>ECUADOR TV<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'tags' : ['Ecuador'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCfXVS_zw_XmAx8iIiia1IkA&autoplay=true&mute=1'
     },{
         'titulo': 'EL UNIVERSO',
-        'id': 'ID',
+        'id': 'EL_UNIVERSO_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>EL UNIVERSO',
         'tags' : ['Ecuador'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCLwBAR1YA6bQRNVCLYOM6Sg&autoplay=true&mute=1'
     },{
         'titulo': 'ECUAVISA',
-        'id': 'ID',
+        'id': 'ECUAVISA_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>ECUAVISA<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="color: #39AA1A; font-size: 17px" class="material-icons-round">auto_awesome</span><span style="color: #39AA1A; font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'tags' : ['Ecuador'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCRUV3nUNSc-xpBrTwQOCQQg&autoplay=true&mute=1'
     },{
         //MEXICO
         'titulo': 'FORO TV',
-        'id': 'ID',
+        'id': 'FOROTV_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>FORO TV',
         'tags' : ['Mexico'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCUsm-fannqOY02PNN67C0KA&autoplay=true&mute=1'
     },{
         'titulo': 'MILENIO NOTICIAS',
-        'id': 'ID',
+        'id': 'MILENIO_NOTICIAS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>MILENIO NOTICIAS',
         'tags' : ['Mexico'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCFxHplbcoJK9m70c4VyTIxg&autoplay=true&mute=1'
     },{
         'titulo': 'ADN40',
-        'id': 'ID',
+        'id': 'ADN40_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>ADN40',
         'tags' : ['Mexico'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC7k--FhnJzhPTrbtldMSoQQ&autoplay=true&mute=1'
     },{
         //EL VATICANO
         'titulo': 'VATICAN NEWS',
-        'id': 'ID',
+        'id': 'VATICAN_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/va.svg" title="CIUDAD DEL VATICANO"></img>VATICAN NEWS',
         'tags' : ['Vaticano'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC7E-LYc1wivk33iyt5bR5zQ&autoplay=true&mute=1'
     },{
         'titulo': 'VATICAN NEWS ITALIANO',
-        'id': 'ID',
+        'id': 'VATICAN_NEWS_ITALIANO_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/va.svg" title="CIUDAD DEL VATICANO"></img>VATICAN NEWS ITALIANO',
         'tags' : ['Vaticano'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCkwbN2a1L1H6P9rcA7FhAqg&autoplay=true&mute=1'
     },{
         'titulo': 'VATICAN NEWS ENGLISH',
-        'id': 'ID',
+        'id': 'VATICAN_NEWS_ENGLISH_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/va.svg" title="CIUDAD DEL VATICANO"></img>VATICAN NEWS ENGLISH',
         'tags' : ['Vaticano'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCxIsefyl9g9A5SGWA4FvGIA&autoplay=true&mute=1'
     },{
         'titulo': 'VATICAN NEWS ESPAÑOL',
-        'id': 'ID',
+        'id': 'VATICAN_NEWS_ESPAÑOL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/va.svg" title="CIUDAD DEL VATICANO"></img>VATICAN NEWS ESPAÑOL',
         'tags' : ['Vaticano'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCnB5vfb9FMMNTnC6-kAT3fQ&autoplay=true&mute=1'
     },{
         //SINGAPORE
         'titulo': 'CNA NEWS',
-        'id': 'ID',
+        'id': 'CNA_NEWS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/sg.svg" title="SINGAPORE"></img><span style="margin-right: 10px;">CNA NEWS',
         'tags' : ['Singapore'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC83jt4dlz1Gjl58fzQrrKZg&autoplay=true&mute=1'
     },{
         //RUSIA
         'titulo': 'RT',
-        'id': 'ID',
+        'id': 'RT_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img><span style="margin-right: 10px;">RT</span><span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="font-size: 20px" class="material-icons-round TextoIconoRojo" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
         'tags' : ['Rusia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCpwvZwUam-URkxB7g4USKpg&autoplay=true&mute=1'
     },{
         'titulo': 'RT ESPAÑOL',
-        'id': 'ID',
+        'id': 'RT_ESPAÑOL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img><span style="margin-right: 10px;">RT ESPAÑOL</span><span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="font-size: 20px" class="material-icons-round TextoIconoRojo" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
         'tags' : ['Rusia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCEIhICHOQOonjE6V0SLdrHQ&autoplay=true&mute=1'
     },{
         'titulo': 'RUPTLY',
-        'id': 'ID',
+        'id': 'RUPTLY_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><span style="margin-right: 10px;"><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RUPTLY</span><span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="font-size: 20px" class="material-icons-round TextoIconoRojo" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
         'tags' : ['Rusia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC5aeU5hk31cLzq_sAExLVWg&autoplay=true&mute=1'
     },{
         'titulo': 'SPUTNIK',
-        'id': 'ID',
+        'id': 'SPUTNIK_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><span style="margin-right: 10px;"><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>SPUTNIK</span><span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="font-size: 20px" class="material-icons-round TextoIconoRojo" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
         'tags' : ['Rusia'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCI4lx9retCL7_cBmmceEQ8g&autoplay=true&mute=1'
     },{
         //CHINA
         'titulo': 'CCTV+',
-        'id': 'ID',
+        'id': 'CCTVPLUS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CCTV+',
         'tags' : ['China'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCmv5DbNpxH8X2eQxJBqEjKQ&autoplay=true&mute=1'
     },{
         'titulo': 'CGTN EUROPE',
-        'id': 'ID',
+        'id': 'CGTN_EUROPE',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ESPAÑOL',
         'tags' : ['China'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCj0TppyxzQWm9JbMg3CP8Rg&autoplay=true&mute=1'
     },{
         'titulo': 'CGTN ESPAÑOL',
-        'id': 'ID',
+        'id': 'CGTN_ESPAÑOL',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ESPAÑOL',
         'tags' : ['China'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCd94YCD7yp6d-YZSRYWyeFA&autoplay=true&mute=1'
     },{
         'titulo': 'CGTN FRANCÉS',
-        'id': 'ID',
+        'id': 'CGTN_FRANCES_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ESPAÑOL',
         'tags' : ['China'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCcfLuU0NFT0ZRoQy4jk6GdA&autoplay=true&mute=1'
     },{
         'titulo': 'CGTN ARABIC',
-        'id': 'ID',
+        'id': 'CGTN_ARABIC_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ESPAÑOL',
         'tags' : ['China'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCQmJk0ErE_FiorcLBsDKORA&autoplay=true&mute=1'
     },{
         //CATAR
         'titulo': 'AL JAZEERA ENG',
-        'id': 'ID',
+        'id': 'AL_JAZEERA_ENGLISH_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg" title="CATAR"></img>AL JAZEERA ENGLISH',
         'tags' : ['Catar'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCNye-wNBqNL5ZzHSJj3l8Bg&autoplay=true&mute=1'
     },{
         'titulo': 'AL JAZEERA ARABIC',
-        'id': 'ID',
+        'id': 'AL_JAZEERA_ARABIC_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg" title="CATAR"></img>AL JAZEERA ARABIC',
         'tags' : ['Catar'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCfiwzLy-8yKzIbsmZTzxDgw&autoplay=true&mute=1'
     },{
         'titulo': 'AL JAZEERA MUBASHER',
-        'id': 'ID',
+        'id': 'AL_JAZEERA_MUBASHER_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg" title="CATAR"></img>AL JAZEERA MUBASHER',
         'tags' : ['Catar'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCCv1Pd24oPErw5S7zJWltnQ&autoplay=true&mute=1'
     },{
         //UCRANIA
         'titulo': 'UCRANIA24',
-        'id': 'ID',
+        'id': 'UCRANIA24_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ua.svg" title="UCRANIA"></img>UCRANIA24',
         'tags' : ['Ucrania'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCMp5Buw-6LpbbV9r9Sl_5yg&autoplay=true&mute=1'
     },{
         //CHILE
         'titulo': 'MEDIABANCO',
-        'id': 'ID',
+        'id': 'MEDIABANCO_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>MEDIABANCO',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/MEDIABANCO_YT.html'
     },{
-        'titulo': 'AGENCIA UNO',
-        'id': 'ID',
-        'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>AGENCIA UNO TV',
-        'tags' : ['Chile'],
-        'url': '../Monitores/Senal/AGENCIAUNOTV_2.html'
-    },{
         'titulo': 'SERVEL',
-        'id': 'ID',
+        'id': 'SERVEL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>SERVEL',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCB8s6rETjmWgXrp_BxyXqdg&autoplay=true&mute=1'
     },{
         'titulo': '24 HORAS',
-        'id': 'ID',
+        'id': '24HTVN_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24HORAS.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=true&mute=1'
     },{
         'titulo': 'CNN CHILE',
-        'id': 'ID',
+        'id': 'CNNCHILE_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CNNCHILE2.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCpOAcjJNAp0Y0fhznRrXIJQ&autoplay=true&mute=1'
     },{
         'titulo': 'MEGANOTICIAS',
-        'id': 'ID',
+        'id': 'MEGANOTICIAS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_MEGANOTICIAS.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=true&mute=1'
     },{
         'titulo': 'CHV NOTICIAS',
-        'id': 'ID',
+        'id': 'CHV_NOTICIAS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV_NOTICIAS.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCRsUoZYC1ULUspipMRnMhwg&autoplay=true&mute=1'
     },{
         'titulo': 'T13',
-        'id': 'ID',
+        'id': 'T13_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_T13_ENVIVO.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=true&mute=1'
     },{
         'titulo': 'TVN',
-        'id': 'ID',
+        'id': 'TVN_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCaVaCaiG6qRzDiJDuEGKOhQ&autoplay=true&mute=1'
     },{
         'titulo': 'MEGA',
-        'id': 'ID',
+        'id': 'MEGA_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_MEGA.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCEpId-jtRABuZyX6D2z6FZQ&autoplay=true&mute=1'
     },{
         'titulo': 'CHV',
-        'id': 'ID',
+        'id': 'CHV_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC8EdTmyUaFIfZvVttJ9lgIA&autoplay=true&mute=1'
     },{
         'titulo': 'CANAL 13',
-        'id': 'ID',
+        'id': 'CANAL13_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCd4D3LfXC_9MY2zSv_3gMgw&autoplay=true&mute=1'
     },{
         'titulo': 'RADIO LA CLAVE',
-        'id': 'ID',
+        'id': 'RADIO_LA_CLAVE_FB',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>RADIO LA CLAVE',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCKGi2oU9Eoa5dJAIE7K60gA&autoplay=true&mute=1'
     },{
         'titulo': '24 HORAS',
-        'id': 'ID',
+        'id': '24HTVN_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24HORAS.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F24horas.cl%2Flive%2F&show_text=0&mute=0'
     },{
         'titulo': 'CNN CHILE',
-        'id': 'ID',
+        'id': 'CNNCHILE_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CNNCHILE2.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnnchile%2Flive%2F&show_text=0&mute=0'
     },{
         'titulo': 'MEGANOTICIAS',
-        'id': 'ID',
+        'id': 'MEGANOTICIAS_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_MEGANOTICIAS.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmeganoticiascl%2Flive%2F&show_text=0&mute=0'
     },{
         'titulo': 'T13',
-        'id': 'ID',
+        'id': 'T13_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_T13_ENVIVO.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fteletrece%2Flive%2F&show_text=0&mute=0'
     },{
         'titulo': 'TVN',
-        'id': 'ID',
+        'id': 'TVN_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftvn.cl%2Flive%2F&show_text=0&mute=0'
     },{
         'titulo': 'MEGA',
-        'id': 'ID',
+        'id': 'MEGA_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_MEGA.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMEGACL%2Flive%2F&show_text=0&mute=0'
     },{
         'titulo': 'CHV',
-        'id': 'ID',
+        'id': 'CHV_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fchilevision%2Flive%2F&show_text=0&mute=0'
     },{
         'titulo': 'CANAL 13',
-        'id': 'ID',
+        'id': 'CANAL13_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>',
         'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Felcanal13%2Flive%2F&show_text=0&mute=0'
-    },
-
-    
-    {
-        'titulo': 'REUTERS',
-        'id': 'ID',
-        'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>REUTERS',
-        'tags' : ['tags'],
-        'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/Reuters/live/&show_text=0&mute=0'
-    }, {
-        'titulo': 'TELEMUNDO',
-        'id': 'ID',
-        'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>TELEMUNDO',
-        'tags' : ['tags'],
-        'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/NoticiasTelemundo/live/&show_text=0&mute=0'
-    }, {
-        'titulo': 'VOZ DE AMERICA',
-        'id': 'ID',
-        'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>VOZ DE AMERICA',
-        'tags' : ['tags'],
-        'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/VozDeAmerica/live/&show_text=0&mute=0'
-    }, {
-        'titulo': 'RUPTLY',
-        'id': 'ID',
-        'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>RUPTLY',
-        'tags' : ['tags'],
-        'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/Ruptly/live/&show_text=0&mute=0'
-    }, {
-        'titulo': 'SPUTNIK',
-        'id': 'ID',
-        'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">cell_tower</span>SPUTNIK',
-        'tags' : ['tags'],
-        'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/SputnikNews/live/&show_text=0&mute=0'
-    }, {
+    },{
         'titulo': 'ADN RADIO',
-        'id': 'ID',
+        'id': 'RADIO_ADN_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">mic</span>ADN RADIO',
-        'tags' : ['tags'],
+        'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/VozDeAmerica/live/&show_text=0&mute=0'
     },{
         'titulo': 'RADIO COOPERATIVA',
-        'id': 'ID',
+        'id': 'RADIO_COOPERATIVA_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">mic</span>COOPERATIVA',
-        'tags' : ['tags'],
+        'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/Cooperativa/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED ANTOFAGASTA',
-        'id': 'ID',
+        'id': 'TVN_RED_ANTOFAGASTA_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>ANTOFAGASTA',
-        'tags' : ['tags'],
+        'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/TVNREDANTOFAGASTA/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED COQUIMBO',
-        'id': 'ID',
+        'id': 'TVN_RED_COQUIMBO_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>COQUIMBO',
-        'tags' : ['tags'],
+        'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/redcoquimbotvn/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED VALPARAISO',
-        'id': 'ID',
+        'id': 'TVN_RED_VALPARAISO_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>VALPARAISO',
-        'tags' : ['tags'],
+        'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/Tvn-Red-Valparaíso-1051261168227502/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED OHIGGINS',
-        'id': 'ID',
+        'id': 'TVN_RED_OHIGGINS_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>OHIGGINS',
-        'tags' : ['tags'],
+        'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/tvnohiggins/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED MAULE',
-        'id': 'ID',
+        'id': 'TVN_RED_MAULE_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>MAULE',
-        'tags' : ['tags'],
+        'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/TVNRedMaule/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED BIOBIO',
-        'id': 'ID',
+        'id': 'TVN_RED_BIOBIO_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>BIOBIO',
-        'tags' : ['tags'],
+        'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/tvnredbiobio/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED ARAUCANIA',
-        'id': 'ID',
+        'id': 'TVN_RED_ARAUCANIA_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>ARAUCANIA',
-        'tags' : ['tags'],
+        'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/tvnredaraucaniaoficial/live/&show_text=1&mute=0'
     },{
         'titulo': 'TVN RED AUSTRAL',
-        'id': 'ID',
+        'id': 'TVN_RED_AUSTRAL_FB',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Facebook.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>AUSTRAL',
-        'tags' : ['tags'],
+        'tags' : ['Chile'],
         'url': 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/redaustral/live/&show_text=1&mute=0'
     },{
         'titulo': 'TRIBUNAL CONSTITUCIONAL',
-        'id': 'ID',
+        'id': 'TRIBUNAL_CONSTITUCIONAL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>T. CONTITUCIONAL',
-        'tags' : ['tags'],
+        'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=true&mute=1'
     }, {
         'titulo': 'TV SENADO SEÑAL 1',
-        'id': 'ID',
+        'id': 'TVSENADO_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVSENADO_2.svg">SEÑAL 1',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/TVSENADO_1.html'
     },{
         'titulo': 'TV SENADO SEÑAL 2',
-        'id': 'ID',
+        'id': 'TVSENADO_2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVSENADO_2.svg">SEÑAL 2',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/TVSENADO_2.html'
     },{
         'titulo': 'TV SENADO SEÑAL 3',
-        'id': 'ID',
+        'id': 'TVSENADO_3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVSENADO_2.svg">SEÑAL 3',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/TVSENADO_3.html'
     },{
         'titulo': 'TV SENADO SEÑAL 4',
-        'id': 'ID',
+        'id': 'TVSENADO_4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVSENADO_2.svg">SEÑAL 4',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/TVSENADO_4.html'
     },{
         'titulo': 'TV SENADO SEÑAL 5',
-        'id': 'ID',
+        'id': 'TVSENADO_5',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVSENADO_2.svg">SEÑAL 5',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/TVSENADO_5.html'
     },{
         'titulo': 'TV SENADO SEÑAL 6',
-        'id': 'ID',
+        'id': 'TVSENADO_6',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVSENADO_2.svg">SEÑAL 6',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/TVSENADO_6.html'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 1',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_1',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 1',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCcULnWuDzgQG9yF0Dv3DIgg&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 2',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_2',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 2',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCt6ZTZoyFaCrMHURyjQ3PxA&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 3',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_3',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 3',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCF6KgLfQqQzekn8U1DwVs9g&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 5',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_5',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 5',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC0QKtI8NpeMObauDylsSUDA&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 6',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_6',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 6',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCspWzpGflwb6A8PZqWw49CQ&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 7',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_7',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 7',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 8',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_8',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 8',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 9',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_9',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 9',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCgLlv-wIHnE_68RRSYRj8ZQ&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 10',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_10',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 10',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCJlJ6Q6ZV2InsE6fZWfJ9_g&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 11',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_11',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 11',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCYPKjGKq2yLbAnmth5rFZmQ&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 12',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_12',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 12',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCVOWFY-sgbDglBsfOap9okg&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 13',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_13',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 13',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 14',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_14',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 14',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCUG6xs0GZ-t8IL3RUSWDSOQ&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 15',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_15',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 15',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC8VmxlxvDhkrG6g0GnA5ksA&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 16',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_16',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 16',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCZz97rh70D0WSSjYSfTl-2Q&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 17',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_17',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 17',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCzkd-4oNNpWFN2zGWoyOz5w&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 18',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_18',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 18',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCNIa8pU-npLY7qm-8NVA3Sg&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA DIPUTADOS SEÑAL 20',
-        'id': 'ID',
+        'id': 'TVDIPUTADOS_20',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CAMARA DIPUTADOS - SEÑAL 20',
         'tags' : ['Chile'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCwk-F5PutmZrjZC8eHJ12Pg&autoplay=true&mute=1'
@@ -2359,236 +2312,230 @@ let LosCanales = [
 
         
         'titulo': 'PODER JUDICIAL TV 1',
-        'id': 'ID',
+        'id': 'PODER_JUDICIAL_TV_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 1',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/PoderJudicial_1.html'
     },{
         'titulo': 'PODER JUDICIAL TV 2',
-        'id': 'ID',
+        'id': 'PODER_JUDICIAL_TV_2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 2',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/PoderJudicial_2.html'
     },{
         'titulo': 'PODER JUDICIAL TV 3',
-        'id': 'ID',
+        'id': 'PODER_JUDICIAL_TV_3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 3',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/PoderJudicial_3.html'
     },{
         'titulo': 'PODER JUDICIAL TV 4',
-        'id': 'ID',
+        'id': 'PODER_JUDICIAL_TV_4',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 4',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/PoderJudicial_4.html'
     },{
         'titulo': 'PODER JUDICIAL TV 5',
-        'id': 'ID',
+        'id': 'PODER_JUDICIAL_TV_5',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 5',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/PoderJudicial_5.html'
     },{
         'titulo': 'PODER JUDICIAL TV 6',
-        'id': 'ID',
+        'id': 'PODER_JUDICIAL_TV_6',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 6',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/PoderJudicial_6.html'
     },{
         'titulo': 'PODER JUDICIAL TV 7',
-        'id': 'ID',
+        'id': 'PODER_JUDICIAL_TV_7',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 7',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/PoderJudicial_7.html'
     },{
         'titulo': 'PODER JUDICIAL TV 8',
-        'id': 'ID',
+        'id': 'PODER_JUDICIAL_TV_8',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_PoderJudicialTV.svg"></img>SEÑAL 8',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/PoderJudicial_8.html'
     },{
         //CAMARAS
         'titulo': 'STGO. PARQUEMET CUMBRE',
-        'id': 'ID',
+        'id': 'CAM_PARQUEMET_CUMBRE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. PARQUEMET CUMBRE',
         'tags' : ['Chile', 'Santiago'],
         'url': '../Monitores/Senal/CAMPARQUEMET_CUMBRE_2.html'
     },{
         'titulo': 'STGO. PARQUEMET TERRAZA',
-        'id': 'ID',
+        'id': 'CAM_PARQUEMET_TERRAZA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. PARQUEMET TERRAZA',
         'tags' : ['Chile', 'Santiago'],
         'url': '../Monitores/Senal/CAMPARQUEMET_TERRAZA_2.html'
     },{
         'titulo': 'STGO. PLAZA ITALIA',
-        'id': 'ID',
+        'id': 'CAM_PLAZA_ITALIA_YT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. PLAZA ITALIA<span style="margin-left: 3px; font-size: 12px;">(GALERIA CIMA)</span>',
         'tags' : ['Chile', 'Santiago'],
         'url': '../Monitores/Senal/CAMARA_PLAZA_ITALIA_CIMA.html'
     },{
         'titulo': 'STGO. SUR ORIENTE',
-        'id': 'ID',
+        'id': 'CAM_STGO_SUR_ORIENTE_YT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. SUR ORIENTE',
         'tags' : ['Chile', 'Santiago'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCMvQGOyumsXP4V7dGAdIKWg&autoplay=true&mute=1'
     },{
         'titulo': 'PEÑALOLEN NORTE',
-        'id': 'ID',
+        'id': 'CAM_PEÑALOLEN_NORTE_YT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PEÑALOLEN NORTE<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'tags' : ['Chile', 'Santiago'],
         'url': '../Monitores/Senal/CAMARA_LEDRIUM_PENALOLEN_NORTE.html'
     },{
         'titulo': 'PEÑALOLEN SUR',
-        'id': 'ID',
+        'id': 'CAM_PEÑALOLEN_SUR_YT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PEÑALOLEN SUR<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'tags' : ['Chile', 'Santiago'],
         'url': '../Monitores/Senal/CAMARA_LEDRIUM_PENALOLEN_SUR.html'
     },{
         'titulo': 'CERRILLOS',
-        'id': 'ID',
+        'id': 'CAM_CERRILLOS_YT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>CERRILLOS<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'tags' : ['Chile', 'Santiago'],
         'url': '../Monitores/Senal/CAMARA_LEDRIUM_CERRILLOS.html'
     },{
         'titulo': 'COSTANERA CENTER',
-        'id': 'ID',
+        'id': 'CAM_COSTANERA_CENTER_YT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>COSTANERA CENTER<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'tags' : ['Chile', 'Santiago'],
         'url': '../Monitores/Senal/CAMARA_LEDRIUM_COSTANERA_CENTER.html'
     },{
         'titulo': 'FARELLONES',
-        'id': 'ID',
+        'id': 'CAM_FARELLONES_YT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>FARELLONES<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'tags' : ['Chile', 'Santiago'],
         'url': '../Monitores/Senal/CAMARA_LEDRIUM_FARELLONES.html'
     },{
         'titulo': 'PROVIDENCIA',
-        'id': 'ID',
+        'id': 'CAM_PROVIDENCIA_YT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PROVIDENCIA<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'tags' : ['Chile', 'Santiago'],
         'url': '../Monitores/Senal/CAMARA_LEDRIUM_PROVIDENCIA.html'
     },{
         'titulo': 'TOBALABA',
-        'id': 'ID',
+        'id': 'CAM_TOBALABA_YT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>TOBALABA<span style="margin-left: 3px; font-size: 12px;">(LEDRIUM)</span>',
         'tags' : ['Chile', 'Santiago'],
         'url': '../Monitores/Senal/CAMARA_LEDRIUM_TOBALABA.html'
     },{
         'titulo': 'LEDRIUM YOUTUBE MAS RECIENTE',
-        'id': 'ID',
+        'id': 'CAM_LEDRIUM_YT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. LEDRIUM<span style="margin-left: 3px; font-size: 12px;">(MAS RECIENTE)</span>',
         'tags' : ['Chile', 'Santiago'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCDMqTaUZsY3ElB4xWpO8tFA&autoplay=true&mute=1'
     },{
         'titulo': 'VALPARAISO BAHIA',
-        'id': 'ID',
+        'id': 'CAM_VALPARAISO_BAHIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VALPARAISO BAHIA',
         'tags' : ['Chile', 'Valparaiso'],
         'url': '../Monitores/Senal/CAMARA_VALPARAISO.html'
     },{
         'titulo': 'VALPARAISO CIUDAD',
-        'id': 'ID',
+        'id': 'CAM_VALPARAISO_CIUDAD',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VALPARAISO CIUDAD',
         'tags' : ['Chile', 'Valparaiso'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCXaQjESu5cdF1CGH1aAA52Q&autoplay=true&mute=1'
     },{
         'titulo': 'VIÑA DEL MAR',
-        'id': 'ID',
+        'id': 'CAM_VIÑA_DEL_MAR',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR',
         'tags' : ['Chile', 'Valparaiso'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCLir6Xg0TVDGccruOZp8jaQ&autoplay=true&mute=1'
     },{
         'titulo': 'VIÑA DEL MAR - AVENIDA PERU',
-        'id': 'ID',
+        'id': 'CAM_VIÑA_DEL_MAR_AV_PERU',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR - AVENIDA PERU',
         'tags' : ['Chile', 'Valparaiso'],
         'url': '../Monitores/Senal/CAMARA_MAREJADA_UV_V_DEL_MAR_AV_PERU.html'
     },{
         'titulo': 'VIÑA DEL MAR - PLAYA ACAPULCO',
-        'id': 'ID',
+        'id': 'CAM_VIÑA_DEL_MAR_PLAYA_ACAPULCO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR - PLAYA ACAPULCO',
         'tags' : ['Chile', 'Valparaiso'],
         'url': '../Monitores/Senal/CAMARA_MAREJADA_UV_V_DEL_MAR_PLAYA_ACAPULCO.html'
     },{
         'titulo': 'VIÑA DEL MAR - PLAYA REÑACA',
-        'id': 'ID',
+        'id': 'CAM_VIÑA_DEL_MAR_PLAYA_REÑACA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR - PLAYA REÑACA',
         'tags' : ['Chile', 'Valparaiso'],
         'url': '../Monitores/Senal/CAMARA_MAREJADA_UV_V_DEL_MAR_PLAYA_REÑACA.html'
     },{
         'titulo': 'VIÑA DEL MAR',
-        'id': 'ID',
+        'id': 'CAM_VIÑA_DEL_MAR',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR<span style="margin-left: 3px; font-size: 12px;">(MAS RECIENTE)</span>',
         'tags' : ['Chile', 'Valparaiso'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCMfVFofrKT5qV71nG-sDBRg&autoplay=true&mute=1'
     },{
         'titulo': 'OSORNO',
-        'id': 'ID',
+        'id': 'CAM_OSORNO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>OSORNO',
         'tags' : ['Chile', 'Los Lagos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCbOdujzxdR-D-o1jKLr96CA&autoplay=true&mute=1'
     },{
-        'titulo': 'COYHAIQUE',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>COYHAIQUE',
-        'tags' : ['Chile', 'Aysen'],
-        'url': '../Monitores/Senal/RADIO_CANALSURPATAGONIA.html'
-    },{
         'titulo': 'PUNTA ARENAS',
-        'id': 'ID',
+        'id': 'CAM_PUNTA_ARENAS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PUNTA ARENAS',
         'tags' : ['Chile', 'Magallanes'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCKBgtFx0lRnflT3uBD7ppLw&autoplay=true&mute=1'
     },{
         'titulo': 'WEBCAMS MEXICO',
-        'id': 'ID',
+        'id': 'CAM_MEXICO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>WEBCAMS MEXICO',
         'tags' : ['Mexico'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UColBcWm6ybTbQnNuQS8JaKg&autoplay=true&mute=1'
     },{
         'titulo': 'CAPITOLIO EEUU',
-        'id': 'ID',
+        'id': 'CAM_EEUU',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>CAPITOLIO EEUU',
         'tags' : ['Estados Unidos'],
         'url': '../Monitores/Senal/CAMARA_CAPITOLIO_EEUU.html'
     },{
         'titulo': 'EARTHCAM LIVE',
-        'id': 'ID',
+        'id': 'CAM_EARTHCAM',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>EARTHCAM LIVE',
         'tags' : ['Estados Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC6qrG3W8SMK0jior2olka3g&autoplay=true&mute=1'
     },{
         'titulo': 'NEW YORK, BROOKLYN BRIDGE',
-        'id': 'ID',
+        'id': 'CAM_NEW_YORK_BROOKLYN_BRIDGE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>NYC BROOKLYN BRIDGE',
         'tags' : ['Estados Unidos'],
         'url': 'https://www.youtube.com/embed/KGuCGd726RA?autoplay=true&mute=1'
     },{
         'titulo': 'LOWER MANHATTAN NEW YORK HARBOR',
-        'id': 'ID',
+        'id': 'CAM_NEW_YORK_LOWE_MANHATTAN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>NYC LOWER MANHATTAN',
         'tags' : ['Estados Unidos'],
         'url': 'https://www.youtube.com/embed/Vj0XKu6AoOw?autoplay=true&mute=1'
     },{
         'titulo': 'HOTEL FOUR SEASONS',
-        'id': 'ID',
+        'id': 'CAM_HOTEL_FOUR_SEASONS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img> HOTEL FOUR SEASONS',
         'tags' : ['Estados Unidos'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCCkRwmztPEvut3gpsgmCmzw&autoplay=true&mute=1'
     },{
         'titulo': 'USHUAIA',
-        'id': 'ID',
+        'id': 'CAM_USHUAIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>USHUAIA',
         'tags' : ['Argentina'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC6NTD1HmdaZMbe9K5qADOvw&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA MUNDO 1 - I LOVE YOU VENICE',
-        'id': 'ID',
+        'id': 'CAM_MUNDO_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><span style="margin-right: 10px;" class="material-icons-round">language</span>CAMARAS MUNDO 1',
         'tags' : ['Mundo'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCMpn1qLudF-zb4M4bqxLIbw&autoplay=true&mute=1'
     },{
         'titulo': 'CAMARA MUNDO 2 - EARTH TV LIVE',
-        'id': 'ID',
+        'id': 'CAM_MUNDO_2',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">photo_camera</span><span style="margin-right: 10px;" class="material-icons-round">language</span>CAMARAS MUNDO 2',
         'tags' : ['Mundo'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCRuyAVeVd7oUwh0LWmxxBBQ&autoplay=true&mute=1'
@@ -2596,314 +2543,314 @@ let LosCanales = [
         //CANALES REGIONALES Y RADIOS
         //ARICA
         'titulo': 'ARICA TV',
-        'id': 'ID',
+        'id': 'ARICATV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARICA | ARICA TV',
         'tags' : ['Chile', 'Arica'],
         'url': 'Senal/REGIONALES/ARICA_ARICA_TV.html'
     },{
         'titulo': 'CAPPISSIMA TV',
-        'id': 'ID',
+        'id': 'CAPPISSIMATV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARICA | CAPPISSIMA TV',
         'tags' : ['Chile', 'Arica'],
         'url': 'Senal/REGIONALES/ARICA_CAPPISSIMA_TV.html'
     },{
         //TARAPACA
         'titulo': 'IQUIQUE TV',
-        'id': 'ID',
+        'id': 'IQUIQUETV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>TARAPACA | IQUIQUE TV',
         'tags' : ['Chile', 'Tarapaca'],
         'url': 'Senal/REGIONALES/TARAPACA_IQUIQUE_TV.html'
     },{
         //ANTOFAGASTA
         'titulo': 'ANTOFAGASTA TV',
-        'id': 'ID',
+        'id': 'ANTOFAGASTATV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ANTOFAGASTA | ANTOFAGASTA TV',
         'tags' : ['Chile', 'Tarapaca'],
         'url': 'Senal/REGIONALES/ANTOFAGASTA_ANTOFAGASTA_TV.html'
     },{
         'titulo': 'LRP TV',
-        'id': 'ID',
+        'id': 'LRPTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ANTOFAGASTA | LRP TV',
         'tags' : ['Chile', 'Tarapaca'],
         'url': 'Senal/REGIONALES/ANTOFAGASTA_LRP_TV.html'
     },{
         'titulo': 'AM CANAL',
-        'id': 'ID',
+        'id': 'AMCANAL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ANTOFAGASTA | AM CANAL',
         'tags' : ['Chile', 'Tarapaca'],
         'url': 'Senal/REGIONALES/ANTOFAGASTA_AM_CANAL.html'
     },{
         //ATACAMA
         'titulo': 'ATACAMA TV',
-        'id': 'ID',
+        'id': 'ATACAMATV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ATACAMA | ATACAMA TV',
         'tags' : ['Chile', 'Atacama'],
         'url': 'Senal/REGIONALES/ATACAMA_ATACAMA_TV.html'
     },{
         'titulo': 'HOLVOET TV',
-        'id': 'ID',
+        'id': 'HOLVOELTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ATACAMA | HOLVOET TV',
         'tags' : ['Chile', 'Atacama'],
         'url': 'Senal/REGIONALES/ATACAMA_HOLVOET_TV.html'
     },{
         //COQUIMBO
         'titulo': 'MIRADIO TV',
-        'id': 'ID',
+        'id': 'MIRADIOTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>COQUIMBO | MI RADIO TV',
         'tags' : ['Chile', 'Coquimbo'],
         'url': 'Senal/REGIONALES/COQUIMBO_MIRADIO_TV.html'
     },{
         //VALPARAISO
         'titulo': 'CANAL 2 SAN ANTONIO',
-        'id': 'ID',
+        'id': 'CANAL2SANANTONIO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>VALPARAISO | CANAL 2 SAN ANTONIO',
         'tags' : ['Chile', 'Valparaiso'],
         'url': 'Senal/REGIONALES/VALPARAISO_CANAL2.html'
     },{
         'titulo': 'VTV',
-        'id': 'ID',
+        'id': 'VTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>VALPARAISO | VTV',
         'tags' : ['Chile', 'Valparaiso'],
         'url': 'Senal/REGIONALES/VALPARAISO_VTV.html'
     },{
         'titulo': 'GIROVISUAL',
-        'id': 'ID',
+        'id': 'GIROVISUAL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>VALPARAISO | GIROVISUAL<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'tags' : ['Chile', 'Valparaiso'],
         'url': 'Senal/REGIONALES/VALPARAISO_GIROVISUAL.html'
     },{
         //METROPOLITANA
         'titulo': 'STGO TV',
-        'id': 'ID',
+        'id': 'STGOTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>RM | STGO TV',
         'tags' : ['Chile', 'Santiago'],
         'url': 'Senal/REGIONALES/METROPOLITANA_STGO_TV.html'
     },{
         'titulo': 'TVR',
-        'id': 'ID',
+        'id': 'TVR',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>RM | TVR<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'tags' : ['Chile', 'Santiago'],
         'url': 'Senal/REGIONALES/METROPOLITANA_TVR.html'
     },{
         'titulo': 'PURANOTICIA',
-        'id': 'ID',
+        'id': 'PURANOTICIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>RM | PURANOTICIA',
         'tags' : ['Chile', 'Santiago'],
         'url': '../Monitores/Senal/PURANOTICIA_CL.html'
     },{
         //OHIGGINS
-        'titulo': 'STGO TV',
-        'id': 'ID',
+        'titulo': 'TELECANAL SANTA CRUZ',
+        'id': 'TELECANALSANTACRUZ',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>OHIGGINS | TELECANAL SANTA CRUZ',
         'tags' : ['Chile', 'Ohiggins'],
         'url': 'Senal/REGIONALES/OHIGGINS_TELECANAL.html'
     },{
         //MAULE
         'titulo': 'CAMPUS TV',
-        'id': 'ID',
+        'id': 'CAMPUSTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAULE | CAMPUS UTALCA TV',
         'tags' : ['Chile', 'Maule'],
         'url': 'Senal/REGIONALES/MAULE_CAMPUS_TV.html'
     },{
         'titulo': 'TELECANAL',
-        'id': 'ID',
+        'id': 'TELECANALMAULE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAULE | TELECANAL TALCA',
         'tags' : ['Chile', 'Maule'],
         'url': 'Senal/REGIONALES/MAULE_TELECANAL.html'
     },{
         'titulo': 'CONTIVISION',
-        'id': 'ID',
+        'id': 'CONTIVISION',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAULE | CONTIVISION',
         'tags' : ['Chile', 'Maule'],
         'url': 'Senal/REGIONALES/MAULE_CONTIVISION.html'
     },{
         'titulo': 'TV5 LINARES',
-        'id': 'ID',
+        'id': 'TV5LINARES',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAULE | TV5 LINARES',
         'tags' : ['Chile', 'Maule'],
         'url': 'Senal/REGIONALES/MAULE_TV5LINARES.html'
     },{
         'titulo': 'UTV SANCLEMENTE',
-        'id': 'ID',
+        'id': 'UTVSANCLEMENTE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAULE | UTV SANCLEMENTE',
         'tags' : ['Chile', 'Maule'],
         'url': 'Senal/REGIONALES/MAULE_UTVSANCLEMENTE.html'
     },{
         //BIOBIO
         'titulo': 'CANAL9 BIOBIO TV',
-        'id': 'ID',
+        'id': 'CANAL9BIOBIOTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>BIOBIO | CANAL 9 BIOBIO TV',
         'tags' : ['Chile', 'Bio Bio'],
         'url': 'Senal/REGIONALES/BIOBIO_CANAL9BIOBIOTV.html'
     },{
         'titulo': 'TVU',
-        'id': 'ID',
+        'id': 'TVU',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>BIOBIO | TVU',
         'tags' : ['Chile', 'Bio Bio'],
         'url': 'Senal/REGIONALES/BIOBIO_TVU.html'
     },{
         'titulo': 'TV8',
-        'id': 'ID',
+        'id': 'TV8',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>BIOBIO | TV8',
         'tags' : ['Chile', 'Bio Bio'],
         'url': 'Senal/REGIONALES/BIOBIO_TV8.html'
     },{
         'titulo': 'ENERGIA TV',
-        'id': 'ID',
+        'id': 'ENERGIATV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>BIOBIO | ENERGIA TV',
         'tags' : ['Chile', 'Bio Bio'],
         'url': 'Senal/REGIONALES/BIOBIO_ENERGIATV.html'
     },{
         'titulo': 'EL 3 DE CONCE',
-        'id': 'ID',
+        'id': 'EL3DECONCE',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>BIOBIO | EL 3 DE CONCE<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'tags' : ['Chile', 'Bio Bio'],
         'url': 'Senal/REGIONALES/BIOBIO_EL3DECONCE.html'
     },{
         //ARAUCANIA
         'titulo': 'TEMUCO TV',
-        'id': 'ID',
+        'id': 'TEMUCOTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARAUCANIA | TEMUCO TV',
         'tags' : ['Chile', 'Araucania'],
         'url': 'Senal/REGIONALES/ARAUCANIA_TEMUCO_TV.html'
     },{
         'titulo': 'LTV',
-        'id': 'ID',
+        'id': 'LTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARAUCANIA | LTV',
         'tags' : ['Chile', 'Araucania'],
         'url': 'Senal/REGIONALES/ARAUCANIA_LTV.html'
     },{
         'titulo': 'PUCON TV',
-        'id': 'ID',
+        'id': 'PUCONTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARAUCANIA | PUCON TV',
         'tags' : ['Chile', 'Araucania'],
         'url': 'Senal/REGIONALES/ARAUCANIA_PUCONTV.html'
     },{
         'titulo': 'TELEANGOL',
-        'id': 'ID',
+        'id': 'TELEANGOL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARAUCANIA | TELEANGOL',
         'tags' : ['Chile', 'Araucania'],
         'url': 'Senal/REGIONALES/ARAUCANIA_TELEANGOL.html'
     },{
         'titulo': 'RADIO EDELWEISS',
-        'id': 'ID',
+        'id': 'RADIOEDELWEISS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARAUCANIA | RADIO EDELWEISS<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'tags' : ['Chile', 'Araucania'],
         'url': 'Senal/REGIONALES/ARAUCANIA_RADIO_EDELWEISS.html'
     },{
         //LOS LAGOS
         'titulo': 'OSORNO TV',
-        'id': 'ID',
+        'id': 'OSORNOTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | OSORNO TV',
         'tags' : ['Chile', 'Los Lagos'],
         'url': 'Senal/REGIONALES/LOS_LAGOS_OSORNO_TV.html'
     },{
         'titulo': 'TVINET',
-        'id': 'ID',
+        'id': 'TVINET',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | TV INET',
         'tags' : ['Chile', 'Los Lagos'],
         'url': 'Senal/REGIONALES/LOS_LAGOS_TVINET.html'
     },{
         'titulo': 'CANAL5 PTO. MONTT',
-        'id': 'ID',
+        'id': 'CANAL5PTOMONTT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | CANAL 5 PUERTO MONTT',
         'tags' : ['Chile', 'Los Lagos'],
         'url': 'Senal/REGIONALES/LOS_LAGOS_CANAL5_PTOMONTT.html'
     },{
         'titulo': 'DECIMA TV',
-        'id': 'ID',
+        'id': 'DECIMATV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | DECIMA TV',
         'tags' : ['Chile', 'Los Lagos'],
         'url': 'Senal/REGIONALES/LOS_LAGOS_DECIMA_TV.html'
     },{
         'titulo': 'CANAL2 QUELLON',
-        'id': 'ID',
+        'id': 'CANAL2QUELLON',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | CANAL 2 QUELLON',
         'tags' : ['Chile', 'Los Lagos'],
         'url': 'Senal/REGIONALES/LOS_LAGOS_CANAL2_QUELLON.html'
     },{
         'titulo': 'CASTRO MUNICIPIO TV',
-        'id': 'ID',
+        'id': 'CASTROMUNICIPIOTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | CASTRO MUNICIPIO TV CASTRO<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'tags' : ['Chile', 'Los Lagos'],
         'url': 'Senal/REGIONALES/LOS_LAGOS_CASTROMUNICIPIO.html'
     },{
         'titulo': 'PATAGONIA RADIO TV',
-        'id': 'ID',
+        'id': 'PATAGONIARADIOTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | PATAGONIA RADIO TV<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'tags' : ['Chile', 'Los Lagos'],
         'url': 'Senal/REGIONALES/LOS_LAGOS_PATAGONIARADIOTV.html'
     },{
         //AYSEN
         'titulo': 'AYSEN TV',
-        'id': 'ID',
+        'id': 'AYSENTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | AYSEN TV',
         'tags' : ['Chile', 'Aysen'],
         'url': 'Senal/REGIONALES/AYSEN_AYSENTV.html'
     },{
         'titulo': 'CANAL11 AYSEN',
-        'id': 'ID',
+        'id': 'CANAL11AYSEN',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | CANAL 11 AYSEN',
         'tags' : ['Chile', 'Aysen'],
         'url': 'Senal/REGIONALES/AYSEN_CANAL11.html'
     },{
         'titulo': 'RADIO LAS NIEVES',
-        'id': 'ID',
+        'id': 'RADIOLASNIEVES',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | RADIO LAS NIEVES',        
         'tags' : ['Chile', 'Aysen'],
         'url': '../Monitores/Senal/RADIOLASNIEVES.html'
     },{
         'titulo': 'RADIO PANORAMICA INFORMATIVA',
-        'id': 'ID',
+        'id': 'RADIOPARANORAMICAINFORMATIVA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | RADIO PANORAMICA INFORMATIVA',
         'tags' : ['Chile', 'Aysen'],
         'url': '../Monitores/Senal/RADIO_PANORAMICAINFORMATIVA.html'
     },{
         'titulo': 'RADIO GENIAL',
-        'id': 'ID',
+        'id': 'RADIOGENIAL',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | RADIO GENIAL',
         'tags' : ['Chile', 'Aysen'],
         'url': '../Monitores/Senal/RADIO_GENIAL.html'
     },{
         'titulo': 'RADIO ARCOIRIS',
-        'id': 'ID',
+        'id': 'RADIOARCOIRIS',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | RADIO ARCOIRIS',
         'tags' : ['Chile', 'Aysen'],
         'url': '../Monitores/Senal/RADIO_ARCOIRIS.html'
     },{
         'titulo': 'ROCCO TV',
-        'id': 'ID',
+        'id': 'ROCCOTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | ROCCO TV',
         'tags' : ['Chile', 'Aysen'],
         'url': 'Senal/REGIONALES/AYSEN_ROCCOTV.html'
     },{
         'titulo': 'SANTA MARIA TV',
-        'id': 'ID',
+        'id': 'SANTAMARIATV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | SANTA MARIA TV',
         'tags' : ['Chile', 'Aysen'],
         'url': 'Senal/REGIONALES/AYSEN_SANTAMARIA_TV.html'
     },{
         'titulo': 'LA MELINKANA TV',
-        'id': 'ID',
+        'id': 'LAMELINKANATV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | LA MELINKANA TV<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
         'tags' : ['Chile', 'Aysen'],
         'url': 'Senal/REGIONALES/AYSEN_LAMELINKANATV.html'
     },{
         //MAGALLANES
         'titulo': 'ITV PATAGONIA',
-        'id': 'ID',
+        'id': 'ITVPATAGONIA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAGALLANES | ITV PATAGONIA',
         'tags' : ['Chile', 'Magallanes'],
         'url': 'Senal/REGIONALES/MAGALLANES_ITV.html'
     },{
         'titulo': 'PINGUINO TV',
-        'id': 'ID',
+        'id': 'PINGUINOTV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAGALLANES | PINGUINO TV',
         'tags' : ['Chile', 'Magallanes'],
         'url': 'Senal/REGIONALES/MAGALLANES_PINGUINO_TV.html'
     },{
         'titulo': 'RADIO POLAR',
-        'id': 'ID',
+        'id': 'RADIOPOLAR',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>MAGALLANES | RADIO POLAR',
         'tags' : ['Chile', 'Magallanes'],
         'url': '../Monitores/Senal/RADIO_POLAR.html'
@@ -2911,271 +2858,253 @@ let LosCanales = [
 
         //Otros
         'titulo': 'DETECTOR SISMOS',
-        'id': 'ID',
+        'id': 'EARLYEST_DETECTOR',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_ALOMAX.svg"></img>DETECTOR SISMOS',
         'tags' : ['tags'],
         'url': 'MonitorEARLY-EST_DETECTOR.html'
     }, {
         'titulo': 'ULTIMOS SISMOS',
-        'id': 'ID',
+        'id': 'EARLYEST_SISMOS',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_ALOMAX.svg"></img>ULTIMOS SISMOS',
         'tags' : ['tags'],
         'url': 'MonitorEARLY-EST_SISMOS.html'
     }, {
         'titulo': 'ISS TRACKER',
-        'id': 'ID',
+        'id': 'ISSTRACKER_ESA',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Ubicacion.svg"></img><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_ESA.svg"></img>ISS TRACKER MAP 1',
         'tags' : ['tags'],
         'url': 'ESPACIO_RASTREO_ISS_ESA.html'
     }, {
         'titulo': 'ISS TRACKER',
-        'id': 'ID',
+        'id': 'ISSTRACKER_1',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Ubicacion.svg"></img>ISS TRACKER MAP 2',
         'tags' : ['tags'],
         'url': 'ESPACIO_RASTREO_ISS.html'
     }, {
         'titulo': 'ISS TRACKER',
-        'id': 'ID',
+        'id': 'ISSTRACKER_2',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Ubicacion.svg"></img>ISS TRACKER MAP 3',
         'tags' : ['tags'],
         'url': 'ESPACIO_RASTREO_ISS_2_2.html'
     }, {
         'titulo': 'ISS TRACKER',
-        'id': 'ID',
+        'id': 'ISSTRACKER_3',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Icono_Ubicacion.svg"></img>ISS TRACKER MAP 4',
         'tags' : ['tags'],
         'url': 'ESPACIO_RASTREO_ISS_3.html'
     }, {
-        'titulo': 'NASA TV UHD',
-        'id': 'ID',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>NASA TV UHD (1080P)',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/NASATV_UHD_4K_1080P.html'
-    }, {
         'titulo': 'NASA TV PUBLIC',
-        'id': 'ID',
+        'id': 'NASATVPUBLIC',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>NASA TV PUBLIC',
         'tags' : ['tags'],
         'url': '../Monitores/Senal/NASATV_PUBLIC.html'
     }, {
         'titulo': 'NASA TV MEDIA',
-        'id': 'ID',
+        'id': 'NASATVMEDIA',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>NASA TV MEDIA',
         'tags' : ['tags'],
         'url': '../Monitores/Senal/NASATV_MEDIA.html'
     }, {
-        'titulo': 'ARTEMIS I',
-        'id': 'ID',
-        'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>ARTEMIS I CAM',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/NASA_ARTEMIS_1.html'
-    }, {
         'titulo': 'ISS CAM SD',
-        'id': 'ID',
+        'id': 'ISSCAMSD',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>ISS CAM SD',
         'tags' : ['tags'],
         'url': '../Monitores/Senal/ISS_SD.html'
     },{
         'titulo': 'ISS CAM HD',
-        'id': 'ID',
+        'id': 'ISSCAMHD',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>ISS CAM HD',
         'tags' : ['tags'],
         'url': '../Monitores/Senal/ISS_HD.html'
     },{
         'titulo': 'NASA WALLOPS',
-        'id': 'ID',
+        'id': 'NASAWALLOPS',
         'nombre': '<img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>NASA WALLOPS',
         'tags' : ['tags'],
         'url': '../Monitores/Senal/NASATV_Wallops.html'
     }, {
         'titulo': 'ESA WEB TV 1',
-        'id': 'ID',
+        'id': 'ESAWEBTV',
         'nombre': '<img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_ESA.svg"></img>ESA WEB TV 1',
         'tags' : ['tags'],
         'url': '../Monitores/Senal/ESATV_1.html'
     }, {
         'titulo': 'ROSCOSMOS',
-        'id': 'ID',
+        'id': 'ROSCOSMOS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_ROSCOSMOS.svg"></img>ROSCOSMOS',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCOcpUgXosMCIlOsreUfNFiA&autoplay=true&mute=1'
     }, {
         'titulo': 'NASA TV PUBLIC',
-        'id': 'ID',
+        'id': 'NASATVPUBLIC_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>NASA TV PUBLIC',
         'tags' : ['tags'],
         'url': '../Monitores/Senal/NASATV_PUBLIC_YOUTUBE.html'
     }, {
         'titulo': 'NASA TV MEDIA',
-        'id': 'ID',
+        'id': 'NASATVMEDIA_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>NASA TV MEDIA',
         'tags' : ['tags'],
         'url': '../Monitores/Senal/NASATV_MEDIA_YOUTUBE.html'
     },{
         'titulo': 'ISS LIVE HD',
-        'id': 'ID',
+        'id': 'ISSCAMHD_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>ISS LIVE HD',
         'tags' : ['tags'],
         'url': '../Monitores/Senal/NASATV_ISS_HD_YOUTUBE.html'
     },{
         'titulo': 'ISS LIVE SD',
-        'id': 'ID',
+        'id': 'ISSCAMSD_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>ISS LIVE SD',
         'tags' : ['tags'],
         'url': '../Monitores/Senal/NASATV_ISS_SD_YOUTUBE.html'
     },{
         'titulo': 'KENNEDY SPACE CENTER',
-        'id': 'ID',
+        'id': 'KENNEDYSPACECENTER_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>KENNEDY SPACE CENTER',
         'tags' : ['tags'],
         'url': '../Monitores/Senal/NASATV_KSC.html'
     },{
         'titulo': 'NASA VIDEO',
-        'id': 'ID',
+        'id': 'NASAVIDEO_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>NASA VIDEO',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC_aP7p621ATY_yAa8jMqUVA&autoplay=true&mute=1'
     }, {
         'titulo': 'NASA',
-        'id': 'ID',
+        'id': 'NASA_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>NASA',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCLA_DiR1FfKNvjuUpBHmylQ&autoplay=true&mute=1'
     }, {
         'titulo': 'SPACEX',
-        'id': 'ID',
+        'id': 'SPACEX_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>SPACEX',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCtI0Hodo5o5dUb67FeUjDeA&autoplay=true&mute=1'
     }, {
         'titulo': 'BLUE ORIGIN',
-        'id': 'ID',
+        'id': 'BLUEORIGIN_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>BLUE ORIGIN',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCVxTHEKKLxNjGcvVaZindlg&autoplay=true&mute=1'
     }, {
         'titulo': 'ULA',
-        'id': 'ID',
+        'id': 'ULA_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>ULA',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCnrGPRKAg1PgvuSHrRIl3jg&autoplay=true&mute=1'
     },  {
         'titulo': 'ARIANESPACE',
-        'id': 'ID',
+        'id': 'ARIANESPACE_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>ARIANESPACE',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCRn9F2D9j-t4A-HgudM7aLQ&autoplay=true&mute=1'
     }, {
         'titulo': 'ROCKET LAB',
-        'id': 'ID',
+        'id': 'ROCKETLAB_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>ROCKET LAB',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCsWq7LZaizhIi-c-Yo_bcpw&autoplay=true&mute=1'
     }, {
         'titulo': 'VIRGIN GALACTIC',
-        'id': 'ID',
+        'id': 'VIRGINVALACTIC_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>VIRGIN GALACTIC',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UClcvOr7LV8tlJwJvkNMmnKg&autoplay=true&mute=1'
     }, {
         'titulo': 'CGTN',
-        'id': 'ID',
+        'id': 'CGTN_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CGTN',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCgrNz-aDmcr2uuto8_DL2jg&autoplay=true&mute=1'
     }, {
-        'titulo': 'RDRONE UY',
-        'id': 'ID',
-        'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>RDRONE UY',
-        'tags' : ['tags'],
-        'url': 'https://www.youtube.com/embed/live_stream?channel=UC2BCLTaBqFwyc3CZlkEHg_Q&autoplay=true&mute=1'
-    },{
         'titulo': 'SPACEX STORM',
-        'id': 'ID',
+        'id': 'SPACEXSTORM_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>SPACEX STORM',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCxjGXSXK3Ss-mkiZ-wYtjtg&autoplay=true&mute=1'
     }, {
         'titulo': 'FRONTERA ESPACIAL',
-        'id': 'ID',
+        'id': 'FRONTERA_ESPACIAL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>FRONTERA ESPACIAL',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCurxSOUxQszWp-5juh48wmg&autoplay=true&mute=1'
     }, {
         'titulo': 'CONEXION ESPACIAL',
-        'id': 'ID',
+        'id': 'CONEXIONESPACIAL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CONEXION ESPACIAL',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCS6DjxV3L8XdnGa70ZxS_FA&autoplay=true&mute=1'
     }, {
         'titulo': 'EXPLORACION ESPACIAL',
-        'id': 'ID',
+        'id': 'EXPLORACIONESPACIAL_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>EXPLORACION ESPACIAL',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCtcUKKBhYEf7lX5UkF7279Q&autoplay=true&mute=1'
     }, {
         'titulo': 'EXPLORANDO EL ESPACIO',
-        'id': 'ID',
+        'id': 'EXPLORANDOELESPACIO_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>EXPLORANDO EL ESPACIO',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCGP4eGnUxu7BGaqR4m-55fg&autoplay=true&mute=1'
     }, {
         'titulo': 'CONTROL DE MISION',
-        'id': 'ID',
+        'id': 'CONTROLDEMISION_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>CONTROL DE MISION',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCch5At0S1Q-qqCM3iilFI5w&autoplay=true&mute=1'
     }, {
         'titulo': 'NSF: NASASPACEFLIGHT',
-        'id': 'ID',
+        'id': 'MASASPACEFLIGHT_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>NSF: NASASPACEFLIGHT',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCSUu1lih2RifWkKtDOJdsBA&autoplay=true&mute=1'
     }, {
         'titulo': 'EVERYDAY ASTRONAUT',
-        'id': 'ID',
+        'id': 'EVERYDAYASTRONAUT_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">tv</span>EVERYDAY ASTRONAUT',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC6uKrU_WqJ1R2HMTY3LIx5Q&autoplay=true&mute=1'
     },{
         'titulo': 'LAB PADRE',
-        'id': 'ID',
+        'id': 'LABPADRE_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>LAB PADRE',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCFwMITSkc1Fms6PoJoh1OUQ&autoplay=true&mute=1'
     },{
         'titulo': 'THE LAUNCH PAD',
-        'id': 'ID',
+        'id': 'THELAUNCHPAD_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>THE LAUNCH PAD',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCGCndz0n0NHmLHfd64FRjIA&autoplay=true&mute=1'
     },{
         'titulo': '321LAUNCH CAM',
-        'id': 'ID',
+        'id': '321LAUNCHCAM_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>321LAUNCH CAM',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCUccOGcvTNrJuihXhYsrp7w&autoplay=true&mute=1'
     }, {
         'titulo': 'SPACEFLIGHT NOW',
-        'id': 'ID',
+        'id': 'SPACEFLIGHTNOW_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>SPACEFLIGHT NOW',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCoLdERT4-TJ82PJOHSrsZLQ&autoplay=true&mute=1'
     },  {
         'titulo': 'COSMOSAPIENS',
-        'id': 'ID',
+        'id': 'COSMOSAPIENS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>COSMOSAPIENS ',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UC3ZODI-xZfdPanPP6tKUg9g&autoplay=true&mute=1'
     },  {
         'titulo': 'INFINITE SPACE',
-        'id': 'ID',
+        'id': 'INFINITESPACE_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>INFINITE SPACE ',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCn8SmzG1xXx_inu-XADxcMg&autoplay=true&mute=1'
     }, {
         'titulo': 'SPACEX MISSIONS',
-        'id': 'ID',
+        'id': 'SPACEXMISSIONS_YT',
         'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons">photo_camera</span>SPACEX MISSIONS ',
         'tags' : ['tags'],
         'url': 'https://www.youtube.com/embed/live_stream?channel=UCE_z1X3v8ZdBNHn9IFHBfNw&autoplay=true&mute=1'
