@@ -859,7 +859,7 @@ background-image: linear-gradient(
   padding-right: 10px;
   width: auto;
   height: auto;
-  border-radius: 3px;
+  border-radius: 4px;
   position: relative;
   font-family: 'Assistant', sans-serif;
   font-size: 10px;
@@ -873,8 +873,13 @@ background-image: linear-gradient(
 }
 
 .TextoTitulosMonitor1:hover{
-  background:#ffffff;
-  color:rgb(0, 0, 0)
+  width: auto;
+  height: 22px;
+  line-height: 22px;
+  font-size: 13px;
+  background:#ffffffce;
+  backdrop-filter: blur(3px);
+  color: #000000
 }
 
 .cuadradoTest {
@@ -894,7 +899,7 @@ background-image: linear-gradient(
   height: auto;
 }
 
-.BotonCambiarSeñalTexto{
+.BotonCambiarSeñalTextoSave{
   display: flex;
   /*position: absolute;*/
   background-color: #00000000;
@@ -911,20 +916,53 @@ background-image: linear-gradient(
   transition:all .3s
 }
 
-.BotonCambiarSeñalTexto:hover{
+.BotonCambiarSeñalTextoSave:hover{
   background-color:rgba(0, 68, 255, 0.8);
   backdrop-filter: blur(5px);
   color:#FFFFFF
-} 
+}
 
-.dark-mode 
+.BotonCambiarSeñalTexto{
+  display: flex;
+  /*position: absolute;*/
+  background-color: #00000000;
+  color: #00000000;
+  align-items: center;
+  justify-content: center;
+  /*margin-right: 5%;*/
+  margin-right: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 45px;
+  font-size: 13px;
+  font-weight: bold;
+  width: auto;
+  height: 40px;
+  border-radius: 8px;
+  cursor:
+  pointer;
+  transition:all .3s
+}
+
 .BotonCambiarSeñalTexto:hover{
-  backdrop-filter: blur(5px);
-  background-color: #333036b4;
+  background-color:rgba(0, 68, 255, 0.8);
   color:#FFFFFF
 }
 
-.BotonCambiarSeñalTextoRojo{
+.dark-mode 
+.BotonCambiarSeñalTexto:hover{
+  /*background-color: #333036b4;*/
+  background-color: #343a40;
+  color:#FFFFFF;
+}
+
+.BotonEstiloRojo:hover{
+  backdrop-filter: blur(5px);
+  background-color: #ff00007e;
+  color:rgb(255, 255, 255)
+}
+
+.BotonCambiarSeñalTextoRojoSave{
   display: flex;
   /*position: absolute;*/
   background-color: #0004ff00;
@@ -941,10 +979,15 @@ background-image: linear-gradient(
   transition:all .3s
 }
 
-.BotonCambiarSeñalTextoRojo:hover{
+.BotonCambiarSeñalTextoRojoSave:hover{
   backdrop-filter: blur(5px);
   background-color: #ff00007e;
   color:rgb(255, 255, 255)
+}
+
+
+.TextoBotonEditar{
+  margin-left: 5px;
 }
 
 /*
@@ -966,7 +1009,7 @@ background-image: linear-gradient(
   width: 40px;
   height: 40px;
   margin: 0;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor:
   pointer;
   transition:all .3s
@@ -1443,7 +1486,7 @@ background-image: linear-gradient(
   height: 30px;
   line-height: 30px;
   font-size: 15px;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
   justify-content: center;
   align-items: center;
@@ -1469,7 +1512,7 @@ background-image: linear-gradient(
     height: 50px;
     line-height: 50px;
     font-size: 20px;
-    border-radius: 4px;
+    border-radius: 10px;
     align-items: center;
     text-align: center;
     color: #ffffff;
@@ -1487,7 +1530,7 @@ background-image: linear-gradient(
   height: 30px;
   line-height: 30px;
   font-size: 15px;
-  border-radius: 4px;
+  border-radius: 10px;
   font-weight: bold;
   justify-content: center;
   align-items: center;
@@ -1545,7 +1588,7 @@ background-image: linear-gradient(
   height: 30px;
   line-height: 30px;
   font-size: 15px;
-  border-radius: 4px;
+  border-radius: 10px;
   font-weight: bold;
   justify-content: center;
   align-items: center;
@@ -1561,6 +1604,22 @@ background-image: linear-gradient(
   height: 30px;
   background-color: #ffffff;
   border: solid 2px #FF0000;
+}
+
+@media (max-width: 768px) {
+  .BotonCardHomeLargo{
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
 }
 
 .BotonCardHomeMovil{
@@ -2039,7 +2098,7 @@ background-image: linear-gradient(
   width: 40px;
   height: 40px;
   margin: 0;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor:
   pointer;
   transition:all .3s
@@ -2132,10 +2191,10 @@ background-image: linear-gradient(
   margin-left: 0px;
   padding-left: 10px;
   width: 100%;
-  height: 45px;
-  line-height: 45px;
+  height: 50px;
+  line-height: 50px;
   font-size: 17px;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
   align-items: center;
   cursor:
@@ -2163,10 +2222,10 @@ background-image: linear-gradient(
   margin-left: 0px;
   padding-left: 10px;
   width: 100%;
-  height: 45px;
-  line-height: 45px;
+  height: 50px;
+  line-height: 50px;
   font-size: 17px;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
   align-items: center;
   cursor:
@@ -2192,10 +2251,10 @@ background-image: linear-gradient(
   margin-left: 0px;
   padding-left: 10px;
   width: 100%;
-  height: 45px;
-  line-height: 45px;
+  height: 50px;
+  line-height: 50px;
   font-size: 17px;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
   align-items: center;
   cursor:
@@ -2221,10 +2280,10 @@ background-image: linear-gradient(
   margin-left: 0px;
   padding-left: 10px;
   width: 100%;
-  height: 45px;
-  line-height: 45px;
+  height: 50px;
+  line-height: 50px;
   font-size: 17px;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
   align-items: center;
   cursor:
@@ -2253,7 +2312,7 @@ background-image: linear-gradient(
   height: 30px;
   line-height: 30px;
   font-size: 15px;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
   align-items: center;
   cursor:
@@ -2281,7 +2340,7 @@ background-image: linear-gradient(
   height: 30px;
   line-height: 30px;
   font-size: 15px;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
   align-items: center;
   cursor:
@@ -2308,10 +2367,10 @@ background-image: linear-gradient(
   margin-left: 0px;
   padding-left: 10px;
   width: 50%;
-  height: 45px;
-  line-height: 45px;
+  height: 50px;
+  line-height: 50px;
   font-size: 17px;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
   align-items: center;
   cursor:
@@ -2326,6 +2385,12 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 15px #2E4053;
 }
 
+@media (max-width: 600px) {
+  .BotonMenuDesplegableGrisPequeño {
+    width: 100%;
+  }
+}
+
 /*Boton Gris Mas Pequeño Cuadrado*/
 .BotonMenuDesplegableGrisPequeñoCuadrado{
   display: flex;
@@ -2337,10 +2402,10 @@ background-image: linear-gradient(
   margin-left: 0px;
   padding-left: 0px;
   width: 60px;
-  height: 45px;
-  line-height: 45px;
+  height: 50px;
+  line-height: 50px;
   font-size: 17px;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
   align-items: center;
   text-align: center;
@@ -2368,10 +2433,10 @@ background-image: linear-gradient(
   margin-left: 0px;
   padding-left: 10px;
   width: 50%;
-  height: 45px;
-  line-height: 45px;
+  height: 50px;
+  line-height: 50px;
   font-size: 17px;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
   align-items: center;
   cursor:
@@ -2397,10 +2462,10 @@ background-image: linear-gradient(
   margin-left: 0px;
   padding-left: 10px;
   width: 50%;
-  height: 45px;
-  line-height: 45px;
+  height: 50px;
+  line-height: 50px;
   font-size: 17px;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
   align-items: center;
   cursor:
@@ -2413,6 +2478,12 @@ background-image: linear-gradient(
   background-color: #FFFFFF;
   border: solid 2px #041DAD;
   box-shadow: 0px 0px 15px #041DAD;
+}
+
+@media (max-width: 600px) {
+  .BotonMenuDesplegableAzulPequeño {
+    width: 100%;
+  }
 }
 
 /*Botones Modo Oscuro*/
@@ -2460,28 +2531,16 @@ background-image: linear-gradient(
   box-shadow: 0px 0px 0px #00000000;
 }
 
-.BotonTEST_1_LISTA_CANALES{
-  background-color: #2E4053;
-  border: solid 2px #2E4053;
-  color: #FFFFFF;
-  box-shadow: 0px 2px 5px #9B9B9B;
-  margin-left: 0px;
-  width: 100%;
-  height: 45px;
-  line-height: 45px;
-  font-size: 17px;
-  font-weight: bold;
-  align-items: center;
-  cursor:
-  pointer;
-  transition:all .3s;
+.ContenedorBotonMenuDesplegableDoble{
+  width: 100%; 
+  height: auto; 
+  display: inline-flex;
 }
 
-.BotonTEST_1_LISTA_CANALES:hover{
-  color: #2E4053;
-  background-color: #FFFFFF;
-  border: solid 2px #2E4053;
-  box-shadow: 0px 0px 15px #2E4053;
+@media (max-width: 600px) {
+  .ContenedorBotonMenuDesplegableDoble {
+    flex-direction: column;
+  }
 }
 
 .BotonEnlaceExternoInformacionesAnterior{
@@ -2594,15 +2653,16 @@ background-image: linear-gradient(
 }
 
 .CuerpoMenuDesplegable{
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 20px;
   font-family: 'Assistant', sans-serif;
   background-color: #ff000000;
   width: 100%;
-  height: 85%;
+  /*height: 80%;*/
   float: left;
-  position: absolute;
+  /*position: absolute;*/
+  position: relative;
   left: 0%;
   border-radius: 10px;
 }
@@ -2814,7 +2874,7 @@ background-image: linear-gradient(
   width: 45px;
   height: 45px;
   line-height: 45px;
-  border-radius: 5px;
+  border-radius: 10px;
   font-weight: bold;
   align-items: center;
   cursor:
@@ -2831,6 +2891,10 @@ background-image: linear-gradient(
 .dark-mode .BotonCerrarMenuCuadrado{
   background-color: #00000000; /*Transparente*/
   color: #ffffff;
+}
+
+.dark-mode .BotonCerrarMenuCuadrado:hover{
+  background-color: #b8b8b823;
 }
 
 .MenuDesplegableRedondeado{
@@ -4128,6 +4192,20 @@ background-image: linear-gradient(
   }
 }
 
+@media (min-width: 1000px) {
+  .BotonMenuSuperiorSeleccionado.OcultoWeb,
+  .BotonMenuSuperior.OcultoWeb {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .BotonMenuSuperiorSeleccionado.OcultoWeb,
+  .BotonMenuSuperior.OcultoWeb {
+    display: none;
+  }
+}
+
 .AnunciosHomeSoloTexto{
   display: flex;
   color: #ffffff;
@@ -4257,7 +4335,7 @@ background-image: linear-gradient(
 }
 
 .BuscadorPequeño{
-  height: 45px;
+  height: 50px;
   width: 50%;
   border: solid 2px #2E4053;
   color: #333;
@@ -4266,7 +4344,7 @@ background-image: linear-gradient(
   background-color: #f2f2f2;
   border-width: 2px;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 8px;
 }
 
@@ -4278,7 +4356,7 @@ background-image: linear-gradient(
 }
 
 .BuscadorGrande{
-  height: 45px;
+  height: 50px;
   width: 100%;
   border: solid 2px #2E4053;
   color: #333;
@@ -4286,7 +4364,7 @@ background-image: linear-gradient(
   background-color: #f2f2f2;
   border-width: 2px;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 8px;
   margin-bottom: 10px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.0);
@@ -4360,3 +4438,25 @@ background-image: linear-gradient(
   background-color: #141417;
 }
 
+.AvisoBeta{
+  height: 25px;
+  background-color: #2c70e6;
+  line-height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 25px;
+  font-size: 15px;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.AvisoBeta:hover {
+  background-color: #2c70e6;
+}

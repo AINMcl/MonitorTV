@@ -2112,15 +2112,15 @@ var App = {
         },
         'RELOJES': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">schedule</span>RELOJES CHILE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Reloj_Pantalla_CHILE.html" frameborder="0"></iframe></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Reloj/Reloj_Pantalla_CHILE.html" frameborder="0"></iframe></div>'
         },
         'RELOJES2': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">schedule</span>RELOJES INTERNACIONAL 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Reloj_Pantalla_INTERNACIONAL_1.html" frameborder="0"></iframe></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Reloj/Reloj_Pantalla_INTERNACIONAL_1.html" frameborder="0"></iframe></div>'
         },
         'RELOJES3': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">schedule</span>RELOJES INTERNACIONAL 2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Reloj_Pantalla_INTERNACIONAL_2.html" frameborder="0"></iframe></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Reloj/Reloj_Pantalla_INTERNACIONAL_2.html" frameborder="0"></iframe></div>'
         },
     },
     add: function(canal) {
@@ -2186,12 +2186,11 @@ init: function() {
     if (!App.isMobile()) {
         App.add("24HTVN");
         App.add("MEGANOTICIAS");
-        App.add("CHV_WEB_IFRAME");
-        
-        App.add("CHV_NOTICIAS_PlutoTV");
+        App.add("CHV_NOTICIAS");
         App.add("TELE13");
 
-        App.add("CANAL13_WEB_IFRAME");
+        App.add("RELOJES");
+        App.add("CNN_INTERNACIONAL");
         
         
         

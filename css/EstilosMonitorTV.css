@@ -227,7 +227,7 @@ body {
     justify-content: left;
     border: solid 2px #2E4053;
     color: #2E4053;
-    border-radius: 5px;
+    border-radius: 8px;
     padding-left: 5%;
     width: 99%;
     height: 55px;
@@ -276,7 +276,7 @@ body {
     border: solid 2px #15b100;
     color: #15b100;
     box-shadow: 0px 2px 10px #15b100;
-    border-radius: 5px;
+    border-radius: 8px;
     padding-left: 5%;
     width: 99%;
     height: 55px;
@@ -298,7 +298,7 @@ body {
     border: solid 2px #FFFFFF;
     color: #FFFFFF;
     box-shadow: 0px 0px 0px #00000000;
-    border-radius: 5px;
+    border-radius: 8px;
     padding-left: 5%;
     width: 99%;
     height: 55px;
