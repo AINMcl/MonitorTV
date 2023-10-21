@@ -104,7 +104,7 @@ let LosCanales = [
     }, {
         'titulo': 'TVN 3',
         'id': 'TVN3',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN3.svg"></img><span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN3.svg"></img>',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/TVN3.html'
     }, {
@@ -140,28 +140,136 @@ let LosCanales = [
     }, {
         'titulo': 'EMOL TV',
         'id': 'EMOLTV1',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>EMOL TV<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>EMOL TV',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/EMOLTV_1.html'
     },{
         'titulo': 'EMOL TV 2',
         'id': 'EMOLTV2',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>EMOL TV 2<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>EMOL TV 2',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/EMOLTV_2.html'
     },{
-        'titulo': 'CHV CONTIGO',
-        'id': 'CHVCONTIGO',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>CHV CONTIGO',
-        'tags' : ['Chile'],
-        'url': '../Monitores/Senal/CHVCONTIGO_PLUTOTV.html'
-    }, {
-        'titulo': 'DEPORTES 13',
-        'id': 'DEPORTES13',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>DEPORTES 13',
-        'tags' : ['Chile'],
-        'url': '../Monitores/Senal/CANAL13_DEPORTES.html'
-    }, {
+        'titulo': 'C13 - PANAMERICANOS 1',
+        'id': 'C13_IFRAME_PANAMERICANOS_1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 1',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': 'https://rudo.video/live/13gopan1'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 2',
+        'id': 'C13_IFRAME_PANAMERICANOS_2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 2',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': 'https://rudo.video/live/13gopan2'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 3',
+        'id': 'C13_IFRAME_PANAMERICANOS_3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 3',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': 'https://rudo.video/live/13gopan3'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 4',
+        'id': 'C13_IFRAME_PANAMERICANOS_4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 4',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': 'https://rudo.video/live/13gopan4'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 5',
+        'id': 'C13_IFRAME_PANAMERICANOS_5',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 5',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': 'https://rudo.video/live/13gopan5'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 6',
+        'id': 'C13_IFRAME_PANAMERICANOS_6',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 6',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': 'https://rudo.video/live/13gopan6'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 7',
+        'id': 'C13_IFRAME_PANAMERICANOS_7',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 7',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': 'https://rudo.video/live/13gopan7'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 8',
+        'id': 'C13_IFRAME_PANAMERICANOS_8',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 8',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': 'https://rudo.video/live/13gopan8'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 9',
+        'id': 'C13_IFRAME_PANAMERICANOS_9',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 9',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': 'https://rudo.video/live/13gopan9'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 10',
+        'id': 'C13_IFRAME_PANAMERICANOS_10',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 10',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': 'https://rudo.video/live/13gopan10'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 1',
+        'id': 'C13_PANAMERICANOS_1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 1',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': '../Monitores/Senal/InternaC13_Panamericanos_1.html'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 2',
+        'id': 'C13_PANAMERICANOS_2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 2',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': '../Monitores/Senal/InternaC13_Panamericanos_2.html'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 3',
+        'id': 'C13_PANAMERICANOS_3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 3',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': '../Monitores/Senal/InternaC13_Panamericanos_3.html'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 4',
+        'id': 'C13_PANAMERICANOS_4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 4',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': '../Monitores/Senal/InternaC13_Panamericanos_4.html'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 5',
+        'id': 'C13_PANAMERICANOS_5',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 5',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': '../Monitores/Senal/InternaC13_Panamericanos_5.html'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 6',
+        'id': 'C13_PANAMERICANOS_6',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 6',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': '../Monitores/Senal/InternaC13_Panamericanos_6.html'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 7',
+        'id': 'C13_PANAMERICANOS_7',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 7',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': '../Monitores/Senal/InternaC13_Panamericanos_7.html'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 8',
+        'id': 'C13_PANAMERICANOS_8',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 8',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': '../Monitores/Senal/InternaC13_Panamericanos_8.html'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 9',
+        'id': 'C13_PANAMERICANOS_9',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 9',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': '../Monitores/Senal/InternaC13_Panamericanos_9.html'
+    },{
+        'titulo': 'C13 - PANAMERICANOS 10',
+        'id': 'C13_PANAMERICANOS_10',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>PANAMERICANOS 10',
+        'tags' : ['Chile','Ocasional','Panamericanos'],
+        'url': '../Monitores/Senal/InternaC13_Panamericanos_10.html'
+    },{
         'titulo': '24 HORAS 1',
         'id': '24H_OCASIONAL_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 1',
@@ -2615,7 +2723,7 @@ let LosCanales = [
     },{
         'titulo': 'GIROVISUAL',
         'id': 'GIROVISUAL',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>VALPARAISO | GIROVISUAL<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>VALPARAISO | GIROVISUAL',
         'tags' : ['Chile', 'Valparaiso'],
         'url': 'Senal/REGIONALES/VALPARAISO_GIROVISUAL.html'
     },{
@@ -2628,7 +2736,7 @@ let LosCanales = [
     },{
         'titulo': 'TVR',
         'id': 'TVR',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>RM | TVR<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>RM | TVR',
         'tags' : ['Chile', 'Santiago'],
         'url': 'Senal/REGIONALES/METROPOLITANA_TVR.html'
     },{
@@ -2703,7 +2811,7 @@ let LosCanales = [
     },{
         'titulo': 'EL 3 DE CONCE',
         'id': 'EL3DECONCE',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>BIOBIO | EL 3 DE CONCE<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>BIOBIO | EL 3 DE CONCE',
         'tags' : ['Chile', 'Bio Bio'],
         'url': 'Senal/REGIONALES/BIOBIO_EL3DECONCE.html'
     },{
@@ -2734,7 +2842,7 @@ let LosCanales = [
     },{
         'titulo': 'RADIO EDELWEISS',
         'id': 'RADIOEDELWEISS',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARAUCANIA | RADIO EDELWEISS<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>ARAUCANIA | RADIO EDELWEISS',
         'tags' : ['Chile', 'Araucania'],
         'url': 'Senal/REGIONALES/ARAUCANIA_RADIO_EDELWEISS.html'
     },{
@@ -2771,13 +2879,13 @@ let LosCanales = [
     },{
         'titulo': 'CASTRO MUNICIPIO TV',
         'id': 'CASTROMUNICIPIOTV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | CASTRO MUNICIPIO TV CASTRO<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | CASTRO MUNICIPIO TV CASTRO',
         'tags' : ['Chile', 'Los Lagos'],
         'url': 'Senal/REGIONALES/LOS_LAGOS_CASTROMUNICIPIO.html'
     },{
         'titulo': 'PATAGONIA RADIO TV',
         'id': 'PATAGONIARADIOTV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | PATAGONIA RADIO TV<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>LOS LAGOS | PATAGONIA RADIO TV',
         'tags' : ['Chile', 'Los Lagos'],
         'url': 'Senal/REGIONALES/LOS_LAGOS_PATAGONIARADIOTV.html'
     },{
@@ -2832,7 +2940,7 @@ let LosCanales = [
     },{
         'titulo': 'LA MELINKANA TV',
         'id': 'LAMELINKANATV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | LA MELINKANA TV<span title="AGREGADO RECIENTEMENTE" style="margin-left: 5px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>AYSEN | LA MELINKANA TV',
         'tags' : ['Chile', 'Aysen'],
         'url': 'Senal/REGIONALES/AYSEN_LAMELINKANATV.html'
     },{
