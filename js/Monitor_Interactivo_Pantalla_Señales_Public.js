@@ -678,42 +678,6 @@ let LosCanales = [
         'tags' : ['España','Video News'],
         'url': '../Monitores/Senal/RTVE_PLAY_OCASIONAL_4.html'
     }, {
-    /*  'titulo': 'RTVE OCASIONAL 1',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>RTVE LIVE OCASIONAL 1',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/RTVEOCASIONAL_1.html'
-    }, {
-        'titulo': 'RTVE OCASIONAL 2',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>RTVE LIVE OCASIONAL 2',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/RTVEOCASIONAL_2.html'
-    }, {
-        'titulo': 'RTVE OCASIONAL 3',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>RTVE LIVE OCASIONAL 3',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/RTVEOCASIONAL_3.html'
-    }, {
-        'titulo': 'RTVE OCASIONAL 4',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>RTVE LIVE OCASIONAL 4',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/RTVEOCASIONAL_4.html'
-    }, {
-        'titulo': 'RTVE OCASIONAL 5',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>RTVE LIVE OCASIONAL 5',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/RTVEOCASIONAL_5.html'
-    }, {
-        'titulo': 'RTVE OCASIONAL 6',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoNaranja">cell_tower</span>RTVE LIVE OCASIONAL 6',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/RTVEOCASIONAL_6.html'
-    }, {*/
         'titulo': 'CCTV+ 1',
         'id': 'CCTV_PLUS_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons">cell_tower</span>CCTV+ 1',
@@ -762,54 +726,6 @@ let LosCanales = [
         'tags' : ['Estados Unidos'],
         'url': '../Monitores/Senal/THE_PENTAGON_LIVE.html'
     },{
-    /*    'titulo': 'PANAM SPORTS 1',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 1',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/PANAMSPORTS_S1.html'
-    },{
-        'titulo': 'PANAM SPORTS 2',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 2',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/PANAMSPORTS_S2.html'
-    },{
-        'titulo': 'PANAM SPORTS 3',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 3',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/PANAMSPORTS_S3.html'
-    },{
-        'titulo': 'PANAM SPORTS 4',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 4',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/PANAMSPORTS_S4.html'
-    },{
-        'titulo': 'PANAM SPORTS 5',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 5',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/PANAMSPORTS_S5.html'
-    },{
-        'titulo': 'PANAM SPORTS 6',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 6',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/PANAMSPORTS_S6.html'
-    },{
-        'titulo': 'PANAM SPORTS 7',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 7',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/PANAMSPORTS_S7.html'
-    },{
-        'titulo': 'PANAM SPORTS 8',
-        'id': 'ID',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons">emoji_events</span>PANAM SPORTS 8',
-        'tags' : ['tags'],
-        'url': '../Monitores/Senal/PANAMSPORTS_S8.html'
-    },{*/
         'titulo': 'THE WHITE HOUSE',
         'id': 'THE_WHITE_HOUSE_LIVE',
         'nombre': '<span id="THE_WHITE_HOUSE" style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="CHILE"></img>THE WHITE HOUSE LIVE EVENTS',
@@ -983,6 +899,24 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>ECUAVISA',
         'tags' : ['Ecuador'],
         'url': '../Monitores/Senal/ECUAVISA.html'
+    },{
+        'titulo': 'CANAL 3',
+        'id': 'CANAL3_GUATEMALA',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gt.svg" title="GUATEMALA"></img>CANAL 3',
+        'tags' : ['Guatemala'],
+        'url': '../Monitores/Senal/CANAL3_GUATEMALA.html'
+    },{
+        'titulo': 'CANAL 7',
+        'id': 'CANAL7_GUATEMALA',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gt.svg" title="GUATEMALA"></img>CANAL 7',
+        'tags' : ['Guatemala'],
+        'url': '../Monitores/Senal/CANAL7_GUATEMALA.html'
+    },{
+        'titulo': 'CANAL TN27',
+        'id': 'CANAL3_GUATEMALA',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gt.svg" title="GUATEMALA"></img>CANAL TN27',
+        'tags' : ['Guatemala'],
+        'url': '../Monitores/Senal/CANAL_TN27_GUATEMALA.html'
     },{
         'titulo': 'TELESUR',
         'id': 'TELESUR_ESPAÑOL',
