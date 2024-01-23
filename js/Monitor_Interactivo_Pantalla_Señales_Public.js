@@ -348,6 +348,12 @@ let LosCanales = [
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/CDTV.html'
     },{
+        'titulo': 'TV DIPUTADOS PRENSA',
+        'id': 'TV_DIPUTADOS_PRENSA',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>TV DIPUTADOS PRENSA',
+        'tags' : ['Chile','Politica'],
+        'url': '../Monitores/Senal/TV_DIPUTADOS_PRENSA.html'
+    },{
         'titulo': 'TV SENADO',
         'id': 'TV_SENADO_YT',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoRojo">smart_display</span>TV SENADO',

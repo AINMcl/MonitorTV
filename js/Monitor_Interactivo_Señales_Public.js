@@ -237,6 +237,10 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>TV DIPUTADOS',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/CDTV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV DIPUTADOS</div></div></div>'
         },
+        'TV_DIPUTADOS_PRENSA': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span>TV DIPUTADOS PRENSA',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/TV_DIPUTADOS_PRENSA.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV DIPUTADOS PRENSA</div></div></div>'
+        },
         'SENADO_YouTube': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img>TV SENADO',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=true&mute=1"frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV SENADO</div></div></div>'
