@@ -46,10 +46,6 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVMAS.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/TVMAS.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV+</div></div></div>'
         },
-        'CNN_CHILE_IFRAME': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CNNCHILE2.svg"></img><span title="RECOMENDADO USAR BLOQUEADOR DE ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="font-size: 20px" class="material-icons-round">security</span><span style="font-size: 12px; margin-left: 5px;">USAR BLOQ. ANUNCIOS</span></span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://ainmcl.github.io/MonitorTV/Monitores/SeñalEXTERNA.html?id=1049" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CNN CHILE</div></div></div>'
-        },
         'TELE13_WEB': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_T13_ENVIVO.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/T13_ENVIVO_IFRAME.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">T13</div></div></div>'
@@ -2206,31 +2202,97 @@ init: function() {
 }
 };
 
-// Buscar
-const buscador = document.getElementById("buscador");
-buscador.addEventListener("input", filtrarCanales);
 
-function filtrarCanales() {
-  const textoBuscado = buscador.value.toLowerCase();
-
-  for (const llave in App.channels) {
-    const nombreCanal = App.channels[llave].nombre.toLowerCase();
-    const canalDiv = App.channels[llave].code;
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(canalDiv, "text/html");
-    const nombreElement = doc.querySelector(".TextoTitulosMonitor1");
-
-    if (nombreElement && nombreElement.textContent.toLowerCase().includes(textoBuscado)) {
-      const canal = document.querySelector('button[data-canal="' + llave + '"]');
-      canal.style.display = "flex";
-    } else {
-      const canal = document.querySelector('button[data-canal="' + llave + '"]');
-      canal.style.display = "none";
-    }
-  }
-}
 
 App.init();
+
+// Evento para filtrar canales por tag
+function filtrarPorTag(tagSeleccionado) {
+    const seccionCanales = document.getElementById("PorFiltrar"); // Obtener la sección de la lista de canales
+    seccionCanales.innerHTML = ''; // Limpiar la lista de canales para mostrar nuevos resultados
+
+    for (const llave in App.channels) {
+        const canalTags = App.channels[llave].tags.map(tag => tag.toLowerCase());
+
+        // Comprobar si el tag seleccionado está presente en las etiquetas del canal
+        if (!tagSeleccionado || canalTags.includes(tagSeleccionado.toLowerCase())) {
+            const buttonTV = document.createElement("button");
+            buttonTV.classList.add("btn");
+            buttonTV.classList.add("BotonTV_Señales");
+            buttonTV.classList.add("waves-effect");
+            buttonTV.classList.add("waves-grisclaro");
+            buttonTV.setAttribute("data-canal", llave);
+            buttonTV.innerHTML = App.channels[llave].nombre;
+
+            seccionCanales.appendChild(buttonTV);
+
+            buttonTV.addEventListener("click", function () {
+                if (buttonTV.getAttribute("class").includes("BotonTV_Señales")) {
+                    App.add(llave);
+                } else if (buttonTV.getAttribute("class").includes("BotonTV_SeñalSeleccionada")) {
+                    App.remove(llave);
+                }
+            });
+        }
+    }
+}
+
+// Agregar evento al select para filtrar los canales por tag
+const selectTag = document.getElementById('tag-select');
+selectTag.addEventListener('change', function() {
+    const tagSeleccionado = selectTag.value;
+    filtrarPorTag(tagSeleccionado);
+});
+
+
+//BuscadorNuevo
+// Evento para filtrar canales por nombre o ID
+function filtrarPorNombreID() {
+    const seccionCanales = document.getElementById("PorFiltrar"); // Obtener la sección de la lista de canales
+    seccionCanales.innerHTML = ''; // Limpiar la lista de canales para mostrar nuevos resultados
+
+    const textoBuscado = buscador.value.toLowerCase().trim(); // Obtener el texto del buscador y convertirlo a minúsculas
+
+    for (const llave in App.channels) {
+        const nombreCanal = App.channels[llave].nombre.toLowerCase();
+        const canalId = llave.toLowerCase();
+
+        // Comprobar si el nombre o ID del canal coincide con el texto buscado
+        if (nombreCanal.includes(textoBuscado) || canalId.includes(textoBuscado)) {
+            const buttonTV = document.createElement("button");
+            buttonTV.classList.add("btn");
+            buttonTV.classList.add("BotonTV_Señales");
+            buttonTV.classList.add("waves-effect");
+            buttonTV.classList.add("waves-grisclaro");
+            buttonTV.setAttribute("data-canal", llave);
+            buttonTV.innerHTML = App.channels[llave].nombre;
+
+            seccionCanales.appendChild(buttonTV);
+
+            buttonTV.addEventListener("click", function () {
+                if (buttonTV.getAttribute("class").includes("BotonTV_Señales")) {
+                    App.add(llave);
+                } else if (buttonTV.getAttribute("class").includes("BotonTV_SeñalSeleccionada")) {
+                    App.remove(llave);
+                }
+            });
+        }
+    }
+}
+
+// Buscar
+const buscador = document.getElementById("buscador");
+buscador.addEventListener("input", filtrarPorNombreID);
+
+// Función para borrar el texto del input y restaurar la lista original
+function borrarTexto() {
+    buscador.value = ''; // Borra el contenido del input
+    filtrarPorNombreID(); // Restaurar la lista original
+}
+
+// Botón para borrar el texto del buscador
+const botonBorrar = document.getElementById('boton-borrar');
+botonBorrar.addEventListener('click', borrarTexto);
 
 var modal = document.getElementById("custom-modal");
 var btn = document.getElementById("custom-btn");
