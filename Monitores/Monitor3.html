@@ -180,7 +180,7 @@
         <div class="ContenedorBotonMenuDesplegableDoble">
           <div class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustesAccesibilidad" role="button" aria-controls="MenuDespeglableAjustesAccesibilidad"><span style="margin-right: 5px;" class="material-icons">settings_accessibility</span>ACCESIBILIDAD</div>
           <span style="margin-left: 2%;"></span>
-          <div class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustesSenal" role="button" aria-controls="MenuDespeglableAjustesSenal"><span style="margin-right: 5px;" class="material-icons">tune</span>OTROS AJUSTES</div>
+          <div class="BotonMenuDesplegableGrisPequeño waves-effect waves-azul" data-bs-toggle="offcanvas" href="#MenuDespeglableSecciones" role="button" aria-controls="MenuDespeglableSecciones"><span style="margin-right: 5px;" class="material-icons">category</span>CATEGORIAS</div>
         </div>
         <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
         <a style="text-decoration: none;" href="javascript:location.reload()"><span class="BotonMenuDesplegableAzul waves-effect waves-azul"><span style="margin-right: 5px;" class="material-icons">replay</span>RECARGAR PAGINA</span></a>
@@ -207,6 +207,28 @@
           <span style="margin-left: 2%;"></span>
           <div class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul" onclick="disminuirTexto()"><span style="margin-right: 5px;" class="material-icons">text_decrease</span><text>DISMINUIR TEXTO</text></div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MENU DESPLEGABLE CATEGORIAS -->
+  <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" tabindex="-1" id="MenuDespeglableSecciones" aria-labelledby="MenuDespeglableSecciones">
+    <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable">
+        <div style="width: 100%; height: auto; display: inline-flex; padding-bottom: 15px;">
+          <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="font-size: 30px;" class="material-icons-round">arrow_back</span></span>
+          <span class="CuerpoTituloMenuAjustesCentrado"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">settings_accessibility</span>CATEGORIAS</span>
+          <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
+        </div>
+        <a style="text-decoration: none;" href="?Categoria=Chile"><span class="BotonMenuDesplegableRojo waves-effect waves-azul">
+          <img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>CHILE
+        </a>
+        <a style="text-decoration: none;" href="?Categoria=Argentina"><span class="BotonMenuDesplegableRojo waves-effect waves-azul">
+          <img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>ARGENTINA
+        </a>
+        <a style="text-decoration: none;" href="?Categoria=Noticias"><span class="BotonMenuDesplegableRojo waves-effect waves-azul">
+          <span style="margin-right: 5px;" class="material-icons">newspaper</span>NOTICIAS</span>
+        </a>
       </div>
     </div>
   </div>

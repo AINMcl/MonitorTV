@@ -42,11 +42,53 @@ function toggleChannelList(screenId, updateURL = true) {
 }
 
 
-// Este fragmento de código debe ejecutarse después de que se haya cargado el contenido de la página.
 document.addEventListener("DOMContentLoaded", function() {
   const urlParams = new URLSearchParams(window.location.search);
-  
-  for (let i = 1; i <= 6; i++) {
+
+  // Definir asignaciones de canales por categoría
+  const categorias = {
+    'Chile': ['24PLAY', 'MEGANOTICIAS', 'CHVNOTICIAS', 'T13','CNNCHILE_YT'],
+    'Argentina': ['TN_ARG_YT', 'LA_NACION_ARG_YT', 'CRONICATV_ARG_YT', 'A24_ARG_YT','C5N_ARG_YT','CANAL_26_ARG_YT'],
+  };
+
+  // Función para asignar canales a las pantallas
+  function asignarCanalesPorCategoria(categoria) {
+    const canalesAsignados = categorias[categoria];
+    if (canalesAsignados) {
+      for (let i = 1; i <= canalesAsignados.length; i++) {
+        const screenId = `P${i}`;
+        const canalAsignado = LosCanales.find(canal => canal.id === canalesAsignados[i - 1]);
+
+        if (canalAsignado) {
+          const player = document.getElementById(`player${screenId}`);
+          const titleBar = document.getElementById(`nombre-barra-${screenId}`);
+
+          player.setAttribute('src', canalAsignado.url);
+          titleBar.innerHTML = '';
+
+          const anchor = document.createElement('a');
+          anchor.id = `links-${screenId}`;
+          anchor.title = 'TITULO DE SEÑAL';
+          anchor.innerText = canalAsignado.titulo;
+          titleBar.appendChild(anchor);
+        }
+      }
+    }
+  }
+
+  // Verificar si hay un parámetro de categoría en la URL y asignar canales
+  if (urlParams.has("Categoria")) {
+    const categoria = urlParams.get("Categoria");
+    asignarCanalesPorCategoria(categoria);
+  }
+
+  // ... Resto del código para gestionar los canales según los parámetros P1, P2, etc.
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  const urlParams = new URLSearchParams(window.location.search);
+
+  for (let i = 1; i <= 4; i++) { // Ajusta el número según sea necesario
     const screenId = `P${i}`;
     if (urlParams.has(screenId)) {
       const selectedChannelId = urlParams.get(screenId);
@@ -67,4 +109,5 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     }
   }
+
 });

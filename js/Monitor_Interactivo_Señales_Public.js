@@ -26,7 +26,7 @@ var App = {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV_NOTICIAS.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/CHVNOTICIAS.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CHV NOTICIAS</div></div></div>'
         },
-        'TELE13': {
+        'T13': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_T13_ENVIVO.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/T13_ENVIVO.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">T13</div></div></div>'
         },
@@ -2186,20 +2186,49 @@ seedModal: function() {
 
 init: function() {
     App.seedModal();
-    App.add("cima");
-    if (!App.isMobile()) {
-        App.add("24HTVN");
-        App.add("MEGANOTICIAS");
-        App.add("CHV_NOTICIAS");
-        App.add("TELE13");
 
-        App.add("RELOJES");
-        App.add("CNN_INTERNACIONAL");
-        
-        
-        
+    // Obtener los parámetros de la URL
+    const urlParams = new URLSearchParams(window.location.search);
+
+    // Verificar si hay parámetros y agregar canales según los parámetros
+    if (urlParams.has('Categoria')) {
+        const Categoria = urlParams.get('Categoria');
+        if (Categoria === 'Chile') {
+            App.add("24HTVN");
+            App.add("MEGANOTICIAS");
+            App.add("CHV_NOTICIAS");
+            App.add("T13");
+        } else if (Categoria === 'Argentina') {
+            App.add("TN_ARG_YT");
+            App.add("LA_NACION_ARG_YT");
+            App.add("CRONICATV_ARG_YT");
+            App.add("A24_ARG_YT");
+            App.add("C5N_ARG_YT");
+            App.add("CANAL_26_ARG_YT");
+        } else if (Categoria === 'Noticias') {
+            App.add("24HTVN");
+            App.add("TN_ARG_YT");
+            App.add("FRANCE24_ENG");
+            App.add("24HTVE");
+            App.add("CNN_INTERNACIONAL");
+            App.add("SKY_NEWS");
+        }
+    } else {
+        // Si no hay parámetros, agregar canales predeterminados
+        App.add("cima");
+        if (!App.isMobile()) {
+            App.add("24HTVN");
+            App.add("MEGANOTICIAS");
+            App.add("CHV_NOTICIAS");
+            App.add("T13");
+
+            App.add("RELOJES");
+            App.add("CNN_INTERNACIONAL");
+        }
     }
-}
+},
+
+
 };
 
 
