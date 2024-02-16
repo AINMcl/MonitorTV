@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Obtener el botón de alternar modo
   const toggleModeBtn = document.getElementById('botonMostrarOcultarModoOscuro');
-  const iconSpan = toggleModeBtn.querySelector('.material-icons');
+  const iconSpan = toggleModeBtn.querySelector('.material-icons-round');
 
   // Función para activar el modo oscuro
   function activarModoOscuro() {
