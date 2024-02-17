@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const iconSpan = toggleModeBtn.querySelector('.material-icons-round');
 
   // Función para activar el modo oscuro
-  function activarModoOscuro() {
+  /*function activarModoOscuro() {
     document.body.classList.add('dark-mode');
     document.getElementById('TextoBotonMostrarOcultarModoOscuro').textContent = 'MODO CLARO';
     iconSpan.textContent = 'light_mode';
@@ -26,6 +26,32 @@ document.addEventListener('DOMContentLoaded', function() {
     cambiarClaseWaves('waves-modooscuro', 'waves-verde');
     cambiarClaseWaves('waves-modooscuro', 'waves-grisoscuro');
     cambiarClaseWaves('waves-white', 'waves-grisclaro');
+    localStorage.setItem('modo', 'claro');
+  }*/
+
+  // Función para activar el modo oscuro
+  function activarModoOscuro() {
+    document.body.classList.add('dark-mode');
+    document.getElementById('TextoBotonMostrarOcultarModoOscuro').textContent = 'MODO CLARO';
+    iconSpan.textContent = 'light_mode';
+    cambiarClaseWaves('waves-azul', 'waves-modooscuro-azul');
+    cambiarClaseWaves('waves-red', 'waves-modooscuro-rojo');
+    cambiarClaseWaves('waves-verde', 'waves-modooscuro-verde');
+    cambiarClaseWaves('waves-grisoscuro', 'waves-modooscuro-grisoscuro');
+    cambiarClaseWaves('waves-grisclaro', 'waves-modooscuro-grisclaro');
+    localStorage.setItem('modo', 'oscuro');
+  }
+
+  // Función para desactivar el modo oscuro
+  function desactivarModoOscuro() {
+    document.body.classList.remove('dark-mode');
+    document.getElementById('TextoBotonMostrarOcultarModoOscuro').textContent = 'MODO OSCURO';
+    iconSpan.textContent = 'dark_mode';
+    cambiarClaseWaves('waves-modooscuro-azul', 'waves-azul');
+    cambiarClaseWaves('waves-modooscuro-rojo', 'waves-red');
+    cambiarClaseWaves('waves-modooscuro-verde', 'waves-verde');
+    cambiarClaseWaves('waves-modooscuro-grisoscuro', 'waves-grisoscuro');
+    cambiarClaseWaves('waves-modooscuro-grisclaro', 'waves-white');
     localStorage.setItem('modo', 'claro');
   }
 

@@ -88,7 +88,7 @@ var App = {
         },
         'TVN3': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN3.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/TVN3.html" frameborder="0" allowfullscreen referrerpolicy="no-referrer"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TVN3</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/TVN3.html" frameborder="0" allowfullscreen referrerpolicy="no-referrer"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TVN3</div></div></div>',
             'tags': ['Chile'],
         },
         /*'TVN_IFRAME': {
@@ -2171,265 +2171,265 @@ var App = {
         //ARICA
         'ARICA_ARICA_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>ARICA | ARICA TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARICA_ARICA_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ARICA TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARICA_ARICA_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ARICA TV</div></div></div>',
             'tags': ['Chile', 'Arica'],
         },
         'ARICA_CAPPISSIMA_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>ARICA | CAPPISSIMA TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARICA_CAPPISSIMA_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CAPPISSIMA TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARICA_CAPPISSIMA_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAPPISSIMA TV</div></div></div>',
             'tags': ['Chile', 'Arica'],
         },
         //TARAPACA
         'TARAPACA_IQUIQUE_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>TARAPACA | IQUIQUE TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/TARAPACA_IQUIQUE_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">IQUIQUE TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/TARAPACA_IQUIQUE_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">IQUIQUE TV</div></div></div>',
             'tags': ['Chile', 'Tarapaca'],
         },
         //ANTOFAGASTA
         'ANTOFAGASTA_ANTOFAGASTA_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>ANTOFAGASTA | ANTOFAGASTA TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ANTOFAGASTA_ANTOFAGASTA_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ANTOFAGASTA TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ANTOFAGASTA_ANTOFAGASTA_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ANTOFAGASTA TV</div></div></div>',
             'tags': ['Chile', 'Antofagasta'],
         },
         'ANTOFAGASTA_LRP_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>ANTOFAGASTA | LRP TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ANTOFAGASTA_LRP_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">LRP TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ANTOFAGASTA_LRP_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">LRP TV</div></div></div>',
             'tags': ['Chile', 'Antofagasta'],
         },
         'ANTOFAGASTA_AM_CANAL': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>ANTOFAGASTA | AM CANAL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ANTOFAGASTA_AM_CANAL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">AM CANAL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ANTOFAGASTA_AM_CANAL.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">AM CANAL</div></div></div>',
             'tags': ['Chile', 'Antofagasta'],
         },
         //Atacama
         'ATACAMA_ATACAMA TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>ATACAMA | ATACAMA TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ATACAMA_ATACAMA_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ATACAMA TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ATACAMA_ATACAMA_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ATACAMA TV</div></div></div>',
             'tags': ['Chile', 'Atacama'],
         },
         'ATACAMA_HOLVOET_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>ATACAMA | HOLVOET TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ATACAMA_HOLVOET_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">HOLVOET TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ATACAMA_HOLVOET_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">HOLVOET TV</div></div></div>',
             'tags': ['Chile', 'Atacama'],
         },
         //Coquimbo
         'COQUIMBO_MIRADIO_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>COQUIMBO | MI RADIO TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/COQUIMBO_MIRADIO_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">MI RADIO TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/COQUIMBO_MIRADIO_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">MI RADIO TV</div></div></div>',
             'tags': ['Chile', 'Coquimbo'],
         },
         //VALPARAISO
         'VALPARAISO_CANAL_2_SAN_ANTONIO': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>VALPARAISO | CANAL 2 SAN ANTONIO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/VALPARAISO_CANAL2.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CANAL 2 SAN ANTONIO</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/VALPARAISO_CANAL2.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CANAL 2 SAN ANTONIO</div></div></div>',
             'tags': ['Chile', 'Valparaiso'],
         },
         'VALPARAISO_VALPARAISO_VTV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>VALPARAISO | VTV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/VALPARAISO_VTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">VTV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/VALPARAISO_VTV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VTV</div></div></div>',
             'tags': ['Chile', 'Valparaiso'],
         },
         'VALPARAISO_GIROVISUAL': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>VALPARAISO | GIROVISUAL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/VALPARAISO_GIROVISUAL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">GIROVISUAL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/VALPARAISO_GIROVISUAL.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">GIROVISUAL</div></div></div>',
             'tags': ['Chile', 'Valparaiso'],
         },
         //RM
         'METROPOLITANA_STGO_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>RM | STGO TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/METROPOLITANA_STGO_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">STGO TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/METROPOLITANA_STGO_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">STGO TV</div></div></div>',
             'tags': ['Chile','Santiago','Metropolitana'],
         },
         'METROPOLITANA_TVR': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>RM | TVR',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/METROPOLITANA_TVR.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TVR</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/METROPOLITANA_TVR.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TVR</div></div></div>',
             'tags': ['Chile','Santiago','Metropolitana'],
         },
         'METROPOLITANA_PURANOTICIA': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>RM | PURANOTICIA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/PURANOTICIA_CL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PURANOTICIA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/PURANOTICIA_CL.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PURANOTICIA</div></div></div>',
             'tags': ['Chile','Santiago','Metropolitana'],
         },
         //OHIGGINS
         'OHIGGINS_TELECANAL': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>OHIGGINS | TELECANAL SANTA CRUZ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/OHIGGINS_TELECANAL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TELECANAL STA. CRUZ</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/OHIGGINS_TELECANAL.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TELECANAL STA. CRUZ</div></div></div>',
             'tags': ['Chile', 'Ohiggins'],
         },
         //MAULE
         'MAULE_CAMPUS_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>MAULE | CAMPUS UTALCA TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/MAULE_CAMPUS_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CAMPUS UTALCA TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/MAULE_CAMPUS_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMPUS UTALCA TV</div></div></div>',
             'tags': ['Chile'],
         },
         'MAULE_TELECANAL': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>MAULE | TELECANAL TALCA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/MAULE_TELECANAL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TELECANAL TALCA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/MAULE_TELECANAL.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TELECANAL TALCA</div></div></div>',
             'tags': ['Chile', 'Maule'],
         },
         'MAULE_CONTIVISION': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>MAULE | CONTIVISION',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/MAULE_CONTIVISION.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CONTIVISION</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/MAULE_CONTIVISION.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CONTIVISION</div></div></div>',
             'tags': ['Chile', 'Maule'],
         },
         'MAULE_TV5_LINARES': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>MAULE | TV5 LINARES',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/MAULE_TV5LINARES.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TV5 LINARES</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/MAULE_TV5LINARES.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV5 LINARES</div></div></div>',
             'tags': ['Chile', 'Maule'],
         },
         'MAULE_UTV_SANCLEMENTE': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>MAULE | UTV SANCLEMENTE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/MAULE_UTVSANCLEMENTE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">UTV SANCLEMENTE</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/MAULE_UTVSANCLEMENTE.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">UTV SANCLEMENTE</div></div></div>',
             'tags': ['Chile', 'Maule'],
         },
         //BIOBIO
         'BIOBIO_CANAL9_BIOBIO_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>BIOBIO | CANAL 9 BIOBIO TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/BIOBIO_CANAL9BIOBIOTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CANAL 9 BIOBIO TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/BIOBIO_CANAL9BIOBIOTV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CANAL 9 BIOBIO TV</div></div></div>',
             'tags': ['Chile', 'Bio Bio'],
         },
         'BIOBIO_TVU': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>BIOBIO | TVU',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/BIOBIO_TVU.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TVU</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/BIOBIO_TVU.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TVU</div></div></div>',
             'tags': ['Chile', 'Bio Bio'],
         },
         'BIOBIO_TV8': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>BIOBIO | TV8',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/BIOBIO_TV8.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TV8</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/BIOBIO_TV8.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV8</div></div></div>',
             'tags': ['Chile'],
         },
         'BIOBIO_ENERGIA_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>BIOBIO | ENERGIA TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/BIOBIO_ENERGIATV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ENERGIA TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/BIOBIO_ENERGIATV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ENERGIA TV</div></div></div>',
             'tags': ['Chile', 'Bio Bio'],
         },
         'BIOBIO_EL3DECONCE': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>BIOBIO | EL 3 DE CONCE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/BIOBIO_EL3DECONCE.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">EL 3 DE CONCE</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/BIOBIO_EL3DECONCE.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EL 3 DE CONCE</div></div></div>',
             'tags': ['Chile', 'Bio Bio'],
         },
         //ARAUCANIA
         'ARAUCANIA_TEMUCO_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>ARAUCANIA | TEMUCO TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARAUCANIA_TEMUCO_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TEMUCO TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARAUCANIA_TEMUCO_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TEMUCO TV</div></div></div>',
             'tags': ['Chile', 'Araucania'],
         },
         'ARAUCANIA_LTV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>ARAUCANIA | LTV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARAUCANIA_LTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">LTV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARAUCANIA_LTV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">LTV</div></div></div>',
             'tags': ['Chile', 'Araucania'],
         },
         'ARAUCANIA_PUCON_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>ARAUCANIA | PUCON TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARAUCANIA_PUCONTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PUCON TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARAUCANIA_PUCONTV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PUCON TV</div></div></div>',
             'tags': ['Chile', 'Araucania'],
         },
         'ARAUCANIA_TELEANGOL': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>ARAUCANIA | TELEANGOL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARAUCANIA_TELEANGOL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TELEANGOL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARAUCANIA_TELEANGOL.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TELEANGOL</div></div></div>',
             'tags': ['Chile', 'Araucania'],
         },
         'ARAUCANIA_RADIO_EDELWEISS': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>ARAUCANIA | RADIO EDELWEISS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARAUCANIA_RADIO_EDELWEISS.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO EDELWEISS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/ARAUCANIA_RADIO_EDELWEISS.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RADIO EDELWEISS</div></div></div>',
             'tags': ['Chile', 'Araucania'],
         },
         //LOS LAGOS
         'LOS_LAGOS_OSORNO_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>LOS LAGOS | OSORNO TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/LOS_LAGOS_OSORNO_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">OSORNO TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/LOS_LAGOS_OSORNO_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">OSORNO TV</div></div></div>',
             'tags': ['Chile', 'Los Lagos'],
         },
         'LOS_LAGOS_TVINET': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>LOS LAGOS | TV INET',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/LOS_LAGOS_TVINET.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">TV INET</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/LOS_LAGOS_TVINET.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV INET</div></div></div>',
             'tags': ['Chile', 'Los Lagos'],
         },
         'LOS_LAGOS_CANAL5_PTO_MONTT': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>LOS LAGOS | CANAL 5 PUERTO MONTT',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/LOS_LAGOS_CANAL5_PTOMONTT.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CANAL 5 PUERTO MONTT</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/LOS_LAGOS_CANAL5_PTOMONTT.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CANAL 5 PUERTO MONTT</div></div></div>',
             'tags': ['Chile', 'Los Lagos'],
         },
         'LOS_LAGOS_DECIMA_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>LOS LAGOS | DECIMA TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/LOS_LAGOS_DECIMA_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">DECIMA TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/LOS_LAGOS_DECIMA_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">DECIMA TV</div></div></div>',
             'tags': ['Chile', 'Los Lagos'],
         },
         'LOS_LAGOS_CANAL2_QUELLON': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>LOS LAGOS | CANAL 2 QUELLON',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/LOS_LAGOS_CANAL2_QUELLON.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CANAL 2 QUELLON</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/LOS_LAGOS_CANAL2_QUELLON.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CANAL 2 QUELLON</div></div></div>',
             'tags': ['Chile', 'Los Lagos'],
         },
         'LOS_LAGOS_MUNICIPIOTV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>LOS LAGOS | CASTRO MUNICIPIO TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/LOS_LAGOS_CASTROMUNICIPIO.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CASTRO MUNICIPIO TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/LOS_LAGOS_CASTROMUNICIPIO.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CASTRO MUNICIPIO TV</div></div></div>',
             'tags': ['Chile', 'Los Lagos'],
         },
         'LOS_LAGOS_PATAGONIA_RADIOTV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>LOS LAGOS | PATAGONIA RADIO TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/LOS_LAGOS_PATAGONIARADIOTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PATAGONIA RADIO TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/LOS_LAGOS_PATAGONIARADIOTV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PATAGONIA RADIO TV</div></div></div>',
             'tags': ['Chile', 'Los Lagos'],
         },
         //AYSEN
         'AYSEN_AYSEN TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>AYSEN | AYSEN TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/AYSEN_AYSENTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">AYSEN TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/AYSEN_AYSENTV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">AYSEN TV</div></div></div>',
             'tags': ['Chile', 'Aysen'],
         },
         'AYSEN_CANAL11_AYSEN': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>AYSEN | CANAL 11 AYSEN',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/AYSEN_CANAL11.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">CANAL 11</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/AYSEN_CANAL11.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CANAL 11</div></div></div>',
             'tags': ['Chile', 'Aysen'],
         },
         'RLN': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>AYSEN | RADIO LAS NIEVES',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIOLASNIEVES.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO LAS NIEVES</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIOLASNIEVES.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RADIO LAS NIEVES</div></div></div>',
             'tags': ['Chile', 'Aysen'],
         },
         'PANORAMICA_INFORMATIVA': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">tv</span>AYSEN | RADIO PANORAMICA INFORMATIVA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_PANORAMICAINFORMATIVA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO PANORAMICA INFORMATIVA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_PANORAMICAINFORMATIVA.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RADIO PANORAMICA INFORMATIVA</div></div></div>',
             'tags': ['Chile', 'Aysen'],
         },
         'GENIAL': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>AYSEN | RADIO GENIAL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_GENIAL.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO GENIAL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_GENIAL.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RADIO GENIAL</div></div></div>',
             'tags': ['Chile', 'Aysen'],
         },
         'CANAL_SUR_PATAGONIA': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>AYSEN | CANAL SUR PATAGONIA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_CANALSURPATAGONIA.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO CANAL SUR PATAGONIA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_CANALSURPATAGONIA.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RADIO CANAL SUR PATAGONIA</div></div></div>',
             'tags': ['Chile', 'Aysen'],
         },
         'AYSEN_ROCCO_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>AYSEN | ROCCO TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/AYSEN_ROCCOTV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ROCCO TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/AYSEN_ROCCOTV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ROCCO TV</div></div></div>',
             'tags': ['Chile', 'Aysen'],
         },
         'AYSEN_SANTAMARIA_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>AYSEN | SANTA MARIA TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/AYSEN_SANTAMARIA_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">SANTA MARIA TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/AYSEN_SANTAMARIA_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SANTA MARIA TV</div></div></div>',
             'tags': ['Chile', 'Aysen'],
         },
         'AYSEN_LA_MELINKANA_TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>AYSEN | LA MELINKANA TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/AYSEN_LAMELINKANATV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">SANTA MARIA TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/AYSEN_LAMELINKANATV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SANTA MARIA TV</div></div></div>',
             'tags': ['Chile', 'Aysen'],
         },
         //MAGALLANES
         'MAGALLANES_ITV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>MAGALLANES | ITV PATAGONIA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/MAGALLANES_ITV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ITV PATAGONIA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/MAGALLANES_ITV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ITV PATAGONIA</div></div></div>',
             'tags': ['Chile', 'Magallanes'],
         },
         'MAGALLANES_PINGUINO TV': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>MAGALLANES | PINGUINO TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/MAGALLANES_PINGUINO_TV.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">PINGUINO TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="Senal/REGIONALES/MAGALLANES_PINGUINO_TV.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PINGUINO TV</div></div></div>',
             'tags': ['Chile', 'Magallanes'],
         },
         'RADIO_POLAR': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span>MAGALLANES | RADIO POLAR',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_POLAR.html" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">RADIO POLAR</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/RADIO_POLAR.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RADIO POLAR</div></div></div>',
             'tags': ['Chile', 'Magallanes'],
         },
 
@@ -2680,209 +2680,285 @@ var App = {
     },
     add: function(canal) {
         if (App.channels[canal]) {
-    var thisCanal = document.createElement("div");
-    thisCanal.innerHTML = App.channels[canal].code;
+        var thisCanal = document.createElement("div");
+        thisCanal.innerHTML = App.channels[canal].code;
 
-    if (App.isMobile()) {
-        thisCanal.classList.add("col-" + sizeMobile);
-    } else {
-        thisCanal.classList.add("col-" + size);
-    }
-    thisCanal.classList.add("stream");
-    thisCanal.setAttribute("data-canal", canal);
-    var losCanales = document.getElementById("los-canales");
-    losCanales.appendChild(thisCanal);
-    var n = document.querySelector('button[data-canal="' + canal + '"]');
-    n.classList.remove("BotonTV_Señales");
-    n.classList.add("BotonTV_SeñalSeleccionada");
-}
-    },
-remove: function(canal) {
-    var findCanal = document.querySelector('div[data-canal="' + canal + '"]');
-    var losCanales = document.getElementById("los-canales");
-    if (findCanal != null) {
-        losCanales.removeChild(findCanal);
+        if (App.isMobile()) {
+            thisCanal.classList.add("col-" + sizeMobile);
+        } else {
+            thisCanal.classList.add("col-" + size);
+        }
+        thisCanal.classList.add("stream");
+        thisCanal.setAttribute("data-canal", canal);
+        var losCanales = document.getElementById("los-canales");
+        losCanales.appendChild(thisCanal);
+
+        // Crear la div BotonCambiarSeñal
+        var divBotonCambiarSeñal = document.createElement("div");
+        divBotonCambiarSeñal.classList.add("BotonCambiarSeñal");
+
+        // Crear el botón BotonCambiarSeñalTexto
+        var botonCambiarSeñalTexto = document.createElement("div");
+        botonCambiarSeñalTexto.classList.add("BotonCambiarSeñalTexto");
+        botonCambiarSeñalTexto.classList.add("BotonEstiloRojo");
+        botonCambiarSeñalTexto.classList.add("waves-effect");
+        botonCambiarSeñalTexto.classList.add("waves-light");
+        botonCambiarSeñalTexto.setAttribute("data-canal", canal);
+        botonCambiarSeñalTexto.title = "Borrar Señal";
+
+        // Agregar el ícono al botón
+        var icono = document.createElement("span");
+        icono.classList.add("material-icons-round");
+        icono.textContent = "delete";
+
+        // Agregar el ícono al botón
+        botonCambiarSeñalTexto.appendChild(icono);
+
+        // Agregar el botón a la div
+        divBotonCambiarSeñal.appendChild(botonCambiarSeñalTexto);
+
+        // Agregar la div al canal
+        thisCanal.appendChild(divBotonCambiarSeñal);
+
+        // Asociar evento de clic al botón para eliminar el canal
+        botonCambiarSeñalTexto.addEventListener("click", function() {
+            App.remove(canal);
+        });
+
+        // Crear el botón BotonCambiarSeñalTexto (Refrescar)
+        var botonRefrescar = document.createElement("div");
+        botonRefrescar.classList.add("BotonCambiarSeñalTexto");
+        botonRefrescar.classList.add("waves-effect");
+        botonRefrescar.classList.add("waves-light");
+        botonRefrescar.setAttribute("data-canal", canal);
+        botonRefrescar.title = "Refrescar Señal";
+
+        // Agregar el ícono al botón
+        var iconoRefrescar = document.createElement("span");
+        iconoRefrescar.classList.add("material-icons-round");
+        iconoRefrescar.textContent = "refresh";
+
+        // Agregar el ícono al botón
+        botonRefrescar.appendChild(iconoRefrescar);
+
+        // Asociar evento de clic al botón para refrescar la señal (puedes definir la función handleRefrescarClick)
+        botonRefrescar.addEventListener("click", function() {
+            App.refrescar(canal); // Ajusta el nombre de la función según sea necesario
+        });
+
+        // Agregar el botón a la div
+        divBotonCambiarSeñal.appendChild(botonRefrescar);
+
         var n = document.querySelector('button[data-canal="' + canal + '"]');
-        n.classList.remove("BotonTV_SeñalSeleccionada");
-        n.classList.add("BotonTV_Señales");
-    }
-},
-isMobile: function() {
-    var check = false;
-    (function (a) { if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true; })(navigator.userAgent || navigator.vendor || window.opera);
-    return check;
-},
+        n.classList.remove("BotonTV_Señales");
+        n.classList.add("BotonTV_SeñalSeleccionada");
+        }
+    },
+    remove: function(canal) {
+        var findCanal = document.querySelector('div[data-canal="' + canal + '"]');
+        var losCanales = document.getElementById("los-canales");
+        if (findCanal != null) {
+            losCanales.removeChild(findCanal);
+            var n = document.querySelector('button[data-canal="' + canal + '"]');
+            n.classList.remove("BotonTV_SeñalSeleccionada");
+            n.classList.add("BotonTV_Señales");
+        }
+    },
+    refrescar: function(canal) {
+        // Obtén el elemento del canal que quieres refrescar (puede variar dependiendo de tu implementación)
+        var canalElement = document.querySelector('div[data-canal="' + canal + '"]');
 
-seedModal: function() {
-    for (const llave in App.channels) {
-        let buttonTV;
-        buttonTV = document.createElement("button");
-        buttonTV.classList.add("btn");
-        buttonTV.classList.add("BotonTV_Señales");
-        buttonTV.classList.add("waves-effect");
-        buttonTV.classList.add("waves-grisclaro");
-        buttonTV.setAttribute("data-canal", llave);
-        buttonTV.innerHTML = App.channels[llave].nombre;
-        let n = document.querySelector(".modal-body");
-        n.appendChild(buttonTV);
-        buttonTV.addEventListener("click", function () {
-            if (buttonTV.getAttribute("class").includes("BotonTV_Señales")) {
-                App.add(llave);
-            } else if (buttonTV.getAttribute("class").includes("BotonTV_SeñalSeleccionada")) {
-                App.remove(llave);
+        // Si encuentras el elemento del canal
+        if (canalElement) {
+            // Obtén el iframe dentro del canal
+            var iframe = canalElement.querySelector('iframe');
+
+            // Si encuentras el iframe
+            if (iframe) {
+                // Vuelve a cargar el contenido del iframe
+                iframe.src = iframe.src;
+            } else {
+                console.error("No se pudo encontrar el iframe dentro del elemento del canal para refrescar");
             }
-        })
+        } else {
+            console.error("No se pudo encontrar el elemento del canal para refrescar");
+        }
+    },
+    isMobile: function() {
+        var check = false;
+        (function (a) { if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true; })(navigator.userAgent || navigator.vendor || window.opera);
+        return check;
+    },
+
+    seedModal: function() {
+        for (const llave in App.channels) {
+            let buttonTV;
+            buttonTV = document.createElement("button");
+            buttonTV.classList.add("btn");
+            buttonTV.classList.add("BotonTV_Señales");
+            buttonTV.classList.add("waves-effect");
+            buttonTV.classList.add("waves-grisclaro");
+            buttonTV.setAttribute("data-canal", llave);
+            buttonTV.innerHTML = App.channels[llave].nombre;
+            let n = document.querySelector(".modal-body");
+            n.appendChild(buttonTV);
+            buttonTV.addEventListener("click", function () {
+                if (buttonTV.getAttribute("class").includes("BotonTV_Señales")) {
+                    App.add(llave);
+                } else if (buttonTV.getAttribute("class").includes("BotonTV_SeñalSeleccionada")) {
+                    App.remove(llave);
+                }
+            })
+        };
+    },
+
+    init: function() {
+        App.seedModal();
+
+        // Obtener los parámetros de la URL
+        const urlParams = new URLSearchParams(window.location.search);
+
+        // Verificar si hay parámetros y agregar canales según los parámetros
+        if (urlParams.has('Categoria')) {
+            const Categoria = urlParams.get('Categoria');
+            if (Categoria === 'Chile') {
+                App.add("24HTVN");
+                App.add("MEGANOTICIAS");
+                App.add("CHV_NOTICIAS");
+                App.add("T13");
+            } else if (Categoria === 'Argentina') {
+                App.add("TN_ARG_YT");
+                App.add("LA_NACION_ARG_YT");
+                App.add("CRONICATV_ARG_YT");
+                App.add("A24_ARG_YT");
+                App.add("C5N_ARG_YT");
+                App.add("CANAL_26_ARG_YT");
+            } else if (Categoria === 'Noticias') {
+                App.add("24HTVN");
+                App.add("TN_ARG_YT");
+                App.add("FRANCE24_ENG");
+                App.add("24HTVE");
+                App.add("CNN_INTERNACIONAL");
+                App.add("SKY_NEWS");
+            }
+        } else {
+            // Si no hay parámetros, agregar canales predeterminados
+            App.add("cima");
+            if (!App.isMobile()) {
+                App.add("24HTVN");
+                App.add("MEGANOTICIAS");
+                App.add("CHV_NOTICIAS");
+                App.add("T13");
+                App.add("RELOJES");
+                App.add("CNN_INTERNACIONAL");
+            }
+        }
+    },
+
+
     };
-},
 
-init: function() {
-    App.seedModal();
 
-    // Obtener los parámetros de la URL
-    const urlParams = new URLSearchParams(window.location.search);
 
-    // Verificar si hay parámetros y agregar canales según los parámetros
-    if (urlParams.has('Categoria')) {
-        const Categoria = urlParams.get('Categoria');
-        if (Categoria === 'Chile') {
-            App.add("24HTVN");
-            App.add("MEGANOTICIAS");
-            App.add("CHV_NOTICIAS");
-            App.add("T13");
-        } else if (Categoria === 'Argentina') {
-            App.add("TN_ARG_YT");
-            App.add("LA_NACION_ARG_YT");
-            App.add("CRONICATV_ARG_YT");
-            App.add("A24_ARG_YT");
-            App.add("C5N_ARG_YT");
-            App.add("CANAL_26_ARG_YT");
-        } else if (Categoria === 'Noticias') {
-            App.add("24HTVN");
-            App.add("TN_ARG_YT");
-            App.add("FRANCE24_ENG");
-            App.add("24HTVE");
-            App.add("CNN_INTERNACIONAL");
-            App.add("SKY_NEWS");
-        }
-    } else {
-        // Si no hay parámetros, agregar canales predeterminados
-        App.add("cima");
-        if (!App.isMobile()) {
-            App.add("24HTVN");
-            App.add("MEGANOTICIAS");
-            App.add("CHV_NOTICIAS");
-            App.add("T13");
+    App.init();
 
-            App.add("RELOJES");
-            App.add("CNN_INTERNACIONAL");
+    //Señales por Fila
+    var hue = document.getElementById("Stream_por_fila");
+
+    hue.onchange = function (event) {
+        size = event.target.value
+        sizeMobile = event.target.value
+        let canal2 = document.querySelectorAll(".stream");
+        for (let videos of canal2) {
+            videos.classList.remove("col-12", "col-6", "col-4", "col-3", "col-2");
+            videos.classList.add("col-" + event.target.value);
         }
     }
-},
 
+    // Evento para filtrar canales por tag
+    function filtrarPorTag(tagSeleccionado) {
+        const seccionCanales = document.getElementById("PorFiltrar"); // Obtener la sección de la lista de canales
+        seccionCanales.innerHTML = ''; // Limpiar la lista de canales para mostrar nuevos resultados
 
-};
+        for (const llave in App.channels) {
+            const canalTags = App.channels[llave].tags.map(tag => tag.toLowerCase());
 
+            // Comprobar si el tag seleccionado está presente en las etiquetas del canal
+            if (!tagSeleccionado || canalTags.includes(tagSeleccionado.toLowerCase())) {
+                const buttonTV = document.createElement("button");
+                buttonTV.classList.add("btn");
+                buttonTV.classList.add("BotonTV_Señales");
+                buttonTV.classList.add("waves-effect");
+                buttonTV.classList.add("waves-grisclaro");
+                buttonTV.setAttribute("data-canal", llave);
+                buttonTV.innerHTML = App.channels[llave].nombre;
 
+                seccionCanales.appendChild(buttonTV);
 
-App.init();
-
-//Señales por Fila
-var hue = document.getElementById("Stream_por_fila");
-
-hue.onchange = function (event) {
-    size = event.target.value
-    sizeMobile = event.target.value
-    let canal2 = document.querySelectorAll(".stream");
-    for (let videos of canal2) {
-        videos.classList.remove("col-12", "col-6", "col-4", "col-3", "col-2");
-        videos.classList.add("col-" + event.target.value);
-    }
-}
-
-// Evento para filtrar canales por tag
-function filtrarPorTag(tagSeleccionado) {
-    const seccionCanales = document.getElementById("PorFiltrar"); // Obtener la sección de la lista de canales
-    seccionCanales.innerHTML = ''; // Limpiar la lista de canales para mostrar nuevos resultados
-
-    for (const llave in App.channels) {
-        const canalTags = App.channels[llave].tags.map(tag => tag.toLowerCase());
-
-        // Comprobar si el tag seleccionado está presente en las etiquetas del canal
-        if (!tagSeleccionado || canalTags.includes(tagSeleccionado.toLowerCase())) {
-            const buttonTV = document.createElement("button");
-            buttonTV.classList.add("btn");
-            buttonTV.classList.add("BotonTV_Señales");
-            buttonTV.classList.add("waves-effect");
-            buttonTV.classList.add("waves-grisclaro");
-            buttonTV.setAttribute("data-canal", llave);
-            buttonTV.innerHTML = App.channels[llave].nombre;
-
-            seccionCanales.appendChild(buttonTV);
-
-            buttonTV.addEventListener("click", function () {
-                if (buttonTV.getAttribute("class").includes("BotonTV_Señales")) {
-                    App.add(llave);
-                } else if (buttonTV.getAttribute("class").includes("BotonTV_SeñalSeleccionada")) {
-                    App.remove(llave);
-                }
-            });
+                buttonTV.addEventListener("click", function () {
+                    if (buttonTV.getAttribute("class").includes("BotonTV_Señales")) {
+                        App.add(llave);
+                    } else if (buttonTV.getAttribute("class").includes("BotonTV_SeñalSeleccionada")) {
+                        App.remove(llave);
+                    }
+                });
+            }
         }
     }
-}
 
-// Agregar evento al select para filtrar los canales por tag
-const selectTag = document.getElementById('tag-select');
-selectTag.addEventListener('change', function() {
-    const tagSeleccionado = selectTag.value;
-    filtrarPorTag(tagSeleccionado);
-});
+    // Agregar evento al select para filtrar los canales por tag
+    const selectTag = document.getElementById('tag-select');
+    selectTag.addEventListener('change', function() {
+        const tagSeleccionado = selectTag.value;
+        filtrarPorTag(tagSeleccionado);
+    });
 
 
-//BuscadorNuevo
-// Evento para filtrar canales por nombre o ID
-function filtrarPorNombreID() {
-    const seccionCanales = document.getElementById("PorFiltrar"); // Obtener la sección de la lista de canales
-    seccionCanales.innerHTML = ''; // Limpiar la lista de canales para mostrar nuevos resultados
+    //BuscadorNuevo
+    // Evento para filtrar canales por nombre o ID
+    function filtrarPorNombreID() {
+        const seccionCanales = document.getElementById("PorFiltrar"); // Obtener la sección de la lista de canales
+        seccionCanales.innerHTML = ''; // Limpiar la lista de canales para mostrar nuevos resultados
 
-    const textoBuscado = buscador.value.toLowerCase().trim(); // Obtener el texto del buscador y convertirlo a minúsculas
+        const textoBuscado = buscador.value.toLowerCase().trim(); // Obtener el texto del buscador y convertirlo a minúsculas
 
-    for (const llave in App.channels) {
-        const nombreCanal = App.channels[llave].nombre.toLowerCase();
-        const canalId = llave.toLowerCase();
+        for (const llave in App.channels) {
+            const nombreCanal = App.channels[llave].nombre.toLowerCase();
+            const canalId = llave.toLowerCase();
 
-        // Comprobar si el nombre o ID del canal coincide con el texto buscado
-        if (nombreCanal.includes(textoBuscado) || canalId.includes(textoBuscado)) {
-            const buttonTV = document.createElement("button");
-            buttonTV.classList.add("btn");
-            buttonTV.classList.add("BotonTV_Señales");
-            buttonTV.classList.add("waves-effect");
-            buttonTV.classList.add("waves-grisclaro");
-            buttonTV.setAttribute("data-canal", llave);
-            buttonTV.innerHTML = App.channels[llave].nombre;
+            // Comprobar si el nombre o ID del canal coincide con el texto buscado
+            if (nombreCanal.includes(textoBuscado) || canalId.includes(textoBuscado)) {
+                const buttonTV = document.createElement("button");
+                buttonTV.classList.add("btn");
+                buttonTV.classList.add("BotonTV_Señales");
+                buttonTV.classList.add("waves-effect");
+                buttonTV.classList.add("waves-grisclaro");
+                buttonTV.setAttribute("data-canal", llave);
+                buttonTV.innerHTML = App.channels[llave].nombre;
 
-            seccionCanales.appendChild(buttonTV);
+                seccionCanales.appendChild(buttonTV);
 
-            buttonTV.addEventListener("click", function () {
-                if (buttonTV.getAttribute("class").includes("BotonTV_Señales")) {
-                    App.add(llave);
-                } else if (buttonTV.getAttribute("class").includes("BotonTV_SeñalSeleccionada")) {
-                    App.remove(llave);
-                }
-            });
+                buttonTV.addEventListener("click", function () {
+                    if (buttonTV.getAttribute("class").includes("BotonTV_Señales")) {
+                        App.add(llave);
+                    } else if (buttonTV.getAttribute("class").includes("BotonTV_SeñalSeleccionada")) {
+                        App.remove(llave);
+                    }
+                });
+            }
         }
     }
-}
 
-// Buscar
-const buscador = document.getElementById("buscador");
-buscador.addEventListener("input", filtrarPorNombreID);
+    // Buscar
+    const buscador = document.getElementById("buscador");
+    buscador.addEventListener("input", filtrarPorNombreID);
 
-// Función para borrar el texto del input y restaurar la lista original
-function borrarTexto() {
-    buscador.value = ''; // Borra el contenido del input
-    filtrarPorNombreID(); // Restaurar la lista original
-}
+    // Función para borrar el texto del input y restaurar la lista original
+    function borrarTexto() {
+        buscador.value = ''; // Borra el contenido del input
+        filtrarPorNombreID(); // Restaurar la lista original
+    }
 
-// Botón para borrar el texto del buscador
-const botonBorrar = document.getElementById('boton-borrar');
-botonBorrar.addEventListener('click', borrarTexto);
+    // Botón para borrar el texto del buscador
+    const botonBorrar = document.getElementById('boton-borrar');
+    botonBorrar.addEventListener('click', borrarTexto);
