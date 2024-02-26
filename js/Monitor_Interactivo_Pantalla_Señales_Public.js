@@ -150,6 +150,60 @@ let LosCanales = [
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/EMOLTV_2.html'
     },{
+        'titulo': 'TVN/C13 VIÑA 2024',
+        'id': 'VINA_SOCIAL_ROOM',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>VIÑA SOCIAL ROOM',
+        'tags' : ['Chile','Ocasional'],
+        'url': '../Monitores/Senal/Interna_TVN_CANAL13_VINA2024.html'
+    },{
+        'titulo': 'VIÑA 2024 CAM 1',
+        'id': 'VINA_CAM_1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>VIÑA CAM 1 (NORTE)',
+        'tags' : ['Chile','Ocasional'],
+        'url': '../Monitores/Senal/Interna_TVN_VINA_2024_CAM_1.html'
+    },{
+        'titulo': 'VIÑA 2024 CAM 2',
+        'id': 'VINA_CAM_2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>VIÑA CAM 2 (CENTRO)',
+        'tags' : ['Chile','Ocasional'],
+        'url': '../Monitores/Senal/Interna_TVN_VINA_2024_CAM_2.html'
+    },{
+        'titulo': 'VIÑA 2024 CAM 3',
+        'id': 'VINA_CAM_3',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>VIÑA CAM 3 (ACCESO ARTISTAS)',
+        'tags' : ['Chile','Ocasional'],
+        'url': '../Monitores/Senal/Interna_TVN_VINA_2024_CAM_3.html'
+    },{
+        'titulo': 'VIÑA 2024 CAM 4',
+        'id': 'VINA_CAM_4',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>VIÑA CAM 4 (SUR)',
+        'tags' : ['Chile','Ocasional'],
+        'url': '../Monitores/Senal/Interna_TVN_VINA_2024_CAM_4.html'
+    },{
+        'titulo': 'VIÑA 2024 CAM 5',
+        'id': 'VINA_CAM_5',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>VIÑA CAM 5 (ESCALERA MUNICIPAL)',
+        'tags' : ['Chile','Ocasional'],
+        'url': '../Monitores/Senal/Interna_TVN_VINA_2024_CAM_5.html'
+    },{
+        'titulo': 'VIÑA 2024 CAM 6',
+        'id': 'VINA_CAM_6',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>VIÑA CAM 6 (CENTRO SUR)',
+        'tags' : ['Chile','Ocasional'],
+        'url': '../Monitores/Senal/Interna_TVN_VINA_2024_CAM_6.html'
+    },{
+        'titulo': '24 HORAS 1',
+        'id': '24H_OCASIONAL_1',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 1',
+        'tags' : ['Chile','Ocasional'],
+        'url': '../Monitores/Senal/Interna24H_1.html'
+    },{
+        'titulo': '24 HORAS 2',
+        'id': '24H_OCASIONAL_2',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 2',
+        'tags' : ['Chile','Ocasional'],
+        'url': '../Monitores/Senal/Interna24H_2.html'
+    },{
         'titulo': '24 HORAS 1',
         'id': '24H_OCASIONAL_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 1',

@@ -126,6 +126,41 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/EMOLTV_2.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EMOL TV 2</div></div></div>',
             'tags': ['Chile','Noticias'],
         },
+        'VINA_SOCIAL_ROOM': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>VIÑA SOCIAL ROOM',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/Interna_TVN_CANAL13_VINA2024.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VIÑA SOCIAL ROOM</div></div></div>',
+            'tags': ['Chile','Ocasional'],
+        },
+        'VINA_CAM_1': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>VIÑA CAM 1 (NORTE)',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/Interna_TVN_VINA_2024_CAM_1.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VIÑA 2024 CAM 1</div></div></div>',
+            'tags': ['Chile','Ocasional'],
+        },
+        'VINA_CAM_2': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>VIÑA CAM 2 (CENTRO)',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/Interna_TVN_VINA_2024_CAM_2.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VIÑA 2024 CAM 2</div></div></div>',
+            'tags': ['Chile','Ocasional'],
+        },
+        'VINA_CAM_3': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>VIÑA CAM 3 (ACCESO ARTISTAS)',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/Interna_TVN_VINA_2024_CAM_3.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VIÑA 2024 CAM 3</div></div></div>',
+            'tags': ['Chile','Ocasional'],
+        },
+        'VINA_CAM_4': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>VIÑA CAM 4 (SUR)',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/Interna_TVN_VINA_2024_CAM_4.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VIÑA 2024 CAM 4</div></div></div>',
+            'tags': ['Chile','Ocasional'],
+        },
+        'VINA_CAM_5': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>VIÑA CAM 5 (ESCALERA MUNICIPAL)',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/Interna_TVN_VINA_2024_CAM_5.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VIÑA 2024 CAM 5</div></div></div>',
+            'tags': ['Chile','Ocasional'],
+        },
+        'VINA_CAM_6': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>VIÑA CAM 6 (CENTRO SUR)',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/Interna_TVN_VINA_2024_CAM_6.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VIÑA 2024 CAM 6</div></div></div>',
+            'tags': ['Chile','Ocasional'],
+        },
         'Señal_Ocasional_24HTVN_1': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 1',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/Interna24H_1.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">24HORAS 1</div></div></div>',
