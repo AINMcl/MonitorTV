@@ -56,6 +56,11 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/TVMAS.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV+</div></div></div>',
             'tags': ['Chile'],
         },
+        'CNNCHILE_WEB': {
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CNNCHILE2.svg"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/CNNCHILE_IFRAME.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CNN CHILE</div></div></div>',
+            'tags': ['Chile','Noticias'],
+        },
         'TELE13_WEB': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_T13_ENVIVO.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/T13_ENVIVO_IFRAME.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">T13</div></div></div>',

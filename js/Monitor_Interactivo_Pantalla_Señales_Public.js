@@ -61,10 +61,10 @@ let LosCanales = [
         'url': '../Monitores/Senal/TVMAS.html'
     }, {
         'titulo': 'CNN CHILE',
-        'id': 'CNNCHILE',
-        'nombre': '<span id="CNNCHILE" style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 5px;" src="Imagenes/Logo_CNNCHILE2.svg"></img><span title="RECOMENDADO USAR BLOQUEADOR DE ANUNCIOS" style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="font-size: 20px" class="material-icons-round">security</span><span style="font-size: 12px; margin-left: 5px;">USAR BLOQ. ANUNCIOS</span></span>',
+        'id': 'CNNCHILE_IFRAME',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CNNCHILE2.svg"></img>',
         'tags' : ['Chile','Noticias'],
-        'url': 'https://ainmcl.github.io/MonitorTV/Monitores/SeñalEXTERNA.html?id=1049'
+        'url': '../Monitores/Senal/CNNCHILE_IFRAME.html'
     },{
         'titulo': 'T13',
         'id': 'T132',
