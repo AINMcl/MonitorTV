@@ -47,8 +47,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Definir asignaciones de canales por categoría
   const categorias = {
-    'Chile': ['24PLAY', 'MEGANOTICIAS', 'CHVNOTICIAS', 'T13','CNNCHILE_YT'],
+    'Chile': ['24PLAY', 'MEGANOTICIAS', 'CHVNOTICIAS', 'T13','CNN_CHILE'],
     'Argentina': ['TN_ARG_YT', 'LA_NACION_ARG_YT', 'CRONICATV_ARG_YT', 'A24_ARG_YT','C5N_ARG_YT','CANAL_26_ARG_YT'],
+    'Noticias': ['24PLAY', 'TN_ARG_YT', 'CNNI', 'SKYNEWS','FOROTV_YT','BFMTV_YT'],
   };
 
   // Función para asignar canales a las pantallas
