@@ -2850,7 +2850,7 @@ var App = {
                 App.add("CHV_NOTICIAS");
                 App.add("T13");
                 App.add("RELOJES");
-                App.add("CNN_INTERNACIONAL");
+                App.add("CNN_CHILE");
             }
         }
     },
