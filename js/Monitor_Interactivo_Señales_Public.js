@@ -7,17 +7,12 @@ var size = 4;
 var App = {
      channels: {
         '24HTVN': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24PLAY.svg"></img>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CANAL24H.svg"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/24HTVN_IFRAME.html" frameborder="0"></iframe><a href="Señal24HTVN_IFRAME.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">24 PLAY</div></a></div>',
             'tags': ['Chile','Noticias'],
         },
-        'CANAL24HTVN': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CANAL24H.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/Canal24HTVN.html" frameborder="0"></iframe><a href="Señal24HTVN.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">CANAL 24 HORAS</div></a></div>',
-            'tags': ['Chile','Noticias'],
-        },
         'CNN_CHILE': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CNNCHILE2.svg"></img>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CNNCHILE2.svg"></img><span title="AGREGADO RECIENTEMENTE" style="margin-left: 0px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/CNNCHILE.html" frameborder="0"></iframe><a href="SeñalCNNCHILE.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1 waves-effect waves-gris">CNN CHILE</div></a></div>',
             'tags': ['Chile','Noticias'],
         },
@@ -27,7 +22,7 @@ var App = {
             'tags': ['Chile','Noticias'],
         },
         'CHV_NOTICIAS': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV_NOTICIAS.svg"></img>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV_NOTICIAS.svg"></img><span title="AGREGADO RECIENTEMENTE" style="margin-left: 0px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/CHVNOTICIAS.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CHV NOTICIAS</div></div></div>',
             'tags': ['Chile','Noticias'],
         },
@@ -57,7 +52,7 @@ var App = {
             'tags': ['Chile'],
         },
         'CNNCHILE_WEB': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CNNCHILE2.svg"></img>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CNNCHILE2.svg"></img><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/CNNCHILE_IFRAME.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CNN CHILE</div></div></div>',
             'tags': ['Chile','Noticias'],
         },
@@ -66,13 +61,8 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/T13_ENVIVO_IFRAME.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">T13</div></div></div>',
             'tags': ['Chile','Noticias'],
         },
-        'TVN_WEB_IFRAME': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/WEB/SeñalTVN_IFRAME.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TVN</div></div></div>',
-            'tags': ['Chile'],
-        },
         'CHV_WEB_IFRAME': {
-            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV.svg"></img>',
+            'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV.svg"></img><span title="AGREGADO RECIENTEMENTE" style="margin-left: 0px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="../Monitores/Senal/WEB/SeñalCHV_IFRAME.html" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CHV</div></div></div>',
             'tags': ['Chile'],
         },

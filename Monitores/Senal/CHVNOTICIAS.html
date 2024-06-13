@@ -1,77 +1,66 @@
-
 <!DOCTYPE html PUBLIC>
 <html lang="es">
 <head>
 
-<title> CHV NOTICIAS </title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <title> CHV NOTICIAS </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 
-<link href="../../css/estilos.css" rel="stylesheet" type="text/css">
-<link rel="icon" href="../../Imagenes/Icon.png" type="image/png"/>
+    <link href="../../css/estilos.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href='../../imagenes/Icon.png' type="image/png"/>
 
-<style> html,body{width:100%;height:100%} </style>
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
+    <!--GOOGLE ICONS-->
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
 
-<!--GOOGLE FONTS-->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
-<!--GOOGLE ICONS-->
-<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<link href="../../css/video-js.css" rel="stylesheet">
-<script src="../../js/video.js"></script>
-<script src="../../js/videojs-contrib-hls.js"></script>
-<script src="../../js/estilosvideojw.js"></script>
-<script>jwplayer.key='fpjDq6xZtjNRpxYoVu4nj0jRIZqgVeQSpqiuNYojy3JFZW2B';</script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 
-	gtag('config', 'G-RT53GZ16EW');
-</script>
-<!--bootstrap-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-</script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-</script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
-
-<script src="../../js/Reproductor.js" type="text/javascript"></script>
-
-<script>
-	var player = new Playerjs({
-		id:"Reproductor",
-		file:"https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chvn/chvn.smil/playlist.m3u8?DVR",
-		autoplay:1
-		});
-</script>
 </head>
 
 <body>
+    <script src='https://platform.s-mdstrm.com/js/player_api.js?v=(none)'></script>
+    <script type="text/javascript" src='https://www.chilevision.cl/chilevision/js-local/jquery/jquery.min.js'></script>
 
+    <script>
+        var dfpRandomNumber = Math.floor((Math.random() * 10000000000) + 1);
+        var dfpURL = window.location.href;
+        var dfpURLEncoded = dfpURL;
+        var dfpVidId = '665782a26a670c089a823d0b';
+        var dfpShowName = ' ';
+        var dfpCountry = 'cl';
+        var dfpLanguage = 'es';
+        var dfpAdunit1 = 'live';
+        var dfpAdunit2 = 'senal-online';
+        var dfpAdunit3 = 'live';
+    </script>
 
-	<div style="position: absolute; width: 100%; height:100%" >
-		<div style="width: 100%; height:100%" id="Reproductor">
-		</div>
+    <div style="position: absolute; display: inline-block; width: 100%; height: 100%; top: 0%; left: 0px;"class="embed-responsive embed-responsive-16by9">
+		<div class="video-player player_content_data" data-id="665782a26a670c089a823d0b" data-msplayersrc="ms_player_src_01" data-senal="live_1" data-idsenal="665782a26a670c089a823d0b">
+            <div id="mdstrm-player" class="box-video player_area"></div>
+        </div>
+
+        <a style="text-decoration: none;" href="javascript:location.reload()" class="BotonCuadradoRecargarSeñalTexto waves-effect waves-white" role="button" >
+            <span class="material-icons-round">loop</span>
+        </a>
 	</div>
-	
-	<a style="text-decoration: none;" href="javascript:location.reload()" class="BotonCuadradoRecargarSeñalTexto waves-effect waves-white" role="button" >
-		<span class="material-icons-round">loop</span>
-	</a>
-	
+    
+    <script type="text/javascript" src='https://www.chilevision.cl/chilevision/js-local/v2/SenalEnVivo.class.js?v=(none)'></script>
 </body>
+
 </html>

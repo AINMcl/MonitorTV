@@ -136,6 +136,7 @@ input::-moz-focus-outer {
     padding: 0px;
     padding-top: 10px;
     padding-right: 5px;
+    margin-bottom: 15px;
     height: 80%;
 }
 
@@ -315,7 +316,7 @@ td {
     border: solid 2px #FFFFFF;
     color: #FFFFFF;
     box-shadow: 0px 0px 0px #00000000;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 
