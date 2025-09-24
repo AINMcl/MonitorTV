@@ -56,7 +56,7 @@ var App = {
         },
         'NASA_VIDEO': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Logo_NASA.svg"></img>ﾠNASA VIDEO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC_aP7p621ATY_yAa8jMqUVA&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤNASA TV PUBLICㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC_aP7p621ATY_yAa8jMqUVA&autoplay=true&mute=1" frameborder="0"></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤNASA TV PUBLICㅤ</div></div></div>'
         },
         'NASA_TV_PUBLIC2': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_NASA.svg"></img>ﾠNASA TV PUBLIC',
@@ -80,7 +80,7 @@ var App = {
         },
         'ROSCOSMOS': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Logo_ROSCOSMOS.svg"></img>ﾠROSCOSMOS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCOcpUgXosMCIlOsreUfNFiA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤISS TRACKERㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCOcpUgXosMCIlOsreUfNFiA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤISS TRACKERㅤ</div></div></div>'
         },
         'NASA_YT_PUBLIC': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Logo_NASA.svg"></img>ﾠNASA TV PUBLIC',
@@ -96,79 +96,79 @@ var App = {
         },
         'SPACEX': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_TV_News.svg"></img>ﾠSPACEX',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCtI0Hodo5o5dUb67FeUjDeA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSPACEXㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCtI0Hodo5o5dUb67FeUjDeA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSPACEXㅤ</div></div></div>'
         },
         'BLUE_ORIGIN': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_TV_News.svg"></img>ﾠBLUE ORIGIN',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCVxTHEKKLxNjGcvVaZindlg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤBLUE ORIGINㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCVxTHEKKLxNjGcvVaZindlg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤBLUE ORIGINㅤ</div></div></div>'
         },
         'ULA': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_TV_News.svg"></img>ﾠULA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCnrGPRKAg1PgvuSHrRIl3jg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤULAㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCnrGPRKAg1PgvuSHrRIl3jg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤULAㅤ</div></div></div>'
         }, 
         'ARIANESPACE': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_TV_News.svg"></img>ﾠARIANESPACE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCRn9F2D9j-t4A-HgudM7aLQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤARIANESPACEㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCRn9F2D9j-t4A-HgudM7aLQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤARIANESPACEㅤ</div></div></div>'
         },
         'Rocket_Lab': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_TV_News.svg"></img>ﾠROCKET LAB',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCsWq7LZaizhIi-c-Yo_bcpw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSPACEXㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCsWq7LZaizhIi-c-Yo_bcpw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSPACEXㅤ</div></div></div>'
         }, 
         'Virgin_Galactic': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_TV_News.svg"></img>ﾠVIRGIN GALACTIC',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UClcvOr7LV8tlJwJvkNMmnKg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤVirgin Galacticㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UClcvOr7LV8tlJwJvkNMmnKg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤVirgin Galacticㅤ</div></div></div>'
         },
         'CGTN': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_TV_News.svg"></img>ﾠCGTN',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCgrNz-aDmcr2uuto8_DL2jg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCGTNㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCgrNz-aDmcr2uuto8_DL2jg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCGTNㅤ</div></div></div>'
         },
         'RDRONE_UY_YouTube': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_TV_News.svg"></img>ﾠRDRONE UY',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC2BCLTaBqFwyc3CZlkEHg_Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤRDRONE UYㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC2BCLTaBqFwyc3CZlkEHg_Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤRDRONE UYㅤ</div></div></div>'
         },
         'SPACEX_STORM_YouTube': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_TV_News.svg"></img>ﾠSPACEX STORM',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCxjGXSXK3Ss-mkiZ-wYtjtg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSPACEX STORMㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCxjGXSXK3Ss-mkiZ-wYtjtg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSPACEX STORMㅤ</div></div></div>'
         },
         'NASASpaceflight': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_TV_News.svg"></img>ﾠNASASpaceflight ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCSUu1lih2RifWkKtDOJdsBA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤNASA Spaceflightㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCSUu1lih2RifWkKtDOJdsBA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤNASA Spaceflightㅤ</div></div></div>'
         },
         'EverydayAstronaut': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_TV_News.svg"></img>ﾠEVERYDAY ASTRONAUT ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC6uKrU_WqJ1R2HMTY3LIx5Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤEVERY ASTRONAUTㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC6uKrU_WqJ1R2HMTY3LIx5Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤEVERY ASTRONAUTㅤ</div></div></div>'
         },
         'FronteraEspacial': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_TV_News.svg"></img>ﾠFRONTERA ESPACIAL ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCurxSOUxQszWp-5juh48wmg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤFRONTERA ESPACIALㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCurxSOUxQszWp-5juh48wmg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤFRONTERA ESPACIALㅤ</div></div></div>'
         },
         'ConexionEspacial': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_TV_News.svg"></img>ﾠCONEXION ESPACIAL ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCS6DjxV3L8XdnGa70ZxS_FA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCONEXION ESPACIALㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCS6DjxV3L8XdnGa70ZxS_FA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCONEXION ESPACIALㅤ</div></div></div>'
         }, 
         '321LAUNCH_CAM': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_Camara.svg"></img>ﾠ321LAUNCH CAM',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCUccOGcvTNrJuihXhYsrp7w&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤ321LAUNCH CAMㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCUccOGcvTNrJuihXhYsrp7w&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤ321LAUNCH CAMㅤ</div></div></div>'
         },
         'Spaceflight Now': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_Camara.svg"></img>ﾠSPACEFLIGHT NOW',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCoLdERT4-TJ82PJOHSrsZLQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSPACEFLIGHT NOWㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCoLdERT4-TJ82PJOHSrsZLQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSPACEFLIGHT NOWㅤ</div></div></div>'
         }, 
         'ComoSapiens': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_Camara.svg"></img>ﾠCOSMOSAPIENS ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC3ZODI-xZfdPanPP6tKUg9g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCOSMOSAPIENSㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC3ZODI-xZfdPanPP6tKUg9g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤCOSMOSAPIENSㅤ</div></div></div>'
         }, 
         'InfiniteSpace': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_Camara.svg"></img>ﾠINFINITE SPACE ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCn8SmzG1xXx_inu-XADxcMg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤINFINITE SPACEㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCn8SmzG1xXx_inu-XADxcMg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤINFINITE SPACEㅤ</div></div></div>'
         },
         'SpaceXMissions': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_Camara.svg"></img>ﾠSPACEX MISSIONS ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCE_z1X3v8ZdBNHn9IFHBfNw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSPACEX MISSIONSㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCE_z1X3v8ZdBNHn9IFHBfNw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤSPACEX MISSIONSㅤ</div></div></div>'
         },
         'OceanCam': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_YT.svg"></img>ﾠ<img style="height: 20px; width:auto:" src="Imagenes/Icono_Camara.svg"></img>ﾠOCEAN CAM',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCF8IYFF60clbbznjvJ7qoTQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤOCEAN CAMㅤ</div></div></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCF8IYFF60clbbznjvJ7qoTQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="CAJATituloDePantallaPequeña2"><div class="TextoTitulosMonitor1">ㅤOCEAN CAMㅤ</div></div></div>'
         }, 
         'LabPadre_LabCam': {
             'nombre': '<img style="height: 20px; width:auto:" src="Imagenes/Logo_LABPADRE.svg"></img>ﾠLAB CAM',

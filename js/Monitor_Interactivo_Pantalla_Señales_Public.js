@@ -14,7 +14,7 @@ let LosCanales = [
     },{
         'titulo': 'CHV NOTICIAS',
         'id': 'CHVNOTICIAS',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV_NOTICIAS.svg"></img><span title="AGREGADO RECIENTEMENTE" style="margin-left: 0px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV_NOTICIAS.svg"></img>',
         'tags' : ['Chile','Noticias'],
         'url': '../Monitores/Senal/CHVNOTICIAS.html'
     }, {
@@ -29,28 +29,28 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_MEGA.svg"></img>',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/MEGA.html'
-    }, {
+    }, {/*
         'titulo': 'CANAL 13',
         'id': 'C13',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/CANAL13.html'
-    },{
+    },{*/
         'titulo': 'LA RED',
-        'id': 'LARE',
+        'id': 'LARED',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_LA_RED.svg"></img>',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/LARED.html'
     },{
         'titulo': 'TV+',
         'id': 'TV+',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVMAS.svg"></img>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVMAS.svg"></img>',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/TVMAS.html'
     }, {
         'titulo': 'CNN CHILE',
         'id': 'CNNCHILE_IFRAME',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CNNCHILE2.svg"></img><span title="AGREGADO RECIENTEMENTE" style="margin-left: 0px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CNNCHILE2.svg"></img>',
         'tags' : ['Chile','Noticias'],
         'url': '../Monitores/Senal/CNNCHILE_IFRAME.html'
     },{
@@ -62,7 +62,7 @@ let LosCanales = [
     }, {
         'titulo': 'CHV',
         'id': 'CHV2',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV.svg"></img><span title="AGREGADO RECIENTEMENTE" style="margin-left: 0px;" class="BotonAvisoListaSeñales TextoIconoVerdeClaro"><span style="font-size: 17px" class="material-icons-round">auto_awesome</span><span style="font-size: 12px; margin-left: 5px;">NUEVO</span></span>',
+        'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoAzul">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV.svg"></img>',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/WEB/SeñalCHV_IFRAME.html'
     }, {
@@ -108,12 +108,6 @@ let LosCanales = [
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/UCVTV2.html'
     }, {
-        'titulo': 'WAPP TV',
-        'id': 'WAPPTV',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/LogoTV_WappTV.svg"></img>',
-        'tags' : ['Chile'],
-        'url': '../Monitores/Senal/WAPPTV.html'
-    },{
         'titulo': 'U CHILE TV',
         'id': 'UCHILETV',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_UCHILETV_2.svg"></img>',
@@ -144,18 +138,6 @@ let LosCanales = [
         'tags' : ['Chile','Ocasional'],
         'url': '../Monitores/Senal/Interna24H_2.html'
     },{
-        'titulo': '24 HORAS 1',
-        'id': '24H_OCASIONAL_1',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 1',
-        'tags' : ['Chile','Ocasional'],
-        'url': '../Monitores/Senal/Interna24H_1.html'
-    }, {
-        'titulo': '24 HORAS 2',
-        'id': '24H_OCASIONAL_2',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 2',
-        'tags' : ['Chile','Ocasional'],
-        'url': '../Monitores/Senal/Interna24H_2.html'
-    }, {
         'titulo': '24 HORAS 3',
         'id': '24H_OCASIONAL_3',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 3',
@@ -167,12 +149,6 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 4',
         'tags' : ['Chile','Ocasional'],
         'url': '../Monitores/Senal/Interna24H_4.html'
-    }, {
-        'titulo': '24 HORAS 5',
-        'id': '24H_OCASIONAL_5',
-        'nombre': '<span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24H_Solo.svg"></img>SEÑAL OCASIONAL 5',
-        'tags' : ['Chile','Ocasional'],
-        'url': '../Monitores/Senal/Interna24H_5.html'
     }, {
         'titulo': 'MEGANOTICIAS 1',
         'id': 'MEGANOTICIAS_OCASIONAL_1',
@@ -215,7 +191,7 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>SEÑAL OCASIONAL 1',
         'tags' : ['Chile','Ocasional'],
         'url': '../Monitores/Senal/InternaCANAL13_1.html'
-    },{
+    },/*{
         'titulo': 'ZAPPING TV MUSIC',
         'id': 'ZAPPING_MUSIC',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">music_note</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_ZAPPING_TV_MUSIC.svg"></img>',
@@ -227,7 +203,7 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">music_note</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_REWIND_TV.svg"></img>',
         'tags' : ['Chile'],
         'url': '../Monitores/Senal/REWINDTV.html'
-    },
+    },*/
     
     
     {
@@ -266,25 +242,25 @@ let LosCanales = [
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">mic</span>RADIO LA CLAVE',
         'tags' : ['Chile','Radio'],
         'url': '../Monitores/Senal/RADIO_LACLAVE.html'
-    }, {
+    }, {/*
         'titulo': 'CNN CHILE AUDIO',
         'id': 'CNNCHILE_AUDIO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">mic</span>CNN CHILE (AUDIO)',
         'tags' : ['Chile','Radio'],
         'url': '../Monitores/Senal/CNNCHILE_Audio.html'
-    }, {
+    }, {*/
         'titulo': 'SUBELA RADIO',
         'id': 'RADIO_SUBELA',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">mic</span>SUBELA RADIO',
         'tags' : ['Chile','Radio'],
         'url': '../Monitores/Senal/RADIO_SUBELA.html'
-    }, {
+    }, {/*
         'titulo': 'RADIO TIEMPO',
         'id': 'RADIO_TIEMPO',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">mic</span>RADIO TIEMPO',
         'tags' : ['Chile','Radio'],
         'url': '../Monitores/Senal/RADIO_TIEMPO.html'
-    }, {
+    }, {*/
         'titulo': 'RADIO PAUTA',
         'id': 'RADIO_PAUTA_1',
         'nombre': '<span style="margin-right: 10px;" class="material-icons-round">mic</span>RADIO PAUTA',

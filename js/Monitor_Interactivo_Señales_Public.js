@@ -286,12 +286,12 @@ var App = {
         },
         'SENADO_YouTube': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img>TV SENADO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=true&mute=1"frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV SENADO</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=true&mute=1"frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV SENADO</div></div></div>',
             'tags': ['Chile','Politica'],
         },
         'DIPUTADOS_YouTube': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img>TV DIPUTADOS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV DIPUTADOS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV DIPUTADOS</div></div></div>',
             'tags': ['Chile','Politica'],
         },
         'SeñalVOA_LIVE_01': {
@@ -652,22 +652,22 @@ var App = {
         },
         'PRESIDENCIA_CHILE': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PRESIDENCIA CHILE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC_5Sh9VhJlgCspl4mLM2duw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PRESIDENCIA CHILE</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC_5Sh9VhJlgCspl4mLM2duw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PRESIDENCIA CHILE</div></div></div>',
             'tags': ['Chile','Politica','Ocasional'],
         },
         'PRESIDENCIA_ARGENTINA': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>PRESIDENCIA ARGENTINA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCXOIosipLXV0p_35MjTu0Aw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PRESIDENCIA ARGENTINA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCXOIosipLXV0p_35MjTu0Aw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PRESIDENCIA ARGENTINA</div></div></div>',
             'tags': ['Argentina','Politica','Ocasional'],
         },
         'PRESIDENCIA_ECUADOR': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>PRESIDENCIA ECUADOR',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCn2XiuAROvRcqscSI2Ni-6A&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PRESIDENCIA ECUADOR</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCn2XiuAROvRcqscSI2Ni-6A&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PRESIDENCIA ECUADOR</div></div></div>',
             'tags': ['Ecuador','Politica','Ocasional'],
         },
         'PRESIDENCIA_BRASIL': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">language</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>PRESIDENCIA BRASIL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCjjYaSHsZSUNTSwUV8OfOrA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PRESIDENCIA BRASIL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCjjYaSHsZSUNTSwUV8OfOrA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PRESIDENCIA BRASIL</div></div></div>',
             'tags': ['Brasil','Politica','Ocasional'],
         },
         //SEÑALES NOTICIAS LIMPIO YOUTUBE
@@ -1159,482 +1159,482 @@ var App = {
         //LATINOAMERICA
         'DIRECTV_NEWS': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><span style="margin-right: 10px;" class="material-icons-round">language</span>DNEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC4dWvSKVWJ36tJyhjDQCCaQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">DNEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC4dWvSKVWJ36tJyhjDQCCaQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">DNEWS</div></div></div>',
             'tags': ['LatinoAmerica'],
         },
         //Brasil
         'CNN_BRASIL': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>CNN BRASIL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCvdwhh_fDyWccR42-rReZLw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CNN BRASIL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCvdwhh_fDyWccR42-rReZLw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CNN BRASIL</div></div></div>',
             'tags': ['Brasil'],
         },
         'TV_BRASIL': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>TV BRASIL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCSv9d0kQegylHWpP83jWSQg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV BRASIL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCSv9d0kQegylHWpP83jWSQg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV BRASIL</div></div></div>',
             'tags': ['Brasil'],
         },
         'RECORD_NEWS': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>RECORD NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCuiLR4p6wQ3xLEm15pEn1Xw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RECORD NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCuiLR4p6wQ3xLEm15pEn1Xw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RECORD NEWS</div></div></div>',
             'tags': ['Brasil'],
         },
         'STB_NEWS': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>STB NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC376n347Ob5Lwzq2WGzF1AA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">STB NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC376n347Ob5Lwzq2WGzF1AA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">STB NEWS</div></div></div>',
             'tags': ['Brasil'],
         },
         'BAND_JORNALISMO': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>BAND JORNALISMO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCoa-D_VfMkFrCYodrOC9-mA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">BAND JORNALISMO</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCoa-D_VfMkFrCYodrOC9-mA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">BAND JORNALISMO</div></div></div>',
             'tags': ['Brasil'],
         },
         'JOVEM_PAN_NEWS': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/br.svg" title="BRASIL"></img>JOVEM PAN NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCP391YRAjSOdM_bwievgaZA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">JOVEM PAN NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCP391YRAjSOdM_bwievgaZA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">JOVEM PAN NEWS</div></div></div>',
             'tags': ['Brasil'],
         },
         //Australia
         'ABC_NEWS_AU_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/au.svg" title="AUSTRALIA"></img>ABC NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCVgO39Bk5sMo66-6o6Spn6Q&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ABC NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCVgO39Bk5sMo66-6o6Spn6Q&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ABC NEWS</div></div></div>',
             'tags': ['Australia'],
         },
         //Estados Unidos
         'ABC_NEWS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>ABC NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCBi2mrWuNuyYy4gbM6fU18Q&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ABC NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCBi2mrWuNuyYy4gbM6fU18Q&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ABC NEWS</div></div></div>',
             'tags': ['Estados Unidos'],
         },
         'NBCNEWS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>NBC NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCeY0bbntWzzVIaj2z3QigXg&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">NBC NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCeY0bbntWzzVIaj2z3QigXg&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">NBC NEWS</div></div></div>',
             'tags': ['Estados Unidos'],
         },
         'PBS_NEWSHOUR_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>PBS NEWSHOUR',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC6ZFN9Tx6xh-skXCuRHCDpQ&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PBS NEWSHOUR</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC6ZFN9Tx6xh-skXCuRHCDpQ&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PBS NEWSHOUR</div></div></div>',
             'tags': ['Estados Unidos'],
         },
         'UNIVISION_NOTICIAS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>UNIVISION NOTICIAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC32TdiIsh_5X8tKr_9rKQyA&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">UNIVISION NOTICIAS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC32TdiIsh_5X8tKr_9rKQyA&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">UNIVISION NOTICIAS</div></div></div>',
             'tags': ['Estados Unidos'],
         },
         'TELEMUNDO_NOTICIAS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>TELEMUNDO NOTICIAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCRwA1NUcUnwsly35ikGhp0A&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TELEMUNDO NOTICIAS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCRwA1NUcUnwsly35ikGhp0A&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TELEMUNDO NOTICIAS</div></div></div>',
             'tags': ['Estados Unidos'],
         },
         'AL_ROJO_VIVO_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>AL ROJO VIVO (TELEMUNDO)',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCDUxOvbwu1bnyD7AucP0ESw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">AL ROJO VIVO (TELEMUNDO)</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCDUxOvbwu1bnyD7AucP0ESw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">AL ROJO VIVO (TELEMUNDO)</div></div></div>',
             'tags': ['Estados Unidos'],
         },
         'VOA_TV_ESPAÑOL_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>VOA TV ESP',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCJ46VgZgCMLFUvOT671AOJw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VOA TV ESPAÑOL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCJ46VgZgCMLFUvOT671AOJw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VOA TV ESPAÑOL</div></div></div>',
             'tags': ['Estados Unidos'],
         },
         'REUTERS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/us.svg" title="ESTADOS UNIDOS"></img>REUTERS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UChqUTb7kYRX8-EiaN3XFrSQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">REUTERS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UChqUTb7kYRX8-EiaN3XFrSQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">REUTERS</div></div></div>',
             'tags': ['Estados Unidos'],
         },
         //Reino Unidos
         'SKY_NEWS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>SKY NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCoMdktPbSTixAyNGwb-UYkQ&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SKY NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCoMdktPbSTixAyNGwb-UYkQ&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SKY NEWS</div></div></div>',
             'tags': ['Reino Unidos'],
         },
         'ITV_NEWS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>ITV NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCFQgi22Ht00CpaOQLtvZx2A&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ITV NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCFQgi22Ht00CpaOQLtvZx2A&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ITV NEWS</div></div></div>',
             'tags': ['Reino Unidos'],
         },
         'BBC_NEWS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>BBC NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC16niRr50-MSBwiO3YDb3RA&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">BBC NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC16niRr50-MSBwiO3YDb3RA&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">BBC NEWS</div></div></div>',
             'tags': ['Reino Unidos'],
         },
         'BBC_NEWS_ARABIC_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>BBC NEWS ARABIC',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCelk6aHijZq-GJBBB9YpReA&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">BBC NEWS ARABIC</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCelk6aHijZq-GJBBB9YpReA&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">BBC NEWS ARABIC</div></div></div>',
             'tags': ['Reino Unidos'],
         },
         'BBC_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>BBC',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCCj956IF62FbT7Gouszaj9w&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">BBC</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCCj956IF62FbT7Gouszaj9w&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">BBC</div></div></div>',
             'tags': ['Reino Unidos'],
         },
         'THE_SUN_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>THE SUN',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCIzXayRP7-P0ANpq-nD-h5g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">THE SUN</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCIzXayRP7-P0ANpq-nD-h5g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">THE SUN</div></div></div>',
             'tags': ['Reino Unidos'],
         },
         'DAILY_MAIL': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>DAILY MAIL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCw3fku0sH3qA3c3pZeJwdAw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">DAILY MAIL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCw3fku0sH3qA3c3pZeJwdAw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">DAILY MAIL</div></div></div>',
             'tags': ['Reino Unidos'],
         },
         'RoyalChannel_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/gb.svg" title="REINO UNIDO"></img>THE ROYAL FAMILY CHANNEL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCCvgLV2Ixb8KCemj-UtXZ-g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">THE ROYAL FAMILY CHANNEL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCCvgLV2Ixb8KCemj-UtXZ-g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">THE ROYAL FAMILY CHANNEL</div></div></div>',
             'tags': ['Reino Unidos'],
         },
         //Alemania
         'DW_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCknLrEdhRCp1aegoMqRaCZg&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">DW</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCknLrEdhRCp1aegoMqRaCZg&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">DW</div></div></div>',
             'tags': ['Alemania'],
         },
         'DWENG_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW ENGLISH',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCknLrEdhRCp1aegoMqRaCZg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">DW ENGLISH</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCknLrEdhRCp1aegoMqRaCZg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">DW ENGLISH</div></div></div>',
             'tags': ['Alemania'],
         },
         'DWESP_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/de.svg" title="ALEMANIA"></img>DW ESPAÑOL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCT4Jg8h03dD0iN3Pb5L0PMA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">DW ESPAÑOL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCT4Jg8h03dD0iN3Pb5L0PMA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">DW ESPAÑOL</div></div></div>',
             'tags': ['Alemania'],
         },
         //Francia
         'EURONEWS_ESP_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ESPAÑOL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCyoGb3SMlTlB8CLGVH4c8Rw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EURONEWS ESPAÑOL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCyoGb3SMlTlB8CLGVH4c8Rw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EURONEWS ESPAÑOL</div></div></div>',
             'tags': ['Francia'],
         },
         'EURONEWS_FR_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS FRANCIA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCW2QcKZiU8aUGg4yxCIditg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EURONEWS FRANCIA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCW2QcKZiU8aUGg4yxCIditg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EURONEWS FRANCIA</div></div></div>',
             'tags': ['Francia'],
         },
         'EURONEWS_ENG_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ENGLISH',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCSrZ3UV4jOidv8ppoVuvW9Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EURONEWS ENGLISH</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCSrZ3UV4jOidv8ppoVuvW9Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EURONEWS ENGLISH</div></div></div>',
             'tags': ['Francia'],
         },
         'EURONEWS_RU_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS RUSO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCFzJjgVicCtFxJ5B0P_ei8A&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EURONEWS RUSO</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCFzJjgVicCtFxJ5B0P_ei8A&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EURONEWS RUSO</div></div></div>',
             'tags': ['Francia'],
         },
         'EURONEWS_PORT_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS PORTUGUÉS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCUmEPYxmnyQDeRUcFkslmQw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EURONEWS PORTUGUÉS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCUmEPYxmnyQDeRUcFkslmQw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EURONEWS PORTUGUÉS</div></div></div>',
             'tags': ['Francia'],
         },
         'EURONEWS_ALB_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ALBANIA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UChR-A__NS_C5kHDWj3PeAhw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EURONEWS ALBANIA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UChR-A__NS_C5kHDWj3PeAhw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EURONEWS ALBANIA</div></div></div>',
             'tags': ['Francia'],
         },
         'EURONEWS_ITA_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>EURONEWS ITALIANO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC1mX9vuLOYf8fhaXS_KcDRg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EURONEWS ITALIANO</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC1mX9vuLOYf8fhaXS_KcDRg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EURONEWS ITALIANO</div></div></div>',
             'tags': ['Francia'],
         },
         'FRANCE24_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>FRANCE24',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCCCPCZNChQdGa9EkATeye4g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">FRANCE24</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCCCPCZNChQdGa9EkATeye4g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">FRANCE24</div></div></div>',
             'tags': ['Francia'],
         },
         'FRANCE24_ESP_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>FRANCE24 ESPAÑOL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCUdOoVWuWmgo1wByzcsyKDQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">FRANCE24 ESPAÑOL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCUdOoVWuWmgo1wByzcsyKDQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">FRANCE24 ESPAÑOL</div></div></div>',
             'tags': ['Francia'],
         },
         'FRANCE24_ENG_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/fr.svg" title="FRANCIA"></img>FRANCE24 ENGLISH',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCQfwfsi5VrQ8yKZ-UWmAEFg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">FRANCE24 ENGLISH</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCQfwfsi5VrQ8yKZ-UWmAEFg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">FRANCE24 ENGLISH</div></div></div>',
             'tags': ['Francia'],
         },
         //Italia
         'SKY TG24': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/it.svg" title="ITALIA"></img>SKY TG24',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCz6E3lF72mb6uoJ-mOlNo2A&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SKY TG24</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCz6E3lF72mb6uoJ-mOlNo2A&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SKY TG24</div></div></div>',
             'tags': ['Italia'],
         },
         //España
         '24HTVE_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>CANAL 24 HORAS TVE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC7QZIf0dta-XPXsp9Hv4dTw&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">24H TVE</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC7QZIf0dta-XPXsp9Hv4dTw&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">24H TVE</div></div></div>',
             'tags': ['España'],
         },
         'AGENCIA_EFE_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>AGENCIA EFE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCvJS-YNyaWyOucx8bGrHVvw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">AGENCIA EFE</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCvJS-YNyaWyOucx8bGrHVvw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">AGENCIA EFE</div></div></div>',
             'tags': ['España'],
         },
         'EUROPA_PRESS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>EUROPA PRESS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCh_chnQ7OJPQ8mZ7vbXFpIQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EUROPA PRESS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCh_chnQ7OJPQ8mZ7vbXFpIQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EUROPA PRESS</div></div></div>',
             'tags': ['España'],
         },
         'EL_PAIS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>EL PAIS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCnsvJeZO4RigQ898WdDNoBw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EL PAIS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCnsvJeZO4RigQ898WdDNoBw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EL PAIS</div></div></div>',
             'tags': ['España'],
         },
         'MARCA_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>MARCA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCop57Z1sYHrtCyxCpE2z2Bg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">MARCA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCop57Z1sYHrtCyxCpE2z2Bg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">MARCA</div></div></div>',
             'tags': ['España'],
         },
         'LA_VANGUARDIA_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/es.svg" title="ESPAÑA"></img>LA VANGUARDIA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UClLLRs_mFTsNT5U-DqTYAGg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">LA VANGUARDIA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UClLLRs_mFTsNT5U-DqTYAGg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">LA VANGUARDIA</div></div></div>',
             'tags': ['España'],
         },
         //Corea del Sur
         'KBS_WORLD_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kr.svg" title="Corea del Sur"></img>KBS WORLD',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC5BMQOsAB8hKUyHu9KI6yig&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">KBS WORLD</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC5BMQOsAB8hKUyHu9KI6yig&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">KBS WORLD</div></div></div>',
             'tags': ['Corea del Sur'],
         },
         'KBS_NEWS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kr.svg" title="Corea del Sur"></img>KBS NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCcQTRi69dsVYHN3exePtZ1A&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">KBS NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCcQTRi69dsVYHN3exePtZ1A&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">KBS NEWS</div></div></div>',
             'tags': ['Corea del Sur'],
         },
         'YONHAP_TV_NEWS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kr.svg" title="Corea del Sur"></img>YONHAP TV NEWS (YTN)',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UChlgI3UHCOnwUGzWzbJ3H5w&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">YONHAP TV NEWS (YTN)</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UChlgI3UHCOnwUGzWzbJ3H5w&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">YONHAP TV NEWS (YTN)</div></div></div>',
             'tags': ['Corea del Sur'],
         },
         'JTBC_NEWS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kr.svg" title="Corea del Sur"></img>JTBC NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCsU-I-vHLiaMfV_ceaYz5rQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">JTBC NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCsU-I-vHLiaMfV_ceaYz5rQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">JTBC NEWS</div></div></div>',
             'tags': ['Corea del Sur'],
         },
         'SBS_NEWS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kr.svg" title="Corea del Sur"></img>SBS NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCkinYTS9IHqOEwR1Sze2JTw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SBS NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCkinYTS9IHqOEwR1Sze2JTw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SBS NEWS</div></div></div>',
             'tags': ['Corea del Sur'],
         },
         'MBC_NEWS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/kr.svg" title="Corea del Sur"></img>MBC NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCF4Wxdo3inmxP-Y59wXDsFw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">MBC NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCF4Wxdo3inmxP-Y59wXDsFw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">MBC NEWS</div></div></div>',
             'tags': ['Corea del Sur'],
         },
         //Argentina
         'TN_ARG_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>TN',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCj6PcyLvpnIRT_2W_mwa9Aw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TN</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCj6PcyLvpnIRT_2W_mwa9Aw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TN</div></div></div>',
             'tags': ['Argentina'],
         },
         'AMERICA_TV_ARG_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>AMERICA TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC6NVDkuzY2exMOVFw4i9oHw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">AMERICA TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC6NVDkuzY2exMOVFw4i9oHw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">AMERICA TV</div></div></div>',
             'tags': ['Argentina'],
         },
         'A24_ARG_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>A24',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCR9120YBAqMfntqgRTKmkjQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">A24</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCR9120YBAqMfntqgRTKmkjQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">A24</div></div></div>',
             'tags': ['Argentina'],
         },
         'IP_ARG_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>IP NOTICIAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC1bBjOZieJWHbsFA0LwjjJA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">IP NOTICIAS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC1bBjOZieJWHbsFA0LwjjJA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">IP NOTICIAS</div></div></div>',
             'tags': ['Argentina'],
         },
         'TV_PUBLICA_ARG_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>TV PUBLICA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCs231K71Bnu5295_x0MB5Pg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV PUBLICA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCs231K71Bnu5295_x0MB5Pg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TV PUBLICA</div></div></div>',
             'tags': ['Argentina'],
         },
         'C5N_ARG_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>C5N',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCFgk2Q2mVO1BklRQhSv6p0w&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">C5N</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCFgk2Q2mVO1BklRQhSv6p0w&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">C5N</div></div></div>',
             'tags': ['Argentina'],
         },
         'CANAL_26_ARG_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>CANAL 26',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CANAL 26</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CANAL 26</div></div></div>',
             'tags': ['Argentina'],
         },
         'CRONICATV_ARG_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>CRONICA TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCT7KFGv6s2a-rh2Jq8ZdM1g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CRONICA TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCT7KFGv6s2a-rh2Jq8ZdM1g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CRONICA TV</div></div></div>',
             'tags': ['Argentina'],
         },
         'LA_NACION_ARG_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>LA NACION',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCba3hpU7EFBSk817y9qZkiA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">LA NACION</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCba3hpU7EFBSk817y9qZkiA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">LA NACION</div></div></div>',
             'tags': ['Argentina'],
         },
         'INFOBAE_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>INFOBAE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCvsU0EGXN7Su7MfNqcTGNHg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">INFOBAE</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCvsU0EGXN7Su7MfNqcTGNHg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">INFOBAE</div></div></div>',
             'tags': ['Argentina'],
         },
         'CLARIN_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>CLARIN',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCjMGMWnToRcQRqmyVB4R2xQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CLARIN</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCjMGMWnToRcQRqmyVB4R2xQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CLARIN</div></div></div>',
             'tags': ['Argentina'],
         },
         'PAGINA12_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ar.svg" title="ARGENTINA"></img>PAGINA 12',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCJNDedOnljCssaiRZqg8-Dg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PAGINA 12</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCJNDedOnljCssaiRZqg8-Dg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PAGINA 12</div></div></div>',
             'tags': ['Argentina'],
         },
         //Peru
         'TVPERU_NOTICIAS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>TVPERU NOTICIAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCkZCoc42IipR1ucqJmIehsA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TVPERU NOTICIAS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCkZCoc42IipR1ucqJmIehsA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TVPERU NOTICIAS</div></div></div>',
             'tags': ['Peru'],
         },
         'ATV_NOTICIAS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>ATV NOTICIAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCYG5uXS3xdsoaXIxum1pAEw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ATV NOTICIAS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCYG5uXS3xdsoaXIxum1pAEw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ATV NOTICIAS</div></div></div>',
             'tags': ['Peru'],
         },
         'EXITOSA_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>RADIO EXITOSA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCbyblOHU12USUbbPL_M7BNg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RADIO EXITOSA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCbyblOHU12USUbbPL_M7BNg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RADIO EXITOSA</div></div></div>',
             'tags': ['Peru'],
         },
         'LATINA_TV_NOTICIAS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/pe.svg" title="PERU"></img>LATINA NOTICIAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCpSJ5fGhmAME9Kx2D3ZvN3Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">LATINA NOTICIAS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCpSJ5fGhmAME9Kx2D3ZvN3Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">LATINA NOTICIAS</div></div></div>',
             'tags': ['Peru'],
         },
         //Colombia
         'RCN_NOTICIAS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>NOTICIAS RCN',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCnr6pbeXJmkNQJ9PSYle7QQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">NOTICIAS RCN</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCnr6pbeXJmkNQJ9PSYle7QQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">NOTICIAS RCN</div></div></div>',
             'tags': ['Colombia'],
         },
         'NOTICIAS_CARACOL_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/co.svg" title="COLOMBIA"></img>NOTICIAS CARACOL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC2Xq2PK-got3Rtz9ZJ32hLQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">NOTICIAS RCN</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC2Xq2PK-got3Rtz9ZJ32hLQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">NOTICIAS RCN</div></div></div>',
             'tags': ['Colombia'],
         },
         //Ecuador
         'ECUADOR_TV_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>ECUADOR TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCfXVS_zw_XmAx8iIiia1IkA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ECUADOR TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCfXVS_zw_XmAx8iIiia1IkA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ECUADOR TV</div></div></div>',
             'tags': ['Ecuador'],
         },
         'EL_UNIVERSO_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>EL UNIVERSO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCLwBAR1YA6bQRNVCLYOM6Sg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EL UNIVERSO</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCLwBAR1YA6bQRNVCLYOM6Sg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EL UNIVERSO</div></div></div>',
             'tags': ['Ecuador'],
         },
         'ECUAVISA_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ec.svg" title="ECUADOR"></img>ECUAVISA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCRUV3nUNSc-xpBrTwQOCQQg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ECUAVISA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCRUV3nUNSc-xpBrTwQOCQQg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ECUAVISA</div></div></div>',
             'tags': ['Ecuador'],
         },
         //Mexico
         'FORO_TV_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>FORO TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCUsm-fannqOY02PNN67C0KA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">FORO TV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCUsm-fannqOY02PNN67C0KA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">FORO TV</div></div></div>',
             'tags': ['Mexico'],
         },
         'MILENIO_NOTICIAS_YT':{
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>MILENIO NOTICIAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCFxHplbcoJK9m70c4VyTIxg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">MILENIO NOTICIAS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCFxHplbcoJK9m70c4VyTIxg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">MILENIO NOTICIAS</div></div></div>',
             'tags': ['Mexico'],
         },
         'ADN40_YT':{
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/mx.svg" title="MEXICO"></img>ADN40',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC7k--FhnJzhPTrbtldMSoQQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ADN40</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC7k--FhnJzhPTrbtldMSoQQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ADN40</div></div></div>',
             'tags': ['Mexico'],
         },
         //Vaticano
         'VATICAN_NEWS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/va.svg" title="CIUDAD DEL VATICANO"></img>VATICAN NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC7E-LYc1wivk33iyt5bR5zQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VATICAN NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC7E-LYc1wivk33iyt5bR5zQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VATICAN NEWS</div></div></div>',
             'tags': ['Vaticano'],
         },
         'VATICAN_NEWS_ITALIANO_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/va.svg" title="CIUDAD DEL VATICANO"></img>VATICAN NEWS ITALIANO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCkwbN2a1L1H6P9rcA7FhAqg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VATICAN NEWS ITALIANO</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCkwbN2a1L1H6P9rcA7FhAqg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VATICAN NEWS ITALIANO</div></div></div>',
             'tags': ['Vaticano'],
         },
         'VATICAN_NEWS_ENGLISH_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/va.svg" title="CIUDAD DEL VATICANO"></img>VATICAN NEWS ENGLISH',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCxIsefyl9g9A5SGWA4FvGIA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VATICAN NEWS ENGLISH</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCxIsefyl9g9A5SGWA4FvGIA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VATICAN NEWS ENGLISH</div></div></div>',
             'tags': ['Vaticano'],
         },
         'VATICAN_NEWS_ESPAÑOL_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/va.svg" title="CIUDAD DEL VATICANO"></img>VATICAN NEWS ESPAÑOL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCnB5vfb9FMMNTnC6-kAT3fQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VATICAN NEWS ESPAÑOL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCnB5vfb9FMMNTnC6-kAT3fQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VATICAN NEWS ESPAÑOL</div></div></div>',
             'tags': ['Vaticano'],
         },
         //Singapore
         'CNA_NEWS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/sg.svg" title="SINGAPORE"></img>CNA NEWS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC83jt4dlz1Gjl58fzQrrKZg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CNA NEWS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC83jt4dlz1Gjl58fzQrrKZg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CNA NEWS</div></div></div>',
             'tags': ['Singapore'],
         },
         //Rusia
         'RT_YT_2': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT<span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="font-size: 20px" class="material-icons-round TextoIconoRojo" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCpwvZwUam-URkxB7g4USKpg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RT</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCpwvZwUam-URkxB7g4USKpg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RT</div></div></div>',
             'tags': ['Rusia'],
         },
         'RT_ENVIVO_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RT ESPAÑOL<span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="font-size: 20px" class="material-icons-round TextoIconoRojo" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCEIhICHOQOonjE6V0SLdrHQ&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RT ESPAÑOL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCEIhICHOQOonjE6V0SLdrHQ&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RT ESPAÑOL</div></div></div>',
             'tags': ['Rusia'],
         },
         'RUPTLY_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>RUPTLY<span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="font-size: 20px" class="material-icons-round TextoIconoRojo" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC5aeU5hk31cLzq_sAExLVWg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RUPTLY</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC5aeU5hk31cLzq_sAExLVWg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RUPTLY</div></div></div>',
             'tags': ['Rusia'],
         },
         'SPUTNIK_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ru.svg" title="RUSIA"></img>SPUTNIK<span style="margin-left: 5px;" class="BotonAvisoListaSeñales"><span style="font-size: 20px" class="material-icons-round TextoIconoRojo" title="SEÑAL BLOQUEADA POR YOUTUBE">error_outline</span></span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCI4lx9retCL7_cBmmceEQ8g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SPUTNIK</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCI4lx9retCL7_cBmmceEQ8g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SPUTNIK</div></div></div>',
             'tags': ['Rusia'],
         },
         //China
         'CCTV+_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CCTV+',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCmv5DbNpxH8X2eQxJBqEjKQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CCTV+</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCmv5DbNpxH8X2eQxJBqEjKQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CCTV+</div></div></div>',
             'tags': ['China'],
         },
         'CGTN_YT_EUROPE': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN EUROPE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCj0TppyxzQWm9JbMg3CP8Rg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CGTN EUROPE</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCj0TppyxzQWm9JbMg3CP8Rg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CGTN EUROPE</div></div></div>',
             'tags': ['China'],
         },
         'CGTN_YT_ESP': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ESPAÑOL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCd94YCD7yp6d-YZSRYWyeFA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CGTN ESPAÑOL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCd94YCD7yp6d-YZSRYWyeFA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CGTN ESPAÑOL</div></div></div>',
             'tags': ['China'],
         },
         'CGTN_YT_FR': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN FRANCÉS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCcfLuU0NFT0ZRoQy4jk6GdA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CGTN FRANCÉS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCcfLuU0NFT0ZRoQy4jk6GdA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CGTN FRANCÉS</div></div></div>',
             'tags': ['China'],
         },
         'CGTN_YT_ARABIC': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cn.svg" title="CHINA"></img>CGTN ARABIC',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCQmJk0ErE_FiorcLBsDKORA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CGTN ARABIC</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCQmJk0ErE_FiorcLBsDKORA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CGTN ARABIC</div></div></div>',
             'tags': ['China'],
         },
         //Catar
         'AL_JAZEERA_ENG_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg" title="CATAR"></img>AL JAZEERA ENGLISH',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCNye-wNBqNL5ZzHSJj3l8Bg&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">AL JAZEERA ENGLISH</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCNye-wNBqNL5ZzHSJj3l8Bg&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">AL JAZEERA ENGLISH</div></div></div>',
             'tags': ['Catar'],
         },
         'AL_JAZEERA_ARABIC_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg" title="CATAR"></img>AL JAZEERA ARABIC',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCfiwzLy-8yKzIbsmZTzxDgw&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">AL JAZEERA ARABIC</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCfiwzLy-8yKzIbsmZTzxDgw&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">AL JAZEERA ARABIC</div></div></div>',
             'tags': ['Catar'],
         },
         'AL_JAZEERA_MUBASHER_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: 25px; margin-right: 10px;" src="https://flagcdn.com/qa.svg" title="CATAR"></img>AL JAZEERA MUBASHER',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCCv1Pd24oPErw5S7zJWltnQ&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">AL JAZEERA MUBASHER</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCCv1Pd24oPErw5S7zJWltnQ&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">AL JAZEERA MUBASHER</div></div></div>',
             'tags': ['Catar'],
         },
         //Ucrania
         'UCRANIA24_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/ua.svg" title="UCRANIA"></img>UCRANIA24',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCMp5Buw-6LpbbV9r9Sl_5yg&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">UCRANIA24</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCMp5Buw-6LpbbV9r9Sl_5yg&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">UCRANIA24</div></div></div>',
             'tags': ['Ucrania'],
         },
         //Chile
@@ -1650,52 +1650,52 @@ var App = {
         },
         'SERVEL_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">cell_tower</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>SERVEL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCB8s6rETjmWgXrp_BxyXqdg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SERVEL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCB8s6rETjmWgXrp_BxyXqdg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SERVEL</div></div></div>',
             'tags': ['Chile'],
         },
         '24HTVN_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_24HORAS.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CANAL 24H</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=true&mute=1" frameborder="0"></iframe></div><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CANAL 24H</div></div></div>',
             'tags': ['Chile'],
         },
         'CNN_CHILE_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CNNCHILE2.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCpOAcjJNAp0Y0fhznRrXIJQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CNN CHILE</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCpOAcjJNAp0Y0fhznRrXIJQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CNN CHILE</div></div></div>',
             'tags': ['Chile'],
         },
         'MEGANOTICIAS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_MEGANOTICIAS.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=true&mute=1" frameborder="0"></iframe><div href="SeñalMEGANOTICIAS.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">MEGANOTICIAS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=true&mute=1" frameborder="0"></iframe><div href="SeñalMEGANOTICIAS.html" class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">MEGANOTICIAS</div></div></div>',
             'tags': ['Chile'],
         },
         'CHV_NOTICIAS_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV_NOTICIAS.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCRsUoZYC1ULUspipMRnMhwg&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CHV NOTICIAS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCRsUoZYC1ULUspipMRnMhwg&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CHV NOTICIAS</div></div></div>',
             'tags': ['Chile'],
         },
         'T13_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_T13_ENVIVO.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">T13 MOVIL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">T13 MOVIL</div></div></div>',
             'tags': ['SinChileTag'],
         },
         'TVN_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_TVN.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCaVaCaiG6qRzDiJDuEGKOhQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TVN</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCaVaCaiG6qRzDiJDuEGKOhQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TVN</div></div></div>',
             'tags': ['Chile'],
         },
         'MEGA_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_MEGA.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCEpId-jtRABuZyX6D2z6FZQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">MEGA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCEpId-jtRABuZyX6D2z6FZQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">MEGA</div></div></div>',
             'tags': ['Chile'],
         },
         'CHV_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_CHV.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC8EdTmyUaFIfZvVttJ9lgIA&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CHV</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC8EdTmyUaFIfZvVttJ9lgIA&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CHV</div></div></div>',
             'tags': ['Chile'],
         },
         'CANAL 13_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span><img id="Logo" style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_Canal13.svg"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCd4D3LfXC_9MY2zSv_3gMgw&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CANAL 13</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCd4D3LfXC_9MY2zSv_3gMgw&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CANAL 13</div></div></div>',
             'tags': ['Chile'],
         },
 
@@ -1823,7 +1823,7 @@ var App = {
         
         'TC_YouTube': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>TRIB. CONSTITUCIONAL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TRIB. CONSTITUCIONAL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">TRIB. CONSTITUCIONAL</div></div></div>',
             'tags': ['Chile'],
         },
 
@@ -1862,92 +1862,92 @@ var App = {
         //CAMARA DE DIPUTADOS TV
         'CAMARA_DIPUTADOS SEÑAL_YT_1': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 1',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCcULnWuDzgQG9yF0Dv3DIgg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 1</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCcULnWuDzgQG9yF0Dv3DIgg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 1</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_2': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCt6ZTZoyFaCrMHURyjQ3PxA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 2</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCt6ZTZoyFaCrMHURyjQ3PxA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 2</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_3': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 3',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCF6KgLfQqQzekn8U1DwVs9g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 3</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCF6KgLfQqQzekn8U1DwVs9g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 3</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_5': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 5',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC0QKtI8NpeMObauDylsSUDA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 5</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC0QKtI8NpeMObauDylsSUDA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 5</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_6': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 6',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCspWzpGflwb6A8PZqWw49CQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 6</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCspWzpGflwb6A8PZqWw49CQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 6</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_7': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 7',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 7</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 7</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_8': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 8',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 8</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 8</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_9': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 9',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCgLlv-wIHnE_68RRSYRj8ZQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 9</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCgLlv-wIHnE_68RRSYRj8ZQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 9</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_10': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 10',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCJlJ6Q6ZV2InsE6fZWfJ9_g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 10</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCJlJ6Q6ZV2InsE6fZWfJ9_g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 10</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_11': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 11',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCYPKjGKq2yLbAnmth5rFZmQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 11</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCYPKjGKq2yLbAnmth5rFZmQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 11</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_12': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 12',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCVOWFY-sgbDglBsfOap9okg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 12</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCVOWFY-sgbDglBsfOap9okg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 12</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_13': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 13',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 13</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 13</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_14': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 14',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCUG6xs0GZ-t8IL3RUSWDSOQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 14</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCUG6xs0GZ-t8IL3RUSWDSOQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 14</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_15': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 15',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC8VmxlxvDhkrG6g0GnA5ksA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 15</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC8VmxlxvDhkrG6g0GnA5ksA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 15</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_16': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 16',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCZz97rh70D0WSSjYSfTl-2Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 16</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCZz97rh70D0WSSjYSfTl-2Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 16</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_17': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 17',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCzkd-4oNNpWFN2zGWoyOz5w&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 17</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCzkd-4oNNpWFN2zGWoyOz5w&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 17</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_18': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 18',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCNIa8pU-npLY7qm-8NVA3Sg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 18</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCNIa8pU-npLY7qm-8NVA3Sg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 18</div></div></div>',
             'tags': ['Chile'],
         },
         'CAMARA_DIPUTADOS SEÑAL_YT_20': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CAMARA DIPUTADOS - SEÑAL 20',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCwk-F5PutmZrjZC8eHJ12Pg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 20</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCwk-F5PutmZrjZC8eHJ12Pg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CAMARA DIPUTADOS - SEÑAL 20</div></div></div>',
             'tags': ['Chile'],
         },
 
@@ -2016,7 +2016,7 @@ var App = {
         },
         'STGO_SUR_ORIENTE': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. SUR ORIENTE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCMvQGOyumsXP4V7dGAdIKWg&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">STGO. SUR ORIENTE</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCMvQGOyumsXP4V7dGAdIKWg&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">STGO. SUR ORIENTE</div></div></div>',
             'tags': ['Chile'],
         //},
         //'LEDRIUM_CERRILLOS': {
@@ -2056,7 +2056,7 @@ var App = {
         },
         'LEDRIUM_CAM_MAS_RECIENTE': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>STGO. LEDRIUM<span style="margin-left: 3px; font-size: 12px;">(MAS RECIENTE)</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCDMqTaUZsY3ElB4xWpO8tFA&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SANTIAGO</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCDMqTaUZsY3ElB4xWpO8tFA&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SANTIAGO</div></div></div>',
             'tags': ['Chile'],
         },
         'VALPARAISO_BAHIA': {
@@ -2066,12 +2066,12 @@ var App = {
         },
         'VALPARAISO_CIUDAD': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VALPARAISO CIUDAD',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCXaQjESu5cdF1CGH1aAA52Q&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VALPARAISO CIUDAD</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCXaQjESu5cdF1CGH1aAA52Q&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VALPARAISO CIUDAD</div></div></div>',
             'tags': ['Chile'],
         },
         'V_DEL_MAR': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCLir6Xg0TVDGccruOZp8jaQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VIÑA DEL MAR</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCLir6Xg0TVDGccruOZp8jaQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VIÑA DEL MAR</div></div></div>',
             'tags': ['Chile'],
         },
         'V_DEL_MAR_CAM_AV_PERU': {
@@ -2091,17 +2091,17 @@ var App = {
         },
         'V_DEL_MAR_CAM_MAS_RECIENTE': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>VIÑA DEL MAR<span style="margin-left: 3px; font-size: 12px;">(MAS RECIENTE)</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCMfVFofrKT5qV71nG-sDBRg&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VIÑA DEL MAR</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCMfVFofrKT5qV71nG-sDBRg&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">VIÑA DEL MAR</div></div></div>',
             'tags': ['Chile'],
         },
         'OSORNO_1': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>OSORNO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCbOdujzxdR-D-o1jKLr96CA&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">OSORNO</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCbOdujzxdR-D-o1jKLr96CA&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">OSORNO</div></div></div>',
             'tags': ['Chile'],
         },
         'PUNTA_ARENAS_CAM_YT': {
             'nombre': '<span style="margin-right: 10px;" class="material-icons-round TextoIconoNaranja">photo_camera</span><img style="height: 15px; width: auto; margin-right: 10px;" src="https://flagcdn.com/cl.svg" title="CHILE"></img>PUNTA ARENAS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCKBgtFx0lRnflT3uBD7ppLw&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PUNTA ARENAS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCKBgtFx0lRnflT3uBD7ppLw&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">PUNTA ARENAS</div></div></div>',
             'tags': ['Chile'],
         },
         'CAPITOLIO_EEUU_1': {
@@ -2474,7 +2474,7 @@ var App = {
         },
         'ROSCOSMOS': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_ROSCOSMOS.svg"></img>ROSCOSMOS',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCOcpUgXosMCIlOsreUfNFiA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ISS TRACKER</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCOcpUgXosMCIlOsreUfNFiA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ISS TRACKER</div></div></div>',
             'tags': ['Espacio','Roscosmos'],
         },
         'NASA_YT_PUBLIC': {
@@ -2504,127 +2504,127 @@ var App = {
         },
         'NASA_YT_VIDEO': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>NASA VIDEO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC_aP7p621ATY_yAa8jMqUVA&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">NASA TV PUBLIC</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC_aP7p621ATY_yAa8jMqUVA&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">NASA TV PUBLIC</div></div></div>',
             'tags': ['Espacio','NASA'],
         },
         'NASATV_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><img style="height: 20px; width: auto; margin-right: 10px;" src="Imagenes/Logo_NASA.svg"></img>NASA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCLA_DiR1FfKNvjuUpBHmylQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">NASA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCLA_DiR1FfKNvjuUpBHmylQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">NASA</div></div></div>',
             'tags': ['Espacio','NASA'],
         },
         'SPACEX': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>SPACEX',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCtI0Hodo5o5dUb67FeUjDeA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SPACEX</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCtI0Hodo5o5dUb67FeUjDeA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SPACEX</div></div></div>',
             'tags': ['Espacio'],
         },
         'BLUE_ORIGIN': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>BLUE ORIGIN',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCVxTHEKKLxNjGcvVaZindlg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">BLUE ORIGIN</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCVxTHEKKLxNjGcvVaZindlg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">BLUE ORIGIN</div></div></div>',
             'tags': ['Espacio'],
         },
         'ULA': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>ULA',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCnrGPRKAg1PgvuSHrRIl3jg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ULA</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCnrGPRKAg1PgvuSHrRIl3jg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ULA</div></div></div>',
             'tags': ['Espacio'],
         }, 
         'ARIANESPACE': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>ARIANESPACE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCRn9F2D9j-t4A-HgudM7aLQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ARIANESPACE</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCRn9F2D9j-t4A-HgudM7aLQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">ARIANESPACE</div></div></div>',
             'tags': ['Espacio'],
         },
         'Rocket_Lab': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>ROCKET LAB',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCsWq7LZaizhIi-c-Yo_bcpw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SPACEX</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCsWq7LZaizhIi-c-Yo_bcpw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SPACEX</div></div></div>',
             'tags': ['Espacio'],
         }, 
         'Virgin_Galactic': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>VIRGIN GALACTIC',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UClcvOr7LV8tlJwJvkNMmnKg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">Virgin Galactic</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UClcvOr7LV8tlJwJvkNMmnKg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">Virgin Galactic</div></div></div>',
             'tags': ['Espacio'],
         },
         'CGTN': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CGTN',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCgrNz-aDmcr2uuto8_DL2jg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CGTN</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCgrNz-aDmcr2uuto8_DL2jg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CGTN</div></div></div>',
             'tags': ['China'],
         },
         'RDRONE_UY_YOUTUBE': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>RDRONE UY',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC2BCLTaBqFwyc3CZlkEHg_Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RDRONE UY</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC2BCLTaBqFwyc3CZlkEHg_Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">RDRONE UY</div></div></div>',
             'tags': ['Espacio'],
         },
         'SPACEX_STORM_YOUTUBE': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>SPACEX STORM',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCxjGXSXK3Ss-mkiZ-wYtjtg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SPACEX STORM</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCxjGXSXK3Ss-mkiZ-wYtjtg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SPACEX STORM</div></div></div>',
             'tags': ['Espacio'],
         },
         'FRONTERA_ESPACIAL_YOUTUBE': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>FRONTERA ESPACIAL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCurxSOUxQszWp-5juh48wmg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">FRONTERA ESPACIAL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCurxSOUxQszWp-5juh48wmg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">FRONTERA ESPACIAL</div></div></div>',
             'tags': ['Espacio'],
         },
         'CONEXION_ESPACIAL_YOUTUBE': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CONEXION ESPACIAL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCS6DjxV3L8XdnGa70ZxS_FA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CONEXION ESPACIAL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCS6DjxV3L8XdnGa70ZxS_FA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CONEXION ESPACIAL</div></div></div>',
             'tags': ['Espacio'],
         },
         'EXPLORACION_ESPACIAL_YOUTUBE': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>EXPLORACION ESPACIAL',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCtcUKKBhYEf7lX5UkF7279Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EXPLORACION ESPACIAL</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCtcUKKBhYEf7lX5UkF7279Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EXPLORACION ESPACIAL</div></div></div>',
             'tags': ['Espacio'],
         },
         'EXPLORANDO_EL_ESPACIO_YOUTUBE': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>EXPLORANDO EL ESPACIO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCGP4eGnUxu7BGaqR4m-55fg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EXPLORANDO EL ESPACIO</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCGP4eGnUxu7BGaqR4m-55fg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EXPLORANDO EL ESPACIO</div></div></div>',
             'tags': ['Espacio'],
         },
         'CONTROL_DE_MISION_YOUTUBE': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>CONTROL DE MISION',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCch5At0S1Q-qqCM3iilFI5w&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CONTROL DE MISION</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCch5At0S1Q-qqCM3iilFI5w&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">CONTROL DE MISION</div></div></div>',
             'tags': ['Espacio'],
         },
         'NSF:_NASA_SPACE_FLIGHT_YOUTUBE': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>NSF: NASASPACEFLIGHT',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCSUu1lih2RifWkKtDOJdsBA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">NSF: NASASPACEFLIGHT</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCSUu1lih2RifWkKtDOJdsBA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">NSF: NASASPACEFLIGHT</div></div></div>',
             'tags': ['Espacio'],
         },
         'EVERYDAY_ASTRONAUT_YOUTUBE': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">tv</span>EVERYDAY ASTRONAUT',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC6uKrU_WqJ1R2HMTY3LIx5Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EVERY ASTRONAUT</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC6uKrU_WqJ1R2HMTY3LIx5Q&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">EVERY ASTRONAUT</div></div></div>',
             'tags': ['Espacio'],
         },
         'LAB_PADRE_YOUTUBE': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">photo_camera</span>LAB PADRE',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCFwMITSkc1Fms6PoJoh1OUQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">LAB PADRE</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCFwMITSkc1Fms6PoJoh1OUQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">LAB PADRE</div></div></div>',
             'tags': ['Espacio'],
         },
         'THE_LAUNCH_PAD_YOUTUBE': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">photo_camera</span>THE LAUNCH PAD',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCGCndz0n0NHmLHfd64FRjIA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">THE LAUNCH PAD</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCGCndz0n0NHmLHfd64FRjIA&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">THE LAUNCH PAD</div></div></div>',
             'tags': ['Espacio'],
         },
         '321LAUNCH_CAM_YOUTUBE': {
             'nombre': '<img style="height: 15px; width:auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">photo_camera</span>321LAUNCH CAM',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCUccOGcvTNrJuihXhYsrp7w&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">321LAUNCH CAM</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCUccOGcvTNrJuihXhYsrp7w&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">321LAUNCH CAM</div></div></div>',
             'tags': ['Espacio'],
         },
         'SPACEFLIGHT_NOW_YOUTUBE': {
             'nombre': '<img style="height: 15px; width:auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">photo_camera</span>SPACEFLIGHT NOW',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCoLdERT4-TJ82PJOHSrsZLQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SPACEFLIGHT NOW</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCoLdERT4-TJ82PJOHSrsZLQ&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SPACEFLIGHT NOW</div></div></div>',
             'tags': ['Espacio'],
         }, 
         'COSMO_SAPIENS_YOUTUBE': {
             'nombre': '<img style="height: 15px; width:auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">photo_camera</span>COSMOSAPIENS ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UC3ZODI-xZfdPanPP6tKUg9g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">COSMOSAPIENS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UC3ZODI-xZfdPanPP6tKUg9g&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">COSMOSAPIENS</div></div></div>',
             'tags': ['Espacio'],
         }, 
         'INFINITE_SPACE_YOUTUBE': {
             'nombre': '<img style="height: 15px; width:auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">photo_camera</span>INFINITE SPACE ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCn8SmzG1xXx_inu-XADxcMg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">INFINITE SPACE</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCn8SmzG1xXx_inu-XADxcMg&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">INFINITE SPACE</div></div></div>',
             'tags': ['Espacio'],
         },
         'SPACEX_MISSIONS_YOUTUBE': {
             'nombre': '<img style="height: 15px; width:auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img><span style="margin-right: 10px;" class="material-icons-round">photo_camera</span>SPACEX MISSIONS ',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCE_z1X3v8ZdBNHn9IFHBfNw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SPACEX MISSIONS</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCE_z1X3v8ZdBNHn9IFHBfNw&autoplay=true&mute=1" frameborder="0" allowfullscreen></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">SPACEX MISSIONS</div></div></div>',
             'tags': ['Espacio'],
         },
         'COPANO_Twitch': {
@@ -2634,7 +2634,7 @@ var App = {
         },
         'Copano_YT': {
             'nombre': '<img id="Logo" style="height: 15px; width: auto; margin-right: 10px;" src="Imagenes/Logo_YT.svg"></img>COPANO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCoMBIlBDtaxuqUfTLzV6PDQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">COPANO</div></div></div>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/live_stream?channel=UCoMBIlBDtaxuqUfTLzV6PDQ&autoplay=true&mute=1" frameborder="0"></iframe><div class="FondoTitulosMonitor1"><div class="TextoTitulosMonitor1">COPANO</div></div></div>',
             'tags': ['Noticias'],
         },
         'Barras_1': {
