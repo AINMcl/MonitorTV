@@ -882,6 +882,38 @@ background-image: linear-gradient(
   color: #000000
 }
 
+.TextoTitulosMonitorSwitch{
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(3px);
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  display:inline-table;
+  cursor:
+  pointer;
+  transition:all .5s
+}
+
+.TextoTitulosMonitorSwitch:hover{
+  width: auto;
+  height: 22px;
+  line-height: 22px;
+  font-size: 20px;
+  background:#ffffffce;
+  backdrop-filter: blur(3px);
+  color: #000000
+}
+
 .cuadradoTest {
   width: 100px;
   height: 100px;
@@ -1502,7 +1534,7 @@ background-image: linear-gradient(
   border: solid 2px #ff0000;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .BotonCardHome{
 
     margin-left: 0px;
@@ -1606,7 +1638,7 @@ background-image: linear-gradient(
   border: solid 2px #FF0000;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .BotonCardHomeLargo{
     margin-left: 0px;
     padding-left: 10px;
@@ -2991,7 +3023,7 @@ background-image: linear-gradient(
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .BotonMenuSuperior,
   .BotonMenuSuperiorSeleccionado {
     font-size: 13px;
@@ -3385,7 +3417,7 @@ background-image: linear-gradient(
   /*margin-right: 33%;*/
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .MenuFlotanteRedondeadoCentro {
     width: 95vw;
   }
@@ -3723,7 +3755,7 @@ background-image: linear-gradient(
   font-size: 16px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .left-text {
     text-align: center;
     width: 100%;
@@ -3750,7 +3782,7 @@ background-image: linear-gradient(
   font-size: 16px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .right-text {
     display: none;
   }
@@ -3772,7 +3804,7 @@ background-image: linear-gradient(
   margin: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .custom-card {
     width: 90%;
   }
@@ -3818,7 +3850,7 @@ background-image: linear-gradient(
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .CardPequeña {
     width: 90%;
   }
@@ -3864,7 +3896,7 @@ background-image: linear-gradient(
   margin: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .CardListaSeñal {
     width: 40%;
   }
@@ -3926,7 +3958,7 @@ background-image: linear-gradient(
   text-align: left;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .CardActualizaciones {
     width: 90%;
   }
@@ -3980,7 +4012,7 @@ background-image: linear-gradient(
   text-align: left;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .CardInformaciones {
     width: 90%;
   }
@@ -4034,7 +4066,7 @@ background-image: linear-gradient(
   margin: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .CardAvisos {
     width: 90%;
   }
@@ -4128,7 +4160,7 @@ background-image: linear-gradient(
   font-size: 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .ContenedorAnunciosHome {
     margin-top: 18vh;
   }
@@ -4152,7 +4184,7 @@ background-image: linear-gradient(
   font-size: 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .ContenedorAnunciosSecundarios {
     margin-top: 1vh;
   }
@@ -4251,7 +4283,7 @@ background-image: linear-gradient(
   font-size: 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .ContenedorCentrado {
     margin-top: 18vh;
   }
@@ -4284,7 +4316,7 @@ background-image: linear-gradient(
   border: solid 1px #7e7e7e;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .TitulosPrincipalesPagina {
     font-size: 15px;
   }

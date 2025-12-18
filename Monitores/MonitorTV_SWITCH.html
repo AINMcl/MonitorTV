@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title> MonitorTV Switch </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="../Imagenes/Icon.png" type="image/png"/>
+
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  
+  <!-- Bootstrap CSS 5.0 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <!-- Bootstrap CSS 4.6 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+  integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- ESTILOS LOCALES -->
+  <link href="../css/estilos.css" rel="stylesheet" type="text/css">
+  <link href="../css/Estilos_Monitor_Interactivo_Señales.css" rel="stylesheet" type="text/css">
+  <script src="../js/Efecto.js"></script>
+  <script src="../js/DarkMode.js"></script>
+  <script src="../js/MostrarOcultarTitulos.js"></script>
+  <script src="../js/AumentarDisminuirTexto.js"></script>
+    
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600;700&display=swap" rel="stylesheet">
+  <!--GOOGLE ICONS-->
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics - ainmcl.github.io -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT53GZ16EW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-RT53GZ16EW');
+  </script>
+    
+  <!-- para dropdown -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+  </script>
+
+  <script src="Reproductor.js" type="text/javascript"></script>
+
+  <style>
+    iframe {
+      width: 100%;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+
+<body tabindex="0">
+
+  <noscript>
+    <img src="Imagenes/JavaScriptDesactivado.png" />
+  </noscript>
+
+
+  <!-- BOTON MENU  -->
+  <div class="ContenedorBotonMenuDesplegable">
+      <div class="BotonMenuDesplegable waves-effect waves-light" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="font-size: 20px;" class="material-icons-round" title="AJUSTES">settings</span></div>
+  </div>
+
+  <!-- Overlay canal -->
+  <a class="FondoTitulosMonitor1">
+    <div id="overlay" class="TextoTitulosMonitorSwitch waves-effect waves-gris"></div>
+  </a>
+
+  <!-- IFRAME -->
+  <iframe id="player"></iframe>
+
+  <!-- MENU DESPLEGABLE AJUSTES -->
+  <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" tabindex="-1" id="MenuDespeglableAjustes" aria-labelledby="MenuDespeglableAjustesLabel">
+      <div style="padding-left: 20px; padding-right: 20px; padding-bottom: 0px;" class="offcanvas-header">
+        <span class="CuerpoTituloMenuAjustes"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">tune</span>AJUSTES</span>
+        <span style="margin-left: 1%;"></span>
+        <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
+      </div>
+      <div class="offcanvas-body">
+        <div class="CuerpoMenuDesplegable">
+
+          <a style="text-decoration: none;" href="Home.html"><span class="BotonMenuDesplegableRojo waves-effect waves-red"><span style="margin-right: 5px;" class="material-icons-round">home</span>IR AL HOME</span></a>
+
+          <br>
+          <a style="text-decoration: none;" data-bs-toggle="offcanvas" href="#MenuDespeglableSeñales" role="button" aria-controls="MenuDespeglableSeñales"><span class="BotonMenuDesplegableVerde waves-effect waves-verde"><span style="margin-right: 5px;" class="material-icons-round">tv</span>SELECCIONAR SEÑAL</span></a>
+          
+          <br>
+          <a style="text-decoration: none;" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustesAccesibilidad" role="button" aria-controls="MenuDespeglableAjustesAccesibilidad"><span class="BotonMenuDesplegableAzul waves-effect waves-azul"><span style="margin-right: 5px;" class="material-icons-round">settings_accessibility</span>AJUSTES DE ACCESIBILIDAD</span></a>
+
+          <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="fullscreen"><span style="margin-right: 5px;" class="material-icons-round">open_in_full</span><text>ENTRAR A PANTALLA COMPLETA</text></div>
+          
+          <div class="ContenedorBotonMenuDesplegableDoble">
+            <div onclick="window.open('MonitorTV_SWITCH.html','popup','width=1280,height=720'); return false;" class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul">
+              <span style="margin-right: 5px;" class="material-icons-round">open_in_browser</span>
+              <text>MODO EMERGENTE</text>
+            </div>
+            <span style="margin-left: 2%;"></span>
+            <a class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul" style="text-decoration: none;" href="javascript:location.reload()">
+              <span style="margin-right: 5px;" class="material-icons-round">replay</span>
+              RECARGAR PAGINA
+            </a>
+          </div>
+
+        </div>
+      </div>
+  </div>
+
+  <!-- MENU DESPLEGABLE SEÑALES -->
+  <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" tabindex="-1" id="MenuDespeglableSeñales" aria-labelledby="MenuDespeglableSeñalesLabel">
+    <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable2">
+        <div style="width: 100%; height: auto; display: inline-flex; padding-bottom: 15px;">
+          <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="font-size: 30px;" class="material-icons-round">arrow_back</span></span>
+          <span class="CuerpoTituloMenuAjustesCentrado"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">tv</span>LISTA DE SEÑALES</span>          
+          <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
+        </div>
+        
+        <div style="width: 100%; height: auto; display: flex;">
+          <!-- BUSCADOR -->
+          <input type="text" class="BuscadorGrande" id="buscador" placeholder="Buscar Señal">
+          <div style="margin-left: 5px; margin-right: 5px;" class="BotonMenuDesplegableGrisPequeñoCuadrado waves-effect waves-grisoscuro" onclick="borrarTexto()"><span class="material-icons-round">backspace</span></div>
+          </div>
+        <select class="BotonMenuDesplegableGris" id="tag-select">
+          <option value="">Todos</option>
+          <optgroup label="Temas">
+            <option value="Nuevo">Nuevas Señales</option>
+            <option value="Deportes">Deportes</option>
+            <option value="Europa">Europa</option>
+            <option value="LatinoAmerica">Latinoamérica</option>
+            <option value="Noticias">Noticias</option>
+            <option value="Ocasional">Ocasionales</option>
+            <option value="Tiempo">Tiempo</option>
+            <option value="Twitch">Twitch</option>
+            <option value="Video News">Video News</option>
+            <option value="Youtube">Youtube</option>
+          </optgroup>
+          <optgroup label="Paises">
+            <option value="Argentina">Argentina</option>
+            <option value="Alemania">Alemania</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Catar">Catar</option>
+            <option value="Chile">Chile</option>
+            <option value="China">China</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Corea del Norte">Corea del Norte</option>
+            <option value="Corea del Sur">Corea del Sur</option>
+            <option value="Ecuador">Ecuador</option>
+            <option value="España">España</option>
+            <option value="Estados Unidos">Estados Unidos</option>
+            <option value="Francia">Francia</option>
+            <option value="Filipinas">Filipinas</option>
+            <option value="Guatemala">Guatemala</option>
+            <option value="Italia">Italia</option>
+            <option value="Israel">Israel</option>
+            <option value="Iran">Iran</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Japon">Japon</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Noticiasx">Noticias</option>
+            <option value="Peru">Peru</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Reino Unido">Reino Unido</option>
+            <option value="Rusia">Rusia</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Türkiye">Türkiye</option>
+            <option value="Ucrania">Ucrania</option>
+            <option value="Vaticano">Vaticano</option>
+            <option value="Venezuela">Venezuela</option>
+          </optgroup>
+          <optgroup label="Regiones Chile">
+            <option value="Arica">Arica</option>
+            <option value="Tarapaca">Tarapaca</option>
+            <option value="Antofagasta">Antofagasta</option>
+            <option value="Atacama">Atacama</option>
+            <option value="Coquimbo">Coquimbo</option>
+            <option value="Valparaiso">Valparaiso</option>
+            <option value="Santiago">Santiago</option>
+            <option value="Ohiggins">Ohiggins</option>
+            <option value="Maule">Maule</option>
+            <option value="Bio Bio">Bio Bio</option>
+            <option value="Araucania">Araucania</option>
+            <option value="Los Lagos">Los Lagos</option>
+            <option value="Aysen">Aysen</option>
+            <option value="Magallanes">Magallanes</option>
+          </optgroup>
+        </select>
+      <div class="modal-body canales-body">
+        <div id="channel-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MENU DESPLEGABLE ACCESIBILIDAD -->
+  <div style="height: 90%;" class="MenuFlotanteRedondeadoCentro offcanvas offcanvas-top" tabindex="-1" id="MenuDespeglableAjustesAccesibilidad" aria-labelledby="MenuDespeglableAjustesAccesibilidad">
+    <div class="offcanvas-body">
+      <div class="CuerpoMenuDesplegable">
+        <div style="width: 100%; height: auto; display: inline-flex; padding-bottom: 15px;">
+          <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-toggle="offcanvas" href="#MenuDespeglableAjustes" role="button" aria-controls="MenuDespeglableAjustes"><span style="font-size: 30px;" class="material-icons-round">arrow_back</span></span>
+          <span class="CuerpoTituloMenuAjustesCentrado"><span style="margin-right: 10px; font-size: 25px;" class="material-icons-round">settings_accessibility</span>AJUSTES DE ACCESIBILIDAD</span>          
+          <span class="BotonCerrarMenuCuadrado waves-effect waves-white" data-bs-dismiss="offcanvas" aria-label="Close"><span style="font-size: 30px;" class="material-icons-round">close</span></span>
+        </div>
+        <div class="BotonMenuDesplegableAzul waves-effect waves-azul" id="botonMostrarOcultarModoOscuro">
+          <span style="margin-right: 5px;" class="material-icons-round">dark_mode</span>
+          <span id="TextoBotonMostrarOcultarModoOscuro">MODO OSCURO</span>
+        </div>
+        <div class="ContenedorBotonMenuDesplegableDoble">
+          <div class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul" onclick="aumentarTexto()"><span style="margin-right: 5px;" class="material-icons-round">text_increase</span><text>AUMENTAR TEXTO</text></div>
+          <span style="margin-left: 2%;"></span>
+          <div class="BotonMenuDesplegableAzulPequeño waves-effect waves-azul" onclick="disminuirTexto()"><span style="margin-right: 5px;" class="material-icons-round">text_decrease</span><text>DISMINUIR TEXTO</text></div>
+        </div>
+        <br>
+        <br>
+        <div class="BotonMenuDesplegableAzul waves-effect waves-grisoscuro" onclick="alternarElementos()" id="botonMostrarOcultar">
+          <span id="IconoVisibilidadTitulos" style="margin-right: 5px;" class="material-icons">visibility_off</span>
+          <span id="TextoBotonMostrarOcultar">OCULTAR TITULOS</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Canales -->
+  <script src="../js/Monitor_Interactivo_Pantalla_Señales_Public.js"></script>
+
+  <!-- SwitchJS -->
+  <script src="../js/Switch.js"></script>
+
+  <!-- Contenido de off canvas, end.  -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <script src="../js/PantallaCompleta.js"></script>
+
+</body>
+</html>
