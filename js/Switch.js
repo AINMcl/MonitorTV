@@ -88,24 +88,23 @@ document.addEventListener('touchend', e => {
 });
 
 // ================= BOTÓN CANAL =================
-function crearBotonCanal(canal, index) {
+function crearBotonCanal(canal) {
     const btn = document.createElement('button');
+
+    const realIndex = LosCanales.findIndex(c => c.id === canal.id);
 
     btn.className = `
         btn
         BotonTV_Señales
         waves-effect
         waves-grisclaro
+        ${realIndex === current ? 'BotonTV_SeñalSeleccionada' : ''}
     `;
-
-    if (index === current) {
-        btn.classList.add('BotonTV_SeñalSeleccionada');
-    }
 
     btn.innerHTML = canal.nombre;
 
     btn.onclick = () => {
-        current = index;
+        current = realIndex;
         cargarCanal();
 
         const bs = bootstrap.Offcanvas.getInstance(offcanvasCanales);
@@ -118,21 +117,19 @@ function crearBotonCanal(canal, index) {
 // ================= RENDER LISTA =================
 function renderLista(lista) {
     contenedorCanales.innerHTML = '';
-    lista.forEach((canal, index) => {
-        contenedorCanales.appendChild(crearBotonCanal(canal, index));
+    lista.forEach(canal => {
+        contenedorCanales.appendChild(crearBotonCanal(canal));
     });
 }
 
 // ================= ACTUALIZAR SELECCIÓN =================
 function actualizarSeleccion() {
-    document
-        .querySelectorAll('.BotonTV_Señales')
-        .forEach((btn, i) => {
-            btn.classList.toggle(
-                'BotonTV_SeñalSeleccionada',
-                i === current
-            );
-        });
+    document.querySelectorAll('.BotonTV_Señales').forEach(btn => {
+        btn.classList.toggle(
+            'BotonTV_SeñalSeleccionada',
+            btn.innerHTML === LosCanales[current].nombre
+        );
+    });
 }
 
 // ================= FILTRO TAG =================
